@@ -1,0 +1,144 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Kewarganegaraan & RTI253003 & 2 SKS/3 jam & 3 & 29 Januari 2026 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Dr. Widaningsih Condrowardani, S.Psi, SH, MH &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=11]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL01 & \SetCell[c=3]{l} Bertakwa kepada Tuhan Yang Maha Esa dan mampu menunjukkan sikap religius, menjunjung tinggi nilai kemanusiaan, hukum, disiplin, serta etika profesi; berpartisipasi dalam lifelong learning; dan peka terhadap isu sosial-teknologi. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK102 & \SetCell[c=3]{l} Mahasiswa mampu menginternalisasi nilai ketakwaan, Pancasila, kewarganegaraan, dan tanggung jawab sosial sebagai landasan sikap profesional serta berkomitmen pada lifelong learning dan adaptasi karir. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK102-02101 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep identitas nasional, negara, konstitusi, dan hubungan negara dengan warga negara sebagai fondasi kehidupan berbangsa dan bernegara. &  &  \\
+ & SCPMK102-02102 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis sistem demokrasi dan negara hukum dalam konteks kehidupan berbangsa dan bernegara di Indonesia. &  &  \\
+ & SCPMK102-02103 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep hak asasi manusia, prinsip-prinsipnya, dan mekanisme penegakannya dalam kehidupan berbangsa dan bernegara. &  &  \\
+ & SCPMK102-02104 & \SetCell[c=3]{l} Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=5]{c} Bobot per Bentuk Penilaian & & & & & Total Bobot \\
+ & & Tugas & Kuis & UTS & PBL & UAS & \\
+CPMK102 & SCPMK102-02101 & 8\%: Tugas Mgg 1--6, 9--13 & 4\%: Kuis Mgg 7 & 10\%: UTS Mgg 8 & & 10\%: UAS Mgg 17 & 32\% \\
+CPMK102 & SCPMK102-02102 & 6\%: Tugas Mgg 6, 9--10 & 3\%: Kuis Mgg 7 & 8\%: UTS Mgg 8 & 5\%: PBL Mgg 14 & 10\%: UAS Mgg 17 & 32\% \\
+CPMK102 & SCPMK102-02103 & 3\%: Tugas Mgg 11--12 & 2\%: Kuis Mgg 7 & 1\%: UTS Mgg 8 & 5\%: PBL Mgg 15 & 8\%: UAS Mgg 17 & 19\% \\
+CPMK102 & SCPMK102-02104 & 3\%: Tugas Mgg 13 & 1\%: Kuis Mgg 7 & 1\%: UTS Mgg 8 & 5\%: PBL Mgg 16 & 7\%: UAS Mgg 17 & 17\% \\
+\SetCell[c=7]{r}\textbf{Total Per Penilaian} & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Kewarganegaraan membangun kesadaran kebangsaan dan cinta tanah air melalui kajian identitas nasional, konstitusi, demokrasi, hak asasi manusia, wawasan nusantara, ketahanan nasional, dan integrasi nasional. Mahasiswa mengembangkan sikap demokratis, disiplin, dan partisipatif berdasarkan sistem nilai Pancasila. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Identitas Nasional\item Negara dan Konstitusi\item Hubungan Negara dan Warga Negara\item Negara Hukum\item Demokrasi\item Hak Asasi Manusia\item Wawasan Nusantara\item Ketahanan Nasional\item Integrasi Nasional\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Widaningsih. 2023. Pendidikan Kewarganegaraan. Yogyakarta: Pustaka Egaliter.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:}\begin{enumerate}\item UPT MKU-Politeknik Negeri Malang. 2016. Pendidikan Kewarganegaraan. Malang: Aditya Media Publishing.\item Azra, A. 2003. Demokrasi Hak Asasi Manusia dan Masyarakat Madani. Jakarta: Prenata Media.\item Russel, B. 2004. Sejarah Filsafat Barat dan Kaitannya dengan Kondisi Sosio-Politik dari Zaman Kuno hingga Sekarang. Yogyakarta: Pustaka Pelajar.\end{enumerate} &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Microsoft Word, Microsoft PowerPoint, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer, laptop, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Dr. Widaningsih Condrowardani, S.Psi, SH, MH\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK102-02101 & Identitas nasional: pengertian identitas nasional dan identitas nasional sebagai karakter bangsa. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis pengertian identitas nasional serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 1 \\
+2 & SCPMK102-02101 & Identitas nasional: proses berbangsa dan bernegara, serta politik identitas. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis proses berbangsa dan bernegara serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+3 & SCPMK102-02101 & Negara dan konstitusi: pengertian negara, pengertian konstitusi, dan peranan konstitusi dalam kehidupan bernegara. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis negara dan konstitusi serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+4 & SCPMK102-02101 & Hubungan negara dan warga negara 1: pengertian hak dan kewajiban, serta hak dan kewajiban warga negara menurut UUD 1945. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis hak dan kewajiban warga negara serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+5 & SCPMK102-02101 & Hubungan negara dan warga negara 2: pelaksanaan hak dan kewajiban, serta esensi dan urgensi harmoni hak dan kewajiban negara dan warga negara. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis harmoni hak dan kewajiban serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+6 & SCPMK102-02102 & Negara hukum: pengertian dan ciri negara hukum, serta makna Indonesia sebagai negara hukum. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis konsep negara hukum serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+7 & SCPMK102-02101, SCPMK102-02102 & Kuis Konsep Kewarganegaraan: materi minggu 1--6 (identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, negara hukum). & Modalitas: Luring. Bentuk: Kuis tertulis. Metode: Ujian individu. & 1 x 3 x 50' tatap muka. & Mahasiswa mengerjakan soal kuis konsep kewarganegaraan secara mandiri. & Kriteria: ketepatan jawaban. Bentuk: kuis tertulis. & Ketepatan jawaban sesuai kunci. & 10 \\
+8 & SCPMK102-02101, SCPMK102-02102 & UTS: materi minggu 1--7 (identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, negara hukum). & Modalitas: Luring. Bentuk: Ujian tertulis. Metode: Ujian individu, esai dan/atau pilihan ganda. & 1 x 3 x 50'. & Mahasiswa menjawab soal UTS materi minggu 1--7 secara mandiri dan jujur. & Kriteria: ketepatan dan kedalaman jawaban. Bentuk: ujian tertulis esai/pilihan ganda. & Ketepatan jawaban; kejelasan argumentasi. & 20 \\
+9 & SCPMK102-02102 & Demokrasi 1: konsep dasar demokrasi, serta prinsip-prinsip dan indikator demokrasi. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis konsep dasar demokrasi serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+10 & SCPMK102-02102 & Demokrasi 2: perjalanan demokrasi di Indonesia, pendidikan demokrasi, dan pentingnya demokrasi sebagai sistem politik kenegaraan modern. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis perjalanan demokrasi di Indonesia serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+11 & SCPMK102-02103 & Hak Asasi Manusia 1: pengertian HAM, prinsip-prinsip HAM, dan sejarah perkembangan HAM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis konsep dasar HAM serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+12 & SCPMK102-02103 & Hak Asasi Manusia 2: jenis-jenis HAM, dasar hukum HAM nasional dan internasional, serta mekanisme penegakan dan pelanggaran HAM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis mekanisme penegakan HAM serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 2 \\
+13 & SCPMK102-02104 & Wawasan Nusantara 1: wilayah sebagai ruang hidup dan konsep wawasan nusantara sebagai penerapan geopolitik Indonesia. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, studi kasus, dan tanya jawab. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa menyimak, berdiskusi, dan menganalisis konsep wawasan nusantara serta mengerjakan tugas analisis kewarganegaraan. & Kriteria: kejelasan dan ketepatan analisis. Bentuk: tugas tertulis analisis kewarganegaraan. Mengacu rubrik RTM. & Ketepatan pemahaman konsep; kualitas analisis tertulis; partisipasi diskusi. & 1 \\
+14 & SCPMK102-02104 & Wawasan Nusantara 2: unsur-unsur dasar wawasan nusantara, penerapan wawasan nusantara, dan tantangan implementasinya. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning (PBL), diskusi kelompok, presentasi. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa mengerjakan proyek berbasis masalah terkait implementasi wawasan nusantara secara berkelompok, berdiskusi, dan mempresentasikan hasil. & Kriteria: kedalaman analisis dan kualitas proyek. Bentuk: proyek kelompok dan presentasi. Mengacu rubrik RTM. & Ketepatan analisis masalah; kualitas solusi proyek; kualitas presentasi. & 5 \\
+15 & SCPMK102-02104 & Ketahanan Nasional: pengertian dan sejarah ketahanan nasional, unsur-unsur ketahanan nasional, pendekatan asta gatra, serta globalisasi dan ketahanan nasional. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning (PBL), diskusi kelompok, presentasi. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa mengerjakan proyek berbasis masalah terkait ketahanan nasional secara berkelompok, berdiskusi, dan mempresentasikan hasil. & Kriteria: kedalaman analisis dan kualitas proyek. Bentuk: proyek kelompok dan presentasi. Mengacu rubrik RTM. & Ketepatan analisis masalah; kualitas solusi proyek; kualitas presentasi. & 5 \\
+16 & SCPMK102-02104 & Integrasi Nasional: integrasi nasional dan pluralitas masyarakat Indonesia, dinamika integrasi nasional, strategi integrasi, serta integrasi nasional Indonesia. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning (PBL), diskusi kelompok, presentasi. & 1 x 3 x 50' tatap muka; tugas/belajar mandiri. & Mahasiswa mengerjakan proyek berbasis masalah terkait integrasi nasional secara berkelompok, berdiskusi, dan mempresentasikan hasil. & Kriteria: kedalaman analisis dan kualitas proyek. Bentuk: proyek kelompok dan presentasi. Mengacu rubrik RTM. & Ketepatan analisis masalah; kualitas solusi proyek; kualitas presentasi. & 5 \\
+17 & SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104 & UAS: komprehensif seluruh materi minggu 1--16 (identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, negara hukum, demokrasi, HAM, wawasan nusantara, ketahanan nasional, integrasi nasional). & Modalitas: Luring. Bentuk: Ujian tertulis komprehensif. Metode: Ujian individu, esai dan/atau pilihan ganda. & 1 x 3 x 50'. & Mahasiswa menjawab soal UAS komprehensif materi minggu 1--16 secara mandiri dan jujur. & Kriteria: ketepatan dan kedalaman jawaban. Bentuk: ujian tertulis esai/pilihan ganda. & Ketepatan jawaban; kejelasan argumentasi; pemahaman komprehensif. & 35 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Kewarganegaraan \\
+Kode Mata Kuliah & RTI253003 \quad \textbf{sks / Jam perminggu:} 2 SKS/3 jam \quad \textbf{Semester:} 3 \\
+Dosen Pengampu & \begin{enumerate}\item Dr. Widaningsih Condrowardani, S.Psi, SH, MH\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Analisis Kewarganegaraan}{Tugas terstruktur (analisis kasus dan kajian teori)}{SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104}{Mahasiswa menyelesaikan tugas analisis kewarganegaraan setiap pertemuan (Mgg 1--6, 9--13) yang mencakup identitas nasional, konstitusi, hubungan negara-warga negara, negara hukum, demokrasi, HAM, dan wawasan nusantara sesuai materi yang sedang dipelajari.}{Mengkaji teori dan konsep, menganalisis studi kasus atau fenomena aktual terkait materi, mengaitkan dengan nilai-nilai Pancasila, dan mendokumentasikan hasil analisis dalam bentuk tulisan terstruktur.}{Laporan analisis tertulis, makalah, atau lembar kerja sesuai format yang ditentukan dosen.}{Ketepatan pemahaman dan penerapan konsep kewarganegaraan & 9 & Konsep kewarganegaraan (identitas nasional, demokrasi, HAM, wawasan nusantara) dipahami secara tepat dan diaplikasikan pada analisis kasus dengan argumentasi yang kuat. & Pemahaman konsep sebagian besar benar, tetapi penerapan pada kasus masih kurang mendalam. & Konsep tidak dipahami dengan benar atau tidak dapat diterapkan pada kasus yang dianalisis. \\ \\
+Kualitas analisis dan argumentasi & 8 & Analisis disertai argumen logis, bukti atau contoh relevan, dan dikaitkan dengan konteks kebangsaan dan nilai Pancasila. & Analisis cukup logis, tetapi argumen atau keterkaitannya dengan konteks kebangsaan masih kurang kuat. & Analisis tidak logis, tidak berargumen, atau tidak berkaitan dengan konteks kewarganegaraan. \\ \\
+Kerapian dan sistematika tulisan & 3 & Tulisan sistematis, bahasa komunikatif, dan dokumentasi lengkap sesuai format. & Tulisan cukup sistematis tetapi kurang rapi atau ada format yang belum terpenuhi. & Tulisan tidak sistematis atau tidak sesuai format yang ditentukan. \\}
+
+\assessmentblock{Kuis Konsep Kewarganegaraan}{Kuis tertulis}{SCPMK102-02101, SCPMK102-02102}{Mahasiswa mengerjakan kuis konsep kewarganegaraan pada minggu ke-7 yang mencakup materi identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, serta negara hukum (materi Mgg 1--6) secara mandiri dan jujur.}{Mengerjakan soal pilihan ganda dan/atau esai pendek secara individu dengan sifat closed book sesuai jadwal asesmen.}{Lembar jawaban kuis.}{Penguasaan konsep identitas nasional dan kenegaraan & 6 & Jawaban tepat dan lengkap; pengertian identitas nasional, konstitusi, hak dan kewajiban warga negara, serta ciri negara hukum dijelaskan benar sesuai soal. & Sebagian besar jawaban benar, tetapi ada kekeliruan dalam penjelasan konsep tertentu. & Banyak jawaban tidak sesuai atau konsep kewarganegaraan tidak dikuasai. \\ \\
+Kemampuan menganalisis kasus kewarganegaraan & 4 & Analisis kasus pada soal tepat, menunjukkan pemahaman tentang prinsip-prinsip kewarganegaraan dan relevansinya. & Analisis kasus sebagian benar, tetapi penerapan prinsip masih kurang tepat. & Tidak mampu menganalisis kasus atau jawaban tidak relevan dengan materi. \\}
+
+\assessmentblock{UTS Kewarganegaraan}{Ujian tengah semester (esai dan/atau pilihan ganda)}{SCPMK102-02101, SCPMK102-02102}{Mahasiswa mengerjakan soal UTS yang mencakup materi minggu 1--7: identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, negara hukum, dan demokrasi secara mandiri dan jujur.}{Mengerjakan soal esai dan/atau pilihan ganda secara individu dengan sifat closed book sesuai jadwal asesmen.}{Lembar jawaban UTS.}{Penguasaan konsep identitas nasional dan kenegaraan & 8 & Pengertian identitas nasional, konstitusi, hak-kewajiban warga negara, dan negara hukum dijelaskan tepat dan komprehensif sesuai soal. & Sebagian besar konsep dipahami, tetapi penjelasan pada soal tertentu kurang lengkap. & Banyak konsep tidak dikuasai atau jawaban tidak relevan dengan soal. \\ \\
+Penguasaan konsep demokrasi dan negara hukum & 8 & Prinsip-prinsip demokrasi, perjalanan demokrasi Indonesia, dan ciri negara hukum dijelaskan benar dan dikaitkan dengan konteks kehidupan berbangsa. & Konsep demokrasi sebagian besar benar, tetapi keterkaitan dengan konteks kehidupan berbangsa kurang kuat. & Konsep demokrasi atau negara hukum tidak dipahami dengan benar. \\ \\
+Kejelasan dan sistematika jawaban esai & 4 & Jawaban esai terstruktur, berargumen dengan logis, dan menggunakan bahasa yang komunikatif. & Jawaban cukup jelas tetapi kurang sistematis atau argumennya tidak kuat. & Jawaban tidak terstruktur atau tidak dapat dipahami. \\}
+
+\assessmentblock{Proyek Berbasis Masalah Kewarganegaraan}{Project Based Learning (PBL)}{SCPMK102-02102, SCPMK102-02103, SCPMK102-02104}{Mahasiswa mengerjakan proyek berbasis masalah secara berkelompok (Mgg 14--16) yang mencakup analisis implementasi wawasan nusantara, ketahanan nasional, dan integrasi nasional dalam konteks permasalahan aktual di Indonesia, kemudian mempresentasikan hasilnya.}{Mengidentifikasi permasalahan aktual terkait wawasan nusantara/ketahanan nasional/integrasi nasional, menganalisis dengan konsep kewarganegaraan, merumuskan rekomendasi, menyusun laporan proyek, dan mempresentasikan hasil kepada kelas.}{Laporan proyek kelompok, bahan presentasi (slide), dan dokumentasi diskusi kelompok.}{Ketepatan identifikasi masalah dan penerapan konsep kewarganegaraan & 6 & Masalah aktual diidentifikasi dengan tepat dan dianalisis menggunakan konsep wawasan nusantara, ketahanan nasional, atau integrasi nasional secara mendalam. & Masalah teridentifikasi, tetapi analisis menggunakan konsep kewarganegaraan masih kurang mendalam. & Masalah tidak relevan atau tidak dianalisis menggunakan konsep kewarganegaraan. \\ \\
+Kualitas rekomendasi dan solusi & 5 & Rekomendasi spesifik, relevan dengan konteks kebangsaan, dapat ditindaklanjuti, dan dikaitkan dengan nilai-nilai Pancasila. & Rekomendasi cukup relevan tetapi masih umum atau tidak dikaitkan dengan nilai-nilai Pancasila. & Rekomendasi tidak relevan, tidak operasional, atau tidak menjawab masalah yang diidentifikasi. \\ \\
+Kualitas presentasi dan kerjasama tim & 4 & Presentasi jelas, terstruktur, seluruh anggota tim terlibat aktif, dan mampu menjawab pertanyaan dengan baik. & Presentasi cukup jelas tetapi kurang terstruktur atau tidak semua anggota terlibat aktif. & Presentasi tidak jelas, tidak terstruktur, atau tidak mampu menjawab pertanyaan. \\}
+
+\assessmentblock{UAS Kewarganegaraan}{Ujian akhir semester komprehensif (esai dan/atau pilihan ganda)}{SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104}{Mahasiswa mengerjakan soal UAS yang mencakup seluruh materi minggu 1--16 secara komprehensif: identitas nasional, negara dan konstitusi, hubungan negara-warga negara, negara hukum, demokrasi, HAM, wawasan nusantara, ketahanan nasional, dan integrasi nasional.}{Mengerjakan soal esai dan/atau pilihan ganda secara individu dengan sifat closed book sesuai jadwal asesmen.}{Lembar jawaban UAS.}{Penguasaan konsep kewarganegaraan secara komprehensif & 15 & Seluruh konsep kewarganegaraan (identitas nasional, demokrasi, HAM, wawasan nusantara, ketahanan, integrasi nasional) dikuasai dan dijawab tepat sesuai soal. & Sebagian besar konsep dikuasai, tetapi ada beberapa materi yang kurang dipahami secara mendalam. & Banyak konsep tidak dikuasai atau jawaban tidak sesuai dengan materi kewarganegaraan. \\ \\
+Kemampuan analisis dan sintesis antar topik & 12 & Mampu mengaitkan dan mensintesis konsep-konsep kewarganegaraan dari berbagai topik untuk menjawab soal secara terpadu. & Mampu menganalisis topik tertentu, tetapi sintesis antartopik masih terbatas. & Tidak mampu menganalisis atau mensintesis konsep antar topik kewarganegaraan. \\ \\
+Kejelasan, sistematika, dan bahasa jawaban & 8 & Jawaban terstruktur dengan baik, argumentatif, menggunakan bahasa Indonesia yang baik, dan mudah dipahami. & Jawaban cukup jelas tetapi sistematika atau penggunaan bahasa masih kurang baik. & Jawaban tidak terstruktur, tidak argumentatif, atau sulit dipahami. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, bahan referensi kewarganegaraan, perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}
