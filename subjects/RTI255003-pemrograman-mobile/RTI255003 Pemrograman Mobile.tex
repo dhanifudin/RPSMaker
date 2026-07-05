@@ -1,0 +1,141 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Pemrograman Mobile & RTI255003 & 3 SKS/6 jam & 5 & 25 Juni 2026 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Luqman Affandi, S.Kom., MMSI. &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=13]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL02 & \SetCell[c=3]{l} Mampu menerapkan prinsip rekayasa sistem dan perangkat lunak untuk menghasilkan solusi aplikasi multi-platform sesuai kebutuhan. &  &  \\
+ & CPL06 & \SetCell[c=3]{l} Mampu merancang, mengimplementasikan, menguji, melakukan deployment, memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan pengguna. &  &  \\
+ & CPL10 & \SetCell[c=3]{l} Mampu menganalisis persoalan kompleks dengan wawasan multidisiplin untuk merumuskan solusi informatika atau ilmu komputer. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK209 & \SetCell[c=3]{l} Mahasiswa mampu memilih dan menerapkan teknologi pengembangan berbasis platform untuk membangun aplikasi sesuai kebutuhan. &  &  \\
+ & CPMK603 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan dan melakukan deployment aplikasi web, mobile, atau framework sesuai kebutuhan pengguna. &  &  \\
+ & CPMK10.6 & \SetCell[c=3]{l} Mahasiswa mampu mengevaluasi dan mengembangkan aplikasi web atau mobile berdasarkan kebutuhan, kualitas implementasi, dan pengalaman pengguna. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK209-03901 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan Dart, Flutter, widget, layout, navigation, dan plugin untuk aplikasi mobile. &  &  \\
+ & SCPMK603-03902 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan state management, asynchronous programming, stream, persistence, dan RESTful API pada aplikasi mobile. &  &  \\
+ & SCPMK10.6-03903 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis kebutuhan UI/UX mobile dan mengevaluasi kualitas aplikasi berdasarkan fungsi, integrasi, dan pengalaman pengguna. &  &  \\
+ & SCPMK603-03904 & \SetCell[c=3]{l} Mahasiswa mampu menghasilkan aplikasi mobile berbasis Flutter sebagai proyek PBL. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=4]{c} Bobot per Bentuk Penilaian & & & & Total Bobot \\
+ & & Tugas & UTS & PBL & UAS & \\
+CPMK209 & SCPMK209-03901 & 13\%: Dart, Flutter dasar, widget, layout, plugin & & & & 13.00\% \\
+CPMK603 & SCPMK603-03902 & 17\%: kamera, state, async, stream, persistence, REST API & & & & 17.00\% \\
+CPMK10.6 & SCPMK10.6-03903 & & 15\%: UI/UX aplikasi mobile & & & 15.00\% \\
+CPMK603 & SCPMK603-03904 & & & 30\%: progress project aplikasi mobile & 25\%: presentasi hasil akhir project & 55.00\% \\
+\SetCell[c=6]{r}\textbf{Total Per Penilaian} & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Pemrograman Mobile membahas pengembangan aplikasi mobile dengan Dart dan Flutter, mulai dari dasar bahasa, widget, layout, navigasi, plugin, kamera, state management, asynchronous programming, stream, persistence, RESTful API, hingga proyek aplikasi mobile. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Dasar Dart dan Flutter\item Widget, layout, navigasi, plugin, dan kamera\item State management, asynchronous programming, stream, persistence, dan RESTful API\item Proyek aplikasi mobile berbasis Flutter\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Flutter Documentation. https://docs.flutter.dev.\item Dart Documentation. https://dart.dev/guides.\item Windmill, E. Flutter in Action. Manning.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumentasi resmi perangkat lunak, dan jobsheet praktikum. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Flutter SDK, Dart, Android Studio/VS Code, emulator/device, Git, API testing tool. &  & \SetCell[c=2]{l} \textbf{Hardware:} Laptop/PC, smartphone atau emulator, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Luqman Affandi, S.Kom., MMSI.\item Dian Hanifudin Subhi, S.Kom., M.Kom.\item Agung Nugroho Pramudhita, S.T., M.T.\item Ade Ismail, S.Kom., M.TI.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} Desain Antarmuka &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK209-03901 & Pengantar pemrograman mobile. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengantar pemrograman mobile dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengantar pemrograman mobile. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 1 \\
+2 & SCPMK209-03901 & Dart variabel dan tipe data. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk dart variabel dan tipe data dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Dart variabel dan tipe data. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+3 & SCPMK209-03901 & Dart percabangan dan perulangan. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk dart percabangan dan perulangan dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Dart percabangan dan perulangan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+4 & SCPMK209-03901 & Dart collections dan functions. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk dart collections dan functions dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Dart collections dan functions. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+5 & SCPMK209-03901 & Widget dasar Flutter. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk widget dasar flutter dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Widget dasar Flutter. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+6 & SCPMK209-03901 & Layout dan navigasi. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk layout dan navigasi dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Layout dan navigasi. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+7 & SCPMK209-03901 & Manajemen plugin. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen plugin dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Manajemen plugin. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+8 & SCPMK10.6-03903 & UTS UI/UX aplikasi mobile. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uts ui/ux aplikasi mobile dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS UI/UX aplikasi mobile. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 15 \\
+9 & SCPMK603-03902 & Kamera. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kamera dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kamera. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+10 & SCPMK603-03902 & Dasar state management. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk dasar state management dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Dasar state management. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+11 & SCPMK603-03902 & Asynchronous programming. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk asynchronous programming dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Asynchronous programming. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+12 & SCPMK603-03902 & Streams. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk streams dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Streams. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+13 & SCPMK603-03902 & Persistensi data. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk persistensi data dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Persistensi data. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+14 & SCPMK603-03902 & RESTful API. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk restful api dan menunjukkan evidence hasil belajar. & Bentuk penilaian: RESTful API. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+15 & SCPMK603-03904 & Progress project bagian 1. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk progress project bagian 1 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Progress project bagian 1. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 15 \\
+16 & SCPMK603-03904 & Progress project bagian 2. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk progress project bagian 2 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Progress project bagian 2. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 15 \\
+17 & SCPMK603-03904 & Presentasi hasil akhir project. & Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk presentasi hasil akhir project dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Presentasi hasil akhir project. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 25 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Pemrograman Mobile \\
+Kode Mata Kuliah & RTI255003 \quad \textbf{sks / Jam perminggu:} 3 SKS/6 jam \quad \textbf{Semester:} 5 \\
+Dosen Pengampu & \begin{enumerate}\item Luqman Affandi, S.Kom., MMSI.\item Dian Hanifudin Subhi, S.Kom., M.Kom.\item Agung Nugroho Pramudhita, S.T., M.T.\item Ade Ismail, S.Kom., M.TI.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Jobsheet/Codelab Flutter}{Hands-on Practice}{SCPMK209-03901, SCPMK603-03902}{Mahasiswa menyelesaikan tugas jobsheet/codelab flutter sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Ketepatan penyelesaian codelab Flutter & 12 & Widget, layout, navigation, asset, dan struktur project mengikuti jobsheet dengan hasil berjalan. & Codelab selesai sebagian besar, tetapi ada widget, layout, atau navigation yang belum tepat. & Codelab tidak selesai atau aplikasi tidak dapat dijalankan. \\ \\
+Kualitas kode Dart dan komponen UI & 10.5 & Kode Dart rapi, komponen reusable, state sederhana tepat, dan UI responsif pada perangkat target. & Kode berjalan, tetapi komponen masih bercampur atau responsivitas terbatas. & Kode sulit dibaca atau UI tidak sesuai target mobile. \\ \\
+Evidence run dan refleksi perbaikan & 7.5 & Screenshot/emulator log, commit, kendala, dan solusi perbaikan terdokumentasi jelas. & Evidence tersedia, tetapi refleksi kendala atau solusi masih umum. & Tidak ada evidence run atau tidak menjelaskan proses penyelesaian. \\}
+
+\assessmentblock{UTS UI/UX Aplikasi Mobile}{UTS praktik}{SCPMK10.6-03903}{Mahasiswa menyelesaikan uts ui/ux aplikasi mobile sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Kesesuaian rancangan mobile dengan kebutuhan & 6 & User flow, screen utama, navigation pattern, dan prioritas fitur sesuai konteks aplikasi mobile. & Rancangan cukup sesuai, tetapi flow atau prioritas fitur belum lengkap. & Rancangan tidak sesuai kebutuhan mobile atau flow tidak jelas. \\ \\
+Kualitas prototype UI mobile & 5.3 & Layout, hierarchy, touch target, component state, dan konsistensi visual mendukung penggunaan di layar mobile. & Prototype cukup baik, tetapi hierarchy, state, atau konsistensi visual masih kurang. & Prototype sulit digunakan atau tidak memperhatikan karakteristik mobile. \\ \\
+Validasi dan presentasi keputusan desain & 3.7 & Rancangan diuji atau direview, temuan ditindaklanjuti, dan keputusan desain dijelaskan dengan evidence. & Review dilakukan, tetapi tindak lanjut atau evidence masih terbatas. & Tidak ada validasi/review atau tidak mampu menjelaskan keputusan desain. \\}
+
+\assessmentblock{PBL Aplikasi Mobile Flutter}{Project Based Learning}{SCPMK603-03902, SCPMK10.6-03903, SCPMK603-03904}{Mahasiswa menyelesaikan pbl aplikasi mobile flutter sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Kesesuaian fitur aplikasi mobile & 22 & Fitur, user flow, data, dan prioritas aplikasi Flutter sesuai kebutuhan pengguna dan scope proyek. & Fitur utama sesuai, tetapi beberapa flow atau prioritas data belum lengkap. & Fitur tidak menjawab kebutuhan pengguna atau scope proyek tidak jelas. \\ \\
+Integrasi Flutter, state, API, dan storage & 19.3 & Widget, navigation, state management, API/local storage, error/loading state, dan native capability terintegrasi stabil. & Integrasi berjalan, tetapi state, error handling, API, atau storage masih terbatas. & Komponen utama tidak terintegrasi atau aplikasi sering gagal. \\ \\
+Testing, build, dan demonstrasi aplikasi & 13.7 & Aplikasi diuji di emulator/perangkat, build tersedia, evidence lengkap, dan demo menjelaskan keputusan teknis. & Demo berjalan, tetapi testing/build evidence atau penjelasan teknis belum lengkap. & Aplikasi tidak dapat didemonstrasikan atau tidak ada evidence pengujian. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/prototype/proyek, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

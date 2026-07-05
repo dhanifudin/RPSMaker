@@ -1,0 +1,146 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Dasar Pemrograman & RTI251006 & 2 SKS/4 jam & 1 & 7 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Mungki Astiningrum, S.T., M.Kom.\par Imam Fahrur Rozi, S.T., M.T.\par Vivi Nur Wijayaningrum, S.Kom., M.Kom.\par Mamluatul Hani'ah, S.Kom., M.Kom. & Imam Fahrur Rozi, S.T., M.T. & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=11]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL07 & \SetCell[c=3]{l} Mampu menerapkan sistem komputasi cerdas dan pengolahan data untuk mendukung penyelesaian masalah komputasi. &  &  \\
+ & CPL09 & \SetCell[c=3]{l} Mampu menjelaskan cara kerja sistem komputer dan menerapkan pendekatan komputasi untuk menyelesaikan masalah. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK704 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan berbagai bahasa dan paradigma pemrograman untuk menyelesaikan masalah komputasi. &  &  \\
+ & CPMK903 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan prinsip logika komputasi serta menerapkan teknik dasar pemrograman dan algoritma untuk menganalisis dan menyelesaikan permasalahan. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK903-00601 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep dasar algoritma, version control, dan Kanban serta menganalisis permasalahan sederhana ke dalam bentuk algoritma [C2, A3]. &  &  \\
+ & SCPMK903-00602 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan tipe data, variabel, input-output, sequence, dan operator serta menerapkannya dalam penulisan algoritma [C4, A3]. &  &  \\
+ & SCPMK704-00603 & \SetCell[c=3]{l} Mahasiswa mampu menuliskan algoritma pemilihan dan perulangan, baik sederhana maupun bersarang, menggunakan flowchart untuk menyelesaikan studi kasus [C4, A3, P2]. &  &  \\
+ & SCPMK704-00604 & \SetCell[c=3]{l} Mahasiswa mampu menyelesaikan studi kasus menggunakan array 1 dan 2 dimensi serta fungsi iteratif dan rekursif dalam algoritma penyelesaian masalah [C4, A3, P2]. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=5]{c} Bobot per Bentuk Penilaian & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & UAS & \\
+CPMK903 & SCPMK903-00601 & 4\%: konsep algoritma, version control, Kanban & 5\%: konsep algoritma & 6\%: konsep dasar algoritma & & & 15\% \\
+CPMK903 & SCPMK903-00602 & 2\%: tipe data, operator, sequence & 5\%: tipe data dan operator & 8\%: tipe data, operator, sequence & & & 15\% \\
+CPMK704 & SCPMK704-00603 & 8\%: flowchart pemilihan dan perulangan & & 16\%: algoritma pemilihan dan perulangan & 5\%: perulangan bersarang & 10\%: kasus pemilihan dan perulangan & 39\% \\
+CPMK704 & SCPMK704-00604 & 6\%: array dan fungsi & & & 5\%: array 1 dan 2 dimensi & 20\%: kasus array dan fungsi & 31\% \\
+\SetCell[c=7]{r}\textbf{Total Per Penilaian} & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Dasar Pemrograman memberikan pengetahuan dan pemahaman konsep dasar algoritma dan dasar pemrograman sehingga mahasiswa memiliki dasar untuk menyelesaikan permasalahan-permasalahan logika dengan menggunakan flowchart dan pseudocode. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Konsep algoritma, analisis permasalahan, version control, dan Kanban\item Tipe data, variabel, konstanta, nilai, ekspresi, input-output, sequence, dan operator\item Analisa kasus: pemilihan dan perulangan (sederhana dan bersarang)\item Array 1 dan 2 dimensi, fungsi iteratif dan rekursif\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Sebesta, Robert. 2016. Concept of Programming Languages, Edisi Global. Addison Wesley.\item Sestoft, Peter. 2017. Programming Language Concepts. Springer.\item T. Henny Febriana Harumy. 2016. Belajar Dasar Algoritma dan Pemrograman C++. Deepublish.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Rinaldi Munir. 2015. Algoritma dan Pemrograman. Penerbit Informatika. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Microsoft Office, Adobe Reader, Sublime Text, JDK. &  & \SetCell[c=2]{l} \textbf{Hardware:} PC/Laptop. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Mungki Astiningrum, S.T., M.Kom.\item Imam Fahrur Rozi, S.T., M.T.\item Triana Fatmawati, S.T., M.T.\item Mamluatul Hani'ah, S.Kom., M.Kom.\item Rudy Ariyanto, S.T., M.Cs.\item Noprianto, S.Kom., M.Eng.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK903-00601 & Konsep dasar algoritma; analisis permasalahan berbasis logika. & Modalitas: Daring/Luring. Metode: Contextual Teaching and Learning (CTL) dan Problem Based Learning. Penugasan: Tugas 1--2 studi kasus sederhana. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan pentingnya algoritma serta memecahkan studi kasus dengan mengidentifikasi input, proses, dan output. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan pengertian algoritma; identifikasi input-proses-output studi kasus. & 2 \\
+2 & SCPMK903-00601 & Konsep dasar version control; prinsip-prinsip Kanban. & Modalitas: Daring/Luring. Metode: CTL dan Problem Based Learning. Penugasan: analisis macam-macam version control; membuat Kanban board aktivitas sehari-hari. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan pentingnya version control dan memvisualisasikan aktivitas dengan Kanban board. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep version control; kesesuaian Kanban board dengan prinsip visualisasi alur kerja. & 2 \\
+3 & SCPMK903-00602 & Tipe data, variabel, input-output, sequence, operator (aritmatika, gabungan, increment, decrement, relasional, logika, kondisional, bitwise, casting). & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 3 studi kasus tipe data dan operator. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa mengidentifikasi dan mengimplementasikan konsep tipe data, variabel, input-output, sequence, dan operator pada studi kasus. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan penjelasan tipe data, variabel, input-output, sequence, dan operator. & 2 \\
+4 & SCPMK903-00601, SCPMK903-00602 & Kuis 1: materi minggu 1--3. & Ujian teori pilihan ganda dan/atau essay, closed book. & 1 x 2 x 100' ujian. & Mahasiswa mengerjakan soal kuis materi minggu 1--3 secara mandiri. & Ujian. Bentuk: Kuis 1. Mengacu rubrik RTM. & Ketepatan jawaban dengan kunci jawaban. & 10 \\
+5 & SCPMK704-00603 & Pemilihan 1 (if, if...else, if..else if..., switch..case); ekspresi logika. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 4 studi kasus pemilihan 1 dengan flowchart. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep pemilihan 1 dan mengimplementasikannya dengan ekspresi logika untuk memecahkan studi kasus. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan sintaks pemilihan 1; ketepatan penggambaran flowchart pemilihan. & 2 \\
+6 & SCPMK704-00603 & Pemilihan bersarang. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 5 studi kasus pemilihan sederhana dan bersarang dengan flowchart. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa mengimplementasikan algoritma pemilihan bersarang untuk menyelesaikan studi kasus. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep pemilihan bersarang; ketepatan flowchart studi kasus pemilihan bersarang. & 2 \\
+7 & SCPMK704-00603 & Konsep perulangan sederhana. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 6 studi kasus perulangan bagian 1 dengan flowchart. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep perulangan bagian 1 dan mengimplementasikannya untuk memecahkan studi kasus. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep perulangan sederhana; ketepatan penggambaran flowchart perulangan. & 2 \\
+8 & SCPMK903-00601, SCPMK903-00602, SCPMK704-00603 & UTS: materi minggu 1--7. & Ujian teori pilihan ganda dan/atau essay, closed book. & 1 x 2 x 100' ujian. & Mahasiswa mengerjakan soal UTS materi minggu 1--7 secara mandiri. & Ujian. Bentuk: UTS. Mengacu rubrik RTM. & Ketepatan jawaban dengan kunci jawaban. & 30 \\
+9 & SCPMK704-00604 & Konsep array; array 1 dimensi; studi kasus searching dan sorting sederhana. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 8 deklarasi dan operasi array 1 dimensi pada kasus searching. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep array 1 dimensi dan mengimplementasikannya untuk kasus searching dan sorting. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep array 1 dimensi; kebenaran solusi searching/sorting sederhana. & 1.5 \\
+10 & SCPMK704-00604 & Array 2 dimensi; studi kasus matriks. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 9 studi kasus array 2 dimensi; penyimpanan nilai array 1 dan 2 dimensi pada proyek. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep array 2 dimensi dan mengimplementasikannya untuk menyelesaikan studi kasus matriks. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep array 2 dimensi; kebenaran solusi studi kasus matriks. & 1.5 \\
+11 & SCPMK704-00603 & Perulangan bersarang. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 7 studi kasus perulangan bersarang dengan flowchart; identifikasi fitur perulangan bersarang pada proyek. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep perulangan bersarang dan mengimplementasikannya untuk memecahkan studi kasus/proyek. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep perulangan bersarang; ketepatan flowchart studi kasus perulangan bersarang. & 2 \\
+12 & SCPMK704-00603, SCPMK704-00604 & Kuis 2: materi minggu 9--11. & Ujian teori pilihan ganda dan/atau essay, closed book. & 1 x 2 x 100' ujian. & Mahasiswa mengerjakan soal kuis materi minggu 9--11 secara mandiri. & Ujian. Bentuk: Kuis 2. Mengacu rubrik RTM. & Ketepatan jawaban dengan kunci jawaban. & 10 \\
+13 & SCPMK704-00604 & Konsep fungsi; fungsi iteratif; deklarasi dan pemanggilan fungsi. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 10 studi kasus flowchart yang memuat fungsi. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep fungsi dan mengimplementasikan fungsi berparameter/return value pada studi kasus. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep fungsi; ketepatan flowchart yang menggunakan fungsi. & 1 \\
+14 & SCPMK704-00604 & Fungsi rekursif; perbedaan fungsi iteratif dan rekursif. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: Tugas 11 studi kasus fungsi rekursif dengan flowchart. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menjelaskan konsep fungsi rekursif dan mengimplementasikannya untuk menyelesaikan studi kasus. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan konsep fungsi rekursif; ketepatan flowchart penyelesaian kasus rekursif. & 1 \\
+15 & SCPMK704-00604 & Studi kasus terintegrasi: sequence, pemilihan, perulangan, array, dan fungsi pada proyek. & Modalitas: Daring/Luring. Metode: CTL dan Project Based Learning. Penugasan: identifikasi fitur proyek yang memerlukan fungsi dan array, digambarkan dalam flowchart. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa menyusun algoritma penyelesaian studi kasus terintegrasi dalam bentuk flowchart. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Kelengkapan dan kebenaran flowchart studi kasus terintegrasi. & 0.5 \\
+16 & SCPMK704-00604 & Responsi dan review studi kasus terintegrasi. & Modalitas: Daring/Luring. Metode: CTL, diskusi, dan review hasil tugas. & 1 x 2 x 100' tatap muka; 1 x 2 x 70' tugas terstruktur/mandiri. & Mahasiswa memperbaiki flowchart studi kasus terintegrasi berdasarkan umpan balik dosen. & Keaktifan diskusi; ketepatan jawaban tugas. Bentuk: Tugas studi kasus. Mengacu rubrik RTM. & Ketepatan perbaikan flowchart berdasarkan umpan balik. & 0.5 \\
+17 & SCPMK704-00603, SCPMK704-00604 & UAS: materi minggu 1--16. & Ujian teori pilihan ganda dan/atau essay, closed book. & 1 x 2 x 100' ujian. & Mahasiswa mengerjakan soal UAS materi minggu 1--16 secara mandiri. & Ujian. Bentuk: UAS. Mengacu rubrik RTM. & Ketepatan jawaban dengan kunci jawaban. & 30 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Dasar Pemrograman \\
+Kode Mata Kuliah & RTI251006 \quad \textbf{sks / Jam perminggu:} 2 SKS/4 jam \quad \textbf{Semester:} 1 \\
+Dosen Pengampu & \begin{enumerate}\item Mungki Astiningrum, S.T., M.Kom.\item Imam Fahrur Rozi, S.T., M.T.\item Triana Fatmawati, S.T., M.T.\item Mamluatul Hani'ah, S.Kom., M.Kom.\item Rudy Ariyanto, S.T., M.Cs.\item Noprianto, S.Kom., M.Eng.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Studi Kasus Algoritma (Tugas 1--11)}{Tugas terstruktur dan mandiri}{SCPMK903-00601, SCPMK903-00602, SCPMK704-00603, SCPMK704-00604}{Mahasiswa menyelesaikan rangkaian tugas studi kasus (Tugas 1--11): analisis permasalahan, version control dan Kanban, tipe data dan operator, pemilihan, perulangan, array, dan fungsi dalam bentuk flowchart/pseudocode.}{Menganalisis permasalahan studi kasus, mengidentifikasi input-proses-output, menyusun algoritma dalam bentuk flowchart/pseudocode, dan mendokumentasikan hasil tugas.}{Lembar jawaban tugas berisi analisis kasus, flowchart/pseudocode, dan dokumentasi penyelesaian.}{Analisis masalah dan konsep dasar (algoritma, version control, Kanban) & 4 & Input-proses-output kasus diidentifikasi lengkap; konsep algoritma, version control, dan Kanban dijelaskan tepat dan diterapkan pada tugas. & Analisis kasus sebagian besar benar, tetapi identifikasi input-proses-output atau penerapan Kanban/version control belum lengkap. & Analisis kasus keliru atau konsep dasar tidak dapat dijelaskan dan tidak diterapkan pada tugas. \\ \\
+Ketepatan tipe data, operator, dan sequence dalam algoritma & 2 & Pemilihan tipe data, variabel, operator, dan urutan sequence pada algoritma tepat dan konsisten di seluruh tugas. & Sebagian pemilihan tipe data atau operator kurang tepat, tetapi alur sequence masih benar. & Tipe data, operator, atau sequence banyak yang salah sehingga algoritma tidak berjalan benar. \\ \\
+Kebenaran flowchart pemilihan dan perulangan & 8 & Flowchart pemilihan (sederhana/bersarang) dan perulangan (sederhana/bersarang) benar, sesuai notasi, dan menyelesaikan studi kasus. & Flowchart menyelesaikan kasus utama, tetapi terdapat kesalahan notasi atau kondisi pada kasus bersarang. & Flowchart tidak menyelesaikan kasus atau logika pemilihan/perulangan salah. \\ \\
+Penerapan array dan fungsi pada studi kasus terintegrasi & 6 & Array 1/2 dimensi dan fungsi (iteratif/rekursif) diterapkan benar pada studi kasus, termasuk kasus terintegrasi, dengan dokumentasi rapi. & Array dan fungsi diterapkan pada kasus dasar, tetapi kasus terintegrasi atau dokumentasinya belum lengkap. & Array atau fungsi tidak diterapkan dengan benar atau tugas terintegrasi tidak dikerjakan. \\}
+
+\assessmentblock{Kuis 1 Konsep Algoritma, Tipe Data, dan Operator}{Kuis (ujian teori closed book)}{SCPMK903-00601, SCPMK903-00602}{Mahasiswa mengerjakan kuis pilihan ganda dan/atau essay yang mencakup materi minggu 1--3: konsep dasar algoritma, version control, Kanban, tipe data, variabel, input-output, sequence, dan operator.}{Mengerjakan soal kuis secara mandiri, closed book, dalam waktu yang ditentukan.}{Lembar jawaban kuis (pilihan ganda dan/atau essay).}{Penguasaan konsep algoritma, version control, dan Kanban & 5 & Jawaban menjelaskan pengertian dan pentingnya algoritma, cara kerja version control, dan prinsip Kanban dengan benar sesuai kunci jawaban. & Sebagian besar jawaban benar, tetapi penjelasan konsep masih kurang lengkap atau kurang tepat pada beberapa soal. & Jawaban banyak yang salah atau tidak menunjukkan pemahaman konsep dasar. \\ \\
+Ketepatan penerapan tipe data, operator, dan sequence & 5 & Soal penerapan tipe data, variabel, input-output, sequence, dan operator dijawab benar sesuai kunci jawaban. & Sebagian soal penerapan dijawab benar, tetapi terdapat kekeliruan pada operator atau urutan sequence. & Jawaban penerapan banyak yang salah atau tidak sesuai konsep. \\}
+
+\assessmentblock{UTS Algoritma, Sequence, Pemilihan, dan Perulangan}{UTS (ujian teori closed book)}{SCPMK903-00601, SCPMK903-00602, SCPMK704-00603}{Mahasiswa mengerjakan UTS pilihan ganda dan/atau essay yang mencakup materi minggu 1--7: konsep algoritma, tipe data dan operator, sequence, pemilihan sederhana dan bersarang, serta perulangan sederhana.}{Mengerjakan soal ujian secara mandiri, closed book, dalam waktu yang ditentukan.}{Lembar jawaban UTS (pilihan ganda dan/atau essay).}{Ketepatan jawaban konsep dasar algoritma & 6 & Soal konsep algoritma, analisis input-proses-output, version control, dan Kanban dijawab benar sesuai kunci jawaban. & Sebagian soal konsep dijawab benar, tetapi analisis kasus masih kurang tepat. & Jawaban konsep banyak yang salah atau analisis kasus tidak dikerjakan. \\ \\
+Ketepatan penyelesaian soal tipe data, operator, dan sequence & 8 & Soal tipe data, variabel, operator, dan sequence dijawab benar termasuk evaluasi ekspresi dan penulisan algoritma. & Sebagian soal dijawab benar, tetapi evaluasi ekspresi atau penulisan algoritma masih keliru. & Jawaban banyak yang salah atau tidak sesuai konsep tipe data dan operator. \\ \\
+Kebenaran algoritma pemilihan dan perulangan dalam flowchart & 16 & Soal kasus pemilihan (sederhana/bersarang) dan perulangan sederhana diselesaikan dengan flowchart/algoritma yang benar dan lengkap. & Flowchart/algoritma menyelesaikan sebagian kasus, tetapi terdapat kesalahan kondisi atau alur. & Flowchart/algoritma salah logika atau tidak menyelesaikan kasus ujian. \\}
+
+\assessmentblock{Kuis 2 Array dan Perulangan Bersarang}{Kuis (ujian teori closed book)}{SCPMK704-00603, SCPMK704-00604}{Mahasiswa mengerjakan kuis pilihan ganda dan/atau essay yang mencakup materi minggu 9--11: array 1 dimensi, array 2 dimensi, dan perulangan bersarang.}{Mengerjakan soal kuis secara mandiri, closed book, dalam waktu yang ditentukan.}{Lembar jawaban kuis (pilihan ganda dan/atau essay).}{Kebenaran algoritma perulangan bersarang & 5 & Soal kasus perulangan bersarang dijawab dengan algoritma/flowchart yang benar sesuai kunci jawaban. & Algoritma perulangan bersarang sebagian benar, tetapi terdapat kesalahan pada kondisi atau iterasi dalam. & Algoritma perulangan bersarang salah atau tidak dikerjakan. \\ \\
+Ketepatan penggunaan array 1 dan 2 dimensi & 5 & Soal deklarasi, akses, dan pengolahan array 1/2 dimensi (searching, sorting, matriks) dijawab benar. & Sebagian soal array dijawab benar, tetapi terdapat kekeliruan indeks atau operasi. & Jawaban array banyak yang salah atau konsep indeks tidak dipahami. \\}
+
+\assessmentblock{UAS Algoritma Terintegrasi}{UAS (ujian teori closed book)}{SCPMK704-00603, SCPMK704-00604}{Mahasiswa mengerjakan UAS pilihan ganda dan/atau essay yang mencakup materi minggu 1--16 dengan penekanan pada pemilihan, perulangan, array, dan fungsi dalam penyelesaian studi kasus.}{Mengerjakan soal ujian secara mandiri, closed book, dalam waktu yang ditentukan.}{Lembar jawaban UAS (pilihan ganda dan/atau essay).}{Kebenaran algoritma pemilihan dan perulangan pada soal kasus & 10 & Soal kasus pemilihan dan perulangan (termasuk bersarang) diselesaikan dengan algoritma/flowchart yang benar dan lengkap. & Algoritma menyelesaikan sebagian kasus, tetapi terdapat kesalahan kondisi atau alur. & Algoritma salah logika atau kasus tidak dikerjakan. \\ \\
+Ketepatan penyelesaian kasus array 1 dan 2 dimensi & 10 & Soal kasus array (searching, sorting, matriks) diselesaikan dengan deklarasi, indeks, dan operasi yang benar. & Sebagian kasus array diselesaikan benar, tetapi terdapat kekeliruan indeks atau operasi. & Kasus array tidak diselesaikan atau konsep array tidak dipahami. \\ \\
+Ketepatan penerapan fungsi iteratif dan rekursif & 10 & Soal kasus fungsi diselesaikan dengan deklarasi, parameter, return value, dan rekursi yang benar. & Fungsi dideklarasikan dan dipanggil benar, tetapi parameter, return value, atau rekursi masih keliru. & Konsep fungsi tidak diterapkan dengan benar atau soal tidak dikerjakan. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, perangkat lunak sesuai mata kuliah (office suite, editor, JDK), dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

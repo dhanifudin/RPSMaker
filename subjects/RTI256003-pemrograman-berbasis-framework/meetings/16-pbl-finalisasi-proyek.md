@@ -1,0 +1,30 @@
+---
+course_code: RTI256003
+course_name: Pemrograman Berbasis Framework
+meeting: 16
+sub_cpmk: SCPMK603-04703
+assessment_weight: 10
+---
+
+# Pertemuan 16 - PBL finalisasi proyek
+
+## Kemampuan Akhir
+- SCPMK603-04703: Mahasiswa mampu menghasilkan aplikasi berbasis framework melalui PBL berdasarkan kebutuhan stakeholder.
+
+## Materi Pembelajaran
+PBL finalisasi proyek.
+
+## Bentuk dan Metode Pembelajaran
+Modalitas: Blended Learning. Bentuk: Praktikum/PBL. Metode: hands-on practice, mentoring, code review, demo, dan presentasi.
+
+## Estimasi Waktu
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+
+## Pengalaman Belajar Mahasiswa
+Mahasiswa mengerjakan aktivitas terarah untuk pbl finalisasi proyek dan menunjukkan evidence hasil belajar.
+
+## Penilaian
+Bentuk penilaian: PBL finalisasi proyek. Mengacu rubrik RTM.
+
+## Indikator Penilaian
+Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi.

@@ -1,0 +1,152 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Sistem Operasi & RTI252004 & 2 SKS/4 jam & 2 & 06 Februari 2026 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Dian Hanifudin Subhi, S.Kom., M.Kom. &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=16]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL02 & \SetCell[c=3]{l} Mampu menerapkan prinsip rekayasa sistem dan perangkat lunak untuk menghasilkan solusi aplikasi multi-platform sesuai kebutuhan. &  &  \\
+ & CPL05 & \SetCell[c=3]{l} Mampu menghasilkan solusi teknologi komputasi dan infrastruktur digital yang sesuai dengan kebutuhan organisasi dan pengguna. &  &  \\
+ & CPL09 & \SetCell[c=3]{l} Mampu menjelaskan cara kerja sistem komputer dan menerapkan pendekatan komputasi untuk menyelesaikan masalah. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK206 & \SetCell[c=3]{l} Mahasiswa mampu merancang strategi manajemen sumber daya sistem aplikasi multi-platform berdasarkan karakteristik sistem operasi. &  &  \\
+ & CPMK208 & \SetCell[c=3]{l} Mahasiswa mampu memilih arsitektur computing system sesuai kebutuhan aplikasi multi-platform. &  &  \\
+ & CPMK502 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis isu keamanan sistem operasi, jaringan, dan cloud pada konteks layanan digital. &  &  \\
+ & CPMK506 & \SetCell[c=3]{l} Mahasiswa mampu mengonfigurasi fitur dan layanan sistem operasi untuk mendukung kebutuhan IoT, cloud, atau aplikasi multi-platform. &  &  \\
+ & CPMK507 & \SetCell[c=3]{l} Mahasiswa mampu memanfaatkan arsitektur sistem komputasi dan organisasi perangkat keras/perangkat lunak untuk penyelesaian masalah komputasi. &  &  \\
+ & CPMK901 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan cara kerja sistem komputer dan komponen utamanya dalam penyelesaian masalah komputasi. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK901-01301 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep dasar sistem operasi, kernel, distribusi Linux, instalasi, partisi, dan sistem file. &  &  \\
+ & SCPMK507-01302 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux. &  &  \\
+ & SCPMK502-01303 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis permission, ACL, user/group, sudo, dan risiko keamanan administrasi sistem operasi. &  &  \\
+ & SCPMK506-01304 & \SetCell[c=3]{l} Mahasiswa mampu mengonfigurasi layanan, aplikasi, backup, recovery, dan remastering Linux sesuai kebutuhan sistem. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & PBL & UAS & \\
+CPMK901 & SCPMK901-01301 & 4.50\%: konsep OS dan instalasi & 5\%: materi minggu 1--3 & 5\%: administrasi Linux dasar & & & & 14.50\% \\
+CPMK507 & SCPMK507-01302 & 7.50\%: terminal, I/O, proses, Bash, memori & & 20\%: administrasi Linux dasar & & & & 27.50\% \\
+CPMK502 & SCPMK502-01303 & 10.50\%: file, user/group, akses & & & 5\%: manajemen akses & & 10\%: validasi administrasi sistem & 25.50\% \\
+CPMK506 & SCPMK506-01304 & 20\%: layanan, aplikasi, backup, recovery & & & & 5\%: remastering Linux & 7.50\%: validasi administrasi sistem & 32.50\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Sistem Operasi memberikan pengalaman praktik untuk memahami cara kerja sistem operasi dan melakukan administrasi Linux dari instalasi sampai layanan, keamanan akses, backup, recovery, dan remastering. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Konsep sistem operasi dan instalasi Linux\item Terminal, I/O, proses, Bash, memori, dan system call\item Permission, ACL, user/group, layanan, aplikasi, backup, recovery\item Remastering sistem operasi berbasis Linux\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Silberschatz, A., Galvin, P. B., and Gagne, G. 2018. Operating System Concepts, 10th Edition. Wiley.\item Stallings, W. 2017. Operating Systems: Internals and Design Principles, 9th Edition. Pearson.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumentasi resmi perangkat lunak, dan jobsheet praktikum. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Linux, terminal, shell, text editor, package manager, virtualization tools. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor, media instalasi/VM. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Dr. Yuri Ariyanto, S.Kom., M.Kom.\item Agung Nugroho Pramuditha, S.T., M.T.\item Dian Hanifudin Subhi, S.Kom., M.Kom.\item Muhammad Afif Hendrawan, S.Kom., M.T.\item Imam Fahrur Rozi, S.T., M.T.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK901-01301 & Pengenalan OS dan instalasi Linux. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengenalan os dan instalasi linux dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengenalan OS dan instalasi Linux. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+2 & SCPMK507-01302 & Perangkat keras dan perintah dasar. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk perangkat keras dan perintah dasar dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Perangkat keras dan perintah dasar. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+3 & SCPMK507-01302 & Dasar input/output. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk dasar input/output dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Dasar input/output. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+4 & SCPMK901-01301, SCPMK507-01302 & Kuis 1. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 1 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 1. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+5 & SCPMK502-01303 & Struktur direktori dan operasi file. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk struktur direktori dan operasi file dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Struktur direktori dan operasi file. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+6 & SCPMK507-01302 & Manajemen proses. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen proses dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Manajemen proses. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+7 & SCPMK507-01302 & Bash shell. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk bash shell dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Bash shell. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+8 & SCPMK901-01301, SCPMK507-01302 & UTS administrasi Linux dasar. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uts administrasi linux dasar dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS administrasi Linux dasar. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 20 \\
+9 & SCPMK507-01302 & Bash programming. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk bash programming dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Bash programming. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+10 & SCPMK507-01302 & Manajemen memori dan system call. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen memori dan system call dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Manajemen memori dan system call. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 3 \\
+11 & SCPMK502-01303 & Manajemen file dan user/group. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen file dan user/group dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Manajemen file dan user/group. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+12 & SCPMK502-01303 & Kuis 2. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 2 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 2. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+13 & SCPMK506-01304 & Manajemen layanan. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen layanan dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Manajemen layanan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+14 & SCPMK506-01304 & Manajemen aplikasi. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen aplikasi dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Manajemen aplikasi. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+15 & SCPMK506-01304 & Backup dan pemulihan sistem. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk backup dan pemulihan sistem dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Backup dan pemulihan sistem. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+16 & SCPMK506-01304 & Tugas besar remastering Linux. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk tugas besar remastering linux dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas besar remastering Linux. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+17 & SCPMK502-01303, SCPMK506-01304 & UAS validasi administrasi sistem. & Modalitas: Blended Learning. Bentuk: Praktikum. Metode: demonstrasi, praktik laboratorium Linux, problem based learning, dan diskusi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uas validasi administrasi sistem dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UAS validasi administrasi sistem. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 25 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Sistem Operasi \\
+Kode Mata Kuliah & RTI252004 \quad \textbf{sks / Jam perminggu:} 2 SKS/4 jam \quad \textbf{Semester:} 2 \\
+Dosen Pengampu & \begin{enumerate}\item Dr. Yuri Ariyanto, S.Kom., M.Kom.\item Agung Nugroho Pramuditha, S.T., M.T.\item Dian Hanifudin Subhi, S.Kom., M.Kom.\item Muhammad Afif Hendrawan, S.Kom., M.T.\item Imam Fahrur Rozi, S.T., M.T.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Praktikum Instalasi dan Terminal}{Hands-on Practice}{SCPMK901-01301, SCPMK507-01302}{Mahasiswa menyelesaikan tugas praktikum instalasi dan terminal sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Kesiapan instalasi dan konfigurasi lingkungan & 8.8 & Instalasi Linux, konfigurasi VM/dual boot, akun, jaringan dasar, dan struktur direktori siap digunakan serta terdokumentasi. & Lingkungan berjalan, tetapi beberapa konfigurasi atau dokumentasi instalasi belum lengkap. & Lingkungan tidak stabil, instalasi gagal, atau tidak dapat digunakan untuk praktikum. \\ \\
+Ketepatan penggunaan perintah terminal & 7.7 & Perintah navigasi, file, permission dasar, proses, dan informasi sistem digunakan tepat dengan hasil yang dapat diverifikasi. & Sebagian besar perintah benar, tetapi masih ada kesalahan opsi, urutan, atau interpretasi output. & Perintah terminal banyak keliru atau output tidak dipahami. \\ \\
+Evidence praktik dan troubleshooting & 5.5 & Screenshot/log menunjukkan langkah, hasil, masalah, dan solusi troubleshooting secara runtut. & Evidence tersedia, tetapi troubleshooting atau penjelasan hasil masih terbatas. & Evidence tidak lengkap atau tidak membuktikan praktik dilakukan. \\}
+
+\assessmentblock{UTS Administrasi Linux Dasar}{UTS praktik}{SCPMK901-01301, SCPMK507-01302}{Mahasiswa menyelesaikan uts administrasi linux dasar sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Penguasaan administrasi dasar Linux & 8 & Instalasi, struktur filesystem, permission, user/group, proses, dan paket dasar diselesaikan tepat pada studi kasus. & Sebagian administrasi dasar benar, tetapi ada konfigurasi atau konsep yang belum konsisten. & Tidak mampu menyelesaikan tugas administrasi dasar secara benar. \\ \\
+Ketepatan eksekusi prosedur praktik & 7 & Langkah praktik runtut, command sesuai kebutuhan, dan output diverifikasi tanpa merusak konfigurasi sistem. & Prosedur berjalan, tetapi verifikasi output atau urutan langkah belum lengkap. & Prosedur tidak runtut, banyak command keliru, atau konfigurasi bermasalah. \\ \\
+Dokumentasi dan defense hasil administrasi & 5 & Laporan dan defense menjelaskan alasan command, hasil, kendala, dan perbaikan dengan bukti terminal. & Dokumentasi cukup jelas, tetapi alasan command atau defense masih kurang mendalam. & Tidak dapat menjelaskan hasil praktik atau bukti tidak memadai. \\}
+
+\assessmentblock{Tugas Manajemen Akses, Layanan, dan Backup}{Hands-on Practice}{SCPMK502-01303, SCPMK506-01304}{Mahasiswa menyelesaikan tugas manajemen akses, layanan, dan backup sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Konfigurasi akses dan keamanan file & 11.2 & User, group, permission, ownership, dan kontrol akses diterapkan sesuai skenario keamanan. & Konfigurasi akses sebagian tepat, tetapi masih ada izin atau ownership yang kurang konsisten. & Konfigurasi akses salah atau berisiko membuka akses yang tidak semestinya. \\ \\
+Manajemen layanan dan aplikasi & 9.8 & Service, package, daemon, startup, status, log, dan konfigurasi aplikasi dikelola dengan command yang tepat. & Layanan berjalan, tetapi pengaturan startup, log, atau konfigurasi belum lengkap. & Layanan tidak berjalan atau manajemen aplikasi tidak sesuai skenario. \\ \\
+Backup, restore, dan evidence pemulihan & 7 & Backup dibuat, restore diuji, integrity diperiksa, dan bukti pemulihan terdokumentasi jelas. & Backup tersedia, tetapi restore atau pemeriksaan integrity belum lengkap. & Backup tidak dapat dipulihkan atau tidak ada bukti pemulihan. \\}
+
+\assessmentblock{Tugas Besar Remastering Linux}{Project Based Learning}{SCPMK506-01304}{Mahasiswa menyelesaikan tugas besar remastering linux sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Perencanaan distro remastering & 2 & Tujuan remastering, paket, konfigurasi default, user target, dan kebutuhan sistem dirumuskan jelas. & Rencana remastering cukup jelas, tetapi paket atau konfigurasi belum sepenuhnya sesuai target. & Rencana tidak jelas atau tidak menunjukkan kebutuhan distro hasil remastering. \\ \\
+Kualitas image dan konfigurasi hasil remaster & 1.8 & Image dapat boot, paket utama tersedia, konfigurasi desktop/sistem sesuai kebutuhan, dan ukuran terkendali. & Image dapat digunakan, tetapi masih ada paket, konfigurasi, atau konsistensi branding yang kurang. & Image gagal boot atau tidak menunjukkan hasil remastering yang fungsional. \\ \\
+Pengujian dan dokumentasi distribusi & 1.2 & Pengujian boot/install, daftar perubahan, kendala, dan panduan penggunaan terdokumentasi lengkap. & Pengujian dilakukan, tetapi cakupan bukti atau panduan penggunaan masih terbatas. & Tidak ada pengujian memadai atau dokumentasi tidak memungkinkan reproduksi. \\}
+
+\assessmentblock{UAS Validasi Administrasi Sistem}{UAS praktik dan defense}{SCPMK502-01303, SCPMK506-01304}{Mahasiswa menyelesaikan uas validasi administrasi sistem sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Validasi konfigurasi sistem akhir & 10 & Akses, layanan, aplikasi, backup, dan recovery divalidasi pada skenario administrasi sistem yang realistis. & Validasi mencakup komponen utama, tetapi sebagian skenario atau bukti masih kurang. & Validasi tidak membuktikan kesiapan administrasi sistem. \\ \\
+Analisis masalah dan perbaikan & 8.8 & Masalah konfigurasi diidentifikasi dari log/output, diperbaiki tepat, dan dampaknya dijelaskan. & Masalah utama ditemukan, tetapi analisis penyebab atau perbaikan belum lengkap. & Tidak mampu menemukan atau memperbaiki masalah administrasi. \\ \\
+Defense praktik administrasi & 6.2 & Keputusan command, konfigurasi, dan trade-off keamanan dijelaskan dengan bukti terminal yang konsisten. & Defense cukup jelas, tetapi beberapa keputusan belum didukung bukti. & Tidak mampu mempertahankan konfigurasi atau bukti praktik tidak valid. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/prototype/proyek, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

@@ -1,0 +1,150 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Manajemen Proyek & RTI253001 & 2 SKS/3 jam & 3 & 06 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Pramana Yoga Saputra, S.Kom., M.MT. & Pramana Yoga Saputra, S.Kom., M.MT. & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=14]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL03 & \SetCell[c=3]{l} Mampu mengelola tim dan diri sendiri secara profesional serta mengomunikasikan dan mempresentasikan gagasan maupun hasil kerja secara efektif baik lisan maupun tulisan. &  &  \\
+ & CPL04 & \SetCell[c=3]{l} Mampu menyusun deskripsi saintifik hasil kajian, pengembangan, atau implementasi teknologi informasi dan komunikasi dalam bentuk skripsi, laporan, atau artikel ilmiah. &  &  \\
+ & CPL08 & \SetCell[c=3]{l} Mampu mengelola proyek teknologi informasi secara profesional melalui perencanaan, koordinasi, komunikasi, dan optimalisasi sumber daya. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK302 & \SetCell[c=3]{l} Mahasiswa mampu mengelola tim dan proyek melalui perencanaan, koordinasi, komunikasi, dan presentasi hasil. &  &  \\
+ & CPMK402 & \SetCell[c=3]{l} Mahasiswa mampu mendokumentasikan proyek TI secara sistematis dalam bentuk laporan teknis. &  &  \\
+ & CPMK801 & \SetCell[c=3]{l} Mahasiswa mampu menyusun rencana proyek TI yang mencakup estimasi, penjadwalan, alokasi sumber daya, dan manajemen risiko. &  &  \\
+ & CPMK803 & \SetCell[c=3]{l} Mahasiswa mampu melaksanakan eksekusi, monitoring, dan controlling proyek serta mengelola dinamika tim. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK801-01901 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep proyek, fase, dan 10 knowledge area PMBOK serta menyusun perencanaan proyek meliputi integrasi, ruang lingkup (WBS), jadwal, dan biaya [C2, C3]. &  &  \\
+ & SCPMK803-01902 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan manajemen sumber daya, pengadaan, kualitas, risiko, dan prinsip Agile dalam eksekusi, monitoring, dan penutupan proyek [C3]. &  &  \\
+ & SCPMK302-01903 & \SetCell[c=3]{l} Mahasiswa mampu mengelola pemangku kepentingan, komunikasi, dan kerja sama tim proyek serta mempresentasikan hasil tugas kelompok [C3, A3]. &  &  \\
+ & SCPMK402-01904 & \SetCell[c=3]{l} Mahasiswa mampu menyusun dokumentasi dan evaluasi proyek perangkat lunak secara sistematis dalam laporan dan simulasi proyek kelompok [C3, P2]. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=5]{c} Bobot per Bentuk Penilaian & & & & & Total Bobot \\
+ & & Tugas Proyek & Kuis 1 & UTS & Kuis 2 & UAS & \\
+CPMK801 & SCPMK801-01901 & 10\%: konsep, integrasi, scope, jadwal, biaya & 7\%: konsep dan knowledge area & 15\%: perencanaan proyek & & 8\%: penguasaan komprehensif & 40\% \\
+CPMK803 & SCPMK803-01902 & 8\%: sumber daya, kualitas, risiko, Agile & & 5\%: sumber daya dan pengadaan & 7\%: biaya, kualitas, risiko & 8\%: eksekusi hingga penutupan & 28\% \\
+CPMK302 & SCPMK302-01903 & 2\%: pemangku kepentingan tim & 3\%: pemangku kepentingan & 5\%: stakeholder dan organisasi & 3\%: komunikasi proyek & 5\%: komunikasi dan stakeholder & 18\% \\
+CPMK402 & SCPMK402-01904 & 6\%: dokumentasi dan simulasi proyek & & & & 8\%: dokumentasi dan evaluasi & 14\% \\
+\SetCell[c=7]{r}\textbf{Total Per Penilaian} & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Manajemen Proyek memberikan pengetahuan dan keterampilan manajemen proyek sistem informasi: siklus manajemen proyek serta pengelolaan ruang lingkup, jadwal, biaya, kualitas (QMS), SDM, risiko, komunikasi, pengadaan, dan pemangku kepentingan proyek, diterapkan pada proyek kelompok sepanjang semester. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Konsep proyek, fase, dan 10 knowledge area manajemen proyek\item Manajemen integrasi, ruang lingkup, waktu, dan biaya proyek\item Manajemen kualitas, SDM, dan pengadaan proyek\item Manajemen komunikasi, risiko, dan pemangku kepentingan proyek\item Agile (Scrum, Kanban, XP), penutupan proyek, dan simulasi proyek perangkat lunak\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Chemuturi, M., \& Cagley, T. M. 2010. Mastering Software Project Management: Best Practices. Auerbach Publications.\item Schwalbe, K. 2009. Information Technology Project Management (6th ed.). Course Technology.\item Munir. 2015. Manajemen Proyek Perangkat Lunak. UPI Press.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Project Management Institute. 2017. A Guide to the Project Management Body of Knowledge (PMBOK Guide) (6th ed.). PMI; materi e-learning lmsslc.polinema.ac.id. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} MS Word, MS Excel, Notion, e-learning (lmsslc.polinema.ac.id). &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, LCD projector. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Pramana Yoga Saputra, S.Kom., M.MT.\item Ahmadi Yuli Ananta, S.T., M.M.\item Erfan Rohadi, S.T., M.Eng., Ph.D.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK801-01901 & Konsep proyek dan manajemen proyek: pengertian proyek, pentingnya manajemen proyek, studi kelayakan, fase, dan 10 knowledge area. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning. Penugasan: Tugas 1 membentuk kelompok dan menentukan topik proyek. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan. & Ketepatan penjelasan konsep proyek, manajemen proyek, fase, dan 10 knowledge area. & 2 \\
+2 & SCPMK801-01901 & Manajemen integrasi proyek: perencanaan strategis dan pemilihan proyek, rencana manajemen proyek, pengelolaan pekerjaan, pemantauan dan pengendalian, kontrol perubahan terpadu, penutupan proyek. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning. Penugasan: Tugas 2 menerapkan manajemen integrasi pada proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan. & Ketepatan penjelasan dan penerapan manajemen integrasi proyek. & 2 \\
+3 & SCPMK302-01903 & Manajemen pemangku kepentingan proyek: identifikasi, perencanaan, pengaturan, dan pengendalian hubungan pemangku kepentingan; struktur organisasi proyek. & Bentuk: ceramah dan diskusi. Metode: Project Based Learning. Penugasan: Tugas 3 menerapkan manajemen pemangku kepentingan pada proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan identifikasi, perencanaan, dan pengelolaan pemangku kepentingan. & 2 \\
+4 & SCPMK801-01901, SCPMK302-01903 & Kuis 1: materi pertemuan 1--3. & Ujian tulis/online. & 1x50'. & Menjawab pertanyaan/soal kuis. & Kriteria: ketepatan menjawab. Bentuk: tes tulis/online. & Ketepatan dalam menjawab pertanyaan. & 10 \\
+5 & SCPMK803-01902 & Manajemen sumber daya dan pengadaan proyek: perencanaan, perolehan, dan pengelolaan sumber daya; perencanaan, pelaksanaan, pengendalian, dan penutupan pengadaan. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation. Penugasan: Tugas 4 menerapkan manajemen sumber daya dan pengadaan pada proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan perencanaan, perolehan, dan pengelolaan sumber daya serta pengadaan. & 2 \\
+6 & SCPMK801-01901 & Manajemen ruang lingkup proyek: perencanaan scope, pengumpulan requirement, penentuan scope, Work Breakdown Structure, validasi dan pengendalian scope. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation, Project Based Learning. Penugasan: Tugas 5 membuat WBS untuk proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan scope management dan ketepatan pembuatan WBS. & 2 \\
+7 & SCPMK801-01901 & Manajemen waktu proyek: perencanaan jadwal, penentuan dan pengurutan kegiatan, perkiraan sumber daya dan durasi, pengembangan dan pengendalian jadwal. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation. Penugasan: Tugas 6 menyusun timeline pekerjaan proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan manajemen jadwal dan ketepatan penyusunan timeline proyek. & 2 \\
+8 & SCPMK801-01901--SCPMK302-01903 & UTS: materi pertemuan 1--7. & Ujian tulis/online. & 1x50'. & Menjawab pertanyaan/soal ujian. & Kriteria: ketepatan menjawab. Bentuk: tes tulis/online. & Ketepatan dalam menjawab pertanyaan. & 25 \\
+9 & SCPMK801-01901 & Manajemen biaya proyek: perencanaan manajemen biaya, perkiraan biaya, penentuan anggaran, dan pengendalian biaya. & Bentuk: ceramah dan diskusi. Metode: Problem Based Learning. Penugasan: Tugas 7 menerapkan manajemen biaya pada proyek kelompok. & M: 1x6x50'. & Mengerjakan proyek kelompok dan berdiskusi. & Kriteria: ketepatan penjelasan. Bentuk: pengerjaan proyek. & Ketepatan penjelasan perencanaan, perkiraan, anggaran, dan pengendalian biaya. & 2 \\
+10 & SCPMK803-01902 & Manajemen kualitas proyek: perencanaan kualitas, pelaksanaan penjaminan kualitas, dan pengendalian kualitas. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation. Penugasan: Tugas 8 menerapkan manajemen kualitas pada proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan perencanaan, penjaminan, dan pengendalian kualitas. & 2 \\
+11 & SCPMK803-01902, SCPMK302-01903 & Manajemen komunikasi dan risiko proyek: pengertian, tujuan, dan proses manajemen komunikasi; identifikasi, analisis, dan strategi risiko. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation, Problem Based Learning. Penugasan: Tugas 9 menerapkan manajemen komunikasi dan risiko pada proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan proses komunikasi proyek serta identifikasi, analisis, dan strategi risiko. & 2 \\
+12 & SCPMK803-01902, SCPMK302-01903 & Kuis 2: materi pertemuan 9--11. & Ujian tulis/online. & 1x50'. & Menjawab pertanyaan/soal kuis. & Kriteria: ketepatan menjawab. Bentuk: tes tulis/online. & Ketepatan dalam menjawab pertanyaan. & 10 \\
+13 & SCPMK803-01902 & Prinsip Agile dan metode Scrum, Kanban, XP; perbedaan manajemen proyek tradisional dan Agile; penerapan Agile dalam pengembangan perangkat lunak. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation, Problem Based Learning. Penugasan: Tugas 10 menerapkan prinsip Agile pada proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan penjelasan prinsip Agile dan penerapannya pada proyek. & 2 \\
+14 & SCPMK402-01904 & Penutupan proyek: proses penutupan, dokumentasi, evaluasi, dan pelajaran yang dipetik (lessons learned). & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation, Problem Based Learning. Penugasan: Tugas 11 menyusun dokumentasi penutupan proyek kelompok. & PB: 1x1x50'; PT: 1x5x50'. & Mendengarkan ceramah materi dari dosen, berdiskusi, dan mengerjakan tugas kelompok. & Kriteria: ketepatan penjelasan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan menjelaskan penutupan proyek dan ketepatan membuat dokumentasi proyek. & 2 \\
+15 & SCPMK402-01904 & Simulasi pengerjaan proyek perangkat lunak dengan menerapkan teori manajemen proyek. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation, Problem Based Learning. & PB: 1x1x50'; PT: 1x5x50'. & Mengerjakan simulasi proyek kelompok, berdiskusi, dan mempresentasikan progres. & Kriteria: ketepatan penerapan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan menerapkan manajemen proyek dalam pengembangan perangkat lunak. & 2 \\
+16 & SCPMK402-01904 & Simulasi pengerjaan proyek perangkat lunak (lanjutan) dengan menerapkan teori manajemen proyek. & Bentuk: ceramah dan diskusi. Metode: Self Directed Learning, Role Play \& Simulation, Problem Based Learning. & PB: 1x1x50'; PT: 1x5x50'. & Mengerjakan simulasi proyek kelompok, berdiskusi, dan mempresentasikan progres. & Kriteria: ketepatan penerapan. Bentuk: tes lisan dan presentasi tugas. & Ketepatan menerapkan manajemen proyek dalam pengembangan perangkat lunak. & 2 \\
+17 & SCPMK801-01901--SCPMK402-01904 & UAS: materi pertemuan 1--16. & Ujian tulis/online. & 1x50'. & Menjawab pertanyaan/soal ujian. & Kriteria: ketepatan menjawab. Bentuk: tes tulis/online. & Ketepatan dalam menjawab pertanyaan. & 29 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Manajemen Proyek \\
+Kode Mata Kuliah & RTI253001 \quad \textbf{sks / Jam perminggu:} 2 SKS/3 jam \quad \textbf{Semester:} 3 \\
+Dosen Pengampu & \begin{enumerate}\item Pramana Yoga Saputra, S.Kom., M.MT.\item Ahmadi Yuli Ananta, S.T., M.M.\item Erfan Rohadi, S.T., M.Eng., Ph.D.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Proyek Kelompok Manajemen Proyek}{Project Based Learning dan presentasi tugas}{SCPMK801-01901--SCPMK402-01904}{Mahasiswa dalam kelompok menerapkan knowledge area manajemen proyek (Tugas 1--11) pada satu proyek perangkat lunak sepanjang semester: pemilihan topik, integrasi, pemangku kepentingan, sumber daya, WBS, jadwal, biaya, kualitas, komunikasi, risiko, Agile, hingga dokumentasi penutupan.}{Membentuk kelompok, menentukan topik proyek, menerapkan setiap knowledge area pada proyek kelompok sesuai penugasan mingguan, mendokumentasikan hasil, dan mempresentasikan progres di kelas.}{Dokumen rencana proyek (proposal, WBS, timeline, anggaran), artefak penerapan knowledge area, dokumentasi penutupan proyek, dan bahan presentasi.}{Kualitas perencanaan proyek (integrasi, scope/WBS, jadwal, biaya) & 10 & Rencana proyek lengkap: topik jelas, WBS terstruktur, timeline dan anggaran realistis serta konsisten antarartefak. & Rencana proyek tersedia, tetapi sebagian artefak (WBS, timeline, atau anggaran) kurang rinci atau kurang konsisten. & Rencana proyek tidak lengkap atau tidak dapat dijadikan dasar eksekusi proyek. \\ \\
+Penerapan sumber daya, kualitas, risiko, dan Agile pada eksekusi proyek & 8 & Knowledge area eksekusi diterapkan pada proyek kelompok dengan bukti artefak dan tindak lanjut yang jelas. & Sebagian knowledge area diterapkan, tetapi bukti penerapan atau tindak lanjutnya terbatas. & Penerapan knowledge area tidak terlihat pada proyek kelompok. \\ \\
+Pengelolaan pemangku kepentingan dan kerja sama tim & 2 & Identifikasi dan pengelolaan pemangku kepentingan terdokumentasi; peran anggota tim jelas dan komunikasi efektif. & Pemangku kepentingan teridentifikasi, tetapi pengelolaan hubungan atau pembagian peran tim kurang jelas. & Tidak ada pengelolaan pemangku kepentingan dan kerja tim tidak terkoordinasi. \\ \\
+Dokumentasi, evaluasi, dan simulasi penutupan proyek & 6 & Dokumentasi proyek sistematis, evaluasi dan lessons learned jelas, simulasi proyek berjalan sesuai rencana. & Dokumentasi tersedia, tetapi evaluasi atau lessons learned belum lengkap. & Dokumentasi proyek tidak sistematis atau tidak menggambarkan pelaksanaan proyek. \\}
+
+\assessmentblock{Kuis 1 Konsep dan Pemangku Kepentingan Proyek}{Kuis (tes tulis/online)}{SCPMK801-01901, SCPMK302-01903}{Mahasiswa menjawab soal kuis materi pertemuan 1--3: konsep proyek dan manajemen proyek, manajemen integrasi, serta manajemen pemangku kepentingan.}{Mengerjakan soal tes tulis/online secara individu dalam waktu 1x50 menit sesuai materi pertemuan 1--3.}{Lembar jawaban tes tulis atau jawaban pada platform ujian online.}{Penguasaan konsep proyek, fase, knowledge area, dan integrasi proyek & 7 & Jawaban tepat menjelaskan konsep proyek, fase, 10 knowledge area, dan proses manajemen integrasi. & Sebagian jawaban tepat, tetapi ada konsep atau proses yang keliru atau tidak lengkap. & Jawaban banyak yang keliru atau tidak menunjukkan pemahaman konsep. \\ \\
+Ketepatan penjelasan manajemen pemangku kepentingan & 3 & Identifikasi, perencanaan, dan pengelolaan pemangku kepentingan dijelaskan tepat pada kasus soal. & Penjelasan pemangku kepentingan cukup tepat, tetapi belum lengkap pada kasus soal. & Penjelasan pemangku kepentingan keliru atau tidak relevan dengan soal. \\}
+
+\assessmentblock{UTS Perencanaan Proyek}{UTS (tes tulis/online)}{SCPMK801-01901, SCPMK803-01902, SCPMK302-01903}{Mahasiswa menjawab soal UTS materi pertemuan 1--7: konsep dan integrasi proyek, pemangku kepentingan, sumber daya dan pengadaan, ruang lingkup (WBS), serta manajemen waktu.}{Mengerjakan soal tes tulis/online secara individu dalam waktu 1x50 menit sesuai materi pertemuan 1--7.}{Lembar jawaban tes tulis atau jawaban pada platform ujian online.}{Ketepatan perencanaan proyek: integrasi, scope/WBS, jadwal & 15 & Jawaban menunjukkan penguasaan perencanaan proyek: proses integrasi, penyusunan WBS, dan penjadwalan diterapkan tepat pada kasus. & Sebagian besar jawaban tepat, tetapi ada langkah perencanaan yang keliru atau tidak lengkap. & Jawaban tidak menunjukkan penguasaan proses perencanaan proyek. \\ \\
+Ketepatan penjelasan sumber daya dan pengadaan proyek & 5 & Proses perencanaan, perolehan, dan pengendalian sumber daya serta pengadaan dijelaskan tepat. & Penjelasan sumber daya/pengadaan cukup tepat, tetapi belum lengkap. & Penjelasan sumber daya/pengadaan keliru atau tidak relevan. \\ \\
+Ketepatan penjelasan pemangku kepentingan dan organisasi proyek & 5 & Struktur organisasi dan pengelolaan pemangku kepentingan dijelaskan tepat pada kasus soal. & Penjelasan cukup tepat, tetapi kurang lengkap pada kasus soal. & Penjelasan keliru atau tidak menjawab soal. \\}
+
+\assessmentblock{Kuis 2 Biaya, Kualitas, Risiko, dan Komunikasi}{Kuis (tes tulis/online)}{SCPMK803-01902, SCPMK302-01903}{Mahasiswa menjawab soal kuis materi pertemuan 9--11: manajemen biaya, kualitas, komunikasi, dan risiko proyek.}{Mengerjakan soal tes tulis/online secara individu dalam waktu 1x50 menit sesuai materi pertemuan 9--11.}{Lembar jawaban tes tulis atau jawaban pada platform ujian online.}{Ketepatan penjelasan manajemen biaya, kualitas, dan risiko & 7 & Perkiraan biaya, penjaminan/pengendalian kualitas, serta identifikasi dan strategi risiko dijelaskan tepat pada kasus. & Sebagian jawaban tepat, tetapi ada proses yang keliru atau tidak lengkap. & Jawaban banyak yang keliru atau tidak menunjukkan pemahaman materi. \\ \\
+Ketepatan penjelasan manajemen komunikasi proyek & 3 & Tujuan dan proses manajemen komunikasi proyek dijelaskan tepat pada kasus soal. & Penjelasan komunikasi proyek cukup tepat, tetapi belum lengkap. & Penjelasan komunikasi proyek keliru atau tidak relevan. \\}
+
+\assessmentblock{UAS Manajemen Proyek}{UAS (tes tulis/online)}{SCPMK801-01901--SCPMK402-01904}{Mahasiswa menjawab soal UAS materi pertemuan 1--16 yang mencakup seluruh knowledge area, Agile, penutupan proyek, dan dokumentasi proyek.}{Mengerjakan soal tes tulis/online secara individu dalam waktu 1x50 menit sesuai materi pertemuan 1--16.}{Lembar jawaban tes tulis atau jawaban pada platform ujian online.}{Penguasaan komprehensif konsep dan perencanaan proyek & 8 & Jawaban mengaitkan konsep, fase, knowledge area, dan perencanaan proyek secara tepat pada kasus. & Sebagian besar jawaban tepat, tetapi keterkaitan antarkonsep belum lengkap. & Jawaban tidak menunjukkan penguasaan konsep dan perencanaan proyek. \\ \\
+Ketepatan eksekusi, monitoring, Agile, dan penutupan proyek & 8 & Proses eksekusi-monitoring, prinsip Agile, dan penutupan proyek dijelaskan dan diterapkan tepat pada kasus. & Sebagian proses dijelaskan tepat, tetapi penerapan pada kasus belum lengkap. & Penjelasan proses eksekusi/penutupan keliru atau tidak relevan. \\ \\
+Ketepatan pengelolaan komunikasi dan pemangku kepentingan & 5 & Strategi komunikasi dan pengelolaan pemangku kepentingan dijawab tepat sesuai kasus. & Jawaban cukup tepat, tetapi strategi belum lengkap. & Jawaban keliru atau tidak menjawab kasus. \\ \\
+Ketepatan dokumentasi dan evaluasi proyek & 8 & Struktur dokumentasi, evaluasi, dan lessons learned proyek dijelaskan sistematis dan tepat. & Dokumentasi/evaluasi dijelaskan cukup tepat, tetapi belum sistematis. & Jawaban tidak menunjukkan kemampuan mendokumentasikan proyek. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS (lmsslc.polinema.ac.id), dokumen proyek kelompok, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

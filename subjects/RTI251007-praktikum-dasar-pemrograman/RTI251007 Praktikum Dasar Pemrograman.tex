@@ -1,0 +1,149 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Praktikum Dasar Pemrograman & RTI251007 & 3 SKS/6 jam & 1 & 7 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Mungki Astiningrum, S.T., M.Kom.\par Imam Fahrur Rozi, S.T., M.T.\par Vivi Nur Wijayaningrum, S.Kom., M.Kom.\par Mamluatul Hani'ah, S.Kom., M.Kom. & Imam Fahrur Rozi, S.T., M.T. & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=11]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL07 & \SetCell[c=3]{l} Mampu menerapkan sistem komputasi cerdas dan pengolahan data untuk mendukung penyelesaian masalah komputasi. &  &  \\
+ & CPL09 & \SetCell[c=3]{l} Mampu menjelaskan cara kerja sistem komputer dan menerapkan pendekatan komputasi untuk menyelesaikan masalah. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK704 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan berbagai bahasa dan paradigma pemrograman untuk menyelesaikan masalah komputasi. &  &  \\
+ & CPMK903 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan prinsip logika komputasi serta menerapkan teknik dasar pemrograman dan algoritma untuk menganalisis dan menyelesaikan permasalahan. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK903-00701 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep program, bahasa pemrograman, compiler, dan debugging, melakukan instalasi tools pemrograman Java, serta memodelkan permasalahan sederhana menjadi algoritma (input, proses, output) [C2, P2]. &  &  \\
+ & SCPMK704-00702 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan tipe data, variabel, operator, input-output, sequence, serta struktur pemilihan (if, if-else, else-if, switch-case, dan pemilihan bersarang) ke dalam program Java [C3, P3]. &  &  \\
+ & SCPMK704-00703 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan struktur perulangan (for, while, do-while, perulangan bersarang) serta array 1 dimensi dan 2 dimensi untuk menyelesaikan studi kasus dalam program Java [C3, P3]. &  &  \\
+ & SCPMK704-00704 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan fungsi, parameter, return, dan fungsi rekursif, serta membangun program Java utuh untuk menyelesaikan studi kasus dan mendemonstrasikannya [C3, P4]. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas Praktikum & Kuis 1 & UTS Praktik & Kuis 2 & PBL & UAS & \\
+CPMK903 & SCPMK903-00701 & 4\%: jobsheet instalasi Java dan studi kasus algoritma & 4\%: pemodelan algoritma & & & & & 8\% \\
+CPMK704 & SCPMK704-00702 & 6\%: jobsheet sequence dan pemilihan & 6\%: tipe data, IO, sequence & 10\%: implementasi pemilihan & & & & 22\% \\
+CPMK704 & SCPMK704-00703 & 8\%: jobsheet perulangan dan array & & 10\%: implementasi perulangan & 10\%: perulangan bersarang dan array & & & 28\% \\
+CPMK704 & SCPMK704-00704 & 4\%: jobsheet fungsi dan rekursif & & & & 8\%: proyek akhir & 30\%: demo project & 42\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah ini membahas pembuatan algoritma untuk menyelesaikan masalah dengan metode yang efisien hingga menghasilkan flowchart dan mentranslasikan teks algoritma ke dalam teks program bahasa pemrograman Java melalui praktik jobsheet terstruktur. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Konsep algoritma, representasi algoritma, translator, dan bahasa pemrograman\item Tipe data, variabel, konstanta, nilai, ekspresi, dan input-output\item Sequence, analisa kasus, pencabangan, dan perulangan\item Array dan fungsi/prosedur\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Sebesta, Robert. 2016. Concept of Programming Languages, Edisi Global. Addison Wesley.\item Sestoft, Peter. 2017. Programming Language Concepts. Springer.\item T. Henny Febriana Harumy. 2016. Belajar Dasar Algoritma dan Pemrograman C++. Deepublish.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Rinaldi Munir. 2015. Algoritma dan Pemrograman. Penerbit Informatika; jobsheet praktikum dan materi LMS. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} JDK, IDE, Microsoft Office, Adobe Reader, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} PC/Laptop, LCD projector. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Mungki Astiningrum, S.T., M.Kom.\item Imam Fahrur Rozi, S.T., M.T.\item Triana Fatmawati, S.T., M.T.\item Mamluatul Hani'ah, S.Kom., M.Kom.\item Rudy Ariyanto, S.T., M.Cs.\item Noprianto, S.Kom., M.Eng.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} RTI251006 - Dasar Pemrograman &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK903-00701 & Dasar pemrograman: konsep bahasa pemrograman, bahasa Java, compiler, instalasi tools pemrograman Java. & Modalitas: Luring/Daring. Metode: Problem Based Learning. Aktivitas: praktikum jobsheet di laboratorium. & 1 x 6 x 50' praktikum. & Mahasiswa melakukan instalasi tools Java sesuai jobsheet, melakukan compile dan debugging sintaks program, serta mengerjakan tugas praktikum. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan instalasi tools pemrograman Java; keaktifan diskusi (tanya jawab). & 2 \\
+2 & SCPMK903-00701 & Studi kasus: pemodelan permasalahan dengan algoritma (input, proses, output). & Modalitas: Luring/Daring. Metode: Diskusi dan Problem Based Learning. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa melakukan langkah percobaan sesuai jobsheet dan membuat algoritma deskripsi berdasarkan studi kasus. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan melaksanakan langkah percobaan; ketepatan menjawab pertanyaan pada jobsheet. & 2 \\
+3 & SCPMK704-00702 & Input-output, variabel, sequence, dan operator (aritmatika, gabungan, increment, decrement, relasional, logika, kondisional, bitwise, casting). & Modalitas: Luring/Daring. Metode: Diskusi. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menggunakan tipe data, variabel, input-output, dan operator serta mentranslasikan permasalahan sequence ke bahasa Java. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan tipe data, variabel, input-output, operator; ketepatan kode program dan output. & 2 \\
+4 & SCPMK903-00701, SCPMK704-00702 & Kuis 1: tes praktik materi minggu ke-1 sampai dengan 3. & Modalitas: Luring. Metode: tes praktik individu. & 1 x 6 x 50' praktikum. & Mahasiswa menyelesaikan soal tes praktik pemodelan algoritma, tipe data, input-output, dan sequence. & Rubrik kriteria penilaian. Bentuk: kuis (tes praktik). & Ketepatan pemodelan algoritma; ketepatan implementasi kode dan output. & 10 \\
+5 & SCPMK704-00702 & Pemilihan 1: if, if-else, else-if, dan switch-case. & Modalitas: Luring/Daring. Metode: Diskusi dan Problem Based Learning. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menuliskan program Java dari flowchart kasus pemilihan dasar dan mengerjakan tugas praktikum. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan pemilihan 1; ketepatan kode program dan output sesuai tugas. & 2 \\
+6 & SCPMK704-00702 & Pemilihan 2: if bersarang. & Modalitas: Luring/Daring. Metode: Diskusi dan Problem Based Learning. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menuliskan program Java dari flowchart kasus pemilihan bersarang (contoh: kasir sederhana). & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan pemilihan bersarang; ketepatan menjawab pertanyaan jobsheet. & 2 \\
+7 & SCPMK704-00703 & Perulangan 1: for, while, do-while. & Modalitas: Luring/Daring. Metode: Diskusi. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menuliskan program Java berdasarkan flowchart kasus perulangan bagian 1 dan memanfaatkan konsep perulangan. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menjelaskan perulangan bagian 1; ketepatan kode program dan output. & 2 \\
+8 & SCPMK704-00702, SCPMK704-00703 & Ujian Tengah Semester: ujian praktik materi pemilihan dan perulangan. & Modalitas: Luring. Metode: ujian praktik individu. & 1 x 6 x 50' praktikum. & Mahasiswa menyelesaikan soal ujian praktik pembuatan program pemilihan dan perulangan. & Rubrik kriteria penilaian. Bentuk: UTS (ujian praktik). & Ketepatan analisis kasus; ketepatan implementasi pemilihan dan perulangan; kode berjalan sesuai output. & 20 \\
+9 & SCPMK704-00703 & Perulangan 2: perulangan bersarang (nested loop). & Modalitas: Luring/Daring. Metode: Diskusi. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menuliskan program Java berdasarkan flowchart kasus perulangan bersarang. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menjelaskan perulangan bersarang; ketepatan memodelkan studi kasus ke Java. & 2 \\
+10 & SCPMK704-00703 & Array 1: array 1 dimensi, pengaksesan elemen, pengayaan searching dan sorting. & Modalitas: Luring/Daring. Metode: Diskusi. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menerapkan array 1 dimensi menggunakan bahasa Java sesuai jobsheet dan tugas praktikum. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan array 1 dimensi; ketepatan kode program dan output. & 2 \\
+11 & SCPMK704-00703 & Array 2: array 2 dimensi, pengayaan operasi matriks. & Modalitas: Luring/Daring. Metode: Diskusi dan Problem Based Learning. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menerapkan konsep array 2 dimensi pada studi kasus yang diberikan (contoh: pencarian data usia termuda). & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan array 2 dimensi; ketepatan kode program dan output. & 2 \\
+12 & SCPMK704-00703 & Kuis 2: tes praktik perulangan bersarang dan array. & Modalitas: Luring. Metode: tes praktik individu. & 1 x 6 x 50' praktikum. & Mahasiswa menyelesaikan soal tes praktik perulangan bersarang, array 1 dimensi, dan array 2 dimensi. & Rubrik kriteria penilaian. Bentuk: kuis (tes praktik). & Ketepatan implementasi perulangan bersarang; ketepatan implementasi array. & 10 \\
+13 & SCPMK704-00704 & Fungsi 1: tipe data fungsi, parameter/argumen, return, dan pemanggilan fungsi. & Modalitas: Luring/Daring. Metode: Diskusi. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menggunakan fungsi pada bahasa Java sesuai jobsheet dan mengerjakan tugas praktikum. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan fungsi; ketepatan kode program dan output sesuai tugas. & 2 \\
+14 & SCPMK704-00704 & Fungsi 2: fungsi rekursif dan pengayaan kasus fungsi. & Modalitas: Luring/Daring. Metode: Diskusi. Aktivitas: praktikum jobsheet. & 1 x 6 x 50' praktikum. & Mahasiswa menggunakan fungsi rekursif pada bahasa Java sesuai jobsheet dan mengerjakan tugas praktikum. & Rubrik kriteria penilaian. Bentuk: jobsheet praktikum dan tugas mandiri. & Ketepatan menggunakan fungsi rekursif; keaktifan diskusi; ketepatan kode dan output. & 2 \\
+15 & SCPMK704-00704 & Proyek akhir: pembuatan program penyelesaian permasalahan (materi pertemuan 1--14). & Modalitas: Luring/Daring. Metode: Project Based Learning, praktek mandiri. & 1 x 6 x 50' praktikum. & Mahasiswa membuat flowchart dan program untuk menyelesaikan studi kasus sesuai topik yang ditentukan. & Rubrik kriteria penilaian. Bentuk: PBL proyek akhir. & Ketepatan rancangan flowchart proyek; ketepatan kode program sesuai studi kasus. & 4 \\
+16 & SCPMK704-00704 & Penyelesaian proyek akhir dan demo program (materi pertemuan 1--14). & Modalitas: Luring/Daring. Metode: Project Based Learning, praktek mandiri, demo program. & 1 x 6 x 50' praktikum. & Mahasiswa menyelesaikan program proyek akhir, melakukan latihan, dan mendemonstrasikan program. & Rubrik kriteria penilaian. Bentuk: PBL proyek akhir. & Keaktifan diskusi; ketepatan kode program dan output sesuai latihan; kesiapan demo. & 4 \\
+17 & SCPMK704-00704 & Ujian Akhir Semester: demo project. & Modalitas: Luring. Metode: ujian praktik dan demo project individu. & 1 x 6 x 50' praktikum. & Mahasiswa mendemonstrasikan program proyek akhir dan menjawab pertanyaan penguji terkait kode program. & Rubrik kriteria penilaian. Bentuk: UAS (demo project). & Kelengkapan fungsionalitas program; kualitas kode; kualitas demo dan penjelasan program. & 30 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Praktikum Dasar Pemrograman \\
+Kode Mata Kuliah & RTI251007 \quad \textbf{sks / Jam perminggu:} 3 SKS/6 jam \quad \textbf{Semester:} 1 \\
+Dosen Pengampu & \begin{enumerate}\item Mungki Astiningrum, S.T., M.Kom.\item Imam Fahrur Rozi, S.T., M.T.\item Triana Fatmawati, S.T., M.T.\item Mamluatul Hani'ah, S.Kom., M.Kom.\item Rudy Ariyanto, S.T., M.Cs.\item Noprianto, S.Kom., M.Eng.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Praktikum Jobsheet Dasar Pemrograman}{Tugas praktikum (jobsheet)}{SCPMK903-00701, SCPMK704-00702, SCPMK704-00703, SCPMK704-00704}{Mahasiswa menyelesaikan jobsheet praktikum mingguan (instalasi Java, studi kasus algoritma, sequence, pemilihan, perulangan, array, fungsi) beserta tugas mandiri tiap pertemuan.}{Melakukan review materi bersama dosen, melaksanakan langkah percobaan sesuai jobsheet, melakukan compile dan debugging program Java, mengerjakan tugas praktikum, dan mengumpulkan laporan melalui LMS.}{Laporan jobsheet praktikum (PDF), kode sumber Java, dan screenshot output program yang dikumpulkan melalui LMS.}{Ketepatan langkah percobaan dan jawaban pertanyaan jobsheet & 8 & Seluruh langkah percobaan dijalankan sesuai jobsheet dan pertanyaan jobsheet dijawab benar disertai penjelasan. & Sebagian besar langkah percobaan dijalankan dan sebagian pertanyaan jobsheet dijawab benar. & Langkah percobaan tidak diselesaikan atau jawaban pertanyaan jobsheet banyak yang salah. \\ \\
+Ketepatan kode program dan output tugas praktikum & 10 & Kode program dapat di-compile, berjalan tanpa error, dan output sesuai spesifikasi seluruh tugas praktikum. & Kode program berjalan tetapi sebagian output belum sesuai spesifikasi atau masih terdapat kesalahan minor. & Kode program tidak dapat di-compile, tidak berjalan, atau output tidak sesuai spesifikasi tugas. \\ \\
+Kedisiplinan pengumpulan dan keaktifan diskusi & 4 & Seluruh laporan dikumpulkan tepat waktu dan mahasiswa aktif dalam diskusi/tanya jawab daring maupun luring. & Sebagian laporan terlambat dikumpulkan atau keaktifan diskusi terbatas. & Laporan banyak yang tidak dikumpulkan dan mahasiswa pasif dalam diskusi. \\}
+
+\assessmentblock{Kuis 1 Tes Praktik Dasar Pemrograman}{Kuis (tes praktik)}{SCPMK903-00701, SCPMK704-00702}{Mahasiswa menyelesaikan tes praktik individu materi minggu ke-1 sampai 3: pemodelan algoritma, tipe data, variabel, operator, input-output, dan sequence.}{Menganalisis soal studi kasus, memodelkan penyelesaian dalam algoritma/flowchart, menuliskan program Java, serta melakukan compile dan uji output dalam waktu yang ditentukan.}{Berkas algoritma/flowchart dan kode sumber Java beserta output program yang dikumpulkan melalui LMS.}{Ketepatan pemodelan algoritma (input, proses, output) & 4 & Algoritma/flowchart menggambarkan input, proses, dan output secara runtut dan sesuai studi kasus. & Algoritma/flowchart menggambarkan penyelesaian tetapi terdapat langkah yang kurang tepat atau tidak runtut. & Algoritma/flowchart tidak menggambarkan penyelesaian studi kasus. \\ \\
+Ketepatan implementasi tipe data, operator, input-output, dan sequence & 6 & Program Java menggunakan tipe data, variabel, operator, dan input-output secara tepat; kode berjalan dan output benar. & Program berjalan tetapi terdapat pemilihan tipe data/operator yang kurang tepat atau output sebagian salah. & Program tidak dapat di-compile atau output tidak sesuai soal. \\}
+
+\assessmentblock{UTS Ujian Praktik Pemilihan dan Perulangan}{UTS (ujian praktik)}{SCPMK704-00702, SCPMK704-00703}{Mahasiswa menyelesaikan ujian praktik individu pembuatan program Java yang memuat struktur pemilihan dan perulangan berdasarkan studi kasus.}{Menganalisis studi kasus ujian, merancang penyelesaian, mengimplementasikan program Java dengan struktur pemilihan dan perulangan, serta menguji kebenaran output dalam waktu ujian.}{Kode sumber Java dan hasil eksekusi program yang dikumpulkan melalui LMS pada akhir sesi ujian.}{Ketepatan analisis kasus dan rancangan penyelesaian & 6 & Input, proses, dan output kasus diidentifikasi tepat dan rancangan penyelesaian sesuai kebutuhan soal. & Analisis kasus sebagian tepat tetapi terdapat kebutuhan soal yang tidak terjawab. & Analisis kasus salah sehingga penyelesaian tidak menjawab soal. \\ \\
+Ketepatan implementasi struktur pemilihan & 7 & Struktur pemilihan (if, if-else, else-if, switch-case, bersarang) dipilih dan diimplementasikan tepat sesuai kondisi kasus. & Struktur pemilihan diimplementasikan tetapi terdapat kondisi yang salah atau tidak lengkap. & Struktur pemilihan salah total atau tidak digunakan padahal dibutuhkan. \\ \\
+Ketepatan implementasi struktur perulangan dan output program & 7 & Struktur perulangan diimplementasikan tepat; program berjalan tanpa error dan seluruh output sesuai soal. & Perulangan berjalan tetapi batas/kondisi kurang tepat sehingga sebagian output salah. & Program tidak berjalan atau output tidak sesuai soal. \\}
+
+\assessmentblock{Kuis 2 Tes Praktik Perulangan Bersarang dan Array}{Kuis (tes praktik)}{SCPMK704-00703}{Mahasiswa menyelesaikan tes praktik individu materi perulangan bersarang, array 1 dimensi, dan array 2 dimensi.}{Menganalisis soal studi kasus, mengimplementasikan program Java dengan perulangan bersarang dan array, serta menguji kebenaran output dalam waktu yang ditentukan.}{Kode sumber Java beserta output program yang dikumpulkan melalui LMS.}{Ketepatan implementasi perulangan bersarang & 5 & Perulangan bersarang diimplementasikan tepat, kode berjalan, dan output sesuai studi kasus. & Perulangan bersarang berjalan tetapi batas/kondisi kurang tepat sehingga output sebagian salah. & Perulangan bersarang tidak diimplementasikan atau program tidak berjalan. \\ \\
+Ketepatan implementasi array 1 dimensi dan 2 dimensi & 5 & Deklarasi, pengisian, dan pengaksesan elemen array tepat; output pengolahan data sesuai soal. & Array digunakan tetapi terdapat kesalahan pengaksesan elemen atau output sebagian salah. & Array tidak digunakan dengan benar atau output tidak sesuai soal. \\}
+
+\assessmentblock{PBL Proyek Akhir Pemrograman}{Project Based Learning}{SCPMK704-00704}{Mahasiswa membangun program Java utuh untuk menyelesaikan studi kasus permasalahan sesuai topik yang ditentukan dengan memanfaatkan materi pertemuan 1--14.}{Menganalisis permasalahan, membuat flowchart penyelesaian, mengimplementasikan program Java (sequence, pemilihan, perulangan, array, fungsi), menguji program, dan menyiapkan demo.}{Flowchart, kode sumber Java, dan dokumentasi singkat proyek yang dikumpulkan melalui LMS.}{Ketepatan rancangan flowchart proyek & 3 & Flowchart menggambarkan alur penyelesaian studi kasus secara runtut, lengkap, dan konsisten dengan program. & Flowchart tersedia tetapi terdapat alur yang kurang lengkap atau tidak konsisten dengan program. & Flowchart tidak tersedia atau tidak menggambarkan penyelesaian studi kasus. \\ \\
+Ketepatan implementasi program proyek & 3 & Program memanfaatkan pemilihan, perulangan, array, dan fungsi secara tepat; kode berjalan sesuai studi kasus. & Program berjalan tetapi pemanfaatan struktur pemrograman kurang tepat atau sebagian fitur belum selesai. & Program tidak berjalan atau tidak sesuai studi kasus. \\ \\
+Kelengkapan dokumentasi dan kesiapan demo & 2 & Dokumentasi proyek lengkap dan mahasiswa siap mendemonstrasikan program dengan lancar. & Dokumentasi atau kesiapan demo masih terbatas. & Tidak ada dokumentasi dan mahasiswa tidak siap demo. \\}
+
+\assessmentblock{UAS Demo Project Dasar Pemrograman}{UAS (ujian praktik dan demo project)}{SCPMK704-00704}{Mahasiswa mendemonstrasikan program proyek akhir di hadapan penguji dan menjawab pertanyaan terkait logika serta struktur kode program.}{Menjalankan program di hadapan penguji, menunjukkan fungsionalitas sesuai studi kasus, menjelaskan alur logika dan struktur kode, serta menjawab pertanyaan modifikasi sederhana.}{Demo program berjalan, kode sumber Java, dan jawaban lisan atas pertanyaan penguji.}{Kelengkapan fungsionalitas program & 12 & Seluruh fungsionalitas sesuai studi kasus berjalan benar tanpa error saat didemonstrasikan. & Fungsionalitas utama berjalan tetapi sebagian fitur error atau belum selesai. & Program tidak berjalan atau fungsionalitas utama tidak sesuai studi kasus. \\ \\
+Kualitas kode program (struktur, fungsi, kerapian) & 10 & Kode terstruktur dengan fungsi yang tepat, penamaan konsisten, dan mudah dibaca. & Kode berjalan tetapi struktur fungsi atau kerapian penulisan masih kurang. & Kode tidak terstruktur, sulit dibaca, atau tidak memanfaatkan fungsi. \\ \\
+Kualitas demo dan penjelasan program & 8 & Mahasiswa mendemonstrasikan program dengan lancar dan mampu menjelaskan serta memodifikasi kode sesuai pertanyaan penguji. & Demo berjalan tetapi penjelasan logika kode kurang meyakinkan atau modifikasi tidak selesai. & Mahasiswa tidak mampu menjelaskan kode program yang didemonstrasikan. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS (lms.polinema.ac.id), JDK dan IDE, komputer laboratorium, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

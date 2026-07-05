@@ -1,0 +1,151 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Administrasi dan Keamanan Jaringan & RTI255008 & 3 SKS/6 jam & 5 & 15 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & \begin{enumerate}\item Ade Ismail\item Yuri Ariyanto\item Sofyan Noor Arief\end{enumerate} &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=14]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL05 & \SetCell[c=3]{l} Solusi teknologi komputasi dan infrastruktur digital sesuai kebutuhan. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK501 & \SetCell[c=3]{l} Mahasiswa mampu merancang dan menerapkan kebijakan serta prosedur keamanan infrastruktur jaringan dan cloud. &  &  \\
+ & CPMK502 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis isu keamanan pada sistem operasi, jaringan, dan cloud untuk menentukan strategi mitigasi yang tepat. &  &  \\
+ & CPMK505 & \SetCell[c=3]{l} Mahasiswa mampu mengkonfigurasi, mengelola, dan mengoptimalkan mekanisme keamanan jaringan sesuai standar dan best practice. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK501-04401 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet. &  &  \\
+ & SCPMK502-04401 & \SetCell[c=3]{l} Mahasiswa mampu mengidentifikasi dan menganalisis ancaman, kerentanan, serta dampak keamanan pada sistem dan jaringan komputer. &  &  \\
+ & SCPMK505-04401 & \SetCell[c=3]{l} Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM. &  &  \\
+ & SCPMK505-04402 & \SetCell[c=3]{l} Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=5]{c} Bobot per Bentuk Penilaian & & & & & Total Bobot \\
+ & & Tugas & Kuis & UTS & PBL & UAS & \\
+CPMK501 & SCPMK501-04401 & 6\%: kebijakan \& desain topologi & 4\%: konfigurasi gateway & 10\%: konsep \& infrastruktur & & & 20\% \\
+CPMK502 & SCPMK502-04401 & 4\%: ancaman \& kerentanan & & 10\%: identifikasi ancaman & 13\%: simulasi desain keamanan & & 27\% \\
+CPMK505 & SCPMK505-04401 & 6\%: administrasi \& monitoring & 6\%: mekanisme keamanan & & 13\%: simulasi administrasi jaringan & & 25\% \\
+CPMK505 & SCPMK505-04402 & 8\%: optimasi \& troubleshooting & & & & 20\%: kompetensi akhir & 28\% \\
+\SetCell[c=7]{r}\textbf{Total Per Penilaian} & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah ini membekali mahasiswa dengan pengetahuan dan keterampilan komprehensif untuk menjadi administrator jaringan yang kompeten dalam mengelola keamanan jaringan komputer di organisasi. Materi meliputi desain sistem keamanan, instalasi dan konfigurasi gateway internet, administrasi sistem jaringan, optimasi kinerja jaringan, dan integrasi SIEM, sesuai Standar Kompetensi Kerja Nasional Indonesia (SKKNI) bidang Jaringan Komputer dan Sistem Administrasi. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Pengenalan infrastruktur \& keamanan jaringan, CIA Triad, dan penilaian risiko\item Identifikasi ancaman siber dan kerentanan sistem jaringan\item Desain topologi jaringan aman: segmentasi, VLAN, DMZ\item Simulasi desain keamanan jaringan\item Konsep dan pemilihan gateway internet\item Instalasi dan konfigurasi dasar gateway internet\item Konfigurasi NAT dan firewall pada gateway\item Administrasi sistem jaringan: AAA, RADIUS/TACACS+\item Manajemen pengguna, RBAC, dan kontrol akses\item Monitoring jaringan dan dasar logging/SIEM\item Simulasi administrasi dan troubleshooting jaringan\item Identifikasi bottleneck dan optimasi kinerja jaringan\item Benchmarking, QoS, dan traffic shaping\item Simulasi optimasi kinerja dan integrasi SIEM\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Standar Kompetensi Kerja Nasional Indonesia (SKKNI) Sektor Komunikasi dan Informasi, Bidang Jaringan Komputer dan Sistem Administrasi.\item Stallings, W. Cryptography and Network Security: Principles and Practice. Pearson.\item Cisco Networking Academy. CCNA Security Course Booklet. Cisco Press.\item NIST Special Publications (SP 800 Series) terkait Keamanan Jaringan.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi ajar/modul dari dosen/tim pengajar; dokumentasi resmi GNS3 dan VirtualBox. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} GNS3, VirtualBox. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Ade Ismail\item Yuri Ariyanto\item Sofyan Noor Arief\item Yusriel A\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} Sistem Operasi; Jaringan Komputer &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK502-04401 & Pengantar infrastruktur \& keamanan jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi interaktif, studi kasus. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengantar infrastruktur dan keamanan jaringan serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+2 & SCPMK502-04401 & Identifikasi ancaman \& kerentanan jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi, analisis kasus ancaman. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk identifikasi ancaman dan kerentanan serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+3 & SCPMK501-04401 & Desain topologi jaringan aman. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi kelompok, latihan desain konseptual. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk desain topologi jaringan aman serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+4 & SCPMK501-04401, SCPMK502-04401 & Simulasi desain keamanan jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Praktikum/simulasi (lab), tugas proyek mini. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa terlibat dalam proyek mini, melakukan simulasi desain keamanan, dan menyusun laporan dokumentasi. & Bentuk penilaian: PBL simulasi desain keamanan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 13 \\
+5 & SCPMK501-04401 & Konsep \& pemilihan gateway internet. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi, analisis kebutuhan gateway. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk konsep dan pemilihan gateway internet serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+6 & SCPMK505-04401 & Instalasi dasar gateway internet. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, studi kasus, instalasi dan konfigurasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk instalasi dasar gateway internet serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+7 & SCPMK501-04401, SCPMK505-04401 & Kuis: konfigurasi NAT \& firewall pada gateway. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Kuis tertulis. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan kuis tertulis tentang konfigurasi NAT dan keamanan gateway. & Bentuk penilaian: Kuis konfigurasi dan keamanan jaringan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 10 \\
+8 & SCPMK501-04401, SCPMK502-04401 & UTS: infrastruktur \& keamanan jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ujian tertulis. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan soal ujian tertulis komprehensif materi pertemuan 1--7. & Bentuk penilaian: UTS infrastruktur \& keamanan jaringan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 20 \\
+9 & SCPMK505-04402 & Administrasi sistem jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi, latihan konfigurasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk administrasi sistem jaringan serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+10 & SCPMK505-04402 & Manajemen pengguna \& kontrol akses. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi, latihan manajemen user. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk manajemen pengguna dan kontrol akses serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+11 & SCPMK505-04402 & Monitoring jaringan \& logging (SIEM). & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, demo alat monitoring, diskusi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk monitoring jaringan dan dasar SIEM serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+12 & SCPMK505-04401, SCPMK505-04402 & Simulasi administrasi \& troubleshooting jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Praktikum/simulasi (lab), tugas proyek mini. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa terlibat dalam proyek mini, melakukan simulasi administrasi dan troubleshooting, serta menganalisis skenario. & Bentuk penilaian: PBL simulasi administrasi \& troubleshooting. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 13 \\
+13 & SCPMK505-04402 & Identifikasi bottleneck kinerja jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi, analisis data kinerja. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk identifikasi bottleneck kinerja jaringan serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+14 & SCPMK505-04402 & Benchmarking \& tuning jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, studi kasus optimasi, diskusi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk benchmarking dan tuning jaringan serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+15 & SCPMK505-04402 & Simulasi optimasi kinerja \& SIEM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Praktikum/simulasi, tugas mandiri. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk simulasi optimasi kinerja dan penggunaan SIEM serta menunjukkan evidence hasil belajar. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+16 & SCPMK505-04401, SCPMK505-04402 & Refleksi \& portofolio kompetensi. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Diskusi interaktif, presentasi ringkas, konsultasi portofolio. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa merefleksikan pembelajaran, menyusun portofolio kompetensi, dan mendiskusikan keterkaitan teori-praktik. & Bentuk penilaian: Tugas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2 \\
+17 & SCPMK501-04401--SCPMK505-04402 & UAS: kompetensi administrasi \& keamanan jaringan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ujian tertulis atau presentasi proyek akhir. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan soal ujian tulis atau mempresentasikan proyek akhir yang menunjukkan kompetensi SKKNI. & Bentuk penilaian: UAS kompetensi administrasi \& keamanan jaringan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 20 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Administrasi dan Keamanan Jaringan \\
+Kode Mata Kuliah & RTI255008 \quad \textbf{sks / Jam perminggu:} 3 SKS/6 jam \quad \textbf{Semester:} 5 \\
+Dosen Pengampu & \begin{enumerate}\item Ade Ismail\item Yuri Ariyanto\item Sofyan Noor Arief\item Yusriel A\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Analisis Desain Keamanan Jaringan}{Tugas terstruktur dan studi kasus}{SCPMK501-04401, SCPMK502-04401, SCPMK505-04401, SCPMK505-04402}{Mahasiswa menyelesaikan tugas analisis desain keamanan jaringan sesuai Sub-CPMK dan konteks mata kuliah, mencakup identifikasi ancaman, perancangan topologi aman, konfigurasi administrasi, dan optimasi jaringan.}{Menganalisis skenario keamanan jaringan, merancang solusi teknis, mengkonfigurasi mekanisme keamanan, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan teknis, diagram topologi jaringan, konfigurasi terdokumentasi, evidence pengujian, dan/atau bahan presentasi.}{Ketepatan identifikasi ancaman dan kerentanan jaringan & 9 & Ancaman, kerentanan, dan dampak diidentifikasi secara komprehensif dengan contoh nyata dan referensi SKKNI atau best practice keamanan jaringan. & Ancaman utama teridentifikasi tetapi analisis dampak atau referensi standar belum lengkap. & Identifikasi ancaman tidak tepat atau tidak mencerminkan konteks keamanan jaringan yang nyata. \\ \\
+Kualitas desain dan konfigurasi keamanan jaringan & 9 & Desain mencakup segmentasi, DMZ, penempatan perangkat keamanan, dan konfigurasi yang diuji serta didokumentasikan secara lengkap. & Desain cukup valid tetapi konfigurasi, pengujian, atau justifikasi komponen belum sepenuhnya lengkap. & Desain tidak menunjukkan prinsip keamanan jaringan yang benar atau konfigurasi tidak berfungsi. \\ \\
+Kelengkapan dokumentasi dan laporan teknis & 6 & Dokumentasi lengkap, sistematis, mencakup desain, konfigurasi, pengujian, dan refleksi teknis yang siap digunakan sebagai referensi. & Dokumentasi ada tetapi belum sistematis atau masih ada bagian penting yang kurang. & Dokumentasi tidak lengkap atau tidak dapat digunakan sebagai referensi teknis. \\}
+
+\assessmentblock{Simulasi Desain Keamanan Jaringan}{Project Based Learning -- Praktikum/Simulasi}{SCPMK501-04401, SCPMK502-04401}{Mahasiswa menyelesaikan simulasi desain keamanan jaringan sesuai Sub-CPMK, mencakup implementasi topologi aman, konfigurasi firewall, dan dokumentasi hasil simulasi menggunakan GNS3 atau Packet Tracer.}{Menganalisis skenario, merancang dan mengimplementasikan topologi jaringan aman, mengkonfigurasi aturan firewall dan penempatan perangkat keamanan, menguji konektivitas dan keamanan, serta mendokumentasikan laporan proyek.}{Laporan proyek, diagram topologi terdokumentasi, konfigurasi dan evidence pengujian, dan/atau bahan presentasi.}{Akurasi implementasi desain keamanan jaringan & 5 & Topologi, segmentasi, DMZ, dan penempatan perangkat keamanan diimplementasikan sesuai skenario dan best practice dengan bukti pengujian yang lengkap. & Implementasi utama benar tetapi beberapa detail segmentasi, penempatan perangkat, atau pengujian belum optimal. & Implementasi tidak mencerminkan prinsip desain keamanan jaringan atau tidak dapat diuji. \\ \\
+Konfigurasi firewall dan aturan akses & 5 & Aturan firewall dikonfigurasi dengan logika keamanan yang benar, diuji dengan skenario serangan, dan seluruh hasilnya terdokumentasi. & Konfigurasi dasar ada dan sebagian pengujian dilakukan, tetapi dokumentasi aturan atau skenario pengujian belum lengkap. & Konfigurasi tidak berfungsi atau tidak mengikuti logika keamanan yang benar. \\ \\
+Kualitas laporan dan presentasi simulasi & 3 & Laporan mencakup desain, implementasi, hasil pengujian, dan refleksi dengan argumen teknis yang kuat dan sistematis. & Laporan ada tetapi analisis teknis, kelengkapan bagian, atau keterkaitan antar komponen masih kurang. & Laporan tidak sistematis atau tidak mendokumentasikan proses simulasi secara memadai. \\}
+
+\assessmentblock{Kuis Konfigurasi dan Keamanan Jaringan}{Kuis tertulis}{SCPMK501-04401, SCPMK505-04401}{Mahasiswa mengerjakan kuis tertulis yang mencakup pemahaman konsep konfigurasi gateway, NAT, firewall, dan mekanisme keamanan jaringan sesuai Sub-CPMK.}{Menjawab soal kuis secara tertulis berdasarkan pemahaman konsep dan kemampuan analisis skenario konfigurasi jaringan.}{Lembar jawaban kuis tertulis.}{Penguasaan konsep konfigurasi gateway dan NAT & 4 & Jawaban menunjukkan pemahaman mendalam tentang konfigurasi NAT, firewall, routing, dan keamanan gateway berdasarkan skenario yang diberikan. & Konsep dasar dipahami tetapi penerapan pada skenario spesifik masih kurang tepat atau tidak lengkap. & Jawaban tidak menunjukkan pemahaman konsep konfigurasi jaringan yang memadai. \\ \\
+Analisis skenario keamanan jaringan & 4 & Skenario dianalisis dengan tepat, solusi yang diusulkan sesuai best practice, dan dampak keamanan diidentifikasi dengan benar. & Analisis cukup baik tetapi rekomendasi solusi atau identifikasi dampak belum sepenuhnya lengkap. & Analisis tidak relevan atau solusi yang diusulkan tidak mengikuti prinsip keamanan jaringan. \\ \\
+Ketepatan prosedur implementasi keamanan & 2 & Prosedur implementasi dikuasai dengan urutan dan justifikasi yang benar sesuai standar industri. & Prosedur sebagian benar tetapi ada langkah yang salah, terlewat, atau tidak dapat dijustifikasi. & Prosedur tidak dikuasai, urutannya salah, atau tidak sesuai standar implementasi keamanan jaringan. \\}
+
+\assessmentblock{UTS Infrastruktur dan Keamanan Jaringan}{Ujian Tertulis}{SCPMK501-04401, SCPMK502-04401}{Mahasiswa mengerjakan ujian tertulis komprehensif yang mencakup materi infrastruktur jaringan, identifikasi ancaman, penilaian risiko, desain topologi aman, konsep gateway, dan konfigurasi NAT/firewall dari pertemuan 1--7.}{Menjawab soal ujian tertulis secara mandiri yang mencakup konsep, analisis skenario, dan perancangan solusi keamanan jaringan.}{Lembar jawaban ujian tertulis.}{Pemahaman konsep infrastruktur dan keamanan jaringan & 8 & Mahasiswa mampu menjelaskan, menganalisis, dan menghubungkan konsep CIA Triad, ancaman, kerentanan, kebijakan keamanan, dan desain infrastruktur secara komprehensif. & Konsep utama dipahami tetapi hubungan antar konsep atau penerapan pada skenario masih kurang lengkap. & Jawaban tidak menunjukkan pemahaman konsep infrastruktur dan keamanan jaringan yang memadai. \\ \\
+Analisis skenario ancaman dan kerentanan & 7 & Ancaman dan kerentanan diidentifikasi dengan tepat, dampak bisnis dianalisis, dan strategi mitigasi yang sesuai diusulkan berdasarkan best practice. & Identifikasi ancaman cukup baik tetapi analisis dampak bisnis atau strategi mitigasi belum lengkap. & Ancaman tidak teridentifikasi dengan tepat atau mitigasi yang diusulkan tidak relevan dengan konteks. \\ \\
+Desain solusi keamanan jaringan & 5 & Solusi dirancang dengan mempertimbangkan topologi, segmentasi, penempatan perangkat, dan mekanisme perlindungan yang tepat dan terjustifikasi. & Solusi cukup valid tetapi belum mencakup semua aspek keamanan yang relevan atau justifikasi masih lemah. & Solusi tidak menunjukkan pemahaman desain keamanan jaringan atau tidak dapat diterapkan. \\}
+
+\assessmentblock{Simulasi Administrasi dan Troubleshooting Jaringan}{Project Based Learning -- Praktikum/Simulasi}{SCPMK505-04401, SCPMK505-04402}{Mahasiswa menyelesaikan simulasi administrasi dan troubleshooting jaringan sesuai Sub-CPMK, mencakup konfigurasi administrasi akses, manajemen pengguna, monitoring SIEM, dan penyelesaian skenario troubleshooting.}{Menganalisis skenario administrasi jaringan, mengkonfigurasi akses aman (SSH, AAA, RBAC), mensimulasikan skenario troubleshooting, menggunakan alat monitoring, dan mendokumentasikan seluruh proses.}{Laporan proyek, konfigurasi terdokumentasi, log dan evidence monitoring, bahan troubleshooting, dan/atau bahan presentasi.}{Konfigurasi administrasi dan kontrol akses jaringan & 5 & Administrasi akses (SSH, MFA, AAA), manajemen pengguna (RBAC, Least Privilege), dan konfigurasi log berhasil dikonfigurasi, diuji, dan terdokumentasi secara lengkap. & Konfigurasi utama berhasil tetapi beberapa fitur administrasi, pengujian, atau dokumentasi belum lengkap. & Konfigurasi tidak berfungsi atau tidak sesuai dengan prinsip keamanan administrasi jaringan. \\ \\
+Analisis dan troubleshooting masalah jaringan & 5 & Masalah jaringan diidentifikasi dengan tepat, didiagnosis secara sistematis menggunakan alat yang sesuai, dan diselesaikan dengan solusi yang terdokumentasi. & Identifikasi masalah cukup baik tetapi langkah troubleshooting atau dokumentasi solusi belum lengkap. & Troubleshooting tidak sistematis, masalah tidak dapat diselesaikan, atau tidak ada dokumentasi. \\ \\
+Penggunaan monitoring dan logging (SIEM) & 3 & Alat monitoring dikonfigurasi, log dianalisis untuk keperluan keamanan, dan insight dari SIEM digunakan untuk meningkatkan keamanan sistem. & Monitoring dan logging dilakukan tetapi analisis log atau integrasi SIEM masih terbatas. & Tidak ada pemahaman atau penerapan yang memadai tentang monitoring dan logging jaringan. \\}
+
+\assessmentblock{UAS Kompetensi Administrasi dan Keamanan Jaringan}{Ujian Akhir -- Tertulis atau Presentasi Proyek}{SCPMK501-04401, SCPMK502-04401, SCPMK505-04401, SCPMK505-04402}{Mahasiswa mengerjakan ujian akhir atau mempresentasikan proyek akhir yang menunjukkan kompetensi komprehensif dalam administrasi dan keamanan jaringan sesuai SKKNI dan capaian seluruh CPMK mata kuliah.}{Mengerjakan soal ujian tulis atau mempresentasikan proyek akhir yang mencakup desain, implementasi, administrasi, monitoring, optimasi, dan evaluasi sistem keamanan jaringan secara menyeluruh.}{Lembar jawaban ujian atau laporan proyek akhir lengkap dengan dokumentasi teknis, hasil pengujian, dan bahan presentasi.}{Kompetensi administrasi jaringan terpadu & 8 & Mahasiswa menunjukkan kemampuan mengelola, mengkonfigurasi, dan memelihara sistem jaringan secara komprehensif sesuai SKKNI dengan bukti teknis yang meyakinkan. & Kompetensi administrasi cukup baik tetapi beberapa aspek pengelolaan atau konfigurasi lanjutan belum sepenuhnya dikuasai. & Tidak dapat menunjukkan kompetensi administrasi jaringan yang memadai atau bukti teknis tidak meyakinkan. \\ \\
+Strategi keamanan dan perlindungan sistem informasi & 7 & Strategi keamanan komprehensif dirancang dan diimplementasikan, mencakup identifikasi, autentikasi, otorisasi, monitoring, dan kebijakan perlindungan CIA Triad. & Strategi keamanan mencakup aspek utama tetapi beberapa mekanisme perlindungan atau integrasi antar komponen belum optimal. & Strategi keamanan tidak lengkap atau tidak menunjukkan pemahaman konsep perlindungan sistem informasi. \\ \\
+Optimasi kinerja dan presentasi kompetensi akhir & 5 & Hasil optimasi kinerja jaringan dipresentasikan dengan evidence data, analisis bottleneck, rekomendasi yang dapat ditindaklanjuti, dan komunikasi teknis yang meyakinkan. & Presentasi cukup baik tetapi analisis data kinerja, rekomendasi, atau kemampuan mempertahankan argumen masih terbatas. & Tidak dapat mempresentasikan hasil kompetensi dengan bukti teknis yang memadai atau komunikasi tidak profesional. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, simulator jaringan (GNS3/VirtualBox), repositori konfigurasi, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

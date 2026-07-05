@@ -1,0 +1,148 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Agama & RTI252001 & 2 SKS/2 jam & 2 & 29 Januari 2026 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Astrifidha Rahma Amalia, S.Pd., M.Pd. &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=9]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL01 & \SetCell[c=3]{l} Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK102 & \SetCell[c=3]{l} Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK102-01001 & \SetCell[c=3]{l} Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial. &  &  \\
+ & SCPMK102-01002 & \SetCell[c=3]{l} Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik. &  &  \\
+ & SCPMK102-01003 & \SetCell[c=3]{l} Mahasiswa menunjukkan kedisiplinan dan tanggung jawab dalam menyelesaikan kewajiban akademik tepat waktu. &  &  \\
+ & SCPMK102-01004 & \SetCell[c=3]{l} Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & Case Method & UAS & \\
+CPMK102 & SCPMK102-01001 & & & & & 15\%: diskusi konsep manusia, agama, dan tauhid & & 15\% \\
+CPMK102 & SCPMK102-01002 & 10\%: resume konsep manusia & 5\%: tes lisan bacaan dan hafalan Al-Qur'an & 10\%: materi minggu 1--7 & & 15\%: diskusi ekologi, akhlak, dan IPTEKS & & 40\% \\
+CPMK102 & SCPMK102-01003 & & & & 5\%: video simulasi etos kerja & & & 5\% \\
+CPMK102 & SCPMK102-01004 & & & & & 25\%: diskusi etos kerja, ekonomi syariah, dan masyarakat Islam & 15\%: materi minggu 9--16 & 40\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah wajib umum (MKU) yang mengkaji Pendahuluan, Konsep Manusia dan Agama, Konsep Tauhid, Manusia dalam Islam, Wawasan Ekologi dalam Islam, Aktualisasi Akhlak, IPTEKS dalam Islam, Pandangan Islam tentang Etos Kerja, Konsep Ekonomi Syariah, serta Pembentukan Masyarakat Islam melalui hakikat keluarga dan fungsi masjid. Mahasiswa diajak memahami ajaran Islam berdasarkan Al-Qur'an dan Hadis yang dihubungkan dengan kehidupan nyata era sekarang, sehingga PAI menjadi pegangan dalam pembentukan karakter yang baik secara individu maupun sosial. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Pendahuluan: visi pendidikan agama, deskripsi mata kuliah, pendekatan kuliah, tata tertib, dan sistem penilaian\item Manusia dan Agama: konsep agama dan Islam, agama kebutuhan manusia, dimensi ajaran Islam, metode memahami Islam, misi agama Islam, masa depan agama\item Konsep Tauhid: tauhid kebutuhan manusia, problem syirik, dampak tauhid\item Konsep Manusia: manusia dalam pandangan Islam, fungsi dan tugas hidup manusia, hakikat kehidupan dunia dan akhirat\item Wawasan Ekologi dalam Islam: hakikat alam semesta, arti dan sifat sunnatullah, manfaat alam semesta, Islam dan wawasan lingkungan\item Aktualisasi Akhlak: makna perjuangan Rasul, aktualisasi misi Rasul, aplikasi sifat-sifat Rasul dalam ilmu teknologi, ibadah dan pembentukan akhlak\item IPTEKS: hakikat ilmu dalam Islam, paradigma iptek, sumber ilmu pengetahuan, aplikasi pola dzikir dan pikir\item Etos Kerja: etos kerja dalam Islam, motivasi kerja dalam Islam, aktualisasi jihad dalam pembangunan\item Ekonomi: pengertian, prinsip, dan etika ekonomi syariah, pemberdayaan umat, manajemen zakat, wakaf, infak, dan sedekah\item Masyarakat Islam: fungsi keluarga dalam Islam, pembentukan keluarga sakinah, masjid sebagai pusat peradaban\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Al Qur'an Al Karim dan Qur'an Android.\item Fadloli, Sri Nurkudri, Abd. Chalim. 2018. Pendidikan Agama Islam Pada Perguruan Tinggi Umum. Malang: AM Publishing.\item Kemenristekdikti. 2016. Modul Pendidikan Agama Islam Untuk Perguruan Tinggi. Jakarta: Dirjen Belmawa Kemenristekdikti.\item Samiun Jazuli, Ahzami. 2014. Kehidupan Dalam Pandangan Al-Qur'an. Jakarta: Gema Insani.\item Abdullah, M. Amin. 2012. Islamic Studies di Perguruan Tinggi. Yogyakarta: Pustaka Pelajar.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:}\begin{enumerate}\item Ibnu Katsir, Tafsir al-Qur'an Online.\item Djakfar, H. Muhammad. 2010. Teologi Ekonomi Membumikan Tita Langit di Ranah Bisnis. Malang: UIN Maliki Press.\item Umar, Nasaruddin. 2014. Islam Fungsional Revitalisasi \& Reaktualisasi Nilai Islam. Jakarta: Gramedia.\end{enumerate} &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} PPT dan modul. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer, laptop, dan proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Astrifidha Rahma Amalia, S.Pd., M.Pd.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK102-01001 & Pendahuluan: visi pendidikan agama, deskripsi mata kuliah, pendekatan kuliah, tata tertib, dan sistem penilaian. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa memperoleh RPS, menyepakati kontrak perkuliahan dan tugas, serta melakukan tanya jawab dengan dosen. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif dalam diskusi; keterbukaan terhadap pendapat lain; kesopanan dan etika selama diskusi. & 3.75 \\
+2 & SCPMK102-01001 & Manusia dan Agama: konsep agama dan Islam, agama kebutuhan manusia, dan dimensi ajaran Islam. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok tentang konsep manusia dan agama, mengumpulkan makalah, serta presentasi lewat PPT. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; kemampuan menghubungkan konsep manusia dan agama dengan argumen relevan; komunikasi yang jelas dan profesional. & 3.75 \\
+3 & SCPMK102-01001 & Manusia dan Agama: metode memahami Islam, misi agama Islam, dan masa depan agama. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok, melakukan tanya jawab terhadap peserta presentasi, dan menghubungkan materi dengan kehidupan sehari-hari. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; ketepatan argumen dan contoh; keterbukaan menerima pandangan lain. & 3.75 \\
+4 & SCPMK102-01001 & Konsep Tauhid: tauhid kebutuhan manusia, problem syirik, dan dampak tauhid. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok tentang konsep tauhid, presentasi PPT, dan menghubungkan materi dengan konteks sosial dan moral. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Kemampuan menghubungkan konsep manusia, agama, dan tauhid; penyampaian ide yang efektif; etika diskusi. & 3.75 \\
+5 & SCPMK102-01002 & Konsep Tauhid: praktik bacaan Al-Qur'an sesuai tajwid. & Bentuk: kuliah tatap muka/daring/luring. Metode: diskusi dan dialog, studi kasus, dan praktikum. & TM: 1 x (2 x 50'). & Mahasiswa dilatih menjaga fokus dan ketelitian saat membaca ayat Al-Qur'an serta mengintegrasikan nilai bacaan dalam kehidupan sehari-hari. & Kriteria: ketepatan bacaan dan tajwid. Bentuk penilaian: Kuis 1 (tes lisan). & Kesesuaian bacaan dengan aturan tajwid; kelancaran membaca tanpa terbata-bata. & 2.5 \\
+6 & SCPMK102-01002 & Konsep Tauhid: hafalan ayat Al-Qur'an dan penghayatan. & Bentuk: kuliah tatap muka/daring/luring. Metode: diskusi dan dialog, studi kasus, dan praktikum. & TM: 1 x (2 x 50'). & Mahasiswa diberi tantangan menghafal ayat Al-Qur'an dan materi ajaran agama serta belajar lebih teliti memahami teks. & Kriteria: ketepatan hafalan. Bentuk penilaian: Kuis 1 (tes lisan). & Ketepatan dan konsistensi hafalan ayat; penghayatan dalam membaca dan pengucapan. & 2.5 \\
+7 & SCPMK102-01002 & Konsep Manusia: manusia dalam pandangan Islam, fungsi dan tugas hidup manusia, hakikat kehidupan dunia dan akhirat. & Bentuk: kuliah tatap muka/daring/luring. Metode: diskusi dan dialog, studi kasus, dan resume. & TM: 1 x (2 x 50'). & Mahasiswa menyaring informasi relevan dari berbagai sumber, menyusun resume terstruktur dan ringkas, serta berpikir kritis terhadap sumber. & Kriteria: resume. Bentuk penilaian: Tugas (esai). & Cakupan konsep utama secara akurat; kejelasan struktur dan bahasa resume; keterkaitan materi dengan kehidupan sehari-hari dan orisinalitas. & 10 \\
+8 & SCPMK102-01001, SCPMK102-01002 & UTS: materi minggu 1--7. & Ujian tulis, closed book. & Sesuai jadwal asesmen. & Mahasiswa mengerjakan soal ujian materi minggu 1--7 secara mandiri dan jujur. & Bentuk penilaian: UTS. & Ketepatan penjelasan konsep manusia, agama, dan tauhid; ketepatan penggunaan dalil; koherensi argumen. & 10 \\
+9 & SCPMK102-01002 & Wawasan Ekologi dalam Islam: hakikat alam semesta, sunnatullah, manfaat alam semesta, dan wawasan lingkungan. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa memperoleh pengetahuan tentang wawasan ekologi, berdiskusi kelompok, dan melakukan tanya jawab dengan dosen. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; ketepatan menghubungkan konsep dengan argumen atau contoh relevan; etika diskusi. & 5 \\
+10 & SCPMK102-01002 & Aktualisasi Akhlak: makna perjuangan Rasul, aktualisasi misi Rasul, aplikasi sifat Rasul dalam ilmu teknologi, ibadah dan pembentukan akhlak. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok tentang aktualisasi akhlak, mengumpulkan makalah, dan presentasi lewat PPT. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; kejelasan penyampaian ide; keterbukaan menerima pandangan lain. & 5 \\
+11 & SCPMK102-01002 & IPTEKS: hakikat ilmu dalam Islam, paradigma iptek, sumber ilmu pengetahuan, aplikasi pola dzikir dan pikir. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok tentang IPTEKS dalam Islam, tanya jawab terhadap peserta presentasi, dan menghubungkan materi dengan kehidupan sehari-hari. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Ketepatan argumen dan contoh; komunikasi profesional; kesopanan dan sikap hormat selama diskusi. & 5 \\
+12 & SCPMK102-01003 & Etos Kerja: etos kerja dalam Islam dan motivasi kerja dalam Islam. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa memahami konsep etos kerja, membuat video simulasi beserta dalil Al-Qur'an dan Hadis, serta mengembangkan keterampilan perangkat lunak pembuatan video. & Tugas kelompok: video simulasi beserta dalil. Bentuk penilaian: Kuis 2 (rubrik penilaian video simulasi). & Kesesuaian isi video dengan pemahaman topik; kreativitas dan penggunaan teknologi; kesesuaian durasi dengan materi. & 5 \\
+13 & SCPMK102-01004 & Etos Kerja: aktualisasi jihad dalam pembangunan. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa memperoleh pengetahuan tentang etos kerja, berdiskusi kelompok, dan melakukan tanya jawab dengan dosen. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; ketepatan argumen dan contoh relevan; etika diskusi. & 5 \\
+14 & SCPMK102-01004 & Ekonomi Syariah: pengertian, prinsip, dan etika ekonomi syariah. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok tentang ekonomi syariah, mengumpulkan makalah, dan presentasi lewat PPT. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; kejelasan penyampaian ide; keterbukaan menerima pandangan lain. & 5 \\
+15 & SCPMK102-01004 & Ekonomi Syariah: pemberdayaan umat melalui ekonomi syariah, manajemen zakat, wakaf, infak, dan sedekah. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok, melakukan tanya jawab terhadap peserta presentasi, dan menghubungkan materi dengan kehidupan sehari-hari. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Ketepatan argumen dan contoh; komunikasi profesional; kesopanan dan etika diskusi. & 7.5 \\
+16 & SCPMK102-01004 & Masyarakat Islam: fungsi keluarga dalam Islam, pembentukan keluarga sakinah, masjid sebagai pusat peradaban. & Bentuk: kuliah tatap muka/daring/luring. Metode: ceramah, diskusi, studi kasus, dan pembelajaran berbasis masalah. & TM: 1 x (2 x 50'). & Mahasiswa berdiskusi kelompok tentang masyarakat Islam, presentasi PPT, dan merefleksikan materi dalam konteks sosial dan moral. & Tugas kelompok: lembar observasi dosen. Bentuk penilaian: Case Method. & Partisipasi aktif; refleksi nilai keagamaan pada kasus nyata; etika diskusi. & 7.5 \\
+17 & SCPMK102-01004 & UAS: materi minggu 9--16. & Ujian tulis, closed book. & Sesuai jadwal asesmen. & Mahasiswa mengerjakan soal ujian materi minggu 9--16 secara mandiri dan jujur. & Bentuk penilaian: UAS. & Pemahaman etos kerja, ekonomi syariah, dan masyarakat Islam; refleksi nilai keagamaan dalam keputusan etis; penggunaan dalil. & 15 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Agama \\
+Kode Mata Kuliah & RTI252001 \quad \textbf{sks / Jam perminggu:} 2 SKS/2 jam \quad \textbf{Semester:} 2 \\
+Dosen Pengampu & \begin{enumerate}\item Astrifidha Rahma Amalia, S.Pd., M.Pd.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Case Method Diskusi dan Presentasi Kelompok}{Case Method (lembar observasi dosen)}{SCPMK102-01001, SCPMK102-01002, SCPMK102-01004}{Mahasiswa mendiskusikan kasus keagamaan aktual pada topik manusia dan agama, tauhid, ekologi, akhlak, IPTEKS, etos kerja, ekonomi syariah, dan masyarakat Islam, lalu mempresentasikan hasil kelompok.}{Berdiskusi secara kelompok, menyusun makalah, mempresentasikan lewat PPT, melakukan tanya jawab, dan menghubungkan materi ajar dengan kehidupan sehari-hari.}{Makalah kelompok, bahan presentasi PPT, dan catatan hasil diskusi.}{Partisipasi aktif dalam diskusi kelompok & 15 & Hadir penuh, mengajukan pendapat konstruktif di setiap sesi diskusi, serta merespons pendapat anggota lain dengan argumen. & Ikut berdiskusi, tetapi pendapat jarang disampaikan atau respons terhadap anggota lain terbatas. & Pasif, tidak memberikan pendapat, atau tidak terlibat dalam kerja kelompok. \\ \\
+Ketepatan menghubungkan konsep dengan dalil dan contoh & 15 & Konsep manusia, agama, tauhid, hingga masyarakat Islam dihubungkan dengan dalil Al-Qur'an/Hadis dan contoh kehidupan nyata yang relevan. & Konsep dijelaskan benar, tetapi dalil atau contoh yang diberikan kurang relevan atau tidak lengkap. & Penjelasan konsep keliru atau tidak disertai dalil dan contoh sama sekali. \\ \\
+Keterbukaan dan etika dalam menanggapi pendapat & 10 & Mendengarkan, mempertimbangkan, dan menanggapi pandangan berbeda dengan sopan, hormat, dan menghargai perbedaan keyakinan. & Menanggapi pendapat lain dengan cukup sopan, tetapi kadang memotong atau mengabaikan pandangan berbeda. & Menolak pandangan lain tanpa argumen, bersikap tidak sopan, atau merendahkan keyakinan berbeda. \\ \\
+Kejelasan penyampaian ide dan kualitas presentasi & 15 & Makalah dan PPT terstruktur, ide disampaikan jelas dan efektif, serta tanya jawab dijawab dengan komunikasi profesional. & Presentasi cukup jelas, tetapi struktur makalah/PPT atau jawaban tanya jawab masih kurang runtut. & Presentasi sulit dipahami, makalah/PPT tidak terstruktur, atau tidak mampu menjawab pertanyaan. \\}
+
+\assessmentblock{Tugas Resume Konsep Manusia}{Tugas (esai/resume)}{SCPMK102-01002}{Mahasiswa menyusun resume mandiri tentang konsep manusia dalam pandangan Islam, fungsi dan tugas hidup manusia, serta hakikat kehidupan dunia dan akhirat.}{Menyaring informasi relevan dari berbagai sumber, memilih poin terpenting, menyusunnya dalam format terstruktur dan ringkas, serta berpikir kritis terhadap sumber yang digunakan.}{Resume tertulis (esai) yang dikumpulkan sesuai tenggat.}{Cakupan konsep utama dalam resume & 4 & Resume mencakup konsep manusia, fungsi dan tugas hidup, serta hakikat dunia-akhirat secara akurat sesuai materi dan sumber utama. & Sebagian besar konsep utama tercakup, tetapi ada bagian yang dangkal atau kurang akurat. & Resume tidak mencakup konsep utama atau banyak isi yang keliru. \\ \\
+Struktur dan kejelasan bahasa & 3 & Resume terorganisasi rapi, ringkas, menggunakan bahasa yang baik, dan mudah diikuti alurnya. & Struktur cukup jelas, tetapi ada bagian yang bertele-tele atau bahasa kurang rapi. & Resume tidak terstruktur, sulit dipahami, atau sekadar salinan sumber. \\ \\
+Keterkaitan dengan kehidupan dan orisinalitas & 3 & Materi dihubungkan dengan pengalaman atau kasus kehidupan sehari-hari dalam konteks moral, etika, atau spiritual dengan pemahaman baru yang orisinal. & Ada upaya menghubungkan materi dengan kehidupan, tetapi analisisnya terbatas atau kurang orisinal. & Tidak ada keterkaitan dengan kehidupan nyata dan resume hanya menyalin tanpa pemahaman. \\}
+
+\assessmentblock{Kuis 1: Tes Lisan Bacaan dan Hafalan Al-Qur'an}{Kuis (tes lisan)}{SCPMK102-01002}{Mahasiswa membaca dan menghafalkan ayat-ayat Al-Qur'an yang berkaitan dengan materi tauhid, lalu dinilai secara lisan.}{Berlatih membaca sesuai tajwid, menghafalkan ayat yang ditugaskan, menjaga fokus dan ketelitian, kemudian menyetorkan bacaan dan hafalan secara lisan di hadapan dosen.}{Setoran lisan bacaan dan hafalan ayat Al-Qur'an.}{Ketepatan tajwid dan kelancaran bacaan & 3 & Bacaan sesuai aturan tajwid (pengucapan huruf, panjang-pendek suara, hukum bacaan) dan lancar tanpa terbata-bata. & Bacaan sebagian besar benar, tetapi ada beberapa kesalahan tajwid atau bacaan kadang terhenti. & Banyak kesalahan tajwid dan bacaan tidak lancar. \\ \\
+Ketepatan hafalan dan penghayatan & 2 & Hafalan ayat tepat dan konsisten, dilantunkan dengan penghayatan, serta hafalan sebelumnya tetap terjaga. & Hafalan sebagian besar benar, tetapi ada bagian yang terlupa atau penghayatan kurang. & Hafalan banyak yang salah atau tidak mampu melafalkan ayat yang ditugaskan. \\}
+
+\assessmentblock{UTS Pemahaman Konsep Manusia, Agama, dan Tauhid}{UTS (ujian tulis, closed book)}{SCPMK102-01001, SCPMK102-01002}{Mahasiswa mengerjakan ujian tulis materi minggu 1--7: pendahuluan, manusia dan agama, konsep tauhid, dan konsep manusia.}{Mengerjakan soal ujian secara mandiri, jujur, dan closed book sesuai jadwal asesmen.}{Lembar jawaban ujian tulis.}{Ketepatan penjelasan konsep manusia, agama, dan tauhid & 5 & Jawaban menjelaskan konsep manusia, agama, dan tauhid secara benar dan lengkap sesuai materi kuliah. & Jawaban sebagian benar, tetapi ada konsep yang tertukar atau penjelasan tidak lengkap. & Jawaban keliru atau tidak menjawab konsep yang ditanyakan. \\ \\
+Ketepatan penggunaan dalil Al-Qur'an dan Hadis & 3 & Dalil yang dikutip relevan dengan konsep yang dijelaskan dan penerapannya tepat. & Dalil disebutkan, tetapi relevansi atau penerapannya pada jawaban kurang tepat. & Tidak menggunakan dalil atau dalil yang dikutip tidak berkaitan dengan soal. \\ \\
+Koherensi argumen dan kejelasan tulisan & 2 & Argumen runtut, konsisten antarbagian jawaban, dan tulisan mudah dipahami. & Argumen cukup jelas, tetapi ada bagian yang melompat atau tidak konsisten. & Jawaban tidak runtut, kontradiktif, atau sulit dipahami. \\}
+
+\assessmentblock{Kuis 2: Video Simulasi Etos Kerja}{Kuis (rubrik penilaian video simulasi)}{SCPMK102-01003}{Mahasiswa membuat video simulasi (cosplay) tentang etos kerja dalam Islam beserta dalil Al-Qur'an dan Hadis yang relevan, dikumpulkan tepat waktu.}{Memahami konsep etos kerja, merangkum informasi menjadi satu cerita/demonstrasi, menggunakan perangkat lunak animasi, pengeditan video, atau desain grafis, lalu mengumpulkan video sesuai tenggat.}{Video simulasi beserta dalil pendukung.}{Kesesuaian isi video dengan konsep etos kerja dan dalil & 3 & Video mencerminkan pemahaman mendalam tentang etos kerja dalam Islam, dikaitkan dengan dalil Al-Qur'an/Hadis yang tepat, dan pesan tersampaikan sesuai tujuan pembelajaran. & Isi video cukup sesuai topik, tetapi kaitan dalil atau kedalaman pemahaman masih terbatas. & Isi video tidak menggambarkan konsep etos kerja atau tanpa dalil pendukung. \\ \\
+Kreativitas, teknologi, dan ketepatan durasi & 2 & Video mengandung elemen kreatif, memanfaatkan animasi/grafik/perangkat lunak pengeditan, durasi proporsional, dan dikumpulkan tepat waktu. & Video dibuat dengan teknologi sederhana, kreativitas atau durasi kurang proporsional, tetapi tetap dikumpulkan tepat waktu. & Video seadanya tanpa unsur kreatif, durasi tidak sesuai materi, atau terlambat dikumpulkan. \\}
+
+\assessmentblock{UAS Refleksi Nilai Keagamaan}{UAS (ujian tulis, closed book)}{SCPMK102-01004}{Mahasiswa mengerjakan ujian tulis materi minggu 9--16: wawasan ekologi, aktualisasi akhlak, IPTEKS, etos kerja, ekonomi syariah, dan masyarakat Islam.}{Mengerjakan soal ujian secara mandiri, jujur, dan closed book sesuai jadwal asesmen.}{Lembar jawaban ujian tulis.}{Pemahaman etos kerja, ekonomi syariah, dan masyarakat Islam & 6 & Jawaban menjelaskan etos kerja, prinsip dan etika ekonomi syariah, serta konsep keluarga dan masjid secara benar dan lengkap. & Sebagian konsep dijelaskan benar, tetapi ada bagian yang dangkal atau tertukar. & Jawaban keliru atau tidak menunjukkan pemahaman materi. \\ \\
+Refleksi nilai keagamaan pada kasus keputusan etis & 5 & Nilai keagamaan diterapkan secara tepat untuk menganalisis kasus keputusan etis di lingkungan kampus dengan pertimbangan yang jelas. & Refleksi nilai pada kasus cukup relevan, tetapi analisis atau pertimbangan etisnya belum mendalam. & Tidak mampu mengaitkan nilai keagamaan dengan kasus atau jawaban tidak reflektif. \\ \\
+Penggunaan dalil dan koherensi argumen & 4 & Dalil Al-Qur'an/Hadis dikutip relevan dan argumen disusun runtut serta konsisten. & Dalil atau argumen ada, tetapi relevansi atau keruntutannya kurang. & Tidak menggunakan dalil dan argumen tidak runtut. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, modul PAI, Al-Qur'an dan terjemah, perangkat pembuatan video, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

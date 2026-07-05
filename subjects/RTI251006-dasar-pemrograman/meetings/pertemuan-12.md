@@ -1,0 +1,31 @@
+---
+course_code: RTI251006
+course_name: Dasar Pemrograman
+meeting: 12
+sub_cpmk: SCPMK704-00603, SCPMK704-00604
+assessment_weight: 10
+---
+
+# Pertemuan 12 - Kuis 2 Materi Minggu 9-11
+
+## Kemampuan Akhir
+- SCPMK704-00603: Mahasiswa mampu menuliskan algoritma pemilihan dan perulangan, baik sederhana maupun bersarang, menggunakan flowchart untuk menyelesaikan studi kasus.
+- SCPMK704-00604: Mahasiswa mampu menyelesaikan studi kasus menggunakan array 1 dan 2 dimensi serta fungsi iteratif dan rekursif dalam algoritma penyelesaian masalah.
+
+## Materi Pembelajaran
+Kuis 2: materi minggu 9-11.
+
+## Bentuk dan Metode Pembelajaran
+Ujian teori pilihan ganda dan/atau essay, closed book.
+
+## Estimasi Waktu
+1 x 2 x 100' ujian.
+
+## Pengalaman Belajar Mahasiswa
+Mahasiswa mengerjakan soal kuis materi minggu 9-11 secara mandiri.
+
+## Penilaian
+Ujian. Bentuk: Kuis 2. Mengacu rubrik RTM.
+
+## Indikator Penilaian
+Ketepatan jawaban dengan kunci jawaban.

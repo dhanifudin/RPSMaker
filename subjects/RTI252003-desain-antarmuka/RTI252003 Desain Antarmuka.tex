@@ -1,0 +1,149 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Desain Antarmuka & RTI252003 & 2 SKS/4 jam & 2 & 29 Januari 2026 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Anugrah Nur Rahmanto, S.Sn., M.Ds. &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=13]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL02 & \SetCell[c=3]{l} Mampu menerapkan prinsip rekayasa sistem dan perangkat lunak untuk menghasilkan solusi aplikasi multi-platform sesuai kebutuhan. &  &  \\
+ & CPL06 & \SetCell[c=3]{l} Mampu merancang, mengimplementasikan, menguji, melakukan deployment, memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan pengguna. &  &  \\
+ & CPL08 & \SetCell[c=3]{l} Mampu mengelola proyek teknologi informasi secara profesional melalui perencanaan, koordinasi, komunikasi, dan optimalisasi sumber daya. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK202 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan prinsip dan metode UX Design untuk merancang prototipe antarmuka aplikasi multi-platform yang interaktif. &  &  \\
+ & CPMK601 & \SetCell[c=3]{l} Mahasiswa mampu merancang dan mengevaluasi kualitas pengalaman pengguna melalui prototipe yang menjawab masalah interaksi pengguna. &  &  \\
+ & CPMK802 & \SetCell[c=3]{l} Mahasiswa mampu mengelola proses rekayasa perangkat lunak dan UI/UX dalam siklus hidup proyek untuk menghasilkan produk berpusat pada pengguna. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK202-01201 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan prinsip UI/UX, design thinking, user persona, dan journey map untuk mengidentifikasi kebutuhan pengguna. &  &  \\
+ & SCPMK202-01202 & \SetCell[c=3]{l} Mahasiswa mampu merancang wireframe, visual design, design system, dan UX writing berdasarkan kebutuhan pengguna. &  &  \\
+ & SCPMK601-01203 & \SetCell[c=3]{l} Mahasiswa mampu menghasilkan prototipe interaktif dan mengevaluasi usability berdasarkan skenario pengujian. &  &  \\
+ & SCPMK802-01204 & \SetCell[c=3]{l} Mahasiswa mampu mengelola artefak proyek UI/UX, mempresentasikan rationale desain, dan menyusun rekomendasi perbaikan. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & PBL & UAS & \\
+CPMK202 & SCPMK202-01201 & 8.40\%: UI/UX, design thinking, persona & 5\%: konsep UI/UX & 12.85\%: artefak desain awal & & & & 26.25\% \\
+CPMK202 & SCPMK202-01202 & 14.00\%: Figma, wireframe, visual, design system, UX writing & & 7.15\%: artefak desain awal & & 5.70\%: proyek UI/UX & & 26.85\% \\
+CPMK601 & SCPMK601-01203 & 11.20\%: prototype, UX motion, usability testing & & & 5\%: design system dan prototype & & 12.55\%: validasi prototype & 28.75\% \\
+CPMK802 & SCPMK802-01204 & 2.80\%: iterasi desain & & & & 5.70\%: proyek UI/UX & 9.65\%: validasi prototype & 18.15\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Desain Antarmuka membangun kemampuan merancang UI/UX melalui riset pengguna, design thinking, persona, journey map, wireframe, visual design, design system, prototipe interaktif, motion, dan usability testing. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Pengenalan UI/UX dan design thinking\item Persona, journey map, dan kebutuhan pengguna\item Figma, wireframe, visual design, dan design system\item UX writing, prototyping, UX motion, dan usability testing\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Buley, L. 2013. The User Experience Team of One. Rosenfeld Media.\item Young, I. 2008. Mental Models. Rosenfeld Media.\item Frost, B. 2016. Atomic Design.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumentasi resmi perangkat lunak, dan jobsheet praktikum. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Figma, browser, office suite, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Anugrah Nur Rahmanto, S.Sn., M.Ds.\item Farid Angga Pribadi, S.Kom., M.Kom.\item Bagas Satya Dian Nugraha, S.T., M.T.\item Dimas Wahyu Wibowo, S.T., M.T.\item Habibie Ed Dien, S.Kom., M.T.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK202-01201 & Pengenalan UI/UX. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengenalan ui/ux dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengenalan UI/UX. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+2 & SCPMK202-01201 & Design thinking. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk design thinking dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Design thinking. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+3 & SCPMK202-01201 & Persona dan journey map. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk persona dan journey map dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Persona dan journey map. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+4 & SCPMK202-01201 & Kuis 1 konsep UI/UX. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 1 konsep ui/ux dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 1 konsep UI/UX. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+5 & SCPMK202-01202 & Figma dan komponen dasar. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk figma dan komponen dasar dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Figma dan komponen dasar. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+6 & SCPMK202-01202 & Wireframe dan information architecture. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk wireframe dan information architecture dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Wireframe dan information architecture. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+7 & SCPMK202-01202 & Visual design. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk visual design dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Visual design. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+8 & SCPMK202-01201, SCPMK202-01202 & UTS artefak desain awal. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uts artefak desain awal dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS artefak desain awal. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 20 \\
+9 & SCPMK202-01202 & Design system. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk design system dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Design system. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+10 & SCPMK202-01202 & UX writing. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk ux writing dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UX writing. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+11 & SCPMK601-01203 & Prototype interaktif. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk prototype interaktif dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Prototype interaktif. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+12 & SCPMK601-01203 & Kuis 2 design system dan prototype. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 2 design system dan prototype dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 2 design system dan prototype. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+13 & SCPMK601-01203 & UX motion. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk ux motion dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UX motion. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+14 & SCPMK601-01203 & Usability testing. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk usability testing dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Usability testing. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+15 & SCPMK802-01204 & Iterasi desain. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk iterasi desain dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Iterasi desain. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+16 & SCPMK202-01201--SCPMK802-01204 & PBL proyek UI/UX. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pbl proyek ui/ux dan menunjukkan evidence hasil belajar. & Bentuk penilaian: PBL proyek UI/UX. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 11.4 \\
+17 & SCPMK601-01203, SCPMK802-01204 & UAS validasi prototype. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Design Thinking, studio review, studi kasus, dan peer feedback. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uas validasi prototype dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UAS validasi prototype. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 25 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Desain Antarmuka \\
+Kode Mata Kuliah & RTI252003 \quad \textbf{sks / Jam perminggu:} 2 SKS/4 jam \quad \textbf{Semester:} 2 \\
+Dosen Pengampu & \begin{enumerate}\item Anugrah Nur Rahmanto, S.Sn., M.Ds.\item Farid Angga Pribadi, S.Kom., M.Kom.\item Bagas Satya Dian Nugraha, S.T., M.T.\item Dimas Wahyu Wibowo, S.T., M.T.\item Habibie Ed Dien, S.Kom., M.T.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Persona, Wireframe, dan Visual Design}{Case Method dan praktik studio}{SCPMK202-01201, SCPMK202-01202}{Mahasiswa menyelesaikan tugas persona, wireframe, dan visual design sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Analisis persona dan kebutuhan pengguna & 9 & Persona, kebutuhan, pain point, dan konteks tugas dirumuskan dari data kasus serta konsisten dengan tujuan produk. & Persona dan kebutuhan utama sudah sesuai, tetapi sebagian bukti atau prioritas kebutuhan belum kuat. & Persona bersifat asumtif, tidak terkait kebutuhan pengguna, atau tidak dapat menjadi dasar desain. \\ \\
+Struktur wireframe dan alur interaksi & 7.8 & Wireframe menampilkan hierarki informasi, navigasi, state utama, dan alur tugas yang runtut serta mudah diuji. & Wireframe mencakup layar utama, tetapi alur, state, atau prioritas informasi masih kurang konsisten. & Wireframe tidak menunjukkan alur tugas yang jelas atau banyak elemen tidak mendukung kebutuhan pengguna. \\ \\
+Konsistensi visual design dan dokumentasi & 5.6 & Komponen visual, tipografi, warna, spacing, dan dokumentasi keputusan desain konsisten serta siap dipresentasikan. & Visual design cukup konsisten, tetapi dokumentasi keputusan atau detail komponen masih terbatas. & Visual design tidak konsisten, sulit dibaca, atau tidak terdokumentasi. \\}
+
+\assessmentblock{UTS Review Artefak Desain Awal}{UTS berbasis presentasi artefak}{SCPMK202-01201, SCPMK202-01202}{Mahasiswa menyelesaikan uts review artefak desain awal sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Kelengkapan artefak desain awal & 8 & Persona, user flow, wireframe, dan dasar visual tersedia lengkap serta saling terhubung. & Artefak utama tersedia, tetapi hubungan antarartefak atau detailnya belum lengkap. & Artefak desain awal tidak lengkap atau tidak cukup untuk direview. \\ \\
+Kualitas evaluasi dan argumentasi desain & 7 & Keputusan desain dijelaskan dengan alasan berbasis kebutuhan pengguna, prinsip UI/UX, dan batasan kasus. & Argumentasi desain cukup jelas, tetapi sebagian keputusan belum didukung prinsip atau evidence. & Keputusan desain tidak dapat dipertahankan atau tidak terkait kebutuhan pengguna. \\ \\
+Perbaikan berdasarkan umpan balik & 5 & Temuan review diprioritaskan, ditindaklanjuti, dan perubahan artefak terdokumentasi jelas. & Sebagian umpan balik ditindaklanjuti, tetapi prioritas atau dokumentasi revisi masih lemah. & Tidak ada tindak lanjut bermakna terhadap umpan balik review. \\}
+
+\assessmentblock{Kuis Konsep dan Evaluasi UI/UX}{Kuis}{SCPMK202-01201, SCPMK601-01203}{Mahasiswa menyelesaikan kuis konsep dan evaluasi ui/ux sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Penguasaan konsep UI/UX & 4 & Jawaban menunjukkan pemahaman prinsip usability, affordance, feedback, consistency, dan accessibility pada kasus. & Sebagian konsep dijelaskan benar, tetapi penerapannya pada kasus belum lengkap. & Jawaban keliru atau hanya menghafal istilah tanpa penerapan. \\ \\
+Ketepatan evaluasi antarmuka & 3.5 & Masalah UI/UX diidentifikasi tepat, diprioritaskan, dan dikaitkan dengan dampak pada pengguna. & Identifikasi masalah cukup tepat, tetapi prioritas atau dampaknya belum jelas. & Masalah yang dipilih tidak relevan atau tidak menunjukkan evaluasi antarmuka. \\ \\
+Rekomendasi perbaikan desain & 2.5 & Rekomendasi spesifik, dapat diterapkan, dan konsisten dengan prinsip UI/UX serta konteks pengguna. & Rekomendasi cukup relevan, tetapi masih umum atau belum lengkap. & Rekomendasi tidak operasional atau tidak memperbaiki masalah utama. \\}
+
+\assessmentblock{PBL Proyek UI/UX Terintegrasi}{Project Based Learning}{SCPMK202-01201-SCPMK802-01204}{Mahasiswa menyelesaikan pbl proyek ui/ux terintegrasi sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Kesesuaian solusi dengan riset pengguna & 9 & Solusi desain menunjukkan keterkaitan kuat antara riset, persona, journey, kebutuhan, dan prioritas fitur. & Keterkaitan riset dan solusi cukup terlihat, tetapi beberapa fitur belum didukung evidence. & Solusi tidak berangkat dari riset pengguna atau kebutuhan utama tidak terjawab. \\ \\
+Kualitas prototype dan design system & 7.9 & Prototype interaktif, alur utama lengkap, komponen konsisten, dan design system dapat dipakai ulang. & Prototype berjalan untuk alur utama, tetapi konsistensi komponen atau state masih terbatas. & Prototype tidak menunjukkan alur utama atau komponen desain tidak konsisten. \\ \\
+Validasi usability dan presentasi keputusan & 5.7 & Uji usability terdokumentasi, temuan dianalisis, revisi diprioritaskan, dan keputusan dipresentasikan meyakinkan. & Validasi dilakukan, tetapi analisis temuan atau tindak lanjut revisi belum kuat. & Tidak ada validasi pengguna yang memadai atau presentasi tidak menjelaskan keputusan desain. \\}
+
+\assessmentblock{UAS Validasi Akhir Prototype}{UAS praktik dan defense}{SCPMK601-01203, SCPMK802-01204}{Mahasiswa menyelesaikan uas validasi akhir prototype sesuai Sub-CPMK dan konteks mata kuliah.}{Menganalisis kebutuhan, mengerjakan artefak praktik/proyek, menguji hasil, mendokumentasikan evidence, dan mempresentasikan keputusan bila diminta.}{Laporan, artefak digital, repository/prototype, evidence pengujian, dan/atau bahan presentasi.}{Kelengkapan validasi prototype & 10 & Skenario uji, partisipan, metrik, hasil observasi, dan bukti prototype akhir terdokumentasi lengkap. & Validasi tersedia, tetapi metrik, bukti observasi, atau cakupan skenario belum lengkap. & Validasi tidak terstruktur atau tidak membuktikan kualitas prototype. \\ \\
+Analisis temuan dan revisi desain & 8.8 & Temuan usability dianalisis menjadi prioritas revisi yang jelas dan terlihat pada prototype akhir. & Sebagian temuan ditindaklanjuti, tetapi prioritas atau alasan revisi belum kuat. & Temuan tidak dianalisis atau revisi tidak terkait hasil validasi. \\ \\
+Defense keputusan desain akhir & 6.2 & Mahasiswa mampu mempertahankan keputusan desain akhir dengan evidence, prinsip UI/UX, dan batasan implementasi. & Defense cukup jelas, tetapi beberapa keputusan belum didukung evidence. & Tidak mampu menjelaskan alasan desain atau bukti validasi akhir. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/prototype/proyek, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

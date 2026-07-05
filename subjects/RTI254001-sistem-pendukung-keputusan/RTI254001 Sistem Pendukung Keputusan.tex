@@ -1,0 +1,151 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Sistem Pendukung Keputusan & RTI254001 & 2 SKS/4 jam & 4 & 6 Januari 2026 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Tim Dosen Mata Kuliah &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=11]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL07 & \SetCell[c=3]{l} Mampu mengembangkan sistem komputasi cerdas dan melakukan analisis data berbasis kecerdasan buatan untuk pengambilan keputusan. &  &  \\
+ & CPL10 & \SetCell[c=3]{l} Mampu menganalisis persoalan kompleks dengan wawasan multidisiplin untuk menghasilkan solusi di bidang informatika dan ilmu komputer. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK706 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan berbagai metode MCDM dan sistem pendukung keputusan untuk menyelesaikan persoalan pengambilan keputusan multi-kriteria secara akurat. &  &  \\
+ & CPMK1005 & \SetCell[c=3]{l} Mahasiswa mampu mengevaluasi dan membandingkan kinerja metode-metode SPK berdasarkan akurasi, konsistensi, dan interpretabilitas hasil untuk persoalan informatika. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK706-02801 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan konsep dan evolusi sistem pendukung keputusan, teori pengambilan keputusan, serta menerapkan metode baseline MCDM yaitu WSM dan WPM pada kasus sederhana. &  &  \\
+ & SCPMK706-02802 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan metode AHP untuk menghitung pembobotan kriteria berbasis pendapat decision maker baik untuk kriteria benefit maupun cost. &  &  \\
+ & SCPMK706-02803 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan metode ROC, EDAS, MARCOS, dan MEREC untuk perankingan alternatif dan pembobotan objektif dalam pengambilan keputusan multi-kriteria. &  &  \\
+ & SCPMK706-02804 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan Group Decision Support Systems (GDSS) dan metode fuzzy untuk menangani ketidakpastian dan penilaian linguistik dalam SPK. &  &  \\
+ & SCPMK1005-02805 & \SetCell[c=3]{l} Mahasiswa mampu merancang, mengimplementasikan, dan mengevaluasi sistem DSS lengkap menggunakan kombinasi metode MCDM dengan analisis metrik kinerja. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & PBL & UAS & \\
+CPMK706 & SCPMK706-02801 & 5.6\%: SPK, MCDM, WSM/WPM & 5\%: konsep SPK & 5\%: kasus MCDM dasar & -- & -- & -- & 15.6\% \\
+CPMK706 & SCPMK706-02802 & 8.4\%: AHP benefit dan cost & -- & 8\%: analisis AHP multi-kriteria & -- & -- & -- & 16.4\% \\
+CPMK706 & SCPMK706-02803 & 11.2\%: ROC, EDAS, MARCOS, MEREC & -- & 7\%: perankingan alternatif & 5\%: metode objektif & -- & -- & 23.2\% \\
+CPMK706 & SCPMK706-02804 & 5.6\%: GDSS dan fuzzy & -- & -- & -- & 5.7\%: proyek SPK & -- & 11.3\% \\
+CPMK1005 & SCPMK1005-02805 & 2.8\%: evaluasi dan desain DSS & -- & -- & -- & 5.7\%: proyek SPK & 25\%: presentasi DSS & 33.5\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Sistem Pendukung Keputusan membangun kemampuan mahasiswa dalam merancang dan mengimplementasikan sistem pendukung keputusan berbasis metode Multi-Criteria Decision Making (MCDM) meliputi WSM, WPM, AHP, ROC, EDAS, MARCOS, MEREC, metode fuzzy, dan GDSS, serta mengevaluasi kinerja sistem DSS yang dibangun. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Konsep SPK, teori keputusan, dan MCDM dasar (WSM, WPM)\item Pembobotan subjektif: AHP (benefit dan cost)\item Metode perankingan lanjutan: ROC, EDAS, MARCOS, MEREC\item GDSS dan metode fuzzy untuk ketidakpastian\item Perancangan, implementasi, dan evaluasi sistem DSS\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Turban, E., Sharda, R., Delen, D. 2011. Decision Support and Business Intelligence Systems. 9th ed. Prentice Hall.\item Saaty, T.L. 1980. The Analytic Hierarchy Process. McGraw-Hill.\item Kusumadewi, S., Hartati, S., Harjoko, A., Wardoyo, R. 2006. Fuzzy Multi-Attribute Decision Making (Fuzzy MADM). Graha Ilmu.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, modul praktikum Excel/Python, dan jurnal terkait metode MCDM dan DSS. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Microsoft Excel, Python/R (opsional), LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l} Tim Dosen Mata Kuliah &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK706-02801 & Pengantar SPK, evolusi historis, teori pengambilan keputusan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengantar spk dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengantar SPK. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+2 & SCPMK706-02801 & Konsep MCDM, elemen utama SPK, WSM dan WPM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk konsep mcdm dan wsm wpm dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Konsep MCDM, WSM dan WPM. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+3 & SCPMK706-02802 & AHP 1: pembobotan subjektif kriteria benefit. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk ahp pembobotan kriteria benefit dan menunjukkan evidence hasil belajar. & Bentuk penilaian: AHP 1 benefit. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+4 & SCPMK706-02802 & AHP 2: pembobotan subjektif kriteria cost-benefit. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk ahp pembobotan kriteria cost-benefit dan menunjukkan evidence hasil belajar. & Bentuk penilaian: AHP 2 cost-benefit. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+5 & SCPMK706-02801 & Kuis 1: konsep SPK, MCDM dasar, WSM dan WPM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 1 konsep spk dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 1 konsep SPK. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+6 & SCPMK706-02803 & ROC (Rank Order Centroid) dan EDAS. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk roc dan edas dan menunjukkan evidence hasil belajar. & Bentuk penilaian: ROC dan EDAS. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+7 & SCPMK706-02803 & Metode MARCOS. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk metode marcos dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Metode MARCOS. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+8 & SCPMK706-02801, SCPMK706-02802, SCPMK706-02803 & UTS: analisis metode MCDM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uts analisis metode mcdm dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS analisis metode MCDM. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 20 \\
+9 & SCPMK706-02803 & MEREC: pembobotan objektif. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk merec pembobotan objektif dan menunjukkan evidence hasil belajar. & Bentuk penilaian: MEREC pembobotan objektif. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+10 & SCPMK706-02803 & Group Decision Support Systems (GDSS). & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk group decision support systems dan menunjukkan evidence hasil belajar. & Bentuk penilaian: GDSS. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+11 & SCPMK706-02804 & Fuzzy DSS 1: ketidakpastian dan penilaian linguistik. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk fuzzy dss ketidakpastian dan penilaian linguistik dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Fuzzy DSS 1. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+12 & SCPMK706-02804 & Fuzzy DSS 2: implementasi fuzzy MCDM. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk fuzzy dss implementasi fuzzy mcdm dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Fuzzy DSS 2. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+13 & SCPMK706-02803 & Kuis 2: metode perankingan dan pembobotan objektif. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 2 metode perankingan dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 2 metode lanjutan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 5 \\
+14 & SCPMK1005-02805 & Metrik evaluasi SPK. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk metrik evaluasi spk dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Metrik evaluasi SPK. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+15 & SCPMK1005-02805 & Perancangan sistem DSS dengan metode terkini. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk perancangan sistem dss dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Perancangan sistem DSS. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 2.8 \\
+16 & SCPMK706-02804, SCPMK1005-02805 & PBL: proyek implementasi DSS. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pbl proyek implementasi dss dan menunjukkan evidence hasil belajar. & Bentuk penilaian: PBL proyek implementasi DSS. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 11.4 \\
+17 & SCPMK706-02804, SCPMK1005-02805 & UAS: evaluasi dan presentasi proyek DSS. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-based learning, studi kasus, dan presentasi. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk uas evaluasi dan presentasi proyek dss dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UAS evaluasi dan presentasi proyek DSS. Mengacu rubrik RTM. & Ketepatan konsep; kualitas artefak/praktik; validasi dan dokumentasi. & 25 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Sistem Pendukung Keputusan \\
+Kode Mata Kuliah & RTI254001 \quad \textbf{sks / Jam perminggu:} 2 SKS/4 jam \quad \textbf{Semester:} 4 \\
+Dosen Pengampu & Tim Dosen Mata Kuliah \\
+\end{tblr}
+\assessmentblock{Tugas Studi Kasus Metode MCDM}{Case Method dan praktik mandiri}{SCPMK706-02801, SCPMK706-02802, SCPMK706-02803, SCPMK706-02804, SCPMK1005-02805}{Mahasiswa menyelesaikan studi kasus penerapan metode MCDM pada persoalan nyata menggunakan spreadsheet dan/atau pemrograman.}{Menganalisis kasus, menerapkan metode terpilih, menghitung manual dan dengan alat bantu, mendokumentasikan hasil.}{Lembar kerja Excel, laporan perhitungan, dan dokumentasi analisis.}{Ketepatan penerapan metode MCDM pada kasus & 16.8 & Metode diterapkan dengan langkah yang benar, parameter tepat, dan hasil konsisten dengan teori serta dapat direproduksi. & Metode diterapkan dengan sebagian besar langkah benar, tetapi terdapat kesalahan minor pada parameter atau perhitungan. & Metode tidak diterapkan dengan benar atau hasil tidak dapat diverifikasi. \\ \\
+Keakuratan perhitungan dan analisis sensitivitas & 11.2 & Semua perhitungan akurat, analisis sensitivitas dilakukan untuk setidaknya satu variabel kunci, dan hasilnya diinterpretasikan. & Perhitungan sebagian besar benar, tetapi analisis sensitivitas terbatas atau interpretasi kurang mendalam. & Terdapat kesalahan perhitungan yang signifikan dan tidak ada analisis sensitivitas. \\ \\
+Kelengkapan dokumentasi dan laporan studi kasus & 5.6 & Laporan memuat latar belakang kasus, langkah metode, hasil, dan rekomendasi yang terdokumentasi rapi. & Laporan memuat sebagian besar elemen tetapi beberapa bagian kurang lengkap atau tidak terstruktur. & Laporan tidak lengkap, tidak terstruktur, atau tidak mencerminkan proses penyelesaian kasus. \\}
+
+\assessmentblock{Kuis 1 Konsep SPK dan MCDM Dasar}{Kuis tertulis}{SCPMK706-02801}{Mahasiswa menjawab soal perhitungan dan konseptual terkait teori SPK, MCDM, WSM, dan WPM.}{Mengerjakan soal secara mandiri dalam waktu yang ditentukan.}{Lembar jawaban kuis.}{Pemahaman konsep SPK dan teori pengambilan keputusan & 2.5 & Konsep SPK, evolusi, dan teori keputusan dijelaskan dengan benar dan menyeluruh sesuai pertanyaan. & Sebagian besar konsep benar, tetapi ada bagian yang kurang lengkap atau kurang akurat. & Jawaban salah atau hanya menghafal definisi tanpa pemahaman mendalam. \\ \\
+Ketepatan perhitungan WSM dan WPM & 2.5 & Perhitungan WSM dan WPM dilakukan dengan benar mengikuti langkah-langkah yang tepat dan menghasilkan nilai yang akurat. & Langkah-langkah perhitungan sebagian besar benar, tetapi terdapat kesalahan aritmetik minor. & Perhitungan salah atau tidak dapat menyelesaikan permasalahan yang diberikan. \\}
+
+\assessmentblock{UTS Analisis Penerapan Metode MCDM}{UTS berbasis kasus dan perhitungan}{SCPMK706-02801, SCPMK706-02802, SCPMK706-02803}{Mahasiswa menganalisis dan menyelesaikan kasus pengambilan keputusan multi-kriteria menggunakan AHP, EDAS, dan metode perankingan.}{Mengerjakan soal kasus yang diberikan secara mandiri.}{Lembar jawaban UTS.}{Ketepatan penerapan AHP untuk pembobotan kriteria & 8 & Matriks perbandingan berpasangan, consistency ratio, dan bobot akhir dihitung dengan benar dan konsisten. & Matriks perbandingan dan sebagian perhitungan benar, tetapi terdapat kesalahan pada normalisasi atau consistency check. & AHP tidak diterapkan dengan benar atau consistency ratio tidak diperiksa. \\ \\
+Akurasi perankingan alternatif dengan metode terpilih & 7 & Alternatif diranking dengan metode yang tepat, langkah-langkah lengkap, dan hasil sesuai dengan bobot yang ditetapkan. & Perankingan sebagian besar benar, tetapi terdapat kesalahan pada satu atau dua langkah kritis. & Perankingan salah atau tidak dapat diselesaikan. \\ \\
+Analisis dan interpretasi hasil keputusan & 5 & Hasil perankingan diinterpretasikan dengan benar, alternatif terbaik dipilih dengan alasan yang logis, dan keterbatasan metode disebutkan. & Alternatif terbaik dipilih dengan benar, tetapi interpretasi kurang mendalam atau tidak mempertimbangkan keterbatasan. & Tidak mampu menginterpretasikan hasil atau salah memilih alternatif terbaik. \\}
+
+\assessmentblock{Kuis 2 Metode Lanjutan dan Objektif}{Kuis tertulis}{SCPMK706-02803}{Mahasiswa menjawab soal perhitungan menggunakan metode MEREC, MARCOS, atau metode perankingan lanjutan.}{Mengerjakan soal secara mandiri.}{Lembar jawaban kuis.}{Penguasaan metode MEREC atau MARCOS dalam pembobotan/perankingan & 2.5 & Langkah-langkah metode dijalankan dengan benar dari input hingga hasil perankingan akhir. & Sebagian besar langkah benar, tetapi terdapat kesalahan pada satu tahap. & Langkah-langkah tidak diikuti dengan benar atau hasil sangat jauh dari jawaban yang benar. \\ \\
+Ketepatan analisis hasil dan pemilihan alternatif & 2.5 & Alternatif terbaik dipilih berdasarkan hasil perhitungan yang benar disertai alasan yang tepat. & Alternatif dipilih dengan benar, tetapi alasan kurang kuat. & Alternatif salah dipilih atau tidak ada alasan. \\}
+
+\assessmentblock{PBL Proyek Implementasi SPK}{Project Based Learning}{SCPMK706-02804, SCPMK1005-02805}{Mahasiswa mengembangkan sistem DSS sederhana dengan mengkombinasikan minimal dua metode MCDM, diimplementasikan dalam spreadsheet atau program, dan didokumentasikan.}{Merancang sistem, memilih metode, mengimplementasikan, menguji, dan mendokumentasikan proyek.}{File Excel/Python, laporan proyek, dan slide presentasi.}{Ketepatan pemilihan dan integrasi metode SPK & 4.5 & Minimal dua metode dipilih secara rasional sesuai karakteristik kasus, diintegrasikan dengan benar, dan hasilnya konsisten. & Metode dipilih dan digunakan, tetapi integrasi antar metode kurang optimal atau tidak semua langkah dijalankan dengan benar. & Hanya satu metode digunakan atau kombinasi metode tidak dapat menghasilkan keputusan yang bermakna. \\ \\
+Implementasi sistem DSS menggunakan spreadsheet/pemrograman & 3.9 & Sistem terimplementasi, dapat dijalankan dengan input baru, formula/kode terdokumentasi, dan hasil terverifikasi. & Sistem berjalan untuk kasus yang diberikan, tetapi fleksibilitas terbatas atau dokumentasi kurang lengkap. & Sistem tidak berjalan atau tidak dapat menghasilkan output yang benar. \\ \\
+Dokumentasi dan presentasi proyek & 3 & Laporan mencakup deskripsi kasus, metode, hasil, evaluasi, dan rekomendasi dengan slide presentasi yang terstruktur. & Laporan dan slide tersedia, tetapi beberapa komponen kurang lengkap atau kurang terstruktur. & Dokumentasi sangat minimal atau presentasi tidak mencerminkan isi proyek. \\}
+
+\assessmentblock{UAS Evaluasi dan Presentasi Proyek DSS}{UAS presentasi dan defense}{SCPMK1005-02805}{Mahasiswa mempresentasikan proyek DSS akhir, mengevaluasi kinerja metode yang digunakan, dan mempertahankan keputusan desain sistem di hadapan penguji.}{Mempresentasikan proyek, menjawab pertanyaan penguji, dan menunjukkan hasil evaluasi kinerja sistem.}{Proyek DSS final, laporan evaluasi, dan bahan presentasi.}{Kelengkapan dan keakuratan implementasi sistem DSS & 10 & Sistem DSS final mencakup seluruh komponen yang direncanakan, dapat dioperasikan dengan input baru, dan semua perhitungan terverifikasi. & Sistem sebagian besar lengkap dan berjalan, tetapi beberapa komponen atau kasus uji masih memiliki kelemahan. & Sistem tidak lengkap, tidak dapat dioperasikan, atau menghasilkan output yang salah. \\ \\
+Evaluasi kinerja metode dan analisis komparasi & 8.5 & Minimal dua metrik evaluasi digunakan, hasil komparasi antar metode dianalisis secara kritis, dan kesimpulan berbasis data. & Evaluasi dilakukan dengan satu metrik, komparasi terbatas, atau analisis kurang mendalam. & Tidak ada evaluasi kinerja yang terstruktur atau analisis komparasi metode. \\ \\
+Kualitas presentasi, argumentasi, dan tanya jawab & 6.5 & Presentasi terstruktur, dapat menjelaskan keputusan desain dengan alasan teknis yang kuat, dan menjawab semua pertanyaan dengan tepat. & Presentasi cukup jelas, sebagian besar pertanyaan dijawab dengan benar, tetapi argumentasi kurang dalam pada beberapa poin. & Presentasi tidak terstruktur, tidak dapat mempertahankan keputusan desain, atau tidak dapat menjawab pertanyaan dasar. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, spreadsheet/repositori proyek, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

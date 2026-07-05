@@ -1,0 +1,142 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Critical Thinking dan Problem Solving & RTI251003 & 2 SKS/4 jam & 1 & 6 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Vivi Nur Wijayaningrum, S.Kom., M.Kom. &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=8]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL04 & \SetCell[c=3]{l} Mampu menyusun deskripsi saintifik hasil kajian, pengembangan, atau implementasi teknologi informasi dan komunikasi dalam bentuk skripsi, laporan tugas akhir, atau artikel ilmiah. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK401 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis permasalahan kompleks dan merumuskan solusi rasional berbasis data yang dituangkan dalam deskripsi ilmiah. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK401-00301 & \SetCell[c=3]{l} Mahasiswa mampu mengidentifikasi, menganalisis, dan mengevaluasi argumen dalam berbagai konteks diskusi atau materi tertulis, dengan membedakan antara fakta dan opini serta mengenali bias dan kesalahan logika yang umum. &  &  \\
+ & SCPMK401-00302 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan berbagai teknik dan alat pemecahan masalah, termasuk pemikiran lateral, brainstorming, dan analisis root cause, untuk menemukan solusi inovatif dan efektif terhadap masalah yang kompleks. &  &  \\
+ & SCPMK401-00303 & \SetCell[c=3]{l} Mahasiswa mampu mengembangkan solusi yang logis dan berdasarkan bukti untuk masalah yang diberikan, dan secara efektif membela solusi tersebut melalui argumentasi yang kohesif dan berbasis data dalam bentuk deskripsi ilmiah. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=5]{c} Bobot per Bentuk Penilaian & & & & & Total Bobot \\
+ & & Tugas & Kuis & UTS & PBL & UAS & \\
+CPMK401 & SCPMK401-00301 & 10\%: analisis argumen, fakta vs opini, bias, dan kesalahan logika & 15\%: konsep berpikir kritis pekan 1--4 & 5\%: evaluasi argumen dan validitas penalaran & & & 30\% \\
+CPMK401 & SCPMK401-00302 & 8\%: teknik dan alat pemecahan masalah & & 5\%: penerapan teknik problem solving pada kasus & & & 13\% \\
+CPMK401 & SCPMK401-00303 & 2\%: perumusan solusi ilmiah berbasis data & & & 20\%: draf dokumen ilmiah solusi permasalahan & 35\%: presentasi akhir solusi berbasis bukti & 57\% \\
+\SetCell[c=7]{r}\textbf{Total Per Penilaian} & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Pada mata kuliah ini mahasiswa akan belajar mengenai konsep berpikir kritis dan bagaimana penerapannya dalam menanggapi informasi dalam kehidupan sehari-hari. Selain itu pada mata kuliah ini akan diajarkan mengenai konsep dan teknik-teknik dalam menyelesaikan kasus/permasalahan baik dalam lingkup ujian/tes, maupun pada masalah-masalah yang dijumpai dalam kehidupan sehari-hari. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Berpikir dan Menalar\item Pondasi Berpikir Kritis\item Kemampuan Dasar Pemecahan Masalah\item Applied Critical Thinking\item Kemampuan Pemecahan Masalah Tingkat Lanjut\item Teknik-teknik Lanjutan untuk Pemecahan Masalah\item Penalaran Kritis\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Thinking Skills: Critical Thinking and Problem Solving. Second Edition.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:}\begin{enumerate}\item Critical Thinking Skills For Dummies.\end{enumerate} &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Microsoft Office Word, Microsoft Office PowerPoint. &  & \SetCell[c=2]{l} \textbf{Hardware:} Laptop/PC, LCD Proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Vivi Nur Wijayaningrum, S.Kom., M.Kom.\item Elok Nur Hamdana, S.T., M.T.\item Rokhimatul Wakhidah, S.Pd., M.T.\item Mungki Astiningrum, S.T., M.Kom.\item Bagas Satya Dian Nugraha, S.T., M.T.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK401-00301 & Konsep berpikir; pengertian Critical Thinking \& Problem Solving; karakteristik pemikir kritis; peran CTPS dalam kehidupan profesional. & Bentuk: Daring atau Luring. Metode: Contextual Teaching and Learning (CTL), Problem Based Learning. Penugasan: Tugas 1 contoh penerapan CTPS di kehidupan nyata. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat memahami konsep Critical Thinking \& Problem Solving dan mengaitkannya dengan pengalaman pribadi/nyata. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Memahami definisi dan manfaat CTPS; mampu memberikan contoh penerapan CTPS. & 2 \\
+2 & SCPMK401-00301 & Fakta \& opini; klaim; struktur argumen dasar; valid/invalid reasoning. & Bentuk: Daring atau Luring. Metode: CTL, Problem Based Learning. Penugasan: Tugas 2 klasifikasi pernyataan sebagai fakta, opini, atau klaim. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menganalisis pernyataan sederhana untuk mengidentifikasi klaim dan fakta. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Memahami perbedaan fakta dan opini; mengidentifikasi klaim dan unsur argumen. & 2 \\
+3 & SCPMK401-00301 & Definisi masalah; identifikasi informasi; strategi pemecahan masalah; studi kasus sederhana. & Bentuk: Daring atau Luring. Metode: CTL, Problem Based Learning. Penugasan: Tugas 3 merumuskan masalah dari studi kasus. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat mengidentifikasi masalah dan merumuskan tujuan pemecahan. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Menjelaskan rumusan masalah; mengidentifikasi relevansi informasi yang dipilih. & 2 \\
+4 & SCPMK401-00301 & Analisis argumen; logical evaluation; identifikasi bias; kesalahan penalaran sederhana. & Bentuk: Daring atau Luring. Metode: CTL, Problem Based Learning. Penugasan: Tugas 4 mengevaluasi argumen nyata dari studi kasus. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menganalisis struktur argumen. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Mengidentifikasi premis dan menjelaskan kesimpulan. & 2 \\
+5 & SCPMK401-00301 & Kuis materi pekan 1--4. & Ujian teori pilihan ganda, sifat closed book. & 2 x 2 x 50' tatap muka. & Mampu mengerjakan soal ujian dengan materi pekan 1--4 secara mandiri. & Kriteria: ketepatan dan penguasaan. Bentuk: ketepatan jawaban ujian. & Ketepatan jawaban dengan kunci jawaban. & 15 \\
+6 & SCPMK401-00302 & Penggunaan imajinasi; integrasi beberapa teknik; identifikasi informasi relevan; inferensi dalam problem solving. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning. Penugasan: Tugas 5 menganalisis kasus kompleks. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat memecahkan kasus secara bertahap. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Mengidentifikasi relevansi informasi yang dipilih; memahami logika inferensi. & 2 \\
+7 & SCPMK401-00302 & Mathematical reasoning; graphical reasoning; probability dan uncertainty; decision trees. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning. Penugasan: Tugas 6 menyelesaikan permasalahan dengan pemilihan teknik yang tepat. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menerapkan teknik yang berbeda untuk menyelesaikan permasalahan. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Mengidentifikasi ketepatan teknik yang digunakan; menjelaskan konsistensi logika yang digunakan. & 2 \\
+8 & SCPMK401-00301, SCPMK401-00302 & UTS materi pekan 1--7. & Ujian teori pilihan ganda, sifat closed book. & 2 x 2 x 50' tatap muka. & Mampu mengerjakan soal ujian dengan materi pekan 1--7 secara mandiri. & Kriteria: ketepatan dan penguasaan. Bentuk: ketepatan jawaban ujian. & Ketepatan jawaban dengan kunci jawaban. & 10 \\
+9 & SCPMK401-00301 & Validitas logika; non-deductive reasoning; argument by analogy; statistical reasoning. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning. Penugasan: Tugas 7 memberikan kritik argumen statistik pada studi kasus. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menilai validitas argumen. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Memahami ketepatan analisis logika yang digunakan; menjelaskan argumen secara kritis berbasis data. & 2 \\
+10 & SCPMK401-00302 & Identifikasi masalah; observasi dan wawancara; 5-Why's; fishbone; problem tree. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning. Penugasan: Tugas 8 menganalisis akar masalah dari kasus kehidupan sehari-hari. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat mengolah data nyata atau simulasi. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Menjelaskan akar masalah dari sebuah kasus; menjelaskan konsistensi logika sebab-akibat. & 2 \\
+11 & SCPMK401-00302 & Brainstorming; evaluasi solusi; kreativitas terstruktur. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning. Penugasan: Tugas 9 menyelesaikan permasalahan melalui brainstorming secara terstruktur. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menyusun solusi dan alternatifnya untuk menyelesaikan permasalahan. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Mengidentifikasi relevansi solusi berdasarkan permasalahan; menjelaskan kreativitas solusi secara terukur. & 2 \\
+12 & SCPMK401-00303 & Penyusunan solusi ilmiah; integrasi data dan argumen; validitas solusi. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning. Penugasan: Tugas 10 menulis solusi permasalahan secara ilmiah dalam bentuk draf dokumen ilmiah. & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menghubungkan keterkaitan antara data dan solusi. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok dan ketepatan jawaban tugas. & Menjelaskan kekuatan argumen berdasarkan data yang diperoleh; menjelaskan kecocokan solusi untuk menyelesaikan permasalahan. & 2 \\
+13 & SCPMK401-00303 & Struktur proposal; kerangka argumentasi ilmiah. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning (penyusunan draf dokumen ilmiah). & 2 x 2 x 50' tatap muka. & Mahasiswa dapat menyusun kerangka draf dokumen ilmiah untuk solusi permasalahan. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok, progres draf dokumen ilmiah. & Menjelaskan solusi dari permasalahan secara logis dan terstruktur. & 5 \\
+14 & SCPMK401-00303 & Argumentasi ilmiah; integrasi data pendukung. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning (penyusunan draf dokumen ilmiah). & 2 x 2 x 50' tatap muka. & Mahasiswa dapat menuangkan argumentasi berbasis data ke dalam draf dokumen ilmiah. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok, progres draf dokumen ilmiah. & Menjelaskan solusi dari permasalahan secara logis dan terstruktur. & 5 \\
+15 & SCPMK401-00303 & Keterpaduan logika; penyelarasan rumusan masalah, data, dan solusi. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning (penyusunan draf dokumen ilmiah). & 2 x 2 x 50' tatap muka. & Mahasiswa dapat menjelaskan solusi permasalahan dalam bentuk draf dokumen ilmiah yang utuh. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok, progres draf dokumen ilmiah. & Menjelaskan solusi dari permasalahan secara logis dan terstruktur. & 5 \\
+16 & SCPMK401-00303 & Evaluasi kritis; feedback; penyempurnaan solusi. & Bentuk: Daring atau Luring. Metode: CTL, Project Based Learning (finalisasi draf dokumen ilmiah). & 2 x 2 x 50' tatap muka dan tugas terstruktur. & Mahasiswa dapat menyusun draf dokumen ilmiah secara mendalam berdasarkan analisis kritis. & Kriteria: ketepatan dan penguasaan. Bentuk: keaktifan diskusi kelompok, kualitas draf akhir dokumen ilmiah. & Menjelaskan analisis solusi permasalahan secara mendalam berdasarkan data dan fakta. & 5 \\
+17 & SCPMK401-00303 & UAS presentasi akhir. & Ujian presentasi kelompok. & 2 x 2 x 50' tatap muka. & Mahasiswa dapat mempresentasikan hasil analisis permasalahan dan solusi yang dikembangkan secara sistematis, serta menjawab pertanyaan dan memberikan klarifikasi berbasis bukti. & Kriteria: kejelasan struktur penyajian solusi, kualitas argumentasi dan keterkaitan dengan data. Bentuk: keaktifan dalam presentasi lisan dan proses tanya jawab. & Menjelaskan secara runtut latar belakang, perumusan masalah, dan solusi yang diajukan; memahami ide dan gagasan yang diusulkan untuk menyelesaikan permasalahan. & 35 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Critical Thinking dan Problem Solving \\
+Kode Mata Kuliah & RTI251003 \quad \textbf{sks / Jam perminggu:} 2 SKS/4 jam \quad \textbf{Semester:} 1 \\
+Dosen Pengampu & \begin{enumerate}\item Vivi Nur Wijayaningrum, S.Kom., M.Kom.\item Elok Nur Hamdana, S.T., M.T.\item Rokhimatul Wakhidah, S.Pd., M.T.\item Mungki Astiningrum, S.T., M.Kom.\item Bagas Satya Dian Nugraha, S.T., M.T.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Analisis Argumen dan Pemecahan Masalah}{Tugas terstruktur mingguan}{SCPMK401-00301, SCPMK401-00302, SCPMK401-00303}{Mahasiswa mengerjakan rangkaian Tugas 1--10 berupa analisis argumen, klasifikasi fakta/opini, evaluasi bias, penerapan teknik pemecahan masalah, dan perumusan solusi ilmiah dari studi kasus.}{Menganalisis studi kasus, mengklasifikasikan pernyataan, mengevaluasi argumen, menerapkan teknik problem solving (root cause, brainstorming, decision trees), dan menuliskan solusi berbasis bukti.}{Lembar jawaban tugas, hasil analisis studi kasus, dan draf tulisan solusi ilmiah.}{Ketepatan analisis argumen, fakta vs opini, bias, dan kesalahan logika & 10 & Premis, kesimpulan, fakta/opini, bias, dan kesalahan logika diidentifikasi tepat pada setiap kasus disertai alasan yang runtut. & Sebagian besar unsur argumen teridentifikasi benar, tetapi alasan atau identifikasi bias masih dangkal atau tidak konsisten. & Klasifikasi fakta/opini banyak keliru atau analisis argumen tidak menunjukkan pemahaman struktur premis-kesimpulan. \\ \\
+Ketepatan penerapan teknik pemecahan masalah & 8 & Teknik (5-Why's, fishbone, problem tree, brainstorming, decision trees) dipilih sesuai kasus dan diterapkan dengan langkah lengkap hingga akar masalah dan alternatif solusi. & Teknik diterapkan pada kasus, tetapi pemilihan teknik kurang tepat atau langkah analisis belum tuntas sampai akar masalah. & Teknik tidak sesuai kasus, langkahnya tidak runtut, atau hasil analisis tidak terkait masalah. \\ \\
+Perumusan solusi ilmiah berbasis data & 2 & Solusi dirumuskan logis, didukung data/bukti relevan, dan dituliskan dalam draf yang terstruktur. & Solusi cukup relevan, tetapi dukungan data atau struktur penulisan masih lemah. & Solusi asumtif tanpa dukungan data atau tidak menjawab masalah yang dirumuskan. \\}
+
+\assessmentblock{Kuis Konsep Berpikir Kritis}{Kuis (ujian teori pilihan ganda, closed book)}{SCPMK401-00301}{Mahasiswa mengerjakan kuis pilihan ganda yang mencakup materi pekan 1--4: konsep CTPS, fakta dan opini, struktur argumen, serta strategi pemecahan masalah dasar.}{Mengerjakan soal pilihan ganda secara mandiri dalam waktu yang ditentukan dengan sifat closed book.}{Lembar jawaban kuis pilihan ganda.}{Penguasaan konsep berpikir kritis dan CTPS & 6 & Menjawab benar soal konsep, karakteristik pemikir kritis, dan peran CTPS dengan tingkat ketepatan tinggi (di atas 80\% butir terkait). & Menjawab benar sebagian besar soal konsep (60--80\% butir terkait). & Jawaban benar kurang dari 60\% butir konsep, menunjukkan pemahaman yang belum memadai. \\ \\
+Ketepatan identifikasi fakta, opini, dan klaim & 5 & Mengklasifikasikan pernyataan sebagai fakta, opini, atau klaim dengan tepat pada hampir semua butir soal. & Klasifikasi sebagian besar benar, tetapi masih tertukar pada pernyataan yang ambigu. & Klasifikasi banyak keliru pada butir fakta/opini/klaim. \\ \\
+Ketepatan mengenali bias dan kesalahan logika & 4 & Mengenali jenis bias dan kesalahan penalaran pada soal kasus dengan tepat dan konsisten. & Mengenali sebagian bias/kesalahan logika, tetapi masih keliru pada kasus yang mirip. & Tidak dapat membedakan penalaran valid dan tidak valid pada butir soal. \\}
+
+\assessmentblock{UTS Evaluasi Argumen dan Problem Solving}{UTS (ujian teori pilihan ganda, closed book)}{SCPMK401-00301, SCPMK401-00302}{Mahasiswa mengerjakan UTS yang mencakup materi pekan 1--7: analisis dan evaluasi argumen serta penerapan teknik pemecahan masalah pada kasus.}{Mengerjakan soal pilihan ganda secara mandiri dalam waktu yang ditentukan dengan sifat closed book.}{Lembar jawaban UTS pilihan ganda.}{Ketepatan evaluasi argumen dan validitas penalaran & 5 & Menilai validitas argumen, mengidentifikasi premis-kesimpulan, dan mengenali kesalahan penalaran pada soal kasus dengan benar dan konsisten. & Sebagian besar evaluasi argumen benar, tetapi masih keliru pada kasus penalaran yang kompleks. & Evaluasi argumen banyak keliru atau menilai validitas tanpa dasar logika yang benar. \\ \\
+Ketepatan penerapan teknik problem solving pada kasus & 5 & Memilih dan menerapkan teknik pemecahan masalah (inferensi, reasoning matematis/grafis, decision trees) yang tepat untuk setiap soal kasus. & Teknik yang dipilih umumnya sesuai, tetapi penerapannya pada sebagian kasus belum tepat. & Pemilihan atau penerapan teknik tidak sesuai kasus sehingga jawaban banyak keliru. \\}
+
+\assessmentblock{PBL Draf Dokumen Ilmiah Solusi Permasalahan}{Project Based Learning}{SCPMK401-00303}{Mahasiswa secara berkelompok menyusun draf dokumen ilmiah (pekan 13--16) yang memuat latar belakang, rumusan masalah, analisis data, solusi, dan penyempurnaan berdasarkan feedback.}{Menyusun struktur proposal, membangun argumentasi ilmiah berbasis data, memadukan logika antarbagian dokumen, dan menyempurnakan solusi berdasarkan evaluasi kritis dan feedback.}{Draf dokumen ilmiah solusi permasalahan beserta catatan revisi.}{Struktur proposal dan perumusan masalah & 7 & Latar belakang, rumusan masalah, tujuan, dan sistematika dokumen lengkap, runtut, dan saling terhubung. & Struktur dokumen lengkap, tetapi keterkaitan antara latar belakang, rumusan masalah, dan tujuan belum kuat. & Struktur dokumen tidak lengkap atau rumusan masalah tidak jelas. \\ \\
+Kualitas argumentasi ilmiah berbasis data & 8 & Setiap klaim solusi didukung data/bukti relevan dengan logika yang terpadu dari masalah hingga solusi. & Argumentasi cukup logis, tetapi sebagian klaim belum didukung data atau terdapat lompatan logika. & Argumentasi tidak didukung data atau solusi tidak terkait dengan rumusan masalah. \\ \\
+Penyempurnaan solusi berdasarkan evaluasi kritis dan feedback & 5 & Feedback dianalisis, revisi diprioritaskan, dan perbaikan terlihat jelas pada draf akhir disertai catatan revisi. & Sebagian feedback ditindaklanjuti, tetapi dokumentasi revisi atau kedalaman perbaikan masih terbatas. & Tidak ada tindak lanjut bermakna terhadap feedback atau draf akhir tidak berubah. \\}
+
+\assessmentblock{UAS Presentasi Akhir Solusi}{UAS (ujian presentasi kelompok)}{SCPMK401-00303}{Mahasiswa mempresentasikan hasil analisis permasalahan dan solusi yang dikembangkan secara sistematis, serta menjawab pertanyaan dan memberikan klarifikasi berbasis bukti.}{Menyiapkan bahan presentasi dari dokumen ilmiah, memaparkan latar belakang, rumusan masalah, analisis data, dan solusi, kemudian menjawab pertanyaan penguji dengan argumentasi berbasis data.}{Bahan presentasi (slide), dokumen ilmiah final, dan sesi tanya jawab.}{Kejelasan struktur penyajian solusi & 12 & Presentasi runtut dari latar belakang, rumusan masalah, analisis, hingga solusi dengan alur yang mudah diikuti dan tepat waktu. & Struktur presentasi lengkap, tetapi urutan atau proporsi antarbagian kurang seimbang. & Presentasi melompat-lompat, bagian penting hilang, atau tidak menjelaskan rumusan masalah dan solusi. \\ \\
+Kualitas argumentasi dan keterkaitan dengan data & 13 & Setiap gagasan solusi dijelaskan dengan argumen kohesif yang didukung data/fakta dari analisis yang dilakukan. & Argumentasi cukup jelas, tetapi sebagian gagasan belum didukung data atau keterkaitannya lemah. & Gagasan tidak didukung data atau argumen tidak konsisten dengan hasil analisis. \\ \\
+Kemampuan menjawab pertanyaan dan klarifikasi berbasis bukti & 10 & Menjawab pertanyaan dengan tepat, tenang, dan merujuk pada bukti/data dalam dokumen ilmiah. & Sebagian pertanyaan dijawab tepat, tetapi jawaban lain kurang didukung bukti. & Tidak mampu menjawab pertanyaan atau jawaban tidak terkait bukti dan materi presentasi. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, studi kasus, dokumen ilmiah, perangkat lunak office, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

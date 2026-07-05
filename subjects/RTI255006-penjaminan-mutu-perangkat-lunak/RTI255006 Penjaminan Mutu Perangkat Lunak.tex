@@ -1,0 +1,230 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}
+}
+
+\begin{document}
+\pagestyle{empty}
+\tight
+
+\begin{tblr}{
+  width=\textwidth,
+  colspec={|Q[c,m,1.9cm]|X[l,m]|},
+  hlines, vlines,
+  hspan=minimal,
+  row{1}={bg=headblue},
+  rowsep=1pt, colsep=3pt
+}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par
+\textbf{JURUSAN TEKNOLOGI INFORMASI}\par
+\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+
+\begin{longtblr}{
+  width=\textwidth,
+  colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},
+  hlines, vlines,
+  hspan=minimal,
+  rowsep=1pt, colsep=2pt,
+  row{1,3,6,8,10,12,18,25,27,29,30,31,32}={bg=headgray,font=\bfseries}
+}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Penjaminan Mutu Perangkat Lunak & RTI255006 & 2 SKS/4 jam & 5 & 13 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI & \\
+ & Dian Hanifudin Subhi, S.Kom., M.Kom. & & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} & \\
+
+\SetCell[r=12]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) & & & \\
+ & CPL06 & \SetCell[c=3]{l} Mampu merancang, mengimplementasikan, menguji, melakukan deployment, memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan pengguna. & & \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) & & & \\
+ & CPMK608 & \SetCell[c=3]{l} Mahasiswa mampu merancang strategi pengujian, melakukan verifikasi dan validasi, serta mengevaluasi jaminan mutu perangkat lunak berdasarkan kebutuhan, standar mutu, dan konteks pengembangan perangkat lunak. & & \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) & & & \\
+ & SCPMK608-04201 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis prinsip software quality assurance, standar mutu, tipe dan level pengujian, serta konteks pengujian dalam SDLC. & & \\
+ & SCPMK608-04202 & \SetCell[c=3]{l} Mahasiswa mampu merancang dokumen test plan, test scenario, test case, test monitoring, test control, dan test report yang sesuai dengan kebutuhan perangkat lunak. & & \\
+ & SCPMK608-04203 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan dan mengevaluasi functional testing menggunakan tools yang sesuai untuk memverifikasi kesesuaian perangkat lunak terhadap requirement. & & \\
+ & SCPMK608-04204 & \SetCell[c=3]{l} Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes. & & \\
+
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan & & & \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=5]{c} Bobot per Bentuk Penilaian & & & & & Total Bobot \\
+ & & Tugas & Kuis & UTS & PBL & UAS & \\
+CPMK608 & SCPMK608-04201 & 4\%: SQA, standar mutu, tipe dan level pengujian & 7\%: konsep SQA dan perencanaan awal & 5\%: strategi pengujian & & & 16\% \\
+CPMK608 & SCPMK608-04202 & 7\%: test plan, scenario, case, monitoring, report & 3\%: dokumentasi pengujian & 10\%: strategi dan dokumentasi pengujian & 5\%: QA strategy awal & & 25\% \\
+CPMK608 & SCPMK608-04203 & 18\%: functional, E2E, API, unit/integration testing & & & 10\%: functional testing proyek & 5\%: evaluasi hasil uji & 33\% \\
+CPMK608 & SCPMK608-04204 & 6\%: non-functional dan performance testing & & & 10\%: strategi QA komprehensif & 10\%: rekomendasi kualitas & 26\% \\
+\SetCell[c=7]{r}\textbf{Total Per Penilaian} & & & & & & \textbf{100\%} \\
+\end{tblr}} & & & \\
+
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Penjaminan Mutu Perangkat Lunak memberikan pengetahuan, keterampilan, dan pengalaman terarah untuk merancang strategi penjaminan mutu perangkat lunak melalui pengujian, verifikasi, validasi, dokumentasi pengujian, functional testing, non-functional testing, serta penyusunan rekomendasi peningkatan kualitas perangkat lunak sesuai standar industri dan kebutuhan pengguna. & & & \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Pengantar SQA dan standar ISO.\item Pendekatan, tipe, dan level pengujian.\item Test planning, test scenario, test case, dan traceability.\item Test monitoring, test control, test completion, dan test reporting.\item Functional testing.\item Non-functional testing.\item Strategi QA komprehensif.\end{enumerate} & & & \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Sommerville, I. 2016. \textit{Software Engineering}, 10th Edition. Pearson.\item Myers, G. J., Sandler, C., and Badgett, T. 2011. \textit{The Art of Software Testing}, 3rd Edition. Wiley.\item Pressman, R. S. and Maxim, B. R. 2019. \textit{Software Engineering: A Practitioner's Approach}, 9th Edition. McGraw-Hill.\end{enumerate} & & & \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:}\begin{enumerate}\item ISO/IEC/IEEE 29119 Software Testing Standard.\item ISO/IEC 25010 Systems and Software Quality Requirements and Evaluation.\item ISTQB Certified Tester Foundation Level Syllabus.\end{enumerate} & & & \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Office, IDE/text editor, Git, Postman/Newman, Selenium/Cypress, JMeter/k6, unit testing framework. & & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor. & \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Dian Hanifudin Subhi, S.Kom., M.Kom.\item Dika Rizky Yunianto, S.Kom., M.Kom.\item M. Hasyim Ratsanjani, S.Kom., M.Kom.\end{enumerate} & & & \\
+Matakuliah Syarat & \SetCell[c=4]{l} - & & & \\
+\end{longtblr}
+
+\begin{longtblr}{
+  width=\textwidth,
+  colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},
+  hlines, vlines,
+  hspan=minimal,
+  rowhead=2,
+  row{1,2}={bg=headgreen,font=\bfseries},
+  rowsep=1pt, colsep=1.5pt
+}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & \SetCell[r=2]{l} SCPMK608-04201: Mahasiswa mampu menganalisis prinsip software quality assurance, standar mutu, tipe dan level pengujian, serta konteks pengujian dalam SDLC. & Pengantar SQA; software quality; ISO/IEC 25010; peran QA dalam SDLC. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: CTL, studi kasus, diskusi kelompok. Penugasan: Tugas 1 analisis standar ISO dan QA. & 1 x 3 x 50' tatap muka dan tugas terstruktur; 1 x 1 x 50' tugas kelompok. & Mahasiswa menjelaskan pentingnya QA, mengidentifikasi standar mutu, dan menganalisis masalah mutu pada kasus perangkat lunak. & Kriteria: rubrik kriteria penilaian. Bentuk: diskusi dan Tugas 1. Mengacu Rubrik R1. & Ketepatan analisis masalah mutu; kesesuaian standar; kejelasan argumentasi. & 2 \\
+2 & & Pendekatan pengujian; manual vs automated; black-box, white-box, gray-box; unit, integration, system, acceptance testing. & Modalitas: Blended Learning. Metode: CTL dan Problem Based Learning. Penugasan: Tugas 2 identifikasi tipe dan level pengujian. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa membandingkan pendekatan pengujian dan menentukan tipe/level pengujian untuk requirement tertentu. & Kriteria: ketepatan dan penguasaan. Bentuk: diskusi dan Tugas 2. Mengacu Rubrik R2. & Ketepatan klasifikasi; alasan pemilihan; keterkaitan dengan SDLC. & 2 \\
+3 & SCPMK608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, dan test case. & Test plan; test scenario; test case; requirement traceability. & Modalitas: Blended Learning. Metode: Project Based Learning dan studi kasus. Penugasan: Tugas 3 penyusunan test plan, scenario, dan case. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa menyusun artefak perencanaan pengujian untuk aplikasi sederhana. & Kriteria: rubrik kriteria penilaian. Bentuk: Tugas 3. Mengacu Rubrik R4. & Kelengkapan test plan; logika scenario; detail test case; traceability. & 4 \\
+4 & SCPMK608-04201 dan SCPMK608-04202 & Materi minggu 1--3 dan artefak awal proyek kelompok. & Evaluasi: Kuis 1 berbasis checkpoint PBL kelompok. & 1 x 2 x 50' evaluasi dan review proyek; 1 x 2 x 50' penyempurnaan artefak kelompok. & Mahasiswa mempresentasikan konteks QA proyek, pemetaan ISO/quality model, ruang lingkup pengujian, risiko awal, dan traceability awal. & Bentuk penilaian: Kuis 1. Mengacu Rubrik R3. & Ketepatan konteks QA; relevansi standar; kejelasan testing scope; prioritas risiko; traceability awal. & 10 \\
+5 & \SetCell[r=2]{l} SCPMK608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, test case, test monitoring, test control, dan test report yang sesuai dengan kebutuhan perangkat lunak. & Review test plan; review scenario; review test case; best practices dokumentasi pengujian. & Modalitas: Blended Learning. Metode: Peer Review dan Project Based Learning. Penugasan: Tugas 4 review dan presentasi artefak. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa melakukan peer review, mempresentasikan temuan, dan memperbaiki dokumen pengujian. & Bentuk penilaian: Tugas 4 dan presentasi. Mengacu Rubrik R5. & Kedalaman review; rekomendasi; kualitas presentasi; revisi artefak. & 2 \\
+6 & & Test monitoring; test control; test completion; defect summary; test report. & Modalitas: Blended Learning. Metode: CTL dan Project Based Learning. Penugasan: Tugas 5 simulasi monitoring dan reporting. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa memonitor progres pengujian, mengendalikan risiko, dan menyusun laporan pengujian. & Bentuk penilaian: Tugas 5. Mengacu Rubrik R6. & Ketepatan metrik; kelengkapan laporan; kontrol risiko; rekomendasi tindak lanjut. & 2 \\
+7 & SCPMK608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing. & Functional testing; test design technique; UAT planning; user story testing. & Modalitas: Blended Learning. Metode: Hands-on Practice dan Role Playing. Penugasan: Tugas 6 functional testing dan Tugas 7 UAT. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa merancang pengujian fungsional dan melakukan simulasi UAT sebagai user dan tester. & Bentuk penilaian: Tugas 6 dan Tugas 7. Mengacu Rubrik R8 dan R9. & Coverage requirement; validitas test data; kualitas UAT; bukti hasil uji. & 6 \\
+8 & UTS untuk SCPMK608-04201 dan SCPMK608-04202 & Materi minggu 1--7 dan dokumen milestone proyek kelompok. & Evaluasi: UTS berbasis milestone review PBL kelompok. & 1 x 3 x 50' evaluasi praktik dan defense proyek. & Mahasiswa mempresentasikan dan mempertahankan test plan, test scenario, test case, traceability matrix, serta monitoring/control plan proyek. & Bentuk penilaian: UTS. Mengacu Rubrik R7. & Kelengkapan dokumen; konsistensi strategi; traceability; monitoring/control plan; kualitas defense kelompok. & 15 \\
+9 & \SetCell[r=4]{l} SCPMK608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing menggunakan tools yang sesuai untuk memverifikasi kesesuaian perangkat lunak terhadap requirement. & End-to-end testing; test flow; Selenium/Cypress; test script. & Modalitas: Blended Learning. Metode: Hands-on Practice dengan tools. Penugasan: Tugas 8 implementasi E2E testing. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa membuat skenario E2E, menulis test script, dan mendokumentasikan hasil. & Bentuk penilaian: Tugas 8. Mengacu Rubrik R10. & Kebenaran flow E2E; kualitas script; hasil eksekusi; dokumentasi evidence. & 3 \\
+10 & & API testing; Postman; assertion; Newman; test suite. & Modalitas: Blended Learning. Metode: Hands-on Practice dengan Postman/Newman. Penugasan: Tugas 9 automated API testing suite. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa merancang request, assertion, collection, environment, dan automated run. & Bentuk penilaian: Tugas 9. Mengacu Rubrik R11. & Ketepatan request; kelengkapan assertion; struktur collection; bukti eksekusi otomatis. & 3 \\
+11 & & Unit testing; integration testing; system testing; TDD approach. & Modalitas: Blended Learning. Metode: Coding Practice dan TDD. Penugasan: Tugas 10 unit dan integration test. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa menulis test code, menjalankan test suite, dan mengevaluasi hasil. & Bentuk penilaian: Tugas 10. Mengacu Rubrik R12. & Kualitas test code; coverage fungsi kritis; penerapan TDD; integrasi kode. & 3 \\
+12 & & Review unit/integration test; code review; coverage analysis; test maintainability. & Modalitas: Blended Learning. Metode: Code Review dan Peer Assessment. Penugasan: Tugas 11 evaluasi test code. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa melakukan review test code, menganalisis coverage, dan memberi rekomendasi perbaikan. & Bentuk penilaian: Tugas 11. Mengacu Rubrik R13. & Ketepatan review; pemahaman coverage; rekomendasi refactoring test; kualitas feedback. & 3 \\
+13 & \SetCell[r=2]{l} SCPMK608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes. & Non-functional testing; performance; security; usability; maintainability; ISO/IEC 25010 quality attributes. & Modalitas: Blended Learning. Metode: CTL dan Case Study Analysis. Penugasan: Tugas 12 analisis kebutuhan non-functional testing. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa mengidentifikasi quality attributes dan merancang strategi non-functional testing. & Bentuk penilaian: Tugas 12. Mengacu Rubrik R14. & Identifikasi atribut kualitas; relevansi strategi; prioritas risiko; keterkaitan kebutuhan pengguna. & 3 \\
+14 & & Load testing; performance testing; stress testing; volume testing; JMeter/k6; performance metrics. & Modalitas: Blended Learning. Metode: Hands-on Practice dengan JMeter/k6. Penugasan: Tugas 13 performance testing scenario. & 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas kelompok. & Mahasiswa membuat skenario performa, menjalankan pengujian, membaca metrik, dan menyusun rekomendasi. & Bentuk penilaian: Tugas 13. Mengacu Rubrik R15. & Kesesuaian skenario beban; validitas metrik; analisis bottleneck; rekomendasi. & 3 \\
+15--16 & SCPMK608-04201--04204: Integrasi semua kemampuan dalam proyek komprehensif QA. & Proyek akhir; QA strategy; test planning; functional testing; non-functional testing; reporting; presentation. & Modalitas: Blended Learning. Metode: Project Based Learning dan mentoring. Penugasan: PBL proyek akhir strategi QA lengkap. & 2 x 2 x 50' tatap muka; 2 x 2 x 50' tugas kelompok. & Mahasiswa menyusun strategi QA, mengimplementasikan pengujian, membuat laporan, dan mempresentasikan hasil. & Bentuk penilaian: PBL/proyek akhir. Mengacu Rubrik R16. & Integrasi strategi; implementasi; evidence pengujian; dokumentasi; presentasi; rekomendasi mutu. & 25 \\
+17 & UAS untuk SCPMK608-04203 dan SCPMK608-04204 & Materi minggu 1--16 dan hasil akhir proyek kelompok. & Evaluasi: UAS berbasis validasi akhir PBL kelompok. & 1 x 3 x 50' evaluasi praktik dan presentasi akhir. & Mahasiswa mendemonstrasikan implementasi QA lengkap, evidence functional dan non-functional testing, analisis defect, serta rekomendasi peningkatan mutu. & Bentuk penilaian: UAS. Mengacu Rubrik R17. & Kelengkapan evidence; ketepatan analisis defect; kualitas rekomendasi; konsistensi dokumentasi; kualitas presentasi akhir. & 15 \\
+\end{longtblr}
+
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Penjaminan Mutu Perangkat Lunak \\
+Kode Mata Kuliah & RTI255006 \quad \textbf{sks / Jam perminggu:} 2 SKS / 4 Jam \quad \textbf{Semester:} 5 \\
+Dosen Pengampu & \begin{enumerate}\item Dian Hanifudin Subhi, S.Kom., M.Kom.\item Dika Rizky Yunianto, S.Kom., M.Kom.\item M. Hasyim Ratsanjani, S.Kom., M.Kom.\end{enumerate} \\
+\end{tblr}
+
+\assessmentblock{Tugas 1: Analisis Standar ISO dan QA}{Case Method}{SCPMK608-04201}{Mahasiswa menganalisis standar mutu perangkat lunak dan relevansinya pada kasus aplikasi.}{Menganalisis kasus, memilih standar/quality model, dan menyusun argumentasi tertulis.}{Laporan analisis PDF.}{Analisis masalah mutu perangkat lunak & 0.8 & Masalah mutu pada kasus diidentifikasi tepat dan dikaitkan dengan dampak terhadap pengguna, proses, dan produk. & Masalah mutu cukup tepat, tetapi dampak atau konteks kasus belum lengkap. & Masalah mutu tidak jelas atau tidak terkait kasus. \\ \\
+Pemilihan standar dan quality model & 0.7 & ISO/IEC 25010 atau standar QA relevan dipilih, dijelaskan, dan dipakai untuk membaca kasus. & Standar yang dipilih cukup relevan, tetapi penerapannya pada kasus masih terbatas. & Tidak menggunakan standar mutu relevan atau salah menerapkannya. \\ \\
+Argumentasi dan bukti laporan & 0.5 & Argumen runtut, berbasis evidence kasus, dan laporan mudah ditelusuri. & Argumen cukup runtut, tetapi evidence atau struktur laporan belum kuat. & Argumen lemah, tidak berbasis evidence, atau laporan sulit dipahami. \\}
+
+\assessmentblock{Tugas 2: Identifikasi Tipe dan Level Pengujian}{Case Method}{SCPMK608-04201}{Mahasiswa mengidentifikasi pendekatan, tipe, dan level pengujian pada studi kasus.}{Mengklasifikasikan kebutuhan uji, menentukan tipe/level uji, dan memberi alasan pemilihan.}{Laporan klasifikasi pengujian PDF.}{Klasifikasi pendekatan pengujian & 0.8 & Manual, automated, black-box, white-box, dan gray-box diklasifikasikan sesuai kebutuhan kasus. & Klasifikasi cukup tepat, tetapi beberapa pendekatan belum dibedakan jelas. & Klasifikasi keliru atau tidak sesuai kasus. \\ \\
+Pemetaan tipe dan level pengujian & 0.7 & Unit, integration, system, acceptance, dan tipe uji lain dipetakan ke requirement dengan alasan logis. & Pemetaan cukup tepat, tetapi alasan atau cakupan requirement belum lengkap. & Tidak mampu memetakan level pengujian ke requirement. \\ \\
+Rationale dan keterkaitan SDLC & 0.5 & Pilihan pengujian dijelaskan sesuai risiko, fase SDLC, dan tujuan verifikasi/validasi. & Rationale tersedia, tetapi hubungan dengan risiko atau SDLC masih umum. & Tidak ada rationale yang dapat dipertanggungjawabkan. \\}
+
+\assessmentblock{Tugas 3: Test Plan, Test Scenario, dan Test Case}{Project Based Learning}{SCPMK608-04202}{Mahasiswa menyusun dokumen perencanaan pengujian berdasarkan requirement.}{Menganalisis requirement, membuat test plan, scenario, test case, data uji, dan expected result.}{Dokumen test plan, scenario, dan test case.}{Kelengkapan test plan & 1.6 & Scope, objective, resource, schedule, risk, entry/exit criteria, dan strategy ditulis lengkap. & Test plan tersedia, tetapi beberapa elemen perencanaan belum detail. & Test plan tidak lengkap atau tidak dapat menjadi acuan pengujian. \\ \\
+Kualitas scenario dan test case & 1.4 & Scenario, test step, test data, expected result, dan precondition jelas serta dapat dieksekusi. & Scenario/test case cukup dapat dieksekusi, tetapi detail data atau expected result kurang. & Scenario/test case tidak jelas atau tidak dapat dieksekusi. \\ \\
+Traceability requirement & 1 & Setiap test case tertaut ke requirement dan cakupan pengujian dapat dilacak. & Traceability tersedia sebagian, tetapi belum mencakup semua requirement penting. & Tidak ada traceability yang memadai. \\}
+
+\assessmentblock{Kuis 1: Konsep SQA dan Perencanaan Awal}{Kuis berbasis checkpoint PBL kelompok}{SCPMK608-04201, SCPMK608-04202}{Mahasiswa mengevaluasi kesiapan awal proyek kelompok melalui konteks QA, pemetaan standar mutu, ruang lingkup pengujian, risiko awal, dan traceability awal.}{Kelompok menyusun artefak checkpoint, mempresentasikan rationale QA, dan menjawab validasi dosen terhadap keputusan awal proyek.}{Dokumen checkpoint QA awal dan catatan validasi/presentasi kelompok.}{Konteks QA proyek & 4 & Konteks aplikasi, masalah mutu, stakeholder, dan quality attribute awal dijelaskan jelas. & Konteks QA cukup jelas, tetapi stakeholder atau quality attribute belum lengkap. & Konteks QA tidak jelas atau tidak terkait proyek. \\ \\
+Pemetaan standar, scope, dan risiko & 3.5 & Standar mutu, testing scope, risiko awal, dan prioritas pengujian dipetakan logis. & Pemetaan tersedia, tetapi prioritas risiko atau scope masih kurang konsisten. & Pemetaan standar/scope/risiko tidak tepat. \\ \\
+Traceability awal dan defense & 2.5 & Traceability awal dapat dilacak dan kelompok mampu menjawab validasi dosen dengan evidence. & Traceability tersedia sebagian dan defense cukup menjawab pertanyaan utama. & Traceability tidak jelas atau kelompok tidak mampu mempertahankan keputusan. \\}
+
+\assessmentblock{Tugas 4: Review Dokumentasi dan Presentasi}{Peer Review}{SCPMK608-04202}{Mahasiswa mengevaluasi dokumen pengujian dan mempresentasikan rekomendasi perbaikan.}{Melakukan peer review, mencatat temuan, merevisi dokumen, dan mempresentasikan hasil.}{Lembar review, dokumen revisi, dan bahan presentasi.}{Kedalaman peer review & 0.8 & Review menemukan masalah substansi pada test plan, scenario, test case, dan traceability. & Review menemukan beberapa masalah, tetapi masih banyak komentar umum. & Review dangkal atau hanya memeriksa format. \\ \\
+Rekomendasi dan revisi artefak & 0.7 & Rekomendasi spesifik, dapat ditindaklanjuti, dan revisi artefak terlihat jelas. & Sebagian rekomendasi ditindaklanjuti, tetapi prioritas atau bukti revisi kurang. & Tidak ada rekomendasi bermakna atau revisi tidak dilakukan. \\ \\
+Kualitas presentasi hasil review & 0.5 & Presentasi menjelaskan temuan, dasar penilaian, keputusan revisi, dan dampaknya pada kualitas pengujian. & Presentasi cukup jelas, tetapi dasar penilaian atau dampak revisi belum kuat. & Presentasi tidak menjelaskan hasil review secara memadai. \\}
+
+\assessmentblock{Tugas 5: Monitoring, Control, Completion, dan Report}{Project Based Learning}{SCPMK608-04202}{Mahasiswa menyusun monitoring, control, completion, dan laporan pengujian.}{Menentukan metrik, memonitor progres uji, mencatat risiko, dan menyusun test report.}{Dokumen test monitoring dan test report.}{Metrik monitoring dan control & 0.8 & Progress, defect, risk, coverage, dan action item dimonitor dengan metrik yang sesuai. & Metrik tersedia, tetapi belum lengkap atau belum dipakai untuk control. & Monitoring tidak berbasis metrik atau status pengujian tidak jelas. \\ \\
+Test completion dan laporan & 0.7 & Completion criteria, summary eksekusi, defect summary, dan status release disusun jelas. & Laporan tersedia, tetapi completion criteria atau defect summary belum lengkap. & Laporan tidak menggambarkan hasil pengujian. \\ \\
+Rekomendasi tindak lanjut & 0.5 & Rekomendasi berbasis data monitoring, risiko, dan defect yang ditemukan. & Rekomendasi cukup relevan, tetapi belum kuat berbasis data. & Rekomendasi tidak operasional atau tidak terkait hasil pengujian. \\}
+
+\assessmentblock{Tugas 6: Functional Testing}{Hands-on Practice}{SCPMK608-04203}{Mahasiswa menerapkan functional testing untuk memverifikasi requirement aplikasi.}{Menyusun skenario functional test, menjalankan pengujian, dan mendokumentasikan evidence.}{Dokumen functional test dan evidence hasil uji.}{Coverage requirement fungsional & 1.2 & Requirement utama tercakup oleh skenario fungsional positif dan negatif. & Coverage cukup, tetapi beberapa requirement atau negative case belum diuji. & Coverage tidak memadai atau tidak terkait requirement. \\ \\
+Kualitas test data dan eksekusi & 1.1 & Data uji, step, expected result, actual result, dan status eksekusi lengkap. & Eksekusi tercatat, tetapi data uji atau actual result belum detail. & Eksekusi tidak terdokumentasi atau hasil tidak dapat diverifikasi. \\ \\
+Evidence defect dan analisis & 0.7 & Defect dicatat dengan bukti, severity, langkah reproduksi, dan analisis dampak. & Defect/evidence tersedia, tetapi severity atau analisis dampak belum lengkap. & Tidak ada evidence defect atau analisis hasil uji. \\}
+
+\assessmentblock{Tugas 7: User Acceptance Testing}{Role Playing}{SCPMK608-04203}{Mahasiswa merancang dan menjalankan UAT berdasarkan user story dan acceptance criteria.}{Menyusun UAT plan, menjalankan simulasi user, dan mencatat hasil eksekusi.}{Dokumen UAT plan dan execution record.}{Kesesuaian UAT dengan user story & 1.2 & UAT plan, user story, acceptance criteria, dan peran user konsisten. & UAT cukup sesuai, tetapi acceptance criteria atau role user belum lengkap. & UAT tidak berangkat dari kebutuhan pengguna. \\ \\
+Simulasi dan pencatatan hasil UAT & 1.1 & Sesi UAT dijalankan, feedback user dicatat, status diterima/ditolak jelas. & Simulasi dilakukan, tetapi catatan feedback atau status acceptance belum lengkap. & UAT tidak dieksekusi atau hasil tidak terdokumentasi. \\ \\
+Rekomendasi perbaikan berbasis UAT & 0.7 & Temuan UAT diterjemahkan menjadi rekomendasi prioritas yang dapat ditindaklanjuti. & Rekomendasi tersedia, tetapi prioritas atau keterkaitan temuan belum kuat. & Tidak ada rekomendasi berbasis hasil UAT. \\}
+
+\assessmentblock{UTS: Strategi dan Dokumentasi Pengujian}{UTS berbasis milestone review PBL kelompok}{SCPMK608-04201, SCPMK608-04202}{Mahasiswa mengevaluasi kemajuan tengah semester proyek kelompok melalui strategi QA, test plan, test scenario, test case, traceability matrix, dan monitoring/control plan.}{Kelompok menyerahkan dokumen milestone, mempresentasikan artefak, melakukan defense, dan merevisi berdasarkan umpan balik.}{Dokumen milestone UTS, traceability matrix, monitoring/control plan, dan catatan defense kelompok.}{Strategi QA dan test plan milestone & 6 & Strategi QA, scope, risk, schedule, resource, dan test plan milestone lengkap dan realistis. & Strategi tersedia, tetapi beberapa aspek scope, risk, atau resource belum rinci. & Strategi QA tidak realistis atau tidak sesuai proyek. \\ \\
+Konsistensi scenario, test case, dan traceability & 5.3 & Scenario, test case, data uji, expected result, dan traceability matrix saling konsisten. & Dokumen cukup konsisten, tetapi beberapa requirement belum terlacak. & Dokumen tidak konsisten atau tidak dapat dipakai untuk eksekusi. \\ \\
+Monitoring plan dan defense kelompok & 3.7 & Monitoring/control plan jelas dan kelompok mampu mempertahankan keputusan pengujian dengan evidence. & Defense cukup baik, tetapi monitoring plan atau evidence masih kurang kuat. & Kelompok tidak mampu mempertahankan dokumen milestone. \\}
+
+\assessmentblock{Tugas 8: E2E Testing}{Hands-on Practice}{SCPMK608-04203}{Mahasiswa mengimplementasikan end-to-end testing pada alur utama aplikasi.}{Menentukan alur kritis, membuat script E2E, menjalankan test, dan melampirkan evidence.}{Script E2E dan laporan hasil eksekusi.}{Pemilihan alur E2E kritis & 1.2 & Alur bisnis utama, precondition, data, dan expected outcome dipilih sesuai risiko aplikasi. & Alur E2E cukup relevan, tetapi data atau expected outcome belum lengkap. & Alur E2E tidak kritis atau tidak merepresentasikan penggunaan nyata. \\ \\
+Kualitas script dan assertion & 1.1 & Script E2E stabil, readable, memakai selector tepat, assertion kuat, dan menangani setup/teardown. & Script berjalan, tetapi selector, assertion, atau setup masih rapuh. & Script tidak berjalan atau assertion tidak memvalidasi hasil. \\ \\
+Evidence eksekusi dan analisis & 0.7 & Hasil run, screenshot/log, failure analysis, dan rekomendasi perbaikan terdokumentasi. & Evidence run tersedia, tetapi analisis failure masih terbatas. & Tidak ada evidence eksekusi atau hasil tidak dianalisis. \\}
+
+\assessmentblock{Tugas 9: API Testing Suite}{Hands-on Practice}{SCPMK608-04203}{Mahasiswa membuat API testing suite manual dan otomatis.}{Membuat request, environment, assertion, negative case, dan automated run.}{Postman/Newman collection dan laporan eksekusi.}{Desain request dan environment & 1.2 & Collection, endpoint, method, parameter, body, header, token, dan environment disusun benar. & Request berjalan, tetapi environment, token, atau parameter belum konsisten. & Request tidak sesuai kontrak API atau sulit dijalankan ulang. \\ \\
+Assertion dan negative case & 1.1 & Assertion status, schema, payload, business rule, serta negative case mencakup kontrak API. & Assertion tersedia, tetapi negative case atau validasi schema belum lengkap. & Assertion tidak memadai atau hanya mengecek response dasar. \\ \\
+Automation dan laporan eksekusi & 0.7 & Newman/automation berjalan, laporan hasil tersedia, dan failure dianalisis. & Automation berjalan sebagian, tetapi laporan atau analisis failure belum lengkap. & Tidak ada automation/evidence eksekusi yang valid. \\}
+
+\assessmentblock{Tugas 10: Unit dan Integration Testing}{Coding Practice}{SCPMK608-04203}{Mahasiswa membuat unit test dan integration test pada fungsi aplikasi.}{Menulis test code, menjalankan test suite, dan mengevaluasi hasil test.}{Kode test dan laporan hasil eksekusi.}{Desain unit test fungsi kritis & 1.2 & Unit test mencakup fungsi kritis, boundary case, error case, dan isolasi dependency. & Unit test berjalan, tetapi boundary/error case masih terbatas. & Unit test tidak relevan atau tidak mencakup fungsi kritis. \\ \\
+Integration test antar komponen & 1.1 & Integration test memverifikasi alur data antar modul/service/database sesuai skenario. & Integration test tersedia, tetapi cakupan alur atau setup data belum lengkap. & Integration test tidak berjalan atau tidak menguji integrasi nyata. \\ \\
+Kualitas test code dan TDD & 0.7 & Test code rapi, repeatable, readable, dan menunjukkan siklus TDD/refactor. & Test code cukup rapi, tetapi repeatability atau bukti TDD masih terbatas. & Test code sulit dijalankan ulang atau tidak terstruktur. \\}
+
+\assessmentblock{Tugas 11: Review Test Code dan Coverage}{Peer Assessment}{SCPMK608-04203}{Mahasiswa mengevaluasi kualitas test code dan test coverage.}{Melakukan code review, membaca coverage report, dan menyusun rekomendasi refactoring.}{Laporan review test code dan coverage.}{Ketepatan code review test & 1.2 & Review mengidentifikasi masalah readability, isolation, flaky test, duplication, dan assertion lemah. & Review menemukan beberapa masalah, tetapi belum menyentuh risiko test penting. & Review dangkal atau tidak berbasis kode test. \\ \\
+Analisis coverage & 1.1 & Coverage report dibaca tepat, gap fungsi kritis diidentifikasi, dan tidak hanya mengejar angka coverage. & Coverage dianalisis, tetapi gap fungsi kritis belum lengkap. & Coverage tidak dianalisis atau disimpulkan keliru. \\ \\
+Rekomendasi refactoring test & 0.7 & Rekomendasi refactoring spesifik, prioritas jelas, dan meningkatkan maintainability test suite. & Rekomendasi cukup relevan, tetapi masih umum atau tidak diprioritaskan. & Rekomendasi tidak dapat ditindaklanjuti. \\}
+
+\assessmentblock{Tugas 12: Analisis Non-Functional Testing}{Case Method}{SCPMK608-04204}{Mahasiswa menganalisis kebutuhan non-functional testing berdasarkan quality attributes.}{Mengidentifikasi quality attributes, prioritas risiko, dan strategi non-functional testing.}{Laporan analisis non-functional testing.}{Identifikasi quality attributes & 1.2 & Performance, security, usability, reliability, maintainability, atau atribut relevan dipilih sesuai konteks. & Atribut kualitas cukup relevan, tetapi beberapa prioritas belum didukung konteks. & Atribut kualitas tidak relevan atau tidak teridentifikasi. \\ \\
+Strategi non-functional testing & 1.1 & Strategi uji, metrik, tools, threshold, dan risiko dirancang sesuai kebutuhan pengguna. & Strategi tersedia, tetapi metrik, tools, atau threshold belum lengkap. & Strategi tidak operasional atau tidak menguji atribut kualitas. \\ \\
+Prioritas risiko dan rekomendasi & 0.7 & Risiko non-fungsional diprioritaskan dan rekomendasi pengujian jelas. & Prioritas risiko cukup jelas, tetapi rekomendasi masih umum. & Tidak ada prioritas risiko atau rekomendasi tidak relevan. \\}
+
+\assessmentblock{Tugas 13: Performance Testing Scenario}{Hands-on Practice}{SCPMK608-04204}{Mahasiswa membuat dan menjalankan skenario performance testing.}{Mendesain skenario beban, menjalankan tools, membaca metrik, dan membuat rekomendasi.}{Skenario performance testing dan laporan metrik.}{Desain skenario beban & 1.2 & Jumlah user, ramp-up, workload, data, SLA, dan target metrik dirancang realistis. & Skenario beban tersedia, tetapi SLA, data, atau workload belum lengkap. & Skenario tidak realistis atau tidak dapat dijalankan. \\ \\
+Eksekusi tools dan pengumpulan metrik & 1.1 & JMeter/k6 dijalankan benar, metrik response time, throughput, error rate, dan resource dicatat. & Tools berjalan, tetapi beberapa metrik atau konfigurasi belum lengkap. & Tools tidak berjalan atau metrik tidak valid. \\ \\
+Analisis bottleneck dan rekomendasi & 0.7 & Bottleneck dianalisis dari metrik dan rekomendasi teknis disusun jelas. & Analisis tersedia, tetapi penyebab bottleneck atau rekomendasi masih umum. & Hasil performa tidak dianalisis. \\}
+
+\assessmentblock{PBL/Proyek Akhir: Strategi QA Komprehensif}{Project Based Learning}{SCPMK608-04201, SCPMK608-04202, SCPMK608-04203, SCPMK608-04204}{Mahasiswa mengintegrasikan strategi QA lengkap pada aplikasi studi kasus.}{Menganalisis kebutuhan mutu, menyusun strategi QA, menjalankan functional dan non-functional testing, serta menyusun laporan akhir.}{Laporan proyek, artefak pengujian, evidence, repository/script, dan presentasi.}{Integrasi strategi QA proyek & 10 & Quality model, risk, test strategy, planning, functional, dan non-functional testing terintegrasi pada proyek. & Strategi cukup terintegrasi, tetapi sebagian risiko atau jenis uji belum lengkap. & Strategi QA terfragmentasi atau tidak sesuai proyek. \\ \\
+Implementasi dan evidence pengujian & 8.8 & Functional, API/E2E/unit/integration, UAT, dan non-functional testing dijalankan dengan evidence lengkap. & Pengujian berjalan sebagian besar, tetapi beberapa evidence atau cakupan masih kurang. & Pengujian utama tidak berjalan atau evidence tidak memadai. \\ \\
+Laporan, rekomendasi, dan presentasi & 6.2 & Laporan profesional, defect/metric dianalisis, rekomendasi actionable, dan presentasi meyakinkan. & Laporan dan presentasi cukup jelas, tetapi rekomendasi atau analisis belum mendalam. & Laporan tidak menyimpulkan mutu aplikasi atau rekomendasi tidak berguna. \\}
+
+\assessmentblock{UAS: Evaluasi Mutu dan Rekomendasi}{UAS berbasis validasi akhir PBL kelompok}{SCPMK608-04203, SCPMK608-04204}{Mahasiswa memvalidasi hasil akhir proyek kelompok melalui demonstrasi implementasi QA, evidence pengujian fungsional dan non-fungsional, analisis defect, serta rekomendasi peningkatan mutu.}{Kelompok mendemonstrasikan hasil pengujian, menjelaskan evidence, menganalisis defect, menyampaikan rekomendasi, dan melakukan presentasi akhir.}{Laporan akhir QA, evidence pengujian, defect log, rekomendasi mutu, repository/script, dan bahan presentasi akhir.}{Validasi evidence akhir & 6 & Evidence functional dan non-functional testing lengkap, dapat ditelusuri, dan sesuai scope proyek. & Evidence tersedia, tetapi traceability atau cakupan scope belum lengkap. & Evidence tidak cukup untuk menilai mutu proyek. \\ \\
+Analisis defect dan mutu perangkat lunak & 5.3 & Defect, severity, root cause, quality attribute, dan dampak pengguna dianalisis tepat. & Analisis defect cukup tepat, tetapi root cause atau dampak mutu belum lengkap. & Analisis defect lemah atau tidak berbasis data. \\ \\
+Rekomendasi dan defense akhir & 3.7 & Rekomendasi peningkatan mutu prioritas, realistis, dan dipertahankan kuat saat presentasi akhir. & Rekomendasi cukup relevan, tetapi prioritas atau defense belum kuat. & Rekomendasi tidak operasional atau tidak mampu dipertahankan. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/prototype/proyek, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

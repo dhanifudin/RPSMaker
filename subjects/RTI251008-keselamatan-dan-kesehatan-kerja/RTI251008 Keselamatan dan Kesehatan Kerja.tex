@@ -1,0 +1,148 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Keselamatan dan Kesehatan Kerja & RTI251008 & 2 SKS/4 jam & 1 & 7 Agustus 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & \begin{enumerate}\item Anugrah Nur Rahmanto, S.Sn., M.Ds.\item Bagas Satya Dian Nugraha, S.T., M.T.\item Dhebys Suryani, S.Kom., M.T.\item Hendra Pradibta, S.E., M.Sc.\end{enumerate} & Anugrah Nur Rahmanto, S.Sn., M.Ds. & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=9]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL01 & \SetCell[c=3]{l} Mampu menerapkan nilai ketakwaan, kesadaran hukum, kedisiplinan, profesionalisme, etika profesi, dan pembelajaran sepanjang hayat, serta tanggap terhadap isu sosial dan perkembangan teknologi. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK101 & \SetCell[c=3]{l} Mahasiswa mampu menunjukkan profesionalisme, etika profesi teknologi informasi, dan disiplin kerja melalui penerapan prinsip keselamatan dan kesehatan kerja (K3) secara bertanggung jawab. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK101-00801 & \SetCell[c=3]{l} Mahasiswa mampu menjelaskan sejarah, pengertian, tujuan, dan lambang K3 serta perundang-undangan dan landasan hukum yang melandasi K3 di industri. &  &  \\
+ & SCPMK101-00802 & \SetCell[c=3]{l} Mahasiswa mampu menguraikan sistem manajemen K3 serta menunjukkan hubungan antara faktor penyebab kecelakaan, sumber bahaya, dan keadaan tidak selamat pada pengelolaan SDM, operasi, dan dokumentasi K3. &  &  \\
+ & SCPMK101-00803 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri. &  &  \\
+ & SCPMK101-00804 & \SetCell[c=3]{l} Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & Case Method & UAS & \\
+CPMK101 & SCPMK101-00801 & 4\%: sejarah, konsep, landasan hukum K3 & 8\%: konsep dan regulasi K3 & 8\%: konsep dan regulasi K3 & & & & 20\% \\
+CPMK101 & SCPMK101-00802 & 8\%: SMK3, SDM, operasi, dokumentasi & & 12\%: analisis kecelakaan dan SMK3 & & & & 20\% \\
+CPMK101 & SCPMK101-00803 & 6\%: risiko, APD, statistik K3 & & & 4\%: pengendalian risiko & & 14\%: penerapan pengendalian K3 & 24\% \\
+CPMK101 & SCPMK101-00804 & 6\%: komunikasi, organisasi, audit K3 & & & 4\%: organisasi K3 & 10\%: perbaikan SMK3 dan industri 4.0 & 16\%: rancangan program K3 & 36\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mahasiswa mengetahui perundang-undangan yang menjadi dasar semua kebijakan yang berhubungan dengan kesehatan dan keselamatan kerja, serta mengerti lingkup kesehatan, lingkungan kerja, keselamatan kerja, asuransi kerja, dan organisasi kerja yang menjadi bagian dari sebuah sistem tenaga kerja. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Konsep K3: sejarah, pengertian, dan tujuan K3\item Undang-undang K3: undang-undang yang melandasi K3 dan peraturan pemerintah\item Kesehatan masyarakat: dasar peraturan, pemeriksaan kesehatan sebelum dan setelah kerja\item Lingkungan kerja fisik dan non fisik\item Keselamatan kerja: faktor yang berpengaruh, sumber bahaya, pencegahan kecelakaan kerja\item Alat-alat keselamatan kerja\item Organisasi K3: maksud dan tujuan organisasi K3\item Asuransi: prinsip dasar, jenis-jenis, dan klaim asuransi\item Penerapan protokol kesehatan di pendidikan dan industri era new normal\item Implementasi K3 untuk menciptakan inovasi revolusi industri 4.0\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Budi Harijanto. 2012. Modul Ajar K3.\item Rudi Suardi. 2007. Sistem Manajemen Keselamatan dan Kesehatan Kerja. PPM.\item Nuansa Aulia. 2008. Himpunan Peraturan Perundang-undangan Republik Indonesia Keselamatan dan Kesehatan Kerja (K-3) Disertai dengan Peraturan Perundangan yang Terkait.\item Gempur Santosa. 2004. Manajemen Keselamatan dan Kesehatan Kerja. Prestasi Pustaka.\item Occupational Health and Safety Management Systems (OHSAS 18001:2007) -- Requirements.\item Meyti Eka Apriyani. 2022. Keselamatan dan Kesehatan Kerja. Polinema Press.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS dan peraturan perundang-undangan K3 terbaru. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} LMS, browser, office suite. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor, alat peraga keselamatan kerja. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l}\begin{enumerate}\item Anugrah Nur Rahmanto, S.Sn., M.Ds.\item Budi Harijanto, S.T., M.MKom.\item Sofyan Noor Arief, S.ST., M.Kom.\item Ariadi Retno Ririd, S.Kom., M.Kom.\end{enumerate} &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK101-00801 & Konsep K3: definisi, sejarah, tujuan, dan arti lambang K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Diskusi kelompok. & 1 x 4 x 50'. & Mahasiswa memahami lambang K3 serta sejarah dan tujuan K3, lalu menyusun laporan (Tugas-1). & Kriteria: rubrik kriteria grading. Bentuk non-test: laporan tugas. & Ketepatan menjelaskan sejarah K3 dan pengertian K3. & 2 \\
+2 & SCPMK101-00801 & Urgensi dan prinsip K3 di industri: undang-undang dan landasan hukum K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Inquiry. & 1 x 4 x 50'. & Mahasiswa mengkaji undang-undang dan landasan hukum K3, lalu menyusun laporan landasan hukum K3 (Tugas-2). & Kriteria: ketepatan, kesesuaian, dan sistematika. Bentuk non-test: laporan tugas landasan hukum K3. & Ketepatan menguraikan konsep K3 di industri dan hubungan faktor penyebab kecelakaan dengan keadaan tidak selamat terkait urgensi dan prinsip K3. & 2 \\
+3 & SCPMK101-00802 & Sistem manajemen K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Contextual Learning. & 1 x 4 x 50'. & Mahasiswa membuat slide animasi tentang lingkungan kerja pada K3 (Tugas-3). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: slide animasi lingkungan kerja pada K3. & Ketepatan menguraikan konsep K3 dan merancang program kerja K3 terkait sistem manajemen K3. & 2 \\
+4 & SCPMK101-00801 & Kuis 1: konsep dan regulasi K3. & Modalitas: Daring. Bentuk: Kuis online. Metode: Tes tulis. & 1 x 4 x 50'. & Mahasiswa mengerjakan kuis konsep, sejarah, tujuan, dan landasan hukum K3. & Bentuk penilaian: Kuis 1. Mengacu rubrik RTM. & Ketepatan menjelaskan konsep dan regulasi K3. & 8 \\
+5 & SCPMK101-00802 & Pengelolaan sumber daya manusia pada manajemen K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Role-Play and Simulation. & 1 x 4 x 50'. & Mahasiswa memerankan peran pengelolaan SDM pada manajemen K3 dan membuat artefak pendukung (Tugas-4). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: kesesuaian dalam memerankan peran. & Ketepatan menerapkan pemecahan masalah K3 terkait pengelolaan SDM pada manajemen K3. & 2 \\
+6 & SCPMK101-00802 & Pengelolaan operasi K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Role-Play and Simulation. & 1 x 4 x 50'. & Mahasiswa mendemonstrasikan beberapa usaha pengobatan pertama pada kecelakaan kerja (Tugas-5). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: kesesuaian dalam memerankan peran. & Ketepatan menerapkan pemecahan masalah K3 terkait pengelolaan operasi K3. & 2 \\
+7 & SCPMK101-00802 & Dokumentasi sistem manajemen K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Discovery Learning. & 1 x 4 x 50'. & Mahasiswa mendokumentasikan usaha pengobatan pertama pada kecelakaan kerja (Tugas-6). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: slide animasi alat-alat keselamatan kerja. & Ketepatan menguraikan konsep K3 dan merancang program kerja K3 terkait dokumentasi sistem manajemen K3. & 2 \\
+8 & SCPMK101-00801, SCPMK101-00802 & UTS: konsep, regulasi, dan sistem manajemen K3. & Modalitas: Daring. Bentuk: UTS online. Metode: Ujian tulis. & 1 x 4 x 50'. & Mahasiswa mengerjakan ujian tulis konsep, regulasi, analisis kecelakaan, dan sistem manajemen K3. & Bentuk penilaian: UTS. Mengacu rubrik RTM. & Ketepatan konsep dan regulasi; ketepatan analisis kecelakaan dan SMK3. & 20 \\
+9 & SCPMK101-00804 & Pengelolaan komunikasi dalam penerapan K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Diskusi kelompok. & 1 x 4 x 50'. & Mahasiswa membuat makalah yang berkaitan dengan kesehatan masyarakat (Tugas-7). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: makalah. & Ketepatan menguraikan konsep K3 dan merancang program kerja K3 terkait pengelolaan komunikasi dalam penerapan K3. & 2 \\
+10 & SCPMK101-00804 & Pengelolaan personel dan organisasi yang mengarah pada zero accident. & Modalitas: Daring. Bentuk: Kuliah. Metode: Collaborative Learning. & 1 x 4 x 50'. & Mahasiswa membuat makalah yang berkaitan dengan kesehatan masyarakat (Tugas-8). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: laporan tugas makalah. & Ketepatan merancang program kerja K3 terkait pengelolaan personel dan organisasi menuju zero accident. & 2 \\
+11 & SCPMK101-00803 & Manajemen risiko K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Diskusi kelompok. & 1 x 4 x 50'. & Mahasiswa membuat slide animasi yang berkaitan dengan alat-alat pelindung diri (Tugas-9). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: laporan tugas makalah. & Ketepatan menerapkan pemecahan masalah K3 terkait manajemen risiko K3. & 2 \\
+12 & SCPMK101-00803, SCPMK101-00804 & Kuis 2: pengendalian risiko dan organisasi K3. & Modalitas: Daring. Bentuk: Kuis online. Metode: Tes tulis. & 1 x 4 x 50'. & Mahasiswa mengerjakan kuis manajemen risiko, komunikasi, dan organisasi K3. & Bentuk penilaian: Kuis 2. Mengacu rubrik RTM. & Ketepatan pengendalian risiko; ketepatan konsep organisasi dan komunikasi K3. & 8 \\
+13 & SCPMK101-00803 & Peralatan perlindungan keselamatan kerja; perubahan perilaku dan protokol kesehatan era new normal. & Modalitas: Daring. Bentuk: Kuliah. Metode: Collaborative Learning. & 1 x 4 x 50'. & Mahasiswa membuat slide animasi yang berkaitan dengan alat-alat pelindung diri (Tugas-10). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: slide animasi alat-alat keselamatan kerja. & Ketepatan menerapkan pemecahan masalah K3 terkait peralatan perlindungan keselamatan kerja era new normal. & 2 \\
+14 & SCPMK101-00804 & Case Method: perbaikan sistem manajemen K3 dan analisis biaya; implementasi K3 di industri 4.0. & Modalitas: Daring. Bentuk: Kuliah. Metode: Cooperative Learning, Case Method. & 1 x 4 x 50'. & Mahasiswa menganalisis kasus perbaikan SMK3 dan analisis biaya serta implementasi K3 pada teknologi otomatisasi industri 4.0. & Bentuk penilaian: Case Method. Mengacu rubrik RTM. & Ketepatan analisis kasus perbaikan SMK3 dan analisis biaya; kelayakan usulan implementasi K3 industri 4.0. & 10 \\
+15 & SCPMK101-00803 & Sistem komputer dan metode statistik dalam pengendalian K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Contextual Learning. & 1 x 4 x 50'. & Mahasiswa menjelaskan struktur organisasi K3 beserta tugas pokok dan fungsi masing-masing (Tugas-11). & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: slide animasi alat-alat keselamatan kerja. & Ketepatan menerapkan pemecahan masalah K3 terkait sistem komputer dan metode statistik dalam pengendalian K3. & 2 \\
+16 & SCPMK101-00804 & Perencanaan implementasi dan audit K3. & Modalitas: Daring. Bentuk: Kuliah. Metode: Inquiry. & 1 x 4 x 50'. & Mahasiswa menyusun rencana implementasi dan audit K3 beserta struktur organisasi K3 dan tupoksinya. & Kriteria: ketepatan dan kesesuaian dengan materi. Bentuk non-test: kesesuaian dalam membuat laporan. & Ketepatan merancang program kerja K3 terkait perencanaan implementasi dan audit K3. & 2 \\
+17 & SCPMK101-00803, SCPMK101-00804 & UAS: penerapan pengendalian K3 dan rancangan program K3. & Modalitas: Daring. Bentuk: UAS online. Metode: Ujian tulis. & 1 x 4 x 50'. & Mahasiswa mengerjakan ujian akhir penerapan pengendalian risiko, APD, protokol kesehatan, dan rancangan program K3. & Bentuk penilaian: UAS. Mengacu rubrik RTM. & Ketepatan penerapan pengendalian K3; kualitas rancangan program kerja dan audit K3. & 30 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Keselamatan dan Kesehatan Kerja \\
+Kode Mata Kuliah & RTI251008 \quad \textbf{sks / Jam perminggu:} 2 SKS/4 jam \quad \textbf{Semester:} 1 \\
+Dosen Pengampu & \begin{enumerate}\item Anugrah Nur Rahmanto, S.Sn., M.Ds.\item Budi Harijanto, S.T., M.MKom.\item Sofyan Noor Arief, S.ST., M.Kom.\item Ariadi Retno Ririd, S.Kom., M.Kom.\end{enumerate} \\
+\end{tblr}
+\assessmentblock{Tugas Laporan dan Artefak K3}{Tugas terstruktur (laporan, makalah, slide animasi, role-play)}{SCPMK101-00801, SCPMK101-00802, SCPMK101-00803, SCPMK101-00804}{Mahasiswa menyelesaikan rangkaian tugas mingguan (Tugas-1 s.d. Tugas-11): laporan sejarah dan landasan hukum K3, slide animasi lingkungan kerja dan APD, demonstrasi P3K, makalah kesehatan masyarakat, dan struktur organisasi K3.}{Mengkaji materi dan peraturan K3, menyusun laporan/makalah/slide animasi, mendemonstrasikan atau memerankan skenario K3, dan mengumpulkan evidence melalui LMS.}{Laporan tugas, makalah, slide animasi, dan dokumentasi demonstrasi/role-play.}{Ketepatan konsep, sejarah, dan landasan hukum K3 & 6 & Konsep, sejarah, tujuan, lambang, serta undang-undang dan peraturan K3 diuraikan tepat dengan rujukan peraturan yang benar. & Konsep dan landasan hukum umumnya benar, tetapi sebagian rujukan peraturan kurang tepat atau tidak lengkap. & Konsep atau landasan hukum banyak yang keliru dan tidak merujuk peraturan yang berlaku. \\ \\
+Ketepatan analisis bahaya, kecelakaan, dan SMK3 & 6 & Faktor penyebab kecelakaan, sumber bahaya, dan elemen SMK3 diidentifikasi lengkap dan dikaitkan dengan kasus industri. & Identifikasi bahaya dan elemen SMK3 cukup benar, tetapi kaitan dengan kasus industri masih terbatas. & Identifikasi bahaya atau elemen SMK3 keliru dan tidak terkait aktivitas industri. \\ \\
+Kualitas artefak tugas (laporan, makalah, slide, role-play) & 6 & Artefak lengkap, sistematis, sesuai materi minggu berjalan, dan demonstrasi/role-play sesuai prosedur K3. & Artefak tersedia dan cukup sesuai materi, tetapi sistematika atau kesesuaian prosedur masih kurang. & Artefak tidak lengkap, tidak sesuai materi, atau prosedur K3 tidak diikuti. \\ \\
+Ketepatan rancangan program dan dokumentasi K3 & 6 & Rancangan program kerja, struktur organisasi, tupoksi, dan dokumentasi K3 disusun runtut dan dapat diterapkan. & Rancangan program dan dokumentasi tersedia, tetapi tupoksi atau kelengkapan dokumen masih kurang. & Rancangan program tidak operasional atau dokumentasi K3 tidak tersedia. \\}
+
+\assessmentblock{Kuis 1 Konsep dan Regulasi K3}{Kuis}{SCPMK101-00801}{Mahasiswa mengerjakan kuis tertulis daring tentang konsep, sejarah, tujuan, lambang K3, serta undang-undang dan landasan hukum K3.}{Mengerjakan tes tulis daring secara mandiri dalam waktu yang ditentukan.}{Jawaban kuis daring.}{Penguasaan konsep, sejarah, dan tujuan K3 & 4 & Jawaban menjelaskan konsep, sejarah, tujuan, dan lambang K3 secara tepat dan lengkap. & Sebagian besar jawaban benar, tetapi penjelasan konsep atau sejarah belum lengkap. & Jawaban banyak yang keliru atau hanya menghafal istilah tanpa pemahaman. \\ \\
+Ketepatan regulasi dan landasan hukum K3 & 4 & Undang-undang dan peraturan K3 disebutkan tepat dan dikaitkan dengan kewajiban di tempat kerja. & Regulasi utama disebutkan benar, tetapi kaitan dengan penerapannya belum jelas. & Regulasi yang disebut keliru atau tidak relevan dengan K3. \\}
+
+\assessmentblock{UTS Konsep, Regulasi, dan Sistem Manajemen K3}{UTS (ujian tulis daring)}{SCPMK101-00801, SCPMK101-00802}{Mahasiswa mengerjakan ujian tengah semester yang mencakup konsep dan regulasi K3, analisis faktor penyebab kecelakaan, serta sistem manajemen K3 (SDM, operasi, dokumentasi).}{Mengerjakan ujian tulis daring secara mandiri, menjawab soal konsep dan soal analisis kasus.}{Lembar jawaban ujian daring.}{Penguasaan konsep dan regulasi K3 & 8 & Konsep, tujuan, dan landasan hukum K3 dijawab tepat serta diterapkan pada situasi kerja yang diberikan. & Konsep dan regulasi umumnya benar, tetapi penerapan pada situasi kerja belum tepat. & Konsep atau regulasi banyak yang keliru. \\ \\
+Ketepatan analisis kecelakaan dan sistem manajemen K3 & 7 & Hubungan faktor penyebab kecelakaan dan keadaan tidak selamat dianalisis tepat serta elemen SMK3 diuraikan lengkap. & Analisis kecelakaan cukup tepat, tetapi uraian elemen SMK3 belum lengkap. & Analisis kecelakaan keliru atau elemen SMK3 tidak diuraikan. \\ \\
+Kualitas jawaban studi kasus K3 & 5 & Solusi kasus K3 runtut, sesuai prosedur, dan mempertimbangkan pengelolaan SDM dan operasi K3. & Solusi kasus cukup relevan, tetapi langkah penyelesaian belum runtut. & Solusi kasus tidak relevan atau tidak menjawab permasalahan K3. \\}
+
+\assessmentblock{Kuis 2 Pengendalian Risiko dan Organisasi K3}{Kuis}{SCPMK101-00803, SCPMK101-00804}{Mahasiswa mengerjakan kuis tertulis daring tentang manajemen risiko K3, alat pelindung diri, serta pengelolaan komunikasi, personel, dan organisasi K3 menuju zero accident.}{Mengerjakan tes tulis daring secara mandiri dalam waktu yang ditentukan.}{Jawaban kuis daring.}{Ketepatan pengendalian risiko dan APD & 4 & Langkah manajemen risiko dan pemilihan APD dijawab tepat sesuai jenis bahaya pada kasus. & Langkah pengendalian umumnya benar, tetapi pemilihan APD belum sesuai jenis bahaya. & Langkah pengendalian atau pemilihan APD keliru. \\ \\
+Ketepatan konsep organisasi dan komunikasi K3 & 4 & Peran organisasi, komunikasi, dan personel K3 menuju zero accident dijelaskan tepat dan lengkap. & Peran organisasi dan komunikasi K3 cukup benar, tetapi penjelasan belum lengkap. & Peran organisasi atau komunikasi K3 dijelaskan keliru. \\}
+
+\assessmentblock{Case Method Perbaikan SMK3 dan K3 Industri 4.0}{Case Method}{SCPMK101-00804}{Mahasiswa menganalisis kasus perbaikan sistem manajemen K3 dan analisis biaya pada sebuah industri, lalu menyusun usulan implementasi K3 yang memanfaatkan teknologi otomatisasi dan pertukaran data era industri 4.0.}{Menganalisis kasus secara berkelompok, mengidentifikasi kelemahan SMK3, menghitung komponen biaya, menyusun usulan perbaikan berbasis teknologi industri 4.0, dan mempresentasikan hasil.}{Laporan analisis kasus dan bahan presentasi.}{Ketepatan analisis kasus SMK3 dan analisis biaya & 4 & Kelemahan SMK3 diidentifikasi berbasis data kasus dan komponen biaya K3 dihitung dengan asumsi yang jelas. & Kelemahan SMK3 teridentifikasi, tetapi analisis biaya atau asumsinya belum lengkap. & Analisis tidak berbasis data kasus atau komponen biaya tidak dihitung. \\ \\
+Kelayakan usulan perbaikan dan implementasi industri 4.0 & 3 & Usulan perbaikan operasional, memanfaatkan teknologi otomatisasi/pertukaran data, dan sesuai regulasi K3. & Usulan cukup relevan, tetapi pemanfaatan teknologi atau kesesuaian regulasi belum jelas. & Usulan tidak operasional atau tidak terkait teknologi industri 4.0. \\ \\
+Kualitas presentasi dan kerja kelompok & 3 & Presentasi runtut, argumentasi didukung data, dan kontribusi anggota kelompok merata. & Presentasi cukup jelas, tetapi argumentasi atau pembagian kontribusi belum merata. & Presentasi tidak menjelaskan hasil analisis atau kontribusi tidak terlihat. \\}
+
+\assessmentblock{UAS Penerapan Pengendalian dan Rancangan Program K3}{UAS (ujian tulis daring)}{SCPMK101-00803, SCPMK101-00804}{Mahasiswa mengerjakan ujian akhir semester yang mencakup penerapan manajemen risiko, APD, protokol kesehatan, metode statistik pengendalian K3, serta perancangan program kerja, organisasi, dan audit K3.}{Mengerjakan ujian tulis daring secara mandiri, menjawab soal penerapan dan soal perancangan berbasis kasus.}{Lembar jawaban ujian daring.}{Ketepatan penerapan pengendalian risiko, APD, dan protokol kesehatan & 10 & Langkah pengendalian risiko, pemilihan APD, dan protokol kesehatan diterapkan tepat sesuai kasus dan regulasi. & Penerapan umumnya benar, tetapi sebagian langkah tidak sesuai kasus atau regulasi. & Penerapan pengendalian keliru atau mengabaikan regulasi K3. \\ \\
+Kualitas rancangan program kerja, organisasi, dan audit K3 & 10 & Program kerja, struktur organisasi, tupoksi, dan rencana audit K3 dirancang lengkap, runtut, dan dapat diterapkan. & Rancangan tersedia, tetapi kelengkapan tupoksi atau rencana audit masih kurang. & Rancangan tidak operasional atau komponen utama tidak ada. \\ \\
+Kualitas jawaban kasus terintegrasi K3 industri 4.0 & 10 & Solusi kasus mengintegrasikan pengendalian K3, aspek biaya, dan teknologi industri 4.0 secara konsisten. & Solusi kasus cukup relevan, tetapi integrasi antar aspek belum konsisten. & Solusi kasus tidak relevan atau hanya menyalin teori. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, alat peraga keselamatan kerja, peraturan perundang-undangan K3, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}
