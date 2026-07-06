@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 10
-sub_cpmk: SCPMK507-01302
+sub_cpmk: SCPMK206-01302
 assessment_weight: 3
 ---
 
 # Pertemuan 10 - Manajemen memori dan system call
 
 ## Kemampuan Akhir
-- SCPMK507-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
+- SCPMK206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
 
 ## Materi Pembelajaran
 Manajemen memori dan system call.

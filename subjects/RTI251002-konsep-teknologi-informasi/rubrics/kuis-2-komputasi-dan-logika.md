@@ -1,7 +1,7 @@
 ---
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
-sub_cpmk: SCPMK507-00203
+sub_cpmk: SCPMK901-00203
 assessment_form: Kuis (Ujian Online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (Ujian Online)
 
 **Bentuk Tugas/Evaluasi:** Kuis (Ujian Online)
 
-**Sub-CPMK:** SCPMK507-00203
+**Sub-CPMK:** SCPMK901-00203
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis online tentang representasi data, aljabar Boolean, dan flowchart.

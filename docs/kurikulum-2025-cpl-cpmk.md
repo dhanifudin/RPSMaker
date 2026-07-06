@@ -70,8 +70,6 @@ Tujuan file ini: ringkasan padat CPL, CPMK, dan keterkaitan BK/MK supaya tidak p
 | `CPMK503` | Solusi komputasi paralel-terdistribusi untuk IoT, Big Data, cloud | `MK049`, `MK050`, `MK051` |
 | `CPMK504` | Arsitektur, protokol, konfigurasi infrastruktur jaringan | `MK032`, `MK033`, `MK044` |
 | `CPMK505` | Penerapan mekanisme keamanan jaringan | `MK044`, `MK051` |
-| `CPMK506` | Konfigurasi fitur dan layanan OS untuk IoT/cloud | `MK013`, `MK049`, `MK051` |
-| `CPMK507` | Pemanfaatan arsitektur sistem komputasi dan organisasi perangkat keras/lunak | `MK002`, `MK013` |
 | `CPMK508` | Information assurance dan software security | `MK042` |
 | `CPMK509` | Layanan komputasi virtual efisien, scalable, berkelanjutan | `MK051`, `MK052` |
 
@@ -117,7 +115,7 @@ Tujuan file ini: ringkasan padat CPL, CPMK, dan keterkaitan BK/MK supaya tidak p
 | `CPMK901` | Cara kerja sistem komputer dan komponen utamanya | `MK032`, `MK033`, `MK013`, `MK002` |
 | `CPMK902` | Prinsip matematis dan struktur diskrit untuk analisis komputasional | `MK004`, `MK009`, `MK011`, `MK024`, `MK035` |
 | `CPMK903` | Logika komputasi, pemrograman dasar, algoritma | `MK006`, `MK007`, `MK017`, `MK018` |
-| `CPMK904` | Prinsip kerja sistem paralel-terdistribusi pada pemrosesan data skala besar | `MK050` |
+| `CPMK904` | Prinsip kerja sistem paralel-terdistribusi pada pemrosesan data skala besar | `MK049`, `MK050` |
 | `CPMK905` | Virtualisasi dan cloud computing | `MK051` |
 
 ### CPL10
@@ -175,3 +173,4 @@ Tujuan file ini: ringkasan padat CPL, CPMK, dan keterkaitan BK/MK supaya tidak p
 - `BK17` pada spreadsheet memuat `Business Intelligence` dan `Pengolahan Citra Dan Visi Komputer`; ada catatan review terkait konteks visualisasi.
 - Kode MK pada spreadsheet memakai format `MKxxx`, berbeda dari kode akademik `RTI...` di PDF template.
 - Beberapa entri komentar penulis spreadsheet disimpan di sumber asli dan tidak semuanya dibawa ke LaTeX.
+- **`CPMK506` dan `CPMK507` telah dihapus** dari spreadsheet acuan (per 2026-07-06); seri CPL05 kini `501, 502, 503, 504, 505, 508, 509` (tanpa 506/507). RPS yang sebelumnya memakai kedua kode ini (MK002 Konsep TI, MK013 Sistem Operasi, MK049 Internet of Things) telah direalign ke `CPMK901`/`CPMK206`/`CPMK208`/`CPMK904` sesuai penugasan CPMK resmi per MK pada spreadsheet.

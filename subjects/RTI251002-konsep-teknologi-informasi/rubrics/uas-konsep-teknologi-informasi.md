@@ -1,7 +1,7 @@
 ---
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
-sub_cpmk: SCPMK507-00203, SCPMK208-00204
+sub_cpmk: SCPMK901-00203, SCPMK208-00204
 assessment_form: UAS (Ujian Online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (Ujian Online)
 
 **Bentuk Tugas/Evaluasi:** UAS (Ujian Online)
 
-**Sub-CPMK:** SCPMK507-00203, SCPMK208-00204
+**Sub-CPMK:** SCPMK901-00203, SCPMK208-00204
 
 ## Deskripsi
 Mahasiswa mengerjakan UAS yang mencakup representasi data, aljabar Boolean, flowchart, jaringan komputer dan internet, aplikasi TI, dan sertifikasi bidang TI.

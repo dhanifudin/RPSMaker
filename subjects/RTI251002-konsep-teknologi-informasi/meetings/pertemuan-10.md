@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 10
-sub_cpmk: SCPMK507-00203
+sub_cpmk: SCPMK901-00203
 assessment_weight: 2
 ---
 
 # Pertemuan 10 - Representasi Data
 
 ## Kemampuan Akhir
-- SCPMK507-00203: Mahasiswa mampu menerapkan representasi data, aljabar Boolean, dan flowchart untuk menyelesaikan masalah komputasi sederhana.
+- SCPMK901-00203: Mahasiswa mampu menerapkan representasi data, aljabar Boolean, dan flowchart untuk menyelesaikan masalah komputasi sederhana.
 
 ## Materi Pembelajaran
 Representasi data: sistem bilangan, aritmatika, jenis tipe data, teori bilangan, konversi bilangan, dan penyajian data.

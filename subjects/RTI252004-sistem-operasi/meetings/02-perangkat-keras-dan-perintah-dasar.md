@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 02
-sub_cpmk: SCPMK507-01302
+sub_cpmk: SCPMK206-01302
 assessment_weight: 3
 ---
 
 # Pertemuan 02 - Perangkat keras dan perintah dasar
 
 ## Kemampuan Akhir
-- SCPMK507-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
+- SCPMK206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
 
 ## Materi Pembelajaran
 Perangkat keras dan perintah dasar.

@@ -1,0 +1,145 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Internet of Things & RTI256105 & 3 SKS/6 jam & 6 & 1 Juli 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Tim Pengajar Program Studi D4 TI &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=13]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL05 & \SetCell[c=3]{l} Mampu menghasilkan solusi teknologi komputasi dan infrastruktur digital yang sesuai dengan kebutuhan organisasi dan pengguna. &  &  \\
+ & CPL02 & \SetCell[c=3]{l} Mampu menerapkan prinsip rekayasa sistem dan perangkat lunak untuk menghasilkan solusi aplikasi multi-platform sesuai kebutuhan. &  &  \\
+ & CPL09 & \SetCell[c=3]{l} Mampu menjelaskan cara kerja sistem komputer dan menerapkan pendekatan komputasi untuk menyelesaikan masalah. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK204 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis kebutuhan komputasi dan merancang arsitektur solusi IoT terdistribusi. &  &  \\
+ & CPMK503 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan solusi komputasi paralel-terdistribusi untuk sistem IoT. &  &  \\
+ & CPMK904 & \SetCell[c=3]{l} Mahasiswa mampu menguraikan prinsip kerja sistem paralel-terdistribusi yang dimanfaatkan untuk pemrosesan data skala besar. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK204-04901 & \SetCell[c=3]{l} Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform. &  &  \\
+ & SCPMK503-04902 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi. &  &  \\
+ & SCPMK904-04903 & \SetCell[c=3]{l} Mahasiswa mampu mengkonfigurasi platform IoT (Node-RED, AWS IoT, atau setara) dan mengintegrasikan layanan cloud untuk monitoring dan kontrol perangkat. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & PBL & UAS & \\
+CPMK204 & SCPMK204-04901 & 14\%: perancangan arsitektur IoT & 5\%: konsep dan arsitektur IoT & 8\%: arsitektur sistem IoT & 0\% & 0\% & 0\% & 27\% \\
+CPMK503 & SCPMK503-04902 & 14\%: implementasi protokol IoT & 0\% & 7\%: protokol dan komunikasi IoT & 5\%: platform dan protokol IoT & 12\%: implementasi sistem IoT & 0\% & 38\% \\
+CPMK904 & SCPMK904-04903 & 0\% & 0\% & 0\% & 0\% & 13\%: integrasi cloud dan monitoring & 22\%: demo sistem IoT & 35\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Internet of Things membangun kompetensi merancang, mengimplementasikan, dan mendeploy sistem IoT end-to-end dari sensor hingga cloud menggunakan protokol standar industri dan platform IoT modern. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Arsitektur IoT: konsep, komponen, sensor, aktuator, gateway, dan layer edge-fog-cloud\item Mikrokontroler dan SBC: Arduino, Raspberry Pi, dan antarmuka sensor\item Protokol komunikasi IoT: MQTT, HTTP, CoAP, WebSocket, dan pemrosesan data sensor\item Platform IoT: Node-RED, AWS IoT, keamanan, integrasi cloud, dan visualisasi data real-time\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Buyya, R. \& Dastjerdi, A. 2016. Internet of Things: Principles and Paradigms. Elsevier.\item McEwen, A. 2014. Designing the Internet of Things. Wiley.\item Dokumentasi AWS IoT Core dan Node-RED.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumentasi resmi platform IoT, dan jobsheet praktikum. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Arduino IDE, Node-RED, MQTT broker (Mosquitto), AWS IoT Console, Fritzing, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, mikrokontroler (Arduino/Raspberry Pi), sensor kit, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l} Tim Pengajar Program Studi D4 TI &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK204-04901 & Pengantar IoT: konsep, sejarah, dan ekosistem. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengantar IoT: konsep, sejarah, dan ekosistem dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengantar IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+2 & SCPMK204-04901 & Arsitektur IoT: edge, fog, dan cloud layers. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk arsitektur IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Arsitektur IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+3 & SCPMK204-04901 & Sensor dan aktuator: karakteristik dan antarmuka. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk sensor dan aktuator dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sensor dan Aktuator. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+4 & SCPMK204-04901 & Kuis 1 arsitektur dan komponen IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 1 arsitektur dan komponen IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 1 Arsitektur IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 5 \\
+5 & SCPMK503-04902 & Mikrokontroler dan SBC: Arduino, Raspberry Pi. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk mikrokontroler dan SBC dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Mikrokontroler dan SBC. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+6 & SCPMK503-04902 & Protokol komunikasi: MQTT, HTTP, CoAP, WebSocket. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk protokol komunikasi IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Protokol Komunikasi IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+7 & SCPMK503-04902 & Gateway IoT dan edge computing. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk gateway IoT dan edge computing dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Gateway IoT dan Edge Computing. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+8 & SCPMK204-04901, SCPMK503-04902 & UTS perancangan arsitektur sistem IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UTS perancangan arsitektur sistem IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS Perancangan Arsitektur IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 15 \\
+9 & SCPMK904-04903 & Platform IoT: Node-RED, ThingSpeak, AWS IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk platform IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Platform IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+10 & SCPMK503-04902 & Pengolahan data sensor dan time-series database. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengolahan data sensor dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengolahan Data Sensor. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+11 & SCPMK503-04902 & Kuis 2 protokol dan platform IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 2 protokol dan platform IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 2 Protokol dan Platform IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 5 \\
+12 & SCPMK904-04903 & Keamanan sistem IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk keamanan sistem IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Keamanan Sistem IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+13 & SCPMK904-04903 & Integrasi cloud dan visualisasi data real-time. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk integrasi cloud dan visualisasi data dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Integrasi Cloud dan Visualisasi. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+14 & SCPMK904-04903 & Deployment dan monitoring sistem IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk deployment dan monitoring IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Deployment dan Monitoring IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+15 & SCPMK904-04903 & Studi kasus: smart home, agriculture, smart city. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk studi kasus IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Studi Kasus IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+16 & SCPMK503-04902, SCPMK904-04903 & PBL implementasi prototipe sistem IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk PBL implementasi prototipe IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: PBL Implementasi Prototipe IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 25 \\
+17 & SCPMK904-04903 & UAS demo dan presentasi sistem IoT. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik IoT, studi kasus, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UAS demo dan presentasi sistem IoT dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UAS Demo Sistem IoT. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 22 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Internet of Things \\
+Kode Mata Kuliah & RTI256105 \quad \textbf{sks / Jam perminggu:} 3 SKS/6 jam \quad \textbf{Semester:} 6 \\
+Dosen Pengampu & Tim Pengajar Program Studi D4 TI \\
+\end{tblr}
+\assessmentblock{Tugas Perancangan Arsitektur IoT}{Case Method dan praktik perancangan}{SCPMK204-04901, SCPMK503-04902}{Mahasiswa merancang arsitektur sistem IoT end-to-end dan mengimplementasikan komponen komunikasi IoT berdasarkan studi kasus yang diberikan.}{Menganalisis kebutuhan sistem IoT, merancang arsitektur layer edge-fog-cloud, mengimplementasikan protokol komunikasi, menguji konektivitas, dan mendokumentasikan.}{Dokumen arsitektur IoT, diagram jaringan, kode implementasi protokol, dan laporan pengujian.}{Ketepatan rancangan arsitektur IoT end-to-end & 11 & Arsitektur mencakup layer sensor, gateway, fog, dan cloud dengan spesifikasi komponen, protokol, dan alur data yang tepat dan lengkap. & Arsitektur tersedia tetapi beberapa layer, komponen, atau spesifikasi protokol masih kurang detail atau kurang tepat. & Arsitektur tidak mencakup semua layer IoT atau tidak dapat menjadi acuan implementasi. \\ \\
+Implementasi protokol komunikasi IoT & 11 & Protokol (MQTT/HTTP/CoAP) diimplementasikan dengan benar, koneksi broker stabil, topic/endpoint terstruktur, dan data terkirim sesuai spesifikasi. & Implementasi protokol berjalan tetapi beberapa konfigurasi, struktur topic, atau penanganan error belum optimal. & Protokol tidak dapat terkoneksi atau data tidak terkirim sesuai spesifikasi. \\ \\
+Kualitas dokumentasi dan analisis kasus & 6 & Dokumen arsitektur lengkap, diagram jaringan informatif, dan analisis kasus menunjukkan pemahaman kebutuhan pengguna IoT. & Dokumentasi tersedia tetapi beberapa komponen diagram atau analisis kasus masih kurang rinci. & Dokumentasi tidak mencerminkan arsitektur yang dirancang atau analisis kasus tidak relevan. \\}
+
+\assessmentblock{Kuis Konsep dan Protokol IoT}{Kuis}{SCPMK204-04901, SCPMK503-04902}{Kuis tertulis untuk mengukur pemahaman konsep IoT, arsitektur, dan protokol komunikasi yang diterapkan dalam sistem IoT.}{Menjawab soal pilihan ganda dan/atau uraian singkat terkait konsep, arsitektur, dan protokol IoT.}{Jawaban tertulis kuis.}{Pemahaman konsep dan arsitektur IoT & 5 & Konsep IoT, layer arsitektur, dan karakteristik komponen dijelaskan dengan benar dan tepat sesuai konteks soal. & Sebagian besar konsep dipahami tetapi penerapan pada arsitektur atau komponen masih kurang akurat. & Konsep IoT tidak dipahami atau jawaban tidak relevan dengan arsitektur IoT. \\ \\
+Penguasaan protokol komunikasi IoT & 5 & Perbedaan, kelebihan, dan penggunaan tepat protokol MQTT, HTTP, CoAP, dan WebSocket dijelaskan secara akurat. & Sebagian protokol dipahami tetapi perbandingan atau konteks penggunaan masih kurang tepat. & Protokol komunikasi IoT tidak dapat dibedakan atau penjelasan keliru secara fundamental. \\}
+
+\assessmentblock{UTS Perancangan Sistem IoT}{UTS berbasis perancangan}{SCPMK204-04901, SCPMK503-04902}{Evaluasi tengah semester untuk mengukur kemampuan merancang dan menganalisis arsitektur sistem IoT lengkap beserta implementasi protokol komunikasi.}{Merancang arsitektur sistem IoT sesuai studi kasus UTS, mengimplementasikan komponen komunikasi, dan mendokumentasikan keputusan teknis.}{Dokumen perancangan arsitektur IoT, diagram sistem, dan implementasi protokol komunikasi.}{Kelengkapan rancangan arsitektur sistem IoT & 8 & Rancangan mencakup semua layer IoT, spesifikasi komponen lengkap, dan alur data dari sensor ke cloud terdokumentasi dengan jelas. & Rancangan mencakup komponen utama tetapi beberapa layer atau spesifikasi masih kurang lengkap. & Rancangan tidak mencakup semua layer atau tidak dapat dijadikan acuan implementasi. \\ \\
+Ketepatan pemilihan dan konfigurasi protokol & 7 & Protokol dipilih sesuai kebutuhan (latensi, bandwidth, QoS), konfigurasi broker/endpoint benar, dan justifikasi pemilihan tepat. & Protokol dipilih dengan alasan yang masuk akal tetapi konfigurasi atau justifikasi teknis masih kurang kuat. & Protokol dipilih tanpa justifikasi teknis atau konfigurasi tidak sesuai kebutuhan sistem IoT. \\}
+
+\assessmentblock{PBL Implementasi Prototipe Sistem IoT}{Project Based Learning}{SCPMK503-04902, SCPMK904-04903}{Mahasiswa mengimplementasikan prototipe sistem IoT fungsional dari sensor hingga cloud menggunakan platform IoT modern dan mengintegrasikan layanan monitoring data real-time.}{Merakit rangkaian sensor/aktuator, memprogram mikrokontroler, mengkonfigurasi platform IoT, mengintegrasikan cloud, menguji end-to-end, dan mendokumentasikan.}{Prototipe IoT berjalan, kode sumber, dashboard monitoring, laporan implementasi, dan video demo.}{Fungsionalitas prototipe end-to-end & 10 & Prototipe berjalan dari sensor ke cloud, data terbaca akurat, kontrol aktuator responsif, dan alur data real-time terpantau. & Prototipe sebagian berjalan tetapi beberapa komponen, akurasi data, atau responsivitas kontrol masih bermasalah. & Prototipe tidak dapat mengirimkan data sensor ke cloud atau kontrol aktuator tidak berfungsi. \\ \\
+Konfigurasi platform IoT dan integrasi cloud & 10 & Platform IoT (Node-RED/AWS IoT) dikonfigurasi lengkap, alur data divisualisasikan, alert terset, dan integrasi cloud berfungsi stabil. & Platform IoT terkonfigurasi dan berjalan tetapi beberapa fitur visualisasi, alert, atau integrasi cloud belum optimal. & Platform IoT tidak terkonfigurasi dengan benar atau integrasi cloud tidak berjalan. \\ \\
+Dokumentasi dan kualitas implementasi & 5 & Kode terdokumentasi, wiring diagram tersedia, laporan implementasi lengkap, dan video demo menunjukkan fungsionalitas penuh. & Dokumentasi tersedia tetapi beberapa komponen seperti wiring diagram, kode, atau laporan masih kurang. & Dokumentasi tidak mencukupi untuk mereproduksi prototipe atau video demo tidak menunjukkan fungsionalitas. \\}
+
+\assessmentblock{UAS Demo Sistem IoT}{UAS berbasis demo dan presentasi}{SCPMK904-04903}{Mahasiswa mendemokan sistem IoT lengkap yang sudah dikonfigurasi dan diintegrasikan dengan cloud, mempresentasikan arsitektur, analisis data, dan kemampuan monitoring real-time.}{Demo sistem IoT live, presentasi arsitektur dan konfigurasi platform, menjawab pertanyaan teknis dari penilai.}{Demo sistem IoT live, bahan presentasi, dan laporan deployment.}{Kualitas demo sistem IoT end-to-end & 9 & Demo menampilkan aliran data real-time dari sensor ke dashboard cloud, kontrol aktuator berfungsi, dan sistem stabil selama demo. & Demo berjalan tetapi ada ketidakstabilan data, delay berlebihan, atau beberapa fitur tidak dapat didemonstrasikan. & Demo tidak dapat menampilkan aliran data real-time atau sistem tidak stabil saat dipresentasikan. \\ \\
+Konfigurasi dan keamanan platform IoT & 7 & Platform dikonfigurasi dengan praktik keamanan yang baik (autentikasi, enkripsi), fitur lengkap, dan dapat di-maintain. & Platform berjalan tetapi konfigurasi keamanan atau kelengkapan fitur masih kurang optimal. & Platform tidak mengimplementasikan keamanan dasar atau konfigurasi tidak dapat di-maintain. \\ \\
+Kemampuan analisis dan presentasi teknis & 6 & Arsitektur dan keputusan teknis dijelaskan dengan tepat, analisis data sensor bermakna, dan pertanyaan teknis dijawab secara kompeten. & Presentasi cukup jelas tetapi analisis data atau penjelasan beberapa keputusan teknis masih kurang mendalam. & Tidak dapat menjelaskan arsitektur sistem atau menjawab pertanyaan teknis dasar IoT. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/kode sumber, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

@@ -1,7 +1,7 @@
 ---
 course_code: RTI252004
 course_name: Sistem Operasi
-sub_cpmk: SCPMK502-01303, SCPMK506-01304
+sub_cpmk: SCPMK502-01303, SCPMK208-01304
 assessment_form: Hands-on Practice
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Hands-on Practice
 
 **Bentuk Tugas/Evaluasi:** Hands-on Practice
 
-**Sub-CPMK:** SCPMK502-01303, SCPMK506-01304
+**Sub-CPMK:** SCPMK502-01303, SCPMK208-01304
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas manajemen akses, layanan, dan backup sesuai Sub-CPMK dan konteks mata kuliah.

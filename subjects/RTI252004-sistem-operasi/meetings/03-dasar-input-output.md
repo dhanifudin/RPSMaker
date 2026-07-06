@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 03
-sub_cpmk: SCPMK507-01302
+sub_cpmk: SCPMK206-01302
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Dasar input/output
 
 ## Kemampuan Akhir
-- SCPMK507-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
+- SCPMK206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
 
 ## Materi Pembelajaran
 Dasar input/output.
