@@ -1,0 +1,150 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Pengolahan Citra dan Visi Komputer & RTI255007 & 3 SKS/6 jam & 5 & 1 Juli 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Tim Pengajar Program Studi D4 TI &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=13]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL07 & \SetCell[c=3]{l} Mampu mengembangkan sistem komputasi cerdas dan melakukan analisis data berbasis kecerdasan buatan untuk pengambilan keputusan. &  &  \\
+ & CPL10 & \SetCell[c=3]{l} Mampu menganalisis persoalan kompleks dengan wawasan multidisiplin untuk menghasilkan solusi di bidang informatika dan ilmu komputer. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK705 & \SetCell[c=3]{l} Mahasiswa mampu melakukan pengolahan citra digital dan visualisasi untuk menghasilkan representasi yang bermakna. &  &  \\
+ & CPMK706 & \SetCell[c=3]{l} Mahasiswa mampu mengembangkan sistem visi komputer berbasis deep learning untuk deteksi, segmentasi, dan pengenalan objek. &  &  \\
+ & CPMK10.4 & \SetCell[c=3]{l} Mahasiswa mampu mengevaluasi kualitas hasil pengolahan citra dan representasi visual untuk aplikasi nyata. &  &  \\
+ & CPMK10.5 & \SetCell[c=3]{l} Mahasiswa mampu mengevaluasi kinerja sistem visi komputer berdasarkan metrik kualitas yang sesuai konteks. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK705-04301 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV. &  &  \\
+ & SCPMK706-04302 & \SetCell[c=3]{l} Mahasiswa mampu membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, dan segmentasi. &  &  \\
+ & SCPMK10.4-04303 & \SetCell[c=3]{l} Mahasiswa mampu mengevaluasi kualitas citra dan hasil pemrosesan visual menggunakan metrik kuantitatif. &  &  \\
+ & SCPMK10.5-04304 & \SetCell[c=3]{l} Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas & Kuis 1 & UTS & Kuis 2 & PBL & UAS & \\
+CPMK705 & SCPMK705-04301 & 12\%: filtering dan segmentasi & 5\%: pengolahan citra & 8\%: implementasi citra & 0\% & 0\% & 0\% & 25\% \\
+CPMK706 & SCPMK706-04302 & 8\%: CNN awal & 0\% & 0\% & 0\% & 13\%: sistem visi & 11\%: evaluasi sistem & 32\% \\
+CPMK10.4 & SCPMK10.4-04303 & 8\%: evaluasi kualitas citra & 0\% & 7\%: evaluasi citra & 0\% & 0\% & 0\% & 15\% \\
+CPMK10.5 & SCPMK10.5-04304 & 0\% & 0\% & 0\% & 5\%: evaluasi model & 12\%: evaluasi sistem & 11\%: evaluasi sistem & 28\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Mata kuliah Pengolahan Citra dan Visi Komputer membangun kemampuan memproses citra digital dengan OpenCV dan mengembangkan sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, dan segmentasi pada aplikasi nyata. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Pengolahan citra digital: representasi, operasi pixel, histogram, dan color space\item Filtering spasial, deteksi tepi, dan segmentasi citra\item Transformasi morfologi dan evaluasi kualitas citra\item CNN: arsitektur, klasifikasi, deteksi objek, dan segmentasi gambar\item Transfer learning, augmentasi data, dan evaluasi model visi komputer\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Gonzalez, R. 2018. Digital Image Processing (4th ed.). Pearson.\item Goodfellow, I. 2016. Deep Learning. MIT Press.\item Dokumentasi OpenCV dan PyTorch torchvision.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumentasi resmi perangkat lunak, dan jobsheet praktikum. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Python, OpenCV, PyTorch, Jupyter Notebook, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, GPU (jika tersedia), proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l} Tim Pengajar Program Studi D4 TI &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} RTI255004 Pembelajaran Mesin &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK705-04301 & Pengantar pengolahan citra: representasi dan format. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengantar pengolahan citra: representasi dan format dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Pengantar Pengolahan Citra: Representasi dan Format. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 2 \\
+2 & SCPMK705-04301 & Operasi pixel, histogram, dan color space. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk operasi pixel, histogram, dan color space dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Operasi Pixel, Histogram, dan Color Space. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+3 & SCPMK705-04301 & Filtering spasial: konvolusi, Gaussian blur, sharpening. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk filtering spasial: konvolusi, Gaussian blur, sharpening dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Filtering Spasial: Konvolusi, Gaussian Blur, Sharpening. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+4 & SCPMK705-04301 & Deteksi tepi: Sobel dan Canny. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk deteksi tepi: Sobel dan Canny dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Deteksi Tepi: Sobel dan Canny. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+5 & SCPMK705-04301 & Kuis 1: pengolahan citra dasar. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 1: pengolahan citra dasar dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 1: Pengolahan Citra Dasar. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 5 \\
+6 & SCPMK705-04301 & Segmentasi citra: thresholding dan watershed. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk segmentasi citra: thresholding dan watershed dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Segmentasi Citra: Thresholding dan Watershed. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+7 & SCPMK10.4-04303 & Transformasi morfologi dan analisis bentuk. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk transformasi morfologi dan analisis bentuk dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Transformasi Morfologi dan Analisis Bentuk. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+8 & SCPMK705-04301, SCPMK10.4-04303 & UTS: pengolahan citra dan evaluasi kualitas. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UTS: pengolahan citra dan evaluasi kualitas dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS: Pengolahan Citra dan Evaluasi Kualitas. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 15 \\
+9 & SCPMK706-04302 & CNN: arsitektur dan transfer learning. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk CNN: arsitektur dan transfer learning dan menunjukkan evidence hasil belajar. & Bentuk penilaian: CNN: Arsitektur dan Transfer Learning. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+10 & SCPMK706-04302 & Image classification dengan CNN. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk image classification dengan CNN dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Image Classification dengan CNN. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+11 & SCPMK706-04302 & Object detection: YOLO dan Faster R-CNN. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk object detection: YOLO dan Faster R-CNN dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Object Detection: YOLO dan Faster R-CNN. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+12 & SCPMK706-04302 & Image segmentation: FCN dan U-Net. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk image segmentation: FCN dan U-Net dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Image Segmentation: FCN dan U-Net. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+13 & SCPMK10.5-04304 & Kuis 2: evaluasi model visi komputer. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kuis 2: evaluasi model visi komputer dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kuis 2: Evaluasi Model Visi Komputer. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 5 \\
+14 & SCPMK706-04302 & Data augmentation dan transfer learning lanjutan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk data augmentation dan transfer learning lanjutan dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Data Augmentation dan Transfer Learning Lanjutan. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+15 & SCPMK10.5-04304 & Studi kasus: aplikasi visi komputer industri. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk studi kasus: aplikasi visi komputer industri dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Studi Kasus: Aplikasi Visi Komputer Industri. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 3 \\
+16 & SCPMK706-04302, SCPMK10.5-04304 & PBL: implementasi sistem visi komputer. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk PBL: implementasi sistem visi komputer dan menunjukkan evidence hasil belajar. & Bentuk penilaian: PBL: Implementasi Sistem Visi Komputer. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 25 \\
+17 & SCPMK706-04302, SCPMK10.5-04304 & UAS: presentasi dan evaluasi sistem visi komputer. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, praktik implementasi, eksplorasi dataset, dan peer review. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UAS: presentasi dan evaluasi sistem visi komputer dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UAS: Presentasi dan Evaluasi Sistem Visi Komputer. Mengacu rubrik RTM. & Ketepatan konsep; kualitas implementasi; validasi dan dokumentasi. & 22 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Pengolahan Citra dan Visi Komputer \\
+Kode Mata Kuliah & RTI255007 \quad \textbf{sks / Jam perminggu:} 3 SKS/6 jam \quad \textbf{Semester:} 5 \\
+Dosen Pengampu & Tim Pengajar Program Studi D4 TI \\
+\end{tblr}
+\assessmentblock{Tugas Pengolahan Citra Dasar}{Case Method dan praktik implementasi}{SCPMK705-04301, SCPMK10.4-04303, SCPMK706-04302}{Mahasiswa menyelesaikan tugas mengimplementasikan teknik pengolahan citra menggunakan OpenCV, mengevaluasi kualitas citra, dan membangun implementasi CNN awal.}{Menganalisis kebutuhan, mengimplementasikan teknik citra dengan OpenCV, mengukur metrik kualitas, mengimplementasikan CNN awal, dan mendokumentasikan.}{Kode Python/OpenCV, laporan evaluasi kualitas citra, implementasi CNN, dan/atau bahan presentasi.}{Implementasi teknik filtering dan segmentasi & 12 & Teknik filtering (Gaussian, Sobel, Canny), segmentasi (thresholding, watershed), dan transformasi diimplementasikan dengan benar menggunakan OpenCV dan hasilnya terdokumentasi. & Implementasi sebagian besar benar tetapi beberapa teknik belum optimal atau hasilnya belum terdokumentasi lengkap. & Teknik pengolahan citra tidak diimplementasikan dengan benar atau kode tidak berjalan. \\ \\
+Evaluasi kualitas citra menggunakan metrik kuantitatif & 8 & Metrik kualitas citra (PSNR, SSIM, histogram) digunakan dengan benar, hasilnya diinterpretasikan secara akurat, dan perbandingan antar teknik dilakukan secara sistematis. & Metrik digunakan tetapi interpretasi atau perbandingan antar teknik masih belum lengkap. & Metrik tidak digunakan atau interpretasi tidak mencerminkan pemahaman kualitas citra. \\ \\
+Implementasi CNN awal untuk klasifikasi citra & 8 & Arsitektur CNN dasar diimplementasikan dengan benar, proses pelatihan berjalan, dan hasil klasifikasi awal terdokumentasi. & Implementasi CNN ada tetapi arsitektur atau proses pelatihan masih ada kekurangan. & CNN tidak diimplementasikan atau tidak dapat menghasilkan hasil klasifikasi. \\}
+
+\assessmentblock{Kuis 1 Pengolahan Citra Dasar}{Kuis}{SCPMK705-04301}{Kuis tertulis untuk mengukur pemahaman teknik pengolahan citra dasar menggunakan OpenCV.}{Menjawab soal pilihan ganda dan/atau uraian terkait representasi citra, operasi pixel, filtering, dan deteksi tepi.}{Jawaban tertulis kuis.}{Pemahaman teknik pengolahan citra dasar & 3 & Konsep representasi citra, operasi pixel, histogram, filtering, dan deteksi tepi dijelaskan dengan benar dan contoh penerapannya tepat. & Sebagian besar konsep dipahami tetapi penerapan atau contoh masih kurang lengkap. & Konsep tidak dipahami atau contoh penerapan keliru. \\ \\
+Analisis operasi pixel dan histogram & 2 & Operasi pixel (brightness, contrast) dan manipulasi histogram dianalisis dengan tepat pada kasus citra yang diberikan. & Analisis sebagian besar benar tetapi beberapa operasi atau hasil histogram masih keliru. & Analisis tidak tepat atau tidak menunjukkan pemahaman operasi citra. \\}
+
+\assessmentblock{UTS Pengolahan Citra dan Evaluasi Kualitas}{UTS berbasis praktik}{SCPMK705-04301, SCPMK10.4-04303}{Evaluasi tengah semester untuk mengukur kemampuan mengimplementasikan teknik pengolahan citra dan mengevaluasi kualitas hasil pemrosesan visual.}{Mengimplementasikan teknik pengolahan citra pada dataset yang diberikan dan mengevaluasi kualitas hasilnya.}{Kode Python/OpenCV yang berjalan, hasil pemrosesan citra, dan laporan evaluasi kualitas.}{Implementasi teknik pengolahan citra & 8 & Teknik filtering, segmentasi, dan transformasi diimplementasikan dengan benar pada dataset UTS, kode berjalan tanpa error, dan hasilnya sesuai ekspektasi. & Implementasi sebagian besar benar tetapi beberapa teknik menghasilkan output yang tidak optimal atau ada error minor. & Implementasi tidak berjalan atau hasilnya tidak mencerminkan penerapan teknik yang benar. \\ \\
+Evaluasi kualitas hasil pemrosesan visual & 7 & Kualitas hasil pemrosesan dievaluasi dengan metrik yang tepat (PSNR, SSIM), diinterpretasikan secara akurat, dan dibandingkan antar teknik secara sistematis. & Evaluasi dilakukan tetapi pemilihan metrik atau interpretasi hasil masih belum lengkap. & Evaluasi tidak dilakukan atau tidak menggunakan metrik yang relevan. \\}
+
+\assessmentblock{Kuis 2 Evaluasi Model Visi Komputer}{Kuis}{SCPMK10.5-04304}{Kuis tertulis untuk mengukur pemahaman metrik evaluasi model visi komputer.}{Menjawab soal terkait metrik mAP, IoU, accuracy, precision, recall, dan interpretasinya.}{Jawaban tertulis kuis.}{Pemahaman metrik evaluasi model visi & 3 & Metrik mAP, IoU, accuracy, precision, dan recall dijelaskan dengan benar dan aplikasinya pada kasus deteksi/segmentasi tepat. & Sebagian besar metrik dipahami tetapi penerapan pada kasus spesifik masih kurang tepat. & Metrik tidak dipahami atau penerapannya keliru. \\ \\
+Kemampuan analisis kinerja model & 2 & Kinerja model dievaluasi secara komprehensif berdasarkan metrik yang sesuai konteks aplikasi visi komputer. & Analisis kinerja cukup baik tetapi pemilihan metrik atau interpretasi hasilnya belum sepenuhnya tepat. & Analisis tidak tepat atau tidak menggunakan metrik yang relevan. \\}
+
+\assessmentblock{PBL Implementasi Sistem Visi Komputer}{Project Based Learning}{SCPMK706-04302, SCPMK10.5-04304}{Mahasiswa membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, atau segmentasi, dan mengevaluasi kinerjanya menggunakan metrik kuantitatif.}{Menganalisis masalah, merancang arsitektur CNN, melatih model, mengevaluasi kinerja, dan mempresentasikan sistem.}{Kode Python/PyTorch, model terlatih, laporan evaluasi, dan bahan presentasi.}{Implementasi sistem visi komputer berbasis CNN & 10 & Sistem CNN diimplementasikan dengan arsitektur yang sesuai (klasifikasi/deteksi/segmentasi), proses pelatihan terdokumentasi, dan model menghasilkan output yang benar pada data uji. & Implementasi CNN berjalan tetapi arsitektur atau proses pelatihan masih ada kekurangan yang mempengaruhi kualitas output. & CNN tidak diimplementasikan dengan benar atau tidak menghasilkan output yang bermakna. \\ \\
+Evaluasi kinerja menggunakan metrik kuantitatif & 8 & Kinerja model dievaluasi dengan metrik yang tepat (mAP, IoU, accuracy), hasil diinterpretasikan secara akurat, dan perbandingan dengan baseline dilakukan. & Evaluasi dilakukan dengan metrik yang benar tetapi interpretasi atau perbandingan dengan baseline masih belum lengkap. & Evaluasi tidak dilakukan atau menggunakan metrik yang tidak sesuai konteks. \\ \\
+Dokumentasi dan presentasi sistem & 7 & Sistem didokumentasikan lengkap (arsitektur, data, pelatihan, evaluasi) dan dipresentasikan dengan penjelasan yang meyakinkan tentang pilihan teknis. & Dokumentasi dan presentasi cukup baik tetapi beberapa aspek teknis belum dijelaskan dengan lengkap. & Dokumentasi tidak lengkap atau presentasi tidak dapat menjelaskan sistem yang dibangun. \\}
+
+\assessmentblock{UAS Presentasi dan Evaluasi Sistem Visi Komputer}{UAS presentasi dan defense}{SCPMK706-04302, SCPMK10.5-04304}{Mahasiswa mempresentasikan sistem visi komputer yang dibangun, mendemonstrasikan fungsionalitas, dan mempertahankan keputusan teknis berdasarkan evaluasi kinerja.}{Melakukan demo sistem, mempresentasikan hasil evaluasi, dan menjawab pertanyaan teknis.}{Sistem visi komputer final, laporan evaluasi komprehensif, dan bahan presentasi.}{Kelengkapan implementasi sistem visi komputer & 9 & Sistem visi komputer berjalan lengkap dengan pipeline yang benar (preprocessing, model, evaluasi), semua komponen terintegrasi, dan demo berjalan tanpa error. & Sebagian besar komponen berfungsi tetapi beberapa integrasi pipeline atau demo masih ada kekurangan. & Sistem tidak berjalan atau banyak komponen yang tidak terintegrasi. \\ \\
+Kualitas evaluasi kinerja model & 8 & Kinerja model dievaluasi secara komprehensif dengan metrik yang tepat, hasilnya dianalisis mendalam, dan keterbatasan model diidentifikasi dengan jelas. & Evaluasi kinerja dilakukan tetapi kedalaman analisis atau identifikasi keterbatasan masih belum lengkap. & Evaluasi tidak komprehensif atau tidak menggunakan metrik yang sesuai. \\ \\
+Analisis dan presentasi hasil & 5 & Hasil sistem dijelaskan dengan tepat, keputusan teknis dipertahankan dengan argumen berbasis data, dan pertanyaan dijawab secara meyakinkan. & Presentasi cukup baik tetapi beberapa keputusan teknis belum dapat dipertahankan dengan argumen yang kuat. & Tidak dapat menjelaskan sistem atau menjawab pertanyaan teknis dengan tepat. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/kode sumber Python, perangkat lunak sesuai mata kuliah, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

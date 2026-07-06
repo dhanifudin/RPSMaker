@@ -1,0 +1,150 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Skripsi & RTI258001 & 8 SKS / 16 jam/minggu & 8 & 1 Juli 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Tim Pengajar Program Studi D4 TI &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=17]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL04 & \SetCell[c=3]{l} Mampu menyusun deskripsi saintifik hasil kajian, pengembangan, atau implementasi teknologi informasi dan komunikasi dalam bentuk skripsi, laporan, atau artikel ilmiah. &  &  \\
+ & CPL06 & \SetCell[c=3]{l} Mampu merancang, mengimplementasikan, menguji, melakukan deployment, memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan pengguna. &  &  \\
+ & CPL08 & \SetCell[c=3]{l} Mampu mengelola proyek teknologi informasi secara profesional melalui perencanaan, koordinasi, komunikasi, dan optimalisasi sumber daya. &  &  \\
+ & CPL10 & \SetCell[c=3]{l} Mampu menganalisis persoalan kompleks dengan wawasan multidisiplin untuk menghasilkan solusi di bidang informatika dan ilmu komputer. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK403 & \SetCell[c=3]{l} Mahasiswa mampu melaksanakan penelitian/pengembangan TIK secara sistematis dan mandiri berdasarkan metodologi ilmiah. &  &  \\
+ & CPMK404 & \SetCell[c=3]{l} Mahasiswa mampu menyusun laporan/artikel ilmiah skripsi yang memenuhi standar publikasi. &  &  \\
+ & CPMK802 & \SetCell[c=3]{l} Mahasiswa mampu merencanakan dan mengelola jalannya penelitian/pengembangan skripsi secara profesional. &  &  \\
+ & CPMK804 & \SetCell[c=3]{l} Mahasiswa mampu mempertahankan hasil penelitian/pengembangan di hadapan tim penguji. &  &  \\
+ & CPMK10.9 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis permasalahan TIK secara komprehensif dan menghasilkan solusi yang tervalidasi. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK403-05801 & \SetCell[c=3]{l} Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih. &  &  \\
+ & SCPMK404-05802 & \SetCell[c=3]{l} Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema. &  &  \\
+ & SCPMK802-05803 & \SetCell[c=3]{l} Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri. &  &  \\
+ & SCPMK804-05804 & \SetCell[c=3]{l} Mahasiswa mampu mempresentasikan dan mempertahankan skripsi di hadapan tim penguji. &  &  \\
+ & SCPMK10.9-05805 & \SetCell[c=3]{l} Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=4]{c} Bobot per Bentuk Penilaian & & & & Total Bobot \\
+ & & Proposal & Seminar Kemajuan & Naskah Skripsi & Sidang Skripsi & \\
+CPMK403 & SCPMK403-05801 & & 8\%: progress penelitian & 10\%: pelaksanaan penelitian & & 18\% \\
+CPMK404 & SCPMK404-05802 & & & 15\%: naskah skripsi & 10\%: sidang naskah & 25\% \\
+CPMK802 & SCPMK802-05803 & 8\%: proposal penelitian & & & & 8\% \\
+CPMK804 & SCPMK804-05804 & & & & 20\%: sidang defense & 20\% \\
+CPMK10.9 & SCPMK10.9-05805 & 12\%: analisis masalah & 7\%: validasi solusi & & 10\%: sidang analisis & 29\% \\
+\SetCell[c=6]{r}\textbf{Total Per Penilaian} & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Skripsi adalah mata kuliah tugas akhir 8 SKS yang mengintegrasikan seluruh kompetensi akademis mahasiswa dalam melaksanakan penelitian atau pengembangan TIK secara mandiri, menghasilkan karya ilmiah berstandar publikasi, dan mempertahankannya di hadapan tim penguji. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Metodologi penelitian dan penyusunan proposal ilmiah\item Kajian literatur dan identifikasi masalah penelitian\item Pelaksanaan penelitian dan pengembangan sistem TIK\item Penulisan naskah skripsi sesuai standar ilmiah\item Seminar, sidang, dan diseminasi hasil penelitian\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Buku Pedoman Skripsi D4 TI Polinema 2025.\item Creswell, J. 2018. Research Design. SAGE.\item Pressman, R. 2014. Software Engineering: A Practitioner's Approach. McGraw-Hill.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, jurnal ilmiah TIK, dan panduan penulisan karya ilmiah. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Word processor, LaTeX, reference manager, IDE, perangkat penelitian, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, perangkat laboratorium/penelitian, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l} Tim Pengajar Program Studi D4 TI &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} Lulus Metodologi Penelitian, lulus $\geq$ 130 SKS &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK802-05803 & Orientasi skripsi: prosedur, jadwal, dan pemilihan pembimbing. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 2 x 50' tatap muka; persiapan mandiri. & Mahasiswa mengikuti orientasi skripsi, memahami prosedur, jadwal, dan kriteria pemilihan pembimbing skripsi. & Bentuk penilaian: Kehadiran orientasi dan rencana awal. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 2 \\
+2 & SCPMK10.9-05805 & Identifikasi topik dan tinjauan awal literatur. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; studi mandiri. & Mahasiswa mengidentifikasi topik penelitian potensial dan melakukan tinjauan awal literatur untuk memperkuat ide penelitian. & Bentuk penilaian: Mind map topik dan daftar literatur awal. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 2 \\
+3 & SCPMK403-05801 & Penentuan metodologi penelitian/pengembangan. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; studi mandiri. & Mahasiswa memilih dan menentukan metodologi penelitian/pengembangan yang sesuai dengan topik dan tujuan skripsi. & Bentuk penilaian: Draft justifikasi pemilihan metodologi. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 2 \\
+4 & SCPMK802-05803 & Bimbingan proposal: BAB I --- Pendahuluan. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyusun BAB I (latar belakang, rumusan masalah, tujuan, manfaat) dan mendapatkan bimbingan pembimbing. & Bentuk penilaian: Draft BAB I proposal. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 2 \\
+5 & SCPMK10.9-05805 & Bimbingan proposal: BAB II --- Tinjauan Pustaka. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyusun BAB II (kajian teori, penelitian terdahulu, kerangka konseptual) dan mendapatkan masukan bimbingan. & Bentuk penilaian: Draft BAB II proposal. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 3 \\
+6 & SCPMK403-05801 & Bimbingan proposal: BAB III --- Metodologi. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyusun BAB III (metodologi penelitian/pengembangan lengkap) dan mendapatkan persetujuan pembimbing. & Bentuk penilaian: Draft BAB III proposal. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 3 \\
+7 & SCPMK802-05803 & Finalisasi dan pengumpulan proposal skripsi. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyelesaikan revisi proposal, mendapat persetujuan pembimbing, dan mengumpulkan proposal untuk seminar. & Bentuk penilaian: Naskah proposal final. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 5 \\
+8 & SCPMK802-05803, SCPMK10.9-05805 & Seminar proposal skripsi. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 2 x 50' seminar. & Mahasiswa mempresentasikan proposal skripsi di hadapan dosen pembimbing dan reviewer, menjawab pertanyaan, dan mendapatkan masukan. & Bentuk penilaian: Seminar proposal (presentasi dan tanya jawab). Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 20 \\
+9 & SCPMK403-05801 & Bimbingan penelitian/pengembangan: fase 1. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & Disesuaikan jadwal skripsi. & Mahasiswa melaksanakan tahap awal penelitian/pengembangan sesuai metodologi, mendokumentasikan progress, dan berkonsultasi dengan pembimbing. & Bentuk penilaian: Progress report fase 1. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 3 \\
+10 & SCPMK403-05801 & Bimbingan penelitian/pengembangan: fase 2. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & Disesuaikan jadwal skripsi. & Mahasiswa melanjutkan penelitian/pengembangan, menyelesaikan implementasi utama, dan mendokumentasikan hasil. & Bentuk penilaian: Progress report fase 2 dengan artefak penelitian. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 3 \\
+11 & SCPMK403-05801, SCPMK10.9-05805 & Seminar kemajuan / progress report. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 2 x 50' seminar. & Mahasiswa mempresentasikan kemajuan penelitian/pengembangan kepada pembimbing dan penguji untuk mendapatkan evaluasi dan masukan. & Bentuk penilaian: Seminar kemajuan (presentasi progress). Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 15 \\
+12 & SCPMK404-05802 & Bimbingan penulisan: BAB IV --- Hasil dan Analisis. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyusun BAB IV (hasil penelitian/pengembangan, analisis, pembahasan) dengan bimbingan pembimbing. & Bentuk penilaian: Draft BAB IV naskah skripsi. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 3 \\
+13 & SCPMK404-05802 & Bimbingan penulisan: BAB V --- Kesimpulan dan Saran. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyusun BAB V (kesimpulan, saran, implikasi penelitian) dan mendapatkan masukan pembimbing. & Bentuk penilaian: Draft BAB V naskah skripsi. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 3 \\
+14 & SCPMK404-05802 & Penyelesaian naskah dan revisi bersama pembimbing. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyelesaikan seluruh bab, melakukan revisi komprehensif bersama pembimbing, dan memastikan konsistensi naskah. & Bentuk penilaian: Draft naskah skripsi lengkap (semua bab). Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 5 \\
+15 & SCPMK404-05802 & Pengumpulan naskah final dan pendaftaran sidang. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 1 x 50' administrasi; penulisan mandiri. & Mahasiswa mendapat persetujuan pembimbing, mengumpulkan naskah final, dan mendaftarkan diri untuk sidang skripsi. & Bentuk penilaian: Naskah skripsi final dan bukti pendaftaran sidang. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 7 \\
+16 & SCPMK804-05804 & Persiapan sidang: latihan presentasi. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 2 x 50' latihan; persiapan mandiri. & Mahasiswa berlatih presentasi sidang skripsi, mendapatkan feedback dari pembimbing, dan menyempurnakan slide. & Bentuk penilaian: Slide presentasi sidang. Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 2 \\
+17 & SCPMK804-05804, SCPMK404-05802, SCPMK10.9-05805 & Sidang skripsi. & Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah. & 1 x 2 x 50' sidang. & Mahasiswa mempresentasikan dan mempertahankan skripsi di hadapan tim penguji, menjawab pertanyaan, dan mendapatkan keputusan sidang. & Bentuk penilaian: Sidang skripsi (presentasi dan defense). Mengacu rubrik RTM. & Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis. & 20 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Skripsi \\
+Kode Mata Kuliah & RTI258001 \quad \textbf{sks / Jam perminggu:} 8 SKS / 16 jam/minggu \quad \textbf{Semester:} 8 \\
+Dosen Pengampu & Tim Pengajar Program Studi D4 TI \\
+\end{tblr}
+\assessmentblock{Proposal Skripsi}{Case Method dan penulisan ilmiah}{SCPMK802-05803, SCPMK10.9-05805}{Mahasiswa menyusun dan mempresentasikan proposal skripsi yang mencakup latar belakang masalah, kajian pustaka, dan metodologi penelitian/pengembangan yang dipilih.}{Mengidentifikasi masalah TIK, mengkaji literatur, merancang metodologi, menyusun naskah proposal, bimbingan dengan pembimbing, dan mempresentasikannya dalam seminar proposal.}{Naskah proposal skripsi lengkap (minimal BAB I--III), slide presentasi seminar proposal, dan berita acara seminar.}{Identifikasi masalah dan relevansi penelitian & 6 & Masalah diidentifikasi secara jelas dari kajian literatur, relevan dengan perkembangan TIK terkini, dan memiliki nilai kontribusi yang terargumentasi. & Masalah teridentifikasi dengan cukup baik, relevansi dengan TIK ada, tetapi kontribusi penelitian masih kurang tajam. & Masalah tidak dirumuskan dengan jelas, relevansi dengan TIK tidak terbukti, atau tidak ada kontribusi yang dapat diidentifikasi. \\ \\
+Tinjauan pustaka dan metodologi penelitian & 8 & Tinjauan pustaka komprehensif, sumber primer relevan dan terkini, metodologi dipilih dan dijelaskan dengan tepat sesuai jenis penelitian. & Tinjauan pustaka cukup, tetapi beberapa sumber kurang relevan atau metodologi belum sepenuhnya sesuai. & Tinjauan pustaka sangat terbatas, sumber tidak relevan, atau metodologi dipilih tanpa dasar yang kuat. \\ \\
+Kelengkapan dokumen dan presentasi proposal & 6 & Proposal lengkap sesuai format Polinema, disajikan dengan baik dalam seminar, dan dapat menjawab pertanyaan reviewer dengan argumentasi yang kuat. & Proposal cukup lengkap dan presentasi memadai, tetapi beberapa bagian format atau argumentasi saat tanya jawab masih lemah. & Proposal tidak lengkap, tidak sesuai format, atau tidak dapat mempertahankan isi proposal saat tanya jawab. \\}
+
+\assessmentblock{Seminar Kemajuan Penelitian}{Seminar Progress}{SCPMK403-05801, SCPMK10.9-05805}{Mahasiswa mempresentasikan kemajuan penelitian/pengembangan yang telah dicapai, menunjukkan bukti pelaksanaan metodologi, dan mendapatkan masukan untuk perbaikan.}{Melaksanakan penelitian/pengembangan sesuai proposal, mendokumentasikan progress, menyiapkan laporan kemajuan, dan mempresentasikannya dalam seminar.}{Laporan kemajuan penelitian, artefak/data penelitian yang telah dicapai, dan slide presentasi seminar kemajuan.}{Progress pelaksanaan penelitian/pengembangan & 6 & Penelitian/pengembangan telah berjalan sesuai jadwal, target minimal 50\% tercapai, dan bukti pelaksanaan terdokumentasi dengan baik. & Progress ada tetapi belum sesuai jadwal atau target yang direncanakan; sebagian dokumentasi tersedia. & Progress sangat minimal, tidak sesuai rencana, atau tidak dapat menunjukkan bukti pelaksanaan. \\ \\
+Kualitas analisis dan temuan sementara & 5 & Temuan sementara dianalisis secara kritis menggunakan kerangka metodologi, insight bermakna dapat diidentifikasi, dan arah penelitian ke depan jelas. & Temuan sementara terdokumentasi tetapi analisisnya masih dangkal atau arah penelitian selanjutnya belum jelas. & Tidak ada temuan sementara yang substansial atau tidak dapat menganalisis data/hasil yang ada. \\ \\
+Responsivitas terhadap masukan reviewer & 4 & Masukan reviewer diterima dengan terbuka, pertanyaan dijawab dengan baik, dan rencana tindak lanjut dirumuskan secara konkret. & Sebagian besar masukan ditanggapi dengan baik, tetapi respons terhadap pertanyaan teknis masih terbatas. & Tidak dapat merespons masukan reviewer secara konstruktif atau defensif terhadap kritik. \\}
+
+\assessmentblock{Naskah Skripsi}{Case Method dan penulisan ilmiah}{SCPMK404-05802, SCPMK403-05801}{Mahasiswa menyusun naskah skripsi lengkap yang memenuhi standar penulisan ilmiah Polinema, mencakup seluruh proses penelitian/pengembangan dari latar belakang hingga kesimpulan.}{Menyusun seluruh bab skripsi berdasarkan hasil penelitian/pengembangan, bimbingan bertahap dengan pembimbing, revisi berulang, dan pengumpulan naskah final.}{Naskah skripsi lengkap (semua bab) sesuai pedoman Polinema, dilengkapi abstrak Bahasa Indonesia dan Inggris, daftar pustaka, dan lampiran.}{Kelengkapan bab dan standar penulisan ilmiah & 8 & Semua bab tersedia dengan konten lengkap, format sesuai pedoman Polinema, bahasa ilmiah baku, dan sitasi/daftar pustaka menggunakan gaya yang konsisten. & Sebagian besar bab lengkap tetapi format belum sepenuhnya sesuai pedoman, atau ada inkonsistensi penulisan. & Bab penting tidak lengkap, format jauh dari pedoman, atau bahasa tidak memenuhi standar ilmiah. \\ \\
+Kualitas hasil penelitian dan analisis & 10 & Hasil penelitian/pengembangan tersaji lengkap, analisis dilakukan secara mendalam, interpretasi didukung teori, dan pembahasan menjawab rumusan masalah. & Hasil penelitian cukup baik tetapi analisis masih terbatas, atau tidak semua rumusan masalah terjawab dengan baik. & Hasil penelitian tidak substansial, analisis sangat dangkal, atau tidak menjawab rumusan masalah. \\ \\
+Originalitas dan kontribusi keilmuan & 7 & Penelitian/pengembangan menunjukkan originalitas, memberikan kontribusi nyata terhadap TIK, dan perbedaan dengan penelitian terdahulu dijelaskan dengan jelas. & Ada kontribusi yang dapat diidentifikasi tetapi originalitas atau perbedaan dengan penelitian terdahulu belum cukup eksplisit. & Tidak ada kontribusi yang jelas, atau skripsi hanya mengulang penelitian yang sudah ada tanpa inovasi. \\}
+
+\assessmentblock{Sidang Skripsi}{Presentasi dan defense}{SCPMK804-05804, SCPMK404-05802, SCPMK10.9-05805}{Mahasiswa mempresentasikan dan mempertahankan skripsi di hadapan tim penguji, menunjukkan penguasaan metodologi, analisis, dan kontribusi penelitian/pengembangan yang dilakukan.}{Menyiapkan presentasi sidang, memaparkan keseluruhan penelitian secara ringkas, menjawab pertanyaan tim penguji, dan merevisi berdasarkan masukan sidang.}{Slide presentasi sidang, naskah skripsi yang telah direvisi pasca sidang, dan berita acara sidang.}{Kualitas presentasi dan penguasaan materi & 12 & Presentasi terstruktur, materi disampaikan dengan jelas dan percaya diri, menunjukkan penguasaan menyeluruh terhadap seluruh isi skripsi. & Presentasi cukup baik tetapi ada bagian yang kurang jelas atau penguasaan beberapa aspek teknis masih terbatas. & Presentasi tidak terstruktur, banyak materi tidak dikuasai, atau penyampaian tidak profesional. \\ \\
+Kemampuan mempertahankan argumen ilmiah & 14 & Semua pertanyaan tim penguji dijawab dengan argumentasi ilmiah yang kuat, didukung data/teori, dan menunjukkan pemahaman mendalam terhadap metodologi dan hasil. & Sebagian besar pertanyaan terjawab dengan baik, tetapi beberapa pertanyaan teknis atau metodologis tidak dapat dipertahankan. & Banyak pertanyaan tidak dapat dijawab, argumen lemah, atau tidak dapat mempertahankan validitas hasil penelitian. \\ \\
+Validitas solusi dan kontribusi keilmuan & 14 & Solusi yang dihasilkan tervalidasi secara ilmiah, kontribusi terhadap TIK jelas dan signifikan, serta implikasi penelitian untuk pengembangan selanjutnya dirumuskan. & Validasi solusi ada tetapi metode atau cakupannya terbatas; kontribusi keilmuan dapat diidentifikasi meskipun belum optimal. & Solusi tidak tervalidasi atau tidak dapat menjelaskan kontribusi dan relevansi penelitian bagi TIK. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori/naskah, perangkat lunak penelitian, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

@@ -1,0 +1,146 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Proyek Sistem Informasi & RTI254009 & 3 SKS/6 jam & 4 & 1 Juli 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Tim Pengajar Program Studi D4 TI &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=14]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL02 & \SetCell[c=3]{l} Mampu menerapkan prinsip rekayasa sistem dan perangkat lunak untuk menghasilkan solusi aplikasi multi-platform sesuai kebutuhan. &  &  \\
+ & CPL06 & \SetCell[c=3]{l} Mampu merancang, mengimplementasikan, menguji, melakukan deployment, memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan pengguna. &  &  \\
+ & CPL08 & \SetCell[c=3]{l} Mampu mengelola proyek teknologi informasi secara profesional melalui perencanaan, koordinasi, komunikasi, dan optimalisasi sumber daya. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK801 & \SetCell[c=3]{l} Mahasiswa mampu merencanakan proyek sistem informasi dengan estimasi sumber daya, jadwal, dan manajemen risiko. &  &  \\
+ & CPMK802 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan siklus hidup rekayasa perangkat lunak secara menyeluruh dalam pengembangan sistem informasi. &  &  \\
+ & CPMK803 & \SetCell[c=3]{l} Mahasiswa mampu mengeksekusi, memonitor, dan mengendalikan proyek serta mengelola tim secara profesional. &  &  \\
+ & CPMK607 & \SetCell[c=3]{l} Mahasiswa mampu menghasilkan solusi sistem informasi terintegrasi yang menjawab kebutuhan pengguna nyata. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK801-03601 & \SetCell[c=3]{l} Mahasiswa mampu menyusun rencana proyek SI meliputi WBS, jadwal, anggaran, dan risk register. &  &  \\
+ & SCPMK802-03602 & \SetCell[c=3]{l} Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap. &  &  \\
+ & SCPMK803-03603 & \SetCell[c=3]{l} Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI. &  &  \\
+ & SCPMK607-03604 & \SetCell[c=3]{l} Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Dok.Perencanaan & Sprint 1-2 & UTS Milestone & Sprint 3 & Laporan & UAS Demo & \\
+CPMK801 & SCPMK801-03601 & 15\%: WBS, jadwal, anggaran, risiko & 0\% & 0\% & 0\% & 0\% & 0\% & 15\% \\
+CPMK802 & SCPMK802-03602 & 0\% & 10\%: implementasi SDLC Sprint 1-2 & 0\% & 10\%: implementasi SDLC Sprint 3 & 0\% & 0\% & 20\% \\
+CPMK803 & SCPMK803-03603 & 0\% & 0\% & 15\%: monitoring dan review & 0\% & 5\%: laporan kemajuan & 10\%: defense proyek & 30\% \\
+CPMK607 & SCPMK607-03604 & 0\% & 10\%: integrasi sistem Sprint 1-2 & 0\% & 10\%: integrasi sistem Sprint 3 & 5\%: laporan akhir & 10\%: demo produk & 35\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Proyek Sistem Informasi adalah mata kuliah berbasis proyek yang mengintegrasikan kemampuan analisis, desain, implementasi, dan manajemen proyek dalam pengembangan SI berbasis web secara tim menggunakan metodologi agile. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Perencanaan proyek: WBS, jadwal, anggaran, risiko\item Metodologi SDLC dan Scrum/Agile\item Implementasi SI berbasis web: back-end, front-end, dan database\item Sprint execution, review, dan retrospective\item Deployment, UAT, laporan akhir, dan demo proyek\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Sommerville, I. 2016. Software Engineering (10th ed.). Pearson.\item Schwaber, K. 2020. The Scrum Guide. Scrum.org.\item PMI. 2021. PMBOK Guide (7th ed.).\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumentasi resmi framework web, dan jobsheet praktikum. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} IDE, framework web, sistem manajemen proyek, LMS. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, proyektor. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l} Tim Pengajar Program Studi D4 TI &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} - &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK801-03601 & Kickoff proyek: pembentukan tim dan requirement gathering. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk kickoff proyek dan requirement gathering dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Kickoff Proyek: Pembentukan Tim dan Requirement Gathering. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 5 \\
+2 & SCPMK801-03601 & Dokumen perencanaan: WBS, jadwal, anggaran, risiko. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk penyusunan dokumen perencanaan proyek SI dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Dokumen Perencanaan: WBS, Jadwal, Anggaran, Risiko. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 10 \\
+3 & SCPMK802-03602 & Arsitektur SI dan tech stack selection. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk arsitektur SI dan tech stack selection dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Arsitektur SI dan Tech Stack Selection. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 2 \\
+4 & SCPMK802-03602 & Sprint planning dan setup environment. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk sprint planning dan setup environment dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint Planning dan Setup Environment. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 3 \\
+5 & SCPMK802-03602, SCPMK607-03604 & Sprint 1: implementasi fitur utama back-end. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk implementasi fitur utama back-end pada Sprint 1 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 1: Implementasi Fitur Utama Back-End. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 5 \\
+6 & SCPMK607-03604 & Sprint 1: implementasi front-end dan integrasi. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk implementasi front-end dan integrasi pada Sprint 1 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 1: Implementasi Front-End dan Integrasi. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 5 \\
+7 & SCPMK803-03603 & Sprint 1 review dan retrospective. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk sprint 1 review dan retrospective dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 1 Review dan Retrospective. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 5 \\
+8 & SCPMK803-03603 & UTS: milestone review dan demo Sprint 1-2. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UTS milestone review dan demo Sprint 1-2 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UTS: Milestone Review dan Demo Sprint 1-2. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 15 \\
+9 & SCPMK802-03602, SCPMK607-03604 & Sprint 2: pengembangan fitur lanjutan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk pengembangan fitur lanjutan pada Sprint 2 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 2: Pengembangan Fitur Lanjutan. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 4 \\
+10 & SCPMK802-03602 & Sprint 2: testing dan debugging. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk testing dan debugging pada Sprint 2 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 2: Testing dan Debugging. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 3 \\
+11 & SCPMK803-03603 & Sprint 2 review dan Sprint 3 planning. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk sprint 2 review dan sprint 3 planning dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 2 Review dan Sprint 3 Planning. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 3 \\
+12 & SCPMK607-03604 & Sprint 3: deployment preparation. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk deployment preparation pada Sprint 3 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 3: Deployment Preparation. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 4 \\
+13 & SCPMK607-03604 & Sprint 3: UAT dan perbaikan. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UAT dan perbaikan pada Sprint 3 dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 3: UAT dan Perbaikan. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 4 \\
+14 & SCPMK803-03603 & Sprint 3 review dan finalisasi. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk sprint 3 review dan finalisasi dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Sprint 3 Review dan Finalisasi. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 3 \\
+15 & SCPMK803-03603, SCPMK607-03604 & Penyusunan laporan akhir proyek. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk penyusunan laporan akhir proyek dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Penyusunan Laporan Akhir Proyek. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 10 \\
+16 & SCPMK607-03604 & Persiapan demo dan presentasi. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk persiapan demo dan presentasi dan menunjukkan evidence hasil belajar. & Bentuk penilaian: Persiapan Demo dan Presentasi. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 5 \\
+17 & SCPMK607-03604, SCPMK803-03603 & UAS: demo produk dan defense proyek SI. & Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Project Based Learning, sprint, kolaborasi tim, dan presentasi. & 1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri. & Mahasiswa mengerjakan aktivitas terarah untuk UAS demo produk dan defense proyek SI dan menunjukkan evidence hasil belajar. & Bentuk penilaian: UAS: Demo Produk dan Defense Proyek SI. Mengacu rubrik RTM. & Ketepatan implementasi; kualitas artefak proyek; kolaborasi dan dokumentasi. & 15 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Proyek Sistem Informasi \\
+Kode Mata Kuliah & RTI254009 \quad \textbf{sks / Jam perminggu:} 3 SKS/6 jam \quad \textbf{Semester:} 4 \\
+Dosen Pengampu & Tim Pengajar Program Studi D4 TI \\
+\end{tblr}
+\assessmentblock{Dokumen Perencanaan Proyek SI}{Case Method dan penugasan terstruktur}{SCPMK801-03601}{Mahasiswa menyusun dokumen perencanaan proyek SI lengkap meliputi WBS, jadwal, anggaran, dan risk register.}{Menganalisis kebutuhan proyek, menyusun WBS, menjadwalkan dengan Gantt chart, mengestimasi anggaran, mengidentifikasi risiko, dan mendokumentasikan dalam format standar.}{Dokumen perencanaan proyek, WBS, Gantt chart, risk register, dan laporan estimasi anggaran.}{Kelengkapan dan ketepatan WBS dan jadwal & 6 & WBS mendekomposisi semua deliverable dengan tepat, jadwal realistis, dan milestone teridentifikasi dengan jelas. & WBS dan jadwal tersedia tetapi dekomposisi atau milestone belum lengkap dan konsisten. & WBS tidak mencerminkan lingkup proyek atau jadwal tidak realistis. \\ \\
+Kualitas risk register dan anggaran & 5 & Risiko diidentifikasi lengkap dengan probabilitas, dampak, dan mitigasi; anggaran terinci dan realistis. & Risiko dan anggaran tersedia tetapi mitigasi atau rincian anggaran masih kurang. & Tidak ada risk register yang memadai atau anggaran tidak dapat dipertanggungjawabkan. \\ \\
+Kelengkapan dan kualitas dokumen & 4 & Dokumen lengkap, terformat standar, konsisten, dan dapat langsung digunakan sebagai baseline proyek. & Dokumen sebagian besar lengkap tetapi format atau konsistensi masih kurang. & Dokumen tidak lengkap atau tidak memenuhi standar minimal perencanaan proyek. \\}
+
+\assessmentblock{Sprint Implementasi Sistem Informasi}{Project Based Learning}{SCPMK802-03602, SCPMK607-03604}{Mahasiswa mengimplementasikan SI berbasis web secara iteratif melalui sprint, mengintegrasikan back-end, front-end, dan database.}{Melaksanakan sprint planning, implementasi fitur, code review, integrasi, testing, dan sprint review sesuai metodologi Scrum.}{Kode sumber sistem informasi, hasil sprint review, dokumentasi teknis, dan laporan retrospective.}{Fungsionalitas sistem yang diimplementasikan & 18 & Fitur sprint berfungsi sesuai user story, integrasi back-end, front-end, dan database berhasil, dan pengujian unit lulus. & Fitur utama berfungsi, tetapi integrasi atau beberapa pengujian masih belum selesai. & Fitur tidak berfungsi atau integrasi sistem gagal. \\ \\
+Kualitas kode, dokumentasi, dan integrasi & 13 & Kode bersih, mengikuti konvensi, terdokumentasi, dan integrasi antar lapisan arsitektur konsisten. & Kode berfungsi dan terdokumentasi sebagian, tetapi kualitas atau konsistensi integrasi masih terbatas. & Kode sulit dipahami, tidak terdokumentasi, atau integrasi tidak terstruktur. \\ \\
+Proses agile, review, dan kolaborasi tim & 9 & Sprint review terdokumentasi, retrospective menghasilkan perbaikan konkret, dan kolaborasi tim terkoordinasi baik. & Sprint review dilakukan, tetapi retrospective atau dokumentasi kolaborasi masih kurang mendalam. & Tidak ada sprint review yang bermakna atau kolaborasi tim tidak terkoordinasi. \\}
+
+\assessmentblock{UTS Milestone Review}{UTS berbasis demo dan presentasi}{SCPMK803-03603}{Mahasiswa mendemonstrasikan kemajuan proyek SI dan mempertahankan keputusan teknis dan manajerial yang telah diambil.}{Mempersiapkan demo produk, laporan kemajuan, dan presentasi yang mencakup pencapaian sprint, risiko aktual, dan rencana ke depan.}{Demo sistem yang berjalan, laporan kemajuan proyek, dan bahan presentasi.}{Kelengkapan demo fitur Sprint 1-2 & 7 & Demo menunjukkan semua fitur Sprint 1-2 yang berfungsi, alur pengguna jelas, dan dapat dioperasikan oleh penguji. & Demo menunjukkan sebagian besar fitur, tetapi beberapa alur atau fungsionalitas masih belum stabil. & Demo tidak dapat dilaksanakan atau banyak fitur yang tidak berfungsi. \\ \\
+Monitoring kemajuan dan pengelolaan risiko & 5 & Kemajuan terdokumentasi akurat, risiko aktual teridentifikasi, dan rencana mitigasi diperbarui secara realistis. & Kemajuan terdokumentasi tetapi risiko aktual atau rencana mitigasi belum cukup diperbarui. & Kemajuan tidak terdokumentasi atau risiko tidak dikelola secara proaktif. \\ \\
+Presentasi dan argumentasi teknis & 3 & Keputusan teknis dan manajerial dijelaskan dengan alasan yang kuat dan mahasiswa mampu menjawab pertanyaan dengan tepat. & Presentasi cukup jelas, tetapi beberapa keputusan belum dapat diargumentasikan dengan baik. & Tidak dapat menjelaskan keputusan teknis atau manajerial secara memadai. \\}
+
+\assessmentblock{UAS Demo Produk dan Laporan Akhir Proyek SI}{UAS berbasis demo dan defense}{SCPMK607-03604, SCPMK803-03603}{Mahasiswa mendemonstrasikan sistem informasi final yang deployable, menyerahkan laporan akhir proyek, dan mempertahankan hasil kerja tim.}{Melakukan finalisasi sistem, menyiapkan environment demo, menyusun laporan akhir proyek, dan mempresentasikan hasil secara komprehensif.}{Sistem SI yang deployable, laporan akhir proyek lengkap, dokumentasi teknis, dan bahan presentasi defense.}{Kelengkapan dan kualitas sistem akhir & 13 & Sistem SI dapat didemonstrasikan end-to-end, semua fitur utama berfungsi, dan telah melalui UAT dengan hasil terdokumentasi. & Sistem sebagian besar berfungsi, tetapi beberapa fitur atau hasil UAT masih kurang lengkap. & Sistem tidak dapat didemonstrasikan atau tidak melewati UAT minimal. \\ \\
+Kualitas laporan dan dokumentasi proyek & 9 & Laporan akhir lengkap, mencakup perencanaan, implementasi, pengujian, dan refleksi proyek secara runtut dan terstandar. & Laporan tersedia tetapi beberapa bagian penting atau kelengkapan dokumentasi masih kurang. & Laporan tidak lengkap atau tidak mencerminkan perjalanan proyek secara akurat. \\ \\
+Defense dan penguasaan teknis proyek & 8 & Mahasiswa mampu menjelaskan arsitektur, keputusan desain, tantangan, dan solusi proyek dengan meyakinkan dan akurat. & Defense cukup baik, tetapi beberapa aspek teknis atau manajerial belum dapat dijelaskan dengan mendalam. & Tidak dapat mempertahankan keputusan teknis atau manajerial proyek secara memadai. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, repositori kode sumber, framework web, perangkat manajemen proyek, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}

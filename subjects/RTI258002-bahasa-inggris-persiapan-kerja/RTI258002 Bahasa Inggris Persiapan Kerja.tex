@@ -1,0 +1,361 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+
+\begin{document}
+
+% ── Header ────────────────────────────────────────────────────────────────────
+\begin{tblr}{width=\textwidth,colspec={Q[c,m,1.4cm]X[l,m]Q[c,m,4.2cm]},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=4pt,row{1}={bg=headblue}}
+\logo &
+{\large\bfseries RENCANA PEMBELAJARAN SEMESTER (RPS)} \newline
+Bahasa Inggris Persiapan Kerja \quad|\quad RTI258002 \quad|\quad 2 SKS / 4 jam \quad|\quad Semester 8 &
+\begin{minipage}[c]{4cm}
+\tight
+Program Studi: Teknologi Rekayasa Instrumentasi \newline
+Jurusan: Teknologi Informasi \newline
+Politeknik Negeri Malang
+\end{minipage} \\
+\end{tblr}
+
+\vspace{2mm}
+
+% ── RPS Main Table ─────────────────────────────────────────────────────────────
+\begin{longtblr}{
+  width=\textwidth,
+  colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},
+  hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,
+  row{1,3,6}={bg=headgray,font=\bfseries}
+}
+\SetCell[c=5]{l}\textbf{A. IDENTITAS MATA KULIAH} & & & & \\
+Nama Mata Kuliah & \SetCell[c=4]{l} Bahasa Inggris Persiapan Kerja & & & \\
+\SetCell[c=5]{l}\textbf{B. OTORISASI / PENGESAHAN} & & & & \\
+Tanggal Penyusunan & Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar & \SetCell[c=2]{l} Mengetahui, Koordinator Program Studi & \\
+1 Juli 2025 & Nama / NIP & Nama / NIP & \SetCell[c=2]{l} Nama / NIP & \\
+\SetCell[c=5]{l}\textbf{C. CAPAIAN PEMBELAJARAN} & & & & \\
+\SetCell[r=9]{l} Capaian Pembelajaran &
+\SetCell[c=4]{l}\textbf{Capaian Pembelajaran Lulusan (CPL)} & & & \\
+ & CPL01 & \SetCell[c=3]{l} Mampu menerapkan nilai ketakwaan, kesadaran hukum, kedisiplinan, profesionalisme, etika profesi, dan pembelajaran sepanjang hayat, serta tanggap terhadap isu sosial dan perkembangan teknologi. & & \\
+ & CPL03 & \SetCell[c=3]{l} Mampu mengelola tim dan diri sendiri secara profesional serta mengomunikasikan dan mempresentasikan gagasan maupun hasil kerja secara efektif baik lisan maupun tulisan. & & \\
+ & \SetCell[c=4]{l}\textbf{Capaian Pembelajaran Mata Kuliah (CPMK)} & & & \\
+ & CPMK303 & \SetCell[c=3]{l} Mahasiswa mampu mengomunikasikan dan mempresentasikan hasil kerja teknologi informasi secara efektif dalam Bahasa Inggris baik lisan maupun tulisan. & & \\
+ & CPMK102 & \SetCell[c=3]{l} Mahasiswa mampu menerapkan etika profesi, profesionalisme, dan komunikasi lintas budaya dalam lingkungan kerja TI global. & & \\
+ & \SetCell[c=4]{l}\textbf{Sub Capaian Pembelajaran Mata Kuliah (Sub-CPMK)} & & & \\
+ & SCPMK303-05901 & \SetCell[c=3]{l} Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional. & & \\
+ & SCPMK102-05902 & \SetCell[c=3]{l} Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris. & & \\
+Deskripsi Singkat MK & \SetCell[c=4]{l} Bahasa Inggris Persiapan Kerja mempersiapkan mahasiswa memasuki pasar kerja TI global dengan membangun kemampuan komunikasi profesional dalam Bahasa Inggris mencakup penulisan dokumen karier, presentasi teknis, simulasi wawancara, dan komunikasi lintas budaya. & & & \\
+Bahan Kajian & \SetCell[c=4]{l}
+\begin{enumerate}
+  \item Professional CV, LinkedIn profile, cover letter, dan email profesional
+  \item Technical writing dan dokumentasi proyek TI
+  \item Presentasi teknis dan komunikasi tim multikultural
+  \item Job interview: STAR method, behavioral dan technical interview
+  \item Business English, IT portfolio, dan mock interview
+\end{enumerate}
+& & & \\
+Pustaka & \SetCell[c=4]{l}
+\begin{enumerate}
+  \item Mascull, B. 2017. \textit{Business Vocabulary in Use (Advanced)}. Cambridge.
+  \item Guffey, M. 2019. \textit{Business Communication: Process and Product}. Cengage.
+  \item Swan, M. 2016. \textit{Practical English Usage}. Oxford.
+\end{enumerate}
+& & & \\
+Prasyarat MK & \SetCell[c=4]{l} -- & & & \\
+Software & \SetCell[c=4]{l} Aplikasi presentasi, rekam audio/video, LMS, kamus daring. & & & \\
+Hardware & \SetCell[c=4]{l} Komputer/laptop, proyektor, mikrofon. & & & \\
+\SetCell[c=5]{l}\textbf{D. PENILAIAN} & & & & \\
+Bobot Penilaian &
+\SetCell[c=4]{l}
+{\tight
+\begin{tblr}{width=0.98\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=6]{c} Bobot per Bentuk Penilaian & & & & & & Total Bobot \\
+ & & Tugas Dokumen & Kuis 1 & UTS & Kuis 2 & PBL Mock & UAS & \\
+CPMK303 & SCPMK303-05901 & 18\%: dokumen profesional & 5\%: CV dan cover letter & 8\%: portofolio awal & & 10\%: presentasi teknis & 10\%: final portofolio & 51\% \\
+CPMK102 & SCPMK102-05902 & 12\%: komunikasi profesi & & 7\%: komunikasi kerja & 5\%: interview skills & 12\%: simulasi wawancara & 13\%: final mock interview & 49\% \\
+\SetCell[c=8]{r}\textbf{Total Per Penilaian} & & & & & & & & \textbf{100\%} \\
+\end{tblr}
+}
+& & & \\
+\end{longtblr}
+
+\vspace{2mm}
+
+% ── Meetings Table ─────────────────────────────────────────────────────────────
+\begin{longtblr}{
+  width=\textwidth,
+  colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},
+  hlines,vlines,hspan=minimal,rowhead=2,
+  row{1,2}={bg=headgreen,font=\bfseries},
+  rowsep=1pt,colsep=1.5pt
+}
+\SetCell[r=2]{c} Minggu ke- &
+\SetCell[r=2]{c} Sub-CPMK &
+\SetCell[r=2]{c} Bahan Kajian (Materi Pembelajaran) &
+\SetCell[r=2]{c} Pengalaman Belajar Mahasiswa &
+\SetCell[r=2]{c,m} Modalitas, Bentuk, dan Metode Pembelajaran &
+\SetCell[r=2]{c} Estimasi Waktu &
+\SetCell[r=2]{c} Penilaian/Kriteria &
+\SetCell[r=2]{c} Indikator Penilaian &
+\SetCell[r=2]{c} Bobot (\%) \\
+& & & & & & & & \\
+% Week 1
+1 &
+SCPMK303-05901, SCPMK102-05902 &
+English for IT Professionals: overview dan kebutuhan pasar kerja global. &
+Mahasiswa mengeksplorasi tren pasar kerja TI global, mengidentifikasi kompetensi Bahasa Inggris yang dibutuhkan, dan memetakan gap kompetensi diri. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Refleksi kebutuhan Bahasa Inggris dalam karir TI. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+2 \\
+% Week 2
+2 &
+SCPMK303-05901 &
+Professional CV dan LinkedIn profile dalam Bahasa Inggris. &
+Mahasiswa menganalisis contoh CV dan LinkedIn profesional TI, merancang CV dan LinkedIn profile sendiri menggunakan konvensi profesional global. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Draft CV dan LinkedIn profile. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+2 \\
+% Week 3
+3 &
+SCPMK303-05901 &
+Cover letter dan application email: struktur dan konvensi. &
+Mahasiswa mempelajari struktur cover letter dan email aplikasi kerja, kemudian menyusun cover letter dan email untuk posisi TI yang dipilih. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Draft cover letter dan application email. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+2 \\
+% Week 4
+4 &
+SCPMK303-05901 &
+Kuis 1: CV dan cover letter. &
+Mahasiswa mengerjakan kuis tentang konvensi penulisan CV, cover letter, dan email profesional Bahasa Inggris dalam konteks TI. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Kuis 1 tertulis (CV dan cover letter). Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+5 \\
+% Week 5
+5 &
+SCPMK303-05901 &
+Technical writing: dokumentasi dan laporan TI dalam Bahasa Inggris. &
+Mahasiswa mempelajari prinsip technical writing dan menyusun dokumentasi teknis (README, API docs, atau laporan proyek) dalam Bahasa Inggris. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Sampel dokumentasi teknis TI. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+2 \\
+% Week 6
+6 &
+SCPMK102-05902 &
+Presentasi teknis: struktur, delivery, dan Q\&A dalam Bahasa Inggris. &
+Mahasiswa berlatih menyusun dan menyampaikan presentasi teknis proyek TI dalam Bahasa Inggris, termasuk teknik menangani sesi tanya jawab. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Mini presentasi teknis (5 menit). Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+2 \\
+% Week 7
+7 &
+SCPMK102-05902 &
+Komunikasi dalam tim multikultural: etika dan gaya komunikasi. &
+Mahasiswa mempelajari perbedaan budaya dalam komunikasi profesional dan berlatih berkomunikasi dalam skenario tim TI multikultural. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Role-play komunikasi tim multikultural. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+2 \\
+% Week 8
+8 &
+SCPMK303-05901, SCPMK102-05902 &
+UTS: portofolio dokumen profesional Bahasa Inggris. &
+Mahasiswa mengumpulkan dan mempresentasikan portofolio dokumen profesional (CV, cover letter, email, technical writing) sebagai evaluasi tengah semester. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: UTS portofolio (pengumpulan dan presentasi singkat). Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+15 \\
+% Week 9
+9 &
+SCPMK102-05902 &
+Job interview preparation: common IT interview questions. &
+Mahasiswa menganalisis pertanyaan interview umum di industri TI dan berlatih menjawab dengan bahasa Inggris yang profesional. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Latihan jawaban interview IT. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+3 \\
+% Week 10
+10 &
+SCPMK102-05902 &
+Behavioral interview: STAR method. &
+Mahasiswa mempelajari dan berlatih STAR method (Situation, Task, Action, Result) untuk menjawab pertanyaan behavioral interview dalam Bahasa Inggris. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Latihan STAR method written dan lisan. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+3 \\
+% Week 11
+11 &
+SCPMK102-05902 &
+Kuis 2: interview skills dan workplace communication. &
+Mahasiswa mengerjakan kuis tentang teknik interview kerja, STAR method, dan komunikasi profesional di tempat kerja. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Kuis 2 tertulis (interview skills). Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+5 \\
+% Week 12
+12 &
+SCPMK102-05902 &
+Technical interview: coding discussion dan problem solving. &
+Mahasiswa berlatih simulasi technical interview mencakup diskusi kode, problem solving, dan menjelaskan solusi teknis dalam Bahasa Inggris. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Simulasi technical interview singkat. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+3 \\
+% Week 13
+13 &
+SCPMK102-05902 &
+Business English: meeting, negotiation, dan email etiquette. &
+Mahasiswa berlatih bahasa Inggris bisnis untuk konteks meeting profesional, negosiasi, dan penulisan email formal di lingkungan kerja TI. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Simulasi meeting dan email business. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+3 \\
+% Week 14
+14 &
+SCPMK303-05901 &
+IT portfolio: presentasi proyek dalam Bahasa Inggris. &
+Mahasiswa menyusun dan berlatih mempresentasikan portofolio proyek TI dalam Bahasa Inggris sebagai persiapan UAS. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Draft presentasi portofolio proyek TI. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+3 \\
+% Week 15
+15 &
+SCPMK102-05902 &
+Mock interview: full simulation. &
+Mahasiswa menjalani simulasi full mock interview (HR dan technical) dalam Bahasa Inggris dengan pasangan atau kelompok, mendapatkan feedback. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: Rekaman simulasi mock interview. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+3 \\
+% Week 16
+16 &
+SCPMK102-05902, SCPMK303-05901 &
+PBL: simulasi wawancara dan presentasi teknis final. &
+Mahasiswa menjalani PBL berupa simulasi wawancara kerja komprehensif dan presentasi teknis portofolio proyek TI dalam Bahasa Inggris di depan instruktur. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: PBL mock interview dan presentasi teknis (full assessment). Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+22 \\
+% Week 17
+17 &
+SCPMK102-05902, SCPMK303-05901 &
+UAS: final mock interview panel dan presentasi portofolio. &
+Mahasiswa mengikuti UAS berupa mock interview panel (dihadapi tim instruktur) dan presentasi portofolio profesional final dalam Bahasa Inggris. &
+Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, simulasi, role-play, dan peer feedback. &
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri. &
+Bentuk penilaian: UAS final mock interview panel dan presentasi portofolio. Mengacu rubrik RTM. &
+Kelancaran komunikasi Bahasa Inggris; kualitas dokumen; profesionalisme. &
+23 \\
+\end{longtblr}
+
+\newpage
+
+% ── RTM Header ────────────────────────────────────────────────────────────────
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\SetCell[c=2]{c} RENCANA TUGAS MAHASISWA (RTM) \\
+Mata Kuliah & Bahasa Inggris Persiapan Kerja \\
+Kode & RTI258002 \\
+SKS & 2 SKS / 4 jam \\
+Semester & 8 \\
+\end{tblr}
+
+\vspace{2mm}
+
+% ── Assessment Blocks ─────────────────────────────────────────────────────────
+\assessmentblock{Tugas Dokumen Profesional}{Case Method dan portofolio}{SCPMK303-05901, SCPMK102-05902}{Mahasiswa menyusun portofolio dokumen profesional Bahasa Inggris secara bertahap, mencakup CV, LinkedIn, cover letter, email profesional, dan dokumentasi teknis TI, yang dievaluasi melalui tugas, kuis, dan UTS.}{Menganalisis contoh dokumen profesional, menyusun dokumen sesuai konteks TI, mendapatkan umpan balik peer dan instruktur, serta memperbaiki dokumen berulang.}{Portofolio dokumen profesional (CV, cover letter, email, technical writing), jawaban kuis tertulis, dan presentasi UTS portofolio.}{Kualitas CV, cover letter, dan email profesional & 18 & CV menampilkan pengalaman TI secara strategis, cover letter disesuaikan dengan posisi, dan email menggunakan konvensi profesional yang tepat; semuanya bebas kesalahan gramatikal. & Dokumen lengkap dan informatif, tetapi ada beberapa kesalahan gramatikal atau penyesuaian konteks yang kurang optimal. & Dokumen tidak lengkap, banyak kesalahan gramatikal, atau tidak mengikuti konvensi profesional standar. \\ \\
+Kualitas technical writing dan dokumentasi TI & 12 & Dokumentasi teknis tersusun logis, menggunakan terminologi TI yang tepat, ditujukan pada audiens yang tepat, dan disertai contoh/diagram yang relevan. & Technical writing cukup jelas dan menggunakan terminologi yang benar, tetapi struktur atau kesesuaian audiens masih bisa ditingkatkan. & Technical writing tidak terstruktur, terminologi tidak tepat, atau tidak sesuai dengan konteks TI. \\ \\
+Penguasaan konsep dokumen profesional (Kuis \& UTS) & 20 & Kuis dan UTS menunjukkan pemahaman mendalam tentang konvensi dokumen profesional Bahasa Inggris dalam konteks TI, dengan contoh dan aplikasi yang tepat. & Sebagian besar konsep dipahami dengan baik, tetapi beberapa aspek konvensi atau penerapannya dalam konteks TI masih kurang. & Konsep dokumen profesional tidak dipahami, banyak jawaban kuis/UTS keliru, atau tidak dapat menerapkan dalam konteks TI. \\}
+
+\vspace{2mm}
+
+\assessmentblock{PBL Mock Interview dan Presentasi Teknis}{Project Based Learning dan simulasi}{SCPMK102-05902, SCPMK303-05901}{Mahasiswa menjalani simulasi wawancara kerja dan presentasi teknis dalam Bahasa Inggris, menerapkan teknik STAR method, behavioral interview, dan komunikasi multikultural yang dipelajari.}{Berlatih mock interview berpasangan, menyiapkan jawaban STAR, melakukan presentasi teknis proyek TI, mendapatkan feedback instruktur dan teman sebaya.}{Rekaman video mock interview, slide presentasi teknis proyek TI, jawaban kuis tertulis interview skills, dan refleksi mandiri.}{Penguasaan teknik wawancara kerja (STAR \& behavioral) & 10 & Mahasiswa menerapkan STAR method secara konsisten, memberikan jawaban behavioral yang spesifik dengan contoh dari pengalaman TI, dan merespons pertanyaan teknis dengan tepat. & STAR method diterapkan pada sebagian besar jawaban, tetapi beberapa jawaban kurang spesifik atau contoh tidak relevan dengan konteks TI. & Tidak menerapkan STAR method, jawaban sangat umum, atau tidak dapat merespons pertanyaan interview dengan efektif. \\ \\
+Kemampuan presentasi teknis dalam Bahasa Inggris & 9 & Presentasi teknis disampaikan dengan jelas, terstruktur, dan percaya diri; terminologi TI digunakan dengan benar; Q\&A dijawab dengan baik. & Presentasi cukup jelas dan informatif, tetapi ada beberapa ketidakakuratan terminologi atau kurang percaya diri saat Q\&A. & Presentasi tidak terstruktur, terminologi sering salah, atau tidak dapat menjawab pertanyaan teknis. \\ \\
+Komunikasi lintas budaya dan profesionalisme & 8 & Mahasiswa menunjukkan kesadaran budaya, menggunakan register bahasa yang tepat untuk konteks profesional global, dan berinteraksi dengan etika kerja yang baik. & Komunikasi cukup profesional tetapi kadang menggunakan register yang tidak tepat atau kurang menunjukkan kesadaran budaya. & Komunikasi tidak profesional, register bahasa tidak sesuai, atau tidak menunjukkan pemahaman etika kerja global. \\}
+
+\vspace{2mm}
+
+\assessmentblock{UAS Final Mock Interview Panel dan Presentasi Portofolio}{UAS praktik}{SCPMK102-05902, SCPMK303-05901}{Mahasiswa mengikuti sesi final berupa mock interview panel dan presentasi portofolio profesional di depan tim instruktur sebagai simulasi proses rekrutmen TI yang sesungguhnya.}{Menyiapkan portofolio final, menjalani mock interview panel (30 menit), mempresentasikan portofolio karier, dan merespons pertanyaan panel.}{Portofolio profesional final (digital), rekaman/live mock interview panel, dan slide presentasi portofolio.}{Performa mock interview panel & 10 & Mahasiswa menjawab semua pertanyaan panel (HR, manajer teknis, dan penguji) dengan lancar, tepat, dan profesional menggunakan Bahasa Inggris baku. & Sebagian besar pertanyaan dijawab dengan baik, tetapi ada beberapa pertanyaan teknis atau behavioral yang kurang memuaskan. & Tidak dapat menjawab banyak pertanyaan panel, bahasa tidak profesional, atau tidak siap menghadapi format panel interview. \\ \\
+Kualitas presentasi portofolio profesional & 8 & Portofolio lengkap, profesional, dan dipresentasikan secara meyakinkan; mahasiswa dapat mengartikulasikan nilai jual dirinya dalam Bahasa Inggris. & Portofolio lengkap dan presentasi cukup baik, tetapi artikulasi nilai jual atau kelancaran penyampaian masih dapat ditingkatkan. & Portofolio tidak lengkap atau presentasi tidak meyakinkan; mahasiswa tidak dapat menjelaskan kompetensinya secara efektif. \\ \\
+Kelancaran dan ketepatan Bahasa Inggris & 5 & Bahasa Inggris digunakan dengan lancar, akurat secara gramatikal, dan sesuai konteks profesional sepanjang sesi UAS. & Bahasa Inggris umumnya dapat dipahami dengan baik, tetapi ada beberapa kesalahan gramatikal atau penggunaan yang kurang tepat. & Banyak kesalahan gramatikal yang mengganggu komunikasi, atau kosakata tidak memadai untuk konteks profesional. \\}
+
+\vspace{6mm}
+
+% ── Footer ────────────────────────────────────────────────────────────────────
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, portofolio digital, aplikasi presentasi, rekam video, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+
+\vspace{6mm}
+
+% ── Signature ─────────────────────────────────────────────────────────────────
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+
+\end{document}

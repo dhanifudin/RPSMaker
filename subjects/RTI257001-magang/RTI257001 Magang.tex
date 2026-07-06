@@ -1,0 +1,146 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape,margin=0.9cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{tabularray}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\UseTblrLibrary{varwidth}
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, topsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\begin{document}
+\pagestyle{empty}
+\tight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,1.9cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1}={bg=headblue},rowsep=1pt,colsep=3pt}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: D4 TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{c} \textbf{RENCANA PEMBELAJARAN SEMESTER (RPS)} & \\
+\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[l,m,1.9cm]|X[0.85,l,m]|X[1.45,l,m]|X[0.75,l,m]|X[1.15,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1,3,6}={bg=headgray,font=\bfseries}}
+MATA KULIAH & KODE & BOBOT (SKS)/jam & SEMESTER & TGL. PENYUSUNAN \\
+Magang & RTI257001 & 20 SKS / 40 jam/minggu & 7 & 1 Juli 2025 \\
+OTORISASI & Dosen Pengembang RPS & Koordinator RMK & \SetCell[c=2]{l} Ka PRODI &  \\
+ & Tim Pengajar Program Studi D4 TI &  & \SetCell[c=2]{l}{\vspace{8mm}\par Dr. Ely Setyo Astuti, S.T., M.T.} &  \\
+\SetCell[r=14]{l} Capaian Pembelajaran (CP) & \SetCell[c=4]{l} Capaian Pembelajaran Lulusan Program Studi (CPL-Prodi) &  &  &  \\
+ & CPL03 & \SetCell[c=3]{l} Mampu mengelola tim dan diri sendiri secara profesional serta mengomunikasikan dan mempresentasikan gagasan maupun hasil kerja secara efektif baik lisan maupun tulisan. &  &  \\
+ & CPL06 & \SetCell[c=3]{l} Mampu merancang, mengimplementasikan, menguji, melakukan deployment, memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan pengguna. &  &  \\
+ & CPL08 & \SetCell[c=3]{l} Mampu mengelola proyek teknologi informasi secara profesional melalui perencanaan, koordinasi, komunikasi, dan optimalisasi sumber daya. &  &  \\
+ & \SetCell[c=4]{l} Capaian Pembelajaran mata kuliah (CPL-MK) &  &  &  \\
+ & CPMK301 & \SetCell[c=3]{l} Mahasiswa mampu berkomunikasi secara profesional lisan dan tulisan dalam lingkungan kerja industri TI. &  &  \\
+ & CPMK303 & \SetCell[c=3]{l} Mahasiswa mampu mempresentasikan hasil kerja dan laporan magang secara efektif kepada pembimbing dan penguji. &  &  \\
+ & CPMK804 & \SetCell[c=3]{l} Mahasiswa mampu menyelesaikan proyek atau tugas industri secara mandiri dan profesional selama magang. &  &  \\
+ & CPMK607 & \SetCell[c=3]{l} Mahasiswa mampu mengaplikasikan kompetensi rekayasa perangkat lunak dalam konteks industri nyata. &  &  \\
+ & \SetCell[c=4]{l} Kemampuan akhir tiap tahapan belajar (Sub-CPMK) &  &  &  \\
+ & SCPMK301-05701 & \SetCell[c=3]{l} Mahasiswa mampu berkomunikasi profesional secara lisan dan tulisan selama kegiatan magang di industri TI. &  &  \\
+ & SCPMK303-05702 & \SetCell[c=3]{l} Mahasiswa mampu menyusun dan mempresentasikan laporan magang yang komprehensif kepada pembimbing akademik dan penguji. &  &  \\
+ & SCPMK804-05703 & \SetCell[c=3]{l} Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu. &  &  \\
+ & SCPMK607-05704 & \SetCell[c=3]{l} Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata. &  &  \\
+\SetCell[r=2]{l} Penilaian & \SetCell[c=4]{l} *Nilai CPMK didapat dari agregasi nilai SUB-CPMK yang dibebankan &  &  &  \\
+ & \SetCell[c=4]{l}{\tiny\begin{tblr}{width=\linewidth,colspec={|Q[c,m,0.1\linewidth]|Q[c,m,0.16\linewidth]|X[l,m]|X[l,m]|X[l,m]|X[l,m]|Q[c,m,0.08\linewidth]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=0.7pt,row{1,2}={bg=headgray,font=\bfseries}}
+Kode CPMK & Kode SCPMK & \SetCell[c=4]{c} Bobot per Bentuk Penilaian & & & & Total Bobot \\
+ & & Logbook & Nilai Lapangan & Laporan & Sidang & \\
+CPMK301 & SCPMK301-05701 & 10\%: logbook komunikasi & & 8\%: laporan magang & & 18\% \\
+CPMK303 & SCPMK303-05702 & & & 12\%: laporan magang & 15\%: sidang magang & 27\% \\
+CPMK804 & SCPMK804-05703 & 10\%: logbook kegiatan & 15\%: nilai pembimbing lapangan & & & 25\% \\
+CPMK607 & SCPMK607-05704 & & 15\%: nilai kompetensi RPL & & 15\%: sidang kompetensi & 30\% \\
+\SetCell[c=6]{r}\textbf{Total Per Penilaian} & & & & & & \textbf{100\%} \\
+\end{tblr}} &  &  &  \\
+Diskripsi Singkat Mata Kuliah & \SetCell[c=4]{l} Magang adalah program pembelajaran luar kampus (MBKM) 20 SKS yang menempatkan mahasiswa di industri TI selama ±4 bulan untuk mengaplikasikan kompetensi akademis, membangun profesionalisme, dan menghasilkan laporan ilmiah berbasis pengalaman kerja nyata. &  &  &  \\
+Bahan Kajian / Materi Pembelajaran & \SetCell[c=4]{l}\begin{enumerate}\item Pembekalan magang, etika profesi, dan orientasi industri\item Praktik kerja industri dan logbook kegiatan\item Aplikasi kompetensi rekayasa perangkat lunak di industri\item Penulisan laporan magang dan komunikasi profesional\item Presentasi dan sidang magang\end{enumerate} &  &  &  \\
+\SetCell[r=2]{l} Pustaka & \SetCell[c=4]{l} \textbf{Utama:}\begin{enumerate}\item Buku Pedoman Magang D4 TI Polinema 2025.\item Panduan MBKM Kemdikbud 2020.\item Pedoman Penulisan Laporan Magang Polinema.\end{enumerate} &  &  &  \\
+ & \SetCell[c=4]{l} \textbf{Pendukung:} Materi LMS, dokumen industri/pedoman magang, dan bahan bimbingan. &  &  &  \\
+Media Pembelajaran & \SetCell[c=2]{l} \textbf{Software:} Aplikasi logbook digital, LMS, sistem pelaporan. &  & \SetCell[c=2]{l} \textbf{Hardware:} Komputer/laptop, perangkat kerja industri. &  \\
+Nama Dosen Pengampu & \SetCell[c=4]{l} Tim Pengajar Program Studi D4 TI &  &  &  \\
+Matakuliah Syarat & \SetCell[c=4]{l} Lulus Semester 1--6 (minimal 120 SKS) &  &  &  \\
+\end{longtblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.06\textwidth]|X[1.35,l,m]|X[1.08,l,m]|X[1.16,l,m]|X[0.7,l,m]|X[1.24,l,m]|X[1.06,l,m]|X[0.98,l,m]|Q[c,m,0.05\textwidth]|},hlines,vlines,hspan=minimal,rowhead=2,row{1,2}={bg=headgreen,font=\bfseries},rowsep=1pt,colsep=1.5pt}
+Mgg.\par Ke & Kemampuan Akhir Yang Direncanakan (Sub-CP-MK) & Bahan kajian (Materi Pembelajaran) & Bentuk dan Metode Pembelajaran & Estimasi Waktu & Pengalaman Belajar Mahasiswa & Kriteria \& Bentuk Penilaian & Indikator Penilaian & Bobot Penilaian (\%) \\
+(1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) \\
+1 & SCPMK301-05701, SCPMK804-05703 & Pembekalan magang: orientasi, etika kerja, dan kontrak belajar. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 2 x 50' tatap muka; persiapan mandiri. & Mahasiswa mengikuti sesi pembekalan, memahami prosedur magang, etika kerja industri, dan menandatangani kontrak belajar. & Bentuk penilaian: Kehadiran dan partisipasi pembekalan. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 2 \\
+2 & SCPMK804-05703 & Penempatan dan pengenalan lingkungan industri. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & Disesuaikan jadwal magang. & Mahasiswa ditempatkan di perusahaan industri TI, mengenal lingkungan kerja, dan mulai memahami budaya organisasi. & Bentuk penilaian: Laporan penempatan awal. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 2 \\
+3 & SCPMK607-05704 & Penyerahan ke industri dan mulai kerja. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & Disesuaikan jadwal magang. & Mahasiswa diserahkan ke pembimbing lapangan, mendapatkan tugas awal, dan mulai berkontribusi dalam proyek/pekerjaan industri. & Bentuk penilaian: Logbook awal minggu pertama. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 2 \\
+4 & SCPMK301-05701, SCPMK804-05703 & Monitoring bulan 1: logbook dan progress report. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' monitoring; kerja mandiri. & Mahasiswa menyerahkan logbook bulan pertama dan melaporkan progress kerja kepada pembimbing akademik. & Bentuk penilaian: Logbook bulan 1 dan progress report. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+5 & SCPMK804-05703 & Konsultasi pembimbing akademik: identifikasi proyek industri. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' konsultasi; persiapan mandiri. & Mahasiswa berkonsultasi dengan pembimbing akademik untuk mengidentifikasi proyek/tugas industri yang relevan dengan kompetensi RPL. & Bentuk penilaian: Notulensi konsultasi dan rencana proyek. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+6 & SCPMK607-05704 & Monitoring bulan 2: evaluasi penyesuaian dan kompetensi. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' monitoring; kerja mandiri. & Mahasiswa dievaluasi kemampuan penyesuaian di lingkungan industri dan progress penerapan kompetensi rekayasa perangkat lunak. & Bentuk penilaian: Logbook bulan 2 dan evaluasi kompetensi. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+7 & SCPMK804-05703, SCPMK607-05704 & Mid-internship review bersama pembimbing lapangan. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 2 x 50' review; kerja mandiri. & Mahasiswa menjalani review tengah magang bersama pembimbing lapangan untuk mengevaluasi kinerja dan kompetensi yang telah dicapai. & Bentuk penilaian: Mid-internship review report. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 10 \\
+8 & SCPMK804-05703 & Penilaian pembimbing lapangan mid-term. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & Disesuaikan jadwal industri. & Pembimbing lapangan memberikan penilaian resmi terhadap kinerja, profesionalisme, dan penyelesaian tugas mahasiswa hingga pertengahan magang. & Bentuk penilaian: Formulir penilaian pembimbing lapangan mid-term. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 15 \\
+9 & SCPMK301-05701 & Monitoring bulan 3: progress laporan magang. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' monitoring; penulisan mandiri. & Mahasiswa melaporkan progress penulisan laporan magang dan mendapatkan masukan dari pembimbing akademik. & Bentuk penilaian: Draft awal laporan magang. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+10 & SCPMK303-05702 & Bimbingan penulisan laporan: struktur dan konten. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa mendapatkan bimbingan teknis penulisan laporan magang meliputi sistematika, konten, dan tata tulis ilmiah. & Bentuk penilaian: Draft laporan dengan catatan bimbingan. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+11 & SCPMK303-05702 & Draft laporan magang: bab I--III. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa menyelesaikan draft BAB I (Pendahuluan), BAB II (Profil Perusahaan), dan BAB III (Pelaksanaan Magang). & Bentuk penilaian: Draft BAB I--III laporan magang. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+12 & SCPMK607-05704 & Monitoring bulan 4: finalisasi proyek industri. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & Disesuaikan jadwal magang. & Mahasiswa menyelesaikan proyek/tugas industri utama dan mendokumentasikan hasilnya sebagai bahan laporan. & Bentuk penilaian: Laporan finalisasi proyek industri. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+13 & SCPMK607-05704 & Penilaian pembimbing lapangan akhir. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & Disesuaikan jadwal industri. & Pembimbing lapangan memberikan penilaian akhir atas keseluruhan kinerja dan penyelesaian tugas mahasiswa selama magang. & Bentuk penilaian: Formulir penilaian pembimbing lapangan akhir. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 15 \\
+14 & SCPMK303-05702 & Revisi dan finalisasi laporan magang. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' bimbingan; penulisan mandiri. & Mahasiswa merevisi laporan magang berdasarkan masukan pembimbing akademik dan melengkapi seluruh bab serta lampiran. & Bentuk penilaian: Laporan magang final. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 5 \\
+15 & SCPMK303-05702 & Pengumpulan dokumen dan persiapan sidang. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' persiapan; mandiri. & Mahasiswa mengumpulkan seluruh dokumen persyaratan sidang dan mempersiapkan bahan presentasi sidang magang. & Bentuk penilaian: Kelengkapan dokumen sidang. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 3 \\
+16 & SCPMK301-05701 & Logbook final dan evaluasi keseluruhan. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 1 x 50' evaluasi; mandiri. & Mahasiswa melengkapi dan mengumpulkan logbook final yang mencakup seluruh kegiatan magang, divalidasi pembimbing lapangan. & Bentuk penilaian: Logbook final lengkap. Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 5 \\
+17 & SCPMK303-05702, SCPMK607-05704 & Sidang magang: presentasi dan defense laporan. & Modalitas: Praktik Lapangan dan Bimbingan. Metode: praktik industri, monitoring berkala, dan bimbingan pembimbing akademik/lapangan. & 1 x 2 x 50' sidang. & Mahasiswa mempresentasikan dan mempertahankan laporan magang di hadapan tim penguji. & Bentuk penilaian: Sidang magang (presentasi dan tanya jawab). Mengacu rubrik RTM. & Ketepatan waktu; kualitas dokumen; profesionalisme. & 20 \\
+\end{longtblr}
+\newpage
+\rtmtight
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,2.1cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1.5pt,colsep=3pt,row{1}={bg=headgray,font=\bfseries}}
+\logo & \textbf{POLITEKNIK NEGERI MALANG}\par\textbf{JURUSAN TEKNOLOGI INFORMASI}\par\textbf{PROGRAM STUDI: SARJANA TERAPAN TEKNIK INFORMATIKA} \\
+\SetCell[c=2]{l} \textbf{RENCANA TUGAS MAHASISWA (RTM) DAN RUBRIK PENILAIAN} & \\
+Nama Mata Kuliah & Magang \\
+Kode Mata Kuliah & RTI257001 \quad \textbf{sks / Jam perminggu:} 20 SKS / 40 jam/minggu \quad \textbf{Semester:} 7 \\
+Dosen Pengampu & Tim Pengajar Program Studi D4 TI \\
+\end{tblr}
+\assessmentblock{Logbook Kegiatan Magang}{Portofolio dan Case Method}{SCPMK301-05701, SCPMK804-05703}{Mahasiswa mengisi logbook kegiatan harian selama magang yang mencatat aktivitas kerja, pencapaian, dan refleksi profesional secara berkala.}{Mengisi logbook harian, mendokumentasikan aktivitas dan hasil kerja, melakukan refleksi mingguan, dan mendapatkan validasi pembimbing lapangan.}{Logbook digital/fisik yang terisi lengkap, divalidasi pembimbing lapangan, dan laporan ringkas kemajuan berkala.}{Kelengkapan dan konsistensi pengisian logbook & 8 & Logbook terisi setiap hari kerja, mencakup aktivitas, waktu, hasil, dan refleksi; divalidasi pembimbing lapangan secara berkala. & Logbook terisi sebagian besar hari kerja dengan informasi yang cukup, tetapi beberapa entri tidak lengkap atau tidak tervalidasi. & Logbook banyak hari kosong, isian tidak informatif, atau tidak divalidasi pembimbing lapangan. \\ \\
+Kualitas refleksi dan dokumentasi aktivitas kerja & 7 & Refleksi menunjukkan pemahaman mendalam terhadap tugas industri, menghubungkan pengalaman dengan kompetensi akademis, dan mengidentifikasi pembelajaran. & Refleksi cukup informatif tetapi hubungan dengan kompetensi akademis atau identifikasi pembelajaran masih terbatas. & Refleksi bersifat deskriptif semata tanpa analisis atau koneksi dengan pembelajaran akademis. \\ \\
+Ketepatan waktu dan kemandirian selama magang & 5 & Semua target logbook dipenuhi tepat waktu, mahasiswa menunjukkan inisiatif tinggi dan kemandirian dalam bekerja. & Sebagian besar target dipenuhi tepat waktu dengan sedikit keterlambatan atau kebutuhan bimbingan tambahan. & Banyak target terlambat atau mahasiswa terlalu bergantung pada pembimbing untuk mengisi logbook. \\}
+
+\assessmentblock{Penilaian Pembimbing Lapangan}{Penilaian Industri}{SCPMK804-05703, SCPMK607-05704}{Penilaian dari pembimbing industri terhadap kinerja mahasiswa selama magang mencakup profesionalisme, penyelesaian tugas, dan penerapan kompetensi rekayasa perangkat lunak.}{Pembimbing lapangan mengobservasi kinerja harian, mengevaluasi hasil kerja, memberikan penilaian mid-term dan akhir menggunakan formulir penilaian standar.}{Formulir penilaian pembimbing lapangan mid-term dan akhir yang telah diisi dan ditandatangani.}{Profesionalisme, disiplin, dan etika kerja & 8 & Mahasiswa konsisten hadir tepat waktu, berpakaian profesional, berkomunikasi dengan santun, dan mematuhi aturan perusahaan tanpa pengingat. & Profesionalisme umumnya baik tetapi kadang ada keterlambatan, pelanggaran kecil aturan, atau komunikasi yang kurang tepat. & Sering terlambat, tidak mematuhi aturan perusahaan, atau menunjukkan perilaku tidak profesional berulang kali. \\ \\
+Kualitas dan penyelesaian tugas industri & 12 & Seluruh tugas yang diberikan diselesaikan tepat waktu dengan kualitas memuaskan atau melebihi ekspektasi pembimbing lapangan. & Sebagian besar tugas diselesaikan tepat waktu dengan kualitas yang memadai; beberapa memerlukan revisi. & Banyak tugas tidak selesai tepat waktu, kualitas di bawah standar, atau memerlukan koreksi besar. \\ \\
+Penerapan kompetensi rekayasa perangkat lunak & 10 & Mahasiswa secara nyata menerapkan kompetensi RPL (desain, implementasi, pengujian, atau dokumentasi) dalam tugas industri dan memberikan kontribusi teknis yang diapresiasi. & Kompetensi RPL diterapkan sebagian dalam tugas; kontribusi teknis ada tetapi masih terbatas pada tugas sederhana. & Kompetensi RPL tidak terlihat dalam pekerjaan, atau mahasiswa tidak berkontribusi secara teknis. \\}
+
+\assessmentblock{Laporan Magang}{Case Method dan penulisan ilmiah}{SCPMK301-05701, SCPMK303-05702}{Mahasiswa menyusun laporan magang yang komprehensif mencakup latar belakang perusahaan, deskripsi pekerjaan, analisis pengalaman, dan refleksi kompetensi yang diaplikasikan.}{Mengumpulkan data dan dokumentasi selama magang, menyusun laporan sesuai sistematika Polinema, bimbingan dengan pembimbing akademik, dan revisi berdasarkan masukan.}{Naskah laporan magang lengkap sesuai pedoman Polinema, dilengkapi lampiran pendukung (surat keterangan magang, logbook, dokumentasi).}{Kelengkapan struktur dan konten laporan & 7 & Laporan memuat semua bab yang dipersyaratkan (pendahuluan, profil perusahaan, pelaksanaan magang, penutup) dengan konten yang lengkap, akurat, dan relevan. & Struktur laporan lengkap tetapi beberapa bab memiliki konten yang kurang mendalam atau kurang akurat. & Struktur laporan tidak lengkap, bab penting hilang, atau konten tidak mencerminkan pengalaman magang yang sesungguhnya. \\ \\
+Kualitas analisis dan pembahasan pengalaman kerja & 8 & Analisis menghubungkan pengalaman industri dengan teori akademis secara kritis, mengidentifikasi kompetensi yang berkembang, dan memberikan insight berharga. & Analisis cukup baik tetapi koneksi teori-praktik atau kedalaman refleksi masih terbatas. & Laporan bersifat deskriptif tanpa analisis, atau tidak ada keterkaitan yang jelas antara pengalaman dan kompetensi akademis. \\ \\
+Tata tulis, referensi, dan penyajian & 5 & Bahasa baku, tata tulis sesuai pedoman, referensi terdokumentasi dengan benar, dan laporan tersaji rapi serta profesional. & Tata tulis umumnya baik tetapi ada kesalahan penulisan, format referensi yang tidak konsisten, atau penyajian yang kurang rapi. & Banyak kesalahan bahasa, format tidak sesuai pedoman, atau referensi tidak terdokumentasi. \\}
+
+\assessmentblock{Sidang Magang}{Presentasi dan defense}{SCPMK303-05702, SCPMK607-05704}{Mahasiswa mempresentasikan dan mempertahankan laporan magang di hadapan tim penguji (pembimbing akademik dan penguji internal), menunjukkan penguasaan atas pengalaman dan kompetensi industri yang diperoleh.}{Menyiapkan bahan presentasi, memaparkan ringkasan magang dan kompetensi yang dicapai, menjawab pertanyaan penguji secara analitis.}{Presentasi sidang (slide), naskah laporan akhir yang telah direvisi, dan berita acara sidang.}{Kualitas presentasi dan komunikasi lisan & 10 & Presentasi terstruktur, disampaikan dengan percaya diri dalam bahasa yang lugas, durasi terkontrol, dan materi mudah dipahami penguji. & Presentasi cukup terstruktur dan dapat dipahami, tetapi penyampaian kurang percaya diri atau durasi tidak terkontrol. & Presentasi tidak terstruktur, bahasa tidak profesional, atau materi sulit dipahami penguji. \\ \\
+Kemampuan menjawab pertanyaan penguji & 10 & Semua pertanyaan dijawab dengan tepat, didukung argumen logis dan bukti dari pengalaman lapangan, menunjukkan pemahaman mendalam. & Sebagian besar pertanyaan dijawab dengan cukup baik, tetapi beberapa jawaban kurang didukung bukti atau argumen. & Banyak pertanyaan tidak dapat dijawab, jawaban tidak relevan, atau tidak dapat mempertahankan konten laporan. \\ \\
+Keterkaitan kompetensi industri dengan akademis & 10 & Mahasiswa dapat menjelaskan secara eksplisit kompetensi RPL yang diterapkan di industri, menghubungkan dengan teori akademis, dan merumuskan nilai tambah pengalaman magang. & Keterkaitan kompetensi industri dan akademis dijelaskan tetapi masih umum atau kurang spesifik. & Tidak dapat menjelaskan keterkaitan antara pengalaman industri dan kompetensi akademis, atau pembahasan sangat dangkal. \\}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,3.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,row{1-3}={bg=headgray},rowsep=1.5pt,colsep=3pt}
+Jadwal Pelaksanaan: & Minggu 1--17 sesuai RPS. Setiap evaluasi memiliki RTM dan rubrik multi-kriteria. \\
+Lain-Lain Yang Diperlukan: & LMS, logbook digital, perangkat kerja industri, dan perangkat presentasi. \\
+Pustaka: & Mengacu pustaka utama dan pendukung pada bagian RPS. \\
+\end{tblr}
+\vspace{6mm}
+\begin{tblr}{width=\textwidth,colspec={X[c]X[c]X[c]},rowsep=1pt}
+Koordinator Kelompok Bidang Keahlian & Koordinator Tim Pengajar Mata Kuliah & Mengetahui, Koordinator Program Studi \\
+\vspace{12mm} & \vspace{12mm} & \vspace{12mm} \\
+Nama & Nama & Nama \\
+NIP & NIP & NIP \\
+\end{tblr}
+\end{document}
