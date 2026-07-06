@@ -8,10 +8,10 @@ all: rps
 rps:
 	@find subjects -name 'RTI*.tex' | while IFS= read -r tex; do \
 		name=$$(basename "$$tex" .tex); \
-		mkdir -p "build/$$name"; \
-		$(LATEX) $(LATEXFLAGS) -output-directory "build/$$name" "$$tex" || exit 1; \
-		rm -f "build/$$name"/*.aux "build/$$name"/*.log "build/$$name"/*.out "build/$$name"/*.toc; \
+		mkdir -p "RPS/$$name"; \
+		$(LATEX) $(LATEXFLAGS) -output-directory "RPS/$$name" "$$tex" || exit 1; \
+		rm -f "RPS/$$name"/*.aux "RPS/$$name"/*.log "RPS/$$name"/*.out "RPS/$$name"/*.toc; \
 	done
 
 clean:
-	@rm -rf build
+	@rm -rf RPS
