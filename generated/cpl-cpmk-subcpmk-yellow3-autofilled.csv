@@ -1,0 +1,1572 @@
+,Kode MK,MK,CPL,Kode BK,BK,Kode CPMK,CPMK,Kode SubCPMK,SubCPMK,MetodePembelajaran,Bentuk Pembelajaran,Bentuk Penilaian,Kriteria Penilaian,Materi Pembelajaran,SubCPMK Lama,Materi Pembelajaran Lama,Deskripsi
+"Dr. Widaningsih Condrowardhani, SH, MH.",MK001,Pancasila,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",SCPMK102-00101,"Mahasiswa mampu menganalisis nilai-nilai Pancasila, sejarah perjuangan bangsa, dan sistem ketatanegaraan Indonesia untuk menerapkannya sebagai dasar sikap dan tindakan sebagai warga negara yang bertakwa dan berintegritas.","Ceramah/Kuliah Pakar, Problem Based Learning/FGD","Ceramah interaktif, diskusi kelompok, studi kasus","Tes Tulis (UTS), Tes Tulis (UAS), Tugas, Unjuk Kerja (Presentasi)","Ketepatan pemahaman konsep, kedalaman analisis kasus kebangsaan, dan konsistensi sikap sesuai nilai Pancasila","Pancasila dalam tinjauan historis, kultural, yuridis, dan filosofis; sejarah perjuangan bangsa Indonesia; Pancasila sebagai sistem filsafat dan ideologi nasional; UUD RI 1945 dan amandemennya; Trias Politika dan kelembagaan negara; HAM dalam UUD RI 1945; tindak pidana korupsi; Pancasila sebagai paradigma pembangunan","Mahasiswa mampu menerapkan prinsip etika, nilai-nilai Pancasila, serta aspek keselamatan dan kesehatan kerja dalam pengembangan dan pemeliharaan sistem informasi.","1. Pendidikan pancasila dalam tinjauan historis, cultural, yuridis dan filosofis
+2. Pancasila dalam konteks sejarah perjuangan bangsa Indonesia
+3. Pancasila sebagai sistem filsafat
+4. UUD RI 1945
+5. Amandemen UUD RI 1945
+6. Trias Politika dalam Negara RI
+7. Kelembagaan Negara menurut UUD RI 1945
+8. Pancasila sebagai ideologi nasional
+9. Ideologi Lain yang berkembang di dunia
+10. Pancasila dan HAM
+11. Pelaksanaan HAM dalam UUD RI 1945
+12. Tindak Pidana Korupsi
+13. Pancasila sebagai Paradigma Pembangunan
+METODE PEMBELAJARAN:
+Ceramah/Kuliah Pakar,
+2. Problem Based Learning/FGD
+3. Project Based Learning
+4. Self-Learning (V-Class)
+5. Diskusi Kelompok
+6. Metode Case
+
+","Mampu  memahami sejarah, landasan, serta filosofi & kedudukan pancasila sehingga dijadikan sebagai dasar Negara Republik Indonesia"
+"Ariadi Retno Ririd, S.Kom., M.Kom.
+ 
+ 	
+Rudy Ariyanto, ST., M.Cs.",MK002,Konsep Teknologi Informasi,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan Ilmu Komputer/Informatika dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder",BK15,Computing Systems Fundamentals,CPMK208,"Mampu menganalisis kebutuhan komputasi dari solusi aplikasi multi-platform dan memilih arsitektur computing system yang sesuai dengan mempertimbangkan interaksi antara hardware, sistem operasi, dan aplikasi",SCPMK208-00201,"Mahasiswa mampu menganalisis kebutuhan komputasi suatu solusi teknologi informasi dengan mempertimbangkan konsep sistem komputer, interaksi hardware, sistem operasi,  dan aplikasi, serta jaringan komputer dan internet untuk menentukan arsitektur sistem yang sesuai.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah interaktif, diskusi studi kasus","Quiz, Tes Tulis (UTS), Tes Tulis (UAS), Tugas",Ketepatan analisis kebutuhan komputasi dan kesesuaian pemilihan arsitektur sistem terhadap studi kasus,"Konsep sistem komputer, representasi data, aljabar Boolean, flowchart, serta interaksi hardware-OS-aplikasi dalam solusi teknologi informasi",Mahasiswa mampu menggunakan konsep teknologi informasi untuk menyelesaikan masalah,"Konsep Teknologi
+1. Inovasi Teknologi
+2. Perkembangan Iptek
+3. Etika Rekayasa
+4. Perkembangan ICT
+5. Sistem Komputer
+6. Konsep Sistem Komputer
+7. Representasi Data
+8. Aljabar Boolean
+9. Flowchart
+10. Jaringan Komputer dan Internet
+11. Aplikasi TI di Berbagai Bidang Sertifikasi Bidang TI.","Dalam mata kuliah ini, akan dibahas tentang konsep teknologi, Inovasi teknologi, Perkembangan Iptek, Etika Rekayasa, Perkembangan ICT, Sistem Komputer, Konsep Sistem Komputer, Representasi Data, Aljabar Boolean, Flowchart, Jaringan Komputer dan Internet,Aplikasi TI di Berbagai Bidang, Sertifikasi Bidang TI."
+,,,CPL05,BK16,Architecture and Organization,CPMK502,"Mampu mengidentifikasi, menganalisis, dan menerapkan prinsip serta teknik keamanan untuk menangani isu-isu kerentanan pada sistem operasi, jaringan, dan lingkungan cloud.",SCPMK502-00201,Mahasiswa mampu menjelaskan dan memanfaatkan konsep arsitektur sistem komputasi serta organisasi perangkat keras dan perangkat lunak dalam memilih solusi teknologi informasi yang tepat untuk kebutuhan infrastruktur digital.,Contextual Instruction (CI),"Ceramah, diskusi kasus keamanan sistem","Quiz, Tes Tulis (UTS)",Ketepatan identifikasi arsitektur sistem komputasi dan organisasi perangkat keras/lunak yang sesuai kebutuhan,"Arsitektur sistem komputasi, organisasi perangkat keras dan perangkat lunak, dasar infrastruktur digital",,,
+,,,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,BK16,Architecture and Organization,CPMK901,Mahasiswa mampu menjelaskan dan menganalisis cara kerja sistem komputer beserta komponen utamanya.,SCPMK901-00201,"Mahasiswa mampu menjelaskan dan menganalisis cara kerja sistem komputer secara konseptual, mencakup komponen utama sistem, representasi data, aljabar Boolean, serta alur pemrosesan informasi menggunakan flowchart.",Contextual Instruction (CI),"Ceramah, diskusi terstruktur","Quiz, Tes Tulis (UTS)",Ketepatan menjelaskan komponen sistem komputer dan alur pemrosesan informasi,"Cara kerja sistem komputer, komponen utama sistem, representasi data, aljabar Boolean, dan flowchart pemrosesan informasi",,,
+"Vivi Nur Wijayaningrum, S.Kom, M.Kom
+ 
+ 	
+Rokhimatul Wakhidah, S.Pd., M.T.",MK003,Critical thinking dan problem solving,"(CPL04)
+Menyusun deskripsi saintifik hasil kajian implikasi pengembangan atau implementasi ilmu pengetahuan teknologi dalam bentuk skripsi atau laporan tugas akhir atau artikel
+ilmiah.",BK20,Computational Science,CPMK401,Mahasiswa mampu menganalisis permasalahan kompleks dan menyusun solusi rasional berbasis data dalam bentuk deskripsi ilmiah yang terstruktur.,SCPMK401-003001,"Mahasiswa mampu menganalisis argumen dan permasalahan secara kritis melalui identifikasi fakta, klaim, bias, kesalahan penalaran, serta penerapan berbagai bentuk penalaran logis dan statistik.",Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah interaktif, Diskusi studi kasus","Quiz, Tes Tulis (UTS)",Ketepatan dalam menyelesaikan soal yang diberikan,"1. Konsep dan karakteristik berpikir kritis dan pemecahan masalah
+2. Analisis argumen dan penalaran logis
+3. Identifikasi fakta, klaim, bias, dan kesalahan penalaran
+4. Penalaran logis, statistik, dan inferensial dalam analisis masalah","2.2.1.1 SUBCPMK1 
+Mahasiswa mampu mengidentifikasi, menganalisis, dan mengevaluasi argumen dalam berbagai konteks diskusi atau materi tertulis, dengan membedakan antara fakta dan opini serta mengenali bias dan kesalahan logika yang umum.
+2.2.1.2 SUBCPMK2 
+Mahasiswa mampu menerapkan berbagai teknik dan alat pemecahan masalah, termasuk pemikiran lateral, brainstorming, dan analisis root cause, untuk menemukan solusi inovatif dan efektif terhadap masalah yang kompleks
+2.2.1.3 SUBCPMK3 
+Mahasiswa mampu mengembangkan solusi yang logis dan berdasarkan bukti untuk masalah yang diberikan, dan secara efektif membela solusi tersebut melalui argumentasi yang kohesif dan berbasis data.","1. Berpikir dan Menalar
+2. Pondasi Berpikir Kritis
+3. Kemampuan Dasar Pemecahan Masalah
+4. Applied Critical Thinking
+5. Kemampuan Pemecahan Masalah Tingkat Lanjut
+6. Teknik-teknik Lanjutan untuk Pemecahan Masalah
+7. Penalaran Kritis
+","Pada matakuliah ini mahasiswa akan belajar mengenai konsep berpikir kritis dan bagaimana penerapannya dalam menanggapi informasi dalam kehidupan sehari-hari. Selain itu pada mata kuliah ini akan diajarkan mengenai konsep dan teknik-teknik dalam menyelesaikan kasus/permasalahan baik dalam lingkup ujian/tes, maupun pada masalah-masalah yang dijumpai dalam kehidupan sehari-hari.
+"
+,,,,,,,,SCPMK401-003002,"Mahasiswa mampu menyusun dan mengevaluasi solusi permasalahan secara ilmiah dengan mengintegrasikan data, argumen logis, dan kreativitas terstruktur dalam bentuk proposal dan presentasi.",Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Diskusi kelompok, Presentasi","Unjuk Kerja (Presentasi), Partisipasi","Kejelasan struktur penyajian solusi, serta kualitas argumentasi dan keterkaitan dengan data
+","1. Identifikasi dan perumusan masalah
+2. Strategi dan teknik pemecahan masalah terstruktur
+3. Sintesis data dan argumen dalam penyusunan solusi ilmiah
+4. Evaluasi, validasi, dan penyempurnaan solusi
+5. Penyusunan proposal dan presentasi solusi",,,
+"Prof. Dr. Eng. Cahya Rahmad, S.T., M.Kom.
+Erfan Rohadi, ST., M. Eng., Ph. D",MK004,Matematika Dasar,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK20
+BK21","Computational Science
+Discrete Structures",CPMK902,"Mahasiswa mampu menguasai prinsip matematika, ilmu alam dan struktur diskrit serta menerapkan pendekatan komputasional sebagai dasar analisis terhadap permasalahan.",SCPMK902-00401,"- Mampu menjelaskan dan memodelkan konsep dasar matematika diskrit (logika, himpunan, graf) untuk representasi data.
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah interaktif, Diskusi studi kasus","Quiz, Tes Tulis (UAS), Tes Tulis (UTS)","Pemahaman konsep, ketepatan perhitungan, kemampuan penalaran dan pemecahan masalah, penerapan matematika dasar secara kontekstual, serta kerapian dan ketelitian penyelesaian.","1. Jenis Bilangan, Faktor dan Bilangan Prima, Pecahan, Rasio, dan Presentase
+2. Bilangan Desimal
+3. Pangkat
+4. Sistem Bilangan
+5. Logika
+6. Pengenalan Aljabar
+7. Penyelesaian Persamaan Linier 
+dan Polinomial
+8. Grafik
+9. Kombinatorial",,"Proposisi dan Logika, Teori Bilangan, Teori Himpunan, Relasi dan Fungsi, Induksi dan Rekursi, Aljabar Boolean, Teori Graf dan Pohon.","Matematika Diskrit adalah cabang ilmu Aljabar yang mempelajari perhitungan yang khusus menggunakan bilangan diskrit (tidak kontinyu), dan menyarankan cara-cara paling efisien dalam menemukan solusinya. Dalam hal ini, sehubungan dengan konteks IT, bilangan biner mendapatkan perhatian utama. "
+,,,,,,,,SCPMK902-00402,"- Mampu menerapkan algoritma komputasional berbasis struktur diskrit dalam menyelesaikan perhitungan sistematis.
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah interaktif, Diskusi studi kasus","Quiz, Tes Tulis (UTS), Tes Tulis (UAS)","Ketepatan penerapan algoritma komputasional, kemampuan penalaran dan pemecahan masalah, kerapian dan ketelitian penyelesaian","Sistem bilangan, logika, aljabar, dan penyelesaian persamaan linier sebagai dasar algoritma komputasional",,,
+,,,,,,,,SCPMK902-00403,- Mampu menganalisis masalah nyata menggunakan pendekatan komputasi untuk menghasilkan solusi yang optimal.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah interaktif, Diskusi studi kasus","Quiz, Tes Tulis (UAS)",Ketepatan analisis masalah nyata dan optimalitas solusi komputasional yang dihasilkan,"Grafik, kombinatorial, dan penerapan pendekatan komputasional pada permasalahan nyata",,,
+"Atiqah Nurul Asri, S.Pd., M.Pd
+",MK005,Bahasa Inggris 1,"(CPL03)
+Mampu mengelola tim, manajemen diri, berkomunikasi secara lisan maupun tertulis dengan baik dan mampu melakukan presentasi.",BK30,Pengembangan Diri,CPMK303,"Mampu mengembangkan diri secara berkelanjutan melalui komunikasi lisan dan tertulis yang efektif dalam konteks akademik dan profesional, presentasi diri dan ide secara percaya diri, serta pengelolaan karir dan kinerja di lingkungan kerja nyata.",SCPMK30300501,"Mampu menyampaikan opini, argumentasi, pertanyaan, dan jawaban menggunakan bahasa Inggris dalam kegiatan diskusi atau presentasi akademik.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Diskusi kelompok, presentasi lisan","Tes Tulis (UTS), Tes Tulis (UAS), Quiz, Observasi (Praktik/ Tugas), Partisipasi","Ketepatan penyampaian opini dan argumentasi, kelancaran dan tata bahasa dalam presentasi akademik","Computer Applications, Computer Architecture, Multimedia, Computer Network - kosakata dan tata bahasa (present simple, imperatives, comparatives) dalam konteks Teknik Informatika","3.2.1.1 SUBCPMK1
+Mahasiswa mampu menerapkan pengetahuan tentang teknik berkomunikasi lisan dan tulisan menggunakan bahasa Inggris dalam konteks Teknik Informatika.
+
+3.2.1.2 SUBCPMK2
+Mahasiswa mampu berkomunikasi dengan menggunakan bahasa Inggris secara lisan dan tulisan dalam konteks Teknik Informatika.
+
+","1. Topic 1: Computer Applications
+1.1. Kinds of Computer Applications and Their Uses
+1.2. Grammatical Functions: Present Simple, Imperatives, and Sequencers
+1.3. Software Installation Process
+2. Topic 2: Computer Architecture
+2.1. Types of Computers
+2.2. Computer Hardware and Its Functions
+2.3. Grammatical Functions: Describing the Functions of Computer Hardware
+2.4. Computer Ads
+2.5. Grammatical Functions: Adjectives, Comparatives, and Superlatives
+3. Topic 3: Multimedia
+3.1. Multimedia Hardware
+3.2. Toolbox of a Graphic Program
+3.3. Grammatical Functions: Passive Sentences and Time Clauses
+4. Topic 4: Computer Network
+4.1. Network and Network Hardware
+4.2. Network Topology
+4.3. Grammatical Functions: If-Clause 
+5. Topic 5: Website
+5.1. Website Features and Their Functions
+5.2. Types of Websites and Their Purposes
+5.3. Website Analytics and Data Visualization
+5.4. Grammatical Functions Used to Describe Data on the Charts
+5.5. Characteristics of a Good Website
+6. Topic 6: Careers in IT
+6.1. IT Jobs and Their Responsibilities
+6.2. Grammatical Functions: Modals for Expressing Skills and Qualifications
+7. Topic 7: IT Support Staff
+7.1. Computer Problems and Their Solutions
+7.2. Grammatical Functions: Modals Used to Analyze Problems and Their Possible Solutions
+7.3. Service Report, Help Desk Ticket, and Email
+8. Topic 8: Workstation Health and Safety
+8.1. Work Health and Safety Problems
+8.2. Grammatical Functions: Expressions Used for Giving and Declaring Prohibition        ","Nama mata kuliah ini adalah Bahasa Inggris 1 diajarkan untuk mahasiswa Program Studi Teknik Informatika yang difokuskan pada pelatihan kemampuan dan kecakapan mereka dalam Listening, Speaking, Reading, dan Writing secara terintegrasi dalam konteks Teknik Informatika. Karena itu, topik-topik pada materi ini disesuaikan dengan konteks bidang Teknik Informatika yang dapat diterapkan dalam kehidupan sehari-hari dan di dunia kerja kelak. Aktivitas yang dilakukan selama proses belajar-mengajar meliputi ceramah, diskusi, role play, presentasi, dan project individu maupun kelompok. Mata kuliah ini juga mendukung penerapan Case Method dan Project Based Learning yang direncanakan tim kurikulum setiap semester-nya.
+
+"
+,,,,,,,,SCPMK30300502,Mahasiswa mampu berkomunikasi secara mandiri dengan menggunakan bahasa Inggris secara lisan dan tulisan dalam konteks Teknik Informatika.,Guided Practice (Latihan Terbimbing),"Ceramah dan tanya jawab
+Small group discussion","Quiz, Unjuk Kerja (Presentasi), Tes Tulis (UTS), Tes Tulis (UAS), Tes Lisan (Tugas Kelompok), Partisipasi","Ketepatan komunikasi lisan dan tulisan secara mandiri, kejelasan struktur kalimat dan kosakata teknis","Website, Careers in IT, IT Support Staff, Workstation Health and Safety - grammatical functions (if-clause, modals, passive sentences) dalam konteks Teknik Informatika",,,
+"Imam Fahrur Rozi, ST., MT.
+",MK006,Dasar Pemrograman,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK13
+BK14","Programming Languages
+Programming Fundamentals ",CPMK903,"Mahasiswa mampu menjelaskan prinsip logika komputasi, teknik dasar pemrograman dan algoritma untuk menganalisis dan menyelesaikan permasalahan.",SCPMK903-00601,"- Mahasiswa mampu menjelaskan konsep algoritma, variabel, konstanta, tipe data, serta mengevaluasi ekspresi logika/aritmatika dalam memecahkan masalah sederhana.
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Ceramah materi dengan pendalaman berupa studi kasus,"Quiz, Tes Tulis (UTS), Tes Tulis (UAS)",Ketepatan dalam menyelesaikan soal studi kasus yang diberikan di tiap pertemuan,"Konsep Algoritma, Bahasa Pemrograman, Tipe Data, Variabel, Konstanta, Nilai, Ekspresi, Input-Output, Sequence, Analisa Kasus, Pemilihan, Perulangan, Array, Fungsi","SUB-CPMK 1
+Mahasiswa mengenal konsep dasar algoritma serta mampu menganalisis permasalahan sederhana ke dalam bentuk algoritma [C2, A3]
+SUB-CPMK 2
+Mahasiswa memahami tentang pentingnya version dan cara version control bekerja.
+Mahasiswa memahami prinsip-prinsip dasar Kanban (visualisasi alur kerja, pembatasan pekerjaan yang sedang berlangsung, dan peningkatan berkelanjutan).
+[C2, A3] 
+SUB-CPMK 2
+Mahasiswa memahami dan mampu menjelaskan tentang Tipe Data, Variabe, Input-output, Sequence, Operator (Penugasan Aritmatika, Penugasan Gabungan, Increment, Decrement, Relasional, Logika, Kondisional, Bitwise, Casting) dan mampu menerapkannya dalam penulisan algoritma [C4, A3] 
+SUB-CPMK 3
+Mahasiswa mampu menjelaskan tentang konsep pemilihan sederhana dan bersarang, serta mampu menuliskan algoritma pemilihan untuk menyelesaikan studi kasus dengan menggunakan flowchart 
+SUB-CPMK 4
+Mahasiswa mampu memahami algoritma perulangan sederhana dan perulangan bersarang, serta mampu menggambarkan permasalahan studi kasus dengan menggunakan flowchart [C4, A3, P2] 
+SUB-CPMK 5
+Mahasiswa mampu memahami konsep array 1 dimensi dan 2 dimensi, serta mampu menyelesaikan studi kasus dengan penggunaan Array 1 dimensi dan 2 Dimensi 
+SUB-CPMK 6
+Mahasiswa mampu menjelaskan konsep fungsi iteratif dan rekursif, membuat / mendeklarasikan fungsi, pemanggilan fungsi serta mampu menerapkannya dalam menyusun algoritma penyelesaian masalah [C4, A3,P2] ","Konsep Algoritma, Bahasa Pemrograman, Tipe Data, Variabel, Konstanta, Nilai, Ekspresi, Input-Output, Sequence, Analisa Kasus, Pemilihan, Perulangan, Array, Fungsi",Dasar Pemrograman memberikan pengetahuan dan pemahaman konsep dasar algoritma dan dasar pemrograman sehingga dalam mata kuliah ini mahasiswa memiliki dasar untuk menyelesaikan permasalahan-permasalahan logika dengan menggunakan flowchart dan pseudocode.
+,,,,,,,,SCPMK903-00602,- Mahasiswa mampu merancang alur logika penyelesaian masalah menggunakan instrumen Flowchart dan Pseudocode dengan menerapkan prinsip urutan (sequence).,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Ceramah materi dengan pendalaman berupa studi kasus,"Quiz, Tes Tulis (UTS)",Ketepatan penyusunan flowchart dan pseudocode sesuai prinsip urutan (sequence),"Flowchart, pseudocode, dan prinsip urutan (sequence) dalam penyusunan alur logika program",,,
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna","BK13
+BK14","Programming Languages
+Programming Fundamentals ",CPMK704,Mampu menganalisis kebutuhan pemecahan masalah dan mengembangkan program menggunakan berbagai bahasa dan paradigma pemrograman secara tepat guna,SCPMK704-00601,"- Mahasiswa mampu menganalisis kebutuhan logika dan mengimplementasikannya menggunakan struktur kontrol Pemilihan (Selection) serta Perulangan (Looping) dalam bahasa pemrograman untuk menyelesaikan masalah komputasi.
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Ceramah materi dengan pendalaman berupa diskusi dan studi kasus,"Quiz, Tes Tulis (UTS), Tes Tulis (UAS)",Ketepatan dalam menyelesaikan soal studi kasus yang diberikan di tiap pertemuan,"Konsep Algoritma, Bahasa Pemrograman, Tipe Data, Variabel, Konstanta, Nilai, Ekspresi, Input-Output, Sequence, Analisa Kasus, Pemilihan, Perulangan, Array, Fungsi",,,
+,,,,,,,,SCPMK704-00602,- Mahasiswa mampu mengembangkan program yang efisien dan modular dengan menerapkan struktur data Array serta pengorganisasian kode menggunakan Fungsi.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Ceramah materi dengan pendalaman berupa diskusi dan studi kasus,"Quiz, Tes Tulis (UAS)",Ketepatan implementasi array dan fungsi dalam menghasilkan program yang efisien dan modular,Array dan Fungsi sebagai dasar pemrograman modular dan efisien,,,
+"Imam Fahrur Rozi, ST., MT.",MK007,Praktikum Dasar Pemrograman,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK13
+BK14","Programming Languages
+Programming Fundamentals ",CPMK903,"Mahasiswa mampu menjelaskan prinsip logika komputasi, teknik dasar pemrograman dan algoritma untuk menganalisis dan menyelesaikan permasalahan.",SCPMK903-00701,"- Mahasiswa mampu mengoperasikan perangkat lunak pemrograman (IDE) dan menyusun kode program sederhana menggunakan tipe data, variabel, dan ekspresi yang tepat.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum dan studi kasus,"Observasi (Praktik/ Tugas), Tes Lisan (Tugas Kelompok), Partisipasi","Ketepatan dalam menyelesaikan tahapan praktikum, soal yang diberikan di setiap jobsheet dan studi kasus","Konsep Algoritma, Bahasa Pemrograman, Tipe Data, Variabel, Konstanta, Nilai, Ekspresi, Input-Output, Sequence, Analisa Kasus, Pemilihan, Perulangan, Array, Fungsi",,,
+,,,,,,,,SCPMK903-00702,"
+- Mahasiswa mampu mengimplementasikan rancangan flowchart dan pseudocode ke dalam sintaks bahasa pemrograman menggunakan prinsip urutan (sequence).",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum dan studi kasus,"Observasi (Praktik/ Tugas), Partisipasi",Ketepatan implementasi flowchart dan pseudocode ke dalam sintaks program sesuai prinsip urutan,Implementasi flowchart dan pseudocode ke dalam sintaks bahasa pemrograman (sequence),,,
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna","BK13
+BK14","Programming Languages
+Programming Fundamentals ",CPMK704,Mampu menganalisis kebutuhan pemecahan masalah dan mengembangkan program menggunakan berbagai bahasa dan paradigma pemrograman secara tepat guna,SCPMK704-00701,- Mahasiswa mampu membangun aplikasi sederhana yang menerapkan struktur kontrol pemilihan dan perulangan untuk menyelesaikan berbagai kasus logika.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum dan studi kasus,"Observasi (Praktik/ Tugas), Tes Lisan (Tugas Kelompok)",Ketepatan penerapan struktur kontrol pemilihan dan perulangan dalam aplikasi sederhana yang dibangun,Struktur kontrol pemilihan (selection) dan perulangan (looping) dalam pembangunan aplikasi sederhana,,,
+,,,,,,,,SCPMK704-00702,- Mahasiswa mampu menciptakan program yang modular menggunakan fungsi dan mengelola sekumpulan data melalui array untuk menghasilkan solusi yang efisien.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum dan studi kasus,"Observasi (Praktik/ Tugas), Tes Lisan (Tugas Kelompok), Partisipasi","Ketepatan dalam menyelesaikan tahapan praktikum, soal yang diberikan di setiap jobsheet dan studi kasus","Konsep Algoritma, Bahasa Pemrograman, Tipe Data, Variabel, Konstanta, Nilai, Ekspresi, Input-Output, Sequence, Analisa Kasus, Pemilihan, Perulangan, Array, Fungsi",,,
+"Titis Octary Satrio, S.ST., M.MT.",MK008,Keselamatan dan Kesehatan Kerja,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK01,"Social Issues and Professional Practice
+",CPMK101,"Mampu menunjukkan profesionalisme melalui penerapan etika profesi TI, keselamatan kerja, kewirausahaan bertanggung jawab, rekayasa perangkat lunak ramah lingkungan, dan disiplin dalam penelitian maupun penerapan aplikasi teknologi",SCPMK101-00801,"Mahasiswa mampu mengimplementasikan teori, konsep, dan prinsip ilmu keselamatan dan kesehatan kerja dalam rangka menerapkan derajat kesehatan pada para pekerja.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi Kelompok",Tes Tulis (UTS),Ketepatan dalam menyelesaikan soal studi kasus yang diberikan di tiap pertemuan,"Definisi, Sejarah, Tujuan dan Arti Lambang K3",,"Keselamatan kerja. Mahasiswa mengerti lingkup kesehatan; lingkungan kerja; keselamatan kerja; asuransi kerja dan organisasi
+kerja yang menjadi bagian dari sebuah sistem tenaga kerja.
+1. Konsep K3; Sejarah kesehatan dan keselamatan kerja, Pengertian K3, Tujaun K3
+2. Undang-undang K3; undang-undang yang melandasi K3, Peraturan Pemerintahan
+3. Kesehatan masyarakat; dasar peraturan, Pemeriksaan kesehatan sebelum kerja, Pemeriksaan setelah kerja
+4. Lingkungan kerja; Lingkungan kerja fisik dan non fisik
+5. Keselamatan kerja; faktor yang berpengaruh, sumber bahaya, pencegahan kecelakaan kerja
+6. Alat-alat keselamatan kerja
+7. Organisasi k3; maksud dan tujuan organisasi dan tujuan organisasi K3
+8. Asuransi; prinsip dasar, jenis-jenis dan klaim asuransi
+9. Penerapan protokol kesehatan di pendidikan dan industri era new normal
+10. Implementasi k3 untuk menciptakan inovasi revolusi industri 4.0","Mampu mengimplementasikan teori, konsep, dan prinsip ilmu keselamatan dan kesehatan kerja dalam rangka meningkatkan derajat
+kesehatan pada para pekerja.
+Mahasiswa mengetahui perundang-undangan yang menjadi dasar semua kebijakan yang berhubungan dengan Kesehatan dan"
+,,,,,,,,SCPMK101-00802,Mahasiswa mengetahui perundang-undangan yang menjadi dasar semua kebijakan yang berhubungan dengan keselamatan dan kesehatan kerja,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi Kelompok",Tes Tulis (UAS),Ketepatan dalam menyelesaikan soal studi kasus yang diberikan di tiap pertemuan,"Landasan Hukum, Audit K3",,,
+,,,,,,,,SCPMK101-00803,"Mahasiswa mengerti lingkup kesehatan, lingkungan, keselamatan, asuransi dan organisasi kerja yang menjadi bagian dari sebuah sistem tenaga kerja",Bermain Peran dan Simulasi (Role-Play And Simulation),"Ceramah, Diskusi Kelompok, Presentasi",Unjuk Kerja (Presentasi),Ketepatan dalam menyelesaikan soal studi kasus yang diberikan di tiap pertemuan,"Lingkungan Kerja Fisik/Non Fisik, Alat Pelindung Diri, dan Sistem Informasi K3",,,
+"Elok Nur Hamdana,ST.,MT",MK009,Fisika,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK20
+BK21","Computational Science
+Discrete Structures",CPMK902,"Mahasiswa mampu menguasai prinsip matematika, ilmu alam dan struktur diskrit serta menerapkan pendekatan komputasional sebagai dasar analisis terhadap permasalahan.",SCPMK902-00601,"Mahasiswa mampu menerapkan konsep diskrit, logika, himpunan, dan fungsi matematika dasar dalam sistem informasi.
+Mahasiswa mampu mengidentifikasi, menganalisis fakta dan opini, serta menyusun solusi sistematis terhadap masalah teknis.",Contextual Instruction (CI),"Ceramah, Diskusi studi kasus, Latihan analisis","Tes Tulis (UTS), Tes Tulis (UAS), Quiz",Ketepatan dalam menyelesaikan soal studi kasus yang diberikan di tiap pertemuan,"1. Hakikat dan Ruang Lingkup Fisika
+2. Pengantar Ilmu Sains & Metode Ilmiah
+3. Pengukuran dan Satuan
+4. Kinematika Gerak Lurus dan 2 Dimensi
+5. Dinamika Partikel
+6. Usaha dan Energi
+7. Impuls dan momentum
+8. Medan listrik dan gaya Coulomb
+9. Potensial listrik
+10. Kapasitansi dan energi dalam medan listrik
+11. Arus listrik dan analisis rangkaian listrik DC","2.1.1.1 SUBCPMK1
+Mahasiswa mampu menerapkan konsep diskrit, logika, himpunan, dan fungsi matematika dasar dalam sistem informasi.
+2.2.1.1 SUBCPMK1
+Mahasiswa mampu mengidentifikasi, menganalisis fakta dan opini, serta menyusun solusi sistematis terhadap masalah teknis.","1. Hakikat dan Ruang Lingkup Fisika
+2. Pengantar Ilmu Sains & Metode Ilmiah
+3. Pengukuran dan Satuan
+4. Kinematika Gerak Lurus dan 2 Dimensi
+5. Dinamika Partikel
+6. Usaha dan Energi
+7. Impuls dan momentum
+8. Medan listrik dan gaya Coulomb
+9. Potensial listrik
+10. Kapasitansi dan energi dalam medan listrik
+11. Arus listrik dan analisis rangkaian listrik DC","Mata kuliah ini memberikan pemahaman dasar mengenai konsep-konsep fisika klasik yang relevan dengan bidang teknik informatika. Topik meliputi mekanika, dinamika, energi, dan gelombang, dengan integrasi kasus-kasus dalam sistem komputer, Internet of Things, dan pemrosesan sinyal digital.
+"
+"Astrifidha Rahma Amalia,S.Pd., M.Pd.",MK010,Agama,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",SCPMK102-01001,"Mahasiswa mampu menganalisis hakikat penciptaan manusia melalui pemahaman konsep agama dan Tauhid untuk membentuk karakter yang jujur, disiplin, dan bertakwa dalam interaksi akademik maupun sosial",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Presentasi/ Diskusi Tanya Jawab Studi Kasus, Ceramah","Unjuk Kerja (Presentasi), Quiz, Tes Tulis (UTS)","Ketepatan analisis konsep Tauhid dan konsistensi penerapan nilai kejujuran, disiplin, dan takwa dalam interaksi akademik/sosial","1. Manusia Dan Agama
+2. Konsep Tauhid
+3. Konsep Manusia
+4. Ekologi
+5. Akhlak
+6. Iptek
+7. Etos Kerja
+8. Ekonomi Syariah
+9. Masyarakat Islam
+
+",,"1. PENDAHULUAN:
+•  Visi Pendidikan Agama
+•  Deskripsi Mata Kuliah 
+•  Pendekatan Kuliah
+• Tata Tertib Perkuliahan 
+• Sistem Penilaian
+2. MANUSIA DAN AGAMA
+•Konsep Agama dan Islam
+•Agama Kebutuhan Manusia
+•Dimensi Ajaran Islam
+•Metode Memahami Islam
+•Misi Agama Islam
+•Masa Depan Agama
+3. KONSEP TAUHID 
+•Tauhid Kebutuhan Manusia
+•Problem Manusia: Syirik        
+•Dampak Taukhid
+4. KONSEP MANUSIA 
+•Manusia Dalam pandangan Islam        
+•Fungsi dan Tugas hidup manusia
+•Hakikat Kehidupan Dunia dan Akherat
+5.WAWASAN EKOLOGI DALAM ISLAM
+•Hakekat Alam Semesta Dalam Islam
+•Arti Dan Dan Sifat Sunnatullah
+•Manfaat Alam Semesta
+•Islam dan wawasan lingkungan
+6. AKTUALISASI AKHLAK 
+•Makna Perjuangan Rasul¬
+•Aktualisasi Misi Rasul
+•Aplikasi Sifat-Sifat Rasul – dalam ilmu teknologi
+•Ibadah dan pembentukan akhlak
+7. IPTEKS
+•Hakikat Ilmu Dalam Islam
+•Paradigma Iptek
+•Sumber Ilmu Pengetahuan
+•Aplikasi Pola Dzikir Dan Pikir
+8.ETOS KERJA
+•Etos Kerja Dalam, Islam 
+•Motifasi Kerja Dalam Islam
+•Aktualisasi Jihad Dalam Pembangunan
+9.  EKONOMI
+•Pengertian, Prinsip dan Etika Ekonomi Syariah
+•Pemberdayaan umat melalui Ekonomi Syari’ah
+•Kapita Selecta: Manajemen Zakat, Waqaf, infak dan sedekah
+10. MASYARAKAT ISLAM
+•Fungsi Keluarga Dalam Islam
+•Proses Pembentukan Keluarga Sakinah (Nikah)
+•Masjid sebagai pusat peradaban
+
+","Mata kuliah ini merupakan mata kuliah wajib yang termasuk dalam mata kuliah umum (MKU) di Perguruan Tinggi. Dimana mata kuliah tersebut terdiri dari beberapa kajian sebagai berikut: Pendahuluan, Konsep Manusia dan Agama, Konsep Tauhid, Manusia dalam Islam, Wawasan ekologi dalam Islam, Aktualisasi Akhlak, IPTEKS dalam Islam, Pandangan Islam tentang Etos Kerja, Konsep Ekonomi Syariah, dan Pembentukan Masyarakat Islam melalui pengenalan hakikat keluarga dan fungsi masjid serta Islam dan Tantangan Radikalisme. Kuliah diselenggarakan secara luring/ offline dan daring/ online sesuai dengan instruksi dari Perguruan Tinggi terkait. 
+Mahasiswa diajak untuk memahami ajaran-ajaran Islam yang sesuai dengan dua pedoman utama yakni Al Qur’an dan Hadis yang dihubungkan dengan kehidupan nyata di era sekarang. Berbagai permasalahan dalam hidup yang dihadapi oleh setiap manusia menjadikannya harus memiliki bekal dalam menghadapinya. PAI diharapkan mampu memberikan pegangan dalam membentuk karakter yang baik. hal ini menyentuh kehidupannya secara individu maupun sosialnya.
+"
+,,,,,,,,SCPMK102-01002,Mahasiswa mampu mengevaluasi persoalan lingkungan dan perkembangan ilmu pengetahuan melalui aktualisasi akhlak Islam sebagai bentuk tanggung jawab sosial dan pengambilan keputusan etis di lingkungan kampus,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Presentasi/ Diskusi Tanya Jawab Studi Kasus, Ceramah, Role Play","Quiz, Tes Tulis (UAS)",Ketepatan evaluasi isu lingkungan dan iptek serta konsistensi aktualisasi akhlak dalam pengambilan keputusan etis,"Ekologi, Akhlak, dan Iptek dalam perspektif Islam sebagai dasar tanggung jawab sosial",,,
+,,,,,,,,SCPMK102-01003,Mahasiswa mampu memproyeksikan strategi adaptasi karir yang profesional dengan mengintegrasikan etos kerja dan prinsip ekonomi syariah di tengah dinamika masyarakat Islam sebagai wujud pembelajaran sepanjang hayat.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Presentasi/ Diskusi Tanya Jawab Studi Kasus, Ceramah","Unjuk Kerja (Presentasi), Tes Tulis (UAS)",Ketepatan integrasi etos kerja dan prinsip ekonomi syariah dalam strategi adaptasi karir profesional,"Etos Kerja, Ekonomi Syariah, dan Masyarakat Islam sebagai landasan adaptasi karir profesional",,,
+"Muhammad Afif Hendrawan., S.Kom., M.T.",MK011,Aljabar Linier,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK20
+BK21","Computational Science
+Discrete Structures",CPMK902,"Mahasiswa mampu menguasai prinsip matematika, ilmu alam dan struktur diskrit serta menerapkan pendekatan komputasional sebagai dasar analisis terhadap permasalahan.",SCPMK902-01101,"Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Cerama, Diskusi Studi Kasus, Latihan Penyesaian Permasalahan","- Tugas (25%)
+- Kuis 1 (100%)
+- UTS (40%)
+- UAS (20%)","- Dapat menyusun augmented matriks dari SPL
+- Dapat melakukan proses eliminasi dengan menggunakan REF dan RREF
+- Dapat menyelesaikan permasalahan SPL dengan metode Gauss/Gauss-Jordan","- Pengantar dan Permodelan Sistem Persamaan Linier
+- Operasi Baris Elementer dan Metode Eliminasi Gauss
+- Metode Eliminasi Gauss-Jordan dan Reduced Row Echelon Form (RREF)","Mahasiswa mampu menerapkan Konsep Himpunan, Relasi, Fungsi, Matriks dan Penyelesaian Sistem Persamaan (Linier dan Non-Linier)","- Menyelesaikan sistem persamaan linier dengan menggunakan metode Gauss dan Gauss Jordan
+- Memahami operasi perhitungan pada matriks
+- Menghitung invers dan transpos matriks
+- Menghitung determinan matriks dengan menggunakan metode Expansi Kofaktor (Expansi Laplace)
+- Menghitung determinan matriks dengan menggunakan metode Sarrus
+- Menyelesaikan sistem persamaan linier dengan menggunakan metode aturan Cramer
+- Memahami operasi perhitungan vektor pada bidang 2 dan 3 dimensi
+- Perbedaan cross product dan dot product pada vektor
+- Menghitung Eigenvalue dan Eigenvektor
+- Proyeksi orthogonal pada vector",
+,,,,,,,,SCPMK902-01102,"Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Cerama, Diskusi Studi Kasus, Latihan Penyesaian Permasalahan","- Tugas (50%)
+- UTS (60%)
+- Kuis 2 (20%)
+- UAS (50%)","- Dapat melakukan operasi matriks
+- Dapat melakukan inversi matriks dengan determinan dasar
+- Dapat mencari determinan dengan menggunakan aturan Sarrus dan Cramer
+- Dapat menerapkan aturan Sarrus / Crammer pada permasalahan SPL","- Operasi Matriks
+- Invers Matriks dan Aplikasinya Pada Sistem Persamaan Linier
+- Determinan
+- Operasi Determinan dengan Kofaktor
+- Aturan Cramer","Mahasiswa mampu menyelesaikan persoalan matematis secara mandiri dengan tanggung jawab serta memperhatikan nilai, norma, dan etika akademik",,
+,,,,,,,,SCPMK902-01103,Mahasiswa mampu menerapkan konsep vektor dan ruang vektor untuk interpretasi geometri dan komputasi dasar pada konteks informatika,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Cerama, Diskusi Studi Kasus, Latihan Penyesaian Permasalahan","- Tugas (25%)
+- Kuis 2 (80%)
+- UAS (25%)","- Dapat melakukan operasi dot dan produk pada vektor
+- Dapat melakukan perhitungan proyeksi ortogonal
+- Dapat melakukan perhitungan eigenvalue dan eigenvektor
+- Dapat menggunakan konsep ortogonal, eigenvalue, dan eigenvektor dalam penyelesaian masalah nyata","- Vektor dan Dot Product
+- Proyeksi Ortogonal
+- Eigenvalue dan Eigenvektor",,,
+"Habibie Ed Dien, S.Kom., M.T.
+Anugrah Nur Rahmanto, S.Sn., M.Ds.",MK012,Desain Antarmuka,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan Ilmu Komputer/Informatika dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder","BK04
+BK22","User Experience Design
+Human-Computer Interaction",CPMK202,Mampu menerapkan prinsip dan metode User Experience (UX) Design untuk merancang prototipe antarmuka aplikasi multi-platform yang interaktif,"SCPMK202-01201
+","Mahasiswa mampu membuat wireframe dan prototipe antarmuka menggunakan tools desain UI secara sistematis dan konsisten.
+
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, demonstrasi tools desain, praktikum studi kasus","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)",Ketepatan dan konsistensi wireframe/prototipe yang dihasilkan menggunakan tools desain UI,"Pengantar UI/UX, user persona, user journey mapping, user flow, wireframing, low-high fidelity prototyping",,"• Pengantar UI UX
+• User Persona
+• User Journey Mapping
+• User Flow
+• Wireframing
+• Low Fidelity
+• High Fidelity
+• Color Theory
+• F Pattern
+• Z Pattern
+• Porximity
+• Common Region
+• User Profiling
+• Hick’s Law
+• Fitts’s Law
+• A/B Testing
+• Prototyping
+• UI UX Audit","Mata kuliah Perancangan Antar Muka merupakan matakuliah yang memberikan pengetahuan tentang user experience dan user interface.
+Bagaimana cara membuat desain bukan hanya bagus dan enak di lihat, tetapi bagaimana membuat desain yang cocok bagi user dan nyaman digunakan berlama-lama saat menggunakan website tersebut."
+,,,,,,,,SCPMK202-01202,"Mahasiswa mampu menerapkan prinsip usability, accessibility, dan desain visual dalam perancangan antarmuka pengguna.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, praktikum, diskusi evaluasi desain","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)","Ketepatan penerapan prinsip usability, accessibility, dan desain visual pada antarmuka yang dirancang","Color theory, F-pattern, Z-pattern, proximity, common region, Hick's law, Fitts's law dalam desain visual antarmuka",,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder","BK04
+BK22","User Experience Design
+Human-Computer Interaction",CPMK601,Mampu merancang dan menjamin mutu pengalaman pengguna (UX) melalui pembuatan prototipe yang menjawab permasalahan interaksi pengguna,SCPMK601-01201,Mahasiswa mampu melakukan evaluasi dan perbaikan prototipe berdasarkan uji coba pengguna (usability testing) dan umpan balik yang diperoleh.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Praktikum, presentasi hasil uji coba pengguna","Unjuk Kerja (Presentasi), Observasi (Praktik/ Tugas)",Ketepatan evaluasi hasil usability testing dan kualitas perbaikan prototipe berdasarkan umpan balik,"A/B testing, prototyping, dan UI/UX audit sebagai dasar evaluasi dan perbaikan prototipe",,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK10
+BK22
+BK24
+BK25
+BK28
+BK29","Software Design
+Human Computer Interaction
+Software Development Fundamentals
+Software Process
+Software Quality, Verification & Design
+Software Modeling and Analysis",CPMK802,"Mampu mengelola proses rekayasa perangkat lunak dan desain antarmuka (UI/UX) dalam siklus hidup proyek, termasuk penerapan metodologi pengembangan dan prinsip penjaminan mutu (SQA) untuk menghasilkan produk yang berkualitas dan berpusat pada pengguna.","SCPMK802-01201
+","Mahasiswa mampu menganalisis kebutuhan dan permasalahan pengguna melalui teknik user research sederhana (persona, user journey, skenario penggunaan).",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, diskusi studi kasus user research","Tugas, Unjuk Kerja (Presentasi)","Ketepatan analisis kebutuhan pengguna melalui user persona, user journey, dan skenario penggunaan","User persona, user journey mapping, dan skenario penggunaan sebagai teknik user research",,,
+,,,,,,,,SCPMK802-01202,Mahasiswa mampu merancang struktur dan alur antarmuka (information architecture & user flow) yang sesuai dengan kebutuhan dan tujuan pengguna.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, praktikum perancangan struktur antarmuka","Tugas, Unjuk Kerja (Presentasi)",Ketepatan dan konsistensi struktur information architecture dan user flow terhadap kebutuhan pengguna,User flow dan information architecture dalam perancangan struktur antarmuka,,,
+"Dian Hanifudin Subhi, S.Kom., M.Kom.
+ 
+ 	
+Meyti Eka Apriyani ST., MT.",MK013,Sistem Operasi,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan Ilmu Komputer/Informatika dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder",BK11,Operating System,CPMK206,"Mampu menganalisis karakteristik dan kebutuhan sumber daya dari aplikasi multi-platform, lalu merancang strategi manajemen sumber daya sistem (seperti memori, proses, I/O, dan jaringan) yang optimal dengan mempertimbangkan arsitektur dan mekanisme sistem operasi",,,Bermain Peran dan Simulasi (Role-Play And Simulation),,"Observasi (Praktik/ Tugas), Tes Tulis (UTS), Unjuk Kerja (Presentasi)",,,,"1.        Pengenalan Sistem Sistem Operasi & Instalasinya
+2.        Manajemen Perangkat Keras & Perintah Dasar Sistem Operasi
+3.        Dasar Input/Output
+4.        Struktur Direktori & Operasi File
+5.        Manajemen Proses
+6.        Bash Shell
+7.        Shell Programming
+8.        Manajemen Memory & System Call
+9.        Manajemen FIle & User/Group
+10.        Manajemen Servis
+11.        Manajemen Aplikasi
+
+",Setelah mengikuti kuliah ini diharapkan mahasiswa menguasai instalasi sistem operasi dan administrasi sistem operasi
+,,,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,BK16,Architecture and Organization,CPMK901,Mahasiswa mampu menjelaskan dan menganalisis cara kerja sistem komputer beserta komponen utamanya.,,,Bermain Peran dan Simulasi (Role-Play And Simulation),,,,,,,
+,,,"(CPL05) Mampu menerapkan solusi teknologi komputasi dan infrastruktur digital dengan mempertimbangkan berbagai teknik/pendekatan yang sesuai dengan kebutuhan.
+
+
+
+
+
+
+
+","BK05
+BK11
+BK16","Security Issues and Principles
+Operating System
+Architecture and Organization",CPMK502,"Mampu mengidentifikasi, menganalisis, dan menerapkan prinsip serta teknik keamanan untuk menangani isu-isu kerentanan pada sistem operasi, jaringan, dan lingkungan cloud.",,,Diskusi Kelompok (Small Group Discussion) ,,,,,,,
+,,,,,,,,,,Demonstrasi & Tutorial Terpandu,,,,,,,
+,,,,,,,,,,Pembelajaran Kolaboratif (Collaborative Learning/CL),,,,,,,
+"Eka Larasati Amalia,. S.ST.,MT
+",MK014,Rekayasa Perangkat Lunak,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan Ilmu Komputer/Informatika dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder",BK10,Software Design,CPMK205,"Mampu menerapkan prinsip dan pola desain perangkat lunak untuk membuat blueprint arsitektural dan komponen solusi aplikasi multi-platform yang modular, dapat dipelihara (maintainable), dan dapat diperluas (scalable)",SCPMK205-05001,"Mampu merealisasikan blueprint menjadi komponen aplikasi yang modular, maintainable, dan sesuai standar kode.
+
+
+
+",Contextual Instruction (CI),"Ceramah, Diskusi studi kasus, Latihan analisis",Partisipasi,"Kode berjalan tanpa error, rapi (clean code), dan modular.",Implementasi (Construction/Coding),"7.1.1.1 SUBCPMK1 Mahasiswa mampu menguasai konsep rekayasa perangkat lunak, software development life cycle (SDLC), UML dan dasar pengujian (testing) pada pengembangan perangkat lunak (produk TIK)
+
+7.1.1.2 SUBCPMK2 Mahasiswa mampu mengoperasikan piranti pendukung untuk pengembangan perangkat lunak","1. Pengantar RPL
+2. Model Pengembangan Perangkat Lunak (Waterfall)
+3. Model Pengembangan Perangkat Lunak (Spiral)
+4. Model Pengembangan Perangkat Lunak (RUP)
+5. Pengantar Model Pengembangan Perangkat Lunak Agile
+6. Model Pengembangan Perangkat Lunak Agile (Scrum)
+7. Model Pengembangan Perangkat Lunak Agile (Kanban)
+8. Kebutuhan Perangkat Lunak
+9. Desain Perangkat Lunak
+10. Arsitektur Perangkat Lunak
+11. Implementasi
+12. Testing
+13. Evolusi Perangkat Lunak
+
+
+","Mata kuliah rekayasa perangkat lunak fokus pada pengajaran prinsip dasar dan metodologi pengembangan perangkat lunak. Mahasiswa mempelajari analisis kebutuhan, perancangan, pemrograman, serta pengujian perangkat lunak. Materi juga mencakup berbagai metodologi seperti model air terjun, prototipe, Scrum, dan Kanban. Dalam perkembangan teknologi, mata kuliah ini dapat menyertakan topik inovatif seperti pengembangan perangkat lunak berbasis cloud dan keamanan perangkat lunak. Tujuannya adalah membekali mahasiswa dengan keterampilan yang diperlukan untuk menjadi profesional IT yang mampu merancang, mengembangkan, dan memelihara perangkat lunak sesuai dengan standar."
+,,,,BK26,Systems Analysis & Design,CPMK211,"Mampu menerapkan metodologi analisis dan desain sistem secara terstruktur untuk mentransformasi kebutuhan stakeholder menjadi spesifikasi teknis yang komprehensif bagi pengembangan aplikasi multi-platform, dengan menghasilkan artefak desain yang mencakup aspek fungsional, non-fungsional, dan arsitektural yang dapat diimplementasikan",SCPMK211-05001,Mampu mentransformasi kebutuhan menjadi desain teknis menggunakan pemodelan sistem (UML/Diagram).,Guided Practice (Latihan Terbimbing),"Ceramah, Diskusi studi kasus, Latihan analisis",Observasi (Praktik/ Tugas),Ketepatan penggunaan simbol UML sesuai standar diagram.likasi multi-platform,Desain Perangkat Lunak,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK10
+BK22
+BK24
+BK25
+BK28
+BK29","Software Design
+Human Computer Interaction
+Software Development Fundamentals
+Software Process
+Software Quality, Verification & Design
+Software Modeling and Analysis",CPMK802,"Mampu mengelola proses rekayasa perangkat lunak dan desain antarmuka (UI/UX) dalam siklus hidup proyek, termasuk penerapan metodologi pengembangan dan prinsip penjaminan mutu (SQA) untuk menghasilkan produk yang berkualitas dan berpusat pada pengguna.",SCPMK802-05001,Mampu menjelaskan prinsip dasar manajemen proses RPL dan menguraikan tahapan siklus hidup (SDLC) dalam proyek.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi studi kasus, Latihan analisis",Tes Lisan (Tugas Kelompok),Ketepatan dalam mengidentifikasi masalah pada studi kasus dan frekuensi/kualitas argumen yang disampaikan saat diskusi kelas,"1. Pengantar RPL
+
+2. Software Development Life Cycle (SDLC)",,,
+,,,,,,,,SCPMK802-05002,Mampu menerapkan metodologi pengembangan preskriptif yang tepat (Prototyping/Spiral/RUP) sesuai karakteristik masalah.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, Diskusi studi kasus, Latihan analisis",Tes Lisan (Tugas Kelompok),"Analisis & Komunikasi:
+
+Logika argumen pemilihan model yang sesuai karakteristik kasus","3. Model Prototyping dan Spiral
+
+4. Model RUP (Rational Unified Process)",,,
+,,,,,,,,SCPMK802-05003,Mampu mengelola proses pengembangan menggunakan metodologi Agile (Scrum) untuk adaptasi perubahan yang cepat.,Bermain Peran dan Simulasi (Role-Play And Simulation),"Ceramah, Diskusi studi kasus, Latihan analisis",Observasi (Praktik/ Tugas),Kepatuhan menjalankan peran (Scrum Master/PO) sesuai prosedur Agile Ceremony.,"6. AGILE Methodology
+
+7. SCRUM Framework",,,
+,,,,,,,,SCPMK802-05004,Menerapkan manajemen alur kerja visual (Visual Management) dalam tim.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Ceramah, Diskusi studi kasus, Latihan analisis",Observasi (Praktik/ Tugas),"Ketepatan pemilihan metodologi pengembangan, ketepatan penyusunan jadwal dan pengelolaan sumber daya proyek, serta ketepatan penerapan standar penjaminan mutu (SQA) dalam setiap tahapan siklus hidup pengembangan perangkat lunak",Kanban,,,
+,,,,,,,,SCPMK802-05005,Mampu menerapkan prinsip penjaminan mutu (SQA) melalui pengujian perangkat lunak (Testing).,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, Diskusi studi kasus, Latihan analisis",Observasi (Praktik/ Tugas),"
+Kelengkapan kolom status dan kejelasan deskripsi task pada Board.",Pengujian Perangkat Lunak,,,
+,,,,,,,,SCPMK802-05006,Mampu mengelola siklus hidup pasca-rilis melalui pemeliharaan (Maintenance) dan evolusi sistem.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, Diskusi studi kasus, Latihan analisis",Partisipasi,Ketepatan jawaban teori dan analisis studi kasus tertulis.,Evolusi PL,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",,,,,,,,,,,,,,
+,,,,BK10,Software Design,CPMK602,Mampu merancang arsitektur dan komponen perangkat lunak secara sistematis menggunakan pola desain yang sesuai dengan kebutuhan stakeholder,SCPMK602-05001,Mampu merancang arsitektur sistem dan memilih pola desain (Design Patterns) yang sistematis.,Guided Practice (Latihan Terbimbing),"Ceramah, Diskusi studi kasus, Latihan analisis",Observasi (Praktik/ Tugas),"Ketepatan pemilihan pola arsitektur (architectural patterns) dan pola desain (design patterns) yang relevan, serta ketepatan visualisasi komponen sistem menggunakan notasi standar (UML/C4 Model) untuk menjamin aspek maintainability",Arsitektur Perangkat Lunak,,,
+,,,,BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,SCPMK607-05001,Mampu menganalisis kebutuhan organisasi dan melakukan elisitasi untuk menghasilkan spesifikasi kebutuhan.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, Diskusi studi kasus, Latihan analisis",Observasi (Praktik/ Tugas),"Ketepatan transformasi desain menjadi kode program (implementasi), ketepatan prosedur pengujian (testing) untuk menjamin kualitas sistem, serta ketepatan fungsi aplikasi dalam menjawab kebutuhan organisasi yang kompleks",Metode Pengumpulan Kebutuhan PL,,,
+"Candra Bella Vista, S.Kom., M.T.
+
+Prof. Ir. Yan Watequlis Syaifudin, ST., M.MT., Ph.D.
+ ",MK015,Basis Data,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK06,Data and Information Management,CPMK203,"Mampu merancang skema dan arsitektur manajemen data yang efektif dan terstruktur untuk mendukung solusi aplikasi multi-platform dengan mempertimbangkan integritas data, kebutuhan informasi stakeholder, serta efisiensi dalam operasi query dan skalabilitas sistem",SCPMK203-01501,"Mampu memahami konsep data, basis data, dan basis data relasional, serta merancang model dan skema basis data secara konseptual dan logikal dengan memperhatikan integritas data dan konsep normalisasi.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi studi kasus, Latihan analisis","Observasi (Praktik/ Tugas), Tes Lisan (Tugas Kelompok), Quiz, Unjuk Kerja (Presentasi), Tes Tulis (UTS)","Ketepatan dalam mencari contoh penerapan basis data; Ketepatan penjelasan terkait komponen basis data; Ketepatan analisis kebutuhan data, Ketepatan rancangan basis data menggunakan ERD; Ketepatan komponen ERD ke dalam model relasional; Ketepatan menjelaskan tahapan normalisasi, Ketepatan hasil normalisasi","1. Pengantar (Konsep Data, Informasi, dan Basis Data Relasional)","- Mahasiswa mampu menguasai konsep dan metode pengembangan basis data sebagai bagian dari pengembangan produk TIK
+
+- Mahasiswa mampu merancang basis data relasional dengan benar
+
+- Mahasiswa mampu menggunakan bahasa SQL untuk mengimplementasikan dan mengelola basis data","1. Pengantar (Konsep Data, Informasi)
+2. Konsep Basis Data Relasional
+3. ERD 1
+4. ERD 2
+5. Pemetaan ERD ke Model Relational
+6. Pemetaan ERD ke Model Relational (2)
+7. Normalisasi Basis Data
+8. Pengantar MySQL dan DDL
+9. DML MySQL
+10. Query Select
+11. Select Multi Table
+12. Studi Kasus (Requirement identification, ERD)
+13. Studi Kasus (Mapping to database, Implementasi database)
+","Setelah mengikuti kuliah ini diharapkan mahasiswa menguasai pengetahuan tentang cara merancang dan membuat basis data relasional yang benar, serta menguasai bahasa basis data (bahasa SQL) untuk membangun dan mengelola basis data."
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1001,Mampu menganalisis permasalahan pengelolaan data dan informasi yang bersifat kompleks dengan wawasan multidisiplin untuk merancang serta mengimplementasikan solusi berbasis basis data yang sesuai dengan kebutuhan organisasi atau bisnis.,SCPMK1001-01501,"Mampu mengimplementasikan skema basis data dan menyusun query SQL untuk mendefinisikan, memanipulasi, dan menampilkan data sesuai dengan studi kasus ",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi studi kasus, Latihan analisis","Observasi (Praktik/ Tugas), Quiz, Unjuk Kerja (Presentasi), Tes Tulis (UAS)","Ketepatan perintah SQL-DDL untuk mengubah, menghapus basis data, tabel, dan relasi sesuai studi kasus yang diberikan; Ketepatan perintah SQL-DML untuk menambah, menghapus, dan mengubah data pada  basis data, sesuai studi kasus yang diberikan; Ketepatan perintah SQL-DQL untuk menampilkan kembali data yang tersimpan dalam basis data sesuai studi kasus yang diberikan; Ketepatan perintah SELECT untuk menampilkan data pada multi table pada basis data sesuai studi kasus yang diberikan","8. Pengantar MySQL dan DDL
+9. DML MySQL
+10. Query Select
+11. Select Multi Table",,,
+,,,,,,,,SCPMK1001-01502,"Mampu menganalisis kebutuhan data, merancang skema basis data, dan menyusun query SQL secara efisien untuk mengelola basis data sesuai dengan studi kasus",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi studi kasus, Latihan implementasi","Observasi (Praktik/ Tugas), Tes Lisan (Tugas Kelompok), Quiz, Unjuk Kerja (Presentasi)","Ketepatan identifikasi kebutuhan data; Ketepatan perancangan basis data; Ketepatan query DDL untuk implementasi hasil rancangan ke dalam DBMS MySQL; Ketepatan query DML untuk memanipulasi basis data yang telah dimplementasikan; Ketepatan query SELECT untuk menampilkan data yang tersimpan pada basis data; Ketepatan query SELECT untuk menampilkan data dari beberapa tabel
+
+","12. Studi Kasus (Requirement identification, ERD)
+13. Studi Kasus (Mapping to database, Implementasi database)",,,
+"Candra Bella Vista, S.Kom., M.T.
+
+Prof. Ir. Yan Watequlis Syaifudin, ST., M.MT., Ph.D.
+ ",MK016,Praktikum Basis Data,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK06,Data and Information Management,CPMK203,"Mampu merancang skema dan arsitektur manajemen data yang efektif dan terstruktur untuk mendukung solusi aplikasi multi-platform dengan mempertimbangkan integritas data, kebutuhan informasi stakeholder, serta efisiensi dalam operasi query dan skalabilitas sistem",SCPMK203-01601,Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Praktikum berbasis kasus, Latihan implementasi mandiri, diskusi, Case Method","Observasi (Praktik/ Tugas), Quiz, Tes Tulis (UTS)","Ketepatan analisis kebutuhan data, Ketepatan rancangan basis data menggunakan ERD; Ketepatan komponen ERD ke dalam model relasional; Ketepatan menjelaskan tahapan normalisasi, Ketepatan hasil normalisasi","1. Pengantar (Konsep Data, Informasi)
+2. Konsep Basis Data Relasional
+3. ERD 1
+4. ERD 2
+5. Pemetaan ERD ke Model Relational
+6. Pemetaan ERD ke Model Relational (2)
+7. Normalisasi Basis Data","- Mampu merumuskan masalah, menganalisa kebutuhan sistem, merancang, dan membangun sistem berdasarkan hasil
+perancangan, menguji coba, serta mengintegrasikan sistem sesuai dengan tahapan dalam membangun sistem dibidang
+pengolahan data dan informasi, multimedia dan rekayasa perangkat lunak baik desktop, web, mobile, dan jaringan komputer
+dengan memperhatikan aspek kinerja dan kehandalan, keamanan, kemudahan penerapan dan keberlanjutan
+- Mampu menggunakan teknologi informasi modern dalam melaksanakan pekerjaan
+- Mampu membuat program dengan menggunakan prinsip-prinsip OOP menggunakan bahasa pemrograman Java
+
+","1. Pengantar (Konsep Data, Informasi)
+2. Konsep Basis Data Relasional
+3. ERD 1
+4. ERD 2
+5. Pemetaan ERD ke Model Relational
+6. Pemetaan ERD ke Model Relational (2)
+7. Normalisasi Basis Data
+8. Pengantar MySQL dan DDL
+9. DML MySQL
+10. Query Select
+11. Select Multi Table
+12. Studi Kasus (Requirement identification, ERD)
+13. Studi Kasus (Mapping to database, Implementasi database)
+","Setelah mengikuti kuliah ini diharapkan mahasiswa menguasai pengetahuan tentang cara merancang dan membuat basis data relasional yang benar, serta  menguasai bahasa basis data (bahasa SQL) untuk membangun dan mengelola basis data. membuat basis data relasional yang benar, serta  menguasai bahasa basis data (bahasa SQL) untuk membangun dan mengelola basis data. "
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",,,CPMK701,"Mampu merancang, mengimplementasikan, dan mengevaluasi sistem manajemen data yang handal untuk mendukung kebutuhan penyimpanan dan pengelolaan informasi",SCPMK701-01601,Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Praktikum berbasis kasus, Latihan implementasi mandiri, diskusi, Case Method","Observasi (Praktik/ Tugas), Quiz, Tes Tulis (UTS)","Ketepatan Penulisan dan Eksekusi Query DDL, Ketepatan Penulisan dan Eksekusi Query DML, Kesesuaian Hasil Query dengan Kebutuhan Data","8. Pengantar MySQL dan DDL
+9. DML MySQL
+10. Query Select
+11. Select Multi Table
+",,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1001,Mampu menganalisis permasalahan pengelolaan data dan informasi yang bersifat kompleks dengan wawasan multidisiplin untuk merancang serta mengimplementasikan solusi berbasis basis data yang sesuai dengan kebutuhan organisasi atau bisnis.,SCPMK1001-01601,Mampu mengimplementasikan perancangan skema basis data dan implementasi melalui query SQL sesuai dengan studi kasus.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Praktikum berbasis kasus, Latihan implementasi mandiri, diskusi, Case Method","Observasi (Praktik/ Tugas), Quiz, Tes Tulis (UAS), Tes Lisan (Tugas Kelompok)","Ketepatan identifikasi kebutuhan data; Ketepatan perancangan basis data; Ketepatan query DDL untuk implementasi hasil rancangan ke dalam DBMS MySQL; Ketepatan query DML untuk memanipulasi basis data yang telah dimplementasikan; Ketepatan query SELECT untuk menampilkan data yang tersimpan pada basis data; Ketepatan query SELECT untuk menampilkan data dari beberapa tabel
+
+","12. Studi Kasus (Requirement identification, ERD)
+13. Studi Kasus (Mapping to database, Implementasi database)",,,
+"Mamluatul Hani'ah, S.Kom., M.Kom.
+Vit Zuraida, S.Kom., M.Kom.",MK017,Algoritma Dan Struktur Data,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK12,"Data Structures, Algorithms and Complexity",CPMK207,Mampu menganalisis kompleksitas permasalahan komputasi kemudian memilih dan merancang struktur data serta algoritma yang optimal ,SCPMK207-01701,Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi studi kasus, Latihan analisis","Tes Tulis (UAS), Observasi (Praktik/ Tugas)","Ketepatan menjelaskan karakteristik struktur data, menjelaskan urutan pengelolaan data secara logis, Ketepatan struktur data dengan permasalahan","Stack
+Queue
+Single Linked List
+Double Linked List
+Tree dan BST
+Best Practice Collections",,"1.        Searching
+2.        Sorting
+3.        Queue
+4.        Stack 
+5.        Linked List
+6.        Tree
+7.        Graf
+8.        Bruteforce
+9.        Divide-Conquer
+10.        Depth First Search
+11.        Breadth First Search
+
+","Matakuliah Algoritma dan Struktur Data adalah sebuah mata kuliah yang diharapkan dapat memberikan pengetahuan dan keterampilan pembuatan Algoritma dan Struktur Data yang meliputi Bruteforce, Divide-Conquer, Stack, Queue, Linked List, Tree dan Graph serta proses-proses Sorting, dan Searching"
+,,,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK12
+BK13
+BK14","Data Structures, Algorithms and Complexity
+Programming Languages
+Programming Fundamentals",CPMK903,Mahasiswa mampu menjelaskan prinsip logika komputasi serta menerapkan teknik dasar pemrograman dan algoritma untuk menganalisis dan menyelesaikan permasalahan.,SCPMK903-01701,"Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik yang digunakan untuk pengolahan dan pencarian data",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi studi kasus, Latihan analisis","Tes Tulis (UTS), Quiz, Observasi (Praktik/ Tugas)","Ketepatan menjelaskan permasalahan komputasi berbasis array of object, Mampu membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data","Dasar Pemrograman
+Object
+Array of Object
+Brute Force dan Divide Conquer
+Bubble, Selection, dan Insertion Sort
+Sequential dan Binary Search
+",,,
+,,,,,,,,,,,,,,,,,
+"Mamluatul Hani'ah, S.Kom., M.Kom.
+Vit Zuraida, S.Kom., M.Kom.",MK018,Praktikum Algoritma Dan Struktur Data,,,,,,,,,,,,,,,
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK12,"Data Structures, Algorithms and Complexity",CPMK703,Mampu memilih dan mengimplementasikan struktur data serta algoritma yang efisien untuk mendukung pengolahan data dan pengembangan sistem,SCPMK703-01801,Mahasiswa mampu memilih dan mengimplementasikan struktur data non-linear serta koleksi data untuk membangun solusi pengolahan data yang efisien.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Praktikum berbasis kasus, Latihan implementasi mandiri, diskusi, Case Method","Quiz, Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)","Kesesuaian struktur data sesuai dengan kasus, keberhasilan Implementasi struktur data, serta penjelasan logika program","Tree
+Binary Search Tree (BST)
+Best Practice Collections",,,
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK21,Discrete Structures,CPMK708,Mampu menerapkan konsep struktur data dalam perancangan dan implementasi algoritma untuk menghasilkan solusi komputasi yang efisien,SCPMK708-01801,Mahasiswa mampu mengimplementasikan struktur data linear dan mengintegrasikannya ke dalam algoritma untuk menyelesaikan permasalahan komputasi.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Praktikum berbasis kasus, Latihan implementasi mandiri, diskusi, Case Method","Quiz, Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)","Kesesuaian struktur data sesuai dengan kasus, keberhasilan Implementasi struktur data, serta penjelasan logika program","Stack
+Queue
+Single Linked List
+Double Linked List",,,
+,,,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK12
+BK13
+BK14","Data Structures, Algorithms and Complexity
+Programming Languages
+Programming Fundamentals",CPMK903,Mahasiswa mampu menjelaskan prinsip logika komputasi serta menerapkan teknik dasar pemrograman dan algoritma untuk menganalisis dan menyelesaikan permasalahan.,SCPMK903-01801,Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Praktikum berbasis kasus, Latihan implementasi mandiri, diskusi, Case Method","Quiz, Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)","Kebenaran implementasi program (berjalan sesuai spesifikasi), penggunaan algoritma sesuai dengan kasus","Dasar Pemrograman
+Object
+Array of Object
+Brute Force dan Divide Conquer
+Bubble, Selection, dan Insertion Sort
+Sequential dan Binary Search",,,
+"Pramana Yoga Saputra, S.Kom., MMT.
+",MK019,Manajemen Proyek,"(CPL03)
+Memiliki kemampuan (pengelolaan) manajerial tim dan kerja sama (team work), manajemen diri, mampu berkomunikasi baik lisan maupun tertulis dengan baik dan mampu melakukan presentasi.",BK03,Project Management,,,,,,,,,,"9.1.2.1 SUPCPMK 1
+Mampu memahami fase pelaksanaan proyek dan penerapan knowledge area dalam pengembangan perangkat lunak sesuai dengan PMBOK (Project Management Body of Knowledge)
+
+9.1.2.2 SUPCPMK 2
+Mampu menerapkan kaidah rekayasa perangkat lunak dan manajemen proyek perangkat lunak sesuai best practice melalui proyek sepanjang satu semester, yang mencakup pembuatan proposal, perencanaan proyek, desain dan implementasi perangkat lunak, quality control, dan user delivery
+
+","1. Konsep proyek dan manajemen proyek 
+2. Fase dalam manajemen proyek
+3. 10 Knowledge Area dalam manajemen proyek
+4. Manajemen integrasi proyek
+5. Manajemen ruang lingkup proyek
+6. Manajemen waktu proyek
+7. Manajemen biaya proyek 
+8. Manajemen kualitas proyek
+9. Manajemen SDM proyek 
+10. Manajemen komunikasi proyek 
+11. Manajemen risiko proyek 
+12. Manajemen pengadaan proyek 
+13. Manajemen pemangku kepentingan proyek
+","Mata Kuliah Manajemen Proyek Sistem Informasi adalah sebuah mata kuliah yang diharapkan dapat memberikan pengetahuan dan keterampilan Manajemen Proyek, Siklus Managemen Proyek, Mengelola Ruang Lingkup Proyek, Mengelola Jadwal Waktu, Mengelola Biaya, Mengelola Kualitas Proyek (QMS), Mengelola SDM, Mengelola Risiko, Mengelola Komunikasi, Mengelolal Pengadaan Proyek, Mengelola Pemangku Kepentingan Proyek."
+,,,,,,CPMK302,"Mampu mengelola tim dan proyek secara efektif melalui perencanaan, koordinasi, komunikasi, dan presentasi hasil proyek dengan menerapkan prinsip-prinsip manajemen proyek untuk menyelesaikan permasalahan nyata.",,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,"(CPL04)
+Menyusun deskripsi saintifik hasil kajian implikasi pengembangan atau implementasi ilmu pengetahuan teknologi dalam bentuk skripsi atau laporan tugas akhir atau artikel ilmiah.",,,CPMK402,Mampu merencanakan dan mengorganisasi dokumentasi proyek teknologi informasi secara sistematis dalam bentuk laporan teknis yang memenuhi kaidah ilmiah.,,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+",,,CPMK801,"Mampu menyusun dan mempresentasikan rencana proyek teknologi informasi yang komprehensif, mencakup estimasi, penjadwalan, alokasi sumber daya, dan manajemen risiko untuk diimplementasikan dalam sebuah proyek.",,,,,,,,,,
+,,,,,,CPMK803,"Mampu melaksanakan, memonitor, dan mengendalikan jalannya proyek menggunakan alat bantu (tools) manajemen, serta mengelola dinamika tim untuk mencapai tujuan proyek secara efisien.",,,,,,,,,,
+,MK020,Sistem Informasi Manajemen,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK06,Data and Information Management,CPMK203,"Merancang skema dan arsitektur manajemen data yang efektif dan terstruktur untuk mendukung solusi aplikasi multi-platform dengan mempertimbangkan integritas data, kebutuhan informasi stakeholder, serta efisiensi dalam operasi query dan skalabilitas sistem",,,,,,,,"9.1.1.1 SUPCPMK 1 Mampu mengidentifikasi dan menganalisis kebutuhan, serta menerapkan konsep perancangan perangkat lunak menggunakan UML secara tepat berdasarkan prosedur baku, dan spesifikasi desain
+9.1.1.2 SUPCPMK 2 Mampu menerapkan konsep implementasi perangkat lunak dengan memperhatikan pengelolaan sumber daya berupa waktu, SDM, dan biaya
+9.1.1.3 SUPCPMK 3 Mampu menerapkan konsep pengujian perangkat lunak sebagai bentuk penjaminan kualitas produk TIK, dan melakukan dokumentasi pada setiap proses pengembangan","- Konsep Dasar Sistem
+- Konsep Dasar Teknologi Informasi
+- Konsep Fakta, Data, dan Informasi
+- Konsep Sistem Informasi Manajemen
+- Konsep Dasar Manajemen dan Organisasi dalam Sistem Informasi Manajemen
+- Konsep Pengambilan Keputusan Berbasis Sistem Informasi
+- Konsep Teknologi dalam Sistem Informasi untuk Sistem Informasi Manajemen
+- Aplikasi Sistem Informasi pada Fungsi dan Level Organisasi
+- Sistem Informasi Strategis dan Sistem Antar-Organisasi
+- Aplikasi Sistem Informasi Pendukung dalam Sistem Informasi Manajemen
+- Database dan Sistem Manajemen Basis Data
+- Teknologi Informasi dan Komunikasi untuk Sistem Informasi Manajemen
+- Pengembangan Sistem Informasi Manajemen","Mata kuliah Sistem Informasi Manajemen adalah mata kuliah yang mengajarkan kepada mahasiswa tentang konsep – konsep teoritis tentang sistem informasi manajemen, kebutuhan informasi pada setiap tingkatan dalam organisasi, aspek sistem informasi dalam organisasi."
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1001,Mampu menganalisis permasalahan pengelolaan data dan informasi yang bersifat kompleks dengan wawasan multidisiplin untuk merancang serta mengimplementasikan solusi berbasis basis data yang sesuai dengan kebutuhan organisasi atau bisnis.,,,,,,,,,,
+"Dr. Widaningsih Condrowardhani, SH, MH.
+",MK021,Kewarganegaraan,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",,,,,,,,,"1. Identitas Nasional
+2. Negara Dan Konstitusi
+3. Hubungan Negara Dan Warga Negara
+4. Negara Hukum
+5. Demokrasi
+6. Hak Asasi Manusia
+7. Wawasan Nusantara
+8. Ketahanan Nasional
+9. Integrasi Nasional 
+METODE PEMBELAJARAN:
+1. Ceramah/Kuliah Pakar,
+2. Problem Based Learning/FGD
+3. Project Based Learning
+4. Self-Learning (V-Class)
+5. Diskusi Kelompok
+6. Metode Case
+","Mampu memahami dan memiliki kesadaran tentang rasa kebangsaan dan cinta tanah air, demokratis berkeadaban, serta mempunyai kepribadian yang memiliki daya saing, berdisiplin dan berpartisipasi aktif dalam membangun kehidupan yang damai berdasarkan sistem nilai Pancasila"
+"Dimas Wahyu Wibowo, ST., MT.
+",MK022,Desain & Pemrograman Web,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK19,Platform-based Development,CPMK603,"Mampu mengimplementasikan dan melakukan deployment aplikasi perangkat lunak pada platform web, mobile, atau framework secara fungsional.",,Mahasiswa mampu menganalisis kebutuhan stakeholder untuk merancang arsitektur web yang mengintegrasikan fitur .Mahasiswa mampu mengimplementasikan desain antarmuka web yang responsif dan interaktif untuk menyajikan visualisasi hasil analisis data secara informatif kepada pengguna.Mahasiswa mampu melakukan deployment aplikasi web cerdas ke layanan cloud hosting serta melakukan pemeliharaan rutin untuk menjaga performa sistem.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),Mahasiswa diberikan proyek kecil yang berkelanjutan. Mereka harus merancang ERD (Entity Relationship Diagram) berdasarkan kasus tersebut dan diimplementasi dalam bentuk web,"Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)",Ketepatan Rancangan: Sejauh mana desain arsitektur web dan skema basis data mampu mengintegrasikan fitur cerdas secara logis dan skalabel sesuai kebutuhan stakeholder.Responsivitas & Interaktivitas: Kualitas antarmuka yang adaptif di berbagai perangkat dan kejelasan visualisasi data hasil analisis yang mudah dipahami pengguna.Konektivitas Sistem: Keberhasilan menghubungkan logika bisnis backend sehingga aplikasi berjalan secara fungsional. Keberhasilan proses deployment ke layanan Hosting,,,"1. Pengantar Internet dan Desain Web
+2. HTML
+3. Dasar-Dasar Programing PHP
+4. Form Processing dan Form Upload
+5. Cookies, Session dan Mysql
+6. Pemograman Database di PHP
+7. Hosting","Dalam mata kuliah Desain dan Pemrograman Web ini, akan dibahas  tentang HTML, perbedaan web statis dan web dinamis, Web dinamis di sisi client dan di sisi server, Pengenalan  Web Server, Bahasa pemrograman web (PHP), Database yang berhubungan dengan pemrograman Web (MySQL), Koneksi  Middleware ke Database"
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK13,"Programming Language
+",CPMK704,Mampu menganalisis kebutuhan pemecahan masalah dan mengembangkan program menggunakan berbagai bahasa dan paradigma pemrograman secara tepat guna,,,,,,,,,,
+"Candra Bella Vista, S.Kom., MT.
+Wilda Imama Sabilla, S.Kom., M.Kom.",MK023,Basis Data Lanjut,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK6,Data and Information Management,CPMK203,"Merancang skema dan arsitektur manajemen data yang efektif dan terstruktur untuk mendukung solusi aplikasi multi-platform dengan mempertimbangkan integritas data, kebutuhan informasi stakeholder, serta efisiensi dalam operasi query dan skalabilitas sistem",SCPMK203-02301,"Mahasiswa mampu menggunakan dan merancang arsitektur Database Management System (DBMS) tingkat enterprise untuk mendukung integritas data, efisiensi query, dan skalabilitas sistem multi-platform.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Praktikum berbasis proyek, Latihan implementasi mandiri, diskusi","Observasi (Praktik/ Tugas), Quiz, Tes Tulis (UTS)","Kualitas Analisis Kebutuhan dan Arsitektur Data (40%), Kualitas Perancangan Skema & Dukungan Skalabilitas (40%), Ketepatan Pertimbangan Integritas Data dan Efisiensi Query (20%)","1. Pengenalan PostgreSQL dan Instalasi
+","Sub CPMK - 03.1.1
+Mahasiswa mampu menggunakan dan mengelola Database Management System
+(DBMS) pada tingkat enterprise
+Sub CPMK - 03.1.2
+Mahasiswa mampu merancang, membangun, dan memanipulasi basis data
+menggunakan perintah SQL dasar dan lanjutan, seperti DDL, DML, indeks, view, fungsi, stored procedure, trigger, transaction, full-text search, dan JSONB
+Sub CPMK - 03.1.3
+Mahasiswa mampu mengoptimalkan, memigrasikan, mencadangkan, memulihkan, dan
+mengintegrasikan basis data dengan aplikasi untuk menjaga efisiensi, integritas, dan ketersediaan data
+","1. Pengenalan PostgreSQL dan Instalasi
+2. Query Dasar (DDL dan DML)
+3. Query Lanjutan (SELECT, JOIN, AGREGASI, TABLE EXPRESSION)
+4. INDEX dan Optimasi Query
+5. Fungsi, View, dan Stored Procedure
+6. Transaction dan Concurrency
+7. Full-Text SEARCh dan JSONB
+8. Backup-Restore dan Migrasi MySQL → PostgreSQL
+9. Studi Kasus Integrasi dengan Aplikasi
+
+METODE PEMBELAJARAN:
+1. Ceramah/Kuliah Pakar,
+2. Praktikum
+3. Project Based Learning
+4. Diskusi Kelompok
+","Basis Data Lanjut adalah sebuah matakuliah yang diharapkan dapat memberikan pengetahuan dan keterampilan dalam pengelolaan data pada DBMS
+relasional enterprise. Pengetahuan dan keterampilan tersebut meliput teknik-teknik kueri kompleks serta prosedur-prosedur pengadministrasian database."
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",,,CPMK701,"Mampu merancang, mengimplementasikan, dan mengevaluasi sistem manajemen data yang handal untuk mendukung kebutuhan penyimpanan dan pengelolaan informasi",SCPMK203-02302,"Mahasiswa mampu merancang, membangun, dan memanipulasi basis data menggunakan SQL lanjutan (DDL, DML, indeks, view, fungsi, stored procedure, trigger, transaction, full-text search, dan JSON/JSONB) untuk menghasilkan sistem manajemen data yang handal.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Praktikum berbasis proyek, Latihan implementasi mandiri, diskusi","Observasi (Praktik/ Tugas), Quiz","Kualitas Perancangan Solusi Manajemen Data (30%), Ketepatan Konsep Implementasi Fitur Lanjutan DBMS (40%), Kualitas Evaluasi Performa dan Keandalan Sistem (30%)","2. Query Dasar (DDL dan DML)
+3. Query Lanjutan (SELECT, JOIN, AGREGASI, TABLE EXPRESSION)
+4. INDEX dan Optimasi Query
+5. Fungsi, View, dan Stored Procedure
+6. Transaction dan Concurrency
+7. Full-Text SEARCh dan JSONB
+8. Backup-Restore dan Migrasi MySQL → PostgreSQL",,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1001,Mampu menganalisis permasalahan pengelolaan data dan informasi yang bersifat kompleks dengan wawasan multidisiplin untuk merancang serta mengimplementasikan solusi berbasis basis data yang sesuai dengan kebutuhan organisasi atau bisnis.,SCPMK203-02303,"Mahasiswa mampu menganalisis, mengoptimalkan, memigrasikan, mencadangkan, memulihkan, serta mengintegrasikan basis data dengan aplikasi untuk menjaga efisiensi, integritas, dan ketersediaan data dalam konteks organisasi atau bisnis.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Praktikum berbasis proyek, Latihan implementasi mandiri, diskusi","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Tes Tulis (UAS), Tes Lisan (Tugas Kelompok)","Ketepatan Analisis Permasalahan dan Konteks Organisasi (30%), Kualitas Solusi Basis Data yang Diusulkan (50%), Keterpaduan Argumen dan Kejelasan Penyajian (20%)",9. Studi Kasus Integrasi dengan Aplikasi,,,
+"Triana Fatmawati, S.T., M.T.
+",MK024,Metode Numerik,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,,"Computational Science, Discrete Structures",CPMK902,"Mahasiswa mampu menguasai prinsip matematika, ilmu alam dan struktur diskrit serta menerapkan pendekatan komputasional sebagai dasar analisis terhadap permasalahan.",,"Mahasiswa mampu membedakan metode analitik dan metode numerik, menjelaskan konsep galat (error) sebagai dasar analisis akurasi, serta menerapkan pendekatan komputasional untuk menyelesaikan masalah numerik sederhana secara logis dan sistematis.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Penjelasan konsep, latihan soal terstruktur, pemberian tugas untuk menerapkan pendekatan komputasional pada soal numerik sederhana","Observasi (Praktik/ Tugas), Quiz, Tes Tulis (UTS)","Kemampuan membedakan metode analitik dan numerik (30%)
+Ketepatan menerapkan konsep umum metode numerik dan galat (30%)
+","1. Metode Numerik dan Metode Analitik
+2. Galat (error)
+3. Sistem Persamaan Lanjar",,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK21,Discrete Structures,CPMK1007,"Mampu menganalisis persoalan komputasi numerik yang kompleks dengan memanfaatkan konsep struktur diskrit (logika, relasi, fungsi, graf, dan matriks) untuk merumuskan dan memilih solusi numerik yang tepat.",,"Mahasiswa mampu memodelkan, memilih, dan menerapkan metode penyelesaian numerik yang tepat untuk sistem persamaan linear, persamaan non-linear, diferensiasi numerik, integrasi numerik, interpolasi, dan regresi, serta mengevaluasi hasilnya untuk menentukan solusi yang paling sesuai.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Penjelasan konsep, diskusi, latihan soal pemodelan dan pemilihan metode, tugas  untuk penerapan metode dan evaluasi hasil","Tes Tulis (UTS), Quiz, Tes Tulis (UAS), Observasi (Praktik/ Tugas)",,"4. Persamaan Non-Lanjar
+5. Diferensial Numerik
+6. Integrasi Numerik
+7. Interpolasi
+8. Regresi",,,
+"M. Hasyim Ratsanjani, S.Kom., M.Kom.
+",MK025,Pemrograman Berbasis Objek,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK26,Systems Analysis & Design,CPMK211,"Menerapkan metodologi analisis dan desain sistem secara terstruktur untuk mentransformasi kebutuhan stakeholder menjadi spesifikasi teknis yang komprehensif bagi pengembangan aplikasi multi-platform, dengan menghasilkan artefak desain yang mencakup aspek fungsional, non-fungsional, dan arsitektural yang dapat diimplementasikan",,"Menerapkan konsep inheritance dalam pemodelan kelas untuk menghasilkan desain sistem yang modular, reusable, dan scalable ",Pembelajaran Kolaboratif (Collaborative Learning/CL),Diskusi kelompok untuk mengidentifikasi entitas dan hubungan pewarisan dalam studi kasus. Peer-review atas diagram kelas yang dihasilkan.,"1. Penilaian Proses (30%):
+- Keaktifan dalam diskusi dan workshop.
+- Peer-assessment dalam kerja kelompok.
+- Kemajuan iteratif dalam pembuatan artefak proyek.
+
+2. Penilaian Produk (70%):
+- Tugas 1 (Diagram & Dokumen Desain - 30%): Kumpulan diagram kelas UML dengan inheritance yang tepat dan dokumen spesifikasi teknis singkat.
+- Tugas 2 (Implementasi & Presentasi - 40%): Kode prototipe sederhana yang merealisasikan desain, beserta presentasi yang menjelaskan bagaimana inheritance diterapkan untuk memenuhi kebutuhan fungsional/non-fungsional.","1. Relevansi & Ketepatan Analisis (30%)
+2. Kualitas Desain & Artefak (40%)
+3. Kualitas Implementasi & Argumentasi (30%)
+","5. Inheritance
+2. Class
+7. Abstract Class 
+","5.1.3.1 SUBCPMK1
+Mahasiswa mampu menguasai Konsep OOP, Class dan Object, Enkapsulasi, Inheritance, Abstraksi, Polimorfisme, GUI, database (JDBC), dan Java API
+5.1.3.2 SUBCPMK2
+Mahasiswa mampu memahami perbedaan OOP dan struktural;
+5.1.3.3 SUBCPMK3
+Mampu membuat desain aplikasi menggunakan konsep dan prinsip OOP.
+","1. Konsep Pemrograman Berorientasi Objek
+2. Class
+3. Object
+4. Enkapsulasi
+5. Inheritance
+6. Polimorfisme
+7. Abstract Class 
+8. Interface
+9. API
+10. Pengenalan GUI dan database 
+","Mata kuliah Pemrograman Berbasis Objek membahas konsep dasar Pemrograman Berorientasi Objek (OOP), struktur Class dan Object dalam OOP, konsep Enkapsulasi, Inheritance, Abstraksi, dan Polimorfisme dalam OOP serta dasar-dasar pembuatan antarmuka pengguna grafis (GUI), JDBC, dan berbagai API yang tersedia dalam Java"""
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK13,Programming Language,CPMK704,Mampu menganalisis kebutuhan pemecahan masalah dan mengembangkan program menggunakan berbagai bahasa dan paradigma pemrograman secara tepat guna,,Menganalisis kebutuhan masalah dan merancang solusi program dengan memodelkan entitas dan interaksinya menggunakan konsep dasar Pemrograman Berorientasi Objek,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Menganalisis studi kasus masalah dunia nyata (misal: sistem inventaris, aplikasi perpustakaan mini) untuk mengidentifikasi entitas, atribut, dan perilaku, lalu mentransformasikannya menjadi rancangan class dan object.","1. Penilaian Formatif (40%)
+- Kuis Singkat: Pemahaman konseptual tentang perbedaan class/object, enkapsulasi, dan polimorfisme.
+2. Penilaian Sumatif (60%)
+- Dokumen Analisis & Desain (20%): Identifikasi kebutuhan dan diagram class.","1. Kualitas Analisis & Perancangan (30%)
+2. Kualitas Implementasi Konsep (50%)
+3. Kualitas Hasil Akhir & Presentasi (20%)","1. Konsep Pemrograman Berorientasi Objek
+2. Class 
+3. Object",,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder",BK25,Software Process,CPMK606,Mampu mengelola proses deployment dan menyusun rencana memelihara perangkat lunak sesuai dengan metodologi siklus hidup pengembangan (SDLC).,,Merancang dan mengimplementasikan struktur kelas dengan prinsip enkapsulasi dan antarmuka (interface) yang jelas untuk memfasilitasi proses deployment yang konsisten dan perawatan (maintenance) perangkat lunak yang lebih mudah dalam siklus pengembangannya,Guided Practice (Latihan Terbimbing),"
+Praktikum yang menggabungkan pemrograman (menerapkan interface, mengakses DB),","1. Penilaian Proses & Partisipasi (30%):
+- Kontribusi dalam diskusi role-playing dan analisis studi kasus.
+2. Penilaian Produk & Proyek (70%):
+Menganalisis kode legacy yang diberikan, mengusulkan perbaikan dengan enkapsulasi dan interface, serta membuat rencana deployment incremental","1. Pemahaman Konseptual  (25%)
+2. Kualitas Desain & Implementasi (50%)","4. Enkapsulasi
+8. Interface
+",,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,,"Mengimplementasikan integrasi antar subsistem dalam solusi sistem informasi melalui penggunaan interface yang terdefinisi dengan baik dan API, serta merancang layer presentasi (GUI) dan persistensi data (database) yang sesuai dengan kebutuhan pengguna dan arsitektur sistem.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"
+Mahasiswa membangun aplikasi desktop/CRUD sederhana (misal: Sistem Manajemen Perpustakaan, Toko Buku) dari nol yang mengharuskan integrasi ketiga komponen: GUI (JavaFX/Swing), Business Logic (Java dengan Interface), Database (JDBC/SQLite). ","1. Penilaian Proses & Partisipasi (30%)
+- Kehadiran & Kontribusi Diskusi
+2. Penilaian Produk Akhir & Ujian (70%)
+- Dokumen Desain (15%): Diagram kelas (dengan interface), diagram arsitektur, skema database.
+- Implementasi Kode (35%): Aplikasi berfungsi dengan GUI, logika bisnis menggunakan interface, dan database persisten.
+- Ujian Praktek Terstruktur (20%): Ujian lab dimana mahasiswa diminta menambahkan fitur baru (misal: integrasi dengan file CSV menggunakan Java I/O API) ke kode dasar yang diberikan, dengan memperhatikan prinsip interface.","1. Kualitas Desain Arsitektur & Penggunaan Interface (35%)
+2. Keterampilan Teknis Implementasi (40%)
+3. Kelengkapan, Fungsi, & Dokumentasi (25%)","8. Interface
+9. JAVA API
+10.Pengenalan GUI dan Database",,,
+"M. Hasyim Ratsanjani, S.Kom., M.Kom.
+",MK026,Praktikum Pemrograman Berbasis Objek,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK26,Systems Analysis & Design,CPMK211,"Menerapkan metodologi analisis dan desain sistem secara terstruktur untuk mentransformasi kebutuhan stakeholder menjadi spesifikasi teknis yang komprehensif bagi pengembangan aplikasi multi-platform, dengan menghasilkan artefak desain yang mencakup aspek fungsional, non-fungsional, dan arsitektural yang dapat diimplementasikan",,,,,,,,"5.1.3.1 SUBCPMK1
+Mahasiswa mampu menguasai Konsep OOP, Class dan Object, Enkapsulasi, Inheritance, Abstraksi, Polimorfisme, GUI, database (JDBC), dan Java API
+5.1.3.2 SUBCPMK2
+Mahasiswa mampu memahami perbedaan OOP dan struktural;
+5.1.3.3 SUBCPMK3
+Mampu membuat desain aplikasi menggunakan konsep dan prinsip OOP.
+","1. Konsep Pemrograman Berorientasi Objek
+2. Class
+3. Object
+4. Enkapsulasi
+5. Inheritance
+6. Polimorfisme
+7. Abstract Class 
+8. Interface
+9. API
+10. Pengenalan GUI dan database 
+","Mata kuliah Pemrograman Berbasis Objek membahas konsep dasar Pemrograman Berorientasi Objek (OOP), struktur Class dan Object dalam OOP, konsep Enkapsulasi, Inheritance, Abstraksi, dan Polimorfisme dalam OOP serta dasar-dasar pembuatan antarmuka pengguna grafis (GUI), JDBC, dan berbagai API yang tersedia dalam Java"""
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK13,Programming Language,CPMK704,Mampu menganalisis kebutuhan pemecahan masalah dan mengembangkan program menggunakan berbagai bahasa dan paradigma pemrograman secara tepat guna,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,,,,,,,,,,
+"Farida Ulfa, S.Pd., M.Pd.
+",MK027,Bahasa Inggris 2,"(CPL03)
+Memiliki kemampuan (pengelolaan) manajerial tim dan kerja sama (team work), manajemen diri, mampu berkomunikasi baik lisan maupun tertulis dengan baik dan mampu melakukan presentasi.",BK30,Pengembangan Diri,CPMK303,"Mampu mengembangkan diri secara berkelanjutan melalui komunikasi lisan dan tertulis yang efektif dalam konteks akademik dan profesional, presentasi diri dan ide secara percaya diri, serta pengelolaan karir dan kinerja di lingkungan kerja nyata.",SPCMK303-02701,"Mahasiswa mampu berkomunikasi dengan menggunakan bahasa Inggris secara lisan dan tulisan dalam konteks Teknik Informatika.
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Diskusi kelompok, latihan komunikasi lisan dan tulisan","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Partisipasi, Quiz, Tes Tulis (UTS), Tes Tulis (UAS)",Ketepatan komunikasi lisan dan tulisan dalam konteks Teknik Informatika,"Programming, Database, Computer Security - kosakata dan tata bahasa (if-clause, simple past tense) dalam konteks Teknik Informatika","3.2.1.1 SUBCPMK1 Mahasiswa mampu menerapkan pengetahuan tentang teknik berkomunikasi lisan dan tulisan menggunakan bahasa Inggris dalam konteks Teknik Informatika.
+
+3.2.1.2 SUBCPMK2 Mahasiswa mampu berkomunikasi dengan menggunakan bahasa Inggris secara lisan dan tulisan dalam konteks Teknik Informatika.
+
+3.2.1.3 SUBCPMK3 Mampu menyampaikan opini, argumentasi, pertanyaan, dan jawaban menggunakan bahasa Inggris dalam kegiatan diskusi atau presentasi akademik.
+
+","Topic 1: Programming 
+1.1 Stages in Programming
+1.2 Flowcharting
+1.3 Programming Language
+1.4 Grammatical Functions: Reporting Screen Message
+ 
+Topic 2: Database
+2.1. Database Basics
+2.2. Grammatical Functions:  If-Clause 
+2.3. Data Processing
+2.4. Data Storage Device
+
+Topic 3: Computer Security
+3.1. Computer Threats and Safety
+3.2. Grammatical Functions: Simple Past Tense 
+
+Topic 4: E-commerce
+4.1. Online Shopping and Transactions
+4.2. Online Shop Features
+4.3. Grammatical Functions: Nouns, Adverbs of Quantity, and Linking Ideas
+4.4. Online Transaction Security
+
+Topic 5: E-Publishing: Product Page
+5.1. Product Page
+5.2. Product Descriptions
+5.3. Grammatical Functions Used in Describing Products
+
+Topic 6: Recent Developments in Information Technology 
+6.1. Video Games
+6.2. Other Current Developments in IT
+6.3. Grammatical Functions: Simple Future Tense
+6.4. Writing a Summary of an IT-related Article
+","Nama mata kuliah ini adalah Bahasa Inggris 2 diajarkan untuk mahasiswa Program Studi Teknik Informatika yang difokuskan pada melatihan kemampuan dan kecakapan mereka dalam Listening, Speaking, Reading, dan Writing secara terintegrasi dalam konteks Teknik Informatika. Sehingga topik-topik pada materi ini disesuaikan dengan konteks bidang Informatika yang dapat diterapkan dalam kehidupan sehari-hari dan di dunia kerja kelak. Metode yang dilakukan selama proses belajar-mengajar meliputi ceramah, diskusi, role play, presentasi, debat, dan project individu maupun kelompok, dan dilakukan secara luring.  Mata kuliah ini juga mendukung penerapan Case Method dan Project Based Learning yang direncanakan tim kurikulum setiap semester-nya"
+,,,,,,,,SPCMK303-02702,"Mampu menyampaikan opini, argumentasi, pertanyaan, dan jawaban menggunakan bahasa Inggris dalam kegiatan diskusi atau presentasi akademik.",Guided Practice (Latihan Terbimbing),"Latihan terbimbing, presentasi individu/kelompok","Partisipasi, Unjuk Kerja (Presentasi), Quiz, Tes Tulis (UTS), Tes Tulis (UAS)",Ketepatan penyampaian opini dan argumentasi secara lisan dan tulisan dalam presentasi akademik,"E-commerce, E-Publishing, dan Recent Developments in IT - kosakata dan grammatical functions untuk presentasi akademik",,,
+"Ulla Delfana Rosiani, ST., MT., Dr.",MK028,Sistem Pendukung Keputusan,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK18,Intelligent Systems,CPMK706,"Mampu merancang, mengimplementasikan, dan mengevaluasi sistem cerdas dengan menerapkan algoritma kecerdasan artifisial dan pembelajaran mesin untuk pemodelan, analisis data, dan pengambilan keputusan",SPCMK706-02801,"Mahasiswa mampu merancang, mengimplementasikan dan menganalisa penerapan metode sistem pendukung keputusan pada kasus yang ada",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, praktikum studi kasus SPK","Quiz, Observasi (Praktik/ Tugas), Tes Tulis (UTS), Tes Lisan (Tugas Kelompok), Unjuk Kerja (Presentasi)",Ketepatan perancangan dan implementasi metode SPK pada studi kasus yang diberikan,"Pengantar SPK, Weighted Product, Analytic Hierarchy Process, TOPSIS, ELECTRE, Fuzzy Inference System, Group Decision Support System","8.2.1.1 SUPCPMK 1 Mahasiswa mampu memahami konsep dan aplikasi dari Pengantar SPK, Karakteristik dan Komponen SPK, Weighted Product, Analytic Hierarchy Process, Profil Matching, TOPSIS, ELECTRE, Pengantar Fuzzy, Fuzzy Inference System, Group Decision Support System; 8.2.1.2 SUPCPMK 2 Mahasiswa mampu menerapkan algoritma SPK yang sudah diajarkan dalam beberapa contoh latihan studi kasus yang sederhana; 8.2.1.3 SUPCPMK 3 Mahasiswa mampu merancang aplikasi sederhana yang menerapkan konsep pendukung keputusan secara sistematis;","Pengantar SPK, Model Sistem, Metode SAW, Metode AHP, Metode MOORA, Metode Electre, Metode TOPSIS, GDSS, dan Fuzzy.        ","Mata kuliah ini membahas SPK, teknologi pembentuknya dan beragam metode untuk pengolahan berama bentuk data, dan metode pengembangan SPK guna menunjang pihak manajemen dalam pengambilan keputusan pada semua tingkatan manajemen"
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1005,"Mampu mengembangkan dan mengevaluasi solusi sistem cerdas berdasarkan aspek kinerja, keandalan, interpretabilitas, dan kesesuaian solusi terhadap kebutuhan domain aplikasi.",SPCMK1005-02802,"Mahasiswa mampu mengevaluasi kinerja, keandalan, dan kesesuaian solusi sistem cerdas pada kasus yang memerlukan sistem pendukung keputusan",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Praktikum, presentasi evaluasi sistem","Quiz, Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Tes Tulis (UTS), Tes Lisan (Tugas Kelompok)","Ketepatan evaluasi kinerja, keandalan, dan kesesuaian solusi SPK terhadap kebutuhan",Evaluasi kinerja dan keandalan sistem pendukung keputusan berbasis studi kasus,,,
+"Farid Angga Pribadi, S.Kom., M.Kom",MK029,Analisis Dan Desain Berorientasi Objek,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,Computing Systems Fundamentals,CPMK208,"Menganalisis kebutuhan komputasi dari solusi aplikasi multi-platform dan memilih arsitektur computing system yang sesuai dengan mempertimbangkan interaksi antara hardware, sistem operasi, dan aplikasi",SCPMK208-029001,"Mahasiswa mampu merancang struktur dan komponen perangkat lunak berorientasi objek menggunakan class diagram dan advanced class diagram UML sebagai blueprint desain yang modular, maintainable, dan scalable.",Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, praktikum pemodelan UML, diskusi studi kasus","Tugas, Unjuk Kerja (Presentasi), Tes Tulis (UTS)",Ketepatan dan kelengkapan class diagram serta advanced class diagram sebagai blueprint desain,"Introduction, Modeling a System's Logical Structure: Class Diagrams dan Advanced Class Diagrams","Sub-CPMK 7.1.1.1 Mahasiswa mampu menerapkan berbagai model diagram UML yang digunakan pada proses pengembangan produk TIK secara mandiri
+
+Sub-CPMK 7.1.1.2 Mahasiswa mampu menganalisis sebuah permasalahan dan membuat desain perancangan perangkat lunak pada domain aplikasi tertentu sebagai bentuk solusi yang bermutu
+
+Sub-CPMK 7.1.1.3 Mahasiswa mampu menguasai konsep analisis dan desain perangkat lunak dengan pendekatan berorientasi objek secara mendalam
+","1. Introduction
+2. Modeling Requirements: Domain Model
+3. Modeling Requirements: Use Cases
+4. Modeling Requirements: Use Cases Description
+5. Robustness Analysis
+6. Modeling System Workflows: Activity Diagrams
+7. Modeling Requirements: Domain Model Updated
+8. Modeling Ordered Interactions: Sequence Diagrams
+9. Modeling a System's Logical Structure: Introducing Classes and Class Diagrams
+10. Modeling a System's Logical Structure: Advanced Class Diagrams
+11. Modeling an Object's State: State Machine Diagrams
+12. Modeling Your Deployed System: Deployment Diagrams
+","Mata kuliah ini adalah bagian dari unit kompetensi yang harus dikuasai oleh seorang calon analis pengembangan sistem aplikasi perangkat lunak, sedemikian sehingga mampu menghasilkan dokumen perancangan perangkat lunak berorientasi objek, yang siap digunakan oleh para programmer untuk mengimplementasikannya dalam berbagai bahasa pemrograman yang dibutuhkan."
+,,,,,,,,SCPMK208-029002,"Mahasiswa mampu menganalisis kebutuhan sistem dan alur proses aplikasi melalui use case, activity diagram, dan deployment diagram untuk menggambarkan keterkaitan proses bisnis, sistem, dan lingkungan eksekusi.",Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, praktikum pemodelan UML, diskusi studi kasus","Tugas, Unjuk Kerja (Presentasi)","Ketepatan pemodelan use case, activity diagram, dan deployment diagram terhadap kebutuhan sistem","Modeling Requirements: Use Cases, Modeling System Workflows: Activity Diagrams, Modeling Your Deployed System: Deployment Diagrams",,,
+,,,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",BK26,Systems Analysis & Design,CPMK211,"Menerapkan metodologi analisis dan desain sistem secara terstruktur untuk mentransformasi kebutuhan stakeholder menjadi spesifikasi teknis yang komprehensif bagi pengembangan aplikasi multi-platform, dengan menghasilkan artefak desain yang mencakup aspek fungsional, non-fungsional, dan arsitektural yang dapat diimplementasikan",SCPMK211-029001,"Mahasiswa mampu mentransformasikan kebutuhan stakeholder menjadi spesifikasi teknis sistem melalui domain model, use case description, dan robustness analysis secara terstruktur dan konsisten.",Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, praktikum analisis kebutuhan, diskusi studi kasus","Tugas, Tes Tulis (UTS)",Ketepatan transformasi kebutuhan stakeholder menjadi spesifikasi teknis melalui domain model dan robustness analysis,"Modeling Requirements: Domain Model, Use Cases Description, Robustness Analysis",,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK10,Software Design,CPMK602,Mampu merancang arsitektur dan komponen perangkat lunak secara sistematis menggunakan pola desain yang sesuai dengan kebutuhan stakeholder,SCPMK602-029001,Mahasiswa mampu memodelkan interaksi dan perilaku objek dalam sistem menggunakan sequence diagram dan state machine diagram sebagai dasar perancangan arsitektur perangkat lunak.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Praktikum pemodelan interaksi objek, presentasi proyek","Unjuk Kerja (Presentasi), Tugas",Ketepatan pemodelan interaksi dan perilaku objek menggunakan sequence diagram dan state machine diagram,"Modeling Ordered Interactions: Sequence Diagrams, Modeling an Object's State: State Machine Diagrams",,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,CPMK607-029001,"Mahasiswa mampu menganalisis proses bisnis organisasi dan integrasi sistem menggunakan activity diagram, domain model, dan pemodelan UML terintegrasi untuk merepresentasikan sistem informasi yang kompleks.",Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Ceramah, diskusi studi kasus integrasi sistem","Tugas, Tes Tulis (UAS)",Ketepatan analisis proses bisnis dan integrasi sistem informasi melalui pemodelan UML terintegrasi,"Modeling Requirements: Domain Model Updated, pemodelan UML terintegrasi untuk sistem informasi kompleks",,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK29,Software Modeling and Analysis,CPMK609,Mampu merancang model pemodelan perangkat lunak yang akurat untuk memastikan desain teknis memenuhi seluruh spesifikasi kebutuhan stakeholder.,CPMK609-029001,Mahasiswa mampu menyusun dan mengevaluasi dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) berdasarkan hasil pemodelan UML secara lengkap dan siap diimplementasikan.,Pembelajaran Berbasis Masalah (Problem Based Learning/PBL),"Praktikum penyusunan dokumen SKPL, presentasi","Tugas, Unjuk Kerja (Presentasi), Tes Tulis (UAS)",Kelengkapan dan kesesuaian dokumen SKPL terhadap hasil pemodelan UML,Penyusunan Spesifikasi Kebutuhan Perangkat Lunak (SKPL) berdasarkan pemodelan UML,,,
+"Rizki Putri Ramadhani, S.S., M.Pd.
+",MK030,Bahasa Indonesia,,,,CPMK307,"Mahasiswa mampu berkomunikasi secara lisan dan menulis karya ilmiah dalam Bahasa Indonesia yang baik dan benar sesuai kaidah EYD, menggunakan bahasa baku dan struktur yang sistematis dalam konteks profesional.",,,,,,,,,"1. Wawasan tentang bahasa Indonesia.
+2. Bahasa resmi dan tidak resmi.
+3. Ejaan bahasa Indonesia dan pemilihan kata.
+4. Menulis pesan singkat dan surat elektronik ragam resmi.
+5. Bertelepon ragam resmi dan wawancara kerja.
+6. Menulis lamaran pekerjaan dan daftar riwayat hidup.
+7. Berpresentasi.
+8. Karya tulis ilmiah (proposal penelitian, skripsi, dan artikel ilmiah)
+9. Pengutipan.
+10. Penulisan proposal penelitian mini.
+11. Penyuntingan mandiri.
+
+","Mata kuliah Bahasa Indonesia merupakan mata kuliah yang melatihkan keterampilan berbahasa lisan dan tulis ragam resmi dalam konteks menulis pesan singkat dan surat elektronik, bertelepon, melamar pekerjaan, wawancara kerja, presentasi, dan menulis karya ilmiah."
+,,,,,,CPMK308,Mahasiswa mampu mempresentasikan ide dan hasil kerja secara efektif serta melakukan komunikasi interpersonal dan public speaking yang etis dan profesional menggunakan Bahasa Indonesia.,,,,,,,,,,
+"Vipkas Al Hadid Firdaus, S.T., M.T",MK031,Kecerdasan Artifisial,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK18,Intelligent Systems,CPMK706,"Mampu merancang, mengimplementasikan, dan mengevaluasi sistem cerdas dengan menerapkan algoritma kecerdasan artifisial dan pembelajaran mesin untuk pemodelan, analisis data, dan pengambilan keputusan",SubCPMK-3101,Mampu menjelaskan konsep dasar kecerdasan artifisial serta menganalisis persoalan menggunakan berbagai Algoritma secara sistematis dan logis,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Diskusi, Tutorial",Tes Tulis (UTS),Ketepatan penjelasan konsep dan akurasi perumusan strategi pencarian,"Konsep dasar kecerdasan artifisial, strategi pencarian (searching), dan algoritma penyelesaian masalah",,,
+,,,,,,,,SubCPMK-3102,Mampu merancang representasi pengetahuan dan model agen cerdas untuk mengidentifikasi solusi pada domain permasalahan tertentu,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Studi Kasus,Observasi (Praktik/ Tugas),Kedalaman analisis representasi dan kesesuaian model agen terhadap masalah,Representasi pengetahuan dan model agen cerdas (intelligent agent),,,
+,,,,,,,,SubCPMK-3103,q,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Perancangan, Praktikum","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)","Kualitas kode program, akurasi model, dan sistematika laporan",Perancangan dan implementasi model machine learning sederhana untuk pemodelan dan analisis data,,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1005,"Mampu mengembangkan dan mengevaluasi solusi sistem cerdas berdasarkan aspek kinerja, keandalan, interpretabilitas, dan kesesuaian solusi terhadap kebutuhan domain aplikasi.",SubCPMK-3104,"Mampu mengembangkan dan mengevaluasi solusi sistem cerdas terapan pada berbagai domain aplikasi nyata dengan mempertimbangkan aspek reliabilitas, interpretabilitas, dan kebutuhan stakeholder",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Perancangan, Pengembangan Produk","Presentasi Proyek, Dokumentasi, UAS","Kemampuan komunikasi, fungsionalitas produk, dan kesesuaian solusi terhadap domain","Studi kasus penerapan sistem cerdas pada domain aplikasi nyata: reliabilitas, interpretabilitas, dan kebutuhan stakeholder",,,
+"Sofyan Noor Arief, S.ST., M.Kom.
+",MK032,"Jaringan Komputer
+",CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,BK08,Computer Networks,CPMK901,Mahasiswa mampu menjelaskan dan menganalisis cara kerja sistem komputer beserta komponen utamanya.,,,,,,,,,,
+,,,CPL05,BK08,Computer Networks,CPMK504,"Mampu membangun dan mengelola infrastruktur jaringan komputer dengan memilih arsitektur, protokol, dan teknik konfigurasi yang sesuai kebutuhan sistem.",,"Mampu menguasai konsep Jaringan Komputer dalam bidang TIK secara mendalam; Mampu menguasai metode pada proses
+komunikasi jaringan; Mampu menerapkan konsep Jaringan Komputer secara mandiri, bermutu, terukur, dan dengan sikap bertanggung jawab; Mampu menggunakan perangkat bantu dalam menerapkan komunikasi jaringan dengan memperhatikan nilai, norma, dan etika akademik.",,,,,,,,
+"Sofyan Noor Arief, S.ST., M.Kom.
+",MK033,Praktikum Jaringan Komputer,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,BK08,Computer Networks,CPMK901,Mahasiswa mampu menjelaskan dan menganalisis cara kerja sistem komputer beserta komponen utamanya.,,,,,,,,,,
+,,,CPL05,BK08,Computer Networks,CPMK504,"Mampu membangun dan mengelola infrastruktur jaringan komputer dengan memilih arsitektur, protokol, dan teknik konfigurasi yang sesuai kebutuhan sistem.",,,,,,,,,,
+"Moch Zawaruddin Abdullah, S.ST., M.Kom.",MK034,Pemrograman Web Lanjut,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK19,Platform-Based Development,CPMK06,"Mampu mengevaluasi dan mengembangkan aplikasi berbasis web dan mobile dengan mempertimbangkan aspek arsitektur, performa, integrasi layanan, dan pengalaman pengguna.",,,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),jobsheet dan praktik pengembangan perangkat lunak,"Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Quiz, Partisipasi","kemampuan menganalisis kasus, kemampuan menjelaskan proses bisnis, kemampuan pemrogaman",,"7.3.2.1 SUBCPMK1
+Mahasiswa mampu menggunakan metode pengembangan aplikasi berbasis website sebagai sebuah solusi pemecahan masalah
+7.3.2.2 SUBCPMK2
+Mahasiswa mampu menerapkan perangkat bantu pengembangan aplikasi berbasis website
+7.3.2.3 SUBCPMK3
+Mahasiswa mampu membuat aplikasi berbasis website yang bermutu","1. Pengenalan Web Framework
+2. Routing, Controller, View
+3. Migration
+4. Eloquent ORM
+5. Blade View, Web Layout, dan Datatables
+6. Template Form (AdminLTE), Client Validation, Server Validation
+7. Authentication dan Authorization
+8. File Import dan Export
+9. API","Mata kuliah Pemrograman Web Lanjut membahas pengembangan sistem berbasis web dengan menggunakan framework PHP Laravel. Mahasiswa akan mempelajari berbagai konsep penting dalam pengembangan aplikasi web modern, termasuk arsitektur MVC (Model-View-Controller), routing, middleware, database migration, serta implementasi fitur autentikasi dan otorisasi. Selain itu, mata kuliah ini juga mengajarkan teknik optimasi performa aplikasi, penerapan standar keamanan, dan pengelolaan API menggunakan Laravel."
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK19,Platform-based Development,CPMK603,"Mampu mengimplementasikan dan melakukan deployment aplikasi perangkat lunak pada platform web, mobile, atau framework secara fungsional.",,,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),jobsheet dan praktik pengembangan perangkat lunak,"Quiz, Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Partisipasi","kemampuan melakukan deployment aplikasi, kemampuan dalam mengelola sistem",,,,
+"Pramana Yoga Saputra, S.Kom., MMT.
+Deasy Sandhya Elya Ikawati, S.Si, M. Si",MK035,Statistik Komputasi,CPL09        Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,BK20,Computational Science,CPMK902,"Mahasiswa mampu menguasai prinsip matematika, ilmu alam dan struktur diskrit serta menerapkan pendekatan komputasional sebagai dasar analisis terhadap permasalahan.",CPMK902-00101,"Mahasiswa mampu menerapkan konsep statistika deskriptif dan inferensial (pemusatan data, persebaran data, probabilitas, dan pengujian hipotesis) untuk menganalisis data dalam pendekatan komputasional.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah interaktif, praktikum pengolahan data, diskusi studi kasus","Quiz, Tugas, Tes Tulis (UTS), Tes Tulis (UAS)","Ketepatan pengolahan dan penyajian data, ketepatan pengujian hipotesis dan interpretasi hasil analisis statistik","Pengumpulan dan penyajian data, pemusatan dan persebaran data, probabilitas dan distribusi data, statistik inferensial, uji normalitas dan homogenitas, analisis korelasi, varians, dan regresi",,"•	Pengenalakan statistika
+•	Pengumpulan data
+•	Penyajian data
+•	Pemusatan data
+•	Persebaran data
+•	Probabilitas
+•	Distribusi data
+•	Statistik inferensial
+•	Populasi, sampel dan proporsi
+•	Hipotesis
+•	Uji normalitas
+•	Uji homogenitas
+•	Analisis korelasi
+•	Analisis varians
+•	Analisis regresi","Pada mata kuliah statistika mahasiswa akan dipelajari konsep dasar statistika. Mahasiswa juga diajarkan untuk dapat mengumpulkan dan merepresentasikan data dengan menggunakan perangkat lunak. Selanjutnya, pada mata kuliah ini, mahasiswa akan diajarkan bagaimana cara memproses data yang sudah dikumpulkan. Pada mata kuliah ini, mahasiswa juga akan dibekali dengan  pengetahuan untuk menganalisa data. Selain itu, pada mata kuliah statistika mahasiswa juga dibiasakan menggunakan perangkat lunak untuk mengolah dan menganalisa data"
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",,,CPMK707,"Mahasiswa mampu memodelkan, mensimulasikan, dan menganalisis permasalahan menggunakan metode statistika komputasi dan pendekatan numerik",,,,,,,,,,
+"Endah Septa Sintiya. SPd., MKom.",MK036,Proyek Sistem Informasi,"(CPL03) Mampu mengelola tim, manajemen diri, berkomunikasi secara lisan maupun tertulis dengan baik dan mampu melakukan presentasi.","BK03
+BK01","Project Management
+Social Issues and Professional Practice",CPMK301,"Mampu mengelola diri dan bekerja sama secara profesional dengan menerapkan etika profesi, komunikasi efektif lisan dan tertulis, serta mempresentasikan ide dan hasil kerja secara bertanggung jawab dalam konteks akademik dan praktik profesional.",SCPMK301-00101,"Mampu menerapkan etika profesi, manajemen diri, dan kerja sama tim secara profesional dalam konteks akademik dan praktik profesional.",Diskusi Kelompok (Small Group Discussion) ,"Mahasiswa bekerja dalam kelompok kecil untuk mendiskusikan topik atau studi kasus, bertukar ide, dan menyusun solusi secara kolaboratif. Kegiatan ini melatih kerja sama tim, komunikasi efektif, berpikir kritis, serta tanggung jawab akademik melalui presentasi singkat hasil diskusi.","Unjuk Kerja (Presentasi), Observasi (Praktik/ Tugas), Tes Lisan (Tugas Kelompok), Quiz","Sikap profesional & etika akademik: 25%
+
+Manajemen diri (kesiapan & ketepatan waktu): 25%
+
+Kerja sama dan peran tim: 25%
+
+Tanggung jawab dalam penyampaian & menjawab pertanyaan: 25%
+
+Jenis tes: Unjuk kerja (presentasi kelompok)",Konsep proyek dan manajemen proyek,,,
+,,,,,,,,SCPMK301-00102,"Mampu berkomunikasi dan mempresentasikan ide serta hasil kerja secara efektif, lisan maupun tertulis, dengan penuh tanggung jawab.",Diskusi Kelompok (Small Group Discussion) ,"Mahasiswa bekerja dalam kelompok kecil untuk mendiskusikan topik atau studi kasus, bertukar ide, dan menyusun solusi secara kolaboratif. Kegiatan ini melatih kerja sama tim, komunikasi efektif, berpikir kritis, serta tanggung jawab akademik melalui presentasi singkat hasil diskusi.","Unjuk Kerja (Presentasi), Tes Tulis (UTS)","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)","Integration Management,",,,
+,,,,,,,,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK10,Software Design,CPMK602,Mampu merancang arsitektur dan komponen perangkat lunak secara sistematis menggunakan pola desain yang sesuai dengan kebutuhan stakeholder,CPMK602-00101,Mampu menganalisis kebutuhan stakeholder sebagai dasar perancangan arsitektur perangkat lunak.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Tes Tulis (UTS)","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Stakeholder Management,,"1.        Pengenalan proyek sistem informasi
+2.        Analisa kebutuhan proyek sistem informasi
+3.        Perancangan proyek sistem informasi
+4.        Implementasi proyek sistem informasi
+5.        Pengujian proyek sistem informasi
+6.        Deployment proyek sistem informasi
+
+","Matakuliah ini merupakan matakuliah capstone yang menggabungkan beberapa kompetensi dari matakuliah-matakuliah yang lain. Spesifikasi proyek berupa sistem informasi berbasis web berbasis framework. Tahapan pelaksanaan proyek ini mencakup: Inisiasi proyek, Pengajuan ide proyek, Penentuan ruang lingkup proyek, Penggalian kebutuhan, Perancangan sistem, Implementasi, Pengujian, Pembuatan Dokumentasi Detail dari tiap tahap pengembangan dan Diseminasi. Proyek ini dikerjakan secara berkelompok dengan menerapkan collaboration tools dan repository system. Sistem informasi yang akan dibangun dilengkapi dengan fasilitas untuk pendukung keputusan serta visualisasi data berbasis business intelligence.Matakuliah ini merupakan matakuliah capstone yang menggabungkan beberapa kompetensi dari matakuliah-matakuliah yang lain. Spesifikasi proyek berupa sistem informasi berbasis web berbasis framework. Tahapan pelaksanaan proyek ini mencakup: Inisiasi proyek, Pengajuan ide proyek, Penentuan ruang lingkup proyek, Penggalian kebutuhan, Perancangan sistem, Implementasi, Pengujian, Pembuatan Dokumentasi Detail dari tiap tahap pengembangan dan Diseminasi. Proyek ini dikerjakan secara berkelompok dengan menerapkan collaboration tools dan repository system. Sistem informasi yang akan dibangun dilengkapi dengan fasilitas untuk pendukung keputusan serta visualisasi data berbasis business intelligence."
+,,,,,,,,CPMK602-00102,Mampu merancang arsitektur dan komponen perangkat lunak secara sistematis dengan menerapkan pola desain yang sesuai.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Quiz","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Resource Management & Procurement Management,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK10
+BK22
+BK24
+BK25
+BK28
+BK29","Software Design
+Human Computer Interaction
+Software Development Fundamentals
+Software Process
+Software Quality, Verification & Design
+Software Modeling and Analysis",CPMK802,"Mampu mengelola proses rekayasa perangkat lunak dan desain antarmuka (UI/UX) dalam siklus hidup proyek, termasuk penerapan metodologi pengembangan dan prinsip penjaminan mutu (SQA) untuk menghasilkan produk yang berkualitas dan berpusat pada pengguna.",CPMK802-00101,Mampu menerapkan metodologi pengembangan perangkat lunak dalam pengelolaan siklus hidup proyek secara sistematis.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Quiz","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)","Project scope management, Project time management",,,
+,,,,,,,,CPMK802-00102,Mampu merancang dan mengevaluasi desain antarmuka (UI/UX) dengan menerapkan prinsip penjaminan mutu (SQA) untuk menghasilkan produk yang berkualitas dan berpusat pada pengguna.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Quiz","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)","Cost Management, Quality Management",,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK03
+BK01","Project Management
+Social Issues and Professional Practice",CPMK803,"Mampu melaksanakan, memonitor, dan mengendalikan jalannya proyek menggunakan alat bantu (tools) manajemen, serta mengelola dinamika tim untuk mencapai tujuan proyek secara efisien.",CPMK803-00101,"Mampu menggunakan alat bantu (tools) manajemen proyek untuk melaksanakan, memonitor, dan mengendalikan aktivitas proyek.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Tes Tulis (UAS), Quiz","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Communications Management & Risk Management,,,
+,,,,,,,,CPMK803-00102,Mampu mengelola dinamika dan kinerja tim proyek secara profesional untuk mencapai tujuan proyek secara efisien.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Tes Tulis (UAS), Quiz","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Agile Principles in Software Development,,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK26,Systems Analysis & Design,CPMK1008,Mampu mengintegrasikan dan mengevaluasi hasil analisis dan desain sistem ke dalam pengembangan sistem dengan mempertimbangkan aspek teknis dan organisasi.,CPMK1008-00101,Mampu mengintegrasikan hasil analisis dan desain sistem ke dalam proses pengembangan sistem secara konsisten.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Tes Tulis (UAS)","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Project Closure,,,
+,,,,,,,,CPMK1008-00102,Mampu mengevaluasi pengembangan sistem dengan mempertimbangkan aspek teknis dan organisasi.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Pengerjaan proyek secara berkelompok untuk menerapkan konsep pada masalah nyata serta melatih kerja sama, manajemen proyek, dan tanggung jawab melalui evaluasi hasil proyek.","Unjuk Kerja (Presentasi), Tes Tulis (UAS)","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Simulation of software project development,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,CPMK607-00101,Mampu menganalisis kebutuhan organisasi sebagai dasar perancangan sistem informasi terintegrasi.,Diskusi Kelompok (Small Group Discussion) ,"Mahasiswa bekerja dalam kelompok kecil untuk mendiskusikan topik atau studi kasus, bertukar ide, dan menyusun solusi secara kolaboratif. Kegiatan ini melatih kerja sama tim, komunikasi efektif, berpikir kritis, serta tanggung jawab akademik melalui presentasi singkat hasil diskusi.","Unjuk Kerja (Presentasi), Tes Tulis (UAS)","Kejelasan dan sistematika penyampaian ide (lisan): 30%
+
+Kualitas media dan materi tertulis (struktur, bahasa, kerapian): 25%
+
+Ketepatan dan ketegasan dalam menjawab pertanyaan: 25%
+
+Tanggung jawab dan sikap profesional selama presentasi: 20%
+
+Jenis tes: Unjuk kerja (presentasi dan laporan tertulis)",Simulation of software project development,,,
+"Agung Nugroho Pramudhita, S.T., M.T.
+",MK037,Kewirausahaan Berbasis Teknologi,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK01,"Social Issues and Professional Practice
+",CPMK101,"Mampu menunjukkan profesionalisme melalui penerapan etika profesi TI, keselamatan kerja, kewirausahaan bertanggung jawab, rekayasa perangkat lunak ramah lingkungan, dan disiplin dalam penelitian maupun penerapan aplikasi teknologi",,,Diskusi Kelompok (Small Group Discussion) ,,Unjuk Kerja (Presentasi),,,,,
+,,,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",,,Self-Directed Learning (SDL),,Partisipasi,"kemampuan mahasiswa merumuskan ide bisnis digital yang relevan, menyusun Business Model Canvas yang konsisten, membuat business plan yang terstruktur dan berbasis data, serta melakukan analisis kelayakan bisnis secara tepat, ditambah penilaian presentasi dan proses kerja tim untuk memastikan mahasiswa mampu merancang dan mempertanggungjawabkan kelayakan bisnis digital yang mereka kembangkan.","Pengantar bisnis digital
+Identifikasi peluang dan ide bisnis digital
+Analisis kelayakan ide bisnis digital
+Pemasaran dan penjualan dalam bisnis digital
+Manajemen keuangan dalam bisnis digital
+Model bisnis dalam bisnis digital
+Panduan pembuatan rencana bisnis digital
+Validasi model bisnis dalam bisnis digital
+Inovasi model bisnis dalam bisnis digital
+Aspek legal dan properti intelektual dalam bisnis digital
+Strategi pertumbuhan bisnis berbasis teknologi",,,
+,,,,,,CPMK311,"Mahasiswa mampu mengidentifikasi peluang bisnis berbasis teknologi dan menyusun business model canvas, serta bekerja dalam tim untuk merancang dan mengembangkan konsep startup dengan menerapkan mindset entrepreneurial.",,,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),,"Unjuk Kerja (Presentasi), Observasi (Praktik/ Tugas)",,,,,
+,,,,,,CPMK312,Mahasiswa mampu mempresentasikan business pitch secara persuasif serta berkomunikasi dan bernegosiasi secara efektif dengan berbagai pihak dalam konteks bisnis teknologi.,,,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),,Unjuk Kerja (Presentasi),,,,,
+"Ulla Delfana Rosiani, S.T., M.T. Dr
+",MK038,Metodologi Penelitian,"(CPL04)
+Menyusun deskripsi saintifik hasil kajian implikasi pengembangan atau implementasi ilmu pengetahuan teknologi dalam bentuk skripsi atau laporan tugas akhir atau artikel
+ilmiah.",BK31,Metodologi Penelitian,CPMK403,"Mahasiswa mampu merumuskan masalah penelitian, menentukan metode yang tepat, serta menyusun proposal dan deskripsi saintifik penelitian sebagai dasar penulisan skripsi atau artikel ilmiah.",SCPMK403-03801,Mahasiswa mampu menggali permasalahan penelitian secara kritis dan inovatif serta menyusun proposal penelitian dengan memperhatikan kesahihan dan orisinalitas.,"Ceramah/Kuliah, Diskusi Kelompok, Metode Case","Ceramah, self-learning (V-Class), diskusi kelompok","Kuis, Tugas Proposal, Tes Tulis (UTS)","Ketepatan identifikasi masalah penelitian, kesahihan dan orisinalitas proposal yang disusun","Konsep dasar penelitian, tahapan penelitian computing, studi pustaka dan artikel ilmiah, identifikasi masalah, metode/teknik/instrumen penelitian","7.5.3.1 SUBCPMK1
+Mahasiswa mampu menggali permasalahan di masyarakat dan
+lingkungan, menggali kebutuhan, berfikir kritis dan inovatif dalam mencari solusi dan ide
+skripsi dengan memperhatikan kesahihan dan orisinalitas
+7.5.3.2 SUBCPMK2
+Mahasiswa mampu menuliskan ide dalam proposal skripsi; menyampaikan dan mempresentasikan secara lisan usulan skripsi; bekerjasama dan bertanggungjawab merealisasikan ide skripsi dan menghasilkan prototype, prosedur baku, desain, atau produk TIK lainnya; membuat dokumentasi, laporan dalam bentuk kertas kerja, mendemonstrasikan dan mempresentasikan proses dan hasil pekerjaan secara mandiri.","1 Konsep Dasar Penelitian
+2 Tahapan Penelitian Computing
+3 Studi Pustaka dan Artikel Ilmiah 1
+4 Studi Pustaka dan Artikel Ilmiah 2
+5 Kuis 1
+6 Identifikasi Masalah
+7 Metode, Teknik, dan Instrumen Penelitian
+8 CM dan UTS
+9 Pemodelan Sistem
+10 Analisis Kuantitatif dan Kualitatif
+11 Kode Etik dan Etika Penulisan
+12 Kuis 2
+13 Teknik Penulisan Proposal BAB 2
+14 Teknik Penulisan Proposal BAB 3
+15 Teknik Presentasi
+16 CM Penilaian Presentasi
+17 UAS
+
+METODE PEMBELAJARAN:
+1. Ceramah/Kuliah 
+2. Self-Learning (V-Class)
+3. Diskusi Kelompok
+4. Metode Case","Memahami dan mampu melakukan penelitian ilmiah dengan metodologi yang lengkap, runut, dan tepat."
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1009,Mampu mengkaji persoalan kompleks dan mengidentifikasi tahapan penyelesaian yang tepat berdasarkan kaidah ilmiah untuk menyelesaikan permasalahan pada bidang informatika.,SCPMK1009-03802,Mahasiswa mampu menuliskan proposal penelitian dan mempresentasikan usulan penelitian secara lisan sesuai kaidah ilmiah.,Diskusi Kelompok (Small Group Discussion) ,"Diskusi kelompok, presentasi proposal","Kuis, Unjuk Kerja (Presentasi), Tes Tulis (UAS)","Kejelasan dan kaidah ilmiah penulisan proposal, ketepatan presentasi usulan penelitian","Kode etik dan etika penulisan, teknik penulisan proposal (bab 2 & 3), teknik presentasi",,,
+"Agung Nugroho Pramudhita, S.T., M.T. ",MK039,Pemrograman Mobile,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK19,Platform-Based Development,CPMK06,"Mampu mengevaluasi dan mengembangkan aplikasi berbasis web dan mobile dengan mempertimbangkan aspek arsitektur, performa, integrasi layanan, dan pengalaman pengguna.",,,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),,"Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Tes Lisan (Tugas Kelompok)","Kebenaran implementasi program (berjalan sesuai spesifikasi), penggunaan algoritma sesuai dengan kasus dan kemampuan mengkomunikasikan pekerjaan yang telah dikerjakan","1. Pengantar Pemrograman Mobile
+2. Pemrograman Dasar Dart
+3. Dasar Framework Flutter
+4. Dasar Widget (Stateless dan Stateful)
+5. Layouting, Positioning, dan Styling
+6. Camera API
+7. State Management dan Streams
+8. RESTful API
+","7.3.3.1 Sub-CPMK1
+Mahasiswa mampu menjelaskan konsep pemrograman pada perangkat mobile
+7.3.3.2 Sub-CPMK2
+Mahasiswa mampu merancang dan mengembangkan produk TIK untuk memberikan solusi yang tepat melalui aplikasi berbasis mobile
+7.3.3.3 Sub-CPMK3
+Mahasiswa mampu menerapkan pemikiran logis dan kritis dalam mengembangkan aplikasi berbasis mobile sesuai dengan berbagai macam studi kasus yang diberikan
+7.3.3.4 Sub-CPMK4
+Mahasiswa mampu menggunakan perangkat bantu pengembangan aplikasi berbasis mobile
+","1. Pengantar Pemrograman Mobile
+2. Pemrograman Dasar Dart
+3. Dasar Framework Flutter
+4. Dasar Widget (Stateless dan Stateful)
+5. Layouting, Positioning, dan Styling
+6. Camera API
+7. State Management dan Streams
+8. RESTful API
+","Setelah mengikuti kuliah ini diharapkan mahasiswa dapat membangun aplikasi berbasis mobile dengan framework Flutter, mengelola project dengan version control (Git), memanfaatkan kamera, dan menggunakan komunikasi RESTful API."
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK19,Platform-based Development,CPMK603,"Mampu mengimplementasikan dan melakukan deployment aplikasi perangkat lunak pada platform web, mobile, atau framework secara fungsional.",,,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),,"Tes Lisan (Tugas Kelompok), Unjuk Kerja (Presentasi), Observasi (Praktik/ Tugas)",,,,,
+"Vipkas Al Hadid Firdaus, ST,. MT
+",MK040,Pembelajaran Mesin,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK18,Intelligent Systems,CPMK706,"Mampu merancang, mengimplementasikan, dan mengevaluasi sistem cerdas dengan menerapkan algoritma kecerdasan artifisial dan pembelajaran mesin untuk pemodelan, analisis data, dan pengambilan keputusan",,,,,,,,"8.1.4.1 SUBCPMK1 Mahasiswa mampu memahami konsep dasar pembelajaran mesin dan konsep data
+8.1.4.2 SUBCPMK2 Mahasiswa mampu membuat model pembelajaran mesin yang tepat sesuai dengan permasalahan
+8.1.4.3 SUBCPMK3 Mahasiswa mampu melakukan evaluasi kualitas model pembelajaran mesin sesuai dengan jenis model dan permasalahan
+8.1.4.4 SUBCPMK4 Mahasiswa mampu menyajikan (deploying) model pembelajaran mesin untuk menyelesaikan permasalahan","1. Konsep Dasar Pembelajaran Mesin
+2. Pemahaman Data (Data Understanding)
+3. Pra Pengolahan Data
+4. Ekstraksi Fitur dan Seleksi Fitur
+5. Model Klasterisasi
+6. Model Regresi
+7. Model Klasifikasi
+8. Model Neural Network dan Convolutional Neural Network
+9. Deployment Model
+",
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1005,"Mampu mengembangkan dan mengevaluasi solusi sistem cerdas berdasarkan aspek kinerja, keandalan, interpretabilitas, dan kesesuaian solusi terhadap kebutuhan domain aplikasi.",,,,,,,,,,
+"Rakhmat Arianto, S.ST., M.Kom., Dr.
+",MK041,Business Intelligence,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK17,Graphics and Visualization,CPMK705,Mampu merancang dan mengimplementasikan teknik pengolahan citra dan visualisasi data secara efektif untuk mengeksplorasi dan merepresentasikan pola informasi,,,,,,,,,"1.        Pengantar data warehouse
+2.        Dimensional dan multidimensional data
+3.        Functional dan non-functional requirement
+4.        Data modelling/ data warehouse scheme
+5.        Physical database design
+6.        Data extraction
+7.        Data transform and load
+8.        UTS
+9.        Data quality
+10.        Metadata
+11.        Konsep dan Jenis Visualisasi
+12.        Pengenalan Tools Visualisasi
+13.        Perancangan Dashboard
+
+","Setelah mengikuti kuliah ini diharapkan mahasiswa konsep dan teknik perancangan suatu media penyimpanan data dalam kuantitas besar yang disebut sebagai data warehouse, berikut bagaimana cara untuk mengisinya dengan data yang berasal dari berbagai sumber data dan memvisualisasikan data sebagai solusi analisis pemecahan masalah."
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",,,CPMK1004,"Mampu menganalisis permasalahan kompleks berbasis data dan visual untuk merancang serta menerapkan teknik visualisasi dan representasi grafis yang efektif dalam mendukung pemahaman, analisis, dan pengambilan keputusan.",,,,,,,,,,
+"Irsyad Arif Mashudi, S.Kom M.Kom
+",MK042,Penjaminan Mutu Perangkat Lunak,CPL05,BK23,Information Assurance and Security,CPMK508,"Mampu menerapkan prinsip information assurance dan teknik keamanan perangkat lunak untuk memastikan keandalan, integritas, dan ketahanan sistem terhadap risiko.",,,,,,,,"7.4.5.1 SUBCPMK1
+Mahasiswa mengenal konsep dasar algoritma serta mampu menganalisis permasalahan sederhana ke dalam bentuk algoritma
+7.4.5.2 SUBCPMK2
+Mahasiswa mampu memahami dan menerapkan konsep-konsep dasar pemrograman seperti tipe data, variabel, dan struktur dasar dalam pemrograman.
+7.4.5.3 SUBCPMK3
+Mahasiswa mampu memahami struktur kontrol seperti pemilihan (kondisi), dan perulangan untuk menyelesaikan permasalahan sederhana.","1. Pengantar Penjaminan Perangkat Lunak dan ISO
+2. Pendekatan, Tipe dan Level Pengujian
+3. Test Planning, Test Scenario dan Test Case
+4. Test Monitoring, Test Control dan Test Completion
+5. Functional Testing
+6. Non Functional Testing","Mata kuliah Penjaminan Mutu Perangkat Lunak memberikan pengetahuan dan pemahaman tentang konsep, prinsip, dan praktik dalam memastikan kualitas perangkat lunak melalui berbagai metode pengujian dan standar industri. Mahasiswa akan mempelajari strategi pengujian, dokumentasi pengujian, pengujian fungsional dan non-fungsional, serta implementasi praktis dalam lingkungan pengembangan perangkat lunak."
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder",BK24,Software Development Fundamentals,CPMK605,"Mampu mengimplementasikan prinsip dasar pengembangan dan memelihara kualitas kode program agar tetap bersih, efisien, dan berkelanjutan.",,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder",BK28,"Software Quality, Verification and Validation",CPMK608,Mampu merencanakan strategi pengujian serta menjamin mutu perangkat lunak melalui teknik verifikasi dan validasi yang terukur.,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder",BK25,Software Process,CPMK606,Mampu mengelola proses deployment dan menyusun rencana memelihara perangkat lunak sesuai dengan metodologi siklus hidup pengembangan (SDLC).,,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia","BK10
+BK22
+BK24
+BK25
+BK28
+BK29","Software Design
+Human Computer Interaction
+Software Development Fundamentals
+Software Process
+Software Quality, Verification & Design
+Software Modeling and Analysis",CPMK802,"Mampu mengelola proses rekayasa perangkat lunak dan desain antarmuka (UI/UX) dalam siklus hidup proyek, termasuk penerapan metodologi pengembangan dan prinsip penjaminan mutu (SQA) untuk menghasilkan produk yang berkualitas dan berpusat pada pengguna.",,,,,,,,,,
+"Mamluatul Hani'ah, S.Kom., M.Kom.
+",MK043,Pengolahan Citra Dan Visi Komputer,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK17,"Graphics and Visualization
+",CPMK705,Mampu merancang dan mengimplementasikan teknik pengolahan citra dan visualisasi data secara efektif untuk mengeksplorasi dan merepresentasikan pola informasi,SCPMK705-04301,Mahasiswa mampu mengidentifikasi karakteristik citra digital serta memanfaatkan perangkat lunak dan pustaka pemrograman untuk melakukan akuisisi dan visualisasi citra,Contextual Instruction (CI),"Ceramah,
+Demonstrasi tools & notebook,
+Praktikum terarah,
+Diskusi interpretasi visual","Quiz, Tes Tulis (UTS), Observasi (Praktik/ Tugas)","ketepatan menjelaskan konsep format citra, warna, resolusi; kesesuaian interpretasi dan penjelasan hasil visual citra","Pengantar Citra Digital dan Visi Komputer
+- Konsep dasar citra digital dan visi komputer
+- Pengenalan tools pendukung (GitHub, Google - Colaboratory, OpenCV, NumPy)
+- Membaca, menampilkan, dan visualisasi citra
+
+Representasi dan Karakteristik Citra Digital
+- Format citra dan model warna
+- Resolusi citra dan video
+- Aplikasi pengolahan citra digital","8.2.2.1 SUBCPMK1 Mahasiswa mampu mengidentifikasi karakteristik citra digital serta memanfaatkan perangkat lunak dan pustaka pemrograman untuk melakukan akuisisi dan visualisasi citra
+
+8.2.2.2 SUBCPMK2 Mahasiswa mampu mengolah citra digital melalui penerapan berbagai teknik transformasi dasar untuk perbaikan kualitas dan modifikasi citra 
+
+8.2.2.3 SUBCPMK3 Mahasiswa mampu menerapkan metode pemrosesan citra lanjutan untuk melakukan analisis, segmentasi, dan ekstraksi informasi dari citra digital
+
+8.2.2.4 SUBCPMK4 Mahasiswa mampu merancang dan mengimplementasikan metode deteksi objek sesuai dengan kebutuhan permasalahan yang dihadapi.","1. Pengantar Citra Digital dan Visi Komputer
+- Konsep dasar citra digital dan visi komputer
+- Pengenalan tools pendukung (GitHub, Google - Colaboratory, OpenCV, NumPy)
+- Membaca, menampilkan, dan visualisasi citra
+
+2.Representasi dan Karakteristik Citra Digital
+- Format citra dan model warna
+- Resolusi citra dan video
+- Aplikasi pengolahan citra digital
+
+3. Operasi Dasar Pengolahan Citra
+- Transformasi titik: brightness, contrast, inverse, logarithmic, grayscale
+- Operasi aritmatika dan logika pada citra
+- Gamma correction
+- Image depth dan PSNR
+- Denoising dan masking
+
+4.  Analisis Intensitas dan Histogram Citra
+- Konsep histogram citra
+- Histogram equalization
+- Dithering
+
+5. Pemrosesan Spasial dan Ekstraksi Fitur Bentuk
+- Filter spasial (low pass, high pass, edge, line, point detection)
+- Ekstraksi fitur bentuk (dimensi, centroid, circularity, dsb.)
+
+6. Segmentasi Citra dengan Thresholding
+- Global thresholding
+- Optimal thresholding (Otsu’s method)
+- Local thresholding (moving averages)
+
+7.Operasi Morfologi pada Citra
+- Erosi, dilasi, opening, closing
+- Transformasi top-hat dan bottom-hat
+- Skeleton dan thickening
+- Implementasi binary image untuk operasi morfologi
+
+8.Dasar-dasar Deteksi Objek
+- Konsep dan prinsip deteksi objek
+- Aspek pemindaian pada deteksi objek
+
+9. Tahapan Perancangan Sistem Deteksi Objek
+- Perencanaan dan akuisisi data (pengambilan citra)
+Preprocessing
+- Ekstraksi fitur
+- Klasifikasi objek
+","Mata kuliah ini membahas prinsip dan teknik dasar dalam pengolahan citra digital serta penerapannya pada berbagai permasalahan komputasi visual. Mahasiswa akan mempelajari konsep, metode, dan algoritma yang digunakan untuk menganalisis, memodifikasi, dan mengekstraksi informasi dari citra. Selain pemahaman teori, mata kuliah ini juga menekankan keterampilan praktis melalui implementasi dengan memanfaatkan bahasa pemrograman, sehingga mahasiswa mampu merancang solusi berbasis citra digital"
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna",BK18,Intelligent Systems,CPMK706,"Mampu merancang, mengimplementasikan, dan mengevaluasi sistem cerdas dengan menerapkan algoritma kecerdasan artifisial dan pembelajaran mesin untuk pemodelan, analisis data, dan pengambilan keputusan",SCPMK706-04301,Mahasiswa mampu merancang dan mengimplementasikan metode deteksi objek sesuai dengan kebutuhan permasalahan yang dihadapi,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Ceramah,
+Praktikum pipeline deteksi objek
+Diskusi desain sistem","Unjuk Kerja (Presentasi), Observasi (Praktik/ Tugas)","Ketepatan menjelaskan alur sistem secara runtut, implementasi pipeline metode berjalan dengan benar, analisis hasil dekteksi","Dasar-dasar Deteksi Objek
+- Konsep dan prinsip deteksi objek
+- Aspek pemindaian pada deteksi objek
+
+Tahapan Perancangan Sistem Deteksi Objek
+- Perencanaan dan akuisisi data (pengambilan citra)
+Preprocessing
+- Ekstraksi fitur
+- Klasifikasi objek",,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK17,Graphics and Visualization,CPMK1004,"Mampu menganalisis permasalahan kompleks berbasis data dan visual untuk merancang serta menerapkan teknik visualisasi dan representasi grafis yang efektif dalam mendukung pemahaman, analisis, dan pengambilan keputusan.",SCPMK1004-04301,Mahasiswa mampu menganalisis karakteristik visual citra serta menerapkan teknik pengolahan citra dasar untuk meningkatkan kualitas dan representasi informasi visual.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Praktikum, Diskusi perbandingan hasil visual, Latihan analisis kualitas citra","Quiz, Observasi (Praktik/ Tugas), Tes Tulis (UTS)","Ketepanan mengidentifikasi metode perbaikan citra sesuai dengan kebutuhan permasalahan, Dampak teknik yang dihgunakan terhadap kualitas citra dijelaskan dengan tepat, Alasan pemilihan teknik disampaikan secara logis","Operasi Dasar Pengolahan Citra
+- Transformasi titik: brightness, contrast, inverse, logarithmic, grayscale
+- Operasi aritmatika dan logika pada citra
+- Gamma correction
+- Image depth dan PSNR
+- Denoising dan masking
+
+Analisis Intensitas dan Histogram Citra
+- Konsep histogram citra
+- Histogram equalization
+- Dithering",,,
+,,,,BK18,Intelligent Systems,CPMK1005,"Mampu mengembangkan dan mengevaluasi solusi sistem cerdas berdasarkan aspek kinerja, keandalan, interpretabilitas, dan kesesuaian solusi terhadap kebutuhan domain aplikasi.",SCPMK1005-04301,"Mahasiswa mampu menerapkan metode pemrosesan citra lanjutan untuk melakukan analisis, segmentasi, dan ekstraksi informasi dari citra digital
+",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Praktikum, Diskusi perbandingan hasil visual, Latihan analisis kualitas citra","Quiz, Observasi (Praktik/ Tugas)","Karakteristik dan pola visual citra dianalisis dengan tepat, Objek pada citra tersegmentasi dengan baik dan konsisten, Fitur yang diekstraksi relevan dengan tujuan analisis","Pemrosesan Spasial dan Ekstraksi Fitur Bentuk
+- Filter spasial (low pass, high pass, edge, line, point detection)
+- Ekstraksi fitur bentuk (dimensi, centroid, circularity, dsb.)
+
+Segmentasi Citra dengan Thresholding
+- Global thresholding
+- Optimal thresholding (Otsu’s method)
+- Local thresholding (moving averages)
+
+Operasi Morfologi pada Citra
+- Erosi, dilasi, opening, closing
+- Transformasi top-hat dan bottom-hat
+- Skeleton dan thickening
+- Implementasi binary image untuk operasi morfologi",,,
+"Yuri Ariyanto, S.Kom., M.Kom.
+ 
+ 	
+Ade Ismail, S.Kom., M.Ti",MK044,Administrasi dan Keamanan Jaringan,CPL05,BK02,Security Policy and Management,CPMK501,Mampu merancang dan menerapkan kebijakan serta prosedur manajemen keamanan untuk infrastruktur jaringan dan layanan cloud dengan memilih pendekatan yang sesuai kebutuhan operasional.,,Mampu menyusun kebijakan manajemen akses dan prosedur keamanan operasional untuk infrastruktur dan cloud.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Kuliah dan Mandiri (V-Class).,"Partisipasi, Observasi (Praktik/ Tugas)",Ketepatan menjelaskan prosedur perubahan dan implementasi Least Privilege.,"Manajemen Akun, RBAC, dan Prosedur Change Management.","Sub-CPMK 05.3.1
+Mahasiswa mampu Menganalisis dan mengelola sumber daya TI (CPU, memori, penyimpanan) dalam konteks operasional jaringan.
+Sub-CPMK 05.4.1
+Mahasiswa mampu Menyusun strategi perlindungan yang efektif untuk menjaga kerahasiaan.","1. Pengenalan Infrastruktur & Keamanan Jaringan
+2. Identifikasi Ancaman & Kerentanan
+3. Desain Topologi Jaringan Aman
+4. Simulasi Desain Keamanan Jaringan
+5. Konsep Dasar & Pemilihan Gateway Internet
+6. Instalasi Dasar Gateway Internet
+7. Konfigurasi NAT & Firewall pada Gateway
+8. Ujian Tengah Semester (UTS)
+9. Administrasi Sistem Jaringan Dasar
+10. Manajemen Pengguna & Kontrol Akses
+11. Monitoring Jaringan & Dasar Logging (SIEM)
+12. Simulasi Administrasi & Troubleshooting Jaringan
+13. Identifikasi Bottleneck Kinerja Jaringan
+14. Metode Perbaikan & Pengaturan Kinerja Jaringan
+15. Simulasi Optimasi Kinerja & Integrasi SIEM
+16. Refleksi Pembelajaran & Persiapan Portofolio Kompetensi
+17. Ujian Akhir Semester (UAS)
+METODE PEMBELAJARAN:
+1.Ceramah/Kuliah Pakar
+2. Problem Based Learning/FGD (Focus Group Discussion
+3. Self-Learning (V-Class)
+4. Diskusi Kelompok
+5. Metode Case (Case Study)
+","Mata kuliah ini membekali mahasiswa dengan pengetahuan dan keterampilan yang komprehensif untuk menjadi administrator jaringan yang kompeten dalam mengelola keamanan jaringan komputer di dalam organisasi. Materi meliputi disain sistem keamanan, instalasi dan konfigurasi gateway internet, administrasi sistem jaringan, serta optimasi kinerja jaringan, sesuai dengan Standar Kompetensi Kerja Nasional Indonesia (SKKNI) bidang Jaringan Komputer dan Sistem Administrasi. Mata kuliah ini secara spesifik berkontribusi pada kemampuan perencanaan infrastruktur TI, arsitektur jaringan aman, analisis risiko, serta pengelolaan dan pemeliharaan kebijakan keamanan TI."
+,,,CPL05,BK05,Security Issues and Principles,CPMK502,"Mampu mengidentifikasi, menganalisis, dan menerapkan prinsip serta teknik keamanan untuk menangani isu-isu kerentanan pada sistem operasi, jaringan, dan lingkungan cloud.",,Mampu mengidentifikasi serta menganalisis kerentanan sistem dan ancaman siber pada lingkungan jaringan dan cloud.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Kuliah dan Diskusi.,"Quiz, Observasi (Praktik/ Tugas)",Ketepatan mengidentifikasi jenis ancaman dan menganalisis dampak bisnis dari kerentanan.,"Jenis-jenis Ancaman Siber, Kerentanan Software, dan Dampak Kerentanan.",,,
+,,,CPL05,BK08,Computer Networks,CPMK504,"Mampu membangun dan mengelola infrastruktur jaringan komputer dengan memilih arsitektur, protokol, dan teknik konfigurasi yang sesuai kebutuhan sistem.",,"Mampu membangun infrastruktur jaringan aman melalui desain arsitektur, segmentasi, dan konfigurasi gateway.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum/Simulasi (Lab) dan Proyek Mini.,Unjuk Kerja (Presentasi),"Ketepatan merancang segmentasi jaringan (VLAN), DMZ, dan memetakan ancaman pada topologi.","Desain Topologi Aman, Segmentasi Jaringan, dan Konfigurasi Dasar Gateway.",,,
+,,,CPL05,BK09,Security Technology and Implementation,CPMK505,Mampu menerapkan teknologi dan mekanisme keamanan jaringan secara tepat guna dalam melindungi infrastruktur digital dari ancaman aktual.,,Menerapkan mekanisme teknologi keamanan (firewall & pengamanan akses) untuk melindungi infrastruktur dari ancaman aktual.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Kuliah dan Praktikum.,Observasi (Praktik/ Tugas),"Kemampuan mengonfigurasi NAT, Firewall, serta mengamankan akses perangkat (SSH/MFA).","Konfigurasi NAT & Firewall, Pengamanan Akses (SSH/MFA), dan AAA.",,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK08,Computer Networks,CPMK1002,"Mampu merancang, menerapkan, dan mengevaluasi mekanisme keamanan jaringan untuk melindungi data, layanan, dan sumber daya jaringan dengan mempertimbangkan aspek teknis, operasional, dan kebijakan organisasi.",,Mampu merancang dan mengevaluasi mekanisme perlindungan data serta sumber daya menggunakan monitoring dan logging.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum dan Tugas Proyek Mini.,Observasi (Praktik/ Tugas),"Ketepatan penggunaan alat monitoring, pemahaman fungsi SIEM, dan rencana Backup/Recovery.","Monitoring & Logging (SIEM), serta Backup & Recovery Plan.",,,
+,,,,BK09,Security Technology and Implementation,CPMK1003,"Mampu menganalisis permasalahan kompleks pada infrastruktur dan layanan jaringan komputer untuk merancang, mengonfigurasi, dan mengelola solusi jaringan on-premise dan cloud yang andal, aman, dan scalable sesuai kebutuhan organisasi.",,Mampu menganalisis permasalahan kompleks dan mengelola solusi optimasi jaringan yang aman dan scalable.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Kuliah dan Simulasi Optimasi.,Tes Lisan (Tugas Kelompok),Ketepatan mengidentifikasi bottleneck dan melakukan pengaturan kinerja (QoS/Traffic Shaping).,"Identifikasi Bottleneck, Benchmarking, dan Pengaturan Kinerja Jaringan (QoS).",,,
+"Retno Damayanti, S.Pd., M.T.
+Ir. Deddy Kusbianto Purwokoaji, M.MKom",MK045,Komunikasi Dan Etika Profesi,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK01,"Social Issues and Professional Practice
+",CPMK101,"Mampu menunjukkan profesionalisme melalui penerapan etika profesi TI, keselamatan kerja, kewirausahaan bertanggung jawab, rekayasa perangkat lunak ramah lingkungan, dan disiplin dalam penelitian maupun penerapan aplikasi teknologi",CPMK101-00101,Mahasiswa mampu menerapkan etika profesi TI dan prinsip keselamatan kerja dalam praktik profesional di bidang teknologi informasi.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, diskusi studi kasus etika profesi","Tugas, Tes Tulis (UTS)",Ketepatan penerapan kode etik profesi TI dan prinsip keselamatan kerja pada studi kasus,"Kode etik profesi TI, keselamatan kerja, dan kewirausahaan bertanggung jawab di bidang teknologi informasi",,,
+,,,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",CPMK102-00101,Mahasiswa mampu menunjukkan disiplin diri dan tanggung jawab sosial sebagai wujud pembelajaran sepanjang hayat dalam lingkungan profesi TI.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, diskusi kelompok","Tugas, Partisipasi",Konsistensi disiplin diri dan tanggung jawab sosial dalam interaksi profesional,"Etika profesional, tanggung jawab sosial, dan pengembangan diri berkelanjutan di lingkungan kerja TI",,,
+,,,,,,CPMK313,"Mahasiswa mampu berkomunikasi secara efektif dalam lingkungan kerja profesional TI dengan menerapkan prinsip komunikasi yang baik, menyusun dokumen profesional yang jelas dan etis, serta melakukan presentasi dengan memperhatikan aspek verbal dan nonverbal.",CPMK313-00101,Mahasiswa mampu menyusun dokumen profesional yang jelas dan etis serta melakukan presentasi dengan memperhatikan aspek verbal dan nonverbal.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Praktikum penyusunan dokumen, presentasi","Tugas, Unjuk Kerja (Presentasi)","Kejelasan dan etika dokumen profesional, ketepatan komunikasi verbal dan nonverbal dalam presentasi","Prinsip komunikasi profesional, penyusunan dokumen kerja, dan teknik presentasi verbal/nonverbal",,,
+,,,,,,CPMK314,Mahasiswa mampu bekerja sama dalam tim dengan menerapkan etika dan kode etik profesi TI serta mengelola konflik melalui komunikasi yang asertif dan profesional.,CPMK314-00101,Mahasiswa mampu bekerja sama dalam tim dan mengelola konflik melalui komunikasi yang asertif dan profesional sesuai kode etik profesi TI.,Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Kerja kelompok, simulasi manajemen konflik","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)",Efektivitas kerja sama tim dan ketepatan penerapan komunikasi asertif dalam manajemen konflik,"Kerja sama tim, kode etik profesi TI, dan teknik manajemen konflik melalui komunikasi asertif",,,
+"Adevian Fairuz Pratama,S.S.T.,M.Eng
+ 
+ 	
+Ahmadi Yuli Ananta, S.T, M.M.",MK046,Pengembangan Karir,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",SUBCPMK102-04601,"- Menunjukkan internalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, dan kewarganegaraan melalui sikap disiplin, etis, bertanggung jawab, dan menghargai keberagaman dalam proses pembelajaran.
+- Menunjukkan sikap pembelajaran sepanjang hayat dan kesiapan adaptasi karir profesional melalui pengembangan diri berkelanjutan, tanggung jawab sosial, dan kemampuan menyesuaikan diri dengan perubahan lingkungan kerja.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Proyek kelompok (misalnya proyek sosial, edukasi masyarakat, atau studi etika profesi) disertai refleksi individu terkait nilai ketakwaan, etika, dan profesionalisme.",Tes Lisan (Tugas Kelompok),"Penilaian proses dan hasil proyek kelompok (observasi sikap, kontribusi, dan tanggung jawab) serta refleksi individu untuk menilai internalisasi nilai, pembelajaran sepanjang hayat, dan sikap profesional.","- Nilai etika, profesionalisme, dan ketakwaan dalam dunia kerja
+- Disiplin diri, kerja sama tim, dan tanggung jawab sosial
+- Pembelajaran sepanjang hayat dan kesiapan adaptasi karir profesional",,,
+,,,,,,CPMK315,"Mahasiswa mampu melakukan self-assessment untuk mengidentifikasi potensi diri dan tujuan karir, menyusun rencana pengembangan karir jangka pendek dan panjang secara terukur, serta membangun personal branding melalui CV, portofolio, dan media profesional seperti LinkedIn.",SUBCPMK315-04602,"- Melakukan self-assessment secara sistematis untuk mengidentifikasi potensi diri, minat, kompetensi, dan tujuan karir mahasiswa.
+- Menyusun rencana pengembangan karir jangka pendek dan jangka panjang secara terukur serta mengembangkan personal branding profesional melalui penyusunan CV, portofolio, dan profil media profesional (misalnya LinkedIn).",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),"Career Development Project: menyusun dokumen lengkap pengembangan karir yang terdiri dari: hasil self-assessment, rencana karir jangka pendek & panjang, CV profesional, portofolio, profil LinkedIn aktif","Observasi (Praktik/ Tugas), Quiz, Tes Tulis (UTS), Tes Tulis (UAS)","Ketepatan dan kedalaman self-assessment, kejelasan serta keterukuran rencana karir jangka pendek dan panjang, kualitas dan profesionalisme CV, kelengkapan serta relevansi portofolio, serta konsistensi dan keaktifan profil LinkedIn sebagai personal branding profesional.","- Konsep dan teknik self-assessment karir (minat, bakat, kompetensi, nilai, dan tujuan karir)
+- Penyusunan rencana pengembangan karir jangka pendek dan jangka panjang yang terukur dan realistis
+- Personal branding profesional: penyusunan CV, portofolio, dan optimalisasi profil LinkedIn",,,
+,,,,,,CPMK316,Mahasiswa mampu berkomunikasi efektif dalam wawancara kerja dan networking serta mempresentasikan diri dan pencapaian secara profesional dalam berbagai konteks karir.,SUBCPMK316-04603,"- Menerapkan keterampilan komunikasi efektif dalam konteks wawancara kerja dan networking, termasuk kemampuan menyampaikan ide, menjawab pertanyaan, dan membangun relasi profesional.
+- Mempresentasikan diri dan pencapaian secara profesional dengan bahasa verbal dan nonverbal yang tepat sesuai dengan berbagai konteks karir.",Bermain Peran dan Simulasi (Role-Play And Simulation),"Simulasi (role play) wawancara kerja dan networking, didukung presentasi dan penilaian sejawat.","Unjuk Kerja (Presentasi), Quiz, Observasi (Praktik/ Tugas), Tes Tulis (UTS), Tes Tulis (UAS)","Kejelasan dan ketepatan komunikasi verbal, kesesuaian bahasa nonverbal dan etika profesional, kemampuan menjawab pertanyaan dan membangun relasi saat wawancara dan networking, kualitas presentasi diri dan pencapaian, serta hasil penilaian sejawat terhadap sikap dan interaksi profesional.","Prinsip komunikasi profesional dalam wawancara kerja dan networking
+Teknik wawancara kerja efektif: menyampaikan ide, menjawab pertanyaan, dan membangun relasi
+Presentasi diri dan pencapaian profesional: komunikasi verbal, nonverbal, dan etika karir",,,
+"Dimas Wahyu Wibowo.S.T,M.T",MK047,Pemrograman Berbasis Framework,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK19,Platform-based Development,CPMK603,"Mampu mengimplementasikan dan melakukan deployment aplikasi perangkat lunak pada platform web, mobile, atau framework secara fungsional.",SubCMPK603-00104,"- Mahasiswa mampu melakukan konfigurasi environment pengembangan (IDE, SDK, dan Framework) serta memilih arsitektur yang sesuai dengan platform target (Web atau Mobile). - Mahasiswa mampu merancang skema basis data dan -  integrasi API yang mendukung fungsionalitas aplikasi.",Pembelajaran Berbasis Proyek (Project Based Learning/PjBL),Mahasiswa diberikan proyek kecil yang berkelanjutan. Mereka harus merancang ERD (Entity Relationship Diagram) berdasarkan kasus tersebut dan diimplementasi dalam bentuk web,"Unjuk Kerja (Presentasi), Observasi (Praktik/ Tugas)","Analisis Kebutuhan: Kelengkapan dokumen SRS dalam mencakup seluruh kebutuhan fungsional dan non-fungsional stakeholder.
+
+Kualitas Arsitektur: Ketepatan desain sistem (UML/ERD) dan penerapan pola desain yang menjamin skalabilitas.
+
+Fungsionalitas: Persentase fitur yang berhasil berjalan saat pengujian.
+
+Standar Kode: Penerapan Clean Code, konsistensi konvensi penamaan","Materi pembelajaran ini mengintegrasikan seluruh siklus hidup pengembangan perangkat lunak yang dimulai dari analisis kebutuhan melalui penyusunan dokumen SRS fungsional dan non-fungsional, dilanjutkan dengan perancangan arsitektur sistem menggunakan UML dan ERD yang menjamin skalabilitas. Mahasiswa juga dibekali teknik pengujian fungsional berbasis acceptance criteria untuk menjamin kualitas fitur, serta penerapan prinsip Clean Code dan standarisasi penamaan guna menciptakan kode yang modular, konsisten, dan mudah dipelihara di lingkungan profesional.","Menguasai konsep matematika terapan, pengetahuan dasar TIK (Algoritma, Pemrograman, Basis Data, Jaringan Komputer, dll), sains rekayasa, dan prinsip rekayasa dalam bidang TIK","Mata Kuliah Pemrograman Berbasis Framework adalah sebuah mata kuliah yang diharapkan dapat memberikan pengetahuan dan keterampilan pembuatan aplikasi web menggunakan framework ReactJS, firebase, dan backend Laravel.","1.        Pengenalan  Modern Javascript
+2.        Memahami Pembuatan Frontend menggunakan Framework Javascript ReactJS
+3.        Memahami  pembuatan Backend mengunakan Framework Laravel
+4.        Memahami  pembuatan Sistem Informasi Manajemen menggunakan frontend ReactJS dan backend Laravel
+"
+"Muhammad Unggul Pamenang, S.St., M.T. 
+Bagas Satya Dian Nugraha, ST., MT.",MK048,Proyek Teknologi Terintegrasi,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,(BK03) Project Management,CPMK201,Merancang dan mendokumentasikan rencana manajemen proyek pengembangan aplikasi multi-platform dengan menerapkan metodologi pengembangan perangkat lunak yang tepat,,,,,,,,,,
+,,,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,Software Design,CPMK205,"Menerapkan prinsip dan pola desain perangkat lunak untuk membuat blueprint arsitektural dan komponen solusi aplikasi multi-platform yang modular, dapat dipelihara (maintainable), dan dapat diperluas (scalable)",,,,,,,,,,
+,,,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,Systems Analysis & Design,CPMK211,"Menerapkan metodologi analisis dan desain sistem secara terstruktur untuk mentransformasi kebutuhan stakeholder menjadi spesifikasi teknis yang komprehensif bagi pengembangan aplikasi multi-platform, dengan menghasilkan artefak desain yang mencakup aspek fungsional, non-fungsional, dan arsitektural yang dapat diimplementasikan",,,,,,,,,,
+,,,,,,CPMK317,"Mahasiswa mampu memimpin dan mengelola tim dalam proyek teknologi terintegrasi yang kompleks dengan menggabungkan berbagai teknologi untuk menyelesaikan permasalahan nyata serta mengelola konflik, mengambil keputusan, dan memfasilitasi kolaborasi tim multidisiplin.",,,,,,,,,,
+,,,,,,CPMK318,Mahasiswa mampu mempresentasikan solusi teknologi terintegrasi kepada client dan stakeholder serta mendokumentasikan dan mengomunikasikan proses dan hasil proyek secara komprehensif.,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK10,Software Design,CPMK602,Mampu merancang arsitektur dan komponen perangkat lunak secara sistematis menggunakan pola desain yang sesuai dengan kebutuhan stakeholder,,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK03
+BK26","Project Management
+System Analysis & Design",CPMK801,"Mampu menyusun dan mempresentasikan rencana proyek teknologi informasi yang komprehensif, mencakup estimasi, penjadwalan, alokasi sumber daya, dan manajemen risiko untuk diimplementasikan dalam sebuah proyek.",,,,,,,,,,
+,,,,"BK10
+BK22
+BK24
+BK25
+BK28
+BK29","Project Management
+System Analysis & Design",CPMK802,"Mampu mengelola proses rekayasa perangkat lunak dan desain antarmuka (UI/UX) dalam siklus hidup proyek, termasuk penerapan metodologi pengembangan dan prinsip penjaminan mutu (SQA) untuk menghasilkan produk yang berkualitas dan berpusat pada pengguna.",,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK03
+BK26","Project Management
+System Analysis & Design",CPMK803,"Mampu melaksanakan, memonitor, dan mengendalikan jalannya proyek menggunakan alat bantu (tools) manajemen, serta mengelola dinamika tim untuk mencapai tujuan proyek secara efisien.",,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK03
+BK30","Project Management
+Pengembangan Diri",CPMK804,"Mampu mendemonstrasikan pengelolaan proyek secara utuh dalam konteks proyek penelitian mandiri atau lingkungan kerja industri, dengan menerapkan seluruh prinsip manajemen, rekayasa, dan optimalisasi sumber daya.",,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,,,,,,,,,,
+"Agung Nugroho Pramudhita, S.T., M.T. 
+Usman Nurhasan, S.Kom., MT",MK049,Internet Of Things,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,Parallel and Distributed Computing,CPMK204,Menganalisis kebutuhan komputasi dari sebuah solusi IoT multi-platform dan arsitektur terdistribusi,,,,,,,,"•        Mahasiswa mampu menerapkan Microcontroller Unit (Arduino dan NodeMCU)
+•        Mahasiswa dapat menerapkan kendali jarak jauh (remote control) hardware dengan Socket TCP/IP
+•        Mahasiswa mampu menerapkan memahami konsep edge computing (Optional)
+•        Mahasiswa mampu dan memahami dan menerapkan cloud computing IoT (Public, Server Ubuntu & Raspberry Pi 3)
+•        Mahasiswa mampu menjelaskan konsep protocol transport MQTT dan menerapkan
+
+","•        Arsitektur IoT
+•        Microcontroller Unit (Arduino & NodeMCU), Interfacing komunikasi hardware (I2C, SPI, UART)
+•        Edge Computing
+•        IoT Server Cloud
+•        Mengimplementasikan IoT
+
+","- Menjelaskan Arsitektur IoT yang terdiri dari device constraint, edge computing dan cloud computing IoT dan bagaimana cara mengimplementasikannya.  
+- Membuat program kontrol hardware microcontroller yang dikendalikan secara lokal maupun secara jarak jauh (remote control)
+
+"
+,,,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,Operating System,CPMK206,"Menganalisis karakteristik dan kebutuhan sumber daya dari aplikasi multi-platform, lalu merancang strategi manajemen sumber daya sistem (seperti memori, proses, I/O, dan jaringan) yang optimal dengan mempertimbangkan arsitektur dan mekanisme sistem operasi",,,,,,,,,,
+,,,CPL05,BK07,Parallel and Distributed Computing,CPMK503,"Mampu merancang dan mengonfigurasi solusi komputasi paralel dan terdistribusi yang mendukung kebutuhan pemrosesan IoT, Big Data, dan layanan berbasis cloud.",,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+"Yoppy Yunhasnawa, S.ST., M.Sc.",MK050,Big Data,CPL09       Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,BK07,Parallel and Distributed Computing,CPMK904,Mahasiswa mampu menguraikan prinsip kerja sistem paralel–terdistribusi yang dimanfaatkan untuk pemrosesan data skala besar.,SCPMK-904-05001,Mahasiswa mampu menjelaskan prinsip kerja sistem paralel dan terdistribusi yang mendasari pemrosesan data skala besar.,Contextual Instruction (CI),"Ceramah, diskusi konsep sistem terdistribusi","Quiz, Tes Tulis (UTS)",Ketepatan menjelaskan prinsip kerja sistem paralel-terdistribusi,Konsep dasar sistem paralel dan terdistribusi untuk pemrosesan data skala besar,,,
+,,,,,,,,SCPMK-904-05002,Mahasiswa mampu menganalisis arsitektur sistem terdistribusi yang digunakan pada platform Big Data.,Contextual Instruction (CI),"Ceramah, studi kasus arsitektur terdistribusi","Quiz, Tugas",Ketepatan analisis arsitektur sistem terdistribusi pada platform Big Data,"Arsitektur sistem terdistribusi (cluster, node, data partitioning) pada platform Big Data",,,
+,,,"CPL07 Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna
+",BK07,Parallel and Distributed Computing,CPMK702,Mampu merancang dan mengimplementasikan pemrosesan data berskala besar menggunakan arsitektur komputasi paralel dan terdistribusi untuk mengoptimalkan kinerja analisis data,SCPMK-702-05001,Mahasiswa mampu merancang alur pemrosesan data berskala besar menggunakan arsitektur komputasi paralel dan terdistribusi.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, praktikum perancangan pipeline data","Tugas, Observasi (Praktik/ Tugas)",Ketepatan rancangan alur pemrosesan data berskala besar,Perancangan pipeline pemrosesan data skala besar (batch dan stream processing),,,
+,,,,,,,,SCPMK-702-05002,Mahasiswa mampu mengimplementasikan pemrosesan data berskala besar untuk mengoptimalkan kinerja analisis data.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum implementasi framework Big Data,"Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)",Ketepatan implementasi dan optimalitas kinerja pemrosesan data berskala besar,Implementasi framework pemrosesan data terdistribusi (mis. Hadoop/Spark) untuk optimasi kinerja analisis data,,,
+,,,,,,CPMK503,"Mampu merancang dan mengonfigurasi infrastruktur solusi komputasi paralel dan terdistribusi yang mendukung kebutuhan pemrosesan IoT, Big Data, dan layanan berbasis cloud.",SCPMK-503-05001,Mahasiswa mampu merancang infrastruktur komputasi paralel dan terdistribusi yang mendukung kebutuhan pemrosesan Big Data.,Contextual Instruction (CI),"Ceramah, praktikum konfigurasi infrastruktur","Tugas, Tes Tulis (UAS)",Ketepatan rancangan infrastruktur komputasi paralel-terdistribusi,"Perancangan infrastruktur komputasi paralel-terdistribusi (storage, komputasi, jaringan) untuk Big Data",,,
+,,,CPL05,BK07,Parallel and Distributed Computing,,,SCPMK-503-05002,Mahasiswa mampu mengonfigurasi layanan cloud untuk mendukung infrastruktur pemrosesan Big Data.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),Praktikum konfigurasi layanan cloud,"Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi)",Ketepatan konfigurasi layanan cloud sesuai kebutuhan pemrosesan Big Data,"Konfigurasi layanan cloud (storage, komputasi terdistribusi) untuk mendukung pemrosesan Big Data",,,
+"Dika Rizky Yunianto, S.Kom, M.Kom
+",MK051,Cloud Computing,CPL09       Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah  stakeholder,"BK07
+BK29","Parallel and Distributed Computing
+Virtual Systems and Service",CPMK905,"Mahasiswa mampu menjelaskan konsep virtualisasi dan layanan komputasi awan, serta menerapkan teknik dasar penyediaan dan pengelolaan layanan cloud sesuai kebutuhan sistem komputasi.",Sub-CPMK 90501,"Mampu menjelaskan konsep virtualisasi dan karakteristik layanan cloud (IaaS, PaaS, SaaS) serta melakukan teknik dasar penyediaan (provisioning) instance.",Diskusi Kelompok (Small Group Discussion) ,"Ceramah, Diskusi, Praktikum","Partisipasi, Observasi (Praktik/ Tugas)","Ketepatan dalam menguraikan perbedaan fundamental antara infrastruktur fisik dan virtualisasi serta mengidentifikasi karakteristik utama cloud computing.
+Kemampuan menganalisis dan mengklasifikasikan kebutuhan bisnis ke dalam model layanan (IaaS, PaaS, SaaS) serta menentukan batasan tanggung jawab dalam Shared Responsibility Model.
+Keberhasilan dalam melakukan provisioning instance, ketepatan konfigurasi akses keamanan (SSH Key), dan kemampuan melakukan langkah-langkah security hardening pada OS.","Pengenalan lingkungan cloud
+Layanan Cloud
+Infrastructure as a Service (IaaS)","Sub-CPMK 6.2.1.1 Mahasiswa mampu menguasai konsep komputasi awan beserta layanan-layanannya secara mendalam dengan memperhatikan perkembangan teknologi dan isu terkini
+Sub-CPMK 6.2.1.2 Mahasiswa mampu menggunakan perangkat berupa sejumlah virtual mesin sebagai sebuah solusi yang bermutu dan terukur, sehingga mampu menghasilkan infrastruktur yang High Availability
+Sub-CPMK 6.2.1.3 Mahasiswa mampu menerapkan konsep dan solusi dalam lingkungan komputasi.
+","1. Cloud Environments
+2. Layanan Cloud
+3. IaaS
+4. Virtual Cloud Network
+5. PaaS
+6. SaaS
+7. Cloud Storage
+8. Container
+9. CI/CD
+10. Serverless Computing
+11. High Availability","Mata kuliah ini membahas tentang layanan komputasi awan, deployment proyek pada lingkungan cloud."
+,,,CPL05,BK05,Security Issues and Principles,CPMK502,"Mampu mengidentifikasi, menganalisis, dan menerapkan prinsip serta teknik keamanan untuk menangani isu-isu kerentanan pada sistem operasi, jaringan, dan lingkungan cloud.",Sub-CPMK 50201,Mampu menganalisis isu kerentanan lingkungan cloud dan menerapkan teknik security hardening pada sistem operasi dan layanan cloud.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi, Praktikum",Observasi (Praktik/ Tugas),"Keberhasilan dalam melakukan provisioning instance, ketepatan konfigurasi akses keamanan (SSH Key), dan kemampuan melakukan langkah-langkah security hardening pada OS.
+Ketepatan dalam menyusun Dockerfile, efisiensi ukuran container image yang dihasilkan, dan keberhasilan manajemen daur hidup container secara mandiri.
+Keberhasilan konfigurasi orkestrasi klaster, ketepatan implementasi service discovery, dan fungsionalitas mekanisme auto-scaling pada layanan berbasis container.","Infrastructure as a Service (IaaS)
+Container",,,
+,,,,,,,,Sub-CPMK 50202,Mampu mengidentifikasi dan menerapkan prinsip keamanan jaringan untuk menangani ancaman pada infrastruktur cloud.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi, Praktikum",Observasi (Praktik/ Tugas),"Kemampuan merancang arsitektur jaringan virtual yang fungsional, mencakup ketepatan konfigurasi subnet, tabel rute, dan efektivitas aturan firewall dalam mengamankan trafik.",Virtual Cloud Network (VCN),,,
+,,,,,,,,Sub-CPMK 50203,Mampu mengonfigurasi fitur manajemen sumber daya dan layanan cloud (PaaS/SaaS) untuk mendukung kebutuhan sistem komputasi dan IoT.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi, Praktikum",Observasi (Praktik/ Tugas),"Keberhasilan melakukan deployment aplikasi ke platform cloud terkelola dan ketepatan konfigurasi variabel lingkungan (environment variables) serta runtime.
+Kedalaman eksplorasi ekosistem SaaS dan keberhasilan pengujian integrasi fungsional antar layanan melalui protokol API.
+Ketepatan pemilihan tipe penyimpanan (Block/Object), keberhasilan konfigurasi akses data, dan efektivitas penerapan kebijakan siklus hidup data (Lifecycle Policy) untuk efisiensi biaya.
+Ketepatan dalam menyusun Dockerfile, efisiensi ukuran container image yang dihasilkan, dan keberhasilan manajemen daur hidup container secara mandiri.
+Keberhasilan konfigurasi orkestrasi klaster, ketepatan implementasi service discovery, dan fungsionalitas mekanisme auto-scaling pada layanan berbasis container.","Platform as a Service (PaaS)
+Software as a Service (SaaS)
+Penyimpanan cloud
+Container",,,
+,,,CPL05,BK27,Virtual Systems and Services,CPMK509,"Mampu merancang dan mengelola layanan komputasi virtual secara efisien dengan mempertimbangkan kebutuhan performa, skalabilitas, dan keberlanjutan energi.",Sub-CPMK 50901,Mampu merancang layanan komputasi virtual berbasis container dan serverless dengan mempertimbangkan performa dan skalabilitas.,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi, Praktikum",Observasi (Praktik/ Tugas),"Ketepatan pemilihan tipe penyimpanan (Block/Object), keberhasilan konfigurasi akses data, dan efektivitas penerapan kebijakan siklus hidup data (Lifecycle Policy) untuk efisiensi biaya.
+Ketepatan dalam menyusun Dockerfile, efisiensi ukuran container image yang dihasilkan, dan keberhasilan manajemen daur hidup container secara mandiri.
+Keberhasilan konfigurasi orkestrasi klaster, ketepatan implementasi service discovery, dan fungsionalitas mekanisme auto-scaling pada layanan berbasis container.
+Keberhasilan implementasi fungsi pemrograman berbasis peristiwa dan ketepatan konfigurasi pemicu (trigger) sesuai skenario penggunaan (seperti HTTP request atau IoT).","Penyimpanan cloud
+Container
+Serverless Computing",,,
+,,,,,,,,Sub-CPMK 50902,Mampu mengelola operasional cloud yang efisien dengan mempertimbangkan aspek keberlanjutan energi (Green Computing) dan otomatisasi (CI/CD).,Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi, Praktikum",Observasi (Praktik/ Tugas),"Kelancaran alur kerja otomatisasi dari repositori hingga lingkungan produksi dan kemampuan menangani kesalahan (error handling) dalam pipeline.
+Kemampuan merancang mekanisme redundansi sistem, keberhasilan simulasi failover yang minim downtime, serta ketajaman analisis efisiensi penggunaan sumber daya/energi.","CI/CD
+High Availability pada Cloud",,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK09,Security Technology and Implementation,CPMK1003,"Mampu menganalisis permasalahan kompleks pada infrastruktur dan layanan jaringan komputer untuk merancang, mengonfigurasi, dan mengelola solusi jaringan dan layanan on-premise maupun cloud ",Sub-CPMK 100901,"Mampu merancang, mengonfigurasi, dan mengelola solusi jaringan kompleks serta High Availability (HA) pada lingkungan on-premise maupun cloud.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Ceramah, Diskusi, Praktikum",Observasi (Praktik/ Tugas),"Kemampuan merancang arsitektur jaringan virtual yang fungsional, mencakup ketepatan konfigurasi subnet, tabel rute, dan efektivitas aturan firewall dalam mengamankan trafik.
+Kemampuan merancang mekanisme redundansi sistem, keberhasilan simulasi failover yang minim downtime, serta ketajaman analisis efisiensi penggunaan sumber daya/energi.","Virtual Cloud Network (VCN)
+High Availability pada Cloud",,,
+"Ridwan Rismanto, S.ST., M.Kom., Ph.D",MK052,Komputasi Hijau,,BK01,"Social Issues and Professional Practice
+",CPMK101,"Mampu menunjukkan profesionalisme melalui penerapan etika profesi TI, keselamatan kerja, kewirausahaan bertanggung jawab, rekayasa perangkat lunak ramah lingkungan, dan disiplin dalam penelitian maupun penerapan aplikasi teknologi",,,,,,,,,,
+,,,CPL05,BK27,Virtual Systems and Services,CPMK509,"Mampu merancang dan mengelola layanan komputasi virtual secara efisien dengan mempertimbangkan kebutuhan performa, skalabilitas, dan keberlanjutan energi.",,,,,,,,,,
+"Dika Rizky Yunianto, S.Kom, M.Kom
+Vivin Ayu Lestari, S.Pd., M.Kom",MK053,Magang,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK30,Pengembangan Diri,CPMK102,"Mampu menginternalisasi nilai ketakwaan kepada Tuhan YME, Pancasila, kewarganegaraan, dan menunjukkan pembelajaran sepanjang hayat melalui disiplin diri, tanggung jawab sosial, dan adaptasi karir profesional",,,,,,,,,,
+,,,"(CPL03)
+Memiliki kemampuan (pengelolaan) manajerial tim dan kerja sama (team work), manajemen diri, mampu berkomunikasi baik lisan maupun tertulis dengan baik dan mampu melakukan presentasi.",,,CPMK319,"Mahasiswa mampu beradaptasi dan bekerja sama dalam tim kerja profesional di industri, mengelola waktu, tugas, dan tanggung jawab secara mandiri, serta berkomunikasi secara profesional dengan supervisor, rekan kerja, dan stakeholder perusahaan.",,,,,,,,,,
+,,,,,,CPMK320,Mahasiswa mampu mempresentasikan hasil kerja dan progress kepada supervisor secara jelas dan terstruktur serta menulis laporan magang yang sistematis dan reflektif mengenai pengalaman kerja.,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK03
+BK30","Project Management
+Pengembangan Diri",CPMK804,"Mampu mendemonstrasikan pengelolaan proyek secara utuh dalam konteks proyek penelitian mandiri atau lingkungan kerja industri, dengan menerapkan seluruh prinsip manajemen, rekayasa, dan optimalisasi sumber daya.",,,,,,,,,,
+,MK054,Skripsi,"(CPL01) Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.
+",BK01,"Social Issues and Professional Practice
+",CPMK101,"Mampu menunjukkan profesionalisme melalui penerapan etika profesi TI, keselamatan kerja, kewirausahaan bertanggung jawab, rekayasa perangkat lunak ramah lingkungan, dan disiplin dalam penelitian maupun penerapan aplikasi teknologi",,,,,,,,,,
+,,,"(CLP02) 
+Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.",,Systems Analysis & Design,CPMK211,"Mampu menerapkan metodologi analisis dan desain sistem secara terstruktur untuk mentransformasi kebutuhan stakeholder menjadi spesifikasi teknis yang komprehensif bagi pengembangan aplikasi multi-platform, dengan menghasilkan artefak desain yang mencakup aspek fungsional, non-fungsional, dan arsitektural yang dapat diimplementasikan",,,,,,,,,,
+,,,"(CPL04)
+Menyusun deskripsi saintifik hasil kajian implikasi pengembangan atau implementasi ilmu pengetahuan teknologi dalam bentuk skripsi atau laporan tugas akhir atau artikel
+ilmiah.
+","BK01
+BK31","Social Issues and Professional Practice
+Metodologi Penelitian",CPMK404,"Mahasiswa mampu melaksanakan penelitian sesuai metode ilmiah dan menyusun deskripsi saintifik hasil penelitian dalam bentuk skripsi, laporan tugas akhir, atau artikel ilmiah yang memenuhi standar akademik.",,,,,,,,,,
+,,,"(CPL03)
+Memiliki kemampuan (pengelolaan) manajerial tim dan kerja sama (team work), manajemen diri, mampu berkomunikasi baik lisan maupun tertulis dengan baik dan mampu melakukan presentasi.",,,CPMK321,"Mahasiswa mampu mengelola diri secara mandiri dalam merencanakan, melaksanakan, dan menyelesaikan penelitian tugas akhir, berkomunikasi serta berkolaborasi dengan dosen pembimbing dan pihak terkait, serta menulis skripsi dengan struktur yang sistematis, bahasa ilmiah yang baik, dan sesuai kaidah penulisan akademik.",,,,,,,,,,
+,,,,,,CPMK322,Mahasiswa mampu mempresentasikan hasil penelitian dalam sidang dengan argumentasi yang kuat dan sistematis serta merespons pertanyaan dan kritik dalam forum ilmiah secara profesional dan argumentatif.,,,,,,,,,,
+,,,"(CPL08)
+Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia
+
+
+","BK03
+BK30","Project Management
+Pengembangan Diri",CPMK804,"Mampu mendemonstrasikan pengelolaan proyek secara utuh dalam konteks proyek penelitian mandiri atau lingkungan kerja industri, dengan menerapkan seluruh prinsip manajemen, rekayasa, dan optimalisasi sumber daya.",,,,,,,,,,
+,,,"(CPL10)
+Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin",BK26,Systems Analysis & Design,CPMK1008,Mampu mengintegrasikan dan mengevaluasi hasil analisis dan desain sistem ke dalam pengembangan sistem dengan mempertimbangkan aspek teknis dan organisasi.,,,,,,,,,,
+,,,,BK31,Metodologi Penelitian,CPMK1009,Mampu mengkaji persoalan kompleks dan mengidentifikasi tahapan penyelesaian yang tepat berdasarkan kaidah ilmiah untuk menyelesaikan permasalahan pada bidang informatika.,,,,,,,,,,
+,,,"(CPL06)
+Mampu merancang, mengimplementasikan,  menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder
+",BK26,Systems Analysis & Design,CPMK607,Mampu menganalisis kebutuhan organisasi untuk merancang serta mengimplementasikan solusi sistem informasi terintegrasi yang kompleks.,,,,,,,,,,
+"Atiqah Nurul Asri, S.Pd., M.Pd.",MK055,Bahasa Inggris Persiapan Kerja,"(CPL03)
+Memiliki kemampuan (pengelolaan) manajerial tim dan kerja sama (team work), manajemen diri, mampu berkomunikasi baik lisan maupun tertulis dengan baik dan mampu melakukan presentasi.",BK 30,Pengembangan Diri,CPMK303,"Mampu mengembangkan diri secara berkelanjutan melalui komunikasi lisan dan tertulis yang efektif dalam konteks akademik dan profesional, presentasi diri dan ide secara percaya diri, serta pengelolaan karir dan kinerja di lingkungan kerja nyata.
+",SCPMK-303-05501,"Mahasiswa mampu menyusun rencana pengembangan karir sesuai dengan kebutuhan industri, secara lisan dan tertulis.",Pembelajaran Berbasis Kasus (Case Based Learning/CBL),"Diskusi kelompok, latihan penyusunan dokumen karir",Observasi (Praktik/ Tugas),Ketepatan penyusunan rencana pengembangan karir sesuai kebutuhan industri,"Career development planning, job market preparation dalam konteks industri TI",,,
+,,,,,,,,SCPMK-303-05502,Mahasiswa mampu mempresentasikan potensi diri secara akademik dan profesional dalam konteks dunia kerja.,Guided Practice (Latihan Terbimbing),"Latihan terbimbing, simulasi wawancara kerja","Observasi (Praktik/ Tugas), Unjuk Kerja (Presentasi), Tes Tulis (UTS), Tes Tulis (UAS), Quiz","Ketepatan dalam menerapkan strategi dalam mengerjakan soal Listening dan Reading Comprehension TOEIC® dengan durasi waktu yang ditentukan.
+Ketepatan dalam penggunaan vocabulary, grammar, dan expressions yang dipelajari secara lisan dan tulisan. 
+","Topik 1: Preparing for TOEIC®
+Topik 2: Assessing Yourself
+Topik 3: Reading a Job Advertisement
+Topik 4: Writing a Job Application Letter
+Topik 5: Writing a CV
+Topik 6: Conducting Job Interview
+",,,

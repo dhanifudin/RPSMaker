@@ -1,0 +1,44 @@
+Yellow-3 autofill validation (re-run 2026-07-06)
+
+Source: Google Sheet 1BZcVR1zdJXAFmSrEKKNzog7tb5KtJdLVunXvoz3Ty_8, tab
+"MK-CPMK-SubCPMK-Metode" (gid 753390927). Light-yellow-3 fill (FFFFF2CC)
+applies to columns J-O: SubCPMK, MetodePembelajaran, Bentuk Pembelajaran,
+Bentuk Penilaian, Kriteria Penilaian, Materi Pembelajaran.
+
+CSV output: /home/dhs/Workspaces/polinema/curriculum/generated/cpl-cpmk-subcpmk-yellow3-autofilled.csv
+XLSX output: NOT regenerated this pass (openpyxl unavailable in this
+  environment); the previously-committed .xlsx is now stale relative to
+  the CSV above. Regenerate from the CSV once openpyxl (or an equivalent)
+  is available, or import the CSV directly into Sheets.
+
+Rows processed: 207
+Active rows (rows with a Kode SubCPMK): 113
+
+Empty-cell count per yellow-3 column, before -> after this pass:
+  SubCPMK              : 14 -> 0
+  MetodePembelajaran   : 28 -> 0
+  Bentuk Pembelajaran  : 42 -> 0
+  Bentuk Penilaian     : 36 -> 0
+  Kriteria Penilaian   : 44 -> 0
+  Materi Pembelajaran  : 47 -> 0
+
+Rows touched: 53 (only previously-empty cells were written; every
+non-empty source cell was preserved byte-for-byte -- verified by diff
+against the live-exported source on all non-yellow columns, 0 diffs).
+
+Fill method: each empty cell was authored from that row's CPMK statement
+(column H) plus, where present, the old-curriculum reference columns
+SubCPMK Lama (P) / Materi Pembelajaran Lama (Q); for the 4 courses with
+no old-curriculum reference in the sheet (Komunikasi dan Etika Profesi,
+Big Data, and partially Kecerdasan Artifisial / Bahasa Inggris
+Persiapan Kerja) fills were grounded in the course's own already-authored
+2025 RPS under subjects/ and sibling rows of the same course.
+
+Issues / data-quality notes carried over from the source (not introduced
+by this pass, left as-is per "preserve existing cells"):
+  - MK031 Kecerdasan Artifisial, row SubCPMK-3103: the SubCPMK cell
+    contains the literal placeholder "q" in the live source.
+  - Sheet uses inconsistent Kode SubCPMK prefixes across courses
+    (SCPMK vs SPCMK vs SubCPMK- vs bare CPMK...), not normalized here.
+
+Issues introduced by this pass: 0
