@@ -1,0 +1,190 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{docmute}
+\usepackage{pdflscape}
+\usepackage{tabularray}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{eso-pic}
+\usepackage{amsmath}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\usetikzlibrary{calc}
+\UseTblrLibrary{varwidth}
+
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\newfontfamily\titlefont{Arial}
+\newfontfamily\officefont{Calibri}
+\newfontfamily\headingfont{Cambria}
+
+\definecolor{polinemablue}{HTML}{1679BF}
+\definecolor{polinemalightblue}{HTML}{2E96D5}
+\definecolor{polinemagrey}{HTML}{5B6A72}
+
+\geometry{
+  left=2.8cm,
+  right=2.4cm,
+  top=2.3cm,
+  bottom=2.2cm,
+  headheight=64pt,
+  headsep=8pt,
+  footskip=20pt
+}
+
+\setstretch{1.08}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.08}
+\raggedbottom
+\addto\captionsenglish{%
+  \renewcommand{\contentsname}{DAFTAR ISI}%
+  \renewcommand{\listtablename}{DAFTAR TABEL}%
+}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=polinemablue,
+  pdftitle={Dokumen Kurikulum},
+  pdfauthor={OpenCode}
+}
+
+\newcommand{\PageChrome}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \draw[line width=1.2pt, color=polinemablue]
+      ($(current page.north west)+(1.0cm,-1.25cm)$) --
+      ($(current page.north east)+(-1.0cm,-1.25cm)$);
+    \draw[line width=1.2pt, color=polinemablue]
+      ($(current page.south west)+(1.0cm,1.1cm)$) --
+      ($(current page.south east)+(-1.0cm,1.1cm)$);
+  \end{tikzpicture}%
+}
+
+\AddToShipoutPictureBG*{\PageChrome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[L]{\includegraphics[height=42pt,keepaspectratio]{src/images/logo-left.png}}
+\fancyhead[R]{\includegraphics[height=42pt,keepaspectratio]{src/images/logo-right.png}}
+\fancyfoot[R]{\textcolor{polinemagrey}{\officefont\itshape\fontsize{9pt}{9pt}\selectfont D4 Teknik Informatika\ \textbar\ POLINEMA\ \ \thepage}}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[L]{\includegraphics[height=42pt,keepaspectratio]{src/images/logo-left.png}}
+  \fancyhead[R]{\includegraphics[height=42pt,keepaspectratio]{src/images/logo-right.png}}
+  \fancyfoot[R]{\textcolor{polinemagrey}{\officefont\itshape\fontsize{9pt}{9pt}\selectfont D4 Teknik Informatika\ \textbar\ POLINEMA\ \ \thepage}}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\titleformat{\chapter}[display]
+  {\centering\headingfont\bfseries\Large}
+  {BAB \thechapter}
+  {0.35em}
+  {\MakeUppercase}
+
+\titlespacing*{\chapter}{0pt}{-1.2em}{1.2em}
+
+\titleformat{\section}
+  {\bfseries\normalsize}
+  {\thesection}
+  {0.6em}
+  {}
+
+\titleformat{\subsection}
+  {\bfseries\normalsize}
+  {\thesubsection}
+  {0.6em}
+  {}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\DeclareTblrTemplate{conthead-text}{empty}{}
+\DeclareTblrTemplate{contfoot-text}{empty}{}
+\SetTblrTemplate{caption-tag}{empty}
+\SetTblrTemplate{caption-sep}{empty}
+\SetTblrTemplate{caption}{empty}
+\SetTblrTemplate{capcont}{empty}
+\SetTblrTemplate{conthead}{empty}
+\SetTblrTemplate{conthead-text}{empty}
+\SetTblrTemplate{contfoot}{empty}
+\SetTblrTemplate{contfoot-text}{empty}
+\SetTblrTemplate{caption-lot}{empty}
+\definecolor{headblue}{HTML}{D9EEF7}
+\definecolor{headgray}{HTML}{D9D9D9}
+\definecolor{headgreen}{HTML}{C6E0B4}
+\newcommand{\logo}{\includegraphics[width=1.25cm]{../assets/logo-polinema-transparent.png}}
+\newcommand{\tight}{\fontsize{7}{8}\selectfont}
+\newcommand{\rtmtight}{\fontsize{7}{8}\selectfont}
+\newcommand{\assessmentblock}[7]{%
+\vspace{2mm}
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,2.7cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=3pt,row{1-6}={bg=headgray}}
+Bentuk Tugas/Evaluasi & #2 \\
+Judul Tugas/Evaluasi & #1 \\
+Sub-CPMK & #3 \\
+Deskripsi & #4 \\
+Metode Pengerjaan & #5 \\
+Bentuk Format Luaran & #6 \\
+\end{tblr}
+\begin{tblr}{width=\textwidth,colspec={|X[1.15,l,m]|Q[c,m,0.09\textwidth]|X[1.35,l,m]|X[1.25,l,m]|X[1.25,l,m]|},hlines,vlines,hspan=minimal,rowsep=1pt,colsep=2pt,row{1}={bg=headgray,font=\bfseries}}
+Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
+#7 \\
+\end{tblr}}
+\newcommand{\RPSInput}[2]{%
+  \begingroup
+  \newgeometry{margin=0.9cm}%
+  \setlength{\parindent}{0pt}%
+  \setlist[itemize]{leftmargin=*, nosep, topsep=0pt}%
+  \setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}%
+  \pagestyle{empty}%
+  \phantomsection
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+  \input{"#2"}%
+  \clearpage
+  \restoregeometry
+  \endgroup
+  \pagestyle{fancy}%
+}
+\newcommand{\RubrikInput}[2]{%
+  \begingroup
+  \newgeometry{margin=0.9cm}%
+  \setlength{\parindent}{0pt}%
+  \setlist[itemize]{leftmargin=*, nosep, topsep=0pt}%
+  \setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}%
+  \pagestyle{empty}%
+  \phantomsection
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+  \input{"#2"}%
+  \clearpage
+  \restoregeometry
+  \endgroup
+  \pagestyle{fancy}%
+}
