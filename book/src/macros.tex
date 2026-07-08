@@ -1,0 +1,27 @@
+\newtcolorbox{reviewbox}{
+  colback=yellow!15,
+  colframe=yellow!50!black,
+  boxrule=0.5pt,
+  arc=1mm,
+  left=1mm,
+  right=1mm,
+  top=1mm,
+  bottom=1mm
+}
+
+\newtcolorbox{todobox}{
+  colback=red!5,
+  colframe=red!60!black,
+  boxrule=0.5pt,
+  arc=1mm,
+  left=1mm,
+  right=1mm,
+  top=1mm,
+  bottom=1mm
+}
+
+\newcommand{\reviewfrompdf}[1]{\begin{reviewbox}\textbf{Tinjau Ulang:} #1\end{reviewbox}}
+\newcommand{\todoitem}[1]{\begin{todobox}\textbf{TODO:} #1\end{todobox}}
+\newcommand{\legendboxes}{%
+\begin{reviewbox}\textbf{Highlight Kuning:} Konten diadopsi atau disesuaikan dari template PDF 2020 dan perlu ditinjau ulang.\end{reviewbox}
+\begin{todobox}\textbf{Highlight Merah:} Informasi belum tersedia dan harus dilengkapi.\end{todobox}}

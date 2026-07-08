@@ -1,0 +1,44 @@
+\input{src/preamble}
+\input{src/macros}
+\input{src/metadata}
+
+\begin{document}
+
+\pagenumbering{roman}
+\input{src/frontmatter/cover}
+\input{src/frontmatter/approval}
+\input{src/frontmatter/toc}
+
+\clearpage
+\pagenumbering{arabic}
+
+\input{src/chapters/01-identitas}
+\input{src/chapters/02-evaluasi}
+\input{src/chapters/03-landasan}
+\input{src/chapters/04-cpl}
+\input{src/chapters/05-matriks}
+\input{src/chapters/06-rancangan-kurikulum}
+\input{src/chapters/07-rekonstruksi}
+
+\appendix
+\titleformat{\chapter}[display]
+  {\centering\headingfont\bfseries\Large}
+  {LAMPIRAN \thechapter}
+  {0.35em}
+  {\MakeUppercase}
+\input{src/appendices/01-pedoman-akademik}
+\input{src/appendices/02-rps/index}
+\input{src/appendices/03-penilaian/index}
+
+\chapter*{Daftar Pustaka}
+\addcontentsline{toc}{chapter}{Daftar Pustaka}
+\begin{enumerate}[label={\arabic*.}]
+\item Anderson, L., \& Krathwohl, D. (2001). \textit{A Taxonomy for Learning, Teaching and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives}. New York: Longman.
+\item Bloom, B. S. (1984). \textit{Taxonomy of Educational Objectives Book 1: Cognitive Domain}. Boston: Addison Wesley Publishing Company.
+\item Menteri Pendidikan dan Kebudayaan Republik Indonesia. (2020). \textit{Peraturan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 3 Tahun 2020 tentang Standar Nasional Pendidikan Tinggi}.
+\item Presiden Republik Indonesia. (2012). \textit{Peraturan Presiden Republik Indonesia Nomor 8 Tahun 2012 tentang Kerangka Kualifikasi Nasional Indonesia}.
+\item Presiden Republik Indonesia. (2012). \textit{Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi}.
+\item \reviewfrompdf{Referensi umum dari dokumen template 2020 perlu ditinjau dan diperbarui sesuai dokumen resmi terbaru.}
+\end{enumerate}
+
+\end{document}

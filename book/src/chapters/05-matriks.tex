@@ -1,0 +1,102 @@
+\chapter{Matriks Distribusi Mata Kuliah}
+
+\section{Jejaring Kurikulum}
+
+Jejaring kurikulum berikut menggambarkan keterkaitan prasyarat (\textit{prerequisite}) antar mata kuliah pada Kurikulum 2025 Program Studi D4 Teknik Informatika, disusun berdasarkan data ``Matakuliah Syarat'' pada Rencana Pembelajaran Semester (RPS) setiap mata kuliah (Lampiran II). Diagram hanya menampilkan mata kuliah yang memiliki keterkaitan prasyarat eksplisit; mata kuliah lain pada struktur kurikulum tidak memiliki prasyarat formal.
+
+\begin{center}
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{5.5}{6}\selectfont, align=center, text width=2.1cm, minimum height=0.55cm, inner sep=1pt},
+  gate/.style={draw, dashed, rounded corners, fill=headgray, font=\fontsize{5.5}{6}\selectfont, align=center, text width=2.1cm, minimum height=0.55cm, inner sep=1pt},
+  smlabel/.style={font=\scriptsize\bfseries, anchor=east},
+  ->, >={Stealth[length=1.5mm]}, thick,
+]
+
+% Semester row labels
+\node[smlabel] at (-1.3,0)    {Sem. 1};
+\node[smlabel] at (-1.3,-1.5) {Sem. 2};
+\node[smlabel] at (-1.3,-3.0) {Sem. 3};
+\node[smlabel] at (-1.3,-4.5) {Sem. 4};
+\node[smlabel] at (-1.3,-6.0) {Sem. 5};
+\node[smlabel] at (-1.3,-7.5) {Sem. 6};
+\node[smlabel] at (-1.3,-9.0) {Sem. 7};
+\node[smlabel] at (-1.3,-10.5){Sem. 8};
+
+% Semester 1
+\node[mk] (n251004) at (2,0)  {RTI251004\\Matematika Dasar};
+\node[mk] (n251006) at (6,0)  {RTI251006\\Dasar Pemrograman};
+
+% Semester 2
+\node[mk] (n251007) at (0,-1.5)   {RTI251007\\Prak. Dasar Pemrograman};
+\node[mk] (n252003) at (2.3,-1.5) {RTI252003\\Desain Antarmuka};
+\node[mk] (n252004) at (4.6,-1.5) {RTI252004\\Sistem Operasi};
+\node[mk] (n252005) at (6.9,-1.5) {RTI252005\\Rekayasa Perangkat Lunak};
+\node[mk] (n252006) at (9.2,-1.5) {RTI252006\\Basis Data};
+\node[mk] (n252009) at (11.5,-1.5){RTI252009\\Prak. Algoritma \& Struktur Data};
+
+% Semester 3
+\node[mk] (n253006) at (0,-3)   {RTI253006\\Metode Numerik};
+\node[mk] (n253007) at (2.3,-3) {RTI253007\\Pemrograman Berbasis Objek};
+\node[mk] (n253008) at (4.6,-3) {RTI253008\\Prak. Pemrograman Berbasis Objek};
+\node[mk] (n253002) at (6.9,-3) {RTI253002\\Sistem Informasi Manajemen};
+\node[mk] (n253004) at (9.2,-3) {RTI253004\\Desain dan Pemrograman Web};
+\node[mk] (n253005) at (11.5,-3){RTI253005\\Basis Data Lanjut};
+
+% Semester 4
+\node[mk] (n254002) at (1,-4.5)   {RTI254002\\Analisis \& Desain Berorientasi Objek};
+\node[mk] (n254005) at (3.3,-4.5) {RTI254005\\Jaringan Komputer};
+\node[mk] (n254006) at (5.6,-4.5) {RTI254006\\Prak. Jaringan Komputer};
+\node[mk] (n254007) at (7.9,-4.5) {RTI254007\\Pemrograman Web Lanjut};
+\node[mk] (n254008) at (10.2,-4.5){RTI254008\\Statistik Komputasi};
+
+% Semester 5
+\node[mk] (n255008) at (1,-6)   {RTI255008\\Adm. \& Keamanan Jaringan};
+\node[mk] (n255003) at (3.3,-6) {RTI255003\\Pemrograman Mobile};
+\node[mk] (n255002) at (5.6,-6) {RTI255002\\Metodologi Penelitian};
+\node[mk] (n255004) at (7.9,-6) {RTI255004\\Pembelajaran Mesin};
+\node[mk] (n255007) at (10.2,-6){RTI255007\\Pengolahan Citra \& Visi Komputer};
+
+% Semester 6
+\node[mk] (n256003) at (6,-7.5) {RTI256003\\Pemrograman Berbasis Framework};
+
+% Semester 7
+\node[gate] (gate120) at (3,-9) {Lulus Semester 1--6\\($\geq$120 SKS)};
+\node[mk]   (n257001) at (8,-9) {RTI257001\\Magang};
+
+% Semester 8
+\node[gate] (gate130) at (3,-10.5) {$\geq$130 SKS};
+\node[mk]   (n258001) at (8,-10.5) {RTI258001\\Skripsi};
+
+% Edges
+\draw (n251006) -- (n251007);
+\draw (n251006) -- (n252009);
+\draw (n252006) -- (n253002);
+\draw (n252006) -- (n253005);
+\draw (n251004) -- (n253006);
+\draw (n251006) -- (n253007);
+\draw (n251006) -- (n253008);
+\draw (n253007) -- (n253008);
+\draw (n252005) -- (n254002);
+\draw[dashed] (n254005) -- (n254006);
+\draw (n253004) -- (n254007);
+\draw (n254008) -- (n255002);
+\draw (n254008) -- (n255004);
+\draw (n252003) -- (n255003);
+\draw (n255004) -- (n255007);
+\draw (n252004) -- (n255008);
+\draw (n254005) -- (n255008);
+\draw (n254007) -- (n256003);
+\draw (gate120) -- (n257001);
+\draw (gate130) -- (n258001);
+\draw (n255002) -- (n258001);
+
+\end{tikzpicture}
+\end{center}
+
+\reviewfrompdf{Diagram jejaring kurikulum di atas adalah visualisasi baru yang disusun dari data prasyarat pada RPS Kurikulum 2025; dokumen kurikulum 2020 tidak memiliki data digital yang setara (visual ``Peta Kurikulum'' dan ``Pohon Kurikulum'' pada dokumen 2020 hanya tersedia sebagai gambar tanpa data yang dapat diekstraksi). Diagram ini perlu divalidasi terhadap kebijakan prasyarat mata kuliah yang berlaku di program studi.}
+
+\section{Catatan Penyusunan Matriks}
+
+Pada template 2020, bab ini berisi matriks organisasi mata kuliah, matriks detail MBKM, peta kurikulum, dan pohon kurikulum dalam format visual. Data digital yang dapat diekstraksi dari dokumen tersebut tidak tersedia (halaman-halaman terkait hanya memuat judul bagian tanpa data mata kuliah), sehingga jejaring kurikulum pada bagian sebelumnya disusun sebagai gantinya, berdasarkan data prasyarat yang tersedia pada RPS Kurikulum 2025.
+
+\todoitem{Validasi jejaring kurikulum pada bagian sebelumnya dengan tim kurikulum, khususnya kebenaran hubungan prasyarat/korekuisit yang digambarkan, sebelum dokumen dinyatakan final.}
