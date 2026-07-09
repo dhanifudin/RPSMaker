@@ -1,7 +1,7 @@
 ---
 course_code: RTI253001
 course_name: Manajemen Proyek
-sub_cpmk: SCPMK801-01901, SCPMK803-01902, SCPMK302-01903, SCPMK402-01904
+sub_cpmk: SCPMK0801-01901, SCPMK0803-01902, SCPMK0302-01903, SCPMK0402-01904
 assessment_form: Project Based Learning dan presentasi tugas
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning dan presentasi tugas
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning dan presentasi tugas
 
-**Sub-CPMK:** SCPMK801-01901, SCPMK803-01902, SCPMK302-01903, SCPMK402-01904
+**Sub-CPMK:** SCPMK0801-01901, SCPMK0803-01902, SCPMK0302-01903, SCPMK0402-01904
 
 ## Deskripsi
 Mahasiswa dalam kelompok menerapkan knowledge area manajemen proyek (Tugas 1-11) pada satu proyek perangkat lunak sepanjang semester: pemilihan topik, integrasi, pemangku kepentingan, sumber daya, WBS, jadwal, biaya, kualitas, komunikasi, risiko, Agile, hingga dokumentasi penutupan.

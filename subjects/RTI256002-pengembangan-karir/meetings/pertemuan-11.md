@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 11
-sub_cpmk: SCPMK303-05303
+sub_cpmk: SCPMK0303-05303
 assessment_weight: 2
 ---
 
 # Pertemuan 11 - Perencanaan Karir: SMART Goals dan Roadmap
 
 ## Kemampuan Akhir
-- SCPMK303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
+- SCPMK0303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
 
 ## Materi Pembelajaran
 Perencanaan karir dengan SMART goals dan roadmap: konsep SMART (Specific, Measurable, Achievable, Relevant, Time-bound) dalam konteks karir; penyusunan roadmap karir jangka pendek, menengah, dan panjang; analisis gap kompetensi; strategi pengembangan diri yang terukur.

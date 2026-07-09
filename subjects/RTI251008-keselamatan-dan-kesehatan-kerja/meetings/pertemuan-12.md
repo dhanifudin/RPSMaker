@@ -2,15 +2,15 @@
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
 meeting: 12
-sub_cpmk: SCPMK101-00803, SCPMK101-00804
+sub_cpmk: SCPMK0101-00803, SCPMK0101-00804
 assessment_weight: 8
 ---
 
 # Pertemuan 12 - Kuis 2: Pengendalian Risiko dan Organisasi K3
 
 ## Kemampuan Akhir
-- SCPMK101-00803: Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri.
-- SCPMK101-00804: Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0.
+- SCPMK0101-00803: Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri.
+- SCPMK0101-00804: Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0.
 
 ## Materi Pembelajaran
 Kuis 2: pengendalian risiko dan organisasi K3.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-sub_cpmk: SCPMK404-05802, SCPMK403-05801
+sub_cpmk: SCPMK0404-05802, SCPMK0403-05801
 assessment_form: Case Method dan penulisan ilmiah
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penulisan ilmiah
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penulisan ilmiah
 
-**Sub-CPMK:** SCPMK404-05802, SCPMK403-05801
+**Sub-CPMK:** SCPMK0404-05802, SCPMK0403-05801
 
 ## Deskripsi
 Mahasiswa menyusun naskah skripsi lengkap yang memenuhi standar penulisan ilmiah Polinema, mencakup seluruh proses penelitian/pengembangan dari latar belakang hingga kesimpulan.

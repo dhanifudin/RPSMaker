@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 13
-sub_cpmk: SCPMK901-00203
+sub_cpmk: SCPMK0901-00203
 assessment_weight: 12
 ---
 
 # Pertemuan 13 - Kuis 2 Representasi Data, Aljabar Boolean, dan Flowchart
 
 ## Kemampuan Akhir
-- SCPMK901-00203: Mahasiswa mampu menerapkan representasi data, aljabar Boolean, dan flowchart untuk menyelesaikan masalah komputasi sederhana.
+- SCPMK0901-00203: Mahasiswa mampu menerapkan representasi data, aljabar Boolean, dan flowchart untuk menyelesaikan masalah komputasi sederhana.
 
 ## Materi Pembelajaran
 Kuis 2: representasi data, aljabar Boolean, dan flowchart.

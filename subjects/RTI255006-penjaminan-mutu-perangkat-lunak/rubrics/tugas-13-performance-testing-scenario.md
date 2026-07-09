@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04204
+sub_cpmk: SCPMK0608-04204
 assessment_form: Hands-on Practice
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Hands-on Practice
 
 **Bentuk Tugas/Evaluasi:** Hands-on Practice
 
-**Sub-CPMK:** SCPMK608-04204
+**Sub-CPMK:** SCPMK0608-04204
 
 ## Deskripsi
 Mahasiswa membuat dan menjalankan skenario performance testing.

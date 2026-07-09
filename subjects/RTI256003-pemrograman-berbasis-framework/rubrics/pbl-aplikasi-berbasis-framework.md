@@ -1,7 +1,7 @@
 ---
 course_code: RTI256003
 course_name: Pemrograman Berbasis Framework
-sub_cpmk: SCPMK603-04703
+sub_cpmk: SCPMK0603-04703
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK603-04703
+**Sub-CPMK:** SCPMK0603-04703
 
 ## Deskripsi
 Mahasiswa menyelesaikan pbl aplikasi berbasis framework sesuai Sub-CPMK dan konteks mata kuliah.

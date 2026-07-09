@@ -1,7 +1,7 @@
 ---
 course_code: RTI256206
 course_name: Rekayasa Sistem
-sub_cpmk: SCPMK211-05501, SCPMK609-05503
+sub_cpmk: SCPMK0211-05501, SCPMK0609-05503
 assessment_form: UAS defense arsitektur dan demo deployment
 ---
 

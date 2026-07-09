@@ -2,15 +2,15 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 08
-sub_cpmk: SCPMK901-03202, SCPMK504-03201
+sub_cpmk: SCPMK0901-03202, SCPMK0504-03201
 assessment_weight: 13
 ---
 
 # Pertemuan 08 - UTS: Protokol dan Lapisan Jaringan
 
 ## Kemampuan Akhir
-- SCPMK901-03202: Mahasiswa mampu menjelaskan komponen jaringan (router, switch, media transmisi) dan cara kerja protokol komunikasi.
-- SCPMK504-03201: Mahasiswa mampu menganalisis arsitektur jaringan (OSI, TCP/IP) dan mengkonfigurasi protokol pada setiap lapisan.
+- SCPMK0901-03202: Mahasiswa mampu menjelaskan komponen jaringan (router, switch, media transmisi) dan cara kerja protokol komunikasi.
+- SCPMK0504-03201: Mahasiswa mampu menganalisis arsitektur jaringan (OSI, TCP/IP) dan mengkonfigurasi protokol pada setiap lapisan.
 
 ## Materi Pembelajaran
 UTS: protokol dan lapisan jaringan.

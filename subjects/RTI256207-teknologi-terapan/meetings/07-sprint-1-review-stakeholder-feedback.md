@@ -2,14 +2,14 @@
 course_code: RTI256207
 course_name: Teknologi Terapan
 meeting: 07
-sub_cpmk: SCPMK801-05603
+sub_cpmk: SCPMK0801-05603
 assessment_weight: 5
 ---
 
 # Pertemuan 07 - Sprint 1 Review dan Stakeholder Feedback
 
 ## Kemampuan Akhir
-- SCPMK801-05603: Mahasiswa mampu menyusun rencana implementasi teknologi, mengelola risiko, dan melaporkan kemajuan kepada stakeholder.
+- SCPMK0801-05603: Mahasiswa mampu menyusun rencana implementasi teknologi, mengelola risiko, dan melaporkan kemajuan kepada stakeholder.
 
 ## Materi Pembelajaran
 Sprint 1 review dan stakeholder feedback.

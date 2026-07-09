@@ -2,15 +2,15 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 05
-sub_cpmk: SCPMK802-03602, SCPMK607-03604
+sub_cpmk: SCPMK0802-03602, SCPMK0607-03604
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Sprint 1: Implementasi Fitur Utama Back-End
 
 ## Kemampuan Akhir
-- SCPMK802-03602: Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap.
-- SCPMK607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
+- SCPMK0802-03602: Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap.
+- SCPMK0607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
 
 ## Materi Pembelajaran
 Sprint 1: implementasi fitur utama back-end.

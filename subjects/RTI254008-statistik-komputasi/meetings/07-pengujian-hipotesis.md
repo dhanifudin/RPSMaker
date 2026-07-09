@@ -2,14 +2,14 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 07
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_weight: 2.5
 ---
 
 # Pertemuan 07 - Pengujian Hipotesis: Uji t dan Uji z
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
+- SCPMK0707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
 
 ## Materi Pembelajaran
 Pengujian hipotesis: uji t dan uji z.

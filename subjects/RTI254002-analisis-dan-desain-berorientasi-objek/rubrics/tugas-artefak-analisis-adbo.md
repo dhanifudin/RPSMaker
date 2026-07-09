@@ -1,7 +1,7 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-sub_cpmk: SCPMK211-02901, SCPMK602-02902, SCPMK10.8-02903
+sub_cpmk: SCPMK0211-02901, SCPMK0602-02902, SCPMK1008-02903
 assessment_form: Case Method dan analisis kasus
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan analisis kasus
 
 **Bentuk Tugas/Evaluasi:** Case Method dan analisis kasus
 
-**Sub-CPMK:** SCPMK211-02901, SCPMK602-02902, SCPMK10.8-02903
+**Sub-CPMK:** SCPMK0211-02901, SCPMK0602-02902, SCPMK1008-02903
 
 ## Deskripsi
 Mahasiswa menghasilkan artefak ADBO secara bertahap setiap minggu, mencakup diagram UML, spesifikasi use case, design pattern, dan spesifikasi arsitektur teknis.

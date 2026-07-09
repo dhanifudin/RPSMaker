@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 08
-sub_cpmk: SCPMK902-03502
+sub_cpmk: SCPMK0902-03502
 assessment_weight: 0.0
 ---
 
 # Pertemuan 08 - Persamaan Nonlinear: Aplikasi dan Studi Kasus
 
 ## Kemampuan Akhir
-- SCPMK902-03502: Mahasiswa mampu menyelesaikan persamaan nonlinear menggunakan metode tertutup (biseksi, regula falsi) dan metode terbuka (Newton-Raphson, sekans).
+- SCPMK0902-03502: Mahasiswa mampu menyelesaikan persamaan nonlinear menggunakan metode tertutup (biseksi, regula falsi) dan metode terbuka (Newton-Raphson, sekans).
 
 ## Materi Pembelajaran
 Persamaan Nonlinear -- Aplikasi dan Studi Kasus: penerapan metode numerik untuk mencari akar persamaan pada kasus teknik dan informatika, implementasi dengan perangkat lunak.

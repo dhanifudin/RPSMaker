@@ -1,7 +1,7 @@
 ---
 course_code: RTI256206
 course_name: Rekayasa Sistem
-sub_cpmk: SCPMK211-05501, SCPMK602-05502
+sub_cpmk: SCPMK0211-05501, SCPMK0602-05502
 assessment_form: Case Method (CM) -- perancangan arsitektur terstruktur
 ---
 

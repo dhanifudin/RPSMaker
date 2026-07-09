@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 15
-sub_cpmk: SCPMK102-01004
+sub_cpmk: SCPMK0102-01004
 assessment_weight: 7.5
 ---
 
 # Pertemuan 15 - Ekonomi Syariah: Pemberdayaan Umat, Manajemen Zakat, Wakaf, Infak, dan Sedekah
 
 ## Kemampuan Akhir
-- SCPMK102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
+- SCPMK0102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
 
 ## Materi Pembelajaran
 Ekonomi Syariah: pemberdayaan umat melalui ekonomi syariah, manajemen zakat, wakaf, infak, dan sedekah.

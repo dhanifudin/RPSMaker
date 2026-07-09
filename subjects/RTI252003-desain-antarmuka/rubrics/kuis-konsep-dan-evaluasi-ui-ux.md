@@ -1,7 +1,7 @@
 ---
 course_code: RTI252003
 course_name: Desain Antarmuka
-sub_cpmk: SCPMK202-01201, SCPMK601-01203
+sub_cpmk: SCPMK0202-01201, SCPMK0601-01203
 assessment_form: Kuis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis
 
 **Bentuk Tugas/Evaluasi:** Kuis
 
-**Sub-CPMK:** SCPMK202-01201, SCPMK601-01203
+**Sub-CPMK:** SCPMK0202-01201, SCPMK0601-01203
 
 ## Deskripsi
 Mahasiswa menyelesaikan kuis konsep dan evaluasi ui/ux sesuai Sub-CPMK dan konteks mata kuliah.

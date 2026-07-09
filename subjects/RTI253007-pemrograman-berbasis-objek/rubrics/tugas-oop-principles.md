@@ -1,7 +1,7 @@
 ---
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
-sub_cpmk: SCPMK210-02501, SCPMK704-02502
+sub_cpmk: SCPMK0210-02501, SCPMK0704-02502
 assessment_form: Case Method dan praktik pemrograman
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik pemrograman
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik pemrograman
 
-**Sub-CPMK:** SCPMK210-02501, SCPMK704-02502
+**Sub-CPMK:** SCPMK0210-02501, SCPMK0704-02502
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas merancang kelas dan mengimplementasikan prinsip OOP menggunakan Java.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI253001
 course_name: Manajemen Proyek
-sub_cpmk: SCPMK803-01902, SCPMK302-01903
+sub_cpmk: SCPMK0803-01902, SCPMK0302-01903
 assessment_form: Kuis (tes tulis/online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (tes tulis/online)
 
 **Bentuk Tugas/Evaluasi:** Kuis (tes tulis/online)
 
-**Sub-CPMK:** SCPMK803-01902, SCPMK302-01903
+**Sub-CPMK:** SCPMK0803-01902, SCPMK0302-01903
 
 ## Deskripsi
 Mahasiswa menjawab soal kuis materi pertemuan 9-11: manajemen biaya, kualitas, komunikasi, dan risiko proyek.

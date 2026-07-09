@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 07
-sub_cpmk: SCPMK803-04803
+sub_cpmk: SCPMK0803-04803
 assessment_weight: 5
 ---
 
 # Pertemuan 07 - Sprint 1 Review dan Retrospective
 
 ## Kemampuan Akhir
-- SCPMK803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
+- SCPMK0803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
 
 ## Materi Pembelajaran
 Sprint 1 review dan retrospective.

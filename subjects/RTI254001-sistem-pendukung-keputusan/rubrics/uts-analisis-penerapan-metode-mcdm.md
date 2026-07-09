@@ -1,7 +1,7 @@
 ---
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
-sub_cpmk: SCPMK706-02801, SCPMK706-02802, SCPMK706-02803
+sub_cpmk: SCPMK0706-02801, SCPMK0706-02802, SCPMK0706-02803
 assessment_form: UTS berbasis kasus dan perhitungan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis kasus dan perhitungan
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis kasus dan perhitungan
 
-**Sub-CPMK:** SCPMK706-02801, SCPMK706-02802, SCPMK706-02803
+**Sub-CPMK:** SCPMK0706-02801, SCPMK0706-02802, SCPMK0706-02803
 
 ## Deskripsi
 Mahasiswa menganalisis dan menyelesaikan kasus pengambilan keputusan multi-kriteria menggunakan AHP, EDAS, dan metode perankingan.

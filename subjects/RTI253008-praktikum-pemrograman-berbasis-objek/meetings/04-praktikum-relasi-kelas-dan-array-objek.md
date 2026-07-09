@@ -2,14 +2,14 @@
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
 meeting: 04
-sub_cpmk: SCPMK210-02601
+sub_cpmk: SCPMK0210-02601
 assessment_weight: 3
 ---
 
 # Pertemuan 04 - Praktikum: Relasi Kelas dan Array Objek
 
 ## Kemampuan Akhir
-- SCPMK210-02601: Mahasiswa mampu mengimplementasikan kelas, enkapsulasi, relasi kelas, dan inheritance dalam kode Java yang berfungsi.
+- SCPMK0210-02601: Mahasiswa mampu mengimplementasikan kelas, enkapsulasi, relasi kelas, dan inheritance dalam kode Java yang berfungsi.
 
 ## Materi Pembelajaran
 Praktikum: relasi kelas dan array objek.

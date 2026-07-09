@@ -1,7 +1,7 @@
 ---
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
-sub_cpmk: SCPMK10.6-03403
+sub_cpmk: SCPMK1006-03403
 assessment_form: UAS praktik dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS praktik dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS praktik dan defense
 
-**Sub-CPMK:** SCPMK10.6-03403
+**Sub-CPMK:** SCPMK1006-03403
 
 ## Deskripsi
 Mahasiswa menyelesaikan uas evaluasi proyek laravel sesuai Sub-CPMK dan konteks mata kuliah.

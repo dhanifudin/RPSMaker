@@ -1,7 +1,7 @@
 ---
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
-sub_cpmk: SCPMK802-01401, SCPMK211-01403
+sub_cpmk: SCPMK0802-01401, SCPMK0211-01403
 assessment_form: UTS (soal uraian dan studi kasus perancangan)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (soal uraian dan studi kasus perancangan)
 
 **Bentuk Tugas/Evaluasi:** UTS (soal uraian dan studi kasus perancangan)
 
-**Sub-CPMK:** SCPMK802-01401, SCPMK211-01403
+**Sub-CPMK:** SCPMK0802-01401, SCPMK0211-01403
 
 ## Deskripsi
 Mahasiswa mengerjakan soal studi kasus analisis dan desain sistem yang mencakup prinsip dasar RPL dan SDLC, metodologi preskriptif dan Agile, analisis kebutuhan (SRS), serta pemodelan visual sistem (UML).

@@ -2,14 +2,14 @@
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
 meeting: 06
-sub_cpmk: SCPMK101-03702
+sub_cpmk: SCPMK0101-03702
 assessment_weight: 5
 ---
 
 # Pertemuan 06 - Aspek-Aspek Teknis Bisnis
 
 ## Kemampuan Akhir
-- SCPMK101-03702: Mahasiswa mampu menganalisis permintaan pasar, menyusun rencana pemasaran, mengidentifikasi aspek teknis bisnis, serta menyusun laporan keuangan dasar dan penetapan harga.
+- SCPMK0101-03702: Mahasiswa mampu menganalisis permintaan pasar, menyusun rencana pemasaran, mengidentifikasi aspek teknis bisnis, serta menyusun laporan keuangan dasar dan penetapan harga.
 
 ## Materi Pembelajaran
 Aspek-aspek teknis bisnis.

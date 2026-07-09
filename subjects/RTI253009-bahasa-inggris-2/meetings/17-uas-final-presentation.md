@@ -2,15 +2,15 @@
 course_code: RTI253009
 course_name: Bahasa Inggris 2
 meeting: 17
-sub_cpmk: SCPMK102-02701, SCPMK303-02702
+sub_cpmk: SCPMK0102-02701, SCPMK0303-02702
 assessment_weight: 23
 ---
 
 # Pertemuan 17 - UAS: Final Presentation and Writing Test
 
 ## Kemampuan Akhir
-- SCPMK102-02701: Mahasiswa mampu membaca dan memahami teks teknis bahasa Inggris dalam bidang TI serta mengekspresikan ide akademik secara tertulis.
-- SCPMK303-02702: Mahasiswa mampu berkomunikasi lisan dalam bahasa Inggris pada konteks diskusi teknis, presentasi, dan wawancara simulasi.
+- SCPMK0102-02701: Mahasiswa mampu membaca dan memahami teks teknis bahasa Inggris dalam bidang TI serta mengekspresikan ide akademik secara tertulis.
+- SCPMK0303-02702: Mahasiswa mampu berkomunikasi lisan dalam bahasa Inggris pada konteks diskusi teknis, presentasi, dan wawancara simulasi.
 
 ## Materi Pembelajaran
 UAS: final presentation and writing test.

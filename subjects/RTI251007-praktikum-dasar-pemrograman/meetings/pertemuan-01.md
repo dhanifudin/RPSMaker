@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 01
-sub_cpmk: SCPMK903-00701
+sub_cpmk: SCPMK0903-00701
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Instalasi tools pemrograman Java
 
 ## Kemampuan Akhir
-- SCPMK903-00701: Mahasiswa mampu menjelaskan konsep program, bahasa pemrograman, compiler, dan debugging, melakukan instalasi tools pemrograman Java, serta memodelkan permasalahan sederhana menjadi algoritma.
+- SCPMK0903-00701: Mahasiswa mampu menjelaskan konsep program, bahasa pemrograman, compiler, dan debugging, melakukan instalasi tools pemrograman Java, serta memodelkan permasalahan sederhana menjadi algoritma.
 
 ## Materi Pembelajaran
 - Konsep bahasa pemrograman

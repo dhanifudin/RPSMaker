@@ -1,7 +1,7 @@
 ---
 course_code: RTI252006
 course_name: Basis Data
-sub_cpmk: SCPMK203-01501, SCPMK1001-01501
+sub_cpmk: SCPMK0203-01501, SCPMK1001-01501
 assessment_form: Tugas terstruktur berbasis kasus (CBL)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur berbasis kasus (CBL)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur berbasis kasus (CBL)
 
-**Sub-CPMK:** SCPMK203-01501, SCPMK1001-01501
+**Sub-CPMK:** SCPMK0203-01501, SCPMK1001-01501
 
 ## Deskripsi
 Mahasiswa menyelesaikan rangkaian Tugas 1-9: mengulas penerapan basis data, menganalisis kebutuhan data, merancang ERD, memetakan ke model relasional, melakukan normalisasi, serta menuliskan perintah SQL DDL/DML/DQL sesuai studi kasus.

@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 10
-sub_cpmk: SCPMK303-05303
+sub_cpmk: SCPMK0303-05303
 assessment_weight: 2
 ---
 
 # Pertemuan 10 - Manajemen Karir Jangka Panjang
 
 ## Kemampuan Akhir
-- SCPMK303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
+- SCPMK0303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
 
 ## Materi Pembelajaran
 Manajemen karir jangka panjang: konsep dan tahapan manajemen karir; teori pengembangan karir (Super, Schein); strategi adaptasi terhadap perubahan karir; lifelong learning dan upskilling; mentoring dan networking profesional.

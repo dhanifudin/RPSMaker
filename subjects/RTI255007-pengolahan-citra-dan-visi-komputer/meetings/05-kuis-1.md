@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 05
-sub_cpmk: SCPMK705-04301
+sub_cpmk: SCPMK0705-04301
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Kuis 1: Pengolahan Citra Dasar
 
 ## Kemampuan Akhir
-- SCPMK705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
+- SCPMK0705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
 
 ## Materi Pembelajaran
 Kuis 1: pengolahan citra dasar.

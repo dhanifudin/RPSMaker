@@ -1,7 +1,7 @@
 ---
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
-sub_cpmk: SCPMK607-02003, SCPMK802-02004
+sub_cpmk: SCPMK0607-02003, SCPMK0802-02004
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK607-02003, SCPMK802-02004
+**Sub-CPMK:** SCPMK0607-02003, SCPMK0802-02004
 
 ## Deskripsi
 Mahasiswa menganalisis studi kasus penerapan SI strategis pada organisasi nyata dan menyusun rekomendasi solusi.

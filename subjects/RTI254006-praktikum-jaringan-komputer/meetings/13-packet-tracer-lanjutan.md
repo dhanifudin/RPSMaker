@@ -2,15 +2,15 @@
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
 meeting: 13
-sub_cpmk: SCPMK504-03302, SCPMK901-03303
+sub_cpmk: SCPMK0504-03302, SCPMK0901-03303
 assessment_weight: 4.58
 ---
 
 # Pertemuan 13 - Packet Tracer Lanjutan
 
 ## Kemampuan Akhir
-- SCPMK504-03302: Mahasiswa mampu melakukan subnetting IPv4 dan konfigurasi routing dasar.
-- SCPMK901-03303: Mahasiswa mampu menganalisis traffic jaringan dan melakukan troubleshooting konfigurasi.
+- SCPMK0504-03302: Mahasiswa mampu melakukan subnetting IPv4 dan konfigurasi routing dasar.
+- SCPMK0901-03303: Mahasiswa mampu menganalisis traffic jaringan dan melakukan troubleshooting konfigurasi.
 
 ## Materi Pembelajaran
 Packet Tracer lanjutan — topologi kompleks dan troubleshooting.

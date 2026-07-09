@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 09
-sub_cpmk: SCPMK206-01302
+sub_cpmk: SCPMK0206-01302
 assessment_weight: 2
 ---
 
 # Pertemuan 09 - Bash programming
 
 ## Kemampuan Akhir
-- SCPMK206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
+- SCPMK0206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
 
 ## Materi Pembelajaran
 Bash programming.

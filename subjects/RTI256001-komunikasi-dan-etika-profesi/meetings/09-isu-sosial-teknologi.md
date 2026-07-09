@@ -2,14 +2,14 @@
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
 meeting: 09
-sub_cpmk: SCPMK101-04501
+sub_cpmk: SCPMK0101-04501
 assessment_weight: 2
 ---
 
 # Pertemuan 09 - Isu sosial teknologi: privasi data dan surveillance
 
 ## Kemampuan Akhir
-- SCPMK101-04501: Mahasiswa mampu menganalisis kasus pelanggaran etika profesi, hukum ITE, dan K3 untuk merekomendasikan tindakan yang tepat.
+- SCPMK0101-04501: Mahasiswa mampu menganalisis kasus pelanggaran etika profesi, hukum ITE, dan K3 untuk merekomendasikan tindakan yang tepat.
 
 ## Materi Pembelajaran
 Isu sosial teknologi: privasi data dan surveillance.

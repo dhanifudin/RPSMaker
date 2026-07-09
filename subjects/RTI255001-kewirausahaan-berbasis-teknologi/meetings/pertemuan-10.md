@@ -2,14 +2,14 @@
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
 meeting: 10
-sub_cpmk: SCPMK101-03702
+sub_cpmk: SCPMK0101-03702
 assessment_weight: 4
 ---
 
 # Pertemuan 10 - Modal Awal, Proyeksi Laporan Keuangan, dan Ratio Keuangan Dasar (1)
 
 ## Kemampuan Akhir
-- SCPMK101-03702: Mahasiswa mampu menganalisis permintaan pasar, menyusun rencana pemasaran, mengidentifikasi aspek teknis bisnis, serta menyusun laporan keuangan dasar dan penetapan harga.
+- SCPMK0101-03702: Mahasiswa mampu menganalisis permintaan pasar, menyusun rencana pemasaran, mengidentifikasi aspek teknis bisnis, serta menyusun laporan keuangan dasar dan penetapan harga.
 
 ## Materi Pembelajaran
 Modal awal, proyeksi laporan keuangan, dan ratio keuangan dasar (1).

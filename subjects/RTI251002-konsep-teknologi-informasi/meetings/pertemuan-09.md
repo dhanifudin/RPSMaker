@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 09
-sub_cpmk: SCPMK901-00202
+sub_cpmk: SCPMK0901-00202
 assessment_weight: 2
 ---
 
 # Pertemuan 09 - Elemen dan Arsitektur Sistem Komputer
 
 ## Kemampuan Akhir
-- SCPMK901-00202: Mahasiswa mampu menjelaskan cara kerja sistem komputer beserta struktur, arsitektur, dan komponen utamanya.
+- SCPMK0901-00202: Mahasiswa mampu menjelaskan cara kerja sistem komputer beserta struktur, arsitektur, dan komponen utamanya.
 
 ## Materi Pembelajaran
 Elemen sistem komputer, arsitektur sistem komputer, dan komponen sistem komputer.

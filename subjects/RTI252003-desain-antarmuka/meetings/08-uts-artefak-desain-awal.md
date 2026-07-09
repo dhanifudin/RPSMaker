@@ -2,15 +2,15 @@
 course_code: RTI252003
 course_name: Desain Antarmuka
 meeting: 08
-sub_cpmk: SCPMK202-01201, SCPMK202-01202
+sub_cpmk: SCPMK0202-01201, SCPMK0202-01202
 assessment_weight: 20
 ---
 
 # Pertemuan 08 - UTS artefak desain awal
 
 ## Kemampuan Akhir
-- SCPMK202-01201: Mahasiswa mampu menjelaskan prinsip UI/UX, design thinking, user persona, dan journey map untuk mengidentifikasi kebutuhan pengguna.
-- SCPMK202-01202: Mahasiswa mampu merancang wireframe, visual design, design system, dan UX writing berdasarkan kebutuhan pengguna.
+- SCPMK0202-01201: Mahasiswa mampu menjelaskan prinsip UI/UX, design thinking, user persona, dan journey map untuk mengidentifikasi kebutuhan pengguna.
+- SCPMK0202-01202: Mahasiswa mampu merancang wireframe, visual design, design system, dan UX writing berdasarkan kebutuhan pengguna.
 
 ## Materi Pembelajaran
 UTS artefak desain awal.

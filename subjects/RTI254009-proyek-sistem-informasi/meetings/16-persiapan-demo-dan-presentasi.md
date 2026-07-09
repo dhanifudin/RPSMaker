@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 16
-sub_cpmk: SCPMK607-03604
+sub_cpmk: SCPMK0607-03604
 assessment_weight: 5
 ---
 
 # Pertemuan 16 - Persiapan Demo dan Presentasi
 
 ## Kemampuan Akhir
-- SCPMK607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
+- SCPMK0607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
 
 ## Materi Pembelajaran
 Persiapan demo dan presentasi.

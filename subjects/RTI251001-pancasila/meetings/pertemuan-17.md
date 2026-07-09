@@ -2,15 +2,15 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 17
-sub_cpmk: SCPMK102-00103, SCPMK102-00104
+sub_cpmk: SCPMK0102-00103, SCPMK0102-00104
 assessment_weight: 35
 ---
 
 # Pertemuan 17 - UAS Ideologi, HAM, dan Pancasila sebagai paradigma pembangunan
 
 ## Kemampuan Akhir
-- SCPMK102-00103: Mahasiswa mampu menjelaskan Pancasila sebagai ideologi nasional dan membandingkannya dengan ideologi lain yang berkembang di dunia.
-- SCPMK102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
+- SCPMK0102-00103: Mahasiswa mampu menjelaskan Pancasila sebagai ideologi nasional dan membandingkannya dengan ideologi lain yang berkembang di dunia.
+- SCPMK0102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
 
 ## Materi Pembelajaran
 UAS: ideologi nasional, ideologi lain di dunia, Pancasila dan HAM, pelaksanaan HAM dalam UUD RI 1945, tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.

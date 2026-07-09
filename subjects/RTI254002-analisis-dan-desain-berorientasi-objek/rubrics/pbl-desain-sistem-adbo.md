@@ -1,7 +1,7 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-sub_cpmk: SCPMK602-02902, SCPMK10.8-02903
+sub_cpmk: SCPMK0602-02902, SCPMK1008-02903
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK602-02902, SCPMK10.8-02903
+**Sub-CPMK:** SCPMK0602-02902, SCPMK1008-02903
 
 ## Deskripsi
 Mahasiswa mengintegrasikan seluruh artefak ADBO yang telah dikerjakan menjadi dokumen desain sistem lengkap dan mempresentasikan hasilnya kepada dosen dan rekan mahasiswa.

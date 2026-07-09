@@ -2,14 +2,14 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 01
-sub_cpmk: SCPMK902-00401
+sub_cpmk: SCPMK0902-00401
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Konsep Diskrit dan Proposisi
 
 ## Kemampuan Akhir
-- SCPMK902-00401: Mahasiswa mampu menerapkan logika proposisi dan operasi himpunan untuk memodelkan relasi dan menyusun solusi masalah komputasional sederhana.
+- SCPMK0902-00401: Mahasiswa mampu menerapkan logika proposisi dan operasi himpunan untuk memodelkan relasi dan menyusun solusi masalah komputasional sederhana.
 
 ## Materi Pembelajaran
 Konsep diskrit; proposisi; proposisi majemuk; ekivalensi, tautologi, dan kontradiksi.

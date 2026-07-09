@@ -1,14 +1,14 @@
 ---
 course_code: RTI256002
 course_name: Pengembangan Karir
-sub_cpmk: SCPMK102-05301, SCPMK303-05301, SCPMK303-05302
+sub_cpmk: SCPMK0102-05301, SCPMK0303-05301, SCPMK0303-05302
 assessment_form: Presentasi individual
 ---
 
 # UTS Presentasi Portofolio Karir Awal
 
 **Bentuk Tugas/Evaluasi:** Presentasi individual
-**Sub-CPMK:** SCPMK102-05301, SCPMK303-05301, SCPMK303-05302
+**Sub-CPMK:** SCPMK0102-05301, SCPMK0303-05301, SCPMK0303-05302
 
 ## Deskripsi
 Mahasiswa mempresentasikan portofolio karir awal yang disusun secara sistematis, mencakup profil diri, analisis minat dan potensi, profil karir yang dipilih, strategi personal branding, dan rencana awal pengembangan karir.

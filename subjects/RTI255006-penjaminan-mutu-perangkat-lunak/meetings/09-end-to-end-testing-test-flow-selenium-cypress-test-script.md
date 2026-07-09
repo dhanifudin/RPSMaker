@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 09
-sub_cpmk: SCPMK608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing menggunakan tools yang sesuai untuk memverifikasi kesesuaian perangkat lunak terhadap requirement.
+sub_cpmk: SCPMK0608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing menggunakan tools yang sesuai untuk memverifikasi kesesuaian perangkat lunak terhadap requirement.
 assessment_weight: 3
 ---
 
 # Pertemuan 09 - End-to-end testing; test flow; Selenium/Cypress; test script
 
 ## Kemampuan Akhir
-SCPMK608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing menggunakan tools yang sesuai untuk memverifikasi kesesuaian perangkat lunak terhadap requirement.
+SCPMK0608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing menggunakan tools yang sesuai untuk memverifikasi kesesuaian perangkat lunak terhadap requirement.
 
 ## Materi Pembelajaran
 End-to-end testing; test flow; Selenium/Cypress; test script.

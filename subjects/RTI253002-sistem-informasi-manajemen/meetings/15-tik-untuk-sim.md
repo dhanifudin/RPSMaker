@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 15
-sub_cpmk: SCPMK802-02004
+sub_cpmk: SCPMK0802-02004
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - TIK untuk SIM
 
 ## Kemampuan Akhir
-- SCPMK802-02004: Mahasiswa mampu menyusun rencana pengembangan SIM menggunakan pendekatan SDLC yang tepat.
+- SCPMK0802-02004: Mahasiswa mampu menyusun rencana pengembangan SIM menggunakan pendekatan SDLC yang tepat.
 
 ## Materi Pembelajaran
 Teknologi Informasi dan Komunikasi (TIK) untuk SIM: infrastruktur TIK, jaringan dan komunikasi data, keamanan sistem informasi, TIK pendukung SIM modern, dan perencanaan TIK dalam proyek SIM.

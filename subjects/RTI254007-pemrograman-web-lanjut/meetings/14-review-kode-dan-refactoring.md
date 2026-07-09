@@ -2,14 +2,14 @@
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
 meeting: 14
-sub_cpmk: SCPMK10.6-03403
+sub_cpmk: SCPMK1006-03403
 assessment_weight: 2
 ---
 
 # Pertemuan 14 - Review kode dan refactoring
 
 ## Kemampuan Akhir
-- SCPMK10.6-03403: Mahasiswa mampu mengevaluasi kualitas aplikasi Laravel berdasarkan fungsi, keamanan, API, dan kebutuhan pengguna.
+- SCPMK1006-03403: Mahasiswa mampu mengevaluasi kualitas aplikasi Laravel berdasarkan fungsi, keamanan, API, dan kebutuhan pengguna.
 
 ## Materi Pembelajaran
 Review kode dan refactoring.

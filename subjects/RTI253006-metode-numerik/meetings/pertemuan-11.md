@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 11
-sub_cpmk: SCPMK902-03503
+sub_cpmk: SCPMK0902-03503
 assessment_weight: 1.0
 ---
 
 # Pertemuan 11 - Integrasi Numerik: Metode Riemann
 
 ## Kemampuan Akhir
-- SCPMK902-03503: Mahasiswa mampu menyelesaikan masalah diferensiasi numerik dan integrasi numerik menggunakan metode Riemann, trapezoidal, dan Simpson.
+- SCPMK0902-03503: Mahasiswa mampu menyelesaikan masalah diferensiasi numerik dan integrasi numerik menggunakan metode Riemann, trapezoidal, dan Simpson.
 
 ## Materi Pembelajaran
 Integrasi Numerik -- Metode Riemann: integral Riemann (kiri, kanan, tengah), hubungan dengan luas area, estimasi galat integrasi, dan penerapan pada fungsi sederhana.

@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 07
-sub_cpmk: SCPMK701-01603
+sub_cpmk: SCPMK0701-01603
 assessment_weight: 2.5
 ---
 
 # Pertemuan 07 - Transaction dan Concurrency
 
 ## Kemampuan Akhir
-- SCPMK701-01603: Mampu menerapkan mekanisme transaksi, concurrency, full-text search, JSONB, backup-restore, dan migrasi basis data pada PostgreSQL.
+- SCPMK0701-01603: Mampu menerapkan mekanisme transaksi, concurrency, full-text search, JSONB, backup-restore, dan migrasi basis data pada PostgreSQL.
 
 ## Materi Pembelajaran
 Transaksi dan Concurrency: ACID properties, BEGIN/COMMIT/ROLLBACK, SAVEPOINT, isolation level, serta penanganan deadlock dan race condition di PostgreSQL.

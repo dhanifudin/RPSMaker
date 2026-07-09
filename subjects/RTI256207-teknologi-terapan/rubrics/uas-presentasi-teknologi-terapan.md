@@ -1,7 +1,7 @@
 ---
 course_code: RTI256207
 course_name: Teknologi Terapan
-sub_cpmk: SCPMK801-05603, SCPMK503-05602
+sub_cpmk: SCPMK0801-05603, SCPMK0503-05602
 assessment_form: UAS presentasi dan demo kepada industri
 ---
 

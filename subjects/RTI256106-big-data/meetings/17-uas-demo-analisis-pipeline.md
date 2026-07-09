@@ -2,15 +2,15 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 17
-sub_cpmk: SCPMK702-05001, SCPMK904-05002
+sub_cpmk: SCPMK0702-05001, SCPMK0904-05002
 assessment_weight: 23
 ---
 
 # Pertemuan 17 - UAS Demo dan Analisis Pipeline
 
 ## Kemampuan Akhir
-- SCPMK702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
-- SCPMK904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
+- SCPMK0702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
+- SCPMK0904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
 
 ## Materi Pembelajaran
 UAS demo dan analisis pipeline.

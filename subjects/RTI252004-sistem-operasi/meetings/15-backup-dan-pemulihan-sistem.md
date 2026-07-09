@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 15
-sub_cpmk: SCPMK208-01304
+sub_cpmk: SCPMK0208-01304
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - Backup dan pemulihan sistem
 
 ## Kemampuan Akhir
-- SCPMK208-01304: Mahasiswa mampu mengonfigurasi layanan, aplikasi, backup, recovery, dan remastering Linux sesuai kebutuhan sistem.
+- SCPMK0208-01304: Mahasiswa mampu mengonfigurasi layanan, aplikasi, backup, recovery, dan remastering Linux sesuai kebutuhan sistem.
 
 ## Materi Pembelajaran
 Backup dan pemulihan sistem.

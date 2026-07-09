@@ -2,14 +2,14 @@
 course_code: RTI255004
 course_name: Pembelajaran Mesin
 meeting: 13
-sub_cpmk: SCPMK10.5-04002
+sub_cpmk: SCPMK1005-04002
 assessment_weight: 5
 ---
 
 # Pertemuan 13 - Kuis 2: Unsupervised Learning dan Optimasi
 
 ## Kemampuan Akhir
-- SCPMK10.5-04002: Mahasiswa mampu mengevaluasi kinerja model ML menggunakan metrik yang tepat dan menerapkan teknik optimasi model.
+- SCPMK1005-04002: Mahasiswa mampu mengevaluasi kinerja model ML menggunakan metrik yang tepat dan menerapkan teknik optimasi model.
 
 ## Materi Pembelajaran
 Kuis 2: unsupervised learning dan optimasi.

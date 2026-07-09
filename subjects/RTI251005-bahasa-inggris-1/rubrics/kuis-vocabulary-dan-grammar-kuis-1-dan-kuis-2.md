@@ -1,7 +1,7 @@
 ---
 course_code: RTI251005
 course_name: Bahasa Inggris 1
-sub_cpmk: SCPMK303-00501
+sub_cpmk: SCPMK0303-00501
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK303-00501
+**Sub-CPMK:** SCPMK0303-00501
 
 ## Deskripsi
 Mahasiswa mengerjakan dua kuis tertulis: Kuis 1 (Topic 1-3) pada minggu ke-6 dan Kuis 2 (Topic 4-7) pada minggu ke-14, mencakup vocabulary dan grammatical functions yang dipelajari.

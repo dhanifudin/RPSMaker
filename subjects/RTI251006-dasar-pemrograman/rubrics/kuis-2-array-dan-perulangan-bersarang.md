@@ -1,7 +1,7 @@
 ---
 course_code: RTI251006
 course_name: Dasar Pemrograman
-sub_cpmk: SCPMK704-00603, SCPMK704-00604
+sub_cpmk: SCPMK0704-00603, SCPMK0704-00604
 assessment_form: Kuis (ujian teori closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian teori closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian teori closed book)
 
-**Sub-CPMK:** SCPMK704-00603, SCPMK704-00604
+**Sub-CPMK:** SCPMK0704-00603, SCPMK0704-00604
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis pilihan ganda dan/atau essay yang mencakup materi minggu 9-11: array 1 dimensi, array 2 dimensi, dan perulangan bersarang.

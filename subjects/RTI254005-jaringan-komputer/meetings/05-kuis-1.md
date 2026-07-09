@@ -2,14 +2,14 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 05
-sub_cpmk: SCPMK901-03202
+sub_cpmk: SCPMK0901-03202
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Kuis 1: Model OSI dan TCP/IP
 
 ## Kemampuan Akhir
-- SCPMK901-03202: Mahasiswa mampu menjelaskan komponen jaringan (router, switch, media transmisi) dan cara kerja protokol komunikasi.
+- SCPMK0901-03202: Mahasiswa mampu menjelaskan komponen jaringan (router, switch, media transmisi) dan cara kerja protokol komunikasi.
 
 ## Materi Pembelajaran
 Kuis 1: model OSI dan TCP/IP.

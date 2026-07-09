@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 03
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_weight: 5.0
 ---
 
 # Pertemuan 03 - Query Lanjutan (Sub-Query, JOIN, Grouping, CTE)
 
 ## Kemampuan Akhir
-- SCPMK203-01601: Mampu mengoperasikan PostgreSQL dan membuat query dasar (DDL, DML) serta query lanjutan (sub-query, JOIN, grouping, dan CTE) untuk manajemen data.
+- SCPMK0203-01601: Mampu mengoperasikan PostgreSQL dan membuat query dasar (DDL, DML) serta query lanjutan (sub-query, JOIN, grouping, dan CTE) untuk manajemen data.
 
 ## Materi Pembelajaran
 Query Lanjutan: sub-query skalar dan korelasi, INNER/LEFT/RIGHT/FULL OUTER JOIN, CROSS JOIN, GROUP BY dengan HAVING, dan Common Table Expression (CTE).

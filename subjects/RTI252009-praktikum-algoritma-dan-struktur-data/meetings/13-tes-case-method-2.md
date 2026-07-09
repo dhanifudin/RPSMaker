@@ -2,14 +2,14 @@
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
 meeting: 13
-sub_cpmk: SCPMK708-01801
+sub_cpmk: SCPMK0708-01801
 assessment_weight: 25.5
 ---
 
 # Pertemuan 13 - Tes Case Method 2
 
 ## Kemampuan Akhir
-- SCPMK708-01801: Mahasiswa mampu mengimplementasikan struktur data linear dan mengintegrasikannya ke dalam algoritma untuk menyelesaikan permasalahan komputasi.
+- SCPMK0708-01801: Mahasiswa mampu mengimplementasikan struktur data linear dan mengintegrasikannya ke dalam algoritma untuk menyelesaikan permasalahan komputasi.
 
 ## Materi Pembelajaran
 Tes Case Method 2 (Asessment 1): materi pekan 9-12.

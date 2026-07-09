@@ -2,14 +2,14 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 12
-sub_cpmk: SCPMK102-05902
+sub_cpmk: SCPMK0102-05902
 assessment_weight: 3
 ---
 
 # Pertemuan 12 - Technical Interview: Coding Discussion dan Problem Solving
 
 ## Kemampuan Akhir
-- SCPMK102-05902: Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris.
+- SCPMK0102-05902: Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris.
 
 ## Materi Pembelajaran
 Technical interview: coding discussion dan problem solving.

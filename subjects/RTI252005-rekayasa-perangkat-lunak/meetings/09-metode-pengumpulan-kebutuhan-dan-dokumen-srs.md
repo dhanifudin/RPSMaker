@@ -2,14 +2,14 @@
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
 meeting: 09
-sub_cpmk: SCPMK607-01402
+sub_cpmk: SCPMK0607-01402
 assessment_weight: 10
 ---
 
 # Pertemuan 09 - Metode pengumpulan kebutuhan dan dokumen SRS standar IEEE 830
 
 ## Kemampuan Akhir
-- SCPMK607-01402: Mahasiswa mampu menganalisis kebutuhan organisasi dan melakukan elisitasi untuk menghasilkan spesifikasi kebutuhan perangkat lunak (SRS).
+- SCPMK0607-01402: Mahasiswa mampu menganalisis kebutuhan organisasi dan melakukan elisitasi untuk menghasilkan spesifikasi kebutuhan perangkat lunak (SRS).
 
 ## Materi Pembelajaran
 Metode pengumpulan kebutuhan (analisis dan elisitasi); dokumen SRS standar IEEE 830.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
-sub_cpmk: SCPMK401-00303
+sub_cpmk: SCPMK0401-00303
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK401-00303
+**Sub-CPMK:** SCPMK0401-00303
 
 ## Deskripsi
 Mahasiswa secara berkelompok menyusun draf dokumen ilmiah (pekan 13-16) yang memuat latar belakang, rumusan masalah, analisis data, solusi, dan penyempurnaan berdasarkan feedback.

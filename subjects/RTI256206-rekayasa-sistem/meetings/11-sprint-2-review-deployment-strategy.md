@@ -2,14 +2,14 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 11
-sub_cpmk: SCPMK609-05503
+sub_cpmk: SCPMK0609-05503
 assessment_weight: 4
 ---
 
 # Pertemuan 11 - Sprint 2 review dan deployment strategy planning
 
 ## Kemampuan Akhir
-- SCPMK609-05503: Mahasiswa mampu merancang dan mengimplementasikan pipeline CI/CD serta strategi deployment blue-green/canary untuk sistem produksi.
+- SCPMK0609-05503: Mahasiswa mampu merancang dan mengimplementasikan pipeline CI/CD serta strategi deployment blue-green/canary untuk sistem produksi.
 
 ## Materi Pembelajaran
 Sprint 2 review dan deployment strategy planning.

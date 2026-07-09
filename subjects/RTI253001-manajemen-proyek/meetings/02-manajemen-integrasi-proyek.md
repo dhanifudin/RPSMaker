@@ -2,14 +2,14 @@
 course_code: RTI253001
 course_name: Manajemen Proyek
 meeting: 02
-sub_cpmk: SCPMK801-01901
+sub_cpmk: SCPMK0801-01901
 assessment_weight: 2
 ---
 
 # Pertemuan 02 - Manajemen integrasi proyek
 
 ## Kemampuan Akhir
-- SCPMK801-01901: Mahasiswa mampu menjelaskan konsep proyek, fase, dan 10 knowledge area PMBOK serta menyusun perencanaan proyek meliputi integrasi, ruang lingkup (WBS), jadwal, dan biaya [C2, C3].
+- SCPMK0801-01901: Mahasiswa mampu menjelaskan konsep proyek, fase, dan 10 knowledge area PMBOK serta menyusun perencanaan proyek meliputi integrasi, ruang lingkup (WBS), jadwal, dan biaya [C2, C3].
 
 ## Materi Pembelajaran
 Manajemen integrasi proyek: perencanaan strategis dan pemilihan proyek, rencana manajemen proyek, pengelolaan pekerjaan, pemantauan dan pengendalian, kontrol perubahan terpadu, penutupan proyek.

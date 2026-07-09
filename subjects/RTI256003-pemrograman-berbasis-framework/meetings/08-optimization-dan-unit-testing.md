@@ -2,14 +2,14 @@
 course_code: RTI256003
 course_name: Pemrograman Berbasis Framework
 meeting: 08
-sub_cpmk: SCPMK603-04702
+sub_cpmk: SCPMK0603-04702
 assessment_weight: 0
 ---
 
 # Pertemuan 08 - Optimization dan unit testing
 
 ## Kemampuan Akhir
-- SCPMK603-04702: Mahasiswa mampu mengimplementasikan authentication, multi-role system, optimasi, dan unit testing pada aplikasi framework modern.
+- SCPMK0603-04702: Mahasiswa mampu mengimplementasikan authentication, multi-role system, optimasi, dan unit testing pada aplikasi framework modern.
 
 ## Materi Pembelajaran
 Optimization dan unit testing.

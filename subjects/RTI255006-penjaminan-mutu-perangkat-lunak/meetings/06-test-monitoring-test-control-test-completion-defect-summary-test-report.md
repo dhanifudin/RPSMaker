@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 06
-sub_cpmk: SCPMK608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, test case, test monitoring, test control, dan test report yang sesuai dengan kebutuhan perangkat lunak.
+sub_cpmk: SCPMK0608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, test case, test monitoring, test control, dan test report yang sesuai dengan kebutuhan perangkat lunak.
 assessment_weight: 2
 ---
 
 # Pertemuan 06 - Test monitoring; test control; test completion; defect summary; test report
 
 ## Kemampuan Akhir
-SCPMK608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, test case, test monitoring, test control, dan test report yang sesuai dengan kebutuhan perangkat lunak.
+SCPMK0608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, test case, test monitoring, test control, dan test report yang sesuai dengan kebutuhan perangkat lunak.
 
 ## Materi Pembelajaran
 Test monitoring; test control; test completion; defect summary; test report.

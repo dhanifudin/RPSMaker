@@ -1,7 +1,7 @@
 ---
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
-sub_cpmk: SCPMK303-04503
+sub_cpmk: SCPMK0303-04503
 assessment_form: UAS presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan defense
 
-**Sub-CPMK:** SCPMK303-04503
+**Sub-CPMK:** SCPMK0303-04503
 
 ## Deskripsi
 Mahasiswa mempresentasikan portofolio profesional final dan rencana pengembangan karir secara komprehensif, mempertahankan keputusan berdasarkan kompetensi dan tren industri TI.

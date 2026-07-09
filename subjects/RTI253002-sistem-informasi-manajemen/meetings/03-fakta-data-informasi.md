@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 03
-sub_cpmk: SCPMK211-02001
+sub_cpmk: SCPMK0211-02001
 assessment_weight: 3
 ---
 
 # Pertemuan 03 - Konsep Dasar Fakta, Data, dan Informasi
 
 ## Kemampuan Akhir
-- SCPMK211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
+- SCPMK0211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
 
 ## Materi Pembelajaran
 Konsep dasar fakta, data, dan informasi: hierarki data, karakteristik informasi berkualitas, transformasi data menjadi informasi, dan nilai informasi dalam pengambilan keputusan.

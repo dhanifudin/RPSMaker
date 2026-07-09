@@ -1,7 +1,7 @@
 ---
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
-sub_cpmk: SCPMK801-04801
+sub_cpmk: SCPMK0801-04801
 assessment_form: Case Method dan penyusunan dokumen proyek
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penyusunan dokumen proyek
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penyusunan dokumen proyek
 
-**Sub-CPMK:** SCPMK801-04801
+**Sub-CPMK:** SCPMK0801-04801
 
 ## Deskripsi
 Mahasiswa menyusun dokumen perencanaan proyek TI terintegrasi yang mencakup WBS, jadwal, estimasi biaya, alokasi sumber daya, dan risk register secara komprehensif.

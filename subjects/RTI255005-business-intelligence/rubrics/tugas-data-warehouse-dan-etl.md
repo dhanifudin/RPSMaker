@@ -1,7 +1,7 @@
 ---
 course_code: RTI255005
 course_name: Business Intelligence
-sub_cpmk: SCPMK705-04101, SCPMK706-04102, SCPMK10.4-04103
+sub_cpmk: SCPMK0705-04101, SCPMK0706-04102, SCPMK1004-04103
 assessment_form: Case Method dan analisis data
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan analisis data
 
 **Bentuk Tugas/Evaluasi:** Case Method dan analisis data
 
-**Sub-CPMK:** SCPMK705-04101, SCPMK706-04102, SCPMK10.4-04103
+**Sub-CPMK:** SCPMK0705-04101, SCPMK0706-04102, SCPMK1004-04103
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas merancang data warehouse dan ETL, mengimplementasikan OLAP dengan tools BI, serta memvisualisasikan insight bisnis yang relevan.

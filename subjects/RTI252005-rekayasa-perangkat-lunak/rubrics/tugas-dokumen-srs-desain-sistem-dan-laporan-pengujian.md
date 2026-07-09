@@ -1,7 +1,7 @@
 ---
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
-sub_cpmk: SCPMK607-01402, SCPMK211-01403, SCPMK802-01401
+sub_cpmk: SCPMK0607-01402, SCPMK0211-01403, SCPMK0802-01401
 assessment_form: Tugas terstruktur (dokumen proyek)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur (dokumen proyek)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur (dokumen proyek)
 
-**Sub-CPMK:** SCPMK607-01402, SCPMK211-01403, SCPMK802-01401
+**Sub-CPMK:** SCPMK0607-01402, SCPMK0211-01403, SCPMK0802-01401
 
 ## Deskripsi
 Mahasiswa menyusun dokumen spesifikasi kebutuhan perangkat lunak (SRS) hasil elisitasi, dokumen desain sistem (SDD) berbasis UML, dan laporan pengujian (Test Report) untuk proyek yang dikembangkan.

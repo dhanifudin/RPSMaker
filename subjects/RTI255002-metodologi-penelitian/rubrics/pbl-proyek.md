@@ -1,7 +1,7 @@
 ---
 course_code: RTI255002
 course_name: Metodologi Penelitian
-sub_cpmk: SCPMK403-03801, SCPMK403-03802, SCPMK403-03803, SCPMK401-03804
+sub_cpmk: SCPMK0403-03801, SCPMK0403-03802, SCPMK0403-03803, SCPMK0401-03804
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK403-03801, SCPMK403-03802, SCPMK403-03803, SCPMK401-03804
+**Sub-CPMK:** SCPMK0403-03801, SCPMK0403-03802, SCPMK0403-03803, SCPMK0401-03804
 
 ## Deskripsi
 Mahasiswa menyusun dan mempresentasikan proposal penelitian lengkap (3 bab) sebagai luaran utama PBL semester.

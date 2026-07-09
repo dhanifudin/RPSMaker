@@ -2,14 +2,14 @@
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
 meeting: 15
-sub_cpmk: SCPMK401-00303
+sub_cpmk: SCPMK0401-00303
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - Keterpaduan Logika
 
 ## Kemampuan Akhir
-- SCPMK401-00303: Mahasiswa mampu mengembangkan solusi yang logis dan berdasarkan bukti untuk masalah yang diberikan, dan secara efektif membela solusi tersebut melalui argumentasi yang kohesif dan berbasis data dalam bentuk deskripsi ilmiah.
+- SCPMK0401-00303: Mahasiswa mampu mengembangkan solusi yang logis dan berdasarkan bukti untuk masalah yang diberikan, dan secara efektif membela solusi tersebut melalui argumentasi yang kohesif dan berbasis data dalam bentuk deskripsi ilmiah.
 
 ## Materi Pembelajaran
 Keterpaduan logika; penyelarasan rumusan masalah, data, dan solusi.

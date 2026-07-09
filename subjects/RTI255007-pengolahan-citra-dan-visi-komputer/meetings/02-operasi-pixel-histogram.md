@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 02
-sub_cpmk: SCPMK705-04301
+sub_cpmk: SCPMK0705-04301
 assessment_weight: 3
 ---
 
 # Pertemuan 02 - Operasi Pixel, Histogram, dan Color Space
 
 ## Kemampuan Akhir
-- SCPMK705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
+- SCPMK0705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
 
 ## Materi Pembelajaran
 Operasi pixel, histogram, dan color space.

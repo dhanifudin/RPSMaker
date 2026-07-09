@@ -2,15 +2,15 @@
 course_code: RTI254003
 course_name: Bahasa Indonesia
 meeting: 15
-sub_cpmk: SCPMK301-03001, SCPMK401-03002
+sub_cpmk: SCPMK0301-03001, SCPMK0401-03002
 assessment_weight: 3
 ---
 
 # Pertemuan 15 - Presentasi Karya Tulis Ilmiah
 
 ## Kemampuan Akhir
-- SCPMK301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
-- SCPMK401-03002: Mahasiswa mampu menyusun karya tulis ilmiah sederhana dengan rumusan masalah, metodologi, pembahasan, dan kesimpulan yang valid sesuai kaidah akademik.
+- SCPMK0301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
+- SCPMK0401-03002: Mahasiswa mampu menyusun karya tulis ilmiah sederhana dengan rumusan masalah, metodologi, pembahasan, dan kesimpulan yang valid sesuai kaidah akademik.
 
 ## Materi Pembelajaran
 Presentasi karya tulis ilmiah.

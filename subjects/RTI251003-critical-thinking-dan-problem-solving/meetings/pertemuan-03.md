@@ -2,14 +2,14 @@
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
 meeting: 03
-sub_cpmk: SCPMK401-00301
+sub_cpmk: SCPMK0401-00301
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Definisi Masalah
 
 ## Kemampuan Akhir
-- SCPMK401-00301: Mahasiswa mampu mengidentifikasi, menganalisis, dan mengevaluasi argumen dalam berbagai konteks diskusi atau materi tertulis, dengan membedakan antara fakta dan opini serta mengenali bias dan kesalahan logika yang umum.
+- SCPMK0401-00301: Mahasiswa mampu mengidentifikasi, menganalisis, dan mengevaluasi argumen dalam berbagai konteks diskusi atau materi tertulis, dengan membedakan antara fakta dan opini serta mengenali bias dan kesalahan logika yang umum.
 
 ## Materi Pembelajaran
 Definisi masalah; identifikasi informasi; strategi pemecahan masalah; studi kasus sederhana.

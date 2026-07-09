@@ -1,7 +1,7 @@
 ---
 course_code: RTI256107
 course_name: Cloud Computing
-sub_cpmk: SCPMK509-05101, SCPMK10.3-05103
+sub_cpmk: SCPMK0509-05101, SCPMK1003-05103
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK509-05101, SCPMK10.3-05103
+**Sub-CPMK:** SCPMK0509-05101, SCPMK1003-05103
 
 ## Deskripsi
 Mahasiswa men-deploy aplikasi nyata ke platform cloud menggunakan container, mengkonfigurasi keamanan dan jaringan, serta mengoptimalkan biaya operasional secara berkelompok.

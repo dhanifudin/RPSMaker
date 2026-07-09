@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 13
-sub_cpmk: SCPMK102-00104
+sub_cpmk: SCPMK0102-00104
 assessment_weight: 3
 ---
 
 # Pertemuan 13 - Tindak pidana korupsi
 
 ## Kemampuan Akhir
-- SCPMK102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
+- SCPMK0102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
 
 ## Materi Pembelajaran
 Tindak pidana korupsi: pengertian, jenis-jenis, dan dasar hukum.

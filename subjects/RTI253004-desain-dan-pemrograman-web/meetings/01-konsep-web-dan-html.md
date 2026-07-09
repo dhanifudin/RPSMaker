@@ -2,14 +2,14 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 01
-sub_cpmk: SCPMK704-02201
+sub_cpmk: SCPMK0704-02201
 assessment_weight: 1
 ---
 
 # Pertemuan 01 - Konsep web dan HTML
 
 ## Kemampuan Akhir
-- SCPMK704-02201: Mahasiswa mampu menerapkan HTML, CSS, JavaScript dasar, dan PHP untuk membangun halaman web.
+- SCPMK0704-02201: Mahasiswa mampu menerapkan HTML, CSS, JavaScript dasar, dan PHP untuk membangun halaman web.
 
 ## Materi Pembelajaran
 Konsep web dan HTML.

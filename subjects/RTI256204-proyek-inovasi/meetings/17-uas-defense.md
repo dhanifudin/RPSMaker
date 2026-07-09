@@ -2,15 +2,15 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 17
-sub_cpmk: SCPMK804-05303, SCPMK607-05304
+sub_cpmk: SCPMK0804-05303, SCPMK0607-05304
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS Defense Proyek Inovasi dan Demo
 
 ## Kemampuan Akhir
-- SCPMK804-05303: Mahasiswa mampu mempresentasikan hasil proyek inovasi dengan defense teknis dan bisnis yang komprehensif.
-- SCPMK607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
+- SCPMK0804-05303: Mahasiswa mampu mempresentasikan hasil proyek inovasi dengan defense teknis dan bisnis yang komprehensif.
+- SCPMK0607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
 
 ## Materi Pembelajaran
 UAS Defense proyek inovasi dan demo.

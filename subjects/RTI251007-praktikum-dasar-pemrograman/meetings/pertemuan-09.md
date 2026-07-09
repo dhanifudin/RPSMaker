@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 09
-sub_cpmk: SCPMK704-00703
+sub_cpmk: SCPMK0704-00703
 assessment_weight: 2
 ---
 
 # Pertemuan 09 - Perulangan 2: perulangan bersarang (nested loop)
 
 ## Kemampuan Akhir
-- SCPMK704-00703: Mahasiswa mampu menerapkan struktur perulangan bersarang (nested loop) untuk menyelesaikan studi kasus dalam program Java.
+- SCPMK0704-00703: Mahasiswa mampu menerapkan struktur perulangan bersarang (nested loop) untuk menyelesaikan studi kasus dalam program Java.
 
 ## Materi Pembelajaran
 - Perulangan bersarang (nested loop)

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
-sub_cpmk: SCPMK903-00701, SCPMK704-00702
+sub_cpmk: SCPMK0903-00701, SCPMK0704-00702
 assessment_form: Kuis (tes praktik)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (tes praktik)
 
 **Bentuk Tugas/Evaluasi:** Kuis (tes praktik)
 
-**Sub-CPMK:** SCPMK903-00701, SCPMK704-00702
+**Sub-CPMK:** SCPMK0903-00701, SCPMK0704-00702
 
 ## Deskripsi
 Mahasiswa menyelesaikan tes praktik individu materi minggu ke-1 sampai 3: pemodelan algoritma, tipe data, variabel, operator, input-output, dan sequence.

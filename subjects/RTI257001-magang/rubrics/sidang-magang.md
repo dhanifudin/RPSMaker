@@ -1,7 +1,7 @@
 ---
 course_code: RTI257001
 course_name: Magang
-sub_cpmk: SCPMK303-05702, SCPMK607-05704
+sub_cpmk: SCPMK0303-05702, SCPMK0607-05704
 assessment_form: Presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** Presentasi dan defense
 
-**Sub-CPMK:** SCPMK303-05702, SCPMK607-05704
+**Sub-CPMK:** SCPMK0303-05702, SCPMK0607-05704
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mempertahankan laporan magang di hadapan tim penguji (pembimbing akademik dan penguji internal), menunjukkan penguasaan atas pengalaman dan kompetensi industri yang diperoleh.

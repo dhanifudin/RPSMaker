@@ -1,7 +1,7 @@
 ---
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
-sub_cpmk: SCPMK102-05902, SCPMK303-05901
+sub_cpmk: SCPMK0102-05902, SCPMK0303-05901
 assessment_form: UAS praktik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS praktik
 
 **Bentuk Tugas/Evaluasi:** UAS praktik
 
-**Sub-CPMK:** SCPMK102-05902, SCPMK303-05901
+**Sub-CPMK:** SCPMK0102-05902, SCPMK0303-05901
 
 ## Deskripsi
 Mahasiswa mengikuti sesi final berupa mock interview panel dan presentasi portofolio profesional di depan tim instruktur sebagai simulasi proses rekrutmen TI yang sesungguhnya.

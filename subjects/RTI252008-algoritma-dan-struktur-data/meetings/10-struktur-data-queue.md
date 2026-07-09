@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 10
-sub_cpmk: SCPMK207-01701
+sub_cpmk: SCPMK0207-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 10 - Struktur Data Queue
 
 ## Kemampuan Akhir
-- SCPMK207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
+- SCPMK0207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
 
 ## Materi Pembelajaran
 Konsep struktur data queue dan operasi-operasi pada queue (enqueue, dequeue, front, isEmpty).

@@ -2,14 +2,14 @@
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
 meeting: 16
-sub_cpmk: SCPMK903-02503
+sub_cpmk: SCPMK0903-02503
 assessment_weight: 10
 ---
 
 # Pertemuan 16 - Java GUI dan Database
 
 ## Kemampuan Akhir
-- SCPMK903-02503: Mahasiswa mampu membangun aplikasi Java berbasis GUI dan database menggunakan prinsip OOP secara menyeluruh.
+- SCPMK0903-02503: Mahasiswa mampu membangun aplikasi Java berbasis GUI dan database menggunakan prinsip OOP secara menyeluruh.
 
 ## Materi Pembelajaran
 Java GUI dan database.

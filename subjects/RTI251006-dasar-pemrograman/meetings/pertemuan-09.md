@@ -2,14 +2,14 @@
 course_code: RTI251006
 course_name: Dasar Pemrograman
 meeting: 09
-sub_cpmk: SCPMK704-00604
+sub_cpmk: SCPMK0704-00604
 assessment_weight: 1.5
 ---
 
 # Pertemuan 09 - Konsep Array dan Array 1 Dimensi
 
 ## Kemampuan Akhir
-- SCPMK704-00604: Mahasiswa mampu menyelesaikan studi kasus menggunakan array 1 dan 2 dimensi serta fungsi iteratif dan rekursif dalam algoritma penyelesaian masalah.
+- SCPMK0704-00604: Mahasiswa mampu menyelesaikan studi kasus menggunakan array 1 dan 2 dimensi serta fungsi iteratif dan rekursif dalam algoritma penyelesaian masalah.
 
 ## Materi Pembelajaran
 Konsep array; array 1 dimensi; studi kasus searching dan sorting sederhana.

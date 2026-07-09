@@ -2,15 +2,15 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 17
-sub_cpmk: SCPMK603-02203, SCPMK603-02204
+sub_cpmk: SCPMK0603-02203, SCPMK0603-02204
 assessment_weight: 25
 ---
 
 # Pertemuan 17 - UAS aplikasi web dinamis
 
 ## Kemampuan Akhir
-- SCPMK603-02203: Mahasiswa mampu mengimplementasikan aplikasi web dinamis dengan PHP dan MySQL serta melakukan debugging.
-- SCPMK603-02204: Mahasiswa mampu menghasilkan aplikasi web sederhana yang dapat dipresentasikan dan diunggah ke hosting.
+- SCPMK0603-02203: Mahasiswa mampu mengimplementasikan aplikasi web dinamis dengan PHP dan MySQL serta melakukan debugging.
+- SCPMK0603-02204: Mahasiswa mampu menghasilkan aplikasi web sederhana yang dapat dipresentasikan dan diunggah ke hosting.
 
 ## Materi Pembelajaran
 UAS aplikasi web dinamis.

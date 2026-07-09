@@ -2,14 +2,14 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 02
-sub_cpmk: SCPMK101-05201
+sub_cpmk: SCPMK0101-05201
 assessment_weight: 2
 ---
 
 # Pertemuan 02 - Carbon Footprint dan Pengukuran Emisi TI
 
 ## Kemampuan Akhir
-- SCPMK101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
+- SCPMK0101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
 
 ## Materi Pembelajaran
 Carbon footprint dan pengukuran emisi TI.

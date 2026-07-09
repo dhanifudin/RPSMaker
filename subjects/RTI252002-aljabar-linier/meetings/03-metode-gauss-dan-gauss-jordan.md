@@ -2,14 +2,14 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 03
-sub_cpmk: SCPMK902-01101
+sub_cpmk: SCPMK0902-01101
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Penyelesaian SPL dengan metode Gauss dan Gauss-Jordan
 
 ## Kemampuan Akhir
-- SCPMK902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
+- SCPMK0902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
 
 ## Materi Pembelajaran
 Penyelesaian SPL dengan metode Gauss (REF) dan metode Gauss-Jordan / reduced row echelon form (RREF).

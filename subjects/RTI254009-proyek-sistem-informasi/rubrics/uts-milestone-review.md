@@ -1,7 +1,7 @@
 ---
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
-sub_cpmk: SCPMK803-03603
+sub_cpmk: SCPMK0803-03603
 assessment_form: UTS berbasis demo dan presentasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis demo dan presentasi
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis demo dan presentasi
 
-**Sub-CPMK:** SCPMK803-03603
+**Sub-CPMK:** SCPMK0803-03603
 
 ## Deskripsi
 Mahasiswa mendemonstrasikan kemajuan proyek SI dan mempertahankan keputusan teknis dan manajerial yang telah diambil.

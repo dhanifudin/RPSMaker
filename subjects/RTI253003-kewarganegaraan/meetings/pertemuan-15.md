@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 15
-sub_cpmk: SCPMK102-02104
+sub_cpmk: SCPMK0102-02104
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - Ketahanan Nasional (PBL)
 
 ## Kemampuan Akhir
-- SCPMK102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
+- SCPMK0102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
 
 ## Materi Pembelajaran
 Ketahanan Nasional: pengertian dan sejarah ketahanan nasional, unsur-unsur ketahanan nasional, pendekatan asta gatra, serta globalisasi dan ketahanan nasional.

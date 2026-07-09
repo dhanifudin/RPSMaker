@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 05
-sub_cpmk: SCPMK901-00201
+sub_cpmk: SCPMK0901-00201
 assessment_weight: 12
 ---
 
 # Pertemuan 05 - Kuis 1 Konsep Teknologi, Inovasi, IPTEK, dan Etika Rekayasa
 
 ## Kemampuan Akhir
-- SCPMK901-00201: Mahasiswa mampu menjelaskan konsep teknologi informasi, inovasi teknologi, perkembangan IPTEK dan ICT, serta etika rekayasa di bidang TI.
+- SCPMK0901-00201: Mahasiswa mampu menjelaskan konsep teknologi informasi, inovasi teknologi, perkembangan IPTEK dan ICT, serta etika rekayasa di bidang TI.
 
 ## Materi Pembelajaran
 Kuis 1: konsep teknologi, inovasi teknologi, perkembangan IPTEK, dan etika rekayasa.

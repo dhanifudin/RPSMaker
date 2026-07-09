@@ -2,15 +2,15 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 12
-sub_cpmk: SCPMK902-01102, SCPMK902-01103
+sub_cpmk: SCPMK0902-01102, SCPMK0902-01103
 assessment_weight: 10
 ---
 
 # Pertemuan 12 - Kuis 2: materi pekan 9-11
 
 ## Kemampuan Akhir
-- SCPMK902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
-- SCPMK902-01103: Mahasiswa mampu menerapkan konsep vektor dan ruang vektor untuk interpretasi geometri dan komputasi dasar pada konteks informatika.
+- SCPMK0902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
+- SCPMK0902-01103: Mahasiswa mampu menerapkan konsep vektor dan ruang vektor untuk interpretasi geometri dan komputasi dasar pada konteks informatika.
 
 ## Materi Pembelajaran
 Kuis 2: materi pekan 9-11.

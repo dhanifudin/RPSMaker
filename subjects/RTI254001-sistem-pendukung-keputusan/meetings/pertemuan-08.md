@@ -2,16 +2,16 @@
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
 meeting: 08
-sub_cpmk: SCPMK706-02801, SCPMK706-02802, SCPMK706-02803
+sub_cpmk: SCPMK0706-02801, SCPMK0706-02802, SCPMK0706-02803
 assessment_weight: 20
 ---
 
 # Pertemuan 08 - UTS: Analisis Metode MCDM
 
 ## Kemampuan Akhir
-- SCPMK706-02801: Mahasiswa mampu menjelaskan konsep dan evolusi sistem pendukung keputusan, teori pengambilan keputusan, serta menerapkan metode baseline MCDM yaitu WSM dan WPM pada kasus sederhana.
-- SCPMK706-02802: Mahasiswa mampu menerapkan metode AHP untuk menghitung pembobotan kriteria berbasis pendapat decision maker baik untuk kriteria benefit maupun cost.
-- SCPMK706-02803: Mahasiswa mampu menerapkan metode ROC, EDAS, MARCOS, dan MEREC untuk perankingan alternatif dan pembobotan objektif dalam pengambilan keputusan multi-kriteria.
+- SCPMK0706-02801: Mahasiswa mampu menjelaskan konsep dan evolusi sistem pendukung keputusan, teori pengambilan keputusan, serta menerapkan metode baseline MCDM yaitu WSM dan WPM pada kasus sederhana.
+- SCPMK0706-02802: Mahasiswa mampu menerapkan metode AHP untuk menghitung pembobotan kriteria berbasis pendapat decision maker baik untuk kriteria benefit maupun cost.
+- SCPMK0706-02803: Mahasiswa mampu menerapkan metode ROC, EDAS, MARCOS, dan MEREC untuk perankingan alternatif dan pembobotan objektif dalam pengambilan keputusan multi-kriteria.
 
 ## Materi Pembelajaran
 UTS: analisis metode MCDM.

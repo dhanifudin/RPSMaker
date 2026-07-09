@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 06
-sub_cpmk: SCPMK203-01602
+sub_cpmk: SCPMK0203-01602
 assessment_weight: 2.5
 ---
 
 # Pertemuan 06 - Function, View, Materialized View, dan Stored Procedure
 
 ## Kemampuan Akhir
-- SCPMK203-01602: Mampu mengimplementasikan teknik optimasi query menggunakan indeks serta membangun objek basis data (function, view, materialized view, dan stored procedure) pada PostgreSQL.
+- SCPMK0203-01602: Mampu mengimplementasikan teknik optimasi query menggunakan indeks serta membangun objek basis data (function, view, materialized view, dan stored procedure) pada PostgreSQL.
 
 ## Materi Pembelajaran
 Function, View, Materialized View, dan Stored Procedure: pembuatan PL/pgSQL function, view, materialized view (REFRESH), dan stored procedure untuk enkapsulasi logika bisnis.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
-sub_cpmk: SCPMK802-01401
+sub_cpmk: SCPMK0802-01401
 assessment_form: Kuis (tes objektif dan/atau esai singkat, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (tes objektif dan/atau esai singkat, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (tes objektif dan/atau esai singkat, closed book)
 
-**Sub-CPMK:** SCPMK802-01401
+**Sub-CPMK:** SCPMK0802-01401
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis materi pertemuan 1-4 yang mencakup konsep dasar RPL, tahapan SDLC, dan metodologi preskriptif (Waterfall, Prototyping, Spiral, RUP).

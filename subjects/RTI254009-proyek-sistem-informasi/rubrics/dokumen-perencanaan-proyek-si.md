@@ -1,7 +1,7 @@
 ---
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
-sub_cpmk: SCPMK801-03601
+sub_cpmk: SCPMK0801-03601
 assessment_form: Case Method dan penugasan terstruktur
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penugasan terstruktur
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penugasan terstruktur
 
-**Sub-CPMK:** SCPMK801-03601
+**Sub-CPMK:** SCPMK0801-03601
 
 ## Deskripsi
 Mahasiswa menyusun dokumen perencanaan proyek SI lengkap meliputi WBS, jadwal, anggaran, dan risk register.

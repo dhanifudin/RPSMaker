@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 14
-sub_cpmk: SCPMK207-01701
+sub_cpmk: SCPMK0207-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 14 - Tree dan Binary Search Tree
 
 ## Kemampuan Akhir
-- SCPMK207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
+- SCPMK0207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
 
 ## Materi Pembelajaran
 Tree: konsep tree, terminologi (root, leaf, height, depth), penerapan binary tree, konsep binary search tree (BST), dan tahapan penerapannya.

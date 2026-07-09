@@ -1,7 +1,7 @@
 ---
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
-sub_cpmk: SCPMK504-03301, SCPMK504-03302
+sub_cpmk: SCPMK0504-03301, SCPMK0504-03302
 assessment_form: Ujian Praktikum
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian Praktikum
 
 **Bentuk Tugas/Evaluasi:** Ujian Praktikum
 
-**Sub-CPMK:** SCPMK504-03301, SCPMK504-03302
+**Sub-CPMK:** SCPMK0504-03301, SCPMK0504-03302
 
 ## Deskripsi
 Mahasiswa menyelesaikan ujian praktikum mid-semester yang menguji kemampuan konfigurasi perangkat jaringan dan subnetting.

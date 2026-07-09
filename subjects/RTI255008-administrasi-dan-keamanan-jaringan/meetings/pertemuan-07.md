@@ -2,15 +2,15 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 07
-sub_cpmk: SCPMK501-04401, SCPMK505-04401
+sub_cpmk: SCPMK0501-04401, SCPMK0505-04401
 assessment_weight: 10
 ---
 
 # Pertemuan 07 - Kuis Konfigurasi NAT & Firewall pada Gateway
 
 ## Kemampuan Akhir
-- SCPMK501-04401: Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet.
-- SCPMK505-04401: Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM.
+- SCPMK0501-04401: Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet.
+- SCPMK0505-04401: Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM.
 
 ## Materi Pembelajaran
 Kuis: konfigurasi NAT & firewall pada gateway.

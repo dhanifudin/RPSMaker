@@ -1,7 +1,7 @@
 ---
 course_code: RTI255005
 course_name: Business Intelligence
-sub_cpmk: SCPMK706-04102, SCPMK10.4-04103
+sub_cpmk: SCPMK0706-04102, SCPMK1004-04103
 assessment_form: UAS presentasi dan demo
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan demo
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan demo
 
-**Sub-CPMK:** SCPMK706-04102, SCPMK10.4-04103
+**Sub-CPMK:** SCPMK0706-04102, SCPMK1004-04103
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mendemonstrasikan dashboard BI yang telah dibangun, menjelaskan insight bisnis yang dihasilkan, dan mempertahankan keputusan desain analitik.

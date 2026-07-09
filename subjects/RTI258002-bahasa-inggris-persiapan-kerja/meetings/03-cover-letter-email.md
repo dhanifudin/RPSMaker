@@ -2,14 +2,14 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 03
-sub_cpmk: SCPMK303-05901
+sub_cpmk: SCPMK0303-05901
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Cover Letter dan Application Email: Struktur dan Konvensi
 
 ## Kemampuan Akhir
-- SCPMK303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
+- SCPMK0303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
 
 ## Materi Pembelajaran
 Cover letter dan application email: struktur dan konvensi.

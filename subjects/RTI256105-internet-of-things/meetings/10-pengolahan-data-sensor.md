@@ -2,14 +2,14 @@
 course_code: RTI256105
 course_name: Internet of Things
 meeting: 10
-sub_cpmk: SCPMK503-04902
+sub_cpmk: SCPMK0503-04902
 assessment_weight: 3
 ---
 
 # Pertemuan 10 - Pengolahan Data Sensor dan Time-Series Database
 
 ## Kemampuan Akhir
-- SCPMK503-04902: Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi.
+- SCPMK0503-04902: Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi.
 
 ## Materi Pembelajaran
 Pengolahan data sensor dan time-series database.

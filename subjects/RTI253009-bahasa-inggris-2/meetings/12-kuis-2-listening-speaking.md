@@ -2,14 +2,14 @@
 course_code: RTI253009
 course_name: Bahasa Inggris 2
 meeting: 12
-sub_cpmk: SCPMK303-02702
+sub_cpmk: SCPMK0303-02702
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Kuis 2: Listening and Speaking Skills
 
 ## Kemampuan Akhir
-- SCPMK303-02702: Mahasiswa mampu berkomunikasi lisan dalam bahasa Inggris pada konteks diskusi teknis, presentasi, dan wawancara simulasi.
+- SCPMK0303-02702: Mahasiswa mampu berkomunikasi lisan dalam bahasa Inggris pada konteks diskusi teknis, presentasi, dan wawancara simulasi.
 
 ## Materi Pembelajaran
 Kuis 2: listening and speaking skills.

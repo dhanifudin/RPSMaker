@@ -1,7 +1,7 @@
 ---
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
-sub_cpmk: SCPMK802-04802, SCPMK607-04805
+sub_cpmk: SCPMK0802-04802, SCPMK0607-04805
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK802-04802, SCPMK607-04805
+**Sub-CPMK:** SCPMK0802-04802, SCPMK0607-04805
 
 ## Deskripsi
 Mahasiswa mengimplementasikan aplikasi multi-platform secara bertahap melalui empat sprint agile dengan dokumentasi lengkap, integrasi komponen, dan kolaborasi tim yang terukur.

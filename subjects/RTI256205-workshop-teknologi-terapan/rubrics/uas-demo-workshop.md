@@ -1,7 +1,7 @@
 ---
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
-sub_cpmk: SCPMK803-05403, SCPMK802-05402
+sub_cpmk: SCPMK0803-05403, SCPMK0802-05402
 assessment_form: UAS demo dan defense kepada industri
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS demo dan defense kepada industri
 
 **Bentuk Tugas/Evaluasi:** UAS demo dan defense kepada industri
 
-**Sub-CPMK:** SCPMK803-05403, SCPMK802-05402
+**Sub-CPMK:** SCPMK0803-05403, SCPMK0802-05402
 
 ## Deskripsi
 Mahasiswa mendemonstrasikan produk teknologi terapan hasil workshop kepada stakeholder industri dan melakukan defense atas keputusan teknis dan manajemen proyek yang diambil selama workshop berlangsung.

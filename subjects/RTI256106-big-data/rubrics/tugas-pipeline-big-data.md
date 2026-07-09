@@ -1,7 +1,7 @@
 ---
 course_code: RTI256106
 course_name: Big Data
-sub_cpmk: SCPMK702-05001, SCPMK904-05002
+sub_cpmk: SCPMK0702-05001, SCPMK0904-05002
 assessment_form: Case Method dan praktik Big Data
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik Big Data
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik Big Data
 
-**Sub-CPMK:** SCPMK702-05001, SCPMK904-05002
+**Sub-CPMK:** SCPMK0702-05001, SCPMK0904-05002
 
 ## Deskripsi
 Mahasiswa merancang dan mengimplementasikan pipeline pemrosesan Big Data serta menganalisis arsitektur sistem terdistribusi berdasarkan studi kasus yang diberikan.

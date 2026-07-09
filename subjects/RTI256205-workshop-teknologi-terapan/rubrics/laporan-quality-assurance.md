@@ -1,7 +1,7 @@
 ---
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
-sub_cpmk: SCPMK603-05401
+sub_cpmk: SCPMK0603-05401
 assessment_form: Case Method (CM) -- laporan teknis QA
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method (CM) -- laporan teknis QA
 
 **Bentuk Tugas/Evaluasi:** Case Method (CM) -- laporan teknis QA
 
-**Sub-CPMK:** SCPMK603-05401
+**Sub-CPMK:** SCPMK0603-05401
 
 ## Deskripsi
 Mahasiswa menyusun laporan QA komprehensif yang mendokumentasikan seluruh aktivitas pengujian selama workshop, termasuk test plan, hasil pengujian, analisis defect, dan rekomendasi perbaikan produk.

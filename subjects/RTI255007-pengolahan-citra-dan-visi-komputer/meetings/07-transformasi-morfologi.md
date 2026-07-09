@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 07
-sub_cpmk: SCPMK10.4-04303
+sub_cpmk: SCPMK1004-04303
 assessment_weight: 3
 ---
 
 # Pertemuan 07 - Transformasi Morfologi dan Analisis Bentuk
 
 ## Kemampuan Akhir
-- SCPMK10.4-04303: Mahasiswa mampu mengevaluasi kualitas citra dan hasil pemrosesan visual menggunakan metrik kuantitatif.
+- SCPMK1004-04303: Mahasiswa mampu mengevaluasi kualitas citra dan hasil pemrosesan visual menggunakan metrik kuantitatif.
 
 ## Materi Pembelajaran
 Transformasi morfologi dan analisis bentuk.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI254003
 course_name: Bahasa Indonesia
-sub_cpmk: SCPMK301-03001, SCPMK401-03002
+sub_cpmk: SCPMK0301-03001, SCPMK0401-03002
 assessment_form: Case Method dan penulisan akademik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penulisan akademik
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penulisan akademik
 
-**Sub-CPMK:** SCPMK301-03001, SCPMK401-03002
+**Sub-CPMK:** SCPMK0301-03001, SCPMK0401-03002
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas menulis laporan teknis, makalah, dan karya tulis ilmiah sederhana sesuai Sub-CPMK dan konteks mata kuliah.

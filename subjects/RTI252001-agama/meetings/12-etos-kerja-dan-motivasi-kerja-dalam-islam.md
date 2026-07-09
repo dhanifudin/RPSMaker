@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 12
-sub_cpmk: SCPMK102-01003
+sub_cpmk: SCPMK0102-01003
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Etos Kerja: Etos Kerja dalam Islam dan Motivasi Kerja dalam Islam
 
 ## Kemampuan Akhir
-- SCPMK102-01003: Mahasiswa menunjukkan kedisiplinan dan tanggung jawab dalam menyelesaikan kewajiban akademik tepat waktu.
+- SCPMK0102-01003: Mahasiswa menunjukkan kedisiplinan dan tanggung jawab dalam menyelesaikan kewajiban akademik tepat waktu.
 
 ## Materi Pembelajaran
 Etos Kerja: etos kerja dalam Islam dan motivasi kerja dalam Islam.

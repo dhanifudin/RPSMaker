@@ -2,14 +2,14 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 14
-sub_cpmk: SCPMK303-05702
+sub_cpmk: SCPMK0303-05702
 assessment_weight: 5
 ---
 
 # Milestone 14 - Revisi dan Finalisasi Laporan Magang
 
 ## Kemampuan Akhir
-- SCPMK303-05702: Mahasiswa mampu menyusun dan mempresentasikan laporan magang yang komprehensif kepada pembimbing akademik dan penguji.
+- SCPMK0303-05702: Mahasiswa mampu menyusun dan mempresentasikan laporan magang yang komprehensif kepada pembimbing akademik dan penguji.
 
 ## Materi Pembelajaran
 Revisi dan finalisasi laporan magang.

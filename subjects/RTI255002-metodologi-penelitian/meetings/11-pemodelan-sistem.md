@@ -2,14 +2,14 @@
 course_code: RTI255002
 course_name: Metodologi Penelitian
 meeting: 11
-sub_cpmk: SCPMK403-03803
+sub_cpmk: SCPMK0403-03803
 assessment_weight: 1.5
 ---
 
 # Pertemuan 11 - Pemodelan Sistem (SDLC, Agile, Waterfall)
 
 ## Kemampuan Akhir
-- SCPMK403-03803: Mahasiswa mampu menyusun metode penelitian (pengumpulan data, instrumen, validitas) dan penulisan proposal skripsi/LA.
+- SCPMK0403-03803: Mahasiswa mampu menyusun metode penelitian (pengumpulan data, instrumen, validitas) dan penulisan proposal skripsi/LA.
 
 ## Materi Pembelajaran
 Pemodelan Sistem (SDLC, Agile, Waterfall).

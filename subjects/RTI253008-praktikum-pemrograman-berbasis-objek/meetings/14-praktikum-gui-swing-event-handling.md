@@ -2,14 +2,14 @@
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
 meeting: 14
-sub_cpmk: SCPMK903-02603
+sub_cpmk: SCPMK0903-02603
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - Praktikum: GUI Swing Event Handling
 
 ## Kemampuan Akhir
-- SCPMK903-02603: Mahasiswa mampu membangun aplikasi Java berbasis GUI (Swing/JavaFX) dengan koneksi database JDBC.
+- SCPMK0903-02603: Mahasiswa mampu membangun aplikasi Java berbasis GUI (Swing/JavaFX) dengan koneksi database JDBC.
 
 ## Materi Pembelajaran
 Praktikum: GUI Swing event handling.

@@ -2,14 +2,14 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 05
-sub_cpmk: SCPMK303-05901
+sub_cpmk: SCPMK0303-05901
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Technical Writing: Dokumentasi dan Laporan TI dalam Bahasa Inggris
 
 ## Kemampuan Akhir
-- SCPMK303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
+- SCPMK0303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
 
 ## Materi Pembelajaran
 Technical writing: dokumentasi dan laporan TI dalam Bahasa Inggris.

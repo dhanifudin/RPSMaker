@@ -2,14 +2,14 @@
 course_code: RTI253009
 course_name: Bahasa Inggris 2
 meeting: 09
-sub_cpmk: SCPMK102-02701
+sub_cpmk: SCPMK0102-02701
 assessment_weight: 2.5
 ---
 
 # Pertemuan 09 - Research Paper Reading and Summarizing
 
 ## Kemampuan Akhir
-- SCPMK102-02701: Mahasiswa mampu membaca dan memahami teks teknis bahasa Inggris dalam bidang TI serta mengekspresikan ide akademik secara tertulis.
+- SCPMK0102-02701: Mahasiswa mampu membaca dan memahami teks teknis bahasa Inggris dalam bidang TI serta mengekspresikan ide akademik secara tertulis.
 
 ## Materi Pembelajaran
 Research paper reading and summarizing.

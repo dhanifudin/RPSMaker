@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 13
-sub_cpmk: SCPMK608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes.
+sub_cpmk: SCPMK0608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes.
 assessment_weight: 3
 ---
 
 # Pertemuan 13 - Non-functional testing; performance; security; usability; maintainability; ISO/IEC 25010 quality attributes
 
 ## Kemampuan Akhir
-SCPMK608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes.
+SCPMK0608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes.
 
 ## Materi Pembelajaran
 Non-functional testing; performance; security; usability; maintainability; ISO/IEC 25010 quality attributes.

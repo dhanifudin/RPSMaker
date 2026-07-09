@@ -1,7 +1,7 @@
 ---
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
-sub_cpmk: SCPMK802-03602, SCPMK607-03604
+sub_cpmk: SCPMK0802-03602, SCPMK0607-03604
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK802-03602, SCPMK607-03604
+**Sub-CPMK:** SCPMK0802-03602, SCPMK0607-03604
 
 ## Deskripsi
 Mahasiswa mengimplementasikan SI berbasis web secara iteratif melalui sprint, mengintegrasikan back-end, front-end, dan database.

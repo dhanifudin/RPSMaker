@@ -2,14 +2,14 @@
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
 meeting: 15
-sub_cpmk: SCPMK101-00803
+sub_cpmk: SCPMK0101-00803
 assessment_weight: 2
 ---
 
 # Pertemuan 15 - Sistem Komputer dan Metode Statistik dalam Pengendalian K3
 
 ## Kemampuan Akhir
-- SCPMK101-00803: Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri.
+- SCPMK0101-00803: Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri.
 
 ## Materi Pembelajaran
 Sistem komputer dan metode statistik dalam pengendalian K3.

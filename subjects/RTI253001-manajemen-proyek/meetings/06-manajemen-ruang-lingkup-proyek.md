@@ -2,14 +2,14 @@
 course_code: RTI253001
 course_name: Manajemen Proyek
 meeting: 06
-sub_cpmk: SCPMK801-01901
+sub_cpmk: SCPMK0801-01901
 assessment_weight: 2
 ---
 
 # Pertemuan 06 - Manajemen ruang lingkup proyek
 
 ## Kemampuan Akhir
-- SCPMK801-01901: Mahasiswa mampu menjelaskan konsep proyek, fase, dan 10 knowledge area PMBOK serta menyusun perencanaan proyek meliputi integrasi, ruang lingkup (WBS), jadwal, dan biaya [C2, C3].
+- SCPMK0801-01901: Mahasiswa mampu menjelaskan konsep proyek, fase, dan 10 knowledge area PMBOK serta menyusun perencanaan proyek meliputi integrasi, ruang lingkup (WBS), jadwal, dan biaya [C2, C3].
 
 ## Materi Pembelajaran
 Manajemen ruang lingkup proyek: perencanaan scope, pengumpulan requirement, penentuan scope, Work Breakdown Structure, validasi dan pengendalian scope.

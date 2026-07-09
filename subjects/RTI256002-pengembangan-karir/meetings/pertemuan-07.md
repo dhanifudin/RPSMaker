@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 07
-sub_cpmk: SCPMK303-05302
+sub_cpmk: SCPMK0303-05302
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Personal Branding Profesional
 
 ## Kemampuan Akhir
-- SCPMK303-05302: Mahasiswa mampu merancang strategi personal branding dan komunikasi profesional yang efektif untuk pengembangan karir di era digital.
+- SCPMK0303-05302: Mahasiswa mampu merancang strategi personal branding dan komunikasi profesional yang efektif untuk pengembangan karir di era digital.
 
 ## Materi Pembelajaran
 Personal branding profesional: konsep dan pentingnya personal branding; elemen pembentuk personal brand (nilai, keahlian, reputasi); strategi membangun presence digital (LinkedIn, GitHub, portofolio online); konsistensi identitas profesional lintas platform.

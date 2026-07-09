@@ -1,7 +1,7 @@
 ---
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
-sub_cpmk: SCPMK706-02804, SCPMK1005-02805
+sub_cpmk: SCPMK0706-02804, SCPMK1005-02805
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK706-02804, SCPMK1005-02805
+**Sub-CPMK:** SCPMK0706-02804, SCPMK1005-02805
 
 ## Deskripsi
 Mahasiswa mengembangkan sistem DSS sederhana dengan mengkombinasikan minimal dua metode MCDM, diimplementasikan dalam spreadsheet atau program, dan didokumentasikan.

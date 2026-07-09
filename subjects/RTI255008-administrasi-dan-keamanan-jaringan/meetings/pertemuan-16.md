@@ -2,15 +2,15 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 16
-sub_cpmk: SCPMK501-04401, SCPMK505-04402
+sub_cpmk: SCPMK0501-04401, SCPMK0505-04402
 assessment_weight: 2
 ---
 
 # Pertemuan 16 - Refleksi & Portofolio Kompetensi
 
 ## Kemampuan Akhir
-- SCPMK501-04401: Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet.
-- SCPMK505-04402: Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas.
+- SCPMK0501-04401: Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet.
+- SCPMK0505-04402: Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas.
 
 ## Materi Pembelajaran
 Refleksi & portofolio kompetensi.

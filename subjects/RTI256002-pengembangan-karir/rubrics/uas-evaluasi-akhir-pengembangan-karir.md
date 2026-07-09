@@ -1,14 +1,14 @@
 ---
 course_code: RTI256002
 course_name: Pengembangan Karir
-sub_cpmk: SCPMK303-05301, SCPMK303-05302
+sub_cpmk: SCPMK0303-05301, SCPMK0303-05302
 assessment_form: Evaluasi reflektif dan presentasi singkat
 ---
 
 # UAS Evaluasi Akhir Pengembangan Karir
 
 **Bentuk Tugas/Evaluasi:** Evaluasi reflektif dan presentasi singkat
-**Sub-CPMK:** SCPMK303-05301, SCPMK303-05302
+**Sub-CPMK:** SCPMK0303-05301, SCPMK0303-05302
 
 ## Deskripsi
 Mahasiswa melakukan evaluasi akhir atas proses pengembangan karir selama semester, merefleksikan perkembangan diri, dan menunjukkan konsistensi nilai etika profesional dalam seluruh portofolio dan keputusan karir yang telah dibuat.

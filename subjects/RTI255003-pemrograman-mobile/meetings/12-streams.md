@@ -2,14 +2,14 @@
 course_code: RTI255003
 course_name: Pemrograman Mobile
 meeting: 12
-sub_cpmk: SCPMK603-03902
+sub_cpmk: SCPMK0603-03902
 assessment_weight: 3
 ---
 
 # Pertemuan 12 - Streams
 
 ## Kemampuan Akhir
-- SCPMK603-03902: Mahasiswa mampu mengimplementasikan state management, asynchronous programming, stream, persistence, dan RESTful API pada aplikasi mobile.
+- SCPMK0603-03902: Mahasiswa mampu mengimplementasikan state management, asynchronous programming, stream, persistence, dan RESTful API pada aplikasi mobile.
 
 ## Materi Pembelajaran
 Streams.

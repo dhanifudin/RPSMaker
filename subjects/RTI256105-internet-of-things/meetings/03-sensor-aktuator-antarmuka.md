@@ -2,14 +2,14 @@
 course_code: RTI256105
 course_name: Internet of Things
 meeting: 03
-sub_cpmk: SCPMK204-04901
+sub_cpmk: SCPMK0204-04901
 assessment_weight: 3
 ---
 
 # Pertemuan 03 - Sensor dan Aktuator: Karakteristik dan Antarmuka
 
 ## Kemampuan Akhir
-- SCPMK204-04901: Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform.
+- SCPMK0204-04901: Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform.
 
 ## Materi Pembelajaran
 Sensor dan aktuator: karakteristik dan antarmuka.

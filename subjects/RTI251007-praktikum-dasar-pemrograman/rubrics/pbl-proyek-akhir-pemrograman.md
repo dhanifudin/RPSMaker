@@ -1,7 +1,7 @@
 ---
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
-sub_cpmk: SCPMK704-00704
+sub_cpmk: SCPMK0704-00704
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK704-00704
+**Sub-CPMK:** SCPMK0704-00704
 
 ## Deskripsi
 Mahasiswa membangun program Java utuh untuk menyelesaikan studi kasus permasalahan sesuai topik yang ditentukan dengan memanfaatkan materi pertemuan 1-14.

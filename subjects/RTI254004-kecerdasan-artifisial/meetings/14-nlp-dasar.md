@@ -2,14 +2,14 @@
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
 meeting: 14
-sub_cpmk: SCPMK706-03101
+sub_cpmk: SCPMK0706-03101
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - Natural Language Processing Dasar
 
 ## Kemampuan Akhir
-- SCPMK706-03101: Mahasiswa mampu mengimplementasikan algoritma pencarian, representasi pengetahuan, dan sistem inferensi berbasis aturan.
+- SCPMK0706-03101: Mahasiswa mampu mengimplementasikan algoritma pencarian, representasi pengetahuan, dan sistem inferensi berbasis aturan.
 
 ## Materi Pembelajaran
 Natural Language Processing dasar.

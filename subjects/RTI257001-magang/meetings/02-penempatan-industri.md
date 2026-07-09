@@ -2,14 +2,14 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 02
-sub_cpmk: SCPMK804-05703
+sub_cpmk: SCPMK0804-05703
 assessment_weight: 2
 ---
 
 # Milestone 02 - Penempatan dan Pengenalan Lingkungan Industri
 
 ## Kemampuan Akhir
-- SCPMK804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
+- SCPMK0804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
 
 ## Materi Pembelajaran
 Penempatan dan pengenalan lingkungan industri.

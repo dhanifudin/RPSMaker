@@ -2,14 +2,14 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 03
-sub_cpmk: SCPMK902-03502
+sub_cpmk: SCPMK0902-03502
 assessment_weight: 2.5
 ---
 
 # Pertemuan 03 - Probabilitas dan Distribusi Diskrit
 
 ## Kemampuan Akhir
-- SCPMK902-03502: Mahasiswa mampu menerapkan metode probabilitas, distribusi, dan pengujian hipotesis dalam analisis data TI.
+- SCPMK0902-03502: Mahasiswa mampu menerapkan metode probabilitas, distribusi, dan pengujian hipotesis dalam analisis data TI.
 
 ## Materi Pembelajaran
 Probabilitas dan distribusi diskrit.

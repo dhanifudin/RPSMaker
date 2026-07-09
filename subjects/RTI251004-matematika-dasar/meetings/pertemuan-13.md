@@ -2,14 +2,14 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 13
-sub_cpmk: SCPMK902-00403
+sub_cpmk: SCPMK0902-00403
 assessment_weight: 7.5
 ---
 
 # Pertemuan 13 - Kuis 2 Induksi, Aljabar Boolean, dan Kombinatorial
 
 ## Kemampuan Akhir
-- SCPMK902-00403: Mahasiswa mampu menerapkan induksi matematika, aljabar Boolean, dan kombinatorial dalam analisis persoalan komputasional.
+- SCPMK0902-00403: Mahasiswa mampu menerapkan induksi matematika, aljabar Boolean, dan kombinatorial dalam analisis persoalan komputasional.
 
 ## Materi Pembelajaran
 Kuis 2: materi pertemuan 9 s.d. 12 (induksi, aljabar Boolean, kombinatorial).

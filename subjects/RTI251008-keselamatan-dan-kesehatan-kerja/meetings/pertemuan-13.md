@@ -2,14 +2,14 @@
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
 meeting: 13
-sub_cpmk: SCPMK101-00803
+sub_cpmk: SCPMK0101-00803
 assessment_weight: 2
 ---
 
 # Pertemuan 13 - Peralatan Perlindungan Keselamatan Kerja
 
 ## Kemampuan Akhir
-- SCPMK101-00803: Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri.
+- SCPMK0101-00803: Mahasiswa mampu menerapkan manajemen risiko, alat perlindungan diri, protokol kesehatan era new normal, serta metode statistik untuk pengendalian K3 di industri.
 
 ## Materi Pembelajaran
 Peralatan perlindungan keselamatan kerja; perubahan perilaku dan protokol kesehatan era new normal.

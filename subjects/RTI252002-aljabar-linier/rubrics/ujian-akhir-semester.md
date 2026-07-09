@@ -1,7 +1,7 @@
 ---
 course_code: RTI252002
 course_name: Aljabar Linier
-sub_cpmk: SCPMK902-01101, SCPMK902-01102, SCPMK902-01103
+sub_cpmk: SCPMK0902-01101, SCPMK0902-01102, SCPMK0902-01103
 assessment_form: UAS (ujian tertulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian tertulis)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian tertulis)
 
-**Sub-CPMK:** SCPMK902-01101, SCPMK902-01102, SCPMK902-01103
+**Sub-CPMK:** SCPMK0902-01101, SCPMK0902-01102, SCPMK0902-01103
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tertulis materi pekan 1-16 yang mencakup SPL, operasi matriks, determinan, aturan Cramer, vektor, eigenvalue/eigenvector, proyeksi ortogonal, dan penerapannya pada kasus informatika.

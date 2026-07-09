@@ -1,7 +1,7 @@
 ---
 course_code: RTI257001
 course_name: Magang
-sub_cpmk: SCPMK301-05701, SCPMK804-05703
+sub_cpmk: SCPMK0301-05701, SCPMK0804-05703
 assessment_form: Portofolio dan Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Portofolio dan Case Method
 
 **Bentuk Tugas/Evaluasi:** Portofolio dan Case Method
 
-**Sub-CPMK:** SCPMK301-05701, SCPMK804-05703
+**Sub-CPMK:** SCPMK0301-05701, SCPMK0804-05703
 
 ## Deskripsi
 Mahasiswa mengisi logbook kegiatan harian selama magang yang mencatat aktivitas kerja, pencapaian, dan refleksi profesional secara berkala.

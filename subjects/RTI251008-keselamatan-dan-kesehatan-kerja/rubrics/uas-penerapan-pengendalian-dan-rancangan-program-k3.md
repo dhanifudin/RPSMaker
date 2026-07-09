@@ -1,7 +1,7 @@
 ---
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
-sub_cpmk: SCPMK101-00803, SCPMK101-00804
+sub_cpmk: SCPMK0101-00803, SCPMK0101-00804
 assessment_form: UAS (ujian tulis daring)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian tulis daring)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian tulis daring)
 
-**Sub-CPMK:** SCPMK101-00803, SCPMK101-00804
+**Sub-CPMK:** SCPMK0101-00803, SCPMK0101-00804
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian akhir semester yang mencakup penerapan manajemen risiko, APD, protokol kesehatan, metode statistik pengendalian K3, serta perancangan program kerja, organisasi, dan audit K3.

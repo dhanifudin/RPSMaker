@@ -2,14 +2,14 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 12
-sub_cpmk: SCPMK607-05304
+sub_cpmk: SCPMK0607-05304
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Sprint 3: Skalabilitas dan Deployment Preparation
 
 ## Kemampuan Akhir
-- SCPMK607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
+- SCPMK0607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
 
 ## Materi Pembelajaran
 Sprint 3: skalabilitas dan deployment preparation.

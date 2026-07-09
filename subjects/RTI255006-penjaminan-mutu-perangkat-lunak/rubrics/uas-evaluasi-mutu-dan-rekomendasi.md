@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04203, SCPMK608-04204
+sub_cpmk: SCPMK0608-04203, SCPMK0608-04204
 assessment_form: UAS berbasis validasi akhir PBL kelompok
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis validasi akhir PBL kelompok
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis validasi akhir PBL kelompok
 
-**Sub-CPMK:** SCPMK608-04203, SCPMK608-04204
+**Sub-CPMK:** SCPMK0608-04203, SCPMK0608-04204
 
 ## Deskripsi
 Mahasiswa memvalidasi hasil akhir proyek kelompok melalui demonstrasi implementasi QA, evidence pengujian fungsional dan non-fungsional, analisis defect, serta rekomendasi peningkatan mutu.

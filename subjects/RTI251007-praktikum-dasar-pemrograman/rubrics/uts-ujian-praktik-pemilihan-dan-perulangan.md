@@ -1,7 +1,7 @@
 ---
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
-sub_cpmk: SCPMK704-00702, SCPMK704-00703
+sub_cpmk: SCPMK0704-00702, SCPMK0704-00703
 assessment_form: UTS (ujian praktik)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian praktik)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian praktik)
 
-**Sub-CPMK:** SCPMK704-00702, SCPMK704-00703
+**Sub-CPMK:** SCPMK0704-00702, SCPMK0704-00703
 
 ## Deskripsi
 Mahasiswa menyelesaikan ujian praktik individu pembuatan program Java yang memuat struktur pemilihan dan perulangan berdasarkan studi kasus.

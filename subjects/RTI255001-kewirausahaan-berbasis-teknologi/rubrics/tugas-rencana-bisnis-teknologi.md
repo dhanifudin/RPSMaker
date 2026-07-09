@@ -1,7 +1,7 @@
 ---
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
-sub_cpmk: SCPMK101-03701, SCPMK101-03702, SCPMK301-03703
+sub_cpmk: SCPMK0101-03701, SCPMK0101-03702, SCPMK0301-03703
 assessment_form: Penugasan terstruktur
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Penugasan terstruktur
 
 **Bentuk Tugas/Evaluasi:** Penugasan terstruktur
 
-**Sub-CPMK:** SCPMK101-03701, SCPMK101-03702, SCPMK301-03703
+**Sub-CPMK:** SCPMK0101-03701, SCPMK0101-03702, SCPMK0301-03703
 
 ## Deskripsi
 Mahasiswa mengerjakan serangkaian tugas terstruktur yang membangun rencana bisnis teknologi secara bertahap, mulai dari ide produk, analisis pasar, aspek keuangan, hingga BMC lengkap.

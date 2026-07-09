@@ -1,7 +1,7 @@
 ---
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
-sub_cpmk: SCPMK10.5-03102
+sub_cpmk: SCPMK1005-03102
 assessment_form: UAS presentasi dan evaluasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan evaluasi
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan evaluasi
 
-**Sub-CPMK:** SCPMK10.5-03102
+**Sub-CPMK:** SCPMK1005-03102
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mempertahankan sistem AI yang dikembangkan serta mengevaluasi hasilnya secara komprehensif.

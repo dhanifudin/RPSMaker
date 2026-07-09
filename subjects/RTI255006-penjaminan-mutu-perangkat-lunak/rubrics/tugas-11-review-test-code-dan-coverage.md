@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04203
+sub_cpmk: SCPMK0608-04203
 assessment_form: Peer Assessment
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Peer Assessment
 
 **Bentuk Tugas/Evaluasi:** Peer Assessment
 
-**Sub-CPMK:** SCPMK608-04203
+**Sub-CPMK:** SCPMK0608-04203
 
 ## Deskripsi
 Mahasiswa mengevaluasi kualitas test code dan test coverage.

@@ -2,14 +2,14 @@
 course_code: RTI252006
 course_name: Basis Data
 meeting: 07
-sub_cpmk: SCPMK203-01501
+sub_cpmk: SCPMK0203-01501
 assessment_weight: 1.5
 ---
 
 # Pertemuan 07 - Normalisasi basis data
 
 ## Kemampuan Akhir
-- SCPMK203-01501: Mampu memahami konsep data, basis data, dan basis data relasional, serta merancang model dan skema basis data secara konseptual dan logikal dengan memperhatikan integritas data dan konsep normalisasi.
+- SCPMK0203-01501: Mampu memahami konsep data, basis data, dan basis data relasional, serta merancang model dan skema basis data secara konseptual dan logikal dengan memperhatikan integritas data dan konsep normalisasi.
 
 ## Materi Pembelajaran
 Normalisasi basis data: pengertian, tujuan, manfaat, tahapan normalisasi, dan pembentukan bentuk normal 1 (1NF).

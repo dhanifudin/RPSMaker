@@ -2,15 +2,15 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 17
-sub_cpmk: SCPMK102-05902, SCPMK303-05901
+sub_cpmk: SCPMK0102-05902, SCPMK0303-05901
 assessment_weight: 23
 ---
 
 # Pertemuan 17 - UAS: Final Mock Interview Panel dan Presentasi Portofolio
 
 ## Kemampuan Akhir
-- SCPMK102-05902: Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris.
-- SCPMK303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
+- SCPMK0102-05902: Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris.
+- SCPMK0303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
 
 ## Materi Pembelajaran
 UAS: final mock interview panel dan presentasi portofolio.

@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 14
-sub_cpmk: SCPMK404-05802
+sub_cpmk: SCPMK0404-05802
 assessment_weight: 5
 ---
 
 # Milestone 14 - Penyelesaian Naskah dan Revisi Bersama Pembimbing
 
 ## Kemampuan Akhir
-- SCPMK404-05802: Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema.
+- SCPMK0404-05802: Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema.
 
 ## Materi Pembelajaran
 Penyelesaian naskah dan revisi bersama pembimbing.

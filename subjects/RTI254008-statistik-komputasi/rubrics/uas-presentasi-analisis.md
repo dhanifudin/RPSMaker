@@ -1,7 +1,7 @@
 ---
 course_code: RTI254008
 course_name: Statistik Komputasi
-sub_cpmk: SCPMK707-03501, SCPMK902-03502
+sub_cpmk: SCPMK0707-03501, SCPMK0902-03502
 assessment_form: UAS berbasis presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis presentasi dan defense
 
-**Sub-CPMK:** SCPMK707-03501, SCPMK902-03502
+**Sub-CPMK:** SCPMK0707-03501, SCPMK0902-03502
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mempertahankan hasil proyek analisis statistik komprehensif menggunakan Python/R.

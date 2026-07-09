@@ -1,7 +1,7 @@
 ---
 course_code: RTI255003
 course_name: Pemrograman Mobile
-sub_cpmk: SCPMK209-03901, SCPMK603-03902
+sub_cpmk: SCPMK0209-03901, SCPMK0603-03902
 assessment_form: Hands-on Practice
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Hands-on Practice
 
 **Bentuk Tugas/Evaluasi:** Hands-on Practice
 
-**Sub-CPMK:** SCPMK209-03901, SCPMK603-03902
+**Sub-CPMK:** SCPMK0209-03901, SCPMK0603-03902
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas jobsheet/codelab flutter sesuai Sub-CPMK dan konteks mata kuliah.

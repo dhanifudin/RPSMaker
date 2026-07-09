@@ -2,14 +2,14 @@
 course_code: RTI255002
 course_name: Metodologi Penelitian
 meeting: 05
-sub_cpmk: SCPMK403-03801
+sub_cpmk: SCPMK0403-03801
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Kuis 1 / Quiz 1
 
 ## Kemampuan Akhir
-- SCPMK403-03801: Mahasiswa mampu menjelaskan jenis-jenis penelitian TI, etika penelitian, dan melakukan studi literatur yang sistematis.
+- SCPMK0403-03801: Mahasiswa mampu menjelaskan jenis-jenis penelitian TI, etika penelitian, dan melakukan studi literatur yang sistematis.
 
 ## Materi Pembelajaran
 Kuis 1 / Quiz 1.

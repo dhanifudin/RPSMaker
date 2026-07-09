@@ -1,7 +1,7 @@
 ---
 course_code: RTI256207
 course_name: Teknologi Terapan
-sub_cpmk: SCPMK503-05602, SCPMK204-05601, SCPMK801-05603
+sub_cpmk: SCPMK0503-05602, SCPMK0204-05601, SCPMK0801-05603
 assessment_form: Project Based Learning (PBL) -- Sprint 1-2, UTS Milestone, Sprint 3-4
 ---
 

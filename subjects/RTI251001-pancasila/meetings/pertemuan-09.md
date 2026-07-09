@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 09
-sub_cpmk: SCPMK102-00103
+sub_cpmk: SCPMK0102-00103
 assessment_weight: 2.5
 ---
 
 # Pertemuan 09 - Pancasila sebagai ideologi nasional
 
 ## Kemampuan Akhir
-- SCPMK102-00103: Mahasiswa mampu menjelaskan Pancasila sebagai ideologi nasional dan membandingkannya dengan ideologi lain yang berkembang di dunia.
+- SCPMK0102-00103: Mahasiswa mampu menjelaskan Pancasila sebagai ideologi nasional dan membandingkannya dengan ideologi lain yang berkembang di dunia.
 
 ## Materi Pembelajaran
 Pancasila sebagai ideologi nasional: definisi, fungsi, dan proses terbentuknya.

@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 11
-sub_cpmk: SCPMK803-04803
+sub_cpmk: SCPMK0803-04803
 assessment_weight: 4
 ---
 
 # Pertemuan 11 - Sprint 2 Review dan Sprint 3 Planning
 
 ## Kemampuan Akhir
-- SCPMK803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
+- SCPMK0803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
 
 ## Materi Pembelajaran
 Sprint 2 review dan Sprint 3 planning.

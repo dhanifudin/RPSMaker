@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 11
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_weight: 5
 ---
 
 # Pertemuan 11 - IPTEKS: Hakikat Ilmu dalam Islam, Paradigma Iptek, dan Pola Dzikir dan Pikir
 
 ## Kemampuan Akhir
-- SCPMK102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
+- SCPMK0102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
 
 ## Materi Pembelajaran
 IPTEKS: hakikat ilmu dalam Islam, paradigma iptek, sumber ilmu pengetahuan, aplikasi pola dzikir dan pikir.

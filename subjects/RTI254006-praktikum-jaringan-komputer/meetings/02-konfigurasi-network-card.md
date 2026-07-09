@@ -2,14 +2,14 @@
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
 meeting: 02
-sub_cpmk: SCPMK504-03301
+sub_cpmk: SCPMK0504-03301
 assessment_weight: 4.58
 ---
 
 # Pertemuan 02 - Konfigurasi Network Card
 
 ## Kemampuan Akhir
-- SCPMK504-03301: Mahasiswa mampu mengkonfigurasi perangkat dan media jaringan komputer sesuai standar industri.
+- SCPMK0504-03301: Mahasiswa mampu mengkonfigurasi perangkat dan media jaringan komputer sesuai standar industri.
 
 ## Materi Pembelajaran
 Konfigurasi Network Card (Network Setting and Configuration).

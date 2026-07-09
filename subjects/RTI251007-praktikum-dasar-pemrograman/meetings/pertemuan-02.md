@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 02
-sub_cpmk: SCPMK903-00701
+sub_cpmk: SCPMK0903-00701
 assessment_weight: 2
 ---
 
 # Pertemuan 02 - Studi kasus pemodelan algoritma
 
 ## Kemampuan Akhir
-- SCPMK903-00701: Mahasiswa mampu memodelkan permasalahan studi kasus dengan menggunakan algoritma (mendeskripsikan input, proses, output).
+- SCPMK0903-00701: Mahasiswa mampu memodelkan permasalahan studi kasus dengan menggunakan algoritma (mendeskripsikan input, proses, output).
 
 ## Materi Pembelajaran
 - Studi kasus pemodelan permasalahan

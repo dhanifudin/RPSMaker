@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 11
-sub_cpmk: SCPMK602-02902
+sub_cpmk: SCPMK0602-02902
 assessment_weight: 2.5
 ---
 
 # Pertemuan 11 - Structural Patterns: Adapter, Decorator, Facade
 
 ## Kemampuan Akhir
-- SCPMK602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
 
 ## Materi Pembelajaran
 Structural patterns: Adapter, Decorator, Facade.

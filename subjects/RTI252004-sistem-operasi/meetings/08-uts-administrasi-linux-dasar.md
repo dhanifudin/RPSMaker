@@ -2,15 +2,15 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 08
-sub_cpmk: SCPMK901-01301, SCPMK206-01302
+sub_cpmk: SCPMK0901-01301, SCPMK0206-01302
 assessment_weight: 20
 ---
 
 # Pertemuan 08 - UTS administrasi Linux dasar
 
 ## Kemampuan Akhir
-- SCPMK901-01301: Mahasiswa mampu menjelaskan konsep dasar sistem operasi, kernel, distribusi Linux, instalasi, partisi, dan sistem file.
-- SCPMK206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
+- SCPMK0901-01301: Mahasiswa mampu menjelaskan konsep dasar sistem operasi, kernel, distribusi Linux, instalasi, partisi, dan sistem file.
+- SCPMK0206-01302: Mahasiswa mampu menerapkan perintah terminal, I/O, proses, Bash, memori, dan system call untuk administrasi Linux.
 
 ## Materi Pembelajaran
 UTS administrasi Linux dasar.

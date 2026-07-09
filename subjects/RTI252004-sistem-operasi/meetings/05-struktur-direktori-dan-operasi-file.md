@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 05
-sub_cpmk: SCPMK502-01303
+sub_cpmk: SCPMK0502-01303
 assessment_weight: 3
 ---
 
 # Pertemuan 05 - Struktur direktori dan operasi file
 
 ## Kemampuan Akhir
-- SCPMK502-01303: Mahasiswa mampu menganalisis permission, ACL, user/group, sudo, dan risiko keamanan administrasi sistem operasi.
+- SCPMK0502-01303: Mahasiswa mampu menganalisis permission, ACL, user/group, sudo, dan risiko keamanan administrasi sistem operasi.
 
 ## Materi Pembelajaran
 Struktur direktori dan operasi file.

@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 12
-sub_cpmk: SCPMK607-03604
+sub_cpmk: SCPMK0607-03604
 assessment_weight: 4
 ---
 
 # Pertemuan 12 - Sprint 3: Deployment Preparation
 
 ## Kemampuan Akhir
-- SCPMK607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
+- SCPMK0607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
 
 ## Materi Pembelajaran
 Sprint 3: deployment preparation.

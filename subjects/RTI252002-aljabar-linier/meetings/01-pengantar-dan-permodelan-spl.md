@@ -2,14 +2,14 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 01
-sub_cpmk: SCPMK902-01101
+sub_cpmk: SCPMK0902-01101
 assessment_weight: 1
 ---
 
 # Pertemuan 01 - Pengantar dan permodelan sistem persamaan linier (SPL)
 
 ## Kemampuan Akhir
-- SCPMK902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
+- SCPMK0902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
 
 ## Materi Pembelajaran
 Pengantar dan permodelan sistem persamaan linier (SPL).

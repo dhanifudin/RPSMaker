@@ -2,14 +2,14 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 15
-sub_cpmk: SCPMK804-05303
+sub_cpmk: SCPMK0804-05303
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - Penyusunan Laporan Akhir
 
 ## Kemampuan Akhir
-- SCPMK804-05303: Mahasiswa mampu mempresentasikan hasil proyek inovasi dengan defense teknis dan bisnis yang komprehensif.
+- SCPMK0804-05303: Mahasiswa mampu mempresentasikan hasil proyek inovasi dengan defense teknis dan bisnis yang komprehensif.
 
 ## Materi Pembelajaran
 Penyusunan laporan akhir.

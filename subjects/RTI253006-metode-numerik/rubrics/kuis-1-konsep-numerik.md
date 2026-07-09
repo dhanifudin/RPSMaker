@@ -1,7 +1,7 @@
 ---
 course_code: RTI253006
 course_name: Metode Numerik
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_form: Kuis (ujian tertulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian tertulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian tertulis, closed book)
 
-**Sub-CPMK:** SCPMK707-03501
+**Sub-CPMK:** SCPMK0707-03501
 
 ## Deskripsi
 Mahasiswa mengerjakan Kuis 1 materi minggu 1--4 meliputi konsep metode numerik, analisis galat, dan penyelesaian sistem persamaan linear (Gauss, Gauss-Jordan, Gauss-Seidel) secara mandiri.

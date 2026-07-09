@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 10
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_weight: 5
 ---
 
 # Pertemuan 10 - Aktualisasi Akhlak: Perjuangan dan Misi Rasul, Ibadah dan Pembentukan Akhlak
 
 ## Kemampuan Akhir
-- SCPMK102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
+- SCPMK0102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
 
 ## Materi Pembelajaran
 Aktualisasi Akhlak: makna perjuangan Rasul, aktualisasi misi Rasul, aplikasi sifat Rasul dalam ilmu teknologi, ibadah dan pembentukan akhlak.

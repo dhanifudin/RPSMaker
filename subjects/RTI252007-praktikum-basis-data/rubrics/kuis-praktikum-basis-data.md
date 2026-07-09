@@ -1,7 +1,7 @@
 ---
 course_code: RTI252007
 course_name: Praktikum Basis Data
-sub_cpmk: SCPMK203-01601, SCPMK701-01601
+sub_cpmk: SCPMK0203-01601, SCPMK0701-01601
 assessment_form: Kuis ujian praktikum (closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis ujian praktikum (closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis ujian praktikum (closed book)
 
-**Sub-CPMK:** SCPMK203-01601, SCPMK701-01601
+**Sub-CPMK:** SCPMK0203-01601, SCPMK0701-01601
 
 ## Deskripsi
 Mahasiswa mengerjakan Kuis Praktikum 1 (Mgg 4, materi Mgg 1--3: konsep basis data dan perancangan ERD) dan Kuis Praktikum 2 (Mgg 14, materi Mgg 10--13: SQL DDL, DML, DQL, dan JOIN) secara mandiri dan jujur.

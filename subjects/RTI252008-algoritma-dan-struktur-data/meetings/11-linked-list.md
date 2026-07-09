@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 11
-sub_cpmk: SCPMK207-01701
+sub_cpmk: SCPMK0207-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 11 - Linked List
 
 ## Kemampuan Akhir
-- SCPMK207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
+- SCPMK0207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
 
 ## Materi Pembelajaran
 Linked list: konsep node, pointer, operasi insert (head/tail/posisi), delete, dan traverse.

@@ -2,14 +2,14 @@
 course_code: RTI255004
 course_name: Pembelajaran Mesin
 meeting: 06
-sub_cpmk: SCPMK706-04001
+sub_cpmk: SCPMK0706-04001
 assessment_weight: 2.5
 ---
 
 # Pertemuan 06 - SVM dan k-NN Classifier
 
 ## Kemampuan Akhir
-- SCPMK706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
+- SCPMK0706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
 
 ## Materi Pembelajaran
 SVM dan k-NN classifier.

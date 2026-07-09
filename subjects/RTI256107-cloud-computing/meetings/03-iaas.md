@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 03
-sub_cpmk: SCPMK509-05101
+sub_cpmk: SCPMK0509-05101
 assessment_weight: 3
 ---
 
 # Pertemuan 03 - IaaS: Komputasi, Storage, dan Jaringan Virtual
 
 ## Kemampuan Akhir
-- SCPMK509-05101: Mahasiswa mampu merancang arsitektur cloud yang scalable menggunakan IaaS, PaaS, dan SaaS pada platform cloud utama.
+- SCPMK0509-05101: Mahasiswa mampu merancang arsitektur cloud yang scalable menggunakan IaaS, PaaS, dan SaaS pada platform cloud utama.
 
 ## Materi Pembelajaran
 IaaS: komputasi, storage, dan jaringan virtual.

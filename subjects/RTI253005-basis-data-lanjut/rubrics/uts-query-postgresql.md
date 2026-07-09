@@ -1,7 +1,7 @@
 ---
 course_code: RTI253005
 course_name: Basis Data Lanjut
-sub_cpmk: SCPMK203-01601, SCPMK203-01602, SCPMK701-01603
+sub_cpmk: SCPMK0203-01601, SCPMK0203-01602, SCPMK0701-01603
 assessment_form: UTS (ujian praktik PostgreSQL, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian praktik PostgreSQL, closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian praktik PostgreSQL, closed book)
 
-**Sub-CPMK:** SCPMK203-01601, SCPMK203-01602, SCPMK701-01603
+**Sub-CPMK:** SCPMK0203-01601, SCPMK0203-01602, SCPMK0701-01603
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UTS materi minggu 1--8 meliputi query dasar, query lanjutan, indeks, function, view, stored procedure, transaksi, FTS, dan JSONB secara mandiri.

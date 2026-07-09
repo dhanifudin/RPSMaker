@@ -2,14 +2,14 @@
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
 meeting: 17
-sub_cpmk: SCPMK903-02603
+sub_cpmk: SCPMK0903-02603
 assessment_weight: 23
 ---
 
 # Pertemuan 17 - UAS Praktikum: Demo Aplikasi Final
 
 ## Kemampuan Akhir
-- SCPMK903-02603: Mahasiswa mampu membangun aplikasi Java berbasis GUI (Swing/JavaFX) dengan koneksi database JDBC.
+- SCPMK0903-02603: Mahasiswa mampu membangun aplikasi Java berbasis GUI (Swing/JavaFX) dengan koneksi database JDBC.
 
 ## Materi Pembelajaran
 UAS Praktikum: demo aplikasi final.

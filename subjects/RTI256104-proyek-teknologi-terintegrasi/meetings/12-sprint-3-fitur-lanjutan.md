@@ -2,15 +2,15 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 12
-sub_cpmk: SCPMK802-04802, SCPMK607-04805
+sub_cpmk: SCPMK0802-04802, SCPMK0607-04805
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Sprint 3: Fitur Lanjutan dan Optimasi
 
 ## Kemampuan Akhir
-- SCPMK802-04802: Mahasiswa mampu mengimplementasikan aplikasi multi-platform menggunakan metodologi agile dengan sprint yang terdokumentasi.
-- SCPMK607-04805: Mahasiswa mampu mengintegrasikan solusi front-end, back-end, dan basis data dalam satu produk yang deployable.
+- SCPMK0802-04802: Mahasiswa mampu mengimplementasikan aplikasi multi-platform menggunakan metodologi agile dengan sprint yang terdokumentasi.
+- SCPMK0607-04805: Mahasiswa mampu mengintegrasikan solusi front-end, back-end, dan basis data dalam satu produk yang deployable.
 
 ## Materi Pembelajaran
 Sprint 3: fitur lanjutan dan optimasi.

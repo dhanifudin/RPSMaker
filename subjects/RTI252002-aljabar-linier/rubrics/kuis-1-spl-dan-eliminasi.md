@@ -1,7 +1,7 @@
 ---
 course_code: RTI252002
 course_name: Aljabar Linier
-sub_cpmk: SCPMK902-01101
+sub_cpmk: SCPMK0902-01101
 assessment_form: Kuis (ujian tertulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian tertulis)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian tertulis)
 
-**Sub-CPMK:** SCPMK902-01101
+**Sub-CPMK:** SCPMK0902-01101
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis tertulis materi pekan 1-3: permodelan SPL, notasi matriks, operasi baris elementer, metode Gauss dan Gauss-Jordan.

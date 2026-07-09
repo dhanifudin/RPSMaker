@@ -2,15 +2,15 @@
 course_code: RTI255002
 course_name: Metodologi Penelitian
 meeting: 17
-sub_cpmk: SCPMK403-03803, SCPMK401-03804
+sub_cpmk: SCPMK0403-03803, SCPMK0401-03804
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS / Final Exam
 
 ## Kemampuan Akhir
-- SCPMK403-03803: Mahasiswa mampu menyusun metode penelitian (pengumpulan data, instrumen, validitas) dan penulisan proposal skripsi/LA.
-- SCPMK401-03804: Mahasiswa mampu menganalisis data penelitian secara kuantitatif/kualitatif dan mempresentasikan hasil secara saintifik.
+- SCPMK0403-03803: Mahasiswa mampu menyusun metode penelitian (pengumpulan data, instrumen, validitas) dan penulisan proposal skripsi/LA.
+- SCPMK0401-03804: Mahasiswa mampu menganalisis data penelitian secara kuantitatif/kualitatif dan mempresentasikan hasil secara saintifik.
 
 ## Materi Pembelajaran
 UAS / Final Exam.

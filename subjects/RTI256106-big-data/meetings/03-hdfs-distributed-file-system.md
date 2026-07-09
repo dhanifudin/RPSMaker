@@ -2,14 +2,14 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 03
-sub_cpmk: SCPMK904-05002
+sub_cpmk: SCPMK0904-05002
 assessment_weight: 3
 ---
 
 # Pertemuan 03 - HDFS: Distributed File System
 
 ## Kemampuan Akhir
-- SCPMK904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
+- SCPMK0904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
 
 ## Materi Pembelajaran
 HDFS: Distributed File System.

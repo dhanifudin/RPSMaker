@@ -2,14 +2,14 @@
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
 meeting: 13
-sub_cpmk: SCPMK704-02502
+sub_cpmk: SCPMK0704-02502
 assessment_weight: 5
 ---
 
 # Pertemuan 13 - Kuis 2
 
 ## Kemampuan Akhir
-- SCPMK704-02502: Mahasiswa mampu mengimplementasikan konsep OOP menggunakan Java dalam berbagai paradigma pemrograman.
+- SCPMK0704-02502: Mahasiswa mampu mengimplementasikan konsep OOP menggunakan Java dalam berbagai paradigma pemrograman.
 
 ## Materi Pembelajaran
 Kuis 2.

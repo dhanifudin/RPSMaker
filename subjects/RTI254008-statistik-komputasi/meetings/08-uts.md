@@ -2,15 +2,15 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 08
-sub_cpmk: SCPMK902-03502, SCPMK707-03501
+sub_cpmk: SCPMK0902-03502, SCPMK0707-03501
 assessment_weight: 15.0
 ---
 
 # Pertemuan 08 - UTS: Probabilitas dan Inferensi Statistik
 
 ## Kemampuan Akhir
-- SCPMK902-03502: Mahasiswa mampu menerapkan metode probabilitas, distribusi, dan pengujian hipotesis dalam analisis data TI.
-- SCPMK707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
+- SCPMK0902-03502: Mahasiswa mampu menerapkan metode probabilitas, distribusi, dan pengujian hipotesis dalam analisis data TI.
+- SCPMK0707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
 
 ## Materi Pembelajaran
 UTS: probabilitas dan inferensi statistik.

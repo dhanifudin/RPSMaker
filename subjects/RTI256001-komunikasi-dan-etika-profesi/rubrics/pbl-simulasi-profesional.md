@@ -1,7 +1,7 @@
 ---
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
-sub_cpmk: SCPMK301-04502, SCPMK303-04503
+sub_cpmk: SCPMK0301-04502, SCPMK0303-04503
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK301-04502, SCPMK303-04503
+**Sub-CPMK:** SCPMK0301-04502, SCPMK0303-04503
 
 ## Deskripsi
 Mahasiswa melakukan simulasi wawancara kerja profesional, mempresentasikan portofolio digital, dan menyajikan rencana pengembangan karir berbasis kompetensi TI.

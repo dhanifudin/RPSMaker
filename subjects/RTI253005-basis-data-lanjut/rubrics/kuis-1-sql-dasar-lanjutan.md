@@ -1,7 +1,7 @@
 ---
 course_code: RTI253005
 course_name: Basis Data Lanjut
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_form: Kuis (ujian tertulis/praktik PostgreSQL, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian tertulis/praktik PostgreSQL, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian tertulis/praktik PostgreSQL, closed book)
 
-**Sub-CPMK:** SCPMK203-01601
+**Sub-CPMK:** SCPMK0203-01601
 
 ## Deskripsi
 Mahasiswa mengerjakan Kuis 1 materi minggu 1--3 meliputi pengenalan PostgreSQL, DDL, DML, sub-query, JOIN, grouping, dan CTE secara mandiri.

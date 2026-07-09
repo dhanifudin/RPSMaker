@@ -2,14 +2,14 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 11
-sub_cpmk: SCPMK902-00403
+sub_cpmk: SCPMK0902-00403
 assessment_weight: 1.5
 ---
 
 # Pertemuan 11 - Kaidah Penjumlahan dan Perkalian
 
 ## Kemampuan Akhir
-- SCPMK902-00403: Mahasiswa mampu menerapkan induksi matematika, aljabar Boolean, dan kombinatorial dalam analisis persoalan komputasional.
+- SCPMK0902-00403: Mahasiswa mampu menerapkan induksi matematika, aljabar Boolean, dan kombinatorial dalam analisis persoalan komputasional.
 
 ## Materi Pembelajaran
 Kaidah penjumlahan dan perkalian; kombinatorial dasar.

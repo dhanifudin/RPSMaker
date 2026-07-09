@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 06
-sub_cpmk: SCPMK607-03604
+sub_cpmk: SCPMK0607-03604
 assessment_weight: 5
 ---
 
 # Pertemuan 06 - Sprint 1: Implementasi Front-End dan Integrasi
 
 ## Kemampuan Akhir
-- SCPMK607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
+- SCPMK0607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
 
 ## Materi Pembelajaran
 Sprint 1: implementasi front-end dan integrasi.

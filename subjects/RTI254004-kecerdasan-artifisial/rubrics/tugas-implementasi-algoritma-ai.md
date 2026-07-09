@@ -1,7 +1,7 @@
 ---
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
-sub_cpmk: SCPMK706-03101, SCPMK10.5-03102
+sub_cpmk: SCPMK0706-03101, SCPMK1005-03102
 assessment_form: Case Method dan praktik pemrograman
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik pemrograman
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik pemrograman
 
-**Sub-CPMK:** SCPMK706-03101, SCPMK10.5-03102
+**Sub-CPMK:** SCPMK0706-03101, SCPMK1005-03102
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas mengimplementasikan dan mengevaluasi algoritma AI sesuai Sub-CPMK dan konteks mata kuliah.

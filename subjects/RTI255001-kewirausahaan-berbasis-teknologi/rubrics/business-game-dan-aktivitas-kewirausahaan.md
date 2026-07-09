@@ -1,7 +1,7 @@
 ---
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
-sub_cpmk: SCPMK101-03701, SCPMK301-03703
+sub_cpmk: SCPMK0101-03701, SCPMK0301-03703
 assessment_form: Case Method dan simulasi bisnis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan simulasi bisnis
 
 **Bentuk Tugas/Evaluasi:** Case Method dan simulasi bisnis
 
-**Sub-CPMK:** SCPMK101-03701, SCPMK301-03703
+**Sub-CPMK:** SCPMK0101-03701, SCPMK0301-03703
 
 ## Deskripsi
 Mahasiswa berpartisipasi aktif dalam simulasi bisnis (Business Game), diskusi kasus kewirausahaan, dan workshop Business Model Canvas untuk mengembangkan jiwa dan kompetensi wirausaha.

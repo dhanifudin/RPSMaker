@@ -1,7 +1,7 @@
 ---
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
-sub_cpmk: SCPMK501-04401, SCPMK502-04401, SCPMK505-04401, SCPMK505-04402
+sub_cpmk: SCPMK0501-04401, SCPMK0502-04401, SCPMK0505-04401, SCPMK0505-04402
 assessment_form: Tugas terstruktur dan studi kasus
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur dan studi kasus
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur dan studi kasus
 
-**Sub-CPMK:** SCPMK501-04401, SCPMK502-04401, SCPMK505-04401, SCPMK505-04402
+**Sub-CPMK:** SCPMK0501-04401, SCPMK0502-04401, SCPMK0505-04401, SCPMK0505-04402
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas analisis desain keamanan jaringan sesuai Sub-CPMK dan konteks mata kuliah, mencakup identifikasi ancaman, perancangan topologi aman, konfigurasi administrasi, dan optimasi jaringan.

@@ -2,14 +2,14 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 10
-sub_cpmk: SCPMK209-02202
+sub_cpmk: SCPMK0209-02202
 assessment_weight: 3
 ---
 
 # Pertemuan 10 - MySQL dan query dasar
 
 ## Kemampuan Akhir
-- SCPMK209-02202: Mahasiswa mampu memilih mekanisme client-server, form, session, cookie, dan database sesuai kebutuhan aplikasi web.
+- SCPMK0209-02202: Mahasiswa mampu memilih mekanisme client-server, form, session, cookie, dan database sesuai kebutuhan aplikasi web.
 
 ## Materi Pembelajaran
 MySQL dan query dasar.

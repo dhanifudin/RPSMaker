@@ -1,7 +1,7 @@
 ---
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
-sub_cpmk: SCPMK210-02601, SCPMK704-02602, SCPMK903-02603
+sub_cpmk: SCPMK0210-02601, SCPMK0704-02602, SCPMK0903-02603
 assessment_form: Case Method dan praktik pemrograman Java
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik pemrograman Java
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik pemrograman Java
 
-**Sub-CPMK:** SCPMK210-02601, SCPMK704-02602, SCPMK903-02603
+**Sub-CPMK:** SCPMK0210-02601, SCPMK0704-02602, SCPMK0903-02603
 
 ## Deskripsi
 Mahasiswa menyelesaikan jobsheet praktikum sesuai topik mingguan mencakup OOP dasar, OOP lanjut, GUI Swing, dan koneksi database JDBC.

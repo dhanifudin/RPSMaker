@@ -1,7 +1,7 @@
 ---
 course_code: RTI251006
 course_name: Dasar Pemrograman
-sub_cpmk: SCPMK903-00601, SCPMK903-00602, SCPMK704-00603
+sub_cpmk: SCPMK0903-00601, SCPMK0903-00602, SCPMK0704-00603
 assessment_form: UTS (ujian teori closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian teori closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian teori closed book)
 
-**Sub-CPMK:** SCPMK903-00601, SCPMK903-00602, SCPMK704-00603
+**Sub-CPMK:** SCPMK0903-00601, SCPMK0903-00602, SCPMK0704-00603
 
 ## Deskripsi
 Mahasiswa mengerjakan UTS pilihan ganda dan/atau essay yang mencakup materi minggu 1-7: konsep algoritma, tipe data dan operator, sequence, pemilihan sederhana dan bersarang, serta perulangan sederhana.

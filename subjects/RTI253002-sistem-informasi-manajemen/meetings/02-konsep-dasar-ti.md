@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 02
-sub_cpmk: SCPMK211-02001
+sub_cpmk: SCPMK0211-02001
 assessment_weight: 3
 ---
 
 # Pertemuan 02 - Konsep Dasar dan Perkembangan Teknologi Informasi
 
 ## Kemampuan Akhir
-- SCPMK211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
+- SCPMK0211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
 
 ## Materi Pembelajaran
 Konsep dasar dan perkembangan teknologi informasi: evolusi TI, komponen utama TI, peran TI dalam organisasi modern, dan tren perkembangan teknologi informasi terkini.

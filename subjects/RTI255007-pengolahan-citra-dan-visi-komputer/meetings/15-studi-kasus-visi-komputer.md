@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 15
-sub_cpmk: SCPMK10.5-04304
+sub_cpmk: SCPMK1005-04304
 assessment_weight: 3
 ---
 
 # Pertemuan 15 - Studi Kasus: Aplikasi Visi Komputer Industri
 
 ## Kemampuan Akhir
-- SCPMK10.5-04304: Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy.
+- SCPMK1005-04304: Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy.
 
 ## Materi Pembelajaran
 Studi kasus: aplikasi visi komputer industri.

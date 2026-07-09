@@ -1,7 +1,7 @@
 ---
 course_code: RTI253009
 course_name: Bahasa Inggris 2
-sub_cpmk: SCPMK102-02701, SCPMK303-02702
+sub_cpmk: SCPMK0102-02701, SCPMK0303-02702
 assessment_form: UAS berbasis tes dan presentasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis tes dan presentasi
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis tes dan presentasi
 
-**Sub-CPMK:** SCPMK102-02701, SCPMK303-02702
+**Sub-CPMK:** SCPMK0102-02701, SCPMK0303-02702
 
 ## Deskripsi
 Ujian akhir semester yang mengukur kemampuan menulis teks teknis secara akademik dan mempresentasikan topik TI dalam bahasa Inggris.

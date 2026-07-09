@@ -1,7 +1,7 @@
 ---
 course_code: RTI256207
 course_name: Teknologi Terapan
-sub_cpmk: SCPMK204-05601, SCPMK801-05603
+sub_cpmk: SCPMK0204-05601, SCPMK0801-05603
 assessment_form: Case Method (CM) -- analisis dan perancangan terstruktur
 ---
 

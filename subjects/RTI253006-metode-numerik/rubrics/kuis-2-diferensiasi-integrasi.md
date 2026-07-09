@@ -1,7 +1,7 @@
 ---
 course_code: RTI253006
 course_name: Metode Numerik
-sub_cpmk: SCPMK902-03503
+sub_cpmk: SCPMK0902-03503
 assessment_form: Kuis (ujian tertulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian tertulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian tertulis, closed book)
 
-**Sub-CPMK:** SCPMK902-03503
+**Sub-CPMK:** SCPMK0902-03503
 
 ## Deskripsi
 Mahasiswa mengerjakan Kuis 2 materi minggu 10--11 meliputi diferensiasi numerik dan integrasi Riemann secara mandiri.

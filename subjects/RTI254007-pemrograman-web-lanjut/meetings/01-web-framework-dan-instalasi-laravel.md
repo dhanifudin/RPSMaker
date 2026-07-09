@@ -2,14 +2,14 @@
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
 meeting: 01
-sub_cpmk: SCPMK209-03401
+sub_cpmk: SCPMK0209-03401
 assessment_weight: 5
 ---
 
 # Pertemuan 01 - Web framework dan instalasi Laravel
 
 ## Kemampuan Akhir
-- SCPMK209-03401: Mahasiswa mampu menerapkan konsep framework web, MVC, routing, controller, view, dan version control.
+- SCPMK0209-03401: Mahasiswa mampu menerapkan konsep framework web, MVC, routing, controller, view, dan version control.
 
 ## Materi Pembelajaran
 Web framework dan instalasi Laravel.

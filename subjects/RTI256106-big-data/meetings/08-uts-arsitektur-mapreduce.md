@@ -2,15 +2,15 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 08
-sub_cpmk: SCPMK904-05002, SCPMK702-05001
+sub_cpmk: SCPMK0904-05002, SCPMK0702-05001
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Arsitektur dan MapReduce
 
 ## Kemampuan Akhir
-- SCPMK904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
-- SCPMK702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
+- SCPMK0904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
+- SCPMK0702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
 
 ## Materi Pembelajaran
 UTS arsitektur dan MapReduce.

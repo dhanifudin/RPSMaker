@@ -2,15 +2,15 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 04
-sub_cpmk: SCPMK301-05701, SCPMK804-05703
+sub_cpmk: SCPMK0301-05701, SCPMK0804-05703
 assessment_weight: 3
 ---
 
 # Milestone 04 - Monitoring Bulan 1: Logbook dan Progress Report
 
 ## Kemampuan Akhir
-- SCPMK301-05701: Mahasiswa mampu berkomunikasi profesional secara lisan dan tulisan selama kegiatan magang di industri TI.
-- SCPMK804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
+- SCPMK0301-05701: Mahasiswa mampu berkomunikasi profesional secara lisan dan tulisan selama kegiatan magang di industri TI.
+- SCPMK0804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
 
 ## Materi Pembelajaran
 Monitoring bulan 1: logbook dan progress report.

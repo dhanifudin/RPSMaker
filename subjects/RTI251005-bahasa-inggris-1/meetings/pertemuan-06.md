@@ -2,14 +2,14 @@
 course_code: RTI251005
 course_name: Bahasa Inggris 1
 meeting: 06
-sub_cpmk: SCPMK303-00501
+sub_cpmk: SCPMK0303-00501
 assessment_weight: 5
 ---
 
 # Pertemuan 06 - Passive Sentences, Time Clauses, dan Kuis 1
 
 ## Kemampuan Akhir
-- SCPMK303-00501: Mahasiswa mampu memahami dan menggunakan vocabulary serta grammatical functions bahasa Inggris (Simple Present Tense, imperatives, sequencers, adjectives, comparatives, superlatives, passive sentences, time clauses, if-clause, dan modals) dalam konteks Teknik Informatika.
+- SCPMK0303-00501: Mahasiswa mampu memahami dan menggunakan vocabulary serta grammatical functions bahasa Inggris (Simple Present Tense, imperatives, sequencers, adjectives, comparatives, superlatives, passive sentences, time clauses, if-clause, dan modals) dalam konteks Teknik Informatika.
 
 ## Materi Pembelajaran
 Topic 3: passive sentences dan time clauses; Kuis 1 vocabulary dan grammar Topic 1-3.

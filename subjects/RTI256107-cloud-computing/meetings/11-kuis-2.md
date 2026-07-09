@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 11
-sub_cpmk: SCPMK10.3-05103
+sub_cpmk: SCPMK1003-05103
 assessment_weight: 5
 ---
 
 # Pertemuan 11 - Kuis 2 Docker, Kubernetes, Microservices
 
 ## Kemampuan Akhir
-- SCPMK10.3-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
+- SCPMK1003-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
 
 ## Materi Pembelajaran
 Kuis 2 Docker, Kubernetes, microservices.

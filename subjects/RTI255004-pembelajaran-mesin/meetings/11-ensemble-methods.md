@@ -2,14 +2,14 @@
 course_code: RTI255004
 course_name: Pembelajaran Mesin
 meeting: 11
-sub_cpmk: SCPMK706-04001
+sub_cpmk: SCPMK0706-04001
 assessment_weight: 2.5
 ---
 
 # Pertemuan 11 - Ensemble Methods: Gradient Boosting, XGBoost
 
 ## Kemampuan Akhir
-- SCPMK706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
+- SCPMK0706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
 
 ## Materi Pembelajaran
 Ensemble methods: Gradient Boosting, XGBoost.

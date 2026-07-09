@@ -1,7 +1,7 @@
 ---
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
-sub_cpmk: SCPMK209-03401, SCPMK603-03402
+sub_cpmk: SCPMK0209-03401, SCPMK0603-03402
 assessment_form: UTS praktik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS praktik
 
 **Bentuk Tugas/Evaluasi:** UTS praktik
 
-**Sub-CPMK:** SCPMK209-03401, SCPMK603-03402
+**Sub-CPMK:** SCPMK0209-03401, SCPMK0603-03402
 
 ## Deskripsi
 Mahasiswa menyelesaikan uts modul crud laravel sesuai Sub-CPMK dan konteks mata kuliah.

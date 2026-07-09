@@ -1,7 +1,7 @@
 ---
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
-sub_cpmk: SCPMK401-00301, SCPMK401-00302, SCPMK401-00303
+sub_cpmk: SCPMK0401-00301, SCPMK0401-00302, SCPMK0401-00303
 assessment_form: Tugas terstruktur mingguan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur mingguan
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur mingguan
 
-**Sub-CPMK:** SCPMK401-00301, SCPMK401-00302, SCPMK401-00303
+**Sub-CPMK:** SCPMK0401-00301, SCPMK0401-00302, SCPMK0401-00303
 
 ## Deskripsi
 Mahasiswa mengerjakan rangkaian Tugas 1-10 berupa analisis argumen, klasifikasi fakta/opini, evaluasi bias, penerapan teknik pemecahan masalah, dan perumusan solusi ilmiah dari studi kasus.

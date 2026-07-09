@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 06
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_weight: 1.9
 ---
 
 # Pertemuan 06 - Pemetaan ERD ke Model Relasional 2
 
 ## Kemampuan Akhir
-- SCPMK203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
+- SCPMK0203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
 
 ## Materi Pembelajaran
 Pemetaan ERD ke Model Relasional 2: pemetaan kardinalitas, partisipan, dan evaluasi kesesuaian model relasional dengan requirement data.

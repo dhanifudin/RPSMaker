@@ -1,7 +1,7 @@
 ---
 course_code: RTI252003
 course_name: Desain Antarmuka
-sub_cpmk: SCPMK202-01201-SCPMK802-01204
+sub_cpmk: SCPMK0202-01201-SCPMK0802-01204
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK202-01201-SCPMK802-01204
+**Sub-CPMK:** SCPMK0202-01201-SCPMK0802-01204
 
 ## Deskripsi
 Mahasiswa menyelesaikan pbl proyek ui/ux terintegrasi sesuai Sub-CPMK dan konteks mata kuliah.

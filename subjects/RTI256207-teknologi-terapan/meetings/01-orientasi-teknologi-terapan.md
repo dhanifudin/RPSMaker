@@ -2,14 +2,14 @@
 course_code: RTI256207
 course_name: Teknologi Terapan
 meeting: 01
-sub_cpmk: SCPMK204-05601
+sub_cpmk: SCPMK0204-05601
 assessment_weight: 3
 ---
 
 # Pertemuan 01 - Orientasi Teknologi Terapan dan Identifikasi Domain
 
 ## Kemampuan Akhir
-- SCPMK204-05601: Mahasiswa mampu melakukan analisis kebutuhan teknologi industri dan merancang solusi teknologi terapan yang tepat guna.
+- SCPMK0204-05601: Mahasiswa mampu melakukan analisis kebutuhan teknologi industri dan merancang solusi teknologi terapan yang tepat guna.
 
 ## Materi Pembelajaran
 Orientasi teknologi terapan dan identifikasi domain.

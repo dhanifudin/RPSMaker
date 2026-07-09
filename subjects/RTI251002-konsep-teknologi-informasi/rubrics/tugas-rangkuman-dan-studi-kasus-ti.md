@@ -1,7 +1,7 @@
 ---
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
-sub_cpmk: SCPMK901-00201-SCPMK208-00204
+sub_cpmk: SCPMK0901-00201-SCPMK0208-00204
 assessment_form: Tugas individu dan kelompok
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas individu dan kelompok
 
 **Bentuk Tugas/Evaluasi:** Tugas individu dan kelompok
 
-**Sub-CPMK:** SCPMK901-00201-SCPMK208-00204
+**Sub-CPMK:** SCPMK0901-00201-SCPMK0208-00204
 
 ## Deskripsi
 Mahasiswa mengerjakan tugas mingguan berupa rangkuman materi, ulasan topik, dan latihan soal sesuai bahan kajian tiap pertemuan.

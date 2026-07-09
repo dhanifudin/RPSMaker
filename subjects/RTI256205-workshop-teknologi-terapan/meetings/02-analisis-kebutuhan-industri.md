@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 02
-sub_cpmk: SCPMK802-05402
+sub_cpmk: SCPMK0802-05402
 assessment_weight: 3
 ---
 
 # Pertemuan 02 - Analisis kebutuhan industri dan requirement engineering
 
 ## Kemampuan Akhir
-- SCPMK802-05402: Mahasiswa mampu mengembangkan produk teknologi terapan melalui iterasi sprint berbasis kebutuhan industri nyata.
+- SCPMK0802-05402: Mahasiswa mampu mengembangkan produk teknologi terapan melalui iterasi sprint berbasis kebutuhan industri nyata.
 
 ## Materi Pembelajaran
 Analisis kebutuhan industri dan requirement engineering.

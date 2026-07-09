@@ -2,14 +2,14 @@
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
 meeting: 11
-sub_cpmk: SCPMK901-03303
+sub_cpmk: SCPMK0901-03303
 assessment_weight: 4.58
 ---
 
 # Pertemuan 11 - Address Resolution Protocol
 
 ## Kemampuan Akhir
-- SCPMK901-03303: Mahasiswa mampu menganalisis traffic jaringan dan melakukan troubleshooting konfigurasi.
+- SCPMK0901-03303: Mahasiswa mampu menganalisis traffic jaringan dan melakukan troubleshooting konfigurasi.
 
 ## Materi Pembelajaran
 Address Resolution Protocol (ARP).

@@ -2,15 +2,15 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 17
-sub_cpmk: SCPMK803-04803, SCPMK804-04804
+sub_cpmk: SCPMK0803-04803, SCPMK0804-04804
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS Defense Proyek Akhir dan Demo
 
 ## Kemampuan Akhir
-- SCPMK803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
-- SCPMK804-04804: Mahasiswa mampu mendemonstrasikan produk akhir proyek TI terintegrasi dengan defense teknis yang komprehensif.
+- SCPMK0803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
+- SCPMK0804-04804: Mahasiswa mampu mendemonstrasikan produk akhir proyek TI terintegrasi dengan defense teknis yang komprehensif.
 
 ## Materi Pembelajaran
 UAS Defense proyek akhir dan demo.

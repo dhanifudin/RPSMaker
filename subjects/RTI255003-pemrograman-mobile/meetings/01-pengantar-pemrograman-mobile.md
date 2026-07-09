@@ -2,14 +2,14 @@
 course_code: RTI255003
 course_name: Pemrograman Mobile
 meeting: 01
-sub_cpmk: SCPMK209-03901
+sub_cpmk: SCPMK0209-03901
 assessment_weight: 1
 ---
 
 # Pertemuan 01 - Pengantar pemrograman mobile
 
 ## Kemampuan Akhir
-- SCPMK209-03901: Mahasiswa mampu menerapkan Dart, Flutter, widget, layout, navigation, dan plugin untuk aplikasi mobile.
+- SCPMK0209-03901: Mahasiswa mampu menerapkan Dart, Flutter, widget, layout, navigation, dan plugin untuk aplikasi mobile.
 
 ## Materi Pembelajaran
 Pengantar pemrograman mobile.

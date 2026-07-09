@@ -2,14 +2,14 @@
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
 meeting: 16
-sub_cpmk: SCPMK101-00804
+sub_cpmk: SCPMK0101-00804
 assessment_weight: 2
 ---
 
 # Pertemuan 16 - Perencanaan Implementasi dan Audit K3
 
 ## Kemampuan Akhir
-- SCPMK101-00804: Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0.
+- SCPMK0101-00804: Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0.
 
 ## Materi Pembelajaran
 Perencanaan implementasi dan audit K3.

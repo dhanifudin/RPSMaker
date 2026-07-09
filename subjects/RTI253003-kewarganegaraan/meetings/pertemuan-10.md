@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 10
-sub_cpmk: SCPMK102-02102
+sub_cpmk: SCPMK0102-02102
 assessment_weight: 2
 ---
 
 # Pertemuan 10 - Demokrasi 2: Perjalanan Demokrasi di Indonesia
 
 ## Kemampuan Akhir
-- SCPMK102-02102: Mahasiswa mampu menganalisis sistem demokrasi dan negara hukum dalam konteks kehidupan berbangsa dan bernegara di Indonesia.
+- SCPMK0102-02102: Mahasiswa mampu menganalisis sistem demokrasi dan negara hukum dalam konteks kehidupan berbangsa dan bernegara di Indonesia.
 
 ## Materi Pembelajaran
 Demokrasi 2: perjalanan demokrasi di Indonesia, pendidikan demokrasi, dan pentingnya demokrasi sebagai sistem politik kenegaraan modern.

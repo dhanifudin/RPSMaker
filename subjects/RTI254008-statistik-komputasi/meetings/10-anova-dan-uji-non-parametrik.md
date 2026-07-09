@@ -2,14 +2,14 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 10
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_weight: 2.5
 ---
 
 # Pertemuan 10 - ANOVA dan Uji Non-Parametrik
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
+- SCPMK0707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
 
 ## Materi Pembelajaran
 ANOVA dan uji non-parametrik.

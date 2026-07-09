@@ -1,7 +1,7 @@
 ---
 course_code: RTI255003
 course_name: Pemrograman Mobile
-sub_cpmk: SCPMK603-03902, SCPMK10.6-03903, SCPMK603-03904
+sub_cpmk: SCPMK0603-03902, SCPMK1006-03903, SCPMK0603-03904
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK603-03902, SCPMK10.6-03903, SCPMK603-03904
+**Sub-CPMK:** SCPMK0603-03902, SCPMK1006-03903, SCPMK0603-03904
 
 ## Deskripsi
 Mahasiswa menyelesaikan pbl aplikasi mobile flutter sesuai Sub-CPMK dan konteks mata kuliah.

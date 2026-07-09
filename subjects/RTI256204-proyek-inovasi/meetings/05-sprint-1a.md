@@ -2,14 +2,14 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 05
-sub_cpmk: SCPMK607-05304
+sub_cpmk: SCPMK0607-05304
 assessment_weight: 4
 ---
 
 # Pertemuan 05 - Sprint 1: Proof of Concept dan MVP
 
 ## Kemampuan Akhir
-- SCPMK607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
+- SCPMK0607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
 
 ## Materi Pembelajaran
 Sprint 1: Proof of concept dan MVP.

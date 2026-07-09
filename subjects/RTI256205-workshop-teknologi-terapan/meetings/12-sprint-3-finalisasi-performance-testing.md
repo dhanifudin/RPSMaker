@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 12
-sub_cpmk: SCPMK603-05401
+sub_cpmk: SCPMK0603-05401
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Sprint 3: finalisasi fitur dan performance testing
 
 ## Kemampuan Akhir
-- SCPMK603-05401: Mahasiswa mampu merancang dan mengeksekusi rencana pengujian komprehensif termasuk unit testing, integration testing, dan UAT.
+- SCPMK0603-05401: Mahasiswa mampu merancang dan mengeksekusi rencana pengujian komprehensif termasuk unit testing, integration testing, dan UAT.
 
 ## Materi Pembelajaran
 Sprint 3: finalisasi fitur dan performance testing.

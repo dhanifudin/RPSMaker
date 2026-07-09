@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 01
-sub_cpmk: SCPMK801-04801
+sub_cpmk: SCPMK0801-04801
 assessment_weight: 3
 ---
 
 # Pertemuan 01 - Kickoff: Pembentukan Tim dan Requirement Gathering
 
 ## Kemampuan Akhir
-- SCPMK801-04801: Mahasiswa mampu menyusun dokumen perencanaan proyek TI terintegrasi mencakup WBS, jadwal, anggaran, dan risk register.
+- SCPMK0801-04801: Mahasiswa mampu menyusun dokumen perencanaan proyek TI terintegrasi mencakup WBS, jadwal, anggaran, dan risk register.
 
 ## Materi Pembelajaran
 Kickoff: pembentukan tim dan requirement gathering.

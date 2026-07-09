@@ -1,7 +1,7 @@
 ---
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
-sub_cpmk: SCPMK704-02602, SCPMK903-02603
+sub_cpmk: SCPMK0704-02602, SCPMK0903-02603
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK704-02602, SCPMK903-02603
+**Sub-CPMK:** SCPMK0704-02602, SCPMK0903-02603
 
 ## Deskripsi
 Mahasiswa mengembangkan aplikasi Java lengkap berbasis GUI Swing dan database menggunakan seluruh prinsip OOP yang telah dipelajari dalam satu proyek terintegrasi.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251009
 course_name: Fisika
-sub_cpmk: SCPMK902-00901, SCPMK902-00902
+sub_cpmk: SCPMK0902-00901, SCPMK0902-00902
 assessment_form: UTS (ujian teori tertulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian teori tertulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian teori tertulis, closed book)
 
-**Sub-CPMK:** SCPMK902-00901, SCPMK902-00902
+**Sub-CPMK:** SCPMK0902-00901, SCPMK0902-00902
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tengah semester dengan cakupan materi pekan 1-8: hakikat fisika, metode ilmiah, pengukuran, kinematika, dan dinamika partikel.

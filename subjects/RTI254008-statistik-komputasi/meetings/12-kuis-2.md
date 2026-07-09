@@ -2,14 +2,14 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 12
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_weight: 5.0
 ---
 
 # Pertemuan 12 - Kuis 2: Regresi dan Simulasi
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
+- SCPMK0707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
 
 ## Materi Pembelajaran
 Kuis 2: regresi dan simulasi.

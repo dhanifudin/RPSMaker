@@ -2,14 +2,14 @@
 course_code: RTI251006
 course_name: Dasar Pemrograman
 meeting: 02
-sub_cpmk: SCPMK903-00601
+sub_cpmk: SCPMK0903-00601
 assessment_weight: 2
 ---
 
 # Pertemuan 02 - Konsep Dasar Version Control dan Kanban
 
 ## Kemampuan Akhir
-- SCPMK903-00601: Mahasiswa mampu menjelaskan konsep dasar algoritma, version control, dan Kanban serta menganalisis permasalahan sederhana ke dalam bentuk algoritma.
+- SCPMK0903-00601: Mahasiswa mampu menjelaskan konsep dasar algoritma, version control, dan Kanban serta menganalisis permasalahan sederhana ke dalam bentuk algoritma.
 
 ## Materi Pembelajaran
 Konsep dasar version control; prinsip-prinsip Kanban.

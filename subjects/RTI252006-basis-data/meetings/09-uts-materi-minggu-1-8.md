@@ -2,14 +2,14 @@
 course_code: RTI252006
 course_name: Basis Data
 meeting: 09
-sub_cpmk: SCPMK203-01501
+sub_cpmk: SCPMK0203-01501
 assessment_weight: 30
 ---
 
 # Pertemuan 09 - UTS: materi minggu 1-8
 
 ## Kemampuan Akhir
-- SCPMK203-01501: Mampu memahami konsep data, basis data, dan basis data relasional, serta merancang model dan skema basis data secara konseptual dan logikal dengan memperhatikan integritas data dan konsep normalisasi.
+- SCPMK0203-01501: Mampu memahami konsep data, basis data, dan basis data relasional, serta merancang model dan skema basis data secara konseptual dan logikal dengan memperhatikan integritas data dan konsep normalisasi.
 
 ## Materi Pembelajaran
 UTS: materi minggu 1-8.

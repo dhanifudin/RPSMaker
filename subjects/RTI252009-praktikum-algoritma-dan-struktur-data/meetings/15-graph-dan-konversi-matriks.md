@@ -2,14 +2,14 @@
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
 meeting: 15
-sub_cpmk: SCPMK703-01801
+sub_cpmk: SCPMK0703-01801
 assessment_weight: 1
 ---
 
 # Pertemuan 15 - Graph dan konversi matriks
 
 ## Kemampuan Akhir
-- SCPMK703-01801: Mahasiswa mampu memilih dan mengimplementasikan struktur data non-linear serta koleksi data untuk membangun solusi pengolahan data yang efisien.
+- SCPMK0703-01801: Mahasiswa mampu memilih dan mengimplementasikan struktur data non-linear serta koleksi data untuk membangun solusi pengolahan data yang efisien.
 
 ## Materi Pembelajaran
 Graph, konversi matriks ke graph, dan graph ke matriks.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
-sub_cpmk: SCPMK603-03402, SCPMK10.6-03403
+sub_cpmk: SCPMK0603-03402, SCPMK1006-03403
 assessment_form: Hands-on Practice
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Hands-on Practice
 
 **Bentuk Tugas/Evaluasi:** Hands-on Practice
 
-**Sub-CPMK:** SCPMK603-03402, SCPMK10.6-03403
+**Sub-CPMK:** SCPMK0603-03402, SCPMK1006-03403
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas auth, import export, api, dan testing sesuai Sub-CPMK dan konteks mata kuliah.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
-sub_cpmk: SCPMK211-02001, SCPMK211-02002
+sub_cpmk: SCPMK0211-02001, SCPMK0211-02002
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK211-02001, SCPMK211-02002
+**Sub-CPMK:** SCPMK0211-02001, SCPMK0211-02002
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas analisis konsep dasar sistem informasi manajemen sesuai Sub-CPMK dan konteks mata kuliah.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI252003
 course_name: Desain Antarmuka
-sub_cpmk: SCPMK601-01203, SCPMK802-01204
+sub_cpmk: SCPMK0601-01203, SCPMK0802-01204
 assessment_form: UAS praktik dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS praktik dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS praktik dan defense
 
-**Sub-CPMK:** SCPMK601-01203, SCPMK802-01204
+**Sub-CPMK:** SCPMK0601-01203, SCPMK0802-01204
 
 ## Deskripsi
 Mahasiswa menyelesaikan uas validasi akhir prototype sesuai Sub-CPMK dan konteks mata kuliah.

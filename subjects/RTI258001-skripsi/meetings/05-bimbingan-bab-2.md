@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 05
-sub_cpmk: SCPMK10.9-05805
+sub_cpmk: SCPMK1009-05805
 assessment_weight: 3
 ---
 
 # Milestone 05 - Bimbingan Proposal: BAB II - Tinjauan Pustaka
 
 ## Kemampuan Akhir
-- SCPMK10.9-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
+- SCPMK1009-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
 
 ## Materi Pembelajaran
 Bimbingan proposal: BAB II - Tinjauan Pustaka.

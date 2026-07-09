@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 05
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_weight: 2.5
 ---
 
 # Pertemuan 05 - Konsep Tauhid: Praktik Bacaan Al-Qur'an sesuai Tajwid
 
 ## Kemampuan Akhir
-- SCPMK102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
+- SCPMK0102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
 
 ## Materi Pembelajaran
 Konsep Tauhid: praktik bacaan Al-Qur'an sesuai tajwid.

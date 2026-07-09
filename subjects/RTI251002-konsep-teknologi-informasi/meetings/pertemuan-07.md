@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 07
-sub_cpmk: SCPMK901-00202
+sub_cpmk: SCPMK0901-00202
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Konsep Sistem Komputer
 
 ## Kemampuan Akhir
-- SCPMK901-00202: Mahasiswa mampu menjelaskan cara kerja sistem komputer beserta struktur, arsitektur, dan komponen utamanya.
+- SCPMK0901-00202: Mahasiswa mampu menjelaskan cara kerja sistem komputer beserta struktur, arsitektur, dan komponen utamanya.
 
 ## Materi Pembelajaran
 Konsep sistem komputer: struktur komputer, perangkat I/O, interkoneksi antar komponen, register, memory, pemroses (CPU), unit kendali (CU), ALU, dan BUS.

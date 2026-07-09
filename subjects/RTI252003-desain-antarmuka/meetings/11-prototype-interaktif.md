@@ -2,14 +2,14 @@
 course_code: RTI252003
 course_name: Desain Antarmuka
 meeting: 11
-sub_cpmk: SCPMK601-01203
+sub_cpmk: SCPMK0601-01203
 assessment_weight: 2.8
 ---
 
 # Pertemuan 11 - Prototype interaktif
 
 ## Kemampuan Akhir
-- SCPMK601-01203: Mahasiswa mampu menghasilkan prototipe interaktif dan mengevaluasi usability berdasarkan skenario pengujian.
+- SCPMK0601-01203: Mahasiswa mampu menghasilkan prototipe interaktif dan mengevaluasi usability berdasarkan skenario pengujian.
 
 ## Materi Pembelajaran
 Prototype interaktif.

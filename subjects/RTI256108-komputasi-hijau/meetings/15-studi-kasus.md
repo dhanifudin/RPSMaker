@@ -2,14 +2,14 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 15
-sub_cpmk: SCPMK509-05202
+sub_cpmk: SCPMK0509-05202
 assessment_weight: 2
 ---
 
 # Pertemuan 15 - Studi Kasus: Green Data Center dan Sustainable IT
 
 ## Kemampuan Akhir
-- SCPMK509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
+- SCPMK0509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
 
 ## Materi Pembelajaran
 Studi kasus: green data center dan sustainable IT.

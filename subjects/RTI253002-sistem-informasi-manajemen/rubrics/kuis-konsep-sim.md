@@ -1,7 +1,7 @@
 ---
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
-sub_cpmk: SCPMK211-02001, SCPMK607-02003
+sub_cpmk: SCPMK0211-02001, SCPMK0607-02003
 assessment_form: Kuis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis
 
 **Bentuk Tugas/Evaluasi:** Kuis
 
-**Sub-CPMK:** SCPMK211-02001, SCPMK607-02003
+**Sub-CPMK:** SCPMK0211-02001, SCPMK0607-02003
 
 ## Deskripsi
 Kuis tertulis untuk menguji pemahaman konsep dasar SIM dan penerapan SI strategis.

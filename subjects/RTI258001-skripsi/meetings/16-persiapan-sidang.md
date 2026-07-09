@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 16
-sub_cpmk: SCPMK804-05804
+sub_cpmk: SCPMK0804-05804
 assessment_weight: 2
 ---
 
 # Milestone 16 - Persiapan Sidang: Latihan Presentasi
 
 ## Kemampuan Akhir
-- SCPMK804-05804: Mahasiswa mampu mempresentasikan dan mempertahankan skripsi di hadapan tim penguji.
+- SCPMK0804-05804: Mahasiswa mampu mempresentasikan dan mempertahankan skripsi di hadapan tim penguji.
 
 ## Materi Pembelajaran
 Persiapan sidang: latihan presentasi.

@@ -2,14 +2,14 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 16
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_weight: 22.0
 ---
 
 # Pertemuan 16 - PBL: Analisis Dataset TI dengan Python/R
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
+- SCPMK0707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
 
 ## Materi Pembelajaran
 PBL: analisis dataset TI dengan Python/R.

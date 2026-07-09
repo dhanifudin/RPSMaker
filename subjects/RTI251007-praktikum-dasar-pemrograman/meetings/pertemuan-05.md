@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 05
-sub_cpmk: SCPMK704-00702
+sub_cpmk: SCPMK0704-00702
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Pemilihan 1: if, if-else, else-if, dan switch-case
 
 ## Kemampuan Akhir
-- SCPMK704-00702: Mahasiswa mampu menerapkan struktur pemilihan (if, if-else, else-if, dan switch-case) ke dalam program Java.
+- SCPMK0704-00702: Mahasiswa mampu menerapkan struktur pemilihan (if, if-else, else-if, dan switch-case) ke dalam program Java.
 
 ## Materi Pembelajaran
 - Pemilihan if

@@ -1,7 +1,7 @@
 ---
 course_code: RTI255004
 course_name: Pembelajaran Mesin
-sub_cpmk: SCPMK10.5-04002
+sub_cpmk: SCPMK1005-04002
 assessment_form: UAS berbasis presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis presentasi dan defense
 
-**Sub-CPMK:** SCPMK10.5-04002
+**Sub-CPMK:** SCPMK1005-04002
 
 ## Deskripsi
 Mahasiswa mempresentasikan, mengevaluasi, dan mempertahankan hasil proyek ML yang telah dioptimalkan.

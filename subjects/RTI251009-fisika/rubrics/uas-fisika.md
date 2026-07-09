@@ -1,7 +1,7 @@
 ---
 course_code: RTI251009
 course_name: Fisika
-sub_cpmk: SCPMK902-00903, SCPMK902-00904
+sub_cpmk: SCPMK0902-00903, SCPMK0902-00904
 assessment_form: UAS (ujian teori tertulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian teori tertulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian teori tertulis, closed book)
 
-**Sub-CPMK:** SCPMK902-00903, SCPMK902-00904
+**Sub-CPMK:** SCPMK0902-00903, SCPMK0902-00904
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian akhir semester dengan cakupan materi pekan 1-16 dan penekanan pada usaha-energi, momentum-tumbukan, serta kelistrikan statis dan rangkaian DC.

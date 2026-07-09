@@ -2,14 +2,14 @@
 course_code: RTI255003
 course_name: Pemrograman Mobile
 meeting: 17
-sub_cpmk: SCPMK603-03904
+sub_cpmk: SCPMK0603-03904
 assessment_weight: 25
 ---
 
 # Pertemuan 17 - Presentasi hasil akhir project
 
 ## Kemampuan Akhir
-- SCPMK603-03904: Mahasiswa mampu menghasilkan aplikasi mobile berbasis Flutter sebagai proyek PBL.
+- SCPMK0603-03904: Mahasiswa mampu menghasilkan aplikasi mobile berbasis Flutter sebagai proyek PBL.
 
 ## Materi Pembelajaran
 Presentasi hasil akhir project.

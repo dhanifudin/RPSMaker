@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 04
-sub_cpmk: SCPMK802-05803
+sub_cpmk: SCPMK0802-05803
 assessment_weight: 2
 ---
 
 # Milestone 04 - Bimbingan Proposal: BAB I - Pendahuluan
 
 ## Kemampuan Akhir
-- SCPMK802-05803: Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri.
+- SCPMK0802-05803: Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri.
 
 ## Materi Pembelajaran
 Bimbingan proposal: BAB I - Pendahuluan.

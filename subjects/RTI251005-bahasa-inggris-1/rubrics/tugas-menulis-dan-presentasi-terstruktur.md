@@ -1,7 +1,7 @@
 ---
 course_code: RTI251005
 course_name: Bahasa Inggris 1
-sub_cpmk: SCPMK303-00503
+sub_cpmk: SCPMK0303-00503
 assessment_form: Tugas terstruktur (tulisan dan presentasi)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur (tulisan dan presentasi)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur (tulisan dan presentasi)
 
-**Sub-CPMK:** SCPMK303-00503
+**Sub-CPMK:** SCPMK0303-00503
 
 ## Deskripsi
 Mahasiswa mengerjakan lima tugas menulis terstruktur (instruksi instalasi software, perbandingan device, proses editing, review website, dan deskripsi dream job) masing-masing berbobot 1% sesuai topik yang dipelajari.

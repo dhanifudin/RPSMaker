@@ -1,7 +1,7 @@
 ---
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
-sub_cpmk: SCPMK101-03701, SCPMK101-03702
+sub_cpmk: SCPMK0101-03701, SCPMK0101-03702
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK101-03701, SCPMK101-03702
+**Sub-CPMK:** SCPMK0101-03701, SCPMK0101-03702
 
 ## Deskripsi
 Mahasiswa menjawab soal pilihan ganda dan uraian singkat terkait konsep kewirausahaan, karakteristik wirausaha, analisis pasar, dan aspek teknis bisnis.

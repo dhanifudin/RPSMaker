@@ -1,7 +1,7 @@
 ---
 course_code: RTI252001
 course_name: Agama
-sub_cpmk: SCPMK102-01001, SCPMK102-01002
+sub_cpmk: SCPMK0102-01001, SCPMK0102-01002
 assessment_form: UTS (ujian tulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian tulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian tulis, closed book)
 
-**Sub-CPMK:** SCPMK102-01001, SCPMK102-01002
+**Sub-CPMK:** SCPMK0102-01001, SCPMK0102-01002
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tulis materi minggu 1-7: pendahuluan, manusia dan agama, konsep tauhid, dan konsep manusia.

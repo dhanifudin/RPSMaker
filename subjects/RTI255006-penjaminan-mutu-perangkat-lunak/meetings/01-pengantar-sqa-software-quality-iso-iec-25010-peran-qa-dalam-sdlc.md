@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 01
-sub_cpmk: SCPMK608-04201: Mahasiswa mampu menganalisis prinsip software quality assurance, standar mutu, tipe dan level pengujian, serta konteks pengujian dalam SDLC.
+sub_cpmk: SCPMK0608-04201: Mahasiswa mampu menganalisis prinsip software quality assurance, standar mutu, tipe dan level pengujian, serta konteks pengujian dalam SDLC.
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar SQA; software quality; ISO/IEC 25010; peran QA dalam SDLC
 
 ## Kemampuan Akhir
-SCPMK608-04201: Mahasiswa mampu menganalisis prinsip software quality assurance, standar mutu, tipe dan level pengujian, serta konteks pengujian dalam SDLC.
+SCPMK0608-04201: Mahasiswa mampu menganalisis prinsip software quality assurance, standar mutu, tipe dan level pengujian, serta konteks pengujian dalam SDLC.
 
 ## Materi Pembelajaran
 Pengantar SQA; software quality; ISO/IEC 25010; peran QA dalam SDLC.

@@ -2,14 +2,14 @@
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
 meeting: 09
-sub_cpmk: SCPMK704-02602
+sub_cpmk: SCPMK0704-02602
 assessment_weight: 2
 ---
 
 # Pertemuan 09 - Praktikum: Polymorfisme
 
 ## Kemampuan Akhir
-- SCPMK704-02602: Mahasiswa mampu mengimplementasikan overriding, overloading, interface, kelas abstrak, dan polymorfisme pada kasus nyata.
+- SCPMK0704-02602: Mahasiswa mampu mengimplementasikan overriding, overloading, interface, kelas abstrak, dan polymorfisme pada kasus nyata.
 
 ## Materi Pembelajaran
 Praktikum: polymorfisme.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
-sub_cpmk: SCPMK704-02502, SCPMK903-02503
+sub_cpmk: SCPMK0704-02502, SCPMK0903-02503
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK704-02502, SCPMK903-02503
+**Sub-CPMK:** SCPMK0704-02502, SCPMK0903-02503
 
 ## Deskripsi
 Mahasiswa membangun solusi berbasis OOP menggunakan polymorfisme, interface, kelas abstrak, dan Java API untuk menyelesaikan studi kasus yang diberikan.

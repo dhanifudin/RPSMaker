@@ -1,7 +1,7 @@
 ---
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
-sub_cpmk: SCPMK802-05402, SCPMK603-05401, SCPMK803-05403
+sub_cpmk: SCPMK0802-05402, SCPMK0603-05401, SCPMK0803-05403
 assessment_form: Project Based Learning (PBL) -- Sprint 1-2, UTS Milestone, Sprint 3-4
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning (PBL) -- Sprint 1-2, UTS Milestone, Spri
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning (PBL) -- Sprint 1-2, UTS Milestone, Sprint 3-4
 
-**Sub-CPMK:** SCPMK802-05402, SCPMK603-05401, SCPMK803-05403
+**Sub-CPMK:** SCPMK0802-05402, SCPMK0603-05401, SCPMK0803-05403
 
 ## Deskripsi
 Mahasiswa mengeksekusi empat sprint pengembangan produk teknologi terapan, mencakup implementasi fitur, pengujian, review stakeholder, dan milestone UTS, secara berkelanjutan hingga produk siap industri.

@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 10
-sub_cpmk: SCPMK607-02003
+sub_cpmk: SCPMK0607-02003
 assessment_weight: 5
 ---
 
 # Pertemuan 10 - Aplikasi SI pada Fungsi dan Level Organisasi
 
 ## Kemampuan Akhir
-- SCPMK607-02003: Mahasiswa mampu menerapkan konsep SI strategis dan pendukung untuk pengelolaan informasi organisasi yang kompleks.
+- SCPMK0607-02003: Mahasiswa mampu menerapkan konsep SI strategis dan pendukung untuk pengelolaan informasi organisasi yang kompleks.
 
 ## Materi Pembelajaran
 Aplikasi SI pada fungsi dan level organisasi: SI fungsional (keuangan, SDM, pemasaran, operasi), SI pada level operasional/taktis/strategis, ERP, CRM, SCM, dan studi kasus penerapan SI di organisasi nyata.

@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 13
-sub_cpmk: SCPMK10.5-04304
+sub_cpmk: SCPMK1005-04304
 assessment_weight: 5
 ---
 
 # Pertemuan 13 - Kuis 2: Evaluasi Model Visi Komputer
 
 ## Kemampuan Akhir
-- SCPMK10.5-04304: Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy.
+- SCPMK1005-04304: Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy.
 
 ## Materi Pembelajaran
 Kuis 2: evaluasi model visi komputer.

@@ -2,14 +2,14 @@
 course_code: RTI252003
 course_name: Desain Antarmuka
 meeting: 15
-sub_cpmk: SCPMK802-01204
+sub_cpmk: SCPMK0802-01204
 assessment_weight: 2.8
 ---
 
 # Pertemuan 15 - Iterasi desain
 
 ## Kemampuan Akhir
-- SCPMK802-01204: Mahasiswa mampu mengelola artefak proyek UI/UX, mempresentasikan rationale desain, dan menyusun rekomendasi perbaikan.
+- SCPMK0802-01204: Mahasiswa mampu mengelola artefak proyek UI/UX, mempresentasikan rationale desain, dan menyusun rekomendasi perbaikan.
 
 ## Materi Pembelajaran
 Iterasi desain.

@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 01
-sub_cpmk: SCPMK102-01001
+sub_cpmk: SCPMK0102-01001
 assessment_weight: 3.75
 ---
 
 # Pertemuan 01 - Pendahuluan: Visi Pendidikan Agama, Deskripsi Mata Kuliah, dan Sistem Penilaian
 
 ## Kemampuan Akhir
-- SCPMK102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
+- SCPMK0102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
 
 ## Materi Pembelajaran
 Pendahuluan: visi pendidikan agama, deskripsi mata kuliah, pendekatan kuliah, tata tertib, dan sistem penilaian.

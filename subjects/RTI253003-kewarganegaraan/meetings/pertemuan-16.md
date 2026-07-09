@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 16
-sub_cpmk: SCPMK102-02104
+sub_cpmk: SCPMK0102-02104
 assessment_weight: 5
 ---
 
 # Pertemuan 16 - Integrasi Nasional (PBL)
 
 ## Kemampuan Akhir
-- SCPMK102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
+- SCPMK0102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
 
 ## Materi Pembelajaran
 Integrasi Nasional: integrasi nasional dan pluralitas masyarakat Indonesia, dinamika integrasi nasional, strategi integrasi, serta integrasi nasional Indonesia.

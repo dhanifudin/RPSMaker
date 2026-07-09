@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 08
-sub_cpmk: SCPMK803-05403
+sub_cpmk: SCPMK0803-05403
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Milestone: evaluasi progres dan stakeholder review
 
 ## Kemampuan Akhir
-- SCPMK803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
+- SCPMK0803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
 
 ## Materi Pembelajaran
 UTS Milestone: evaluasi progres dan stakeholder review.

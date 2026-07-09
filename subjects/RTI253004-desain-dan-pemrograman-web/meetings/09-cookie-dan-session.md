@@ -2,14 +2,14 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 09
-sub_cpmk: SCPMK209-02202
+sub_cpmk: SCPMK0209-02202
 assessment_weight: 3
 ---
 
 # Pertemuan 09 - Cookie dan session
 
 ## Kemampuan Akhir
-- SCPMK209-02202: Mahasiswa mampu memilih mekanisme client-server, form, session, cookie, dan database sesuai kebutuhan aplikasi web.
+- SCPMK0209-02202: Mahasiswa mampu memilih mekanisme client-server, form, session, cookie, dan database sesuai kebutuhan aplikasi web.
 
 ## Materi Pembelajaran
 Cookie dan session.

@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 03
-sub_cpmk: SCPMK901-00201
+sub_cpmk: SCPMK0901-00201
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Pengertian dan Perkembangan IPTEK
 
 ## Kemampuan Akhir
-- SCPMK901-00201: Mahasiswa mampu menjelaskan konsep teknologi informasi, inovasi teknologi, perkembangan IPTEK dan ICT, serta etika rekayasa di bidang TI.
+- SCPMK0901-00201: Mahasiswa mampu menjelaskan konsep teknologi informasi, inovasi teknologi, perkembangan IPTEK dan ICT, serta etika rekayasa di bidang TI.
 
 ## Materi Pembelajaran
 Pengertian dan perkembangan IPTEK, perkembangan IPTEK dalam bidang pendidikan, serta pengaruh IPTEK dan solusinya.

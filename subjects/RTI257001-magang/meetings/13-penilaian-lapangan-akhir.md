@@ -2,14 +2,14 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 13
-sub_cpmk: SCPMK607-05704
+sub_cpmk: SCPMK0607-05704
 assessment_weight: 15
 ---
 
 # Milestone 13 - Penilaian Pembimbing Lapangan Akhir
 
 ## Kemampuan Akhir
-- SCPMK607-05704: Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata.
+- SCPMK0607-05704: Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata.
 
 ## Materi Pembelajaran
 Penilaian pembimbing lapangan akhir.

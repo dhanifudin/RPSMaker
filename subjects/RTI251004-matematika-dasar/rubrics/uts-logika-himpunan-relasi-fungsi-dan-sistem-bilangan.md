@@ -1,7 +1,7 @@
 ---
 course_code: RTI251004
 course_name: Matematika Dasar
-sub_cpmk: SCPMK902-00401, SCPMK902-00402
+sub_cpmk: SCPMK0902-00401, SCPMK0902-00402
 assessment_form: UTS (ujian tulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian tulis)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian tulis)
 
-**Sub-CPMK:** SCPMK902-00401, SCPMK902-00402
+**Sub-CPMK:** SCPMK0902-00401, SCPMK0902-00402
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tengah semester individual yang mencakup materi pertemuan 1 s.d. 7.

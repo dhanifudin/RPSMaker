@@ -2,14 +2,14 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 12
-sub_cpmk: SCPMK702-05001
+sub_cpmk: SCPMK0702-05001
 assessment_weight: 2
 ---
 
 # Pertemuan 12 - Data Lakehouse: Delta Lake, Apache Iceberg
 
 ## Kemampuan Akhir
-- SCPMK702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
+- SCPMK0702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
 
 ## Materi Pembelajaran
 Data lakehouse: Delta Lake, Apache Iceberg.

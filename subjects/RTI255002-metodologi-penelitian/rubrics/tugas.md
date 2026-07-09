@@ -1,7 +1,7 @@
 ---
 course_code: RTI255002
 course_name: Metodologi Penelitian
-sub_cpmk: SCPMK403-03801, SCPMK403-03802, SCPMK403-03803
+sub_cpmk: SCPMK0403-03801, SCPMK0403-03802, SCPMK0403-03803
 assessment_form: Case Method dan penulisan ilmiah
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penulisan ilmiah
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penulisan ilmiah
 
-**Sub-CPMK:** SCPMK403-03801, SCPMK403-03802, SCPMK403-03803
+**Sub-CPMK:** SCPMK0403-03801, SCPMK0403-03802, SCPMK0403-03803
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas-tugas terkait studi literatur, identifikasi masalah, dan perencanaan metode penelitian sesuai Sub-CPMK dan konteks mata kuliah.

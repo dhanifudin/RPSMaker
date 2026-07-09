@@ -2,14 +2,14 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 06
-sub_cpmk: SCPMK505-04401
+sub_cpmk: SCPMK0505-04401
 assessment_weight: 2
 ---
 
 # Pertemuan 06 - Instalasi Dasar Gateway Internet
 
 ## Kemampuan Akhir
-- SCPMK505-04401: Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM.
+- SCPMK0505-04401: Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM.
 
 ## Materi Pembelajaran
 Instalasi dasar gateway internet.

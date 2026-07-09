@@ -1,7 +1,7 @@
 ---
 course_code: RTI256204
 course_name: Proyek Inovasi
-sub_cpmk: SCPMK803-05302
+sub_cpmk: SCPMK0803-05302
 assessment_form: UTS evaluasi tengah proyek
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS evaluasi tengah proyek
 
 **Bentuk Tugas/Evaluasi:** UTS evaluasi tengah proyek
 
-**Sub-CPMK:** SCPMK803-05302
+**Sub-CPMK:** SCPMK0803-05302
 
 ## Deskripsi
 Evaluasi tengah semester untuk mengukur kemajuan proyek inovasi, kualitas eksekusi sprint, dan kemampuan mahasiswa mengelola serta mempresentasikan status proyek kepada panel evaluator.

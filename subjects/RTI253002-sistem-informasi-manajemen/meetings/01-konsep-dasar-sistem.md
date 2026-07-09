@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 01
-sub_cpmk: SCPMK211-02001
+sub_cpmk: SCPMK0211-02001
 assessment_weight: 3
 ---
 
 # Pertemuan 01 - Konsep Dasar Sistem
 
 ## Kemampuan Akhir
-- SCPMK211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
+- SCPMK0211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
 
 ## Materi Pembelajaran
 Konsep dasar sistem: pengertian sistem, karakteristik sistem, klasifikasi sistem, dan hubungan antar komponen sistem dalam konteks organisasi.

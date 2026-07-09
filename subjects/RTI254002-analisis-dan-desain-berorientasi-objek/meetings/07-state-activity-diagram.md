@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 07
-sub_cpmk: SCPMK211-02901
+sub_cpmk: SCPMK0211-02901
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - State Diagram dan Activity Diagram
 
 ## Kemampuan Akhir
-- SCPMK211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
+- SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
 
 ## Materi Pembelajaran
 State diagram dan activity diagram.

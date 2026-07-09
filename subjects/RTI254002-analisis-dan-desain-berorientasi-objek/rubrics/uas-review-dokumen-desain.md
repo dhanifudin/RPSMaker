@@ -1,7 +1,7 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-sub_cpmk: SCPMK10.8-02903
+sub_cpmk: SCPMK1008-02903
 assessment_form: UAS berbasis presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis presentasi dan defense
 
-**Sub-CPMK:** SCPMK10.8-02903
+**Sub-CPMK:** SCPMK1008-02903
 
 ## Deskripsi
 Mahasiswa mempresentasikan dokumen desain sistem final secara menyeluruh dan mempertahankan setiap keputusan desain kepada dosen penguji.

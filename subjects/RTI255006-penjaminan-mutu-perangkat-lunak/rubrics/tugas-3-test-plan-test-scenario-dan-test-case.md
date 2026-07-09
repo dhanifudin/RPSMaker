@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04202
+sub_cpmk: SCPMK0608-04202
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK608-04202
+**Sub-CPMK:** SCPMK0608-04202
 
 ## Deskripsi
 Mahasiswa menyusun dokumen perencanaan pengujian berdasarkan requirement.

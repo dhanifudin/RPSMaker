@@ -2,14 +2,14 @@
 course_code: RTI251009
 course_name: Fisika
 meeting: 15
-sub_cpmk: SCPMK902-00904
+sub_cpmk: SCPMK0902-00904
 assessment_weight: 1.5
 ---
 
 # Pertemuan 15 - Kapasitor, Kapasitansi, dan Energi Tersimpan
 
 ## Kemampuan Akhir
-- SCPMK902-00904: Mahasiswa mampu menganalisis gaya Coulomb, medan dan potensial listrik, kapasitansi, serta rangkaian listrik DC untuk permasalahan kelistrikan pada sistem elektronik.
+- SCPMK0902-00904: Mahasiswa mampu menganalisis gaya Coulomb, medan dan potensial listrik, kapasitansi, serta rangkaian listrik DC untuk permasalahan kelistrikan pada sistem elektronik.
 
 ## Materi Pembelajaran
 Kapasitor, kapasitansi, dan energi tersimpan.

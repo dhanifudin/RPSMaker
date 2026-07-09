@@ -1,7 +1,7 @@
 ---
 course_code: RTI252002
 course_name: Aljabar Linier
-sub_cpmk: SCPMK902-01101, SCPMK902-01102
+sub_cpmk: SCPMK0902-01101, SCPMK0902-01102
 assessment_form: UTS (ujian tertulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian tertulis)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian tertulis)
 
-**Sub-CPMK:** SCPMK902-01101, SCPMK902-01102
+**Sub-CPMK:** SCPMK0902-01101, SCPMK0902-01102
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tertulis materi pekan 1-7: permodelan dan penyelesaian SPL, metode Gauss/Gauss-Jordan, operasi matriks, inversi, partisi matriks, determinan, dan ekspansi kofaktor.

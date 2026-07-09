@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 04
-sub_cpmk: SCPMK705-04301
+sub_cpmk: SCPMK0705-04301
 assessment_weight: 3
 ---
 
 # Pertemuan 04 - Deteksi Tepi: Sobel dan Canny
 
 ## Kemampuan Akhir
-- SCPMK705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
+- SCPMK0705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
 
 ## Materi Pembelajaran
 Deteksi tepi: Sobel dan Canny.

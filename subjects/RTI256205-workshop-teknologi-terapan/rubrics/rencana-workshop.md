@@ -1,7 +1,7 @@
 ---
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
-sub_cpmk: SCPMK803-05403, SCPMK802-05402
+sub_cpmk: SCPMK0803-05403, SCPMK0802-05402
 assessment_form: Case Method (CM) -- perencanaan terstruktur
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method (CM) -- perencanaan terstruktur
 
 **Bentuk Tugas/Evaluasi:** Case Method (CM) -- perencanaan terstruktur
 
-**Sub-CPMK:** SCPMK803-05403, SCPMK802-05402
+**Sub-CPMK:** SCPMK0803-05403, SCPMK0802-05402
 
 ## Deskripsi
 Mahasiswa menyusun rencana workshop industri yang komprehensif mencakup WBS, timeline sprint, target deliverable, dan rencana pengembangan produk berbasis kebutuhan industri.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI256204
 course_name: Proyek Inovasi
-sub_cpmk: SCPMK801-05301
+sub_cpmk: SCPMK0801-05301
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK801-05301
+**Sub-CPMK:** SCPMK0801-05301
 
 ## Deskripsi
 Mahasiswa menyusun proposal proyek inovasi TI yang mencakup analisis masalah industri, solusi teknologi, WBS, jadwal, anggaran, dan rencana manajemen risiko.

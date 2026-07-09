@@ -2,14 +2,14 @@
 course_code: RTI251006
 course_name: Dasar Pemrograman
 meeting: 15
-sub_cpmk: SCPMK704-00604
+sub_cpmk: SCPMK0704-00604
 assessment_weight: 0.5
 ---
 
 # Pertemuan 15 - Studi Kasus Terintegrasi
 
 ## Kemampuan Akhir
-- SCPMK704-00604: Mahasiswa mampu menyelesaikan studi kasus menggunakan array 1 dan 2 dimensi serta fungsi iteratif dan rekursif dalam algoritma penyelesaian masalah.
+- SCPMK0704-00604: Mahasiswa mampu menyelesaikan studi kasus menggunakan array 1 dan 2 dimensi serta fungsi iteratif dan rekursif dalam algoritma penyelesaian masalah.
 
 ## Materi Pembelajaran
 Studi kasus terintegrasi: sequence, pemilihan, perulangan, array, dan fungsi pada proyek.

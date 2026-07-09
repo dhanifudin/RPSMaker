@@ -1,7 +1,7 @@
 ---
 course_code: RTI254008
 course_name: Statistik Komputasi
-sub_cpmk: SCPMK707-03501, SCPMK902-03502
+sub_cpmk: SCPMK0707-03501, SCPMK0902-03502
 assessment_form: Case Method dan praktik komputasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik komputasi
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik komputasi
 
-**Sub-CPMK:** SCPMK707-03501, SCPMK902-03502
+**Sub-CPMK:** SCPMK0707-03501, SCPMK0902-03502
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas analisis statistik menggunakan Python/R sesuai Sub-CPMK dan konteks mata kuliah.

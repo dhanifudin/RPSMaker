@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 09
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_weight: 5
 ---
 
 # Pertemuan 09 - Wawasan Ekologi dalam Islam
 
 ## Kemampuan Akhir
-- SCPMK102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
+- SCPMK0102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
 
 ## Materi Pembelajaran
 Wawasan Ekologi dalam Islam: hakikat alam semesta, sunnatullah, manfaat alam semesta, dan wawasan lingkungan.

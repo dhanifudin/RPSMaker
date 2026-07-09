@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 1
-sub_cpmk: SCPMK903-01701
+sub_cpmk: SCPMK0903-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 1 - Algoritma Dasar dan Flowchart
 
 ## Kemampuan Akhir
-- SCPMK903-01701: Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data.
+- SCPMK0903-01701: Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data.
 
 ## Materi Pembelajaran
 Pemilihan, perulangan, array, dan fungsi — review dasar pemrograman sebagai pondasi algoritma; pembuatan flowchart untuk studi kasus.

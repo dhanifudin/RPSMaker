@@ -1,7 +1,7 @@
 ---
 course_code: RTI256206
 course_name: Rekayasa Sistem
-sub_cpmk: SCPMK211-05501, SCPMK602-05502, SCPMK609-05503
+sub_cpmk: SCPMK0211-05501, SCPMK0602-05502, SCPMK0609-05503
 assessment_form: Project Based Learning (PBL) -- Sprint 1-2, UTS Milestone, Sprint 3-4
 ---
 

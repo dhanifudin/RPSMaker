@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 instrument: Tugas
-sub_cpmk: SCPMK207-01701, SCPMK903-01701
+sub_cpmk: SCPMK0207-01701, SCPMK0903-01701
 weight: 20.4
 ---
 
 # Rubrik Tugas Algoritma dan Struktur Data
 
 **Instrumen**: Tugas mingguan (12 pertemuan × 1.7%)
-**Sub-CPMK**: SCPMK903-01701 (pekan 1–7), SCPMK207-01701 (pekan 9–12, 14–15)
+**Sub-CPMK**: SCPMK0903-01701 (pekan 1–7), SCPMK0207-01701 (pekan 9–12, 14–15)
 **Total Bobot**: 20.4%
 
 ## Kriteria Penilaian

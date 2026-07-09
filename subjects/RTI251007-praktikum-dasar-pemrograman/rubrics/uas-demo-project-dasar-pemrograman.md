@@ -1,7 +1,7 @@
 ---
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
-sub_cpmk: SCPMK704-00704
+sub_cpmk: SCPMK0704-00704
 assessment_form: UAS (ujian praktik dan demo project)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian praktik dan demo project)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian praktik dan demo project)
 
-**Sub-CPMK:** SCPMK704-00704
+**Sub-CPMK:** SCPMK0704-00704
 
 ## Deskripsi
 Mahasiswa mendemonstrasikan program proyek akhir di hadapan penguji dan menjawab pertanyaan terkait logika serta struktur kode program.

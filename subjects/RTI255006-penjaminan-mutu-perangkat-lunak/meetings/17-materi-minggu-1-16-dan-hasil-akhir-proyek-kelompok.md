@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 17
-sub_cpmk: UAS untuk SCPMK608-04203 dan SCPMK608-04204
+sub_cpmk: UAS untuk SCPMK0608-04203 dan SCPMK0608-04204
 assessment_weight: 15
 ---
 
 # Pertemuan 17 - Materi minggu 1-16 dan hasil akhir proyek kelompok
 
 ## Kemampuan Akhir
-- SCPMK608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes.
+- SCPMK0608-04204: Mahasiswa mampu merancang, menerapkan, dan mengevaluasi non-functional testing serta menyusun rekomendasi peningkatan kualitas perangkat lunak berdasarkan quality attributes.
 
 ## Materi Pembelajaran
 Materi minggu 1-16 dan hasil akhir proyek kelompok.

@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 05
-sub_cpmk: SCPMK211-02901
+sub_cpmk: SCPMK0211-02901
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Kuis 1: Use Case dan Class Diagram
 
 ## Kemampuan Akhir
-- SCPMK211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
+- SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
 
 ## Materi Pembelajaran
 Kuis 1: use case dan class diagram.

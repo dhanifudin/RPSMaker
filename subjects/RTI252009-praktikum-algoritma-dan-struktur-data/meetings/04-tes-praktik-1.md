@@ -2,14 +2,14 @@
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
 meeting: 04
-sub_cpmk: SCPMK903-01801
+sub_cpmk: SCPMK0903-01801
 assessment_weight: 20
 ---
 
 # Pertemuan 04 - Tes Praktik 1
 
 ## Kemampuan Akhir
-- SCPMK903-01801: Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.
+- SCPMK0903-01801: Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.
 
 ## Materi Pembelajaran
 Tes Praktik 1 (Asessment 1): materi pekan 1-3.

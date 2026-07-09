@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 03
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_weight: 1.9
 ---
 
 # Pertemuan 03 - Pemodelan Data dan ERD 2
 
 ## Kemampuan Akhir
-- SCPMK203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
+- SCPMK0203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
 
 ## Materi Pembelajaran
 Pemodelan Data dan ERD 2: langkah-langkah perancangan ERD, penentuan entity, atribut, relationship, kardinalitas, dan partisipan berdasarkan studi kasus.

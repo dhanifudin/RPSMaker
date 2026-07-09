@@ -2,14 +2,14 @@
 course_code: RTI251009
 course_name: Fisika
 meeting: 11
-sub_cpmk: SCPMK902-00903
+sub_cpmk: SCPMK0902-00903
 assessment_weight: 1.5
 ---
 
 # Pertemuan 11 - Momentum, Impuls, dan Tumbukan
 
 ## Kemampuan Akhir
-- SCPMK902-00903: Mahasiswa mampu menganalisis hubungan usaha dan energi serta menerapkan konsep impuls, momentum, dan hukum kekekalan momentum pada permasalahan tumbukan.
+- SCPMK0902-00903: Mahasiswa mampu menganalisis hubungan usaha dan energi serta menerapkan konsep impuls, momentum, dan hukum kekekalan momentum pada permasalahan tumbukan.
 
 ## Materi Pembelajaran
 Momentum, impuls, hukum kekekalan momentum, tumbukan elastis dan inelastis.

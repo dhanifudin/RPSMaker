@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 03
-sub_cpmk: SCPMK211-02901
+sub_cpmk: SCPMK0211-02901
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Use Case Specification dan Scenario Analysis
 
 ## Kemampuan Akhir
-- SCPMK211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
+- SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
 
 ## Materi Pembelajaran
 Use case specification dan scenario analysis.

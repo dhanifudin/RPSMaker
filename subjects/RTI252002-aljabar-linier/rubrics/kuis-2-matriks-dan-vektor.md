@@ -1,7 +1,7 @@
 ---
 course_code: RTI252002
 course_name: Aljabar Linier
-sub_cpmk: SCPMK902-01102, SCPMK902-01103
+sub_cpmk: SCPMK0902-01102, SCPMK0902-01103
 assessment_form: Kuis (ujian tertulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian tertulis)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian tertulis)
 
-**Sub-CPMK:** SCPMK902-01102, SCPMK902-01103
+**Sub-CPMK:** SCPMK0902-01102, SCPMK0902-01103
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis tertulis materi pekan 9-11: aturan Cramer, vektor, dot product, dan cross product.

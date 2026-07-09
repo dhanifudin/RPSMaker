@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 5
-sub_cpmk: SCPMK903-01701
+sub_cpmk: SCPMK0903-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 5 - Algoritma Brute Force dan Kompleksitas
 
 ## Kemampuan Akhir
-- SCPMK903-01701: Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data.
+- SCPMK0903-01701: Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data.
 
 ## Materi Pembelajaran
 Algoritma brute force, divide-and-conquer, kompleksitas Big-O, dan perhitungan notasi Big-O.

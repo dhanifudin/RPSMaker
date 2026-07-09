@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 14
-sub_cpmk: SCPMK704-00704
+sub_cpmk: SCPMK0704-00704
 assessment_weight: 2
 ---
 
 # Pertemuan 14 - Fungsi 2: fungsi rekursif
 
 ## Kemampuan Akhir
-- SCPMK704-00704: Mahasiswa mampu menerapkan fungsi rekursif untuk menyelesaikan studi kasus dalam program Java.
+- SCPMK0704-00704: Mahasiswa mampu menerapkan fungsi rekursif untuk menyelesaikan studi kasus dalam program Java.
 
 ## Materi Pembelajaran
 - Fungsi rekursif

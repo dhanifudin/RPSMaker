@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 14
-sub_cpmk: SCPMK208-00204
+sub_cpmk: SCPMK0208-00204
 assessment_weight: 2
 ---
 
 # Pertemuan 14 - Konsep Jaringan Komputer dan Internet
 
 ## Kemampuan Akhir
-- SCPMK208-00204: Mahasiswa mampu memilih jaringan komputer, aplikasi TI, dan sertifikasi bidang TI yang sesuai dengan kebutuhan pengguna dan organisasi.
+- SCPMK0208-00204: Mahasiswa mampu memilih jaringan komputer, aplikasi TI, dan sertifikasi bidang TI yang sesuai dengan kebutuhan pengguna dan organisasi.
 
 ## Materi Pembelajaran
 Konsep jaringan komputer, konsep dan pengertian internet, jenis jaringan komputer, internet dan intranet, topologi jaringan, dan perangkat jaringan.

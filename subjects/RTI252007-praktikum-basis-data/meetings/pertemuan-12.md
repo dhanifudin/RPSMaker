@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 12
-sub_cpmk: SCPMK701-01601
+sub_cpmk: SCPMK0701-01601
 assessment_weight: 3.1
 ---
 
 # Pertemuan 12 - Query Data (SQL-DQL)
 
 ## Kemampuan Akhir
-- SCPMK701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
+- SCPMK0701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
 
 ## Materi Pembelajaran
 Query Data (SQL-DQL): proses query data menggunakan perintah SELECT, klausa WHERE, ORDER BY, GROUP BY, dan fungsi agregasi (SUM, MIN, MAX, AVG).

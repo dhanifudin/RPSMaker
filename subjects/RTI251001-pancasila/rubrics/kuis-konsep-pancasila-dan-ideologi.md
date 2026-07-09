@@ -1,7 +1,7 @@
 ---
 course_code: RTI251001
 course_name: Pancasila
-sub_cpmk: SCPMK102-00101, SCPMK102-00103
+sub_cpmk: SCPMK0102-00101, SCPMK0102-00103
 assessment_form: Kuis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis
 
 **Bentuk Tugas/Evaluasi:** Kuis
 
-**Sub-CPMK:** SCPMK102-00101, SCPMK102-00103
+**Sub-CPMK:** SCPMK0102-00101, SCPMK0102-00103
 
 ## Deskripsi
 Mahasiswa mengerjakan Kuis 1 (konsep dasar dan filsafat Pancasila, minggu 3) dan Kuis 2 (ideologi nasional dan ideologi dunia, minggu 10).

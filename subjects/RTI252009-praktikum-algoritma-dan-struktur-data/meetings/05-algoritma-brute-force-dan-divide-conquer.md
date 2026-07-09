@@ -2,14 +2,14 @@
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
 meeting: 05
-sub_cpmk: SCPMK903-01801
+sub_cpmk: SCPMK0903-01801
 assessment_weight: 1
 ---
 
 # Pertemuan 05 - Algoritma brute force dan divide-conquer
 
 ## Kemampuan Akhir
-- SCPMK903-01801: Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.
+- SCPMK0903-01801: Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.
 
 ## Materi Pembelajaran
 Algoritma brute force, divide-conquer, kompleksitas Big-O, dan perhitungan notasi Big-O.

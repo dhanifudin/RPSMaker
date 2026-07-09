@@ -2,14 +2,14 @@
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
 meeting: 14
-sub_cpmk: SCPMK101-00804
+sub_cpmk: SCPMK0101-00804
 assessment_weight: 10
 ---
 
 # Pertemuan 14 - Case Method: Perbaikan Sistem Manajemen K3
 
 ## Kemampuan Akhir
-- SCPMK101-00804: Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0.
+- SCPMK0101-00804: Mahasiswa mampu merancang program kerja, organisasi, komunikasi, audit, dan perbaikan sistem manajemen K3 termasuk implementasinya di era industri 4.0.
 
 ## Materi Pembelajaran
 Case Method: perbaikan sistem manajemen K3 dan analisis biaya; implementasi K3 di industri 4.0.

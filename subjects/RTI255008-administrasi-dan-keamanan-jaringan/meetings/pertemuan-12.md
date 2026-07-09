@@ -2,15 +2,15 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 12
-sub_cpmk: SCPMK505-04401, SCPMK505-04402
+sub_cpmk: SCPMK0505-04401, SCPMK0505-04402
 assessment_weight: 13
 ---
 
 # Pertemuan 12 - Simulasi Administrasi & Troubleshooting Jaringan
 
 ## Kemampuan Akhir
-- SCPMK505-04401: Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM.
-- SCPMK505-04402: Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas.
+- SCPMK0505-04401: Mahasiswa mampu mengkonfigurasi dan menguji mekanisme keamanan jaringan meliputi NAT, firewall, administrasi akses, dan monitoring SIEM.
+- SCPMK0505-04402: Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas.
 
 ## Materi Pembelajaran
 Simulasi administrasi & troubleshooting jaringan.

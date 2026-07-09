@@ -2,14 +2,14 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 05
-sub_cpmk: SCPMK902-01102
+sub_cpmk: SCPMK0902-01102
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Operasi matriks
 
 ## Kemampuan Akhir
-- SCPMK902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
+- SCPMK0902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
 
 ## Materi Pembelajaran
 Operasi matriks: penjumlahan, pengurangan, perkalian skalar, dan perkalian antar matriks.

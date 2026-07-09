@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 12
-sub_cpmk: SCPMK102-00104
+sub_cpmk: SCPMK0102-00104
 assessment_weight: 3
 ---
 
 # Pertemuan 12 - Pelaksanaan HAM dalam UUD RI 1945
 
 ## Kemampuan Akhir
-- SCPMK102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
+- SCPMK0102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
 
 ## Materi Pembelajaran
 Pelaksanaan HAM dalam UUD RI 1945: jaminan HAM dalam pasal UUD 1945 dan pengawasan pelaksanaannya.

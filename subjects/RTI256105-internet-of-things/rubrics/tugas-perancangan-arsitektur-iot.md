@@ -1,7 +1,7 @@
 ---
 course_code: RTI256105
 course_name: Internet of Things
-sub_cpmk: SCPMK204-04901, SCPMK503-04902
+sub_cpmk: SCPMK0204-04901, SCPMK0503-04902
 assessment_form: Case Method dan praktik perancangan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik perancangan
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik perancangan
 
-**Sub-CPMK:** SCPMK204-04901, SCPMK503-04902
+**Sub-CPMK:** SCPMK0204-04901, SCPMK0503-04902
 
 ## Deskripsi
 Mahasiswa merancang arsitektur sistem IoT end-to-end dan mengimplementasikan komponen komunikasi IoT berdasarkan studi kasus yang diberikan.

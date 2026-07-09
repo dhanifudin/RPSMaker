@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 14
-sub_cpmk: SCPMK102-00104
+sub_cpmk: SCPMK0102-00104
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - Upaya pencegahan serta penanggulangan tindak pidana korupsi
 
 ## Kemampuan Akhir
-- SCPMK102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
+- SCPMK0102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
 
 ## Materi Pembelajaran
 Upaya pencegahan serta penanggulangan tindak pidana korupsi.

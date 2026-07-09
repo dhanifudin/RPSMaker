@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 02
-sub_cpmk: SCPMK102-00101
+sub_cpmk: SCPMK0102-00101
 assessment_weight: 2.5
 ---
 
 # Pertemuan 02 - Pancasila dalam konteks sejarah perjuangan bangsa Indonesia
 
 ## Kemampuan Akhir
-- SCPMK102-00101: Mahasiswa mampu menjelaskan Pendidikan Pancasila dalam tinjauan historis, kultural, yuridis, dan filosofis, konteks sejarah perjuangan bangsa Indonesia, serta Pancasila sebagai sistem filsafat.
+- SCPMK0102-00101: Mahasiswa mampu menjelaskan Pendidikan Pancasila dalam tinjauan historis, kultural, yuridis, dan filosofis, konteks sejarah perjuangan bangsa Indonesia, serta Pancasila sebagai sistem filsafat.
 
 ## Materi Pembelajaran
 Pancasila dalam konteks sejarah perjuangan bangsa Indonesia; prinsip-prinsip Pancasila.

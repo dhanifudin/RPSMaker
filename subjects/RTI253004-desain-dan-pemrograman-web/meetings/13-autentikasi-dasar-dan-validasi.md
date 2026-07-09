@@ -2,14 +2,14 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 13
-sub_cpmk: SCPMK603-02203
+sub_cpmk: SCPMK0603-02203
 assessment_weight: 4
 ---
 
 # Pertemuan 13 - Autentikasi dasar dan validasi
 
 ## Kemampuan Akhir
-- SCPMK603-02203: Mahasiswa mampu mengimplementasikan aplikasi web dinamis dengan PHP dan MySQL serta melakukan debugging.
+- SCPMK0603-02203: Mahasiswa mampu mengimplementasikan aplikasi web dinamis dengan PHP dan MySQL serta melakukan debugging.
 
 ## Materi Pembelajaran
 Autentikasi dasar dan validasi.

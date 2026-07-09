@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 07
-sub_cpmk: SCPMK704-00703
+sub_cpmk: SCPMK0704-00703
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Perulangan 1: for, while, do-while
 
 ## Kemampuan Akhir
-- SCPMK704-00703: Mahasiswa mampu menerapkan struktur perulangan (for, while, do-while) untuk menyelesaikan studi kasus dalam program Java.
+- SCPMK0704-00703: Mahasiswa mampu menerapkan struktur perulangan (for, while, do-while) untuk menyelesaikan studi kasus dalam program Java.
 
 ## Materi Pembelajaran
 - Perulangan for

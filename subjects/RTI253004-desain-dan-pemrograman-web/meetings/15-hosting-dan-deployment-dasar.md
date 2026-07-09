@@ -2,14 +2,14 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 15
-sub_cpmk: SCPMK603-02204
+sub_cpmk: SCPMK0603-02204
 assessment_weight: 4
 ---
 
 # Pertemuan 15 - Hosting dan deployment dasar
 
 ## Kemampuan Akhir
-- SCPMK603-02204: Mahasiswa mampu menghasilkan aplikasi web sederhana yang dapat dipresentasikan dan diunggah ke hosting.
+- SCPMK0603-02204: Mahasiswa mampu menghasilkan aplikasi web sederhana yang dapat dipresentasikan dan diunggah ke hosting.
 
 ## Materi Pembelajaran
 Hosting dan deployment dasar.

@@ -2,14 +2,14 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 14
-sub_cpmk: SCPMK101-05201
+sub_cpmk: SCPMK0101-05201
 assessment_weight: 2
 ---
 
 # Pertemuan 14 - Green IT Governance dan Kebijakan Organisasi
 
 ## Kemampuan Akhir
-- SCPMK101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
+- SCPMK0101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
 
 ## Materi Pembelajaran
 Green IT governance dan kebijakan organisasi.

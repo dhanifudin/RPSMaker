@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 12
-sub_cpmk: SCPMK602-02902
+sub_cpmk: SCPMK0602-02902
 assessment_weight: 2.5
 ---
 
 # Pertemuan 12 - Behavioral Patterns: Observer, Strategy, Command
 
 ## Kemampuan Akhir
-- SCPMK602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
 
 ## Materi Pembelajaran
 Behavioral patterns: Observer, Strategy, Command.

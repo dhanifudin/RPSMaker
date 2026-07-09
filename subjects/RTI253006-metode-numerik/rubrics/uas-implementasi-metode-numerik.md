@@ -1,7 +1,7 @@
 ---
 course_code: RTI253006
 course_name: Metode Numerik
-sub_cpmk: SCPMK902-03503, SCPMK1007-03504
+sub_cpmk: SCPMK0902-03503, SCPMK1007-03504
 assessment_form: UAS (ujian tertulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian tertulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian tertulis, closed book)
 
-**Sub-CPMK:** SCPMK902-03503, SCPMK1007-03504
+**Sub-CPMK:** SCPMK0902-03503, SCPMK1007-03504
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UAS materi minggu 1--16 dengan penekanan pada integrasi numerik (trapezoidal, Simpson), interpolasi, dan regresi secara mandiri.

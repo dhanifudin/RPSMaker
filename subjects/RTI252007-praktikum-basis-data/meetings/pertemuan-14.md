@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 14
-sub_cpmk: SCPMK701-01601
+sub_cpmk: SCPMK0701-01601
 assessment_weight: 7.5
 ---
 
 # Pertemuan 14 - Kuis Praktikum 2
 
 ## Kemampuan Akhir
-- SCPMK701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
+- SCPMK0701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
 
 ## Materi Pembelajaran
 Kuis Praktikum 2: materi minggu 10--13 (SQL DDL, DML, DQL, dan JOIN).

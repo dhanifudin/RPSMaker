@@ -1,7 +1,7 @@
 ---
 course_code: RTI255002
 course_name: Metodologi Penelitian
-sub_cpmk: SCPMK403-03803, SCPMK401-03804
+sub_cpmk: SCPMK0403-03803, SCPMK0401-03804
 assessment_form: Ujian tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian tertulis
 
 **Bentuk Tugas/Evaluasi:** Ujian tertulis
 
-**Sub-CPMK:** SCPMK403-03803, SCPMK401-03804
+**Sub-CPMK:** SCPMK0403-03803, SCPMK0401-03804
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian akhir semester untuk mengukur kompetensi akhir metodologi penelitian secara komprehensif.

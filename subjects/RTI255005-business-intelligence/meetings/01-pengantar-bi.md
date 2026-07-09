@@ -2,14 +2,14 @@
 course_code: RTI255005
 course_name: Business Intelligence
 meeting: 01
-sub_cpmk: SCPMK705-04101
+sub_cpmk: SCPMK0705-04101
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar BI
 
 ## Kemampuan Akhir
-- SCPMK705-04101: Mahasiswa mampu merancang dan mengimplementasikan data warehouse dengan skema bintang/snowflake dan proses ETL.
+- SCPMK0705-04101: Mahasiswa mampu merancang dan mengimplementasikan data warehouse dengan skema bintang/snowflake dan proses ETL.
 
 ## Materi Pembelajaran
 Pengantar BI: konsep, arsitektur, dan ekosistem.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
-sub_cpmk: SCPMK706-02801, SCPMK706-02802, SCPMK706-02803, SCPMK706-02804, SCPMK1005-02805
+sub_cpmk: SCPMK0706-02801, SCPMK0706-02802, SCPMK0706-02803, SCPMK0706-02804, SCPMK1005-02805
 assessment_form: Case Method dan praktik mandiri
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik mandiri
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik mandiri
 
-**Sub-CPMK:** SCPMK706-02801, SCPMK706-02802, SCPMK706-02803, SCPMK706-02804, SCPMK1005-02805
+**Sub-CPMK:** SCPMK0706-02801, SCPMK0706-02802, SCPMK0706-02803, SCPMK0706-02804, SCPMK1005-02805
 
 ## Deskripsi
 Mahasiswa menyelesaikan studi kasus penerapan metode MCDM pada persoalan nyata menggunakan spreadsheet dan/atau pemrograman.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI255004
 course_name: Pembelajaran Mesin
-sub_cpmk: SCPMK706-04001, SCPMK10.5-04002
+sub_cpmk: SCPMK0706-04001, SCPMK1005-04002
 assessment_form: Case Method dan praktik ML
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik ML
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik ML
 
-**Sub-CPMK:** SCPMK706-04001, SCPMK10.5-04002
+**Sub-CPMK:** SCPMK0706-04001, SCPMK1005-04002
 
 ## Deskripsi
 Mahasiswa mengimplementasikan dan mengevaluasi algoritma ML untuk menyelesaikan studi kasus klasifikasi, regresi, atau clustering menggunakan Python/scikit-learn.

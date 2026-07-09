@@ -2,14 +2,14 @@
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
 meeting: 17
-sub_cpmk: SCPMK10.5-03102
+sub_cpmk: SCPMK1005-03102
 assessment_weight: 23
 ---
 
 # Pertemuan 17 - UAS: Presentasi dan Evaluasi Sistem AI
 
 ## Kemampuan Akhir
-- SCPMK10.5-03102: Mahasiswa mampu mengevaluasi dan membandingkan kinerja berbagai algoritma AI berdasarkan metrik evaluasi yang sesuai dengan konteks permasalahan.
+- SCPMK1005-03102: Mahasiswa mampu mengevaluasi dan membandingkan kinerja berbagai algoritma AI berdasarkan metrik evaluasi yang sesuai dengan konteks permasalahan.
 
 ## Materi Pembelajaran
 UAS: presentasi dan evaluasi sistem AI.

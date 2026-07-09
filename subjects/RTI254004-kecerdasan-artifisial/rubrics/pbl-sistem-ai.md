@@ -1,7 +1,7 @@
 ---
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
-sub_cpmk: SCPMK706-03101, SCPMK10.5-03102
+sub_cpmk: SCPMK0706-03101, SCPMK1005-03102
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK706-03101, SCPMK10.5-03102
+**Sub-CPMK:** SCPMK0706-03101, SCPMK1005-03102
 
 ## Deskripsi
 Mahasiswa mengimplementasikan dan mengevaluasi sistem AI terintegrasi untuk menyelesaikan permasalahan nyata.

@@ -2,14 +2,14 @@
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
 meeting: 04
-sub_cpmk: SCPMK706-02802
+sub_cpmk: SCPMK0706-02802
 assessment_weight: 2.8
 ---
 
 # Pertemuan 04 - AHP 2: Pembobotan Subjektif Kriteria Cost-Benefit
 
 ## Kemampuan Akhir
-- SCPMK706-02802: Mahasiswa mampu menerapkan metode AHP untuk menghitung pembobotan kriteria berbasis pendapat decision maker baik untuk kriteria benefit maupun cost.
+- SCPMK0706-02802: Mahasiswa mampu menerapkan metode AHP untuk menghitung pembobotan kriteria berbasis pendapat decision maker baik untuk kriteria benefit maupun cost.
 
 ## Materi Pembelajaran
 AHP 2: pembobotan subjektif kriteria cost-benefit.

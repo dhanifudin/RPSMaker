@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 14
-sub_cpmk: SCPMK10.3-05103
+sub_cpmk: SCPMK1003-05103
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - Cost Optimization dan Cloud Governance
 
 ## Kemampuan Akhir
-- SCPMK10.3-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
+- SCPMK1003-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
 
 ## Materi Pembelajaran
 Cost optimization dan cloud governance.

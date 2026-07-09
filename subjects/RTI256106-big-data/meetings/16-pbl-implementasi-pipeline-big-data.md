@@ -2,14 +2,14 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 16
-sub_cpmk: SCPMK702-05001
+sub_cpmk: SCPMK0702-05001
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL Implementasi Pipeline Big Data
 
 ## Kemampuan Akhir
-- SCPMK702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
+- SCPMK0702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
 
 ## Materi Pembelajaran
 PBL implementasi pipeline Big Data.

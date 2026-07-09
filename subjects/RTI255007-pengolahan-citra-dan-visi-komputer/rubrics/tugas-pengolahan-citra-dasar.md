@@ -1,7 +1,7 @@
 ---
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
-sub_cpmk: SCPMK705-04301, SCPMK10.4-04303, SCPMK706-04302
+sub_cpmk: SCPMK0705-04301, SCPMK1004-04303, SCPMK0706-04302
 assessment_form: Case Method dan praktik implementasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik implementasi
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik implementasi
 
-**Sub-CPMK:** SCPMK705-04301, SCPMK10.4-04303, SCPMK706-04302
+**Sub-CPMK:** SCPMK0705-04301, SCPMK1004-04303, SCPMK0706-04302
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas mengimplementasikan teknik pengolahan citra menggunakan OpenCV, mengevaluasi kualitas citra, dan membangun implementasi CNN awal.

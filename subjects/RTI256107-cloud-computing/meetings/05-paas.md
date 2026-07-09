@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 05
-sub_cpmk: SCPMK509-05101
+sub_cpmk: SCPMK0509-05101
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - PaaS: Platform Development dan Managed Services
 
 ## Kemampuan Akhir
-- SCPMK509-05101: Mahasiswa mampu merancang arsitektur cloud yang scalable menggunakan IaaS, PaaS, dan SaaS pada platform cloud utama.
+- SCPMK0509-05101: Mahasiswa mampu merancang arsitektur cloud yang scalable menggunakan IaaS, PaaS, dan SaaS pada platform cloud utama.
 
 ## Materi Pembelajaran
 PaaS: platform development dan managed services.

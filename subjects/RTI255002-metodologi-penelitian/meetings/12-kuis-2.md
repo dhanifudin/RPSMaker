@@ -2,14 +2,14 @@
 course_code: RTI255002
 course_name: Metodologi Penelitian
 meeting: 12
-sub_cpmk: SCPMK401-03804
+sub_cpmk: SCPMK0401-03804
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Kuis 2 / Quiz 2
 
 ## Kemampuan Akhir
-- SCPMK401-03804: Mahasiswa mampu menganalisis data penelitian secara kuantitatif/kualitatif dan mempresentasikan hasil secara saintifik.
+- SCPMK0401-03804: Mahasiswa mampu menganalisis data penelitian secara kuantitatif/kualitatif dan mempresentasikan hasil secara saintifik.
 
 ## Materi Pembelajaran
 Kuis 2 / Quiz 2.

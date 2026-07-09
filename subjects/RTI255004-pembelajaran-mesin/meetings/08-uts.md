@@ -2,15 +2,15 @@
 course_code: RTI255004
 course_name: Pembelajaran Mesin
 meeting: 08
-sub_cpmk: SCPMK706-04001, SCPMK10.5-04002
+sub_cpmk: SCPMK0706-04001, SCPMK1005-04002
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS: Supervised Learning dan Evaluasi
 
 ## Kemampuan Akhir
-- SCPMK706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
-- SCPMK10.5-04002: Mahasiswa mampu mengevaluasi kinerja model ML menggunakan metrik yang tepat dan menerapkan teknik optimasi model.
+- SCPMK0706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
+- SCPMK1005-04002: Mahasiswa mampu mengevaluasi kinerja model ML menggunakan metrik yang tepat dan menerapkan teknik optimasi model.
 
 ## Materi Pembelajaran
 UTS: supervised learning dan evaluasi.

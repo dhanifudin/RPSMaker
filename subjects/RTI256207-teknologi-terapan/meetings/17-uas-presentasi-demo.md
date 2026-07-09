@@ -2,15 +2,15 @@
 course_code: RTI256207
 course_name: Teknologi Terapan
 meeting: 17
-sub_cpmk: SCPMK801-05603, SCPMK503-05602
+sub_cpmk: SCPMK0801-05603, SCPMK0503-05602
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS: Presentasi Teknologi Terapan dan Demo kepada Industri
 
 ## Kemampuan Akhir
-- SCPMK801-05603: Mahasiswa mampu menyusun rencana implementasi teknologi, mengelola risiko, dan melaporkan kemajuan kepada stakeholder.
-- SCPMK503-05602: Mahasiswa mampu mengimplementasikan solusi teknologi terapan mulai dari prototipe hingga deployment produksi.
+- SCPMK0801-05603: Mahasiswa mampu menyusun rencana implementasi teknologi, mengelola risiko, dan melaporkan kemajuan kepada stakeholder.
+- SCPMK0503-05602: Mahasiswa mampu mengimplementasikan solusi teknologi terapan mulai dari prototipe hingga deployment produksi.
 
 ## Materi Pembelajaran
 UAS: presentasi teknologi terapan dan demo kepada industri.

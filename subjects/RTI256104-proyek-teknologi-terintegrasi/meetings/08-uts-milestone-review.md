@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 08
-sub_cpmk: SCPMK803-04803
+sub_cpmk: SCPMK0803-04803
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Milestone Review dan Demo Sprint 1-2
 
 ## Kemampuan Akhir
-- SCPMK803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
+- SCPMK0803-04803: Mahasiswa mampu melaksanakan monitoring sprint, mengelola backlog, dan menyajikan laporan kemajuan proyek.
 
 ## Materi Pembelajaran
 UTS Milestone review dan demo Sprint 1-2.

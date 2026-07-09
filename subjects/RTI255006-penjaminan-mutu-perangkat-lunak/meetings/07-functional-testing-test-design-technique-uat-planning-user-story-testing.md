@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 07
-sub_cpmk: SCPMK608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing.
+sub_cpmk: SCPMK0608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing.
 assessment_weight: 6
 ---
 
 # Pertemuan 07 - Functional testing; test design technique; UAT planning; user story testing
 
 ## Kemampuan Akhir
-SCPMK608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing.
+SCPMK0608-04203: Mahasiswa mampu menerapkan dan mengevaluasi functional testing.
 
 ## Materi Pembelajaran
 Functional testing; test design technique; UAT planning; user story testing.

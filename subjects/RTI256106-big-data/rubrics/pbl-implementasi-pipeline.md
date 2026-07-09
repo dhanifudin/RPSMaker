@@ -1,7 +1,7 @@
 ---
 course_code: RTI256106
 course_name: Big Data
-sub_cpmk: SCPMK702-05001
+sub_cpmk: SCPMK0702-05001
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK702-05001
+**Sub-CPMK:** SCPMK0702-05001
 
 ## Deskripsi
 Mahasiswa mengimplementasikan pipeline pemrosesan Big Data lengkap menggunakan ekosistem Hadoop/Spark yang mencakup batch processing, stream processing, dan penyimpanan data dalam data lakehouse.

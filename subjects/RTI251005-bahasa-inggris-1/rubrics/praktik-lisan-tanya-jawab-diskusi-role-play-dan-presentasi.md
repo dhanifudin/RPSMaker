@@ -1,7 +1,7 @@
 ---
 course_code: RTI251005
 course_name: Bahasa Inggris 1
-sub_cpmk: SCPMK303-00502, SCPMK303-00503, SCPMK303-00504
+sub_cpmk: SCPMK0303-00502, SCPMK0303-00503, SCPMK0303-00504
 assessment_form: Case Method dan praktik lisan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik lisan
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik lisan
 
-**Sub-CPMK:** SCPMK303-00502, SCPMK303-00503, SCPMK303-00504
+**Sub-CPMK:** SCPMK0303-00502, SCPMK0303-00503, SCPMK0303-00504
 
 ## Deskripsi
 Mahasiswa mengikuti penilaian praktik lisan berkelanjutan pada setiap topik: tanya jawab, diskusi kelompok, role play (misalnya percakapan IT Support Staff-Client), dan presentasi hasil tugas secara individu maupun kelompok.

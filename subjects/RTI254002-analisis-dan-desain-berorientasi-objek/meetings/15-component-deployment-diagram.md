@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 15
-sub_cpmk: SCPMK10.8-02903
+sub_cpmk: SCPMK1008-02903
 assessment_weight: 4
 ---
 
 # Pertemuan 15 - Component Diagram dan Deployment Diagram
 
 ## Kemampuan Akhir
-- SCPMK10.8-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
+- SCPMK1008-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
 
 ## Materi Pembelajaran
 Component diagram dan deployment diagram.

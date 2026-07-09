@@ -1,7 +1,7 @@
 ---
 course_code: RTI252004
 course_name: Sistem Operasi
-sub_cpmk: SCPMK208-01304
+sub_cpmk: SCPMK0208-01304
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK208-01304
+**Sub-CPMK:** SCPMK0208-01304
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas besar remastering linux sesuai Sub-CPMK dan konteks mata kuliah.

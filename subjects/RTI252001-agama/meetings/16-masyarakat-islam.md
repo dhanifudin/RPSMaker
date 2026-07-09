@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 16
-sub_cpmk: SCPMK102-01004
+sub_cpmk: SCPMK0102-01004
 assessment_weight: 7.5
 ---
 
 # Pertemuan 16 - Masyarakat Islam: Fungsi Keluarga, Keluarga Sakinah, dan Masjid sebagai Pusat Peradaban
 
 ## Kemampuan Akhir
-- SCPMK102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
+- SCPMK0102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
 
 ## Materi Pembelajaran
 Masyarakat Islam: fungsi keluarga dalam Islam, pembentukan keluarga sakinah, masjid sebagai pusat peradaban.

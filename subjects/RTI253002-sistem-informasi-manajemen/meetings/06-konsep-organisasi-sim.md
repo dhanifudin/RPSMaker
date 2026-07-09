@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 06
-sub_cpmk: SCPMK211-02002
+sub_cpmk: SCPMK0211-02002
 assessment_weight: 3
 ---
 
 # Pertemuan 06 - Konsep Organisasi dalam SIM
 
 ## Kemampuan Akhir
-- SCPMK211-02002: Mahasiswa mampu merancang model konseptual SIM berdasarkan analisis proses bisnis dan alur keputusan.
+- SCPMK0211-02002: Mahasiswa mampu merancang model konseptual SIM berdasarkan analisis proses bisnis dan alur keputusan.
 
 ## Materi Pembelajaran
 Konsep organisasi dalam SIM: struktur organisasi, level manajemen, kebutuhan informasi tiap level, hubungan SIM dengan fungsi organisasi, dan model organisasi berbasis informasi.

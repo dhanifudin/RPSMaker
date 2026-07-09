@@ -2,14 +2,14 @@
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
 meeting: 16
-sub_cpmk: SCPMK706-02804, SCPMK1005-02805
+sub_cpmk: SCPMK0706-02804, SCPMK1005-02805
 assessment_weight: 11.4
 ---
 
 # Pertemuan 16 - PBL: Proyek Implementasi DSS
 
 ## Kemampuan Akhir
-- SCPMK706-02804: Mahasiswa mampu mengimplementasikan Group Decision Support Systems (GDSS) dan metode fuzzy untuk menangani ketidakpastian dan penilaian linguistik dalam SPK.
+- SCPMK0706-02804: Mahasiswa mampu mengimplementasikan Group Decision Support Systems (GDSS) dan metode fuzzy untuk menangani ketidakpastian dan penilaian linguistik dalam SPK.
 - SCPMK1005-02805: Mahasiswa mampu merancang, mengimplementasikan, dan mengevaluasi sistem DSS lengkap menggunakan kombinasi metode MCDM dengan analisis metrik kinerja.
 
 ## Materi Pembelajaran

@@ -2,14 +2,14 @@
 course_code: RTI255005
 course_name: Business Intelligence
 meeting: 11
-sub_cpmk: SCPMK706-04102
+sub_cpmk: SCPMK0706-04102
 assessment_weight: 3
 ---
 
 # Pertemuan 11 - Predictive Analytics
 
 ## Kemampuan Akhir
-- SCPMK706-04102: Mahasiswa mampu membangun dashboard BI interaktif yang mengintegrasikan analisis OLAP dan visualisasi data.
+- SCPMK0706-04102: Mahasiswa mampu membangun dashboard BI interaktif yang mengintegrasikan analisis OLAP dan visualisasi data.
 
 ## Materi Pembelajaran
 Predictive analytics dalam BI.

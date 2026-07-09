@@ -1,7 +1,7 @@
 ---
 course_code: RTI254008
 course_name: Statistik Komputasi
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK707-03501
+**Sub-CPMK:** SCPMK0707-03501
 
 ## Deskripsi
 Mahasiswa melakukan analisis statistik end-to-end pada dataset TI menggunakan Python/R, mencakup EDA, pemodelan, dan interpretasi.

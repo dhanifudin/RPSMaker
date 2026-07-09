@@ -1,7 +1,7 @@
 ---
 course_code: RTI252007
 course_name: Praktikum Basis Data
-sub_cpmk: SCPMK203-01601, SCPMK701-01601
+sub_cpmk: SCPMK0203-01601, SCPMK0701-01601
 assessment_form: Laporan praktikum terstruktur (Case Based Learning)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Laporan praktikum terstruktur (Case Based Learning)
 
 **Bentuk Tugas/Evaluasi:** Laporan praktikum terstruktur (Case Based Learning)
 
-**Sub-CPMK:** SCPMK203-01601, SCPMK701-01601
+**Sub-CPMK:** SCPMK0203-01601, SCPMK0701-01601
 
 ## Deskripsi
 Mahasiswa menyusun laporan praktikum untuk setiap pertemuan (Mgg 1--3, 5--8, 10--13) yang mencakup perancangan ERD, pemetaan model relasional, normalisasi, implementasi DDL, pengelolaan data DML, dan query SELECT sesuai studi kasus.

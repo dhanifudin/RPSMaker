@@ -1,7 +1,7 @@
 ---
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
-sub_cpmk: SCPMK401-00301
+sub_cpmk: SCPMK0401-00301
 assessment_form: Kuis (ujian teori pilihan ganda, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian teori pilihan ganda, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian teori pilihan ganda, closed book)
 
-**Sub-CPMK:** SCPMK401-00301
+**Sub-CPMK:** SCPMK0401-00301
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis pilihan ganda yang mencakup materi pekan 1-4: konsep CTPS, fakta dan opini, struktur argumen, serta strategi pemecahan masalah dasar.

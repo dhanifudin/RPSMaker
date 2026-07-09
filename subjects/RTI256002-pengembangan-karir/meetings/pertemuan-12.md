@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 12
-sub_cpmk: SCPMK303-05303
+sub_cpmk: SCPMK0303-05303
 assessment_weight: 2
 ---
 
 # Pertemuan 12 - Penilaian Kinerja dan KPI
 
 ## Kemampuan Akhir
-- SCPMK303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
+- SCPMK0303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
 
 ## Materi Pembelajaran
 Penilaian kinerja dan KPI dalam karir profesional: konsep Key Performance Indicator (KPI); sistem penilaian kinerja di berbagai jenis organisasi; self-assessment dan evaluasi berkala; penggunaan KPI dalam perencanaan dan evaluasi Career Development Plan.

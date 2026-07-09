@@ -1,7 +1,7 @@
 ---
 course_code: RTI256206
 course_name: Rekayasa Sistem
-sub_cpmk: SCPMK602-05502
+sub_cpmk: SCPMK0602-05502
 assessment_form: Case Method (CM) -- dokumen spesifikasi kebutuhan
 ---
 

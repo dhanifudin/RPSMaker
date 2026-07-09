@@ -2,14 +2,14 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 13
-sub_cpmk: SCPMK607-05304
+sub_cpmk: SCPMK0607-05304
 assessment_weight: 5
 ---
 
 # Pertemuan 13 - Sprint 3: UAT
 
 ## Kemampuan Akhir
-- SCPMK607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
+- SCPMK0607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
 
 ## Materi Pembelajaran
 Sprint 3: UAT.

@@ -2,15 +2,15 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 17
-sub_cpmk: SCPMK211-05501, SCPMK609-05503
+sub_cpmk: SCPMK0211-05501, SCPMK0609-05503
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS: defense arsitektur dan demo deployment pipeline
 
 ## Kemampuan Akhir
-- SCPMK211-05501: Mahasiswa mampu merancang arsitektur sistem enterprise meliputi komponen, antarmuka, aliran data, dan ketergantungan antar modul.
-- SCPMK609-05503: Mahasiswa mampu merancang dan mengimplementasikan pipeline CI/CD serta strategi deployment blue-green/canary untuk sistem produksi.
+- SCPMK0211-05501: Mahasiswa mampu merancang arsitektur sistem enterprise meliputi komponen, antarmuka, aliran data, dan ketergantungan antar modul.
+- SCPMK0609-05503: Mahasiswa mampu merancang dan mengimplementasikan pipeline CI/CD serta strategi deployment blue-green/canary untuk sistem produksi.
 
 ## Materi Pembelajaran
 UAS: defense arsitektur dan demo deployment pipeline.

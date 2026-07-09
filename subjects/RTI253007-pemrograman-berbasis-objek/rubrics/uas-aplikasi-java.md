@@ -1,7 +1,7 @@
 ---
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
-sub_cpmk: SCPMK704-02502, SCPMK903-02503
+sub_cpmk: SCPMK0704-02502, SCPMK0903-02503
 assessment_form: UAS berbasis proyek
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis proyek
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis proyek
 
-**Sub-CPMK:** SCPMK704-02502, SCPMK903-02503
+**Sub-CPMK:** SCPMK0704-02502, SCPMK0903-02503
 
 ## Deskripsi
 Mahasiswa membangun aplikasi Java lengkap berbasis GUI dan database yang menerapkan seluruh prinsip OOP secara terintegrasi.

@@ -2,14 +2,14 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 04
-sub_cpmk: SCPMK904-05002
+sub_cpmk: SCPMK0904-05002
 assessment_weight: 5
 ---
 
 # Pertemuan 04 - Kuis 1 Konsep dan Arsitektur Big Data
 
 ## Kemampuan Akhir
-- SCPMK904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
+- SCPMK0904-05002: Mahasiswa mampu menjelaskan arsitektur dan prinsip kerja sistem terdistribusi untuk batch processing dan stream processing.
 
 ## Materi Pembelajaran
 Kuis 1 konsep dan arsitektur Big Data.

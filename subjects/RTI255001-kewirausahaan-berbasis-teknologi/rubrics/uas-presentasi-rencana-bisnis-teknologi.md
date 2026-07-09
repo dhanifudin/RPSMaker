@@ -1,7 +1,7 @@
 ---
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
-sub_cpmk: SCPMK301-03704
+sub_cpmk: SCPMK0301-03704
 assessment_form: UAS presentasi dan pitch
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan pitch
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan pitch
 
-**Sub-CPMK:** SCPMK301-03704
+**Sub-CPMK:** SCPMK0301-03704
 
 ## Deskripsi
 Mahasiswa mempresentasikan rencana bisnis teknologi lengkap yang telah disusun selama satu semester di hadapan penguji, mempertahankan ide bisnis, dan menjawab pertanyaan.

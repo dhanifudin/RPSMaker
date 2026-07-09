@@ -1,7 +1,7 @@
 ---
 course_code: RTI252001
 course_name: Agama
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_form: Kuis (tes lisan)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (tes lisan)
 
 **Bentuk Tugas/Evaluasi:** Kuis (tes lisan)
 
-**Sub-CPMK:** SCPMK102-01002
+**Sub-CPMK:** SCPMK0102-01002
 
 ## Deskripsi
 Mahasiswa membaca dan menghafalkan ayat-ayat Al-Qur'an yang berkaitan dengan materi tauhid, lalu dinilai secara lisan.

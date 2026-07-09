@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 02
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_weight: 2.5
 ---
 
 # Pertemuan 02 - Query Dasar DDL dan DML
 
 ## Kemampuan Akhir
-- SCPMK203-01601: Mampu mengoperasikan PostgreSQL dan membuat query dasar (DDL, DML) serta query lanjutan (sub-query, JOIN, grouping, dan CTE) untuk manajemen data.
+- SCPMK0203-01601: Mampu mengoperasikan PostgreSQL dan membuat query dasar (DDL, DML) serta query lanjutan (sub-query, JOIN, grouping, dan CTE) untuk manajemen data.
 
 ## Materi Pembelajaran
 Query Dasar DDL dan DML: CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT dasar dengan klausa WHERE, ORDER BY, GROUP BY.

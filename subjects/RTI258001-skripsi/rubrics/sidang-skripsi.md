@@ -1,7 +1,7 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-sub_cpmk: SCPMK804-05804, SCPMK404-05802, SCPMK10.9-05805
+sub_cpmk: SCPMK0804-05804, SCPMK0404-05802, SCPMK1009-05805
 assessment_form: Presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** Presentasi dan defense
 
-**Sub-CPMK:** SCPMK804-05804, SCPMK404-05802, SCPMK10.9-05805
+**Sub-CPMK:** SCPMK0804-05804, SCPMK0404-05802, SCPMK1009-05805
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mempertahankan skripsi di hadapan tim penguji, menunjukkan penguasaan metodologi, analisis, dan kontribusi penelitian/pengembangan yang dilakukan.

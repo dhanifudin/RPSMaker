@@ -2,14 +2,14 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 03
-sub_cpmk: SCPMK602-05502
+sub_cpmk: SCPMK0602-05502
 assessment_weight: 4
 ---
 
 # Pertemuan 03 - Use case, user story, dan spesifikasi kebutuhan
 
 ## Kemampuan Akhir
-- SCPMK602-05502: Mahasiswa mampu melakukan elicitation, analisis, spesifikasi, dan validasi kebutuhan sistem yang kompleks.
+- SCPMK0602-05502: Mahasiswa mampu melakukan elicitation, analisis, spesifikasi, dan validasi kebutuhan sistem yang kompleks.
 
 ## Materi Pembelajaran
 Use case, user story, dan spesifikasi kebutuhan.

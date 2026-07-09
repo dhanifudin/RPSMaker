@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 14
-sub_cpmk: SCPMK802-02004
+sub_cpmk: SCPMK0802-02004
 assessment_weight: 5
 ---
 
 # Pertemuan 14 - Basis Data dan DBMS
 
 ## Kemampuan Akhir
-- SCPMK802-02004: Mahasiswa mampu menyusun rencana pengembangan SIM menggunakan pendekatan SDLC yang tepat.
+- SCPMK0802-02004: Mahasiswa mampu menyusun rencana pengembangan SIM menggunakan pendekatan SDLC yang tepat.
 
 ## Materi Pembelajaran
 Basis data dan DBMS: konsep basis data relasional, peran DBMS dalam SIM, desain basis data untuk SIM, integrasi data dalam sistem informasi, dan pengelolaan data organisasi.

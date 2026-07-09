@@ -2,14 +2,14 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 16
-sub_cpmk: SCPMK208-00204
+sub_cpmk: SCPMK0208-00204
 assessment_weight: 2
 ---
 
 # Pertemuan 16 - Pengertian dan Jenis Sertifikasi Bidang TI
 
 ## Kemampuan Akhir
-- SCPMK208-00204: Mahasiswa mampu memilih jaringan komputer, aplikasi TI, dan sertifikasi bidang TI yang sesuai dengan kebutuhan pengguna dan organisasi.
+- SCPMK0208-00204: Mahasiswa mampu memilih jaringan komputer, aplikasi TI, dan sertifikasi bidang TI yang sesuai dengan kebutuhan pengguna dan organisasi.
 
 ## Materi Pembelajaran
 Pengertian sertifikasi dan jenis sertifikasi bidang TI.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251005
 course_name: Bahasa Inggris 1
-sub_cpmk: SCPMK303-00501, SCPMK303-00502, SCPMK303-00503
+sub_cpmk: SCPMK0303-00501, SCPMK0303-00502, SCPMK0303-00503
 assessment_form: Ujian Tengah Semester (tes tulis dan/atau lisan)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian Tengah Semester (tes tulis dan/atau lisan)
 
 **Bentuk Tugas/Evaluasi:** Ujian Tengah Semester (tes tulis dan/atau lisan)
 
-**Sub-CPMK:** SCPMK303-00501, SCPMK303-00502, SCPMK303-00503
+**Sub-CPMK:** SCPMK0303-00501, SCPMK0303-00502, SCPMK0303-00503
 
 ## Deskripsi
 Mahasiswa mengerjakan UTS yang mencakup vocabulary dan grammatical functions, pemahaman bacaan/simakan, serta penulisan karangan pendek berdasarkan Topic 1-3 (Computer Applications, Computer Architecture, Multimedia).

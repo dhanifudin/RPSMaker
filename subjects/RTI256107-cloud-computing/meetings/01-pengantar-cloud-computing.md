@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 01
-sub_cpmk: SCPMK905-05102
+sub_cpmk: SCPMK0905-05102
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar Cloud Computing: Model dan Karakteristik
 
 ## Kemampuan Akhir
-- SCPMK905-05102: Mahasiswa mampu menjelaskan model virtualisasi, containerisasi (Docker, Kubernetes), dan arsitektur microservices.
+- SCPMK0905-05102: Mahasiswa mampu menjelaskan model virtualisasi, containerisasi (Docker, Kubernetes), dan arsitektur microservices.
 
 ## Materi Pembelajaran
 Pengantar Cloud Computing: model dan karakteristik.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
-sub_cpmk: SCPMK102-05902, SCPMK303-05901
+sub_cpmk: SCPMK0102-05902, SCPMK0303-05901
 assessment_form: Project Based Learning dan simulasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning dan simulasi
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning dan simulasi
 
-**Sub-CPMK:** SCPMK102-05902, SCPMK303-05901
+**Sub-CPMK:** SCPMK0102-05902, SCPMK0303-05901
 
 ## Deskripsi
 Mahasiswa menjalani simulasi wawancara kerja dan presentasi teknis dalam Bahasa Inggris, menerapkan teknik STAR method, behavioral interview, dan komunikasi multikultural yang dipelajari.

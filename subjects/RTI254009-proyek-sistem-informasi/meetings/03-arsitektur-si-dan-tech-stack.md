@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 03
-sub_cpmk: SCPMK802-03602
+sub_cpmk: SCPMK0802-03602
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Arsitektur SI dan Tech Stack Selection
 
 ## Kemampuan Akhir
-- SCPMK802-03602: Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap.
+- SCPMK0802-03602: Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap.
 
 ## Materi Pembelajaran
 Arsitektur SI dan tech stack selection.

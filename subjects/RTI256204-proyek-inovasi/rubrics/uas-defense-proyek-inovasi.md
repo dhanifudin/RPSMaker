@@ -1,7 +1,7 @@
 ---
 course_code: RTI256204
 course_name: Proyek Inovasi
-sub_cpmk: SCPMK804-05303, SCPMK607-05304
+sub_cpmk: SCPMK0804-05303, SCPMK0607-05304
 assessment_form: UAS presentasi dan demo
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan demo
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan demo
 
-**Sub-CPMK:** SCPMK804-05303, SCPMK607-05304
+**Sub-CPMK:** SCPMK0804-05303, SCPMK0607-05304
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mendemonstrasikan hasil proyek inovasi secara utuh kepada panel penguji, mempertahankan keputusan teknis dan bisnis, serta menunjukkan kesiapan produk untuk diimplementasikan.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI255002
 course_name: Metodologi Penelitian
-sub_cpmk: SCPMK403-03801, SCPMK403-03802
+sub_cpmk: SCPMK0403-03801, SCPMK0403-03802
 assessment_form: Evaluasi portofolio proposal
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Evaluasi portofolio proposal
 
 **Bentuk Tugas/Evaluasi:** Evaluasi portofolio proposal
 
-**Sub-CPMK:** SCPMK403-03801, SCPMK403-03802
+**Sub-CPMK:** SCPMK0403-03801, SCPMK0403-03802
 
 ## Deskripsi
 Mahasiswa menyerahkan dan mempresentasikan draft proposal penelitian bab 1 dan 2 untuk dievaluasi kelengkapan dan kualitasnya.

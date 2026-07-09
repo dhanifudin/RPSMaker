@@ -2,14 +2,14 @@
 course_code: RTI256207
 course_name: Teknologi Terapan
 meeting: 05
-sub_cpmk: SCPMK503-05602
+sub_cpmk: SCPMK0503-05602
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Sprint 1: Setup Infrastruktur dan Prototipe Awal
 
 ## Kemampuan Akhir
-- SCPMK503-05602: Mahasiswa mampu mengimplementasikan solusi teknologi terapan mulai dari prototipe hingga deployment produksi.
+- SCPMK0503-05602: Mahasiswa mampu mengimplementasikan solusi teknologi terapan mulai dari prototipe hingga deployment produksi.
 
 ## Materi Pembelajaran
 Sprint 1: setup infrastruktur dan prototipe awal.

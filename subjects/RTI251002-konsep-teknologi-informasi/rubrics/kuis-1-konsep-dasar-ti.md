@@ -1,7 +1,7 @@
 ---
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
-sub_cpmk: SCPMK901-00201
+sub_cpmk: SCPMK0901-00201
 assessment_form: Kuis (Ujian Online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (Ujian Online)
 
 **Bentuk Tugas/Evaluasi:** Kuis (Ujian Online)
 
-**Sub-CPMK:** SCPMK901-00201
+**Sub-CPMK:** SCPMK0901-00201
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis online tentang konsep teknologi, inovasi teknologi, perkembangan IPTEK, dan etika rekayasa.

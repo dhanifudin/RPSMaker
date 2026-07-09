@@ -2,14 +2,14 @@
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
 meeting: 09
-sub_cpmk: SCPMK706-03101
+sub_cpmk: SCPMK0706-03101
 assessment_weight: 3
 ---
 
 # Pertemuan 09 - Sistem Pakar dan Mesin Inferensi Berbasis Aturan
 
 ## Kemampuan Akhir
-- SCPMK706-03101: Mahasiswa mampu mengimplementasikan algoritma pencarian, representasi pengetahuan, dan sistem inferensi berbasis aturan.
+- SCPMK0706-03101: Mahasiswa mampu mengimplementasikan algoritma pencarian, representasi pengetahuan, dan sistem inferensi berbasis aturan.
 
 ## Materi Pembelajaran
 Sistem pakar dan mesin inferensi berbasis aturan.

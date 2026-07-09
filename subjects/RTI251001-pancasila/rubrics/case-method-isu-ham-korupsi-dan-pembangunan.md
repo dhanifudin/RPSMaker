@@ -1,7 +1,7 @@
 ---
 course_code: RTI251001
 course_name: Pancasila
-sub_cpmk: SCPMK102-00104
+sub_cpmk: SCPMK0102-00104
 assessment_form: Case Method/FGD
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method/FGD
 
 **Bentuk Tugas/Evaluasi:** Case Method/FGD
 
-**Sub-CPMK:** SCPMK102-00104
+**Sub-CPMK:** SCPMK0102-00104
 
 ## Deskripsi
 Mahasiswa menganalisis kasus aktual pelaksanaan HAM, tindak pidana korupsi, dan paradigma pembangunan berbasis nilai Pancasila secara berkelompok pada minggu 12-16.

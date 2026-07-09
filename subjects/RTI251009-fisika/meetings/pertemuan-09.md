@@ -2,15 +2,15 @@
 course_code: RTI251009
 course_name: Fisika
 meeting: 09
-sub_cpmk: SCPMK902-00901, SCPMK902-00902
+sub_cpmk: SCPMK0902-00901, SCPMK0902-00902
 assessment_weight: 30
 ---
 
 # Pertemuan 09 - UTS Materi Pekan 1-8
 
 ## Kemampuan Akhir
-- SCPMK902-00901: Mahasiswa mampu menjelaskan hakikat fisika, peran fisika dalam teknologi informasi, dan metode ilmiah, serta melakukan pengukuran, konversi satuan, dan analisis ketidakpastian.
-- SCPMK902-00902: Mahasiswa mampu menganalisis kinematika gerak lurus dan gerak dua dimensi serta menerapkan hukum Newton untuk menyelesaikan masalah dinamika partikel pada sistem mekanik.
+- SCPMK0902-00901: Mahasiswa mampu menjelaskan hakikat fisika, peran fisika dalam teknologi informasi, dan metode ilmiah, serta melakukan pengukuran, konversi satuan, dan analisis ketidakpastian.
+- SCPMK0902-00902: Mahasiswa mampu menganalisis kinematika gerak lurus dan gerak dua dimensi serta menerapkan hukum Newton untuk menyelesaikan masalah dinamika partikel pada sistem mekanik.
 
 ## Materi Pembelajaran
 UTS materi pekan 1-8.

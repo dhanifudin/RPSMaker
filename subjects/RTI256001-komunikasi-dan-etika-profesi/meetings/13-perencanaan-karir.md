@@ -2,14 +2,14 @@
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
 meeting: 13
-sub_cpmk: SCPMK303-04503
+sub_cpmk: SCPMK0303-04503
 assessment_weight: 2
 ---
 
 # Pertemuan 13 - Perencanaan karir dan strategi pencarian kerja
 
 ## Kemampuan Akhir
-- SCPMK303-04503: Mahasiswa mampu menyusun portofolio profesional dan rencana pengembangan karir berbasis kompetensi TI.
+- SCPMK0303-04503: Mahasiswa mampu menyusun portofolio profesional dan rencana pengembangan karir berbasis kompetensi TI.
 
 ## Materi Pembelajaran
 Perencanaan karir dan strategi pencarian kerja.

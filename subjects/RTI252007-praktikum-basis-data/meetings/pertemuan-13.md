@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 13
-sub_cpmk: SCPMK701-01601
+sub_cpmk: SCPMK0701-01601
 assessment_weight: 3.2
 ---
 
 # Pertemuan 13 - SELECT Multi Table
 
 ## Kemampuan Akhir
-- SCPMK701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
+- SCPMK0701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
 
 ## Materi Pembelajaran
 SELECT Multi Table: perintah JOIN dan jenisnya (INNER JOIN, LEFT/RIGHT OUTER JOIN, CROSS JOIN) untuk menampilkan data dari beberapa tabel.

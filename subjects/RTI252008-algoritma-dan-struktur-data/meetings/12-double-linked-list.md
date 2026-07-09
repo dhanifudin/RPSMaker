@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 12
-sub_cpmk: SCPMK207-01701
+sub_cpmk: SCPMK0207-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 12 - Double Linked List
 
 ## Kemampuan Akhir
-- SCPMK207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
+- SCPMK0207-01701: Mahasiswa mampu menjelaskan karakteristik berbagai struktur data serta alur pengelolaan data dalam mendukung penyelesaian permasalahan komputasi.
 
 ## Materi Pembelajaran
 Double linked list sebagai pengembangan linked list: node dengan dua pointer (prev dan next), operasi insert dan delete pada double linked list.

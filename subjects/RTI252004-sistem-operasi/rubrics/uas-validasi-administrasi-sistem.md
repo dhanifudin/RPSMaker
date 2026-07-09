@@ -1,7 +1,7 @@
 ---
 course_code: RTI252004
 course_name: Sistem Operasi
-sub_cpmk: SCPMK502-01303, SCPMK208-01304
+sub_cpmk: SCPMK0502-01303, SCPMK0208-01304
 assessment_form: UAS praktik dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS praktik dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS praktik dan defense
 
-**Sub-CPMK:** SCPMK502-01303, SCPMK208-01304
+**Sub-CPMK:** SCPMK0502-01303, SCPMK0208-01304
 
 ## Deskripsi
 Mahasiswa menyelesaikan uas validasi administrasi sistem sesuai Sub-CPMK dan konteks mata kuliah.

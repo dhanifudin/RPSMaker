@@ -1,7 +1,7 @@
 ---
 course_code: RTI252001
 course_name: Agama
-sub_cpmk: SCPMK102-01001, SCPMK102-01002, SCPMK102-01004
+sub_cpmk: SCPMK0102-01001, SCPMK0102-01002, SCPMK0102-01004
 assessment_form: Case Method (lembar observasi dosen)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method (lembar observasi dosen)
 
 **Bentuk Tugas/Evaluasi:** Case Method (lembar observasi dosen)
 
-**Sub-CPMK:** SCPMK102-01001, SCPMK102-01002, SCPMK102-01004
+**Sub-CPMK:** SCPMK0102-01001, SCPMK0102-01002, SCPMK0102-01004
 
 ## Deskripsi
 Mahasiswa mendiskusikan kasus keagamaan aktual pada topik manusia dan agama, tauhid, ekologi, akhlak, IPTEKS, etos kerja, ekonomi syariah, dan masyarakat Islam, lalu mempresentasikan hasil kelompok.

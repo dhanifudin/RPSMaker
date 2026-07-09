@@ -2,14 +2,14 @@
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
 meeting: 15
-sub_cpmk: SCPMK10.6-03403
+sub_cpmk: SCPMK1006-03403
 assessment_weight: 1
 ---
 
 # Pertemuan 15 - Deployment preparation
 
 ## Kemampuan Akhir
-- SCPMK10.6-03403: Mahasiswa mampu mengevaluasi kualitas aplikasi Laravel berdasarkan fungsi, keamanan, API, dan kebutuhan pengguna.
+- SCPMK1006-03403: Mahasiswa mampu mengevaluasi kualitas aplikasi Laravel berdasarkan fungsi, keamanan, API, dan kebutuhan pengguna.
 
 ## Materi Pembelajaran
 Deployment preparation.

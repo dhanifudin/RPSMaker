@@ -2,15 +2,15 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 11
-sub_cpmk: SCPMK403-05801, SCPMK10.9-05805
+sub_cpmk: SCPMK0403-05801, SCPMK1009-05805
 assessment_weight: 15
 ---
 
 # Milestone 11 - Seminar Kemajuan / Progress Report
 
 ## Kemampuan Akhir
-- SCPMK403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
-- SCPMK10.9-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
+- SCPMK0403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
+- SCPMK1009-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
 
 ## Materi Pembelajaran
 Seminar kemajuan / progress report.

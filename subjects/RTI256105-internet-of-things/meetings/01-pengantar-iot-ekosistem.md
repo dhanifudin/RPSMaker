@@ -2,14 +2,14 @@
 course_code: RTI256105
 course_name: Internet of Things
 meeting: 01
-sub_cpmk: SCPMK204-04901
+sub_cpmk: SCPMK0204-04901
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar IoT: Konsep, Sejarah, dan Ekosistem
 
 ## Kemampuan Akhir
-- SCPMK204-04901: Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform.
+- SCPMK0204-04901: Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform.
 
 ## Materi Pembelajaran
 Pengantar IoT: konsep, sejarah, dan ekosistem.

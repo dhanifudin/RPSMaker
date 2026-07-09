@@ -2,14 +2,14 @@
 course_code: RTI253001
 course_name: Manajemen Proyek
 meeting: 15
-sub_cpmk: SCPMK402-01904
+sub_cpmk: SCPMK0402-01904
 assessment_weight: 2
 ---
 
 # Pertemuan 15 - Simulasi pengerjaan proyek perangkat lunak
 
 ## Kemampuan Akhir
-- SCPMK402-01904: Mahasiswa mampu menyusun dokumentasi dan evaluasi proyek perangkat lunak secara sistematis dalam laporan dan simulasi proyek kelompok [C3, P2].
+- SCPMK0402-01904: Mahasiswa mampu menyusun dokumentasi dan evaluasi proyek perangkat lunak secara sistematis dalam laporan dan simulasi proyek kelompok [C3, P2].
 
 ## Materi Pembelajaran
 Simulasi pengerjaan proyek perangkat lunak dengan menerapkan teori manajemen proyek.

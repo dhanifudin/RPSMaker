@@ -1,7 +1,7 @@
 ---
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
-sub_cpmk: SCPMK303-05901, SCPMK102-05902
+sub_cpmk: SCPMK0303-05901, SCPMK0102-05902
 assessment_form: Case Method dan portofolio
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan portofolio
 
 **Bentuk Tugas/Evaluasi:** Case Method dan portofolio
 
-**Sub-CPMK:** SCPMK303-05901, SCPMK102-05902
+**Sub-CPMK:** SCPMK0303-05901, SCPMK0102-05902
 
 ## Deskripsi
 Mahasiswa menyusun portofolio dokumen profesional Bahasa Inggris secara bertahap, mencakup CV, LinkedIn, cover letter, email profesional, dan dokumentasi teknis TI, yang dievaluasi melalui tugas, kuis, dan UTS.

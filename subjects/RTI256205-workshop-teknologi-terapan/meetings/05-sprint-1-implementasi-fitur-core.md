@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 05
-sub_cpmk: SCPMK802-05402
+sub_cpmk: SCPMK0802-05402
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Sprint 1: implementasi fitur core
 
 ## Kemampuan Akhir
-- SCPMK802-05402: Mahasiswa mampu mengembangkan produk teknologi terapan melalui iterasi sprint berbasis kebutuhan industri nyata.
+- SCPMK0802-05402: Mahasiswa mampu mengembangkan produk teknologi terapan melalui iterasi sprint berbasis kebutuhan industri nyata.
 
 ## Materi Pembelajaran
 Sprint 1: implementasi fitur core.

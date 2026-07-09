@@ -1,7 +1,7 @@
 ---
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
-sub_cpmk: SCPMK704-02201, SCPMK209-02202
+sub_cpmk: SCPMK0704-02201, SCPMK0209-02202
 assessment_form: UTS praktik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS praktik
 
 **Bentuk Tugas/Evaluasi:** UTS praktik
 
-**Sub-CPMK:** SCPMK704-02201, SCPMK209-02202
+**Sub-CPMK:** SCPMK0704-02201, SCPMK0209-02202
 
 ## Deskripsi
 Mahasiswa menyelesaikan uts modul web dasar sesuai Sub-CPMK dan konteks mata kuliah.

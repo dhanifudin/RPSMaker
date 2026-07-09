@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 05
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_weight: 10.0
 ---
 
 # Pertemuan 05 - Kuis 1
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu menjelaskan konsep metode numerik, galat, dan menyelesaikan sistem persamaan linear menggunakan metode Gauss, Gauss-Jordan, dan Gauss-Seidel.
+- SCPMK0707-03501: Mahasiswa mampu menjelaskan konsep metode numerik, galat, dan menyelesaikan sistem persamaan linear menggunakan metode Gauss, Gauss-Jordan, dan Gauss-Seidel.
 
 ## Materi Pembelajaran
 Kuis 1: materi minggu 1--4 (pengantar metode numerik, analisis galat, eliminasi Gauss, Gauss-Jordan, Gauss-Seidel).

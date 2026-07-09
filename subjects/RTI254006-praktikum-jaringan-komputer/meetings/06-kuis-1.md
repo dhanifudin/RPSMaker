@@ -2,14 +2,14 @@
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
 meeting: 06
-sub_cpmk: SCPMK504-03302
+sub_cpmk: SCPMK0504-03302
 assessment_weight: 5
 ---
 
 # Pertemuan 06 - Kuis 1
 
 ## Kemampuan Akhir
-- SCPMK504-03302: Mahasiswa mampu melakukan subnetting IPv4 dan konfigurasi routing dasar.
+- SCPMK0504-03302: Mahasiswa mampu melakukan subnetting IPv4 dan konfigurasi routing dasar.
 
 ## Materi Pembelajaran
 Kuis 1 / Quiz 1 — konsep jaringan layer 2-4.

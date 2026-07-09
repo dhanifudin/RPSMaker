@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04203
+sub_cpmk: SCPMK0608-04203
 assessment_form: Role Playing
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Role Playing
 
 **Bentuk Tugas/Evaluasi:** Role Playing
 
-**Sub-CPMK:** SCPMK608-04203
+**Sub-CPMK:** SCPMK0608-04203
 
 ## Deskripsi
 Mahasiswa merancang dan menjalankan UAT berdasarkan user story dan acceptance criteria.

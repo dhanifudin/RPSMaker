@@ -2,14 +2,14 @@
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
 meeting: 07
-sub_cpmk: SCPMK401-00302
+sub_cpmk: SCPMK0401-00302
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Mathematical Reasoning
 
 ## Kemampuan Akhir
-- SCPMK401-00302: Mahasiswa mampu menerapkan berbagai teknik dan alat pemecahan masalah, termasuk pemikiran lateral, brainstorming, dan analisis root cause, untuk menemukan solusi inovatif dan efektif terhadap masalah yang kompleks.
+- SCPMK0401-00302: Mahasiswa mampu menerapkan berbagai teknik dan alat pemecahan masalah, termasuk pemikiran lateral, brainstorming, dan analisis root cause, untuk menemukan solusi inovatif dan efektif terhadap masalah yang kompleks.
 
 ## Materi Pembelajaran
 Mathematical reasoning; graphical reasoning; probability dan uncertainty; decision trees.

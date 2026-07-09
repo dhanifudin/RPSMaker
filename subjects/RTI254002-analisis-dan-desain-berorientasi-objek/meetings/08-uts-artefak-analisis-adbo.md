@@ -2,15 +2,15 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 08
-sub_cpmk: SCPMK211-02901, SCPMK602-02902
+sub_cpmk: SCPMK0211-02901, SCPMK0602-02902
 assessment_weight: 13
 ---
 
 # Pertemuan 08 - UTS: Artefak Analisis ADBO
 
 ## Kemampuan Akhir
-- SCPMK211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
-- SCPMK602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
+- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
 
 ## Materi Pembelajaran
 UTS: artefak analisis ADBO.

@@ -2,14 +2,14 @@
 course_code: RTI254003
 course_name: Bahasa Indonesia
 meeting: 06
-sub_cpmk: SCPMK301-03001
+sub_cpmk: SCPMK0301-03001
 assessment_weight: 3
 ---
 
 # Pertemuan 06 - Penulisan Laporan Teknis dan Proposal
 
 ## Kemampuan Akhir
-- SCPMK301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
+- SCPMK0301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
 
 ## Materi Pembelajaran
 Penulisan laporan teknis dan proposal.

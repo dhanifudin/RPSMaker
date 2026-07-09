@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 03
-sub_cpmk: SCPMK803-05403
+sub_cpmk: SCPMK0803-05403
 assessment_weight: 4
 ---
 
 # Pertemuan 03 - Perencanaan workshop: WBS, timeline, target deliverable
 
 ## Kemampuan Akhir
-- SCPMK803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
+- SCPMK0803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
 
 ## Materi Pembelajaran
 Perencanaan workshop: WBS, timeline, target deliverable.

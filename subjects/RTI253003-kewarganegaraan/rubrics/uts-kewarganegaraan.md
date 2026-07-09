@@ -1,7 +1,7 @@
 ---
 course_code: RTI253003
 course_name: Kewarganegaraan
-sub_cpmk: SCPMK102-02101, SCPMK102-02102
+sub_cpmk: SCPMK0102-02101, SCPMK0102-02102
 assessment_form: Ujian tengah semester (esai dan/atau pilihan ganda)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian tengah semester (esai dan/atau pilihan ganda)
 
 **Bentuk Tugas/Evaluasi:** Ujian tengah semester (esai dan/atau pilihan ganda)
 
-**Sub-CPMK:** SCPMK102-02101, SCPMK102-02102
+**Sub-CPMK:** SCPMK0102-02101, SCPMK0102-02102
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UTS yang mencakup materi minggu 1--7: identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, negara hukum, dan demokrasi secara mandiri dan jujur.

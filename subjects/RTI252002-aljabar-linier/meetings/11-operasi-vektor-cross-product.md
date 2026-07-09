@@ -2,14 +2,14 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 11
-sub_cpmk: SCPMK902-01103
+sub_cpmk: SCPMK0902-01103
 assessment_weight: 1
 ---
 
 # Pertemuan 11 - Operasi vektor cross product
 
 ## Kemampuan Akhir
-- SCPMK902-01103: Mahasiswa mampu menerapkan konsep vektor dan ruang vektor untuk interpretasi geometri dan komputasi dasar pada konteks informatika.
+- SCPMK0902-01103: Mahasiswa mampu menerapkan konsep vektor dan ruang vektor untuk interpretasi geometri dan komputasi dasar pada konteks informatika.
 
 ## Materi Pembelajaran
 Operasi vektor cross product.

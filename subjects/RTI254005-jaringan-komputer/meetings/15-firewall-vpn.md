@@ -2,14 +2,14 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 15
-sub_cpmk: SCPMK10.2-03203
+sub_cpmk: SCPMK1002-03203
 assessment_weight: 3
 ---
 
 # Pertemuan 15 - Firewall, VPN, dan Network Monitoring
 
 ## Kemampuan Akhir
-- SCPMK10.2-03203: Mahasiswa mampu menganalisis ancaman keamanan jaringan dan merekomendasikan mekanisme perlindungan yang sesuai.
+- SCPMK1002-03203: Mahasiswa mampu menganalisis ancaman keamanan jaringan dan merekomendasikan mekanisme perlindungan yang sesuai.
 
 ## Materi Pembelajaran
 Firewall, VPN, dan network monitoring.

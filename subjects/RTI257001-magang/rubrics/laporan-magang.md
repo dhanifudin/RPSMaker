@@ -1,7 +1,7 @@
 ---
 course_code: RTI257001
 course_name: Magang
-sub_cpmk: SCPMK301-05701, SCPMK303-05702
+sub_cpmk: SCPMK0301-05701, SCPMK0303-05702
 assessment_form: Case Method dan penulisan ilmiah
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penulisan ilmiah
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penulisan ilmiah
 
-**Sub-CPMK:** SCPMK301-05701, SCPMK303-05702
+**Sub-CPMK:** SCPMK0301-05701, SCPMK0303-05702
 
 ## Deskripsi
 Mahasiswa menyusun laporan magang yang komprehensif mencakup latar belakang perusahaan, deskripsi pekerjaan, analisis pengalaman, dan refleksi kompetensi yang diaplikasikan.

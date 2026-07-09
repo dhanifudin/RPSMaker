@@ -2,14 +2,14 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 09
-sub_cpmk: SCPMK607-05304
+sub_cpmk: SCPMK0607-05304
 assessment_weight: 4
 ---
 
 # Pertemuan 09 - Sprint 2: Pengembangan Fitur Utama
 
 ## Kemampuan Akhir
-- SCPMK607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
+- SCPMK0607-05304: Mahasiswa mampu mengintegrasikan teknologi mutakhir menjadi solusi inovatif yang scalable dan deployable.
 
 ## Materi Pembelajaran
 Sprint 2: pengembangan fitur utama.

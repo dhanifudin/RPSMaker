@@ -1,7 +1,7 @@
 ---
 course_code: RTI251006
 course_name: Dasar Pemrograman
-sub_cpmk: SCPMK903-00601, SCPMK903-00602, SCPMK704-00603, SCPMK704-00604
+sub_cpmk: SCPMK0903-00601, SCPMK0903-00602, SCPMK0704-00603, SCPMK0704-00604
 assessment_form: Tugas terstruktur dan mandiri
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur dan mandiri
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur dan mandiri
 
-**Sub-CPMK:** SCPMK903-00601, SCPMK903-00602, SCPMK704-00603, SCPMK704-00604
+**Sub-CPMK:** SCPMK0903-00601, SCPMK0903-00602, SCPMK0704-00603, SCPMK0704-00604
 
 ## Deskripsi
 Mahasiswa menyelesaikan rangkaian tugas studi kasus (Tugas 1-11): analisis permasalahan, version control dan Kanban, tipe data dan operator, pemilihan, perulangan, array, dan fungsi dalam bentuk flowchart/pseudocode.

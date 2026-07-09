@@ -2,15 +2,15 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 08
-sub_cpmk: SCPMK802-05803, SCPMK10.9-05805
+sub_cpmk: SCPMK0802-05803, SCPMK1009-05805
 assessment_weight: 20
 ---
 
 # Milestone 08 - Seminar Proposal Skripsi
 
 ## Kemampuan Akhir
-- SCPMK802-05803: Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri.
-- SCPMK10.9-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
+- SCPMK0802-05803: Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri.
+- SCPMK1009-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
 
 ## Materi Pembelajaran
 Seminar proposal skripsi.

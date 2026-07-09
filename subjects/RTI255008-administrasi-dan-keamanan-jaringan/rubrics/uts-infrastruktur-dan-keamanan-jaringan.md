@@ -1,7 +1,7 @@
 ---
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
-sub_cpmk: SCPMK501-04401, SCPMK502-04401
+sub_cpmk: SCPMK0501-04401, SCPMK0502-04401
 assessment_form: Ujian Tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian Tertulis
 
 **Bentuk Tugas/Evaluasi:** Ujian Tertulis
 
-**Sub-CPMK:** SCPMK501-04401, SCPMK502-04401
+**Sub-CPMK:** SCPMK0501-04401, SCPMK0502-04401
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tertulis komprehensif yang mencakup materi infrastruktur jaringan, identifikasi ancaman, penilaian risiko, desain topologi aman, konsep gateway, dan konfigurasi NAT/firewall dari pertemuan 1--7.

@@ -2,14 +2,14 @@
 course_code: RTI254003
 course_name: Bahasa Indonesia
 meeting: 05
-sub_cpmk: SCPMK301-03001
+sub_cpmk: SCPMK0301-03001
 assessment_weight: 3
 ---
 
 # Pertemuan 05 - Paragraf: Kohesi dan Koherensi
 
 ## Kemampuan Akhir
-- SCPMK301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
+- SCPMK0301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
 
 ## Materi Pembelajaran
 Paragraf: kohesi dan koherensi.

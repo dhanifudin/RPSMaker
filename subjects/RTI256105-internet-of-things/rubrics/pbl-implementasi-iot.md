@@ -1,7 +1,7 @@
 ---
 course_code: RTI256105
 course_name: Internet of Things
-sub_cpmk: SCPMK503-04902, SCPMK904-04903
+sub_cpmk: SCPMK0503-04902, SCPMK0904-04903
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK503-04902, SCPMK904-04903
+**Sub-CPMK:** SCPMK0503-04902, SCPMK0904-04903
 
 ## Deskripsi
 Mahasiswa mengimplementasikan prototipe sistem IoT fungsional dari sensor hingga cloud menggunakan platform IoT modern dan mengintegrasikan layanan monitoring data real-time.

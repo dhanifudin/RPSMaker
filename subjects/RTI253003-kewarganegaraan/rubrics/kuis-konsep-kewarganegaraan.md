@@ -1,7 +1,7 @@
 ---
 course_code: RTI253003
 course_name: Kewarganegaraan
-sub_cpmk: SCPMK102-02101, SCPMK102-02102
+sub_cpmk: SCPMK0102-02101, SCPMK0102-02102
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK102-02101, SCPMK102-02102
+**Sub-CPMK:** SCPMK0102-02101, SCPMK0102-02102
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis konsep kewarganegaraan pada minggu ke-7 yang mencakup materi identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, serta negara hukum (materi Mgg 1--6) secara mandiri dan jujur.

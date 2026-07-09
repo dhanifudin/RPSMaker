@@ -2,14 +2,14 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 02
-sub_cpmk: SCPMK902-01101
+sub_cpmk: SCPMK0902-01101
 assessment_weight: 1
 ---
 
 # Pertemuan 02 - Notasi matriks pada SPL dan dasar operasi baris elementer
 
 ## Kemampuan Akhir
-- SCPMK902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
+- SCPMK0902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
 
 ## Materi Pembelajaran
 Notasi matriks pada SPL; dasar operasi baris elementer / row echelon form (REF).

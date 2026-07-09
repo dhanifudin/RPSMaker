@@ -2,14 +2,14 @@
 course_code: RTI255004
 course_name: Pembelajaran Mesin
 meeting: 09
-sub_cpmk: SCPMK706-04001
+sub_cpmk: SCPMK0706-04001
 assessment_weight: 2.5
 ---
 
 # Pertemuan 09 - Unsupervised Learning: k-Means dan DBSCAN
 
 ## Kemampuan Akhir
-- SCPMK706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
+- SCPMK0706-04001: Mahasiswa mampu mengimplementasikan algoritma ML supervised dan unsupervised untuk menyelesaikan masalah klasifikasi, regresi, dan clustering.
 
 ## Materi Pembelajaran
 Unsupervised learning: k-Means dan DBSCAN.

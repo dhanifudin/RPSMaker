@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 07
-sub_cpmk: SCPMK802-05803
+sub_cpmk: SCPMK0802-05803
 assessment_weight: 5
 ---
 
 # Milestone 07 - Finalisasi dan Pengumpulan Proposal Skripsi
 
 ## Kemampuan Akhir
-- SCPMK802-05803: Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri.
+- SCPMK0802-05803: Mahasiswa mampu menyusun proposal penelitian, membuat jadwal, dan mengelola progress skripsi secara mandiri.
 
 ## Materi Pembelajaran
 Finalisasi dan pengumpulan proposal skripsi.

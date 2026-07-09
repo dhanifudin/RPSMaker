@@ -2,14 +2,14 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 02
-sub_cpmk: SCPMK602-05502
+sub_cpmk: SCPMK0602-05502
 assessment_weight: 3
 ---
 
 # Pertemuan 02 - Requirement elicitation: teknik wawancara dan workshop
 
 ## Kemampuan Akhir
-- SCPMK602-05502: Mahasiswa mampu melakukan elicitation, analisis, spesifikasi, dan validasi kebutuhan sistem yang kompleks.
+- SCPMK0602-05502: Mahasiswa mampu melakukan elicitation, analisis, spesifikasi, dan validasi kebutuhan sistem yang kompleks.
 
 ## Materi Pembelajaran
 Requirement elicitation: teknik wawancara dan workshop.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI255005
 course_name: Business Intelligence
-sub_cpmk: SCPMK706-04102, SCPMK10.4-04103
+sub_cpmk: SCPMK0706-04102, SCPMK1004-04103
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK706-04102, SCPMK10.4-04103
+**Sub-CPMK:** SCPMK0706-04102, SCPMK1004-04103
 
 ## Deskripsi
 Mahasiswa membangun dashboard BI interaktif yang mengintegrasikan analisis OLAP, data mining, dan visualisasi data untuk menghasilkan insight bisnis yang bermakna.

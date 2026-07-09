@@ -1,7 +1,7 @@
 ---
 course_code: RTI256105
 course_name: Internet of Things
-sub_cpmk: SCPMK904-04903
+sub_cpmk: SCPMK0904-04903
 assessment_form: UAS berbasis demo dan presentasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis demo dan presentasi
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis demo dan presentasi
 
-**Sub-CPMK:** SCPMK904-04903
+**Sub-CPMK:** SCPMK0904-04903
 
 ## Deskripsi
 Mahasiswa mendemokan sistem IoT lengkap yang sudah dikonfigurasi dan diintegrasikan dengan cloud, mempresentasikan arsitektur, analisis data, dan kemampuan monitoring real-time.

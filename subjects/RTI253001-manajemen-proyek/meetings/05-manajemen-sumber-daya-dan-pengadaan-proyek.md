@@ -2,14 +2,14 @@
 course_code: RTI253001
 course_name: Manajemen Proyek
 meeting: 05
-sub_cpmk: SCPMK803-01902
+sub_cpmk: SCPMK0803-01902
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Manajemen sumber daya dan pengadaan proyek
 
 ## Kemampuan Akhir
-- SCPMK803-01902: Mahasiswa mampu menerapkan manajemen sumber daya, pengadaan, kualitas, risiko, dan prinsip Agile dalam eksekusi, monitoring, dan penutupan proyek [C3].
+- SCPMK0803-01902: Mahasiswa mampu menerapkan manajemen sumber daya, pengadaan, kualitas, risiko, dan prinsip Agile dalam eksekusi, monitoring, dan penutupan proyek [C3].
 
 ## Materi Pembelajaran
 Manajemen sumber daya dan pengadaan proyek: perencanaan, perolehan, dan pengelolaan sumber daya; perencanaan, pelaksanaan, pengendalian, dan penutupan pengadaan.

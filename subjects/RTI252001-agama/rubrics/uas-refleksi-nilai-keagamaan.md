@@ -1,7 +1,7 @@
 ---
 course_code: RTI252001
 course_name: Agama
-sub_cpmk: SCPMK102-01004
+sub_cpmk: SCPMK0102-01004
 assessment_form: UAS (ujian tulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian tulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian tulis, closed book)
 
-**Sub-CPMK:** SCPMK102-01004
+**Sub-CPMK:** SCPMK0102-01004
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tulis materi minggu 9-16: wawasan ekologi, aktualisasi akhlak, IPTEKS, etos kerja, ekonomi syariah, dan masyarakat Islam.

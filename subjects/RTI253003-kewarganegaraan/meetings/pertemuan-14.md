@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 14
-sub_cpmk: SCPMK102-02104
+sub_cpmk: SCPMK0102-02104
 assessment_weight: 5
 ---
 
 # Pertemuan 14 - Wawasan Nusantara 2 (PBL): Unsur Dasar dan Penerapan
 
 ## Kemampuan Akhir
-- SCPMK102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
+- SCPMK0102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
 
 ## Materi Pembelajaran
 Wawasan Nusantara 2: unsur-unsur dasar wawasan nusantara, penerapan wawasan nusantara, dan tantangan implementasinya.

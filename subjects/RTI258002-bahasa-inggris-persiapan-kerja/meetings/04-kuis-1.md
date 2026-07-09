@@ -2,14 +2,14 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 04
-sub_cpmk: SCPMK303-05901
+sub_cpmk: SCPMK0303-05901
 assessment_weight: 5
 ---
 
 # Pertemuan 04 - Kuis 1: CV dan Cover Letter
 
 ## Kemampuan Akhir
-- SCPMK303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
+- SCPMK0303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
 
 ## Materi Pembelajaran
 Kuis 1: CV dan cover letter.

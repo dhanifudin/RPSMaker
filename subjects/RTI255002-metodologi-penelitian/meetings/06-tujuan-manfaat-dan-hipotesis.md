@@ -2,14 +2,14 @@
 course_code: RTI255002
 course_name: Metodologi Penelitian
 meeting: 06
-sub_cpmk: SCPMK403-03802
+sub_cpmk: SCPMK0403-03802
 assessment_weight: 1.5
 ---
 
 # Pertemuan 06 - Tujuan, Manfaat, dan Hipotesis Penelitian
 
 ## Kemampuan Akhir
-- SCPMK403-03802: Mahasiswa mampu merumuskan masalah, tujuan, manfaat, dan kerangka konseptual penelitian TI.
+- SCPMK0403-03802: Mahasiswa mampu merumuskan masalah, tujuan, manfaat, dan kerangka konseptual penelitian TI.
 
 ## Materi Pembelajaran
 Tujuan, Manfaat, dan Hipotesis Penelitian.

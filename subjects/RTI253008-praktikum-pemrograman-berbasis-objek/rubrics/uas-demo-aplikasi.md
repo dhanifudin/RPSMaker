@@ -1,7 +1,7 @@
 ---
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
-sub_cpmk: SCPMK903-02603
+sub_cpmk: SCPMK0903-02603
 assessment_form: UAS berbasis demo dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis demo dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis demo dan defense
 
-**Sub-CPMK:** SCPMK903-02603
+**Sub-CPMK:** SCPMK0903-02603
 
 ## Deskripsi
 Mahasiswa mendemonstrasikan aplikasi Java final yang dikembangkan dan mempertahankan keputusan implementasi OOP kepada dosen penguji.

@@ -2,15 +2,15 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 07
-sub_cpmk: SCPMK102-02101, SCPMK102-02102
+sub_cpmk: SCPMK0102-02101, SCPMK0102-02102
 assessment_weight: 10
 ---
 
 # Pertemuan 07 - Kuis Konsep Kewarganegaraan
 
 ## Kemampuan Akhir
-- SCPMK102-02101: Mahasiswa mampu menjelaskan konsep identitas nasional, negara, konstitusi, dan hubungan negara dengan warga negara sebagai fondasi kehidupan berbangsa dan bernegara.
-- SCPMK102-02102: Mahasiswa mampu menganalisis sistem demokrasi dan negara hukum dalam konteks kehidupan berbangsa dan bernegara di Indonesia.
+- SCPMK0102-02101: Mahasiswa mampu menjelaskan konsep identitas nasional, negara, konstitusi, dan hubungan negara dengan warga negara sebagai fondasi kehidupan berbangsa dan bernegara.
+- SCPMK0102-02102: Mahasiswa mampu menganalisis sistem demokrasi dan negara hukum dalam konteks kehidupan berbangsa dan bernegara di Indonesia.
 
 ## Materi Pembelajaran
 Kuis Konsep Kewarganegaraan: materi minggu 1--6 (identitas nasional, negara dan konstitusi, hubungan negara dan warga negara, negara hukum).

@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 06
-sub_cpmk: SCPMK905-05102
+sub_cpmk: SCPMK0905-05102
 assessment_weight: 2
 ---
 
 # Pertemuan 06 - SaaS dan Model Bisnis Cloud
 
 ## Kemampuan Akhir
-- SCPMK905-05102: Mahasiswa mampu menjelaskan model virtualisasi, containerisasi (Docker, Kubernetes), dan arsitektur microservices.
+- SCPMK0905-05102: Mahasiswa mampu menjelaskan model virtualisasi, containerisasi (Docker, Kubernetes), dan arsitektur microservices.
 
 ## Materi Pembelajaran
 SaaS dan model bisnis cloud.

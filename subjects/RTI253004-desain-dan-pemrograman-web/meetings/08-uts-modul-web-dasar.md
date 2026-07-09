@@ -2,15 +2,15 @@
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
 meeting: 08
-sub_cpmk: SCPMK704-02201, SCPMK209-02202
+sub_cpmk: SCPMK0704-02201, SCPMK0209-02202
 assessment_weight: 20
 ---
 
 # Pertemuan 08 - UTS modul web dasar
 
 ## Kemampuan Akhir
-- SCPMK704-02201: Mahasiswa mampu menerapkan HTML, CSS, JavaScript dasar, dan PHP untuk membangun halaman web.
-- SCPMK209-02202: Mahasiswa mampu memilih mekanisme client-server, form, session, cookie, dan database sesuai kebutuhan aplikasi web.
+- SCPMK0704-02201: Mahasiswa mampu menerapkan HTML, CSS, JavaScript dasar, dan PHP untuk membangun halaman web.
+- SCPMK0209-02202: Mahasiswa mampu memilih mekanisme client-server, form, session, cookie, dan database sesuai kebutuhan aplikasi web.
 
 ## Materi Pembelajaran
 UTS modul web dasar.

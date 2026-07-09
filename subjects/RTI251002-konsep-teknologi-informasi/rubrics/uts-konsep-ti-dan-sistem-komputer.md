@@ -1,7 +1,7 @@
 ---
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
-sub_cpmk: SCPMK901-00201, SCPMK901-00202
+sub_cpmk: SCPMK0901-00201, SCPMK0901-00202
 assessment_form: UTS (Ujian Online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (Ujian Online)
 
 **Bentuk Tugas/Evaluasi:** UTS (Ujian Online)
 
-**Sub-CPMK:** SCPMK901-00201, SCPMK901-00202
+**Sub-CPMK:** SCPMK0901-00201, SCPMK0901-00202
 
 ## Deskripsi
 Mahasiswa mengerjakan UTS yang mencakup konsep teknologi, inovasi teknologi, IPTEK, etika rekayasa, perkembangan ICT, dan sistem komputer.

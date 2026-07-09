@@ -1,7 +1,7 @@
 ---
 course_code: RTI252007
 course_name: Praktikum Basis Data
-sub_cpmk: SCPMK203-01601, SCPMK701-01601, SCPMK1001-01601
+sub_cpmk: SCPMK0203-01601, SCPMK0701-01601, SCPMK1001-01601
 assessment_form: Case Method dan demonstrasi unjuk kerja
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan demonstrasi unjuk kerja
 
 **Bentuk Tugas/Evaluasi:** Case Method dan demonstrasi unjuk kerja
 
-**Sub-CPMK:** SCPMK203-01601, SCPMK701-01601, SCPMK1001-01601
+**Sub-CPMK:** SCPMK0203-01601, SCPMK0701-01601, SCPMK1001-01601
 
 ## Deskripsi
 Mahasiswa menyelesaikan CM1 (Mgg 9, perancangan basis data dari studi kasus Mgg 1--8) dan CM2 (Mgg 15--17, studi kasus terpadu: identifikasi kebutuhan, perancangan ERD, pemetaan, normalisasi, implementasi MySQL, dan demonstrasi hasil).

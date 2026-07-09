@@ -1,7 +1,7 @@
 ---
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
-sub_cpmk: SCPMK903-00701, SCPMK704-00702, SCPMK704-00703, SCPMK704-00704
+sub_cpmk: SCPMK0903-00701, SCPMK0704-00702, SCPMK0704-00703, SCPMK0704-00704
 assessment_form: Tugas praktikum (jobsheet)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas praktikum (jobsheet)
 
 **Bentuk Tugas/Evaluasi:** Tugas praktikum (jobsheet)
 
-**Sub-CPMK:** SCPMK903-00701, SCPMK704-00702, SCPMK704-00703, SCPMK704-00704
+**Sub-CPMK:** SCPMK0903-00701, SCPMK0704-00702, SCPMK0704-00703, SCPMK0704-00704
 
 ## Deskripsi
 Mahasiswa menyelesaikan jobsheet praktikum mingguan (instalasi Java, studi kasus algoritma, sequence, pemilihan, perulangan, array, fungsi) beserta tugas mandiri tiap pertemuan.

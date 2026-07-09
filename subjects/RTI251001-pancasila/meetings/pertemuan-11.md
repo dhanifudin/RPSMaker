@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 11
-sub_cpmk: SCPMK102-00104
+sub_cpmk: SCPMK0102-00104
 assessment_weight: 2.5
 ---
 
 # Pertemuan 11 - Pancasila dan HAM
 
 ## Kemampuan Akhir
-- SCPMK102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
+- SCPMK0102-00104: Mahasiswa mampu menginternalisasi nilai Pancasila dalam isu HAM, pencegahan tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.
 
 ## Materi Pembelajaran
 Pancasila dan HAM: definisi, hubungan, implementasi, bentuk-bentuk HAM, dan contoh penerapannya.

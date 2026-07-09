@@ -1,7 +1,7 @@
 ---
 course_code: RTI257001
 course_name: Magang
-sub_cpmk: SCPMK804-05703, SCPMK607-05704
+sub_cpmk: SCPMK0804-05703, SCPMK0607-05704
 assessment_form: Penilaian Industri
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Penilaian Industri
 
 **Bentuk Tugas/Evaluasi:** Penilaian Industri
 
-**Sub-CPMK:** SCPMK804-05703, SCPMK607-05704
+**Sub-CPMK:** SCPMK0804-05703, SCPMK0607-05704
 
 ## Deskripsi
 Penilaian dari pembimbing industri terhadap kinerja mahasiswa selama magang mencakup profesionalisme, penyelesaian tugas, dan penerapan kompetensi rekayasa perangkat lunak.

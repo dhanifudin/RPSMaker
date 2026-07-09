@@ -2,14 +2,14 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 07
-sub_cpmk: SCPMK602-05502
+sub_cpmk: SCPMK0602-05502
 assessment_weight: 5
 ---
 
 # Pertemuan 07 - Sprint 1 review dan SRS validation meeting
 
 ## Kemampuan Akhir
-- SCPMK602-05502: Mahasiswa mampu melakukan elicitation, analisis, spesifikasi, dan validasi kebutuhan sistem yang kompleks.
+- SCPMK0602-05502: Mahasiswa mampu melakukan elicitation, analisis, spesifikasi, dan validasi kebutuhan sistem yang kompleks.
 
 ## Materi Pembelajaran
 Sprint 1 review dan SRS validation meeting.

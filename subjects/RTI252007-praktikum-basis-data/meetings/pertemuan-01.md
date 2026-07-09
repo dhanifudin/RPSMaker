@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 01
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_weight: 1.1
 ---
 
 # Pertemuan 01 - Pengantar Basis Data
 
 ## Kemampuan Akhir
-- SCPMK203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
+- SCPMK0203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
 
 ## Materi Pembelajaran
 Pengantar Basis Data: konsep data, informasi, basis data relasional, prinsip dan tahapan pengembangan.

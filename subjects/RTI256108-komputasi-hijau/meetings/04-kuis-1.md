@@ -2,14 +2,14 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 04
-sub_cpmk: SCPMK101-05201
+sub_cpmk: SCPMK0101-05201
 assessment_weight: 5
 ---
 
 # Pertemuan 04 - Kuis 1 Konsep dan Regulasi Komputasi Hijau
 
 ## Kemampuan Akhir
-- SCPMK101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
+- SCPMK0101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
 
 ## Materi Pembelajaran
 Kuis 1 konsep dan regulasi komputasi hijau.

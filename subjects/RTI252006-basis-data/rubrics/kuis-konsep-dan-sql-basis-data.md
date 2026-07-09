@@ -1,7 +1,7 @@
 ---
 course_code: RTI252006
 course_name: Basis Data
-sub_cpmk: SCPMK203-01501, SCPMK1001-01501
+sub_cpmk: SCPMK0203-01501, SCPMK1001-01501
 assessment_form: Kuis (ujian teori pilihan ganda dan/atau esai, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian teori pilihan ganda dan/atau esai, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian teori pilihan ganda dan/atau esai, closed book)
 
-**Sub-CPMK:** SCPMK203-01501, SCPMK1001-01501
+**Sub-CPMK:** SCPMK0203-01501, SCPMK1001-01501
 
 ## Deskripsi
 Mahasiswa mengerjakan Kuis 1 (materi minggu 1-3: konsep basis data dan perancangan ERD) dan Kuis 2 (materi minggu 10-13: SQL DDL, DML, DQL, dan JOIN) secara mandiri dan jujur.

@@ -2,15 +2,15 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 07
-sub_cpmk: SCPMK804-05703, SCPMK607-05704
+sub_cpmk: SCPMK0804-05703, SCPMK0607-05704
 assessment_weight: 10
 ---
 
 # Milestone 07 - Mid-Internship Review Bersama Pembimbing Lapangan
 
 ## Kemampuan Akhir
-- SCPMK804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
-- SCPMK607-05704: Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata.
+- SCPMK0804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
+- SCPMK0607-05704: Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata.
 
 ## Materi Pembelajaran
 Mid-internship review bersama pembimbing lapangan.

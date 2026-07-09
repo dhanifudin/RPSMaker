@@ -2,14 +2,14 @@
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
 meeting: 12
-sub_cpmk: SCPMK301-03703
+sub_cpmk: SCPMK0301-03703
 assessment_weight: 4
 ---
 
 # Pertemuan 12 - Business Model Canvas (1)
 
 ## Kemampuan Akhir
-- SCPMK301-03703: Mahasiswa mampu merancang Business Model Canvas, menganalisis sumber pendanaan, aspek hukum, tanggung jawab sosial, manajemen SDM, dan strategi pengembangan produk baru.
+- SCPMK0301-03703: Mahasiswa mampu merancang Business Model Canvas, menganalisis sumber pendanaan, aspek hukum, tanggung jawab sosial, manajemen SDM, dan strategi pengembangan produk baru.
 
 ## Materi Pembelajaran
 Business Model Canvas (1).

@@ -1,7 +1,7 @@
 ---
 course_code: RTI253009
 course_name: Bahasa Inggris 2
-sub_cpmk: SCPMK303-02702
+sub_cpmk: SCPMK0303-02702
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK303-02702
+**Sub-CPMK:** SCPMK0303-02702
 
 ## Deskripsi
 Mahasiswa menyiapkan dan menyampaikan presentasi teknis lengkap dalam bahasa Inggris tentang topik teknologi informasi, dilengkapi slide dan sesi tanya jawab.

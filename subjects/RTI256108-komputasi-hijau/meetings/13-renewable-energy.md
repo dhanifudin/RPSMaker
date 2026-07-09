@@ -2,14 +2,14 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 13
-sub_cpmk: SCPMK509-05202
+sub_cpmk: SCPMK0509-05202
 assessment_weight: 3
 ---
 
 # Pertemuan 13 - Renewable Energy untuk Infrastruktur TI
 
 ## Kemampuan Akhir
-- SCPMK509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
+- SCPMK0509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
 
 ## Materi Pembelajaran
 Renewable energy untuk infrastruktur TI.

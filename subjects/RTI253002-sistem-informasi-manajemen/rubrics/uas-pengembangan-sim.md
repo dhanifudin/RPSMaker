@@ -1,7 +1,7 @@
 ---
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
-sub_cpmk: SCPMK607-02003, SCPMK802-02004
+sub_cpmk: SCPMK0607-02003, SCPMK0802-02004
 assessment_form: UAS berbasis proyek mini
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis proyek mini
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis proyek mini
 
-**Sub-CPMK:** SCPMK607-02003, SCPMK802-02004
+**Sub-CPMK:** SCPMK0607-02003, SCPMK0802-02004
 
 ## Deskripsi
 Mahasiswa menyusun rencana pengembangan SIM menggunakan pendekatan SDLC untuk konteks organisasi yang diberikan.

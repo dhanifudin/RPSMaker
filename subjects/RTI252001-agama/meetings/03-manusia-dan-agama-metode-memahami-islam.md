@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 03
-sub_cpmk: SCPMK102-01001
+sub_cpmk: SCPMK0102-01001
 assessment_weight: 3.75
 ---
 
 # Pertemuan 03 - Manusia dan Agama: Metode Memahami Islam, Misi Agama Islam, dan Masa Depan Agama
 
 ## Kemampuan Akhir
-- SCPMK102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
+- SCPMK0102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
 
 ## Materi Pembelajaran
 Manusia dan Agama: metode memahami Islam, misi agama Islam, dan masa depan agama.

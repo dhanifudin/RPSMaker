@@ -1,7 +1,7 @@
 ---
 course_code: RTI256204
 course_name: Proyek Inovasi
-sub_cpmk: SCPMK803-05302, SCPMK607-05304
+sub_cpmk: SCPMK0803-05302, SCPMK0607-05304
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK803-05302, SCPMK607-05304
+**Sub-CPMK:** SCPMK0803-05302, SCPMK0607-05304
 
 ## Deskripsi
 Mahasiswa mengeksekusi proyek inovasi melalui empat sprint agile, mengintegrasikan teknologi mutakhir, melaporkan kemajuan, mengelola perubahan, dan menghasilkan deliverable bertahap yang mencakup Sprint 1-2 (20%) dan Sprint 3-4 (20%).

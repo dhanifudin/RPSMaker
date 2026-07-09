@@ -1,7 +1,7 @@
 ---
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
-sub_cpmk: SCPMK706-02803
+sub_cpmk: SCPMK0706-02803
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK706-02803
+**Sub-CPMK:** SCPMK0706-02803
 
 ## Deskripsi
 Mahasiswa menjawab soal perhitungan menggunakan metode MEREC, MARCOS, atau metode perankingan lanjutan.

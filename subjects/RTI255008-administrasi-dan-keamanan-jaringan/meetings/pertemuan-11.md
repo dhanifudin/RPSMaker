@@ -2,14 +2,14 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 11
-sub_cpmk: SCPMK505-04402
+sub_cpmk: SCPMK0505-04402
 assessment_weight: 2
 ---
 
 # Pertemuan 11 - Monitoring Jaringan & Logging (SIEM)
 
 ## Kemampuan Akhir
-- SCPMK505-04402: Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas.
+- SCPMK0505-04402: Mahasiswa mampu melakukan optimasi kinerja jaringan, troubleshooting, benchmarking, dan mengintegrasikan SIEM untuk perencanaan kapasitas.
 
 ## Materi Pembelajaran
 Monitoring jaringan & logging (SIEM).

@@ -1,7 +1,7 @@
 ---
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
-sub_cpmk: SCPMK504-03302, SCPMK901-03303
+sub_cpmk: SCPMK0504-03302, SCPMK0901-03303
 assessment_form: Kuis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis
 
 **Bentuk Tugas/Evaluasi:** Kuis
 
-**Sub-CPMK:** SCPMK504-03302, SCPMK901-03303
+**Sub-CPMK:** SCPMK0504-03302, SCPMK0901-03303
 
 ## Deskripsi
 Mahasiswa menyelesaikan kuis konsep dan troubleshooting jaringan sesuai Sub-CPMK.

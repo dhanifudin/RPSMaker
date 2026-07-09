@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 07
-sub_cpmk: SCPMK102-00102
+sub_cpmk: SCPMK0102-00102
 assessment_weight: 2.5
 ---
 
 # Pertemuan 07 - Kelembagaan negara menurut UUD RI 1945
 
 ## Kemampuan Akhir
-- SCPMK102-00102: Mahasiswa mampu menjelaskan UUD RI 1945, amandemen UUD RI 1945, Trias Politika, dan kelembagaan negara menurut UUD RI 1945.
+- SCPMK0102-00102: Mahasiswa mampu menjelaskan UUD RI 1945, amandemen UUD RI 1945, Trias Politika, dan kelembagaan negara menurut UUD RI 1945.
 
 ## Materi Pembelajaran
 Kelembagaan negara menurut UUD RI 1945 dan lembaga-lembaga negara utama.

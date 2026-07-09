@@ -1,7 +1,7 @@
 ---
 course_code: RTI255004
 course_name: Pembelajaran Mesin
-sub_cpmk: SCPMK706-04001, SCPMK10.5-04002
+sub_cpmk: SCPMK0706-04001, SCPMK1005-04002
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK706-04001, SCPMK10.5-04002
+**Sub-CPMK:** SCPMK0706-04001, SCPMK1005-04002
 
 ## Deskripsi
 Mahasiswa membangun solusi ML end-to-end untuk masalah nyata mencakup EDA, feature engineering, pemodelan, optimasi, dan interpretasi.

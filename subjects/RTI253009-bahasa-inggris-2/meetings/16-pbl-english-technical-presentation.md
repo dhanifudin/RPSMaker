@@ -2,14 +2,14 @@
 course_code: RTI253009
 course_name: Bahasa Inggris 2
 meeting: 16
-sub_cpmk: SCPMK303-02702
+sub_cpmk: SCPMK0303-02702
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL: English Technical Presentation Project
 
 ## Kemampuan Akhir
-- SCPMK303-02702: Mahasiswa mampu berkomunikasi lisan dalam bahasa Inggris pada konteks diskusi teknis, presentasi, dan wawancara simulasi.
+- SCPMK0303-02702: Mahasiswa mampu berkomunikasi lisan dalam bahasa Inggris pada konteks diskusi teknis, presentasi, dan wawancara simulasi.
 
 ## Materi Pembelajaran
 PBL: English technical presentation project.

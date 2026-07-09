@@ -2,14 +2,14 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 16
-sub_cpmk: SCPMK902-00404
+sub_cpmk: SCPMK0902-00404
 assessment_weight: 1.5
 ---
 
 # Pertemuan 16 - Definisi Pohon dan Spanning Tree
 
 ## Kemampuan Akhir
-- SCPMK902-00404: Mahasiswa mampu menerapkan konsep graf dan pohon untuk merepresentasikan dan menyelesaikan persoalan komputasi.
+- SCPMK0902-00404: Mahasiswa mampu menerapkan konsep graf dan pohon untuk merepresentasikan dan menyelesaikan persoalan komputasi.
 
 ## Materi Pembelajaran
 Definisi pohon; spanning tree; pohon berakar (rooted tree); pohon terurut (ordered tree); pohon n-ary; pohon biner (binary tree).

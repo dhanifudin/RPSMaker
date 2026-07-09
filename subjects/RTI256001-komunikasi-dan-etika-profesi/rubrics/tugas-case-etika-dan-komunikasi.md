@@ -1,7 +1,7 @@
 ---
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
-sub_cpmk: SCPMK101-04501, SCPMK301-04502, SCPMK303-04503
+sub_cpmk: SCPMK0101-04501, SCPMK0301-04502, SCPMK0303-04503
 assessment_form: Case Method dan studi kasus
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan studi kasus
 
 **Bentuk Tugas/Evaluasi:** Case Method dan studi kasus
 
-**Sub-CPMK:** SCPMK101-04501, SCPMK301-04502, SCPMK303-04503
+**Sub-CPMK:** SCPMK0101-04501, SCPMK0301-04502, SCPMK0303-04503
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas menganalisis kasus etika profesi dan hukum ITE, mempraktikkan komunikasi profesional, dan merumuskan rencana awal pengembangan karir.

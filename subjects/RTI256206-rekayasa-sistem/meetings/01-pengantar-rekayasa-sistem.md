@@ -2,14 +2,14 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 01
-sub_cpmk: SCPMK211-05501
+sub_cpmk: SCPMK0211-05501
 assessment_weight: 3
 ---
 
 # Pertemuan 01 - Pengantar rekayasa sistem: ruang lingkup dan metodologi
 
 ## Kemampuan Akhir
-- SCPMK211-05501: Mahasiswa mampu merancang arsitektur sistem enterprise meliputi komponen, antarmuka, aliran data, dan ketergantungan antar modul.
+- SCPMK0211-05501: Mahasiswa mampu merancang arsitektur sistem enterprise meliputi komponen, antarmuka, aliran data, dan ketergantungan antar modul.
 
 ## Materi Pembelajaran
 Pengantar rekayasa sistem: ruang lingkup dan metodologi.

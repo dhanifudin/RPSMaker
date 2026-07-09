@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 06
-sub_cpmk: SCPMK704-00702
+sub_cpmk: SCPMK0704-00702
 assessment_weight: 2
 ---
 
 # Pertemuan 06 - Pemilihan 2: if bersarang
 
 ## Kemampuan Akhir
-- SCPMK704-00702: Mahasiswa mampu menerapkan struktur pemilihan bersarang (if bersarang) ke dalam program Java.
+- SCPMK0704-00702: Mahasiswa mampu menerapkan struktur pemilihan bersarang (if bersarang) ke dalam program Java.
 
 ## Materi Pembelajaran
 - Pemilihan bersarang (if bersarang)

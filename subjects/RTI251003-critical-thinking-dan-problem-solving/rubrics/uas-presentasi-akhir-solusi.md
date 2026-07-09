@@ -1,7 +1,7 @@
 ---
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
-sub_cpmk: SCPMK401-00303
+sub_cpmk: SCPMK0401-00303
 assessment_form: UAS (ujian presentasi kelompok)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian presentasi kelompok)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian presentasi kelompok)
 
-**Sub-CPMK:** SCPMK401-00303
+**Sub-CPMK:** SCPMK0401-00303
 
 ## Deskripsi
 Mahasiswa mempresentasikan hasil analisis permasalahan dan solusi yang dikembangkan secara sistematis, serta menjawab pertanyaan dan memberikan klarifikasi berbasis bukti.

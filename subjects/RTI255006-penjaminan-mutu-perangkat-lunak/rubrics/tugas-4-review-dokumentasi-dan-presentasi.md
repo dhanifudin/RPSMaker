@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04202
+sub_cpmk: SCPMK0608-04202
 assessment_form: Peer Review
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Peer Review
 
 **Bentuk Tugas/Evaluasi:** Peer Review
 
-**Sub-CPMK:** SCPMK608-04202
+**Sub-CPMK:** SCPMK0608-04202
 
 ## Deskripsi
 Mahasiswa mengevaluasi dokumen pengujian dan mempresentasikan rekomendasi perbaikan.

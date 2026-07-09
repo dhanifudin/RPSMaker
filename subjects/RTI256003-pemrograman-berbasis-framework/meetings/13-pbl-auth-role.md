@@ -2,14 +2,14 @@
 course_code: RTI256003
 course_name: Pemrograman Berbasis Framework
 meeting: 13
-sub_cpmk: SCPMK603-04703
+sub_cpmk: SCPMK0603-04703
 assessment_weight: 10
 ---
 
 # Pertemuan 13 - PBL auth/role
 
 ## Kemampuan Akhir
-- SCPMK603-04703: Mahasiswa mampu menghasilkan aplikasi berbasis framework melalui PBL berdasarkan kebutuhan stakeholder.
+- SCPMK0603-04703: Mahasiswa mampu menghasilkan aplikasi berbasis framework melalui PBL berdasarkan kebutuhan stakeholder.
 
 ## Materi Pembelajaran
 PBL auth/role.

@@ -2,15 +2,15 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 17
-sub_cpmk: SCPMK303-05301, SCPMK303-05302
+sub_cpmk: SCPMK0303-05301, SCPMK0303-05302
 assessment_weight: 7
 ---
 
 # Pertemuan 17 - UAS: Evaluasi Akhir Pengembangan Karir
 
 ## Kemampuan Akhir
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
-- SCPMK303-05302: Mahasiswa mampu merancang strategi personal branding dan komunikasi profesional yang efektif untuk pengembangan karir di era digital.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0303-05302: Mahasiswa mampu merancang strategi personal branding dan komunikasi profesional yang efektif untuk pengembangan karir di era digital.
 
 ## Materi Pembelajaran
 UAS: evaluasi akhir pengembangan karir yang mencakup refleksi menyeluruh atas proses belajar sepanjang semester, sintesis perkembangan diri, demonstrasi konsistensi nilai etika profesional, dan rumusan langkah konkret ke depan.

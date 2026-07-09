@@ -1,7 +1,7 @@
 ---
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
-sub_cpmk: SCPMK101-03701, SCPMK101-03702
+sub_cpmk: SCPMK0101-03701, SCPMK0101-03702
 assessment_form: Ujian Tengah Semester
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian Tengah Semester
 
 **Bentuk Tugas/Evaluasi:** Ujian Tengah Semester
 
-**Sub-CPMK:** SCPMK101-03701, SCPMK101-03702
+**Sub-CPMK:** SCPMK0101-03701, SCPMK0101-03702
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UTS yang mencakup konsep kewirausahaan, analisis pasar, strategi pemasaran, dan perhitungan keuangan dasar bisnis.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251004
 course_name: Matematika Dasar
-sub_cpmk: SCPMK902-00401-SCPMK902-00404
+sub_cpmk: SCPMK0902-00401-SCPMK0902-00404
 assessment_form: Tugas latihan soal mingguan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas latihan soal mingguan
 
 **Bentuk Tugas/Evaluasi:** Tugas latihan soal mingguan
 
-**Sub-CPMK:** SCPMK902-00401-SCPMK902-00404
+**Sub-CPMK:** SCPMK0902-00401-SCPMK0902-00404
 
 ## Deskripsi
 Mahasiswa mengerjakan latihan soal mingguan tentang logika, himpunan, relasi dan fungsi, sistem bilangan, induksi matematika, aljabar Boolean, kombinatorial, graf, dan pohon.

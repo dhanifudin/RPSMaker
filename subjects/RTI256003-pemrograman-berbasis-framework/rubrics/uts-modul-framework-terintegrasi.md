@@ -1,7 +1,7 @@
 ---
 course_code: RTI256003
 course_name: Pemrograman Berbasis Framework
-sub_cpmk: SCPMK209-04701, SCPMK603-04702
+sub_cpmk: SCPMK0209-04701, SCPMK0603-04702
 assessment_form: UTS praktik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS praktik
 
 **Bentuk Tugas/Evaluasi:** UTS praktik
 
-**Sub-CPMK:** SCPMK209-04701, SCPMK603-04702
+**Sub-CPMK:** SCPMK0209-04701, SCPMK0603-04702
 
 ## Deskripsi
 Mahasiswa menyelesaikan uts modul framework terintegrasi sesuai Sub-CPMK dan konteks mata kuliah.

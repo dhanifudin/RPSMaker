@@ -2,14 +2,14 @@
 course_code: RTI255003
 course_name: Pemrograman Mobile
 meeting: 05
-sub_cpmk: SCPMK209-03901
+sub_cpmk: SCPMK0209-03901
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Widget dasar Flutter
 
 ## Kemampuan Akhir
-- SCPMK209-03901: Mahasiswa mampu menerapkan Dart, Flutter, widget, layout, navigation, dan plugin untuk aplikasi mobile.
+- SCPMK0209-03901: Mahasiswa mampu menerapkan Dart, Flutter, widget, layout, navigation, dan plugin untuk aplikasi mobile.
 
 ## Materi Pembelajaran
 Widget dasar Flutter.

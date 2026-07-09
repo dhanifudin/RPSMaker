@@ -2,14 +2,14 @@
 course_code: RTI256206
 course_name: Rekayasa Sistem
 meeting: 15
-sub_cpmk: SCPMK211-05501
+sub_cpmk: SCPMK0211-05501
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - Dokumentasi sistem: ADR dan arsitektur diagram
 
 ## Kemampuan Akhir
-- SCPMK211-05501: Mahasiswa mampu merancang arsitektur sistem enterprise meliputi komponen, antarmuka, aliran data, dan ketergantungan antar modul.
+- SCPMK0211-05501: Mahasiswa mampu merancang arsitektur sistem enterprise meliputi komponen, antarmuka, aliran data, dan ketergantungan antar modul.
 
 ## Materi Pembelajaran
 Dokumentasi sistem: ADR dan arsitektur diagram.

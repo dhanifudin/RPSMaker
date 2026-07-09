@@ -2,14 +2,14 @@
 course_code: RTI256207
 course_name: Teknologi Terapan
 meeting: 03
-sub_cpmk: SCPMK204-05601
+sub_cpmk: SCPMK0204-05601
 assessment_weight: 4
 ---
 
 # Pertemuan 03 - Feasibility Study dan Pemilihan Teknologi
 
 ## Kemampuan Akhir
-- SCPMK204-05601: Mahasiswa mampu melakukan analisis kebutuhan teknologi industri dan merancang solusi teknologi terapan yang tepat guna.
+- SCPMK0204-05601: Mahasiswa mampu melakukan analisis kebutuhan teknologi industri dan merancang solusi teknologi terapan yang tepat guna.
 
 ## Materi Pembelajaran
 Feasibility study dan pemilihan teknologi.

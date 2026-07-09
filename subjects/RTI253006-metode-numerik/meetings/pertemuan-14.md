@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 14
-sub_cpmk: SCPMK902-03503
+sub_cpmk: SCPMK0902-03503
 assessment_weight: 1.0
 ---
 
 # Pertemuan 14 - Integrasi Numerik: Metode Simpson
 
 ## Kemampuan Akhir
-- SCPMK902-03503: Mahasiswa mampu menyelesaikan masalah diferensiasi numerik dan integrasi numerik menggunakan metode Riemann, trapezoidal, dan Simpson.
+- SCPMK0902-03503: Mahasiswa mampu menyelesaikan masalah diferensiasi numerik dan integrasi numerik menggunakan metode Riemann, trapezoidal, dan Simpson.
 
 ## Materi Pembelajaran
 Integrasi Numerik -- Metode Simpson: aturan Simpson 1/3 dan 3/8, Simpson komposit, estimasi galat, penerapan pada kasus teknik, dan perbandingan metode integrasi numerik.

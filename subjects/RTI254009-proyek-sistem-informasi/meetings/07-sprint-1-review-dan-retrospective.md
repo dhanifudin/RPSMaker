@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 07
-sub_cpmk: SCPMK803-03603
+sub_cpmk: SCPMK0803-03603
 assessment_weight: 5
 ---
 
 # Pertemuan 07 - Sprint 1 Review dan Retrospective
 
 ## Kemampuan Akhir
-- SCPMK803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
+- SCPMK0803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
 
 ## Materi Pembelajaran
 Sprint 1 review dan retrospective.

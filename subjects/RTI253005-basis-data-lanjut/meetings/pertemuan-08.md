@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 08
-sub_cpmk: SCPMK701-01603
+sub_cpmk: SCPMK0701-01603
 assessment_weight: 2.5
 ---
 
 # Pertemuan 08 - Full-Text Search dan JSONB
 
 ## Kemampuan Akhir
-- SCPMK701-01603: Mampu menerapkan mekanisme transaksi, concurrency, full-text search, JSONB, backup-restore, dan migrasi basis data pada PostgreSQL.
+- SCPMK0701-01603: Mampu menerapkan mekanisme transaksi, concurrency, full-text search, JSONB, backup-restore, dan migrasi basis data pada PostgreSQL.
 
 ## Materi Pembelajaran
 Full-Text Search dan JSONB: tsvector, tsquery, GIN index untuk FTS, operator JSONB (containment, path expression), indexing JSONB, dan query data semi-terstruktur.

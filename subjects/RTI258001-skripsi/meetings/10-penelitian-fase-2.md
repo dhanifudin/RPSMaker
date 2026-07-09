@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 10
-sub_cpmk: SCPMK403-05801
+sub_cpmk: SCPMK0403-05801
 assessment_weight: 3
 ---
 
 # Milestone 10 - Bimbingan Penelitian/Pengembangan: Fase 2
 
 ## Kemampuan Akhir
-- SCPMK403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
+- SCPMK0403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
 
 ## Materi Pembelajaran
 Bimbingan penelitian/pengembangan: fase 2.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
-sub_cpmk: SCPMK704-00703
+sub_cpmk: SCPMK0704-00703
 assessment_form: Kuis (tes praktik)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (tes praktik)
 
 **Bentuk Tugas/Evaluasi:** Kuis (tes praktik)
 
-**Sub-CPMK:** SCPMK704-00703
+**Sub-CPMK:** SCPMK0704-00703
 
 ## Deskripsi
 Mahasiswa menyelesaikan tes praktik individu materi perulangan bersarang, array 1 dimensi, dan array 2 dimensi.

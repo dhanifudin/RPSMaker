@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 06
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_weight: 2.5
 ---
 
 # Pertemuan 06 - Konsep Tauhid: Hafalan Ayat Al-Qur'an dan Penghayatan
 
 ## Kemampuan Akhir
-- SCPMK102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
+- SCPMK0102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
 
 ## Materi Pembelajaran
 Konsep Tauhid: hafalan ayat Al-Qur'an dan penghayatan.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI252001
 course_name: Agama
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_form: Tugas (esai/resume)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas (esai/resume)
 
 **Bentuk Tugas/Evaluasi:** Tugas (esai/resume)
 
-**Sub-CPMK:** SCPMK102-01002
+**Sub-CPMK:** SCPMK0102-01002
 
 ## Deskripsi
 Mahasiswa menyusun resume mandiri tentang konsep manusia dalam pandangan Islam, fungsi dan tugas hidup manusia, serta hakikat kehidupan dunia dan akhirat.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
-sub_cpmk: SCPMK802-01401
+sub_cpmk: SCPMK0802-01401
 assessment_form: Case Method (laporan kelompok)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method (laporan kelompok)
 
 **Bentuk Tugas/Evaluasi:** Case Method (laporan kelompok)
 
-**Sub-CPMK:** SCPMK802-01401
+**Sub-CPMK:** SCPMK0802-01401
 
 ## Deskripsi
 Mahasiswa menganalisis skenario proyek untuk membandingkan model Prototyping, Spiral, dan RUP serta menentukan metodologi yang paling sesuai dengan karakteristik kasus.

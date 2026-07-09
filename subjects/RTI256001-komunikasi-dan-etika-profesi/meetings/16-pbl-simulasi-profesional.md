@@ -2,15 +2,15 @@
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
 meeting: 16
-sub_cpmk: SCPMK301-04502, SCPMK303-04503
+sub_cpmk: SCPMK0301-04502, SCPMK0303-04503
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL: simulasi wawancara dan presentasi portofolio
 
 ## Kemampuan Akhir
-- SCPMK301-04502: Mahasiswa mampu menyajikan presentasi teknis, menulis laporan profesional, dan berkolaborasi dalam tim lintas fungsi.
-- SCPMK303-04503: Mahasiswa mampu menyusun portofolio profesional dan rencana pengembangan karir berbasis kompetensi TI.
+- SCPMK0301-04502: Mahasiswa mampu menyajikan presentasi teknis, menulis laporan profesional, dan berkolaborasi dalam tim lintas fungsi.
+- SCPMK0303-04503: Mahasiswa mampu menyusun portofolio profesional dan rencana pengembangan karir berbasis kompetensi TI.
 
 ## Materi Pembelajaran
 PBL: simulasi wawancara dan presentasi portofolio.

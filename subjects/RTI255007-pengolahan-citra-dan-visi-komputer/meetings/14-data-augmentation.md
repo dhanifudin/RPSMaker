@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 14
-sub_cpmk: SCPMK706-04302
+sub_cpmk: SCPMK0706-04302
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - Data Augmentation dan Transfer Learning Lanjutan
 
 ## Kemampuan Akhir
-- SCPMK706-04302: Mahasiswa mampu membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, dan segmentasi.
+- SCPMK0706-04302: Mahasiswa mampu membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, dan segmentasi.
 
 ## Materi Pembelajaran
 Data augmentation dan transfer learning lanjutan.

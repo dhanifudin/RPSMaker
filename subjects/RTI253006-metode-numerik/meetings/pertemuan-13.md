@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 13
-sub_cpmk: SCPMK902-03503
+sub_cpmk: SCPMK0902-03503
 assessment_weight: 1.0
 ---
 
 # Pertemuan 13 - Integrasi Numerik: Metode Trapezoidal
 
 ## Kemampuan Akhir
-- SCPMK902-03503: Mahasiswa mampu menyelesaikan masalah diferensiasi numerik dan integrasi numerik menggunakan metode Riemann, trapezoidal, dan Simpson.
+- SCPMK0902-03503: Mahasiswa mampu menyelesaikan masalah diferensiasi numerik dan integrasi numerik menggunakan metode Riemann, trapezoidal, dan Simpson.
 
 ## Materi Pembelajaran
 Integrasi Numerik -- Metode Trapezoidal: aturan trapezoid tunggal, trapezoid komposit, estimasi galat, dan perbandingan akurasi dengan Riemann.

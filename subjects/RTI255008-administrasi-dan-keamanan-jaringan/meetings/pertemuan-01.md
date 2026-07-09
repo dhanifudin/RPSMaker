@@ -2,14 +2,14 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 01
-sub_cpmk: SCPMK502-04401
+sub_cpmk: SCPMK0502-04401
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar Infrastruktur & Keamanan Jaringan
 
 ## Kemampuan Akhir
-- SCPMK502-04401: Mahasiswa mampu mengidentifikasi dan menganalisis ancaman, kerentanan, serta dampak keamanan pada sistem dan jaringan komputer.
+- SCPMK0502-04401: Mahasiswa mampu mengidentifikasi dan menganalisis ancaman, kerentanan, serta dampak keamanan pada sistem dan jaringan komputer.
 
 ## Materi Pembelajaran
 Pengantar infrastruktur & keamanan jaringan.

@@ -2,15 +2,15 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 08
-sub_cpmk: SCPMK902-01101, SCPMK902-01102
+sub_cpmk: SCPMK0902-01101, SCPMK0902-01102
 assessment_weight: 25
 ---
 
 # Pertemuan 08 - Ujian Tengah Semester: materi pekan 1-7
 
 ## Kemampuan Akhir
-- SCPMK902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
-- SCPMK902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
+- SCPMK0902-01101: Mahasiswa mampu menyelesaikan sistem persamaan linier menggunakan metode eliminasi dan representasi matriks, serta memvalidasi hasil secara komputasional.
+- SCPMK0902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
 
 ## Materi Pembelajaran
 Ujian Tengah Semester: materi pekan 1-7.

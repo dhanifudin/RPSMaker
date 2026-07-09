@@ -2,15 +2,15 @@
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
 meeting: 08
-sub_cpmk: SCPMK210-02601, SCPMK704-02602
+sub_cpmk: SCPMK0210-02601, SCPMK0704-02602
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Praktikum OOP Dasar
 
 ## Kemampuan Akhir
-- SCPMK210-02601: Mahasiswa mampu mengimplementasikan kelas, enkapsulasi, relasi kelas, dan inheritance dalam kode Java yang berfungsi.
-- SCPMK704-02602: Mahasiswa mampu mengimplementasikan overriding, overloading, interface, kelas abstrak, dan polymorfisme pada kasus nyata.
+- SCPMK0210-02601: Mahasiswa mampu mengimplementasikan kelas, enkapsulasi, relasi kelas, dan inheritance dalam kode Java yang berfungsi.
+- SCPMK0704-02602: Mahasiswa mampu mengimplementasikan overriding, overloading, interface, kelas abstrak, dan polymorfisme pada kasus nyata.
 
 ## Materi Pembelajaran
 UTS Praktikum OOP dasar.

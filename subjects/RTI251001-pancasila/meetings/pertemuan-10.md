@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 10
-sub_cpmk: SCPMK102-00103
+sub_cpmk: SCPMK0102-00103
 assessment_weight: 5
 ---
 
 # Pertemuan 10 - Ideologi lain yang berkembang di dunia
 
 ## Kemampuan Akhir
-- SCPMK102-00103: Mahasiswa mampu menjelaskan Pancasila sebagai ideologi nasional dan membandingkannya dengan ideologi lain yang berkembang di dunia.
+- SCPMK0102-00103: Mahasiswa mampu menjelaskan Pancasila sebagai ideologi nasional dan membandingkannya dengan ideologi lain yang berkembang di dunia.
 
 ## Materi Pembelajaran
 Ideologi lain yang berkembang di dunia: definisi, urgensi mempelajari ideologi, dan macam-macam ideologi. Kuis 2.

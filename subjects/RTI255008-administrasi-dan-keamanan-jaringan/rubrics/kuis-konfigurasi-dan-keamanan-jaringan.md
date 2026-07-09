@@ -1,7 +1,7 @@
 ---
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
-sub_cpmk: SCPMK501-04401, SCPMK505-04401
+sub_cpmk: SCPMK0501-04401, SCPMK0505-04401
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK501-04401, SCPMK505-04401
+**Sub-CPMK:** SCPMK0501-04401, SCPMK0505-04401
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis tertulis yang mencakup pemahaman konsep konfigurasi gateway, NAT, firewall, dan mekanisme keamanan jaringan sesuai Sub-CPMK.

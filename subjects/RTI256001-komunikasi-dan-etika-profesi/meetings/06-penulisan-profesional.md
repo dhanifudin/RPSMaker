@@ -2,14 +2,14 @@
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
 meeting: 06
-sub_cpmk: SCPMK301-04502
+sub_cpmk: SCPMK0301-04502
 assessment_weight: 3
 ---
 
 # Pertemuan 06 - Penulisan profesional: email, laporan, dan proposal teknis
 
 ## Kemampuan Akhir
-- SCPMK301-04502: Mahasiswa mampu menyajikan presentasi teknis, menulis laporan profesional, dan berkolaborasi dalam tim lintas fungsi.
+- SCPMK0301-04502: Mahasiswa mampu menyajikan presentasi teknis, menulis laporan profesional, dan berkolaborasi dalam tim lintas fungsi.
 
 ## Materi Pembelajaran
 Penulisan profesional: email, laporan, dan proposal teknis.

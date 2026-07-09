@@ -2,14 +2,14 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 12
-sub_cpmk: SCPMK504-03201
+sub_cpmk: SCPMK0504-03201
 assessment_weight: 3
 ---
 
 # Pertemuan 12 - Wireless Networking: 802.11 dan Wi-Fi Standards
 
 ## Kemampuan Akhir
-- SCPMK504-03201: Mahasiswa mampu menganalisis arsitektur jaringan (OSI, TCP/IP) dan mengkonfigurasi protokol pada setiap lapisan.
+- SCPMK0504-03201: Mahasiswa mampu menganalisis arsitektur jaringan (OSI, TCP/IP) dan mengkonfigurasi protokol pada setiap lapisan.
 
 ## Materi Pembelajaran
 Wireless networking: 802.11 dan Wi-Fi standards.

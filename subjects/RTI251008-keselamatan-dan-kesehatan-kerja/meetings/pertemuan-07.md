@@ -2,14 +2,14 @@
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
 meeting: 07
-sub_cpmk: SCPMK101-00802
+sub_cpmk: SCPMK0101-00802
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Dokumentasi Sistem Manajemen K3
 
 ## Kemampuan Akhir
-- SCPMK101-00802: Mahasiswa mampu menguraikan sistem manajemen K3 serta menunjukkan hubungan antara faktor penyebab kecelakaan, sumber bahaya, dan keadaan tidak selamat pada pengelolaan SDM, operasi, dan dokumentasi K3.
+- SCPMK0101-00802: Mahasiswa mampu menguraikan sistem manajemen K3 serta menunjukkan hubungan antara faktor penyebab kecelakaan, sumber bahaya, dan keadaan tidak selamat pada pengelolaan SDM, operasi, dan dokumentasi K3.
 
 ## Materi Pembelajaran
 Dokumentasi sistem manajemen K3.

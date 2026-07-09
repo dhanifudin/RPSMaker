@@ -2,15 +2,15 @@
 course_code: RTI255005
 course_name: Business Intelligence
 meeting: 16
-sub_cpmk: SCPMK706-04102, SCPMK10.4-04103
+sub_cpmk: SCPMK0706-04102, SCPMK1004-04103
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL Dashboard BI
 
 ## Kemampuan Akhir
-- SCPMK706-04102: Mahasiswa mampu membangun dashboard BI interaktif yang mengintegrasikan analisis OLAP dan visualisasi data.
-- SCPMK10.4-04103: Mahasiswa mampu mengevaluasi kualitas visualisasi data dan menyajikan insight bisnis yang akurat kepada pemangku kepentingan.
+- SCPMK0706-04102: Mahasiswa mampu membangun dashboard BI interaktif yang mengintegrasikan analisis OLAP dan visualisasi data.
+- SCPMK1004-04103: Mahasiswa mampu mengevaluasi kualitas visualisasi data dan menyajikan insight bisnis yang akurat kepada pemangku kepentingan.
 
 ## Materi Pembelajaran
 PBL: implementasi dashboard BI.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-sub_cpmk: SCPMK802-05803, SCPMK10.9-05805
+sub_cpmk: SCPMK0802-05803, SCPMK1009-05805
 assessment_form: Case Method dan penulisan ilmiah
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan penulisan ilmiah
 
 **Bentuk Tugas/Evaluasi:** Case Method dan penulisan ilmiah
 
-**Sub-CPMK:** SCPMK802-05803, SCPMK10.9-05805
+**Sub-CPMK:** SCPMK0802-05803, SCPMK1009-05805
 
 ## Deskripsi
 Mahasiswa menyusun dan mempresentasikan proposal skripsi yang mencakup latar belakang masalah, kajian pustaka, dan metodologi penelitian/pengembangan yang dipilih.

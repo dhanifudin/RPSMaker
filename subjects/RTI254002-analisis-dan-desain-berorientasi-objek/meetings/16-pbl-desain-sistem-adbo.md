@@ -2,15 +2,15 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 16
-sub_cpmk: SCPMK602-02902, SCPMK10.8-02903
+sub_cpmk: SCPMK0602-02902, SCPMK1008-02903
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL: Desain Sistem ADBO Terpadu
 
 ## Kemampuan Akhir
-- SCPMK602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
-- SCPMK10.8-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
+- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK1008-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
 
 ## Materi Pembelajaran
 PBL: desain sistem ADBO terpadu.

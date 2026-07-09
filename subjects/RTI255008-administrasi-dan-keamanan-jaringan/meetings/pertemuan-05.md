@@ -2,14 +2,14 @@
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
 meeting: 05
-sub_cpmk: SCPMK501-04401
+sub_cpmk: SCPMK0501-04401
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Konsep & Pemilihan Gateway Internet
 
 ## Kemampuan Akhir
-- SCPMK501-04401: Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet.
+- SCPMK0501-04401: Mahasiswa mampu menganalisis dan merancang kebijakan keamanan infrastruktur jaringan termasuk desain topologi aman dan pemilihan gateway internet.
 
 ## Materi Pembelajaran
 Konsep & pemilihan gateway internet.

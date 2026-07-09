@@ -1,7 +1,7 @@
 ---
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
-sub_cpmk: SCPMK209-02202, SCPMK603-02203
+sub_cpmk: SCPMK0209-02202, SCPMK0603-02203
 assessment_form: Hands-on Practice
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Hands-on Practice
 
 **Bentuk Tugas/Evaluasi:** Hands-on Practice
 
-**Sub-CPMK:** SCPMK209-02202, SCPMK603-02203
+**Sub-CPMK:** SCPMK0209-02202, SCPMK0603-02203
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas php, mysql, session, dan hosting sesuai Sub-CPMK dan konteks mata kuliah.

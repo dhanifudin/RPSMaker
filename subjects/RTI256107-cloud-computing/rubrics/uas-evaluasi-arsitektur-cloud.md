@@ -1,7 +1,7 @@
 ---
 course_code: RTI256107
 course_name: Cloud Computing
-sub_cpmk: SCPMK509-05101, SCPMK10.3-05103
+sub_cpmk: SCPMK0509-05101, SCPMK1003-05103
 assessment_form: UAS praktik dan presentasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS praktik dan presentasi
 
 **Bentuk Tugas/Evaluasi:** UAS praktik dan presentasi
 
-**Sub-CPMK:** SCPMK509-05101, SCPMK10.3-05103
+**Sub-CPMK:** SCPMK0509-05101, SCPMK1003-05103
 
 ## Deskripsi
 Mahasiswa mengevaluasi dan mempresentasikan rancangan arsitektur cloud komprehensif yang mencakup skalabilitas, keamanan, jaringan, dan strategi multi-cloud/hybrid cloud untuk skenario organisasi nyata.

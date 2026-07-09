@@ -2,14 +2,14 @@
 course_code: RTI256003
 course_name: Pemrograman Berbasis Framework
 meeting: 06
-sub_cpmk: SCPMK209-04701
+sub_cpmk: SCPMK0209-04701
 assessment_weight: 0
 ---
 
 # Pertemuan 06 - Middleware dan route protection
 
 ## Kemampuan Akhir
-- SCPMK209-04701: Mahasiswa mampu menerapkan setup, routing, styling, custom document, API routes, CSR, SSR, SSG, ISR, middleware, dan route protection.
+- SCPMK0209-04701: Mahasiswa mampu menerapkan setup, routing, styling, custom document, API routes, CSR, SSR, SSG, ISR, middleware, dan route protection.
 
 ## Materi Pembelajaran
 Middleware dan route protection.

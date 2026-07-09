@@ -2,14 +2,14 @@
 course_code: RTI252003
 course_name: Desain Antarmuka
 meeting: 10
-sub_cpmk: SCPMK202-01202
+sub_cpmk: SCPMK0202-01202
 assessment_weight: 2.8
 ---
 
 # Pertemuan 10 - UX writing
 
 ## Kemampuan Akhir
-- SCPMK202-01202: Mahasiswa mampu merancang wireframe, visual design, design system, dan UX writing berdasarkan kebutuhan pengguna.
+- SCPMK0202-01202: Mahasiswa mampu merancang wireframe, visual design, design system, dan UX writing berdasarkan kebutuhan pengguna.
 
 ## Materi Pembelajaran
 UX writing.

@@ -2,14 +2,14 @@
 course_code: RTI251009
 course_name: Fisika
 meeting: 05
-sub_cpmk: SCPMK902-00902
+sub_cpmk: SCPMK0902-00902
 assessment_weight: 1.5
 ---
 
 # Pertemuan 05 - Kinematika Gerak Lurus
 
 ## Kemampuan Akhir
-- SCPMK902-00902: Mahasiswa mampu menganalisis kinematika gerak lurus dan gerak dua dimensi serta menerapkan hukum Newton untuk menyelesaikan masalah dinamika partikel pada sistem mekanik.
+- SCPMK0902-00902: Mahasiswa mampu menganalisis kinematika gerak lurus dan gerak dua dimensi serta menerapkan hukum Newton untuk menyelesaikan masalah dinamika partikel pada sistem mekanik.
 
 ## Materi Pembelajaran
 Kinematika gerak lurus (GLB dan GLBB).

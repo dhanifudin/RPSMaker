@@ -2,14 +2,14 @@
 course_code: RTI252003
 course_name: Desain Antarmuka
 meeting: 04
-sub_cpmk: SCPMK202-01201
+sub_cpmk: SCPMK0202-01201
 assessment_weight: 5
 ---
 
 # Pertemuan 04 - Kuis 1 konsep UI/UX
 
 ## Kemampuan Akhir
-- SCPMK202-01201: Mahasiswa mampu menjelaskan prinsip UI/UX, design thinking, user persona, dan journey map untuk mengidentifikasi kebutuhan pengguna.
+- SCPMK0202-01201: Mahasiswa mampu menjelaskan prinsip UI/UX, design thinking, user persona, dan journey map untuk mengidentifikasi kebutuhan pengguna.
 
 ## Materi Pembelajaran
 Kuis 1 konsep UI/UX.

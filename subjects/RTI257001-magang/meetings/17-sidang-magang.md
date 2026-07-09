@@ -2,15 +2,15 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 17
-sub_cpmk: SCPMK303-05702, SCPMK607-05704
+sub_cpmk: SCPMK0303-05702, SCPMK0607-05704
 assessment_weight: 20
 ---
 
 # Milestone 17 - Sidang Magang: Presentasi dan Defense Laporan
 
 ## Kemampuan Akhir
-- SCPMK303-05702: Mahasiswa mampu menyusun dan mempresentasikan laporan magang yang komprehensif kepada pembimbing akademik dan penguji.
-- SCPMK607-05704: Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata.
+- SCPMK0303-05702: Mahasiswa mampu menyusun dan mempresentasikan laporan magang yang komprehensif kepada pembimbing akademik dan penguji.
+- SCPMK0607-05704: Mahasiswa mampu mengaplikasikan minimal satu kompetensi rekayasa perangkat lunak dalam proyek atau tugas industri nyata.
 
 ## Materi Pembelajaran
 Sidang magang: presentasi dan defense laporan.

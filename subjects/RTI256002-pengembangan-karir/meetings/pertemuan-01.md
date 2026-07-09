@@ -2,15 +2,15 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 01
-sub_cpmk: SCPMK102-05301, SCPMK303-05301
+sub_cpmk: SCPMK0102-05301, SCPMK0303-05301
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar Pengembangan Karir
 
 ## Kemampuan Akhir
-- SCPMK102-05301: Mahasiswa mampu menerapkan nilai etika profesional dan sikap integritas dalam pengambilan keputusan karir sehari-hari dan lingkungan kerja profesional.
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0102-05301: Mahasiswa mampu menerapkan nilai etika profesional dan sikap integritas dalam pengambilan keputusan karir sehari-hari dan lingkungan kerja profesional.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
 
 ## Materi Pembelajaran
 Pengantar pengembangan karir: definisi, urgensi, dan kerangka konseptual pengembangan karir di era modern; orientasi karir di bidang informatika; nilai etika dan integritas sebagai fondasi karir profesional.

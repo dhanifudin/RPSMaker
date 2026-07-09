@@ -2,14 +2,14 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 14
-sub_cpmk: SCPMK10.2-03203
+sub_cpmk: SCPMK1002-03203
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - Network Security: Ancaman, Serangan, dan Mitigasi
 
 ## Kemampuan Akhir
-- SCPMK10.2-03203: Mahasiswa mampu menganalisis ancaman keamanan jaringan dan merekomendasikan mekanisme perlindungan yang sesuai.
+- SCPMK1002-03203: Mahasiswa mampu menganalisis ancaman keamanan jaringan dan merekomendasikan mekanisme perlindungan yang sesuai.
 
 ## Materi Pembelajaran
 Network security: ancaman, serangan, dan mitigasi.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
-sub_cpmk: SCPMK211-02001, SCPMK211-02002
+sub_cpmk: SCPMK0211-02001, SCPMK0211-02002
 assessment_form: UTS berbasis analisis kasus
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis analisis kasus
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis analisis kasus
 
-**Sub-CPMK:** SCPMK211-02001, SCPMK211-02002
+**Sub-CPMK:** SCPMK0211-02001, SCPMK0211-02002
 
 ## Deskripsi
 Evaluasi tengah semester untuk mengukur kemampuan analisis konsep SIM dan pemodelan sistem.

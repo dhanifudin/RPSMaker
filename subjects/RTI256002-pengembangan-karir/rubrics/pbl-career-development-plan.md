@@ -1,14 +1,14 @@
 ---
 course_code: RTI256002
 course_name: Pengembangan Karir
-sub_cpmk: SCPMK303-05303, SCPMK303-05302, SCPMK102-05301
+sub_cpmk: SCPMK0303-05303, SCPMK0303-05302, SCPMK0102-05301
 assessment_form: Project Based Learning -- Penyusunan dan Presentasi Proyek
 ---
 
 # PBL Career Development Plan
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning -- Penyusunan dan Presentasi Proyek
-**Sub-CPMK:** SCPMK303-05303, SCPMK303-05302, SCPMK102-05301
+**Sub-CPMK:** SCPMK0303-05303, SCPMK0303-05302, SCPMK0102-05301
 
 ## Deskripsi
 Mahasiswa menyusun dan mempresentasikan Career Development Plan (CDP) yang komprehensif sebagai proyek akhir individual, mencakup tujuan karir SMART, analisis gap kompetensi, strategi pengembangan diri, timeline pencapaian, dan rencana evaluasi berkala.

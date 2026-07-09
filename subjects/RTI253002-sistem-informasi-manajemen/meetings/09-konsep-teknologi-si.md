@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 09
-sub_cpmk: SCPMK607-02003
+sub_cpmk: SCPMK0607-02003
 assessment_weight: 5
 ---
 
 # Pertemuan 09 - Konsep Teknologi dan SI untuk SIM
 
 ## Kemampuan Akhir
-- SCPMK607-02003: Mahasiswa mampu menerapkan konsep SI strategis dan pendukung untuk pengelolaan informasi organisasi yang kompleks.
+- SCPMK0607-02003: Mahasiswa mampu menerapkan konsep SI strategis dan pendukung untuk pengelolaan informasi organisasi yang kompleks.
 
 ## Materi Pembelajaran
 Konsep teknologi dan SI untuk SIM: infrastruktur TI, jaringan komputer, cloud computing, peran teknologi dalam mendukung SIM, dan integrasi teknologi dalam sistem informasi organisasi.

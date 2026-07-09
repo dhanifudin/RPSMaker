@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 16
-sub_cpmk: SCPMK608-04201-04204: Integrasi semua kemampuan dalam proyek komprehensif QA.
+sub_cpmk: SCPMK0608-04201-04204: Integrasi semua kemampuan dalam proyek komprehensif QA.
 assessment_weight: 25
 ---
 
 # Pertemuan 16 - Proyek akhir; QA strategy; test planning; functional testing; non-functional testing; reporting; presentation
 
 ## Kemampuan Akhir
-SCPMK608-04201-04204: Integrasi semua kemampuan dalam proyek komprehensif QA.
+SCPMK0608-04201-04204: Integrasi semua kemampuan dalam proyek komprehensif QA.
 
 ## Materi Pembelajaran
 Proyek akhir; QA strategy; test planning; functional testing; non-functional testing; reporting; presentation.

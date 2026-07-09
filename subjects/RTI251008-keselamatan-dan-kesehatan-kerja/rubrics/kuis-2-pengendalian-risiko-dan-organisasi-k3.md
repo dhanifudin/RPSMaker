@@ -1,7 +1,7 @@
 ---
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
-sub_cpmk: SCPMK101-00803, SCPMK101-00804
+sub_cpmk: SCPMK0101-00803, SCPMK0101-00804
 assessment_form: Kuis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis
 
 **Bentuk Tugas/Evaluasi:** Kuis
 
-**Sub-CPMK:** SCPMK101-00803, SCPMK101-00804
+**Sub-CPMK:** SCPMK0101-00803, SCPMK0101-00804
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis tertulis daring tentang manajemen risiko K3, alat pelindung diri, serta pengelolaan komunikasi, personel, dan organisasi K3 menuju zero accident.

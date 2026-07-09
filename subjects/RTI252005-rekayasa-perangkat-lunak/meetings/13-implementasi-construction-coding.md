@@ -2,14 +2,14 @@
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
 meeting: 13
-sub_cpmk: SCPMK205-01405
+sub_cpmk: SCPMK0205-01405
 assessment_weight: 20
 ---
 
 # Pertemuan 13 - Implementasi (Construction/Coding)
 
 ## Kemampuan Akhir
-- SCPMK205-01405: Mahasiswa mampu merealisasikan blueprint menjadi komponen aplikasi yang modular, maintainable, dan sesuai standar kode.
+- SCPMK0205-01405: Mahasiswa mampu merealisasikan blueprint menjadi komponen aplikasi yang modular, maintainable, dan sesuai standar kode.
 
 ## Materi Pembelajaran
 Implementasi (Construction/Coding).

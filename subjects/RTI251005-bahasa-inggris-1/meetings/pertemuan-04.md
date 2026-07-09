@@ -2,15 +2,15 @@
 course_code: RTI251005
 course_name: Bahasa Inggris 1
 meeting: 04
-sub_cpmk: SCPMK303-00503, SCPMK303-00504
+sub_cpmk: SCPMK0303-00503, SCPMK0303-00504
 assessment_weight: 4
 ---
 
 # Pertemuan 04 - Computer Ads, Comparatives, dan Superlatives (Tugas 2)
 
 ## Kemampuan Akhir
-- SCPMK303-00503: Mahasiswa mampu menulis teks fungsional bahasa Inggris (instruksi, perbandingan, deskripsi proses, review, dan deskripsi pekerjaan) dalam konteks Teknik Informatika.
-- SCPMK303-00504: Mahasiswa mampu mempresentasikan gagasan dan hasil kerja secara lisan dalam bahasa Inggris secara mandiri, efektif, dan profesional.
+- SCPMK0303-00503: Mahasiswa mampu menulis teks fungsional bahasa Inggris (instruksi, perbandingan, deskripsi proses, review, dan deskripsi pekerjaan) dalam konteks Teknik Informatika.
+- SCPMK0303-00504: Mahasiswa mampu mempresentasikan gagasan dan hasil kerja secara lisan dalam bahasa Inggris secara mandiri, efektif, dan profesional.
 
 ## Materi Pembelajaran
 Topic 2: computer ads; adjectives, comparatives, superlatives; Tugas 2: writing and presenting the comparison of devices.

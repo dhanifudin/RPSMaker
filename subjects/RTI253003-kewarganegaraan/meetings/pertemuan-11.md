@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 11
-sub_cpmk: SCPMK102-02103
+sub_cpmk: SCPMK0102-02103
 assessment_weight: 2
 ---
 
 # Pertemuan 11 - Hak Asasi Manusia 1: Pengertian, Prinsip, dan Sejarah
 
 ## Kemampuan Akhir
-- SCPMK102-02103: Mahasiswa mampu menjelaskan konsep hak asasi manusia, prinsip-prinsipnya, dan mekanisme penegakannya dalam kehidupan berbangsa dan bernegara.
+- SCPMK0102-02103: Mahasiswa mampu menjelaskan konsep hak asasi manusia, prinsip-prinsipnya, dan mekanisme penegakannya dalam kehidupan berbangsa dan bernegara.
 
 ## Materi Pembelajaran
 Hak Asasi Manusia 1: pengertian HAM, prinsip-prinsip HAM, dan sejarah perkembangan HAM.

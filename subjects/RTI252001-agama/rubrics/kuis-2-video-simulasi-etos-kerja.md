@@ -1,7 +1,7 @@
 ---
 course_code: RTI252001
 course_name: Agama
-sub_cpmk: SCPMK102-01003
+sub_cpmk: SCPMK0102-01003
 assessment_form: Kuis (rubrik penilaian video simulasi)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (rubrik penilaian video simulasi)
 
 **Bentuk Tugas/Evaluasi:** Kuis (rubrik penilaian video simulasi)
 
-**Sub-CPMK:** SCPMK102-01003
+**Sub-CPMK:** SCPMK0102-01003
 
 ## Deskripsi
 Mahasiswa membuat video simulasi (cosplay) tentang etos kerja dalam Islam beserta dalil Al-Qur'an dan Hadis yang relevan, dikumpulkan tepat waktu.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
-sub_cpmk: SCPMK501-04401, SCPMK502-04401
+sub_cpmk: SCPMK0501-04401, SCPMK0502-04401
 assessment_form: Project Based Learning -- Praktikum/Simulasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning -- Praktikum/Simulasi
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning -- Praktikum/Simulasi
 
-**Sub-CPMK:** SCPMK501-04401, SCPMK502-04401
+**Sub-CPMK:** SCPMK0501-04401, SCPMK0502-04401
 
 ## Deskripsi
 Mahasiswa menyelesaikan simulasi desain keamanan jaringan sesuai Sub-CPMK, mencakup implementasi topologi aman, konfigurasi firewall, dan dokumentasi hasil simulasi menggunakan GNS3 atau Packet Tracer.

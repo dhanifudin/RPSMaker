@@ -1,7 +1,7 @@
 ---
 course_code: RTI251006
 course_name: Dasar Pemrograman
-sub_cpmk: SCPMK903-00601, SCPMK903-00602
+sub_cpmk: SCPMK0903-00601, SCPMK0903-00602
 assessment_form: Kuis (ujian teori closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian teori closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian teori closed book)
 
-**Sub-CPMK:** SCPMK903-00601, SCPMK903-00602
+**Sub-CPMK:** SCPMK0903-00601, SCPMK0903-00602
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis pilihan ganda dan/atau essay yang mencakup materi minggu 1-3: konsep dasar algoritma, version control, Kanban, tipe data, variabel, input-output, sequence, dan operator.

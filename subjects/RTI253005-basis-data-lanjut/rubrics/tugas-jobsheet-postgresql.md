@@ -1,7 +1,7 @@
 ---
 course_code: RTI253005
 course_name: Basis Data Lanjut
-sub_cpmk: SCPMK203-01601, SCPMK203-01602, SCPMK701-01603, SCPMK1001-01604
+sub_cpmk: SCPMK0203-01601, SCPMK0203-01602, SCPMK0701-01603, SCPMK1001-01604
 assessment_form: Tugas terstruktur berbasis praktikum (PBL)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur berbasis praktikum (PBL)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur berbasis praktikum (PBL)
 
-**Sub-CPMK:** SCPMK203-01601, SCPMK203-01602, SCPMK701-01603, SCPMK1001-01604
+**Sub-CPMK:** SCPMK0203-01601, SCPMK0203-01602, SCPMK0701-01603, SCPMK1001-01604
 
 ## Deskripsi
 Mahasiswa menyelesaikan serangkaian jobsheet praktikum PostgreSQL mencakup query dasar, query lanjutan, indeks, objek basis data, transaksi, FTS, JSONB, backup-restore, migrasi, dan integrasi dengan aplikasi.

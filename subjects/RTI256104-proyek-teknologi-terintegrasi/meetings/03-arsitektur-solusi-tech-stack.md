@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 03
-sub_cpmk: SCPMK802-04802
+sub_cpmk: SCPMK0802-04802
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Arsitektur Solusi dan Tech Stack
 
 ## Kemampuan Akhir
-- SCPMK802-04802: Mahasiswa mampu mengimplementasikan aplikasi multi-platform menggunakan metodologi agile dengan sprint yang terdokumentasi.
+- SCPMK0802-04802: Mahasiswa mampu mengimplementasikan aplikasi multi-platform menggunakan metodologi agile dengan sprint yang terdokumentasi.
 
 ## Materi Pembelajaran
 Arsitektur solusi dan tech stack.

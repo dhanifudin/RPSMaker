@@ -2,14 +2,14 @@
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
 meeting: 11
-sub_cpmk: SCPMK303-04503
+sub_cpmk: SCPMK0303-04503
 assessment_weight: 3
 ---
 
 # Pertemuan 11 - Personal branding: LinkedIn, GitHub, dan portofolio digital
 
 ## Kemampuan Akhir
-- SCPMK303-04503: Mahasiswa mampu menyusun portofolio profesional dan rencana pengembangan karir berbasis kompetensi TI.
+- SCPMK0303-04503: Mahasiswa mampu menyusun portofolio profesional dan rencana pengembangan karir berbasis kompetensi TI.
 
 ## Materi Pembelajaran
 Personal branding: LinkedIn, GitHub, dan portofolio digital.

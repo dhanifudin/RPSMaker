@@ -2,14 +2,14 @@
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
 meeting: 05
-sub_cpmk: SCPMK706-02801
+sub_cpmk: SCPMK0706-02801
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Kuis 1: Konsep SPK, MCDM Dasar, WSM dan WPM
 
 ## Kemampuan Akhir
-- SCPMK706-02801: Mahasiswa mampu menjelaskan konsep dan evolusi sistem pendukung keputusan, teori pengambilan keputusan, serta menerapkan metode baseline MCDM yaitu WSM dan WPM pada kasus sederhana.
+- SCPMK0706-02801: Mahasiswa mampu menjelaskan konsep dan evolusi sistem pendukung keputusan, teori pengambilan keputusan, serta menerapkan metode baseline MCDM yaitu WSM dan WPM pada kasus sederhana.
 
 ## Materi Pembelajaran
 Kuis 1: konsep SPK, MCDM dasar, WSM dan WPM.

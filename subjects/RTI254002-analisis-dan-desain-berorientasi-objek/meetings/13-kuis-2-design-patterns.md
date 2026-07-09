@@ -2,14 +2,14 @@
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
 meeting: 13
-sub_cpmk: SCPMK602-02902
+sub_cpmk: SCPMK0602-02902
 assessment_weight: 5
 ---
 
 # Pertemuan 13 - Kuis 2: Design Patterns
 
 ## Kemampuan Akhir
-- SCPMK602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
 
 ## Materi Pembelajaran
 Kuis 2: design patterns.

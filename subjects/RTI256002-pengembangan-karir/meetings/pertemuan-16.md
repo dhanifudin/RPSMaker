@@ -2,17 +2,17 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 16
-sub_cpmk: SCPMK102-05301, SCPMK303-05301, SCPMK303-05302, SCPMK303-05303
+sub_cpmk: SCPMK0102-05301, SCPMK0303-05301, SCPMK0303-05302, SCPMK0303-05303
 assessment_weight: 40
 ---
 
 # Pertemuan 16 - PBL: Presentasi Career Development Plan
 
 ## Kemampuan Akhir
-- SCPMK102-05301: Mahasiswa mampu menerapkan nilai etika profesional dan sikap integritas dalam pengambilan keputusan karir sehari-hari dan lingkungan kerja profesional.
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
-- SCPMK303-05302: Mahasiswa mampu merancang strategi personal branding dan komunikasi profesional yang efektif untuk pengembangan karir di era digital.
-- SCPMK303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
+- SCPMK0102-05301: Mahasiswa mampu menerapkan nilai etika profesional dan sikap integritas dalam pengambilan keputusan karir sehari-hari dan lingkungan kerja profesional.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0303-05302: Mahasiswa mampu merancang strategi personal branding dan komunikasi profesional yang efektif untuk pengembangan karir di era digital.
+- SCPMK0303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
 
 ## Materi Pembelajaran
 PBL: presentasi Career Development Plan (CDP) sebagai proyek akhir individual yang komprehensif, mencakup tujuan karir SMART, analisis gap kompetensi, strategi pengembangan diri, timeline pencapaian, dan rencana evaluasi berkala.

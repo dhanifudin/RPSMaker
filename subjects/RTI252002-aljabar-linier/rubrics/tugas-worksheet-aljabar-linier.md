@@ -1,7 +1,7 @@
 ---
 course_code: RTI252002
 course_name: Aljabar Linier
-sub_cpmk: SCPMK902-01101, SCPMK902-01102, SCPMK902-01103
+sub_cpmk: SCPMK0902-01101, SCPMK0902-01102, SCPMK0902-01103
 assessment_form: Tugas terstruktur (worksheet dan latihan)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur (worksheet dan latihan)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur (worksheet dan latihan)
 
-**Sub-CPMK:** SCPMK902-01101, SCPMK902-01102, SCPMK902-01103
+**Sub-CPMK:** SCPMK0902-01101, SCPMK0902-01102, SCPMK0902-01103
 
 ## Deskripsi
 Mahasiswa menyelesaikan worksheet mingguan (Worksheet 1-5) yang mencakup permodelan dan penyelesaian SPL, operasi matriks, invers, determinan, aturan Cramer, vektor, eigen, proyeksi ortogonal, serta studi kasus pemanfaatan aljabar linier di bidang informatika.

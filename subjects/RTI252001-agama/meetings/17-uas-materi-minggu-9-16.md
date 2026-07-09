@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 17
-sub_cpmk: SCPMK102-01004
+sub_cpmk: SCPMK0102-01004
 assessment_weight: 15
 ---
 
 # Pertemuan 17 - UAS: Materi Minggu 9-16
 
 ## Kemampuan Akhir
-- SCPMK102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
+- SCPMK0102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
 
 ## Materi Pembelajaran
 UAS: materi minggu 9-16.

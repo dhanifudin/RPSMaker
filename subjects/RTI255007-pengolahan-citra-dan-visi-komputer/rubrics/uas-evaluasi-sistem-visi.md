@@ -1,7 +1,7 @@
 ---
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
-sub_cpmk: SCPMK706-04302, SCPMK10.5-04304
+sub_cpmk: SCPMK0706-04302, SCPMK1005-04304
 assessment_form: UAS presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan defense
 
-**Sub-CPMK:** SCPMK706-04302, SCPMK10.5-04304
+**Sub-CPMK:** SCPMK0706-04302, SCPMK1005-04304
 
 ## Deskripsi
 Mahasiswa mempresentasikan sistem visi komputer yang dibangun, mendemonstrasikan fungsionalitas, dan mempertahankan keputusan teknis berdasarkan evaluasi kinerja.

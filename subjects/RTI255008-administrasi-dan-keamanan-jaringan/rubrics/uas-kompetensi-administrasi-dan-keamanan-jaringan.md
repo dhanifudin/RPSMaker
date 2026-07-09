@@ -1,7 +1,7 @@
 ---
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
-sub_cpmk: SCPMK501-04401, SCPMK502-04401, SCPMK505-04401, SCPMK505-04402
+sub_cpmk: SCPMK0501-04401, SCPMK0502-04401, SCPMK0505-04401, SCPMK0505-04402
 assessment_form: Ujian Akhir -- Tertulis atau Presentasi Proyek
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian Akhir -- Tertulis atau Presentasi Proyek
 
 **Bentuk Tugas/Evaluasi:** Ujian Akhir -- Tertulis atau Presentasi Proyek
 
-**Sub-CPMK:** SCPMK501-04401, SCPMK502-04401, SCPMK505-04401, SCPMK505-04402
+**Sub-CPMK:** SCPMK0501-04401, SCPMK0502-04401, SCPMK0505-04401, SCPMK0505-04402
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian akhir atau mempresentasikan proyek akhir yang menunjukkan kompetensi komprehensif dalam administrasi dan keamanan jaringan sesuai SKKNI dan capaian seluruh CPMK mata kuliah.

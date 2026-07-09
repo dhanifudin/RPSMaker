@@ -1,7 +1,7 @@
 ---
 course_code: RTI254003
 course_name: Bahasa Indonesia
-sub_cpmk: SCPMK401-03002
+sub_cpmk: SCPMK0401-03002
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK401-03002
+**Sub-CPMK:** SCPMK0401-03002
 
 ## Deskripsi
 Mahasiswa menyusun karya tulis ilmiah sederhana secara mandiri/kelompok sesuai kaidah akademik.

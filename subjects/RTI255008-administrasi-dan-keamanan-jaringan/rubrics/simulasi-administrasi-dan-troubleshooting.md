@@ -1,7 +1,7 @@
 ---
 course_code: RTI255008
 course_name: Administrasi dan Keamanan Jaringan
-sub_cpmk: SCPMK505-04401, SCPMK505-04402
+sub_cpmk: SCPMK0505-04401, SCPMK0505-04402
 assessment_form: Project Based Learning -- Praktikum/Simulasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning -- Praktikum/Simulasi
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning -- Praktikum/Simulasi
 
-**Sub-CPMK:** SCPMK505-04401, SCPMK505-04402
+**Sub-CPMK:** SCPMK0505-04401, SCPMK0505-04402
 
 ## Deskripsi
 Mahasiswa menyelesaikan simulasi administrasi dan troubleshooting jaringan sesuai Sub-CPMK, mencakup konfigurasi administrasi akses, manajemen pengguna, monitoring SIEM, dan penyelesaian skenario troubleshooting.

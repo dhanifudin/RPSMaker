@@ -1,7 +1,7 @@
 ---
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
-sub_cpmk: SCPMK101-00801, SCPMK101-00802, SCPMK101-00803, SCPMK101-00804
+sub_cpmk: SCPMK0101-00801, SCPMK0101-00802, SCPMK0101-00803, SCPMK0101-00804
 assessment_form: Tugas terstruktur (laporan, makalah, slide animasi, role-play)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur (laporan, makalah, slide animasi, role-play)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur (laporan, makalah, slide animasi, role-play)
 
-**Sub-CPMK:** SCPMK101-00801, SCPMK101-00802, SCPMK101-00803, SCPMK101-00804
+**Sub-CPMK:** SCPMK0101-00801, SCPMK0101-00802, SCPMK0101-00803, SCPMK0101-00804
 
 ## Deskripsi
 Mahasiswa menyelesaikan rangkaian tugas mingguan (Tugas-1 s.d. Tugas-11): laporan sejarah dan landasan hukum K3, slide animasi lingkungan kerja dan APD, demonstrasi P3K, makalah kesehatan masyarakat, dan struktur organisasi K3.

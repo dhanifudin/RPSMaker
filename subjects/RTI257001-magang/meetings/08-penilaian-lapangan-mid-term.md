@@ -2,14 +2,14 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 08
-sub_cpmk: SCPMK804-05703
+sub_cpmk: SCPMK0804-05703
 assessment_weight: 15
 ---
 
 # Milestone 08 - Penilaian Pembimbing Lapangan Mid-Term
 
 ## Kemampuan Akhir
-- SCPMK804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
+- SCPMK0804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
 
 ## Materi Pembelajaran
 Penilaian pembimbing lapangan mid-term.

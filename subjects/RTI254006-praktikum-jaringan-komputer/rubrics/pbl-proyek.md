@@ -1,7 +1,7 @@
 ---
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
-sub_cpmk: SCPMK504-03301, SCPMK504-03302, SCPMK901-03303
+sub_cpmk: SCPMK0504-03301, SCPMK0504-03302, SCPMK0901-03303
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK504-03301, SCPMK504-03302, SCPMK901-03303
+**Sub-CPMK:** SCPMK0504-03301, SCPMK0504-03302, SCPMK0901-03303
 
 ## Deskripsi
 Mahasiswa mengerjakan 12 jobsheet praktikum terintegrasi yang mencakup konfigurasi media jaringan, subnetting, routing, simulasi Packet Tracer, dan analisis traffic jaringan.

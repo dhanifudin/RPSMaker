@@ -2,15 +2,15 @@
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
 meeting: 09
-sub_cpmk: SCPMK504-03301, SCPMK504-03302
+sub_cpmk: SCPMK0504-03301, SCPMK0504-03302
 assessment_weight: 10
 ---
 
 # Pertemuan 09 - UTS Praktikum
 
 ## Kemampuan Akhir
-- SCPMK504-03301: Mahasiswa mampu mengkonfigurasi perangkat dan media jaringan komputer sesuai standar industri.
-- SCPMK504-03302: Mahasiswa mampu melakukan subnetting IPv4 dan konfigurasi routing dasar.
+- SCPMK0504-03301: Mahasiswa mampu mengkonfigurasi perangkat dan media jaringan komputer sesuai standar industri.
+- SCPMK0504-03302: Mahasiswa mampu melakukan subnetting IPv4 dan konfigurasi routing dasar.
 
 ## Materi Pembelajaran
 UTS / Middle Test — ujian praktikum tengah semester konfigurasi jaringan.

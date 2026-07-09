@@ -1,7 +1,7 @@
 ---
 course_code: RTI255003
 course_name: Pemrograman Mobile
-sub_cpmk: SCPMK10.6-03903
+sub_cpmk: SCPMK1006-03903
 assessment_form: UTS praktik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS praktik
 
 **Bentuk Tugas/Evaluasi:** UTS praktik
 
-**Sub-CPMK:** SCPMK10.6-03903
+**Sub-CPMK:** SCPMK1006-03903
 
 ## Deskripsi
 Mahasiswa menyelesaikan uts ui/ux aplikasi mobile sesuai Sub-CPMK dan konteks mata kuliah.

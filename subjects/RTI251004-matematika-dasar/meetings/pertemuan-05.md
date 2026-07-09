@@ -2,14 +2,14 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 05
-sub_cpmk: SCPMK902-00402
+sub_cpmk: SCPMK0902-00402
 assessment_weight: 1.5
 ---
 
 # Pertemuan 05 - Definisi Relasi dan Fungsi
 
 ## Kemampuan Akhir
-- SCPMK902-00402: Mahasiswa mampu melakukan perhitungan pada relasi, fungsi, dan konversi antarsistem bilangan (biner, oktal, desimal, heksadesimal).
+- SCPMK0902-00402: Mahasiswa mampu melakukan perhitungan pada relasi, fungsi, dan konversi antarsistem bilangan (biner, oktal, desimal, heksadesimal).
 
 ## Materi Pembelajaran
 Definisi relasi; jenis-jenis relasi; definisi fungsi; fungsi eksponensial dan logaritmis; fungsi rekursif; kardinalitas.

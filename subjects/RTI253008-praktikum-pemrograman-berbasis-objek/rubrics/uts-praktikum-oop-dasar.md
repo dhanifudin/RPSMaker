@@ -1,7 +1,7 @@
 ---
 course_code: RTI253008
 course_name: Praktikum Pemrograman Berbasis Objek
-sub_cpmk: SCPMK210-02601, SCPMK704-02602
+sub_cpmk: SCPMK0210-02601, SCPMK0704-02602
 assessment_form: UTS berbasis praktikum
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis praktikum
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis praktikum
 
-**Sub-CPMK:** SCPMK210-02601, SCPMK704-02602
+**Sub-CPMK:** SCPMK0210-02601, SCPMK0704-02602
 
 ## Deskripsi
 Evaluasi tengah semester untuk mengukur kemampuan implementasi konsep OOP dasar dan lanjut menggunakan Java secara mandiri.

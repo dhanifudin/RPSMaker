@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 05
-sub_cpmk: SCPMK303-05301
+sub_cpmk: SCPMK0303-05301
 assessment_weight: 2
 ---
 
 # Pertemuan 05 - Karir Organisasi vs Freelance
 
 ## Kemampuan Akhir
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
 
 ## Materi Pembelajaran
 Karir organisasi vs freelance: perbedaan struktur, kompensasi, jenjang karir, stabilitas, dan fleksibilitas; analisis SWOT jalur karir; faktor penentu pilihan karir; strategi transisi dan diversifikasi sumber penghasilan.

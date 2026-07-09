@@ -1,7 +1,7 @@
 ---
 course_code: RTI253004
 course_name: Desain dan Pemrograman Web
-sub_cpmk: SCPMK603-02203, SCPMK603-02204
+sub_cpmk: SCPMK0603-02203, SCPMK0603-02204
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK603-02203, SCPMK603-02204
+**Sub-CPMK:** SCPMK0603-02203, SCPMK0603-02204
 
 ## Deskripsi
 Mahasiswa menyelesaikan pbl aplikasi web dinamis sesuai Sub-CPMK dan konteks mata kuliah.

@@ -2,14 +2,14 @@
 course_code: RTI256106
 course_name: Big Data
 meeting: 09
-sub_cpmk: SCPMK702-05001
+sub_cpmk: SCPMK0702-05001
 assessment_weight: 3
 ---
 
 # Pertemuan 09 - Spark Streaming dan Pemrosesan Real-Time
 
 ## Kemampuan Akhir
-- SCPMK702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
+- SCPMK0702-05001: Mahasiswa mampu merancang dan mengimplementasikan pipeline pemrosesan Big Data menggunakan ekosistem Hadoop/Spark.
 
 ## Materi Pembelajaran
 Spark Streaming dan pemrosesan real-time.

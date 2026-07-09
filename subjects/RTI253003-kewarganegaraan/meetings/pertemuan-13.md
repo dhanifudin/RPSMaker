@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 13
-sub_cpmk: SCPMK102-02104
+sub_cpmk: SCPMK0102-02104
 assessment_weight: 1
 ---
 
 # Pertemuan 13 - Wawasan Nusantara 1: Geopolitik Indonesia
 
 ## Kemampuan Akhir
-- SCPMK102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
+- SCPMK0102-02104: Mahasiswa mampu menguraikan wawasan nusantara, ketahanan nasional, dan integrasi nasional sebagai implementasi nilai-nilai kewarganegaraan dalam konteks global.
 
 ## Materi Pembelajaran
 Wawasan Nusantara 1: wilayah sebagai ruang hidup dan konsep wawasan nusantara sebagai penerapan geopolitik Indonesia.

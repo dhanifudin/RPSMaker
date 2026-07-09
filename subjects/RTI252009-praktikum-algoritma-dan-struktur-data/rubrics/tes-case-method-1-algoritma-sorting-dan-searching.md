@@ -1,7 +1,7 @@
 ---
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
-sub_cpmk: SCPMK903-01801
+sub_cpmk: SCPMK0903-01801
 assessment_form: Ujian case method (Asessment 2)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian case method (Asessment 2)
 
 **Bentuk Tugas/Evaluasi:** Ujian case method (Asessment 2)
 
-**Sub-CPMK:** SCPMK903-01801
+**Sub-CPMK:** SCPMK0903-01801
 
 ## Deskripsi
 Mahasiswa menyelesaikan kasus pengolahan data dari materi pekan 5-7 dengan memilih dan mengimplementasikan algoritma brute force/divide-conquer, sorting, dan searching yang sesuai.

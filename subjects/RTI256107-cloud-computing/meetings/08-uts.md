@@ -2,15 +2,15 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 08
-sub_cpmk: SCPMK905-05102, SCPMK509-05101
+sub_cpmk: SCPMK0905-05102, SCPMK0509-05101
 assessment_weight: 13
 ---
 
 # Pertemuan 08 - UTS Virtualisasi dan Model Layanan Cloud
 
 ## Kemampuan Akhir
-- SCPMK905-05102: Mahasiswa mampu menjelaskan model virtualisasi, containerisasi (Docker, Kubernetes), dan arsitektur microservices.
-- SCPMK509-05101: Mahasiswa mampu merancang arsitektur cloud yang scalable menggunakan IaaS, PaaS, dan SaaS pada platform cloud utama.
+- SCPMK0905-05102: Mahasiswa mampu menjelaskan model virtualisasi, containerisasi (Docker, Kubernetes), dan arsitektur microservices.
+- SCPMK0509-05101: Mahasiswa mampu merancang arsitektur cloud yang scalable menggunakan IaaS, PaaS, dan SaaS pada platform cloud utama.
 
 ## Materi Pembelajaran
 UTS virtualisasi dan model layanan cloud.

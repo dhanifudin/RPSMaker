@@ -2,15 +2,15 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 01
-sub_cpmk: SCPMK301-05701, SCPMK804-05703
+sub_cpmk: SCPMK0301-05701, SCPMK0804-05703
 assessment_weight: 2
 ---
 
 # Milestone 01 - Pembekalan Magang: Orientasi, Etika Kerja, dan Kontrak Belajar
 
 ## Kemampuan Akhir
-- SCPMK301-05701: Mahasiswa mampu berkomunikasi profesional secara lisan dan tulisan selama kegiatan magang di industri TI.
-- SCPMK804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
+- SCPMK0301-05701: Mahasiswa mampu berkomunikasi profesional secara lisan dan tulisan selama kegiatan magang di industri TI.
+- SCPMK0804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
 
 ## Materi Pembelajaran
 Pembekalan magang: orientasi, etika kerja, dan kontrak belajar.

@@ -2,14 +2,14 @@
 course_code: RTI254006
 course_name: Praktikum Jaringan Komputer
 meeting: 03
-sub_cpmk: SCPMK504-03301
+sub_cpmk: SCPMK0504-03301
 assessment_weight: 4.58
 ---
 
 # Pertemuan 03 - Application Layer Protocol
 
 ## Kemampuan Akhir
-- SCPMK504-03301: Mahasiswa mampu mengkonfigurasi perangkat dan media jaringan komputer sesuai standar industri.
+- SCPMK0504-03301: Mahasiswa mampu mengkonfigurasi perangkat dan media jaringan komputer sesuai standar industri.
 
 ## Materi Pembelajaran
 Application Layer Protocol.

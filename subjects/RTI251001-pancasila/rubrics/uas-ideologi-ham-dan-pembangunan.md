@@ -1,7 +1,7 @@
 ---
 course_code: RTI251001
 course_name: Pancasila
-sub_cpmk: SCPMK102-00103, SCPMK102-00104
+sub_cpmk: SCPMK0102-00103, SCPMK0102-00104
 assessment_form: Ujian tertulis (esai dan/atau pilihan ganda)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian tertulis (esai dan/atau pilihan ganda)
 
 **Bentuk Tugas/Evaluasi:** Ujian tertulis (esai dan/atau pilihan ganda)
 
-**Sub-CPMK:** SCPMK102-00103, SCPMK102-00104
+**Sub-CPMK:** SCPMK0102-00103, SCPMK0102-00104
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian akhir semester tertulis mencakup materi minggu 9-16: ideologi nasional, ideologi lain di dunia, Pancasila dan HAM, pelaksanaan HAM dalam UUD RI 1945, tindak pidana korupsi, dan Pancasila sebagai paradigma pembangunan.

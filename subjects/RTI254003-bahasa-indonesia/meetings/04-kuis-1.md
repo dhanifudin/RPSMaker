@@ -2,14 +2,14 @@
 course_code: RTI254003
 course_name: Bahasa Indonesia
 meeting: 04
-sub_cpmk: SCPMK301-03001
+sub_cpmk: SCPMK0301-03001
 assessment_weight: 5
 ---
 
 # Pertemuan 04 - Kuis 1: Ejaan dan Kalimat Efektif
 
 ## Kemampuan Akhir
-- SCPMK301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
+- SCPMK0301-03001: Mahasiswa mampu menulis laporan teknis, makalah, dan proposal dalam bahasa Indonesia yang baku, sistematis, dan efektif.
 
 ## Materi Pembelajaran
 Kuis 1: ejaan dan kalimat efektif.

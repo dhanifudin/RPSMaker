@@ -1,7 +1,7 @@
 ---
 course_code: RTI253009
 course_name: Bahasa Inggris 2
-sub_cpmk: SCPMK102-02701, SCPMK303-02702
+sub_cpmk: SCPMK0102-02701, SCPMK0303-02702
 assessment_form: Case Method dan praktik komunikasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik komunikasi
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik komunikasi
 
-**Sub-CPMK:** SCPMK102-02701, SCPMK303-02702
+**Sub-CPMK:** SCPMK0102-02701, SCPMK0303-02702
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas membaca teks teknis IT, menulis laporan akademik dan teknis, serta berlatih keterampilan komunikasi lisan sesuai topik mingguan.

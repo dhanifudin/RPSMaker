@@ -1,7 +1,7 @@
 ---
 course_code: RTI255002
 course_name: Metodologi Penelitian
-sub_cpmk: SCPMK403-03801, SCPMK401-03804
+sub_cpmk: SCPMK0403-03801, SCPMK0401-03804
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK403-03801, SCPMK401-03804
+**Sub-CPMK:** SCPMK0403-03801, SCPMK0401-03804
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis untuk mengukur pemahaman konsep jenis penelitian, etika, dan analisis data.

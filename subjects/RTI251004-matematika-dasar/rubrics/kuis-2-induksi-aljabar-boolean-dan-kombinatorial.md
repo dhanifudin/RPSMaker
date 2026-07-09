@@ -1,7 +1,7 @@
 ---
 course_code: RTI251004
 course_name: Matematika Dasar
-sub_cpmk: SCPMK902-00403
+sub_cpmk: SCPMK0902-00403
 assessment_form: Kuis (ujian tulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (ujian tulis)
 
 **Bentuk Tugas/Evaluasi:** Kuis (ujian tulis)
 
-**Sub-CPMK:** SCPMK902-00403
+**Sub-CPMK:** SCPMK0902-00403
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis individual yang mencakup materi pertemuan 9 s.d. 12: induksi matematika, aljabar Boolean, dan kombinatorial.

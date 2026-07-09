@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 04
-sub_cpmk: SCPMK707-03501
+sub_cpmk: SCPMK0707-03501
 assessment_weight: 2.0
 ---
 
 # Pertemuan 04 - Sistem Persamaan Linear: Gauss-Jordan dan Gauss-Seidel
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu menjelaskan konsep metode numerik, galat, dan menyelesaikan sistem persamaan linear menggunakan metode Gauss, Gauss-Jordan, dan Gauss-Seidel.
+- SCPMK0707-03501: Mahasiswa mampu menjelaskan konsep metode numerik, galat, dan menyelesaikan sistem persamaan linear menggunakan metode Gauss, Gauss-Jordan, dan Gauss-Seidel.
 
 ## Materi Pembelajaran
 Sistem Persamaan Linear -- Gauss-Jordan dan Gauss-Seidel: eliminasi Gauss-Jordan (reduksi baris penuh), metode iteratif Gauss-Seidel, kriteria konvergensi, dan perbandingan efisiensi.

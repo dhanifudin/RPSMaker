@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 03
-sub_cpmk: SCPMK303-05301
+sub_cpmk: SCPMK0303-05301
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Karir Mandiri dan Fleksibel di Era Digital
 
 ## Kemampuan Akhir
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
 
 ## Materi Pembelajaran
 Karir mandiri dan fleksibel di era digital: konsep gig economy, remote work, solopreneur, dan portofolio karir; platform digital untuk karir mandiri; kelebihan, tantangan, dan strategi sukses dalam karir fleksibel.

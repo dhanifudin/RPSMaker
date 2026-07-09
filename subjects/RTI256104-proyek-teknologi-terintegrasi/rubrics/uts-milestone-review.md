@@ -1,7 +1,7 @@
 ---
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
-sub_cpmk: SCPMK803-04803
+sub_cpmk: SCPMK0803-04803
 assessment_form: UTS berbasis presentasi dan demo
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis presentasi dan demo
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis presentasi dan demo
 
-**Sub-CPMK:** SCPMK803-04803
+**Sub-CPMK:** SCPMK0803-04803
 
 ## Deskripsi
 Mahasiswa mempresentasikan progres proyek sprint 1-2, mendemonstrasikan produk yang sudah berjalan, menyajikan laporan kemajuan, dan mengelola backlog untuk sprint berikutnya.

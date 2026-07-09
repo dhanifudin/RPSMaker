@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 03
-sub_cpmk: SCPMK403-05801
+sub_cpmk: SCPMK0403-05801
 assessment_weight: 2
 ---
 
 # Milestone 03 - Penentuan Metodologi Penelitian/Pengembangan
 
 ## Kemampuan Akhir
-- SCPMK403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
+- SCPMK0403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
 
 ## Materi Pembelajaran
 Penentuan metodologi penelitian/pengembangan.

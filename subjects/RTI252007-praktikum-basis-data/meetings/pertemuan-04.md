@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 04
-sub_cpmk: SCPMK203-01601
+sub_cpmk: SCPMK0203-01601
 assessment_weight: 7.5
 ---
 
 # Pertemuan 04 - Kuis Praktikum 1
 
 ## Kemampuan Akhir
-- SCPMK203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
+- SCPMK0203-01601: Mampu mengimplementasikan perancangan model dan skema basis data konseptual dan logikal melalui kegiatan praktikum dengan memperhatikan integritas data dan prinsip normalisasi.
 
 ## Materi Pembelajaran
 Kuis Praktikum 1: materi minggu 1--3 (konsep basis data dan perancangan ERD).

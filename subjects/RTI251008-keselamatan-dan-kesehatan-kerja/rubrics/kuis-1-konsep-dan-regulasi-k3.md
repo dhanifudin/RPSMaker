@@ -1,7 +1,7 @@
 ---
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
-sub_cpmk: SCPMK101-00801
+sub_cpmk: SCPMK0101-00801
 assessment_form: Kuis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis
 
 **Bentuk Tugas/Evaluasi:** Kuis
 
-**Sub-CPMK:** SCPMK101-00801
+**Sub-CPMK:** SCPMK0101-00801
 
 ## Deskripsi
 Mahasiswa mengerjakan kuis tertulis daring tentang konsep, sejarah, tujuan, lambang K3, serta undang-undang dan landasan hukum K3.

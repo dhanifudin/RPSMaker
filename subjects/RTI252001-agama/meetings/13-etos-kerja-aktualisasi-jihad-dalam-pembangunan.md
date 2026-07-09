@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 13
-sub_cpmk: SCPMK102-01004
+sub_cpmk: SCPMK0102-01004
 assessment_weight: 5
 ---
 
 # Pertemuan 13 - Etos Kerja: Aktualisasi Jihad dalam Pembangunan
 
 ## Kemampuan Akhir
-- SCPMK102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
+- SCPMK0102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
 
 ## Materi Pembelajaran
 Etos Kerja: aktualisasi jihad dalam pembangunan.

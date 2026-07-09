@@ -1,7 +1,7 @@
 ---
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
-sub_cpmk: SCPMK706-04302, SCPMK10.5-04304
+sub_cpmk: SCPMK0706-04302, SCPMK1005-04304
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK706-04302, SCPMK10.5-04304
+**Sub-CPMK:** SCPMK0706-04302, SCPMK1005-04304
 
 ## Deskripsi
 Mahasiswa membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, atau segmentasi, dan mengevaluasi kinerjanya menggunakan metrik kuantitatif.

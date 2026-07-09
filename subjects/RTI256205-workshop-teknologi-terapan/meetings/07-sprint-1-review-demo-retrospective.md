@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 07
-sub_cpmk: SCPMK803-05403
+sub_cpmk: SCPMK0803-05403
 assessment_weight: 5
 ---
 
 # Pertemuan 07 - Sprint 1 review, demo, dan retrospective
 
 ## Kemampuan Akhir
-- SCPMK803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
+- SCPMK0803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
 
 ## Materi Pembelajaran
 Sprint 1 review, demo, dan retrospective.

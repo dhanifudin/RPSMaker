@@ -2,14 +2,14 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 09
-sub_cpmk: SCPMK102-05902
+sub_cpmk: SCPMK0102-05902
 assessment_weight: 3
 ---
 
 # Pertemuan 09 - Job Interview Preparation: Common IT Interview Questions
 
 ## Kemampuan Akhir
-- SCPMK102-05902: Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris.
+- SCPMK0102-05902: Mahasiswa mampu melakukan simulasi wawancara kerja, presentasi teknis, dan komunikasi dalam tim multikultural secara efektif dalam Bahasa Inggris.
 
 ## Materi Pembelajaran
 Job interview preparation: common IT interview questions.

@@ -1,14 +1,14 @@
 ---
 course_code: RTI256002
 course_name: Pengembangan Karir
-sub_cpmk: SCPMK102-05301, SCPMK303-05301, SCPMK303-05302, SCPMK303-05303
+sub_cpmk: SCPMK0102-05301, SCPMK0303-05301, SCPMK0303-05302, SCPMK0303-05303
 assessment_form: Tugas terstruktur -- analisis, refleksi, dan portofolio bertahap
 ---
 
 # Tugas Analisis dan Refleksi Karir
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur -- analisis, refleksi, dan portofolio bertahap
-**Sub-CPMK:** SCPMK102-05301, SCPMK303-05301, SCPMK303-05302, SCPMK303-05303
+**Sub-CPMK:** SCPMK0102-05301, SCPMK0303-05301, SCPMK0303-05302, SCPMK0303-05303
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas analisis dan refleksi karir secara bertahap setiap minggu, mencakup pemahaman konsep pengembangan karir, identifikasi potensi diri, eksplorasi profesi, strategi personal branding, dan komponen perencanaan karir.

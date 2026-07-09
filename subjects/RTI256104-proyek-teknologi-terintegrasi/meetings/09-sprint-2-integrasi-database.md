@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 09
-sub_cpmk: SCPMK607-04805
+sub_cpmk: SCPMK0607-04805
 assessment_weight: 4
 ---
 
 # Pertemuan 09 - Sprint 2: Integrasi Modul dan Database
 
 ## Kemampuan Akhir
-- SCPMK607-04805: Mahasiswa mampu mengintegrasikan solusi front-end, back-end, dan basis data dalam satu produk yang deployable.
+- SCPMK0607-04805: Mahasiswa mampu mengintegrasikan solusi front-end, back-end, dan basis data dalam satu produk yang deployable.
 
 ## Materi Pembelajaran
 Sprint 2: integrasi modul dan database.

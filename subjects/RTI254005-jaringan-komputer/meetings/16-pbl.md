@@ -2,15 +2,15 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 16
-sub_cpmk: SCPMK504-03201, SCPMK10.2-03203
+sub_cpmk: SCPMK0504-03201, SCPMK1002-03203
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL: Desain dan Analisis Jaringan
 
 ## Kemampuan Akhir
-- SCPMK504-03201: Mahasiswa mampu menganalisis arsitektur jaringan (OSI, TCP/IP) dan mengkonfigurasi protokol pada setiap lapisan.
-- SCPMK10.2-03203: Mahasiswa mampu menganalisis ancaman keamanan jaringan dan merekomendasikan mekanisme perlindungan yang sesuai.
+- SCPMK0504-03201: Mahasiswa mampu menganalisis arsitektur jaringan (OSI, TCP/IP) dan mengkonfigurasi protokol pada setiap lapisan.
+- SCPMK1002-03203: Mahasiswa mampu menganalisis ancaman keamanan jaringan dan merekomendasikan mekanisme perlindungan yang sesuai.
 
 ## Materi Pembelajaran
 PBL: desain dan analisis jaringan.

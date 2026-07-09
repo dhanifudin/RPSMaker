@@ -1,7 +1,7 @@
 ---
 course_code: RTI251003
 course_name: Critical Thinking dan Problem Solving
-sub_cpmk: SCPMK401-00301, SCPMK401-00302
+sub_cpmk: SCPMK0401-00301, SCPMK0401-00302
 assessment_form: UTS (ujian teori pilihan ganda, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian teori pilihan ganda, closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian teori pilihan ganda, closed book)
 
-**Sub-CPMK:** SCPMK401-00301, SCPMK401-00302
+**Sub-CPMK:** SCPMK0401-00301, SCPMK0401-00302
 
 ## Deskripsi
 Mahasiswa mengerjakan UTS yang mencakup materi pekan 1-7: analisis dan evaluasi argumen serta penerapan teknik pemecahan masalah pada kasus.

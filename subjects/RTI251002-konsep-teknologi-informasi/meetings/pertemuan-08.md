@@ -2,15 +2,15 @@
 course_code: RTI251002
 course_name: Konsep Teknologi Informasi
 meeting: 08
-sub_cpmk: SCPMK901-00201, SCPMK901-00202
+sub_cpmk: SCPMK0901-00201, SCPMK0901-00202
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Konsep Teknologi dan Sistem Komputer
 
 ## Kemampuan Akhir
-- SCPMK901-00201: Mahasiswa mampu menjelaskan konsep teknologi informasi, inovasi teknologi, perkembangan IPTEK dan ICT, serta etika rekayasa di bidang TI.
-- SCPMK901-00202: Mahasiswa mampu menjelaskan cara kerja sistem komputer beserta struktur, arsitektur, dan komponen utamanya.
+- SCPMK0901-00201: Mahasiswa mampu menjelaskan konsep teknologi informasi, inovasi teknologi, perkembangan IPTEK dan ICT, serta etika rekayasa di bidang TI.
+- SCPMK0901-00202: Mahasiswa mampu menjelaskan cara kerja sistem komputer beserta struktur, arsitektur, dan komponen utamanya.
 
 ## Materi Pembelajaran
 UTS: konsep teknologi, inovasi teknologi, perkembangan IPTEK, etika rekayasa, perkembangan ICT, sistem komputer, dan konsep sistem komputer.

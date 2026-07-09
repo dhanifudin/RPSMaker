@@ -2,14 +2,14 @@
 course_code: RTI252002
 course_name: Aljabar Linier
 meeting: 07
-sub_cpmk: SCPMK902-01102
+sub_cpmk: SCPMK0902-01102
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Determinan dan ekspansi kofaktor
 
 ## Kemampuan Akhir
-- SCPMK902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
+- SCPMK0902-01102: Mahasiswa mampu menerapkan operasi matriks (invers, transpose, determinan) untuk menyelesaikan permasalahan.
 
 ## Materi Pembelajaran
 Determinan dan ekspansi kofaktor.

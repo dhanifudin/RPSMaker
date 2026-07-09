@@ -2,14 +2,14 @@
 course_code: RTI255002
 course_name: Metodologi Penelitian
 meeting: 07
-sub_cpmk: SCPMK403-03803
+sub_cpmk: SCPMK0403-03803
 assessment_weight: 1.5
 ---
 
 # Pertemuan 07 - Metode Pengumpulan Data (Kuantitatif dan Kualitatif)
 
 ## Kemampuan Akhir
-- SCPMK403-03803: Mahasiswa mampu menyusun metode penelitian (pengumpulan data, instrumen, validitas) dan penulisan proposal skripsi/LA.
+- SCPMK0403-03803: Mahasiswa mampu menyusun metode penelitian (pengumpulan data, instrumen, validitas) dan penulisan proposal skripsi/LA.
 
 ## Materi Pembelajaran
 Metode Pengumpulan Data (Kuantitatif dan Kualitatif).

@@ -1,7 +1,7 @@
 ---
 course_code: RTI253003
 course_name: Kewarganegaraan
-sub_cpmk: SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104
+sub_cpmk: SCPMK0102-02101, SCPMK0102-02102, SCPMK0102-02103, SCPMK0102-02104
 assessment_form: Ujian akhir semester komprehensif (esai dan/atau pilihan ganda)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian akhir semester komprehensif (esai dan/atau pilihan ganda)
 
 **Bentuk Tugas/Evaluasi:** Ujian akhir semester komprehensif (esai dan/atau pilihan ganda)
 
-**Sub-CPMK:** SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104
+**Sub-CPMK:** SCPMK0102-02101, SCPMK0102-02102, SCPMK0102-02103, SCPMK0102-02104
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UAS yang mencakup seluruh materi minggu 1--16 secara komprehensif: identitas nasional, negara dan konstitusi, hubungan negara-warga negara, negara hukum, demokrasi, HAM, wawasan nusantara, ketahanan nasional, dan integrasi nasional.

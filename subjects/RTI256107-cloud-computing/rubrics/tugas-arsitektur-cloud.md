@@ -1,7 +1,7 @@
 ---
 course_code: RTI256107
 course_name: Cloud Computing
-sub_cpmk: SCPMK509-05101, SCPMK905-05102, SCPMK10.3-05103
+sub_cpmk: SCPMK0509-05101, SCPMK0905-05102, SCPMK1003-05103
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK509-05101, SCPMK905-05102, SCPMK10.3-05103
+**Sub-CPMK:** SCPMK0509-05101, SCPMK0905-05102, SCPMK1003-05103
 
 ## Deskripsi
 Mahasiswa merancang dan mendokumentasikan arsitektur cloud yang scalable dengan mempertimbangkan model layanan (IaaS/PaaS/SaaS), containerisasi, keamanan, dan estimasi biaya sesuai studi kasus yang diberikan.

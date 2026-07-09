@@ -1,7 +1,7 @@
 ---
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
-sub_cpmk: SCPMK602-01404, SCPMK802-01401
+sub_cpmk: SCPMK0602-01404, SCPMK0802-01401
 assessment_form: UAS (project presentation dan demo produk)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (project presentation dan demo produk)
 
 **Bentuk Tugas/Evaluasi:** UAS (project presentation dan demo produk)
 
-**Sub-CPMK:** SCPMK602-01404, SCPMK802-01401
+**Sub-CPMK:** SCPMK0602-01404, SCPMK0802-01401
 
 ## Deskripsi
 Mahasiswa mempresentasikan hasil akhir produk perangkat lunak yang dikembangkan selama satu semester, mendemonstrasikan fitur, dan mempertahankan argumen teknis di hadapan penguji.

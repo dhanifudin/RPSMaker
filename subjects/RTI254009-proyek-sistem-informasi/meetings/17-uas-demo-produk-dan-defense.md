@@ -2,15 +2,15 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 17
-sub_cpmk: SCPMK607-03604, SCPMK803-03603
+sub_cpmk: SCPMK0607-03604, SCPMK0803-03603
 assessment_weight: 15
 ---
 
 # Pertemuan 17 - UAS: Demo Produk dan Defense Proyek SI
 
 ## Kemampuan Akhir
-- SCPMK607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
-- SCPMK803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
+- SCPMK0607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
+- SCPMK0803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
 
 ## Materi Pembelajaran
 UAS: demo produk dan defense proyek SI.

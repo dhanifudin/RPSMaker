@@ -1,7 +1,7 @@
 ---
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
-sub_cpmk: SCPMK607-03604, SCPMK803-03603
+sub_cpmk: SCPMK0607-03604, SCPMK0803-03603
 assessment_form: UAS berbasis demo dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis demo dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis demo dan defense
 
-**Sub-CPMK:** SCPMK607-03604, SCPMK803-03603
+**Sub-CPMK:** SCPMK0607-03604, SCPMK0803-03603
 
 ## Deskripsi
 Mahasiswa mendemonstrasikan sistem informasi final yang deployable, menyerahkan laporan akhir proyek, dan mempertahankan hasil kerja tim.

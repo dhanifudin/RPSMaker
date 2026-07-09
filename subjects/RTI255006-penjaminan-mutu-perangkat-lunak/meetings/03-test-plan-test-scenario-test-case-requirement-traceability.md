@@ -2,14 +2,14 @@
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
 meeting: 03
-sub_cpmk: SCPMK608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, dan test case.
+sub_cpmk: SCPMK0608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, dan test case.
 assessment_weight: 4
 ---
 
 # Pertemuan 03 - Test plan; test scenario; test case; requirement traceability
 
 ## Kemampuan Akhir
-SCPMK608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, dan test case.
+SCPMK0608-04202: Mahasiswa mampu merancang dokumen test plan, test scenario, dan test case.
 
 ## Materi Pembelajaran
 Test plan; test scenario; test case; requirement traceability.

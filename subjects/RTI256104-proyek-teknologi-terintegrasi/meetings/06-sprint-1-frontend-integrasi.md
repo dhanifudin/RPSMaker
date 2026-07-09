@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 06
-sub_cpmk: SCPMK607-04805
+sub_cpmk: SCPMK0607-04805
 assessment_weight: 5
 ---
 
 # Pertemuan 06 - Sprint 1: Front-End dan Integrasi
 
 ## Kemampuan Akhir
-- SCPMK607-04805: Mahasiswa mampu mengintegrasikan solusi front-end, back-end, dan basis data dalam satu produk yang deployable.
+- SCPMK0607-04805: Mahasiswa mampu mengintegrasikan solusi front-end, back-end, dan basis data dalam satu produk yang deployable.
 
 ## Materi Pembelajaran
 Sprint 1: front-end dan integrasi.

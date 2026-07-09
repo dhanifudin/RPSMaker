@@ -2,15 +2,15 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 17
-sub_cpmk: SCPMK803-05403, SCPMK802-05402
+sub_cpmk: SCPMK0803-05403, SCPMK0802-05402
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS: demo produk dan defense kepada industri
 
 ## Kemampuan Akhir
-- SCPMK803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
-- SCPMK802-05402: Mahasiswa mampu mengeksekusi seluruh siklus hidup workshop industri dari perencanaan hingga demo produk.
+- SCPMK0803-05403: Mahasiswa mampu memimpin tim dalam workshop, mengelola backlog, dan melaporkan kemajuan kepada stakeholder industri.
+- SCPMK0802-05402: Mahasiswa mampu mengeksekusi seluruh siklus hidup workshop industri dari perencanaan hingga demo produk.
 
 ## Materi Pembelajaran
 UAS: demo produk dan defense kepada industri.

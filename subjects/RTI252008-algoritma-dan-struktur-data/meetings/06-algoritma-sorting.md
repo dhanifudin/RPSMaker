@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 meeting: 6
-sub_cpmk: SCPMK903-01701
+sub_cpmk: SCPMK0903-01701
 assessment_weight: 1.7
 ---
 
 # Pertemuan 6 - Algoritma Sorting
 
 ## Kemampuan Akhir
-- SCPMK903-01701: Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data.
+- SCPMK0903-01701: Mahasiswa mampu menganalisis permasalahan komputasi pada struktur data berbasis array of object, serta menjelaskan dan membandingkan pendekatan algoritmik untuk pengolahan dan pencarian data.
 
 ## Materi Pembelajaran
 Sorting: bubble sort, selection sort, dan insertion sort.

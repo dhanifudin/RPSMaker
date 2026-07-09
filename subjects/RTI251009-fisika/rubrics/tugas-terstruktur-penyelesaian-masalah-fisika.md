@@ -1,7 +1,7 @@
 ---
 course_code: RTI251009
 course_name: Fisika
-sub_cpmk: SCPMK902-00901, SCPMK902-00902, SCPMK902-00903, SCPMK902-00904
+sub_cpmk: SCPMK0902-00901, SCPMK0902-00902, SCPMK0902-00903, SCPMK0902-00904
 assessment_form: Tugas terstruktur
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur
 
-**Sub-CPMK:** SCPMK902-00901, SCPMK902-00902, SCPMK902-00903, SCPMK902-00904
+**Sub-CPMK:** SCPMK0902-00901, SCPMK0902-00902, SCPMK0902-00903, SCPMK0902-00904
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas terstruktur pemecahan masalah fisika pada setiap tahapan materi (pengukuran, mekanika, energi-momentum, dan kelistrikan) dengan konteks sistem teknologi informasi.

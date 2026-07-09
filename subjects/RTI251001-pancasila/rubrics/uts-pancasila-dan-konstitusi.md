@@ -1,7 +1,7 @@
 ---
 course_code: RTI251001
 course_name: Pancasila
-sub_cpmk: SCPMK102-00101, SCPMK102-00102
+sub_cpmk: SCPMK0102-00101, SCPMK0102-00102
 assessment_form: Ujian tertulis (esai dan/atau pilihan ganda)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian tertulis (esai dan/atau pilihan ganda)
 
 **Bentuk Tugas/Evaluasi:** Ujian tertulis (esai dan/atau pilihan ganda)
 
-**Sub-CPMK:** SCPMK102-00101, SCPMK102-00102
+**Sub-CPMK:** SCPMK0102-00101, SCPMK0102-00102
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tengah semester tertulis mencakup materi minggu 1-7: tinjauan historis-kultural-yuridis-filosofis, sejarah perjuangan bangsa, sistem filsafat, UUD RI 1945, amandemen, Trias Politika, dan kelembagaan negara.

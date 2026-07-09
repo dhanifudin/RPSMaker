@@ -2,14 +2,14 @@
 course_code: RTI252007
 course_name: Praktikum Basis Data
 meeting: 10
-sub_cpmk: SCPMK701-01601
+sub_cpmk: SCPMK0701-01601
 assessment_weight: 3.1
 ---
 
 # Pertemuan 10 - Pengantar MySQL dan DDL
 
 ## Kemampuan Akhir
-- SCPMK701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
+- SCPMK0701-01601: Mampu mengimplementasikan skema basis data dan mengeksekusi query SQL untuk mengelola data sesuai studi kasus melalui kegiatan praktikum.
 
 ## Materi Pembelajaran
 Pengantar MySQL dan DDL: tahapan implementasi basis data, bahasa SQL, perintah DDL (CREATE, ALTER, DROP) untuk membuat dan mengelola basis data dan tabel.

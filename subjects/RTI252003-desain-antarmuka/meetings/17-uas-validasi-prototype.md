@@ -2,15 +2,15 @@
 course_code: RTI252003
 course_name: Desain Antarmuka
 meeting: 17
-sub_cpmk: SCPMK601-01203, SCPMK802-01204
+sub_cpmk: SCPMK0601-01203, SCPMK0802-01204
 assessment_weight: 25
 ---
 
 # Pertemuan 17 - UAS validasi prototype
 
 ## Kemampuan Akhir
-- SCPMK601-01203: Mahasiswa mampu menghasilkan prototipe interaktif dan mengevaluasi usability berdasarkan skenario pengujian.
-- SCPMK802-01204: Mahasiswa mampu mengelola artefak proyek UI/UX, mempresentasikan rationale desain, dan menyusun rekomendasi perbaikan.
+- SCPMK0601-01203: Mahasiswa mampu menghasilkan prototipe interaktif dan mengevaluasi usability berdasarkan skenario pengujian.
+- SCPMK0802-01204: Mahasiswa mampu mengelola artefak proyek UI/UX, mempresentasikan rationale desain, dan menyusun rekomendasi perbaikan.
 
 ## Materi Pembelajaran
 UAS validasi prototype.

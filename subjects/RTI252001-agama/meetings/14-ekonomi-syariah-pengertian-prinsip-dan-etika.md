@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 14
-sub_cpmk: SCPMK102-01004
+sub_cpmk: SCPMK0102-01004
 assessment_weight: 5
 ---
 
 # Pertemuan 14 - Ekonomi Syariah: Pengertian, Prinsip, dan Etika
 
 ## Kemampuan Akhir
-- SCPMK102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
+- SCPMK0102-01004: Mahasiswa mampu merefleksikan nilai-nilai keagamaan dalam pengambilan keputusan etis di lingkungan kampus.
 
 ## Materi Pembelajaran
 Ekonomi Syariah: pengertian, prinsip, dan etika ekonomi syariah.

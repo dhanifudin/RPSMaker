@@ -1,7 +1,7 @@
 ---
 course_code: RTI251001
 course_name: Pancasila
-sub_cpmk: SCPMK102-00101, SCPMK102-00102, SCPMK102-00103, SCPMK102-00104
+sub_cpmk: SCPMK0102-00101, SCPMK0102-00102, SCPMK0102-00103, SCPMK0102-00104
 assessment_form: Tugas individu/kelompok
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas individu/kelompok
 
 **Bentuk Tugas/Evaluasi:** Tugas individu/kelompok
 
-**Sub-CPMK:** SCPMK102-00101, SCPMK102-00102, SCPMK102-00103, SCPMK102-00104
+**Sub-CPMK:** SCPMK0102-00101, SCPMK0102-00102, SCPMK0102-00103, SCPMK0102-00104
 
 ## Deskripsi
 Mahasiswa menyusun kajian tertulis dan presentasi tentang materi Pancasila tiap pertemuan: tinjauan historis-filosofis, UUD 1945 dan kelembagaan negara, ideologi nasional, serta Pancasila dan HAM.

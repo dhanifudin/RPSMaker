@@ -2,15 +2,15 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 08
-sub_cpmk: SCPMK211-02001, SCPMK211-02002
+sub_cpmk: SCPMK0211-02001, SCPMK0211-02002
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - Ujian Tengah Semester (UTS)
 
 ## Kemampuan Akhir
-- SCPMK211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
-- SCPMK211-02002: Mahasiswa mampu merancang model konseptual SIM berdasarkan analisis proses bisnis dan alur keputusan.
+- SCPMK0211-02001: Mahasiswa mampu menganalisis konsep dasar sistem, informasi, dan struktur SIM untuk kebutuhan organisasi.
+- SCPMK0211-02002: Mahasiswa mampu merancang model konseptual SIM berdasarkan analisis proses bisnis dan alur keputusan.
 
 ## Materi Pembelajaran
 Evaluasi tengah semester mencakup seluruh materi pertemuan 1--7: konsep sistem, TI, data/informasi, struktur SIM, organisasi, dan pengambilan keputusan berbasis SI.

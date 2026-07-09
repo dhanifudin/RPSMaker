@@ -1,7 +1,7 @@
 ---
 course_code: RTI251004
 course_name: Matematika Dasar
-sub_cpmk: SCPMK902-00403, SCPMK902-00404
+sub_cpmk: SCPMK0902-00403, SCPMK0902-00404
 assessment_form: UAS (ujian tulis)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (ujian tulis)
 
 **Bentuk Tugas/Evaluasi:** UAS (ujian tulis)
 
-**Sub-CPMK:** SCPMK902-00403, SCPMK902-00404
+**Sub-CPMK:** SCPMK0902-00403, SCPMK0902-00404
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian akhir semester individual yang mencakup materi pertemuan 1 s.d. 16 dengan penekanan pada induksi, aljabar Boolean, kombinatorial, graf, dan pohon.

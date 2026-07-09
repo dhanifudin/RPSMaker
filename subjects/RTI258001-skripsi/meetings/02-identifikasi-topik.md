@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 02
-sub_cpmk: SCPMK10.9-05805
+sub_cpmk: SCPMK1009-05805
 assessment_weight: 2
 ---
 
 # Milestone 02 - Identifikasi Topik dan Tinjauan Awal Literatur
 
 ## Kemampuan Akhir
-- SCPMK10.9-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
+- SCPMK1009-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
 
 ## Materi Pembelajaran
 Identifikasi topik dan tinjauan awal literatur.

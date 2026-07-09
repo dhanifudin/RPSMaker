@@ -1,7 +1,7 @@
 ---
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
-sub_cpmk: SCPMK706-02801
+sub_cpmk: SCPMK0706-02801
 assessment_form: Kuis tertulis
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis tertulis
 
 **Bentuk Tugas/Evaluasi:** Kuis tertulis
 
-**Sub-CPMK:** SCPMK706-02801
+**Sub-CPMK:** SCPMK0706-02801
 
 ## Deskripsi
 Mahasiswa menjawab soal perhitungan dan konseptual terkait teori SPK, MCDM, WSM, dan WPM.

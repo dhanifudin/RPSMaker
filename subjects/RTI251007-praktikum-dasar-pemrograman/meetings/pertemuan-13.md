@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 13
-sub_cpmk: SCPMK704-00704
+sub_cpmk: SCPMK0704-00704
 assessment_weight: 2
 ---
 
 # Pertemuan 13 - Fungsi 1: parameter, return, dan pemanggilan fungsi
 
 ## Kemampuan Akhir
-- SCPMK704-00704: Mahasiswa mampu menerapkan fungsi, parameter, dan return dalam program Java.
+- SCPMK0704-00704: Mahasiswa mampu menerapkan fungsi, parameter, dan return dalam program Java.
 
 ## Materi Pembelajaran
 - Tipe data fungsi

@@ -2,14 +2,14 @@
 course_code: RTI251001
 course_name: Pancasila
 meeting: 03
-sub_cpmk: SCPMK102-00101
+sub_cpmk: SCPMK0102-00101
 assessment_weight: 5
 ---
 
 # Pertemuan 03 - Pancasila sebagai sistem filsafat
 
 ## Kemampuan Akhir
-- SCPMK102-00101: Mahasiswa mampu menjelaskan Pendidikan Pancasila dalam tinjauan historis, kultural, yuridis, dan filosofis, konteks sejarah perjuangan bangsa Indonesia, serta Pancasila sebagai sistem filsafat.
+- SCPMK0102-00101: Mahasiswa mampu menjelaskan Pendidikan Pancasila dalam tinjauan historis, kultural, yuridis, dan filosofis, konteks sejarah perjuangan bangsa Indonesia, serta Pancasila sebagai sistem filsafat.
 
 ## Materi Pembelajaran
 Pancasila sebagai sistem filsafat; unsur filsafat, hierarki nilai, dan penerapannya sehari-hari. Kuis 1.

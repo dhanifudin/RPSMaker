@@ -2,14 +2,14 @@
 course_code: RTI256105
 course_name: Internet of Things
 meeting: 07
-sub_cpmk: SCPMK503-04902
+sub_cpmk: SCPMK0503-04902
 assessment_weight: 2
 ---
 
 # Pertemuan 07 - Gateway IoT dan Edge Computing
 
 ## Kemampuan Akhir
-- SCPMK503-04902: Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi.
+- SCPMK0503-04902: Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi.
 
 ## Materi Pembelajaran
 Gateway IoT dan edge computing.

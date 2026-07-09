@@ -2,14 +2,14 @@
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
 meeting: 09
-sub_cpmk: SCPMK708-01801
+sub_cpmk: SCPMK0708-01801
 assessment_weight: 0.5
 ---
 
 # Pertemuan 09 - Struktur data stack
 
 ## Kemampuan Akhir
-- SCPMK708-01801: Mahasiswa mampu mengimplementasikan struktur data linear dan mengintegrasikannya ke dalam algoritma untuk menyelesaikan permasalahan komputasi.
+- SCPMK0708-01801: Mahasiswa mampu mengimplementasikan struktur data linear dan mengintegrasikannya ke dalam algoritma untuk menyelesaikan permasalahan komputasi.
 
 ## Materi Pembelajaran
 Konsep struktur data stack, operasi-operasi pada stack, dan postfix expressions.

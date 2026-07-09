@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 02
-sub_cpmk: SCPMK303-05301
+sub_cpmk: SCPMK0303-05301
 assessment_weight: 2
 ---
 
 # Pertemuan 02 - Pemetaan Minat dan Potensi Karir
 
 ## Kemampuan Akhir
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
 
 ## Materi Pembelajaran
 Pemetaan minat dan potensi karir: teori minat karir (Holland, MBTI, RIASEC), instrumen penilaian diri, analisis kekuatan dan kelemahan, serta kesesuaian potensi dengan peluang karir di bidang informatika.

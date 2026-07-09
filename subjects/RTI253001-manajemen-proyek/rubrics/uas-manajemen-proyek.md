@@ -1,7 +1,7 @@
 ---
 course_code: RTI253001
 course_name: Manajemen Proyek
-sub_cpmk: SCPMK801-01901, SCPMK803-01902, SCPMK302-01903, SCPMK402-01904
+sub_cpmk: SCPMK0801-01901, SCPMK0803-01902, SCPMK0302-01903, SCPMK0402-01904
 assessment_form: UAS (tes tulis/online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (tes tulis/online)
 
 **Bentuk Tugas/Evaluasi:** UAS (tes tulis/online)
 
-**Sub-CPMK:** SCPMK801-01901, SCPMK803-01902, SCPMK302-01903, SCPMK402-01904
+**Sub-CPMK:** SCPMK0801-01901, SCPMK0803-01902, SCPMK0302-01903, SCPMK0402-01904
 
 ## Deskripsi
 Mahasiswa menjawab soal UAS materi pertemuan 1-16 yang mencakup seluruh knowledge area, Agile, penutupan proyek, dan dokumentasi proyek.

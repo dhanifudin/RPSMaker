@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 07
-sub_cpmk: SCPMK102-01002
+sub_cpmk: SCPMK0102-01002
 assessment_weight: 10
 ---
 
 # Pertemuan 07 - Konsep Manusia: Pandangan Islam, Fungsi dan Tugas Hidup, serta Hakikat Dunia dan Akhirat
 
 ## Kemampuan Akhir
-- SCPMK102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
+- SCPMK0102-01002: Mahasiswa mampu bertindak jujur dalam pengerjaan tugas, ujian, dan interaksi akademik.
 
 ## Materi Pembelajaran
 Konsep Manusia: manusia dalam pandangan Islam, fungsi dan tugas hidup manusia, hakikat kehidupan dunia dan akhirat.

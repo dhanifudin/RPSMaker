@@ -2,14 +2,14 @@
 course_code: RTI254003
 course_name: Bahasa Indonesia
 meeting: 16
-sub_cpmk: SCPMK401-03002
+sub_cpmk: SCPMK0401-03002
 assessment_weight: 22
 ---
 
 # Pertemuan 16 - PBL: Penulisan Karya Tulis Ilmiah
 
 ## Kemampuan Akhir
-- SCPMK401-03002: Mahasiswa mampu menyusun karya tulis ilmiah sederhana dengan rumusan masalah, metodologi, pembahasan, dan kesimpulan yang valid sesuai kaidah akademik.
+- SCPMK0401-03002: Mahasiswa mampu menyusun karya tulis ilmiah sederhana dengan rumusan masalah, metodologi, pembahasan, dan kesimpulan yang valid sesuai kaidah akademik.
 
 ## Materi Pembelajaran
 PBL: penulisan karya tulis ilmiah.

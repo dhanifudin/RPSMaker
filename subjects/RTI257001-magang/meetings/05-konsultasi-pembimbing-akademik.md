@@ -2,14 +2,14 @@
 course_code: RTI257001
 course_name: Magang
 meeting: 05
-sub_cpmk: SCPMK804-05703
+sub_cpmk: SCPMK0804-05703
 assessment_weight: 3
 ---
 
 # Milestone 05 - Konsultasi Pembimbing Akademik: Identifikasi Proyek Industri
 
 ## Kemampuan Akhir
-- SCPMK804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
+- SCPMK0804-05703: Mahasiswa mampu menyelesaikan target pekerjaan industri yang diberikan pembimbing lapangan secara mandiri dan tepat waktu.
 
 ## Materi Pembelajaran
 Konsultasi pembimbing akademik: identifikasi proyek industri.

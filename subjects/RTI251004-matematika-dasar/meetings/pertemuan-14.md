@@ -2,14 +2,14 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 14
-sub_cpmk: SCPMK902-00404
+sub_cpmk: SCPMK0902-00404
 assessment_weight: 1.5
 ---
 
 # Pertemuan 14 - Definisi dan Jenis Graf
 
 ## Kemampuan Akhir
-- SCPMK902-00404: Mahasiswa mampu menerapkan konsep graf dan pohon untuk merepresentasikan dan menyelesaikan persoalan komputasi.
+- SCPMK0902-00404: Mahasiswa mampu menerapkan konsep graf dan pohon untuk merepresentasikan dan menyelesaikan persoalan komputasi.
 
 ## Materi Pembelajaran
 Definisi graf; jenis graf; terminologi graf.

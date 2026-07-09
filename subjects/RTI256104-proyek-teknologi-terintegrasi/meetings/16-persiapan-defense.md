@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 16
-sub_cpmk: SCPMK804-04804
+sub_cpmk: SCPMK0804-04804
 assessment_weight: 4
 ---
 
 # Pertemuan 16 - Persiapan Defense dan Latihan Presentasi
 
 ## Kemampuan Akhir
-- SCPMK804-04804: Mahasiswa mampu mendemonstrasikan produk akhir proyek TI terintegrasi dengan defense teknis yang komprehensif.
+- SCPMK0804-04804: Mahasiswa mampu mendemonstrasikan produk akhir proyek TI terintegrasi dengan defense teknis yang komprehensif.
 
 ## Materi Pembelajaran
 Persiapan defense dan latihan presentasi.

@@ -2,14 +2,14 @@
 course_code: RTI255003
 course_name: Pemrograman Mobile
 meeting: 08
-sub_cpmk: SCPMK10.6-03903
+sub_cpmk: SCPMK1006-03903
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS UI/UX aplikasi mobile
 
 ## Kemampuan Akhir
-- SCPMK10.6-03903: Mahasiswa mampu menganalisis kebutuhan UI/UX mobile dan mengevaluasi kualitas aplikasi berdasarkan fungsi, integrasi, dan pengalaman pengguna.
+- SCPMK1006-03903: Mahasiswa mampu menganalisis kebutuhan UI/UX mobile dan mengevaluasi kualitas aplikasi berdasarkan fungsi, integrasi, dan pengalaman pengguna.
 
 ## Materi Pembelajaran
 UTS UI/UX aplikasi mobile.

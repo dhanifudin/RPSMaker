@@ -2,14 +2,14 @@
 course_code: RTI254001
 course_name: Sistem Pendukung Keputusan
 meeting: 12
-sub_cpmk: SCPMK706-02804
+sub_cpmk: SCPMK0706-02804
 assessment_weight: 2.8
 ---
 
 # Pertemuan 12 - Fuzzy DSS 2: Implementasi Fuzzy MCDM
 
 ## Kemampuan Akhir
-- SCPMK706-02804: Mahasiswa mampu mengimplementasikan Group Decision Support Systems (GDSS) dan metode fuzzy untuk menangani ketidakpastian dan penilaian linguistik dalam SPK.
+- SCPMK0706-02804: Mahasiswa mampu mengimplementasikan Group Decision Support Systems (GDSS) dan metode fuzzy untuk menangani ketidakpastian dan penilaian linguistik dalam SPK.
 
 ## Materi Pembelajaran
 Fuzzy DSS 2: implementasi fuzzy MCDM.

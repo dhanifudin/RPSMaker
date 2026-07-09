@@ -1,7 +1,7 @@
 ---
 course_code: RTI252003
 course_name: Desain Antarmuka
-sub_cpmk: SCPMK202-01201, SCPMK202-01202
+sub_cpmk: SCPMK0202-01201, SCPMK0202-01202
 assessment_form: UTS berbasis presentasi artefak
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis presentasi artefak
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis presentasi artefak
 
-**Sub-CPMK:** SCPMK202-01201, SCPMK202-01202
+**Sub-CPMK:** SCPMK0202-01201, SCPMK0202-01202
 
 ## Deskripsi
 Mahasiswa menyelesaikan uts review artefak desain awal sesuai Sub-CPMK dan konteks mata kuliah.

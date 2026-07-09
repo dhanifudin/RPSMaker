@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 04
-sub_cpmk: SCPMK303-05301
+sub_cpmk: SCPMK0303-05301
 assessment_weight: 2
 ---
 
 # Pertemuan 04 - Profesi Bidang Informatika
 
 ## Kemampuan Akhir
-- SCPMK303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
+- SCPMK0303-05301: Mahasiswa mampu mengidentifikasi dan menganalisis minat, bakat, potensi diri, serta peluang karir sesuai kompetensi dan tren industri informatika.
 
 ## Materi Pembelajaran
 Profesi bidang informatika: peta profesi (software engineer, data scientist, cybersecurity specialist, cloud architect, UI/UX designer, AI engineer, dll.); kompetensi dan sertifikasi yang relevan; jalur karir dan prospek industri; analisis tren permintaan pasar kerja.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI251009
 course_name: Fisika
-sub_cpmk: SCPMK902-00901, SCPMK902-00903
+sub_cpmk: SCPMK0902-00901, SCPMK0902-00903
 assessment_form: Kuis (pilihan ganda dan/atau esai, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (pilihan ganda dan/atau esai, closed book)
 
 **Bentuk Tugas/Evaluasi:** Kuis (pilihan ganda dan/atau esai, closed book)
 
-**Sub-CPMK:** SCPMK902-00901, SCPMK902-00903
+**Sub-CPMK:** SCPMK0902-00901, SCPMK0902-00903
 
 ## Deskripsi
 Kuis 1 (pekan 4) menguji materi pekan 1-3: hakikat fisika, metode ilmiah, dan pengukuran. Kuis 2 (pekan 12) menguji materi pekan 10-11: usaha, energi, impuls, dan momentum.

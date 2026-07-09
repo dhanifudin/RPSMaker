@@ -1,7 +1,7 @@
 ---
 course_code: RTI256108
 course_name: Komputasi Hijau
-sub_cpmk: SCPMK509-05202
+sub_cpmk: SCPMK0509-05202
 assessment_form: UAS presentasi dan defense
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan defense
 
-**Sub-CPMK:** SCPMK509-05202
+**Sub-CPMK:** SCPMK0509-05202
 
 ## Deskripsi
 Mahasiswa merancang infrastruktur TI berkelanjutan yang mengintegrasikan efisiensi energi, virtualisasi, renewable energy, dan prinsip green software engineering untuk konteks organisasi yang ditentukan.

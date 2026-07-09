@@ -2,14 +2,14 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 01
-sub_cpmk: SCPMK705-04301
+sub_cpmk: SCPMK0705-04301
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengantar Pengolahan Citra: Representasi dan Format
 
 ## Kemampuan Akhir
-- SCPMK705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
+- SCPMK0705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
 
 ## Materi Pembelajaran
 Pengantar pengolahan citra: representasi dan format.

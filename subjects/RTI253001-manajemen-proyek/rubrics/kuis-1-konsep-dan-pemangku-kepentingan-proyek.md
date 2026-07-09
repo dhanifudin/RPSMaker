@@ -1,7 +1,7 @@
 ---
 course_code: RTI253001
 course_name: Manajemen Proyek
-sub_cpmk: SCPMK801-01901, SCPMK302-01903
+sub_cpmk: SCPMK0801-01901, SCPMK0302-01903
 assessment_form: Kuis (tes tulis/online)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis (tes tulis/online)
 
 **Bentuk Tugas/Evaluasi:** Kuis (tes tulis/online)
 
-**Sub-CPMK:** SCPMK801-01901, SCPMK302-01903
+**Sub-CPMK:** SCPMK0801-01901, SCPMK0302-01903
 
 ## Deskripsi
 Mahasiswa menjawab soal kuis materi pertemuan 1-3: konsep proyek dan manajemen proyek, manajemen integrasi, serta manajemen pemangku kepentingan.

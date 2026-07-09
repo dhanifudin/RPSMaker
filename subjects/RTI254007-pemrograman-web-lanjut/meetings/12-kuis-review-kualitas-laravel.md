@@ -2,14 +2,14 @@
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
 meeting: 12
-sub_cpmk: SCPMK10.6-03403
+sub_cpmk: SCPMK1006-03403
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Kuis/review kualitas Laravel
 
 ## Kemampuan Akhir
-- SCPMK10.6-03403: Mahasiswa mampu mengevaluasi kualitas aplikasi Laravel berdasarkan fungsi, keamanan, API, dan kebutuhan pengguna.
+- SCPMK1006-03403: Mahasiswa mampu mengevaluasi kualitas aplikasi Laravel berdasarkan fungsi, keamanan, API, dan kebutuhan pengguna.
 
 ## Materi Pembelajaran
 Kuis/review kualitas Laravel.

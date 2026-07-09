@@ -1,7 +1,7 @@
 ---
 course_code: RTI254005
 course_name: Jaringan Komputer
-sub_cpmk: SCPMK504-03201, SCPMK901-03202, SCPMK10.2-03203
+sub_cpmk: SCPMK0504-03201, SCPMK0901-03202, SCPMK1002-03203
 assessment_form: Case Method dan praktik konfigurasi jaringan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method dan praktik konfigurasi jaringan
 
 **Bentuk Tugas/Evaluasi:** Case Method dan praktik konfigurasi jaringan
 
-**Sub-CPMK:** SCPMK504-03201, SCPMK901-03202, SCPMK10.2-03203
+**Sub-CPMK:** SCPMK0504-03201, SCPMK0901-03202, SCPMK1002-03203
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas menganalisis arsitektur jaringan, mengkonfigurasi protokol, dan menganalisis aspek keamanan sesuai Sub-CPMK dan konteks mata kuliah.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI254005
 course_name: Jaringan Komputer
-sub_cpmk: SCPMK504-03201, SCPMK10.2-03203
+sub_cpmk: SCPMK0504-03201, SCPMK1002-03203
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK504-03201, SCPMK10.2-03203
+**Sub-CPMK:** SCPMK0504-03201, SCPMK1002-03203
 
 ## Deskripsi
 Mahasiswa merancang infrastruktur jaringan komputer lengkap beserta analisis keamanannya untuk skenario organisasi yang diberikan.

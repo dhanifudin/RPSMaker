@@ -1,7 +1,7 @@
 ---
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
-sub_cpmk: SCPMK210-02501
+sub_cpmk: SCPMK0210-02501
 assessment_form: UTS berbasis pemrograman
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS berbasis pemrograman
 
 **Bentuk Tugas/Evaluasi:** UTS berbasis pemrograman
 
-**Sub-CPMK:** SCPMK210-02501
+**Sub-CPMK:** SCPMK0210-02501
 
 ## Deskripsi
 Evaluasi tengah semester untuk mengukur kemampuan implementasi konsep OOP dasar menggunakan Java.

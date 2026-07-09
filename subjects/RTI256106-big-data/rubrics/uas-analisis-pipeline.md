@@ -1,7 +1,7 @@
 ---
 course_code: RTI256106
 course_name: Big Data
-sub_cpmk: SCPMK702-05001, SCPMK904-05002
+sub_cpmk: SCPMK0702-05001, SCPMK0904-05002
 assessment_form: UAS berbasis demo dan presentasi
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis demo dan presentasi
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis demo dan presentasi
 
-**Sub-CPMK:** SCPMK702-05001, SCPMK904-05002
+**Sub-CPMK:** SCPMK0702-05001, SCPMK0904-05002
 
 ## Deskripsi
 Mahasiswa mendemokan pipeline Big Data yang telah diimplementasikan, menganalisis arsitektur dan performa, serta mempertahankan keputusan teknis secara komprehensif.

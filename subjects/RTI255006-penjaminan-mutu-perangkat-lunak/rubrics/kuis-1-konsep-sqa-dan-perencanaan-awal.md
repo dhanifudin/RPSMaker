@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04201, SCPMK608-04202
+sub_cpmk: SCPMK0608-04201, SCPMK0608-04202
 assessment_form: Kuis berbasis checkpoint PBL kelompok
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Kuis berbasis checkpoint PBL kelompok
 
 **Bentuk Tugas/Evaluasi:** Kuis berbasis checkpoint PBL kelompok
 
-**Sub-CPMK:** SCPMK608-04201, SCPMK608-04202
+**Sub-CPMK:** SCPMK0608-04201, SCPMK0608-04202
 
 ## Deskripsi
 Mahasiswa mengevaluasi kesiapan awal proyek kelompok melalui konteks QA, pemetaan standar mutu, ruang lingkup pengujian, risiko awal, dan traceability awal.

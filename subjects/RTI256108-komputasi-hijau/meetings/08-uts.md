@@ -2,15 +2,15 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 08
-sub_cpmk: SCPMK101-05201, SCPMK509-05202
+sub_cpmk: SCPMK0101-05201, SCPMK0509-05202
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Carbon Footprint dan Efisiensi Energi
 
 ## Kemampuan Akhir
-- SCPMK101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
-- SCPMK509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
+- SCPMK0101-05201: Mahasiswa mampu menganalisis dampak lingkungan dari infrastruktur TI dan merekomendasikan strategi komputasi hijau berbasis etika profesi.
+- SCPMK0509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
 
 ## Materi Pembelajaran
 UTS carbon footprint dan efisiensi energi.

@@ -2,14 +2,14 @@
 course_code: RTI256001
 course_name: Komunikasi dan Etika Profesi
 meeting: 02
-sub_cpmk: SCPMK101-04501
+sub_cpmk: SCPMK0101-04501
 assessment_weight: 3
 ---
 
 # Pertemuan 02 - Hukum ITE dan regulasi perlindungan data digital
 
 ## Kemampuan Akhir
-- SCPMK101-04501: Mahasiswa mampu menganalisis kasus pelanggaran etika profesi, hukum ITE, dan K3 untuk merekomendasikan tindakan yang tepat.
+- SCPMK0101-04501: Mahasiswa mampu menganalisis kasus pelanggaran etika profesi, hukum ITE, dan K3 untuk merekomendasikan tindakan yang tepat.
 
 ## Materi Pembelajaran
 Hukum ITE dan regulasi perlindungan data digital.

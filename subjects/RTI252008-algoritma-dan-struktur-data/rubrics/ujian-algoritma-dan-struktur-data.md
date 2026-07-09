@@ -2,14 +2,14 @@
 course_code: RTI252008
 course_name: Algoritma dan Struktur Data
 instrument: Ujian (4 kali)
-sub_cpmk: SCPMK207-01701, SCPMK903-01701
+sub_cpmk: SCPMK0207-01701, SCPMK0903-01701
 weight: 80
 ---
 
 # Rubrik Ujian Algoritma dan Struktur Data
 
 **Instrumen**: Ujian 1 (20%) + Ujian 2 (20%) + Ujian 3 (20%) + Ujian 4/UAS (20%)
-**Sub-CPMK**: SCPMK903-01701 (Ujian 1–2), SCPMK207-01701 (Ujian 3–4)
+**Sub-CPMK**: SCPMK0903-01701 (Ujian 1–2), SCPMK0207-01701 (Ujian 3–4)
 **Total Bobot**: 80%
 
 ## Kriteria Penilaian

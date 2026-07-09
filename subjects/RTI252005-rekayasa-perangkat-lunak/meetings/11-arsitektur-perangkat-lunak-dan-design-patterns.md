@@ -2,14 +2,14 @@
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
 meeting: 11
-sub_cpmk: SCPMK602-01404
+sub_cpmk: SCPMK0602-01404
 assessment_weight: 10
 ---
 
 # Pertemuan 11 - Arsitektur perangkat lunak dan pola desain (Design Patterns)
 
 ## Kemampuan Akhir
-- SCPMK602-01404: Mahasiswa mampu merancang arsitektur sistem dan memilih pola desain (Design Patterns) yang sistematis.
+- SCPMK0602-01404: Mahasiswa mampu merancang arsitektur sistem dan memilih pola desain (Design Patterns) yang sistematis.
 
 ## Materi Pembelajaran
 Arsitektur perangkat lunak dan pola desain (Design Patterns).

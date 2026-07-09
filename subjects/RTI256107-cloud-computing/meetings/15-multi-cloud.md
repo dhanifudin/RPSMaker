@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 15
-sub_cpmk: SCPMK10.3-05103
+sub_cpmk: SCPMK1003-05103
 assessment_weight: 3
 ---
 
 # Pertemuan 15 - Multi-Cloud dan Hybrid Cloud Strategy
 
 ## Kemampuan Akhir
-- SCPMK10.3-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
+- SCPMK1003-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
 
 ## Materi Pembelajaran
 Multi-cloud dan hybrid cloud strategy.

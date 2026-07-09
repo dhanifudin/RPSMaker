@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 02
-sub_cpmk: SCPMK102-01001
+sub_cpmk: SCPMK0102-01001
 assessment_weight: 3.75
 ---
 
 # Pertemuan 02 - Manusia dan Agama: Konsep Agama dan Islam, Agama Kebutuhan Manusia, dan Dimensi Ajaran Islam
 
 ## Kemampuan Akhir
-- SCPMK102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
+- SCPMK0102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
 
 ## Materi Pembelajaran
 Manusia dan Agama: konsep agama dan Islam, agama kebutuhan manusia, dan dimensi ajaran Islam.

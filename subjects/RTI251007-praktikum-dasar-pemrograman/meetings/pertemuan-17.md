@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 17
-sub_cpmk: SCPMK704-00704
+sub_cpmk: SCPMK0704-00704
 assessment_weight: 30
 ---
 
 # Pertemuan 17 - Ujian Akhir Semester: demo project
 
 ## Kemampuan Akhir
-- SCPMK704-00704: Mahasiswa mampu membangun program Java utuh untuk menyelesaikan studi kasus dan mendemonstrasikannya.
+- SCPMK0704-00704: Mahasiswa mampu membangun program Java utuh untuk menyelesaikan studi kasus dan mendemonstrasikannya.
 
 ## Materi Pembelajaran
 - Ujian Akhir Semester: demo project

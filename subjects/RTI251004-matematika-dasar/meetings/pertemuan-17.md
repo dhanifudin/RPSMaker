@@ -2,15 +2,15 @@
 course_code: RTI251004
 course_name: Matematika Dasar
 meeting: 17
-sub_cpmk: SCPMK902-00403, SCPMK902-00404
+sub_cpmk: SCPMK0902-00403, SCPMK0902-00404
 assessment_weight: 35
 ---
 
 # Pertemuan 17 - UAS Materi Pertemuan 1 s.d. 16
 
 ## Kemampuan Akhir
-- SCPMK902-00403: Mahasiswa mampu menerapkan induksi matematika, aljabar Boolean, dan kombinatorial dalam analisis persoalan komputasional.
-- SCPMK902-00404: Mahasiswa mampu menerapkan konsep graf dan pohon untuk merepresentasikan dan menyelesaikan persoalan komputasi.
+- SCPMK0902-00403: Mahasiswa mampu menerapkan induksi matematika, aljabar Boolean, dan kombinatorial dalam analisis persoalan komputasional.
+- SCPMK0902-00404: Mahasiswa mampu menerapkan konsep graf dan pohon untuk merepresentasikan dan menyelesaikan persoalan komputasi.
 
 ## Materi Pembelajaran
 UAS: materi pertemuan 1 s.d. 16 dengan penekanan induksi, aljabar Boolean, kombinatorial, graf, dan pohon.

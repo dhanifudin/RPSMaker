@@ -2,14 +2,14 @@
 course_code: RTI252001
 course_name: Agama
 meeting: 04
-sub_cpmk: SCPMK102-01001
+sub_cpmk: SCPMK0102-01001
 assessment_weight: 3.75
 ---
 
 # Pertemuan 04 - Konsep Tauhid: Kebutuhan Manusia, Syirik, dan Dampak Tauhid
 
 ## Kemampuan Akhir
-- SCPMK102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
+- SCPMK0102-01001: Mahasiswa mampu menghargai perbedaan keyakinan dan agama dalam interaksi akademik dan sosial.
 
 ## Materi Pembelajaran
 Konsep Tauhid: tauhid kebutuhan manusia, problem syirik, dan dampak tauhid.

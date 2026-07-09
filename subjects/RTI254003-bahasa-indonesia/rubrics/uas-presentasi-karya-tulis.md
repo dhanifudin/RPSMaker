@@ -1,7 +1,7 @@
 ---
 course_code: RTI254003
 course_name: Bahasa Indonesia
-sub_cpmk: SCPMK301-03001, SCPMK401-03002
+sub_cpmk: SCPMK0301-03001, SCPMK0401-03002
 assessment_form: UAS presentasi dan pengumpulan
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS presentasi dan pengumpulan
 
 **Bentuk Tugas/Evaluasi:** UAS presentasi dan pengumpulan
 
-**Sub-CPMK:** SCPMK301-03001, SCPMK401-03002
+**Sub-CPMK:** SCPMK0301-03001, SCPMK0401-03002
 
 ## Deskripsi
 Mahasiswa mempresentasikan karya tulis ilmiah yang telah disusun dan mengumpulkan versi finalnya.

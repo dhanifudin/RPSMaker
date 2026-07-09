@@ -2,14 +2,14 @@
 course_code: RTI256204
 course_name: Proyek Inovasi
 meeting: 16
-sub_cpmk: SCPMK804-05303
+sub_cpmk: SCPMK0804-05303
 assessment_weight: 4
 ---
 
 # Pertemuan 16 - Latihan Presentasi dan Pitch
 
 ## Kemampuan Akhir
-- SCPMK804-05303: Mahasiswa mampu mempresentasikan hasil proyek inovasi dengan defense teknis dan bisnis yang komprehensif.
+- SCPMK0804-05303: Mahasiswa mampu mempresentasikan hasil proyek inovasi dengan defense teknis dan bisnis yang komprehensif.
 
 ## Materi Pembelajaran
 Latihan presentasi dan pitch.

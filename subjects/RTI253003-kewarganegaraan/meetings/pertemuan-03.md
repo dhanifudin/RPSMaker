@@ -2,14 +2,14 @@
 course_code: RTI253003
 course_name: Kewarganegaraan
 meeting: 03
-sub_cpmk: SCPMK102-02101
+sub_cpmk: SCPMK0102-02101
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Negara dan Konstitusi
 
 ## Kemampuan Akhir
-- SCPMK102-02101: Mahasiswa mampu menjelaskan konsep identitas nasional, negara, konstitusi, dan hubungan negara dengan warga negara sebagai fondasi kehidupan berbangsa dan bernegara.
+- SCPMK0102-02101: Mahasiswa mampu menjelaskan konsep identitas nasional, negara, konstitusi, dan hubungan negara dengan warga negara sebagai fondasi kehidupan berbangsa dan bernegara.
 
 ## Materi Pembelajaran
 Negara dan konstitusi: pengertian negara, pengertian konstitusi, dan peranan konstitusi dalam kehidupan bernegara.

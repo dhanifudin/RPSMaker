@@ -1,7 +1,7 @@
 ---
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
-sub_cpmk: SCPMK802-01401, SCPMK602-01404, SCPMK205-01405
+sub_cpmk: SCPMK0802-01401, SCPMK0602-01404, SCPMK0205-01405
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK802-01401, SCPMK602-01404, SCPMK205-01405
+**Sub-CPMK:** SCPMK0802-01401, SCPMK0602-01404, SCPMK0205-01405
 
 ## Deskripsi
 Mahasiswa mengembangkan produk perangkat lunak secara tim dalam siklus hidup proyek: inisiasi Scrum, perancangan arsitektur dan pola desain, manajemen alur kerja Kanban, dan implementasi kode.

@@ -2,14 +2,14 @@
 course_code: RTI258001
 course_name: Skripsi
 meeting: 15
-sub_cpmk: SCPMK404-05802
+sub_cpmk: SCPMK0404-05802
 assessment_weight: 7
 ---
 
 # Milestone 15 - Pengumpulan Naskah Final dan Pendaftaran Sidang
 
 ## Kemampuan Akhir
-- SCPMK404-05802: Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema.
+- SCPMK0404-05802: Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema.
 
 ## Materi Pembelajaran
 Pengumpulan naskah final dan pendaftaran sidang.

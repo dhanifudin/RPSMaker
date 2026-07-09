@@ -1,7 +1,7 @@
 ---
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
-sub_cpmk: SCPMK101-00804
+sub_cpmk: SCPMK0101-00804
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK101-00804
+**Sub-CPMK:** SCPMK0101-00804
 
 ## Deskripsi
 Mahasiswa menganalisis kasus perbaikan sistem manajemen K3 dan analisis biaya pada sebuah industri, lalu menyusun usulan implementasi K3 yang memanfaatkan teknologi otomatisasi dan pertukaran data era industri 4.0.

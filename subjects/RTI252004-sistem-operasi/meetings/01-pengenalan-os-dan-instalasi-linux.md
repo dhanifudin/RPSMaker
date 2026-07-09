@@ -2,14 +2,14 @@
 course_code: RTI252004
 course_name: Sistem Operasi
 meeting: 01
-sub_cpmk: SCPMK901-01301
+sub_cpmk: SCPMK0901-01301
 assessment_weight: 2
 ---
 
 # Pertemuan 01 - Pengenalan OS dan instalasi Linux
 
 ## Kemampuan Akhir
-- SCPMK901-01301: Mahasiswa mampu menjelaskan konsep dasar sistem operasi, kernel, distribusi Linux, instalasi, partisi, dan sistem file.
+- SCPMK0901-01301: Mahasiswa mampu menjelaskan konsep dasar sistem operasi, kernel, distribusi Linux, instalasi, partisi, dan sistem file.
 
 ## Materi Pembelajaran
 Pengenalan OS dan instalasi Linux.

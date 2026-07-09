@@ -2,15 +2,15 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 08
-sub_cpmk: SCPMK705-04301, SCPMK10.4-04303
+sub_cpmk: SCPMK0705-04301, SCPMK1004-04303
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS: Pengolahan Citra dan Evaluasi Kualitas
 
 ## Kemampuan Akhir
-- SCPMK705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
-- SCPMK10.4-04303: Mahasiswa mampu mengevaluasi kualitas citra dan hasil pemrosesan visual menggunakan metrik kuantitatif.
+- SCPMK0705-04301: Mahasiswa mampu mengimplementasikan teknik pengolahan citra (filtering, segmentasi, transformasi) menggunakan OpenCV.
+- SCPMK1004-04303: Mahasiswa mampu mengevaluasi kualitas citra dan hasil pemrosesan visual menggunakan metrik kuantitatif.
 
 ## Materi Pembelajaran
 UTS: pengolahan citra dan evaluasi kualitas.

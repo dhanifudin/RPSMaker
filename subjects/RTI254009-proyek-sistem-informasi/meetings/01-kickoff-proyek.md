@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 01
-sub_cpmk: SCPMK801-03601
+sub_cpmk: SCPMK0801-03601
 assessment_weight: 5
 ---
 
 # Pertemuan 01 - Kickoff Proyek: Pembentukan Tim dan Requirement Gathering
 
 ## Kemampuan Akhir
-- SCPMK801-03601: Mahasiswa mampu menyusun rencana proyek SI meliputi WBS, jadwal, anggaran, dan risk register.
+- SCPMK0801-03601: Mahasiswa mampu menyusun rencana proyek SI meliputi WBS, jadwal, anggaran, dan risk register.
 
 ## Materi Pembelajaran
 Kickoff proyek: pembentukan tim dan requirement gathering.

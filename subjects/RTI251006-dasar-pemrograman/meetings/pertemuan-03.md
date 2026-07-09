@@ -2,14 +2,14 @@
 course_code: RTI251006
 course_name: Dasar Pemrograman
 meeting: 03
-sub_cpmk: SCPMK903-00602
+sub_cpmk: SCPMK0903-00602
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Tipe Data, Variabel, Input-Output, Sequence, Operator
 
 ## Kemampuan Akhir
-- SCPMK903-00602: Mahasiswa mampu menjelaskan tipe data, variabel, input-output, sequence, dan operator serta menerapkannya dalam penulisan algoritma.
+- SCPMK0903-00602: Mahasiswa mampu menjelaskan tipe data, variabel, input-output, sequence, dan operator serta menerapkannya dalam penulisan algoritma.
 
 ## Materi Pembelajaran
 Tipe data, variabel, input-output, sequence, operator (aritmatika, gabungan, increment, decrement, relasional, logika, kondisional, bitwise, casting).

@@ -2,14 +2,14 @@
 course_code: RTI256108
 course_name: Komputasi Hijau
 meeting: 11
-sub_cpmk: SCPMK509-05202
+sub_cpmk: SCPMK0509-05202
 assessment_weight: 5
 ---
 
 # Pertemuan 11 - Kuis 2 Virtualisasi dan Green Software
 
 ## Kemampuan Akhir
-- SCPMK509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
+- SCPMK0509-05202: Mahasiswa mampu merancang dan mengevaluasi solusi infrastruktur TI hemat energi menggunakan virtualisasi, optimasi server, dan renewable energy.
 
 ## Materi Pembelajaran
 Kuis 2 virtualisasi dan green software.

@@ -2,14 +2,14 @@
 course_code: RTI256207
 course_name: Teknologi Terapan
 meeting: 04
-sub_cpmk: SCPMK801-05603
+sub_cpmk: SCPMK0801-05603
 assessment_weight: 4
 ---
 
 # Pertemuan 04 - Perencanaan Implementasi: Roadmap dan Manajemen Risiko
 
 ## Kemampuan Akhir
-- SCPMK801-05603: Mahasiswa mampu menyusun rencana implementasi teknologi, mengelola risiko, dan melaporkan kemajuan kepada stakeholder.
+- SCPMK0801-05603: Mahasiswa mampu menyusun rencana implementasi teknologi, mengelola risiko, dan melaporkan kemajuan kepada stakeholder.
 
 ## Materi Pembelajaran
 Perencanaan implementasi: roadmap dan manajemen risiko.

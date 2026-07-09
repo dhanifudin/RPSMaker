@@ -1,7 +1,7 @@
 ---
 course_code: RTI253003
 course_name: Kewarganegaraan
-sub_cpmk: SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104
+sub_cpmk: SCPMK0102-02101, SCPMK0102-02102, SCPMK0102-02103, SCPMK0102-02104
 assessment_form: Tugas terstruktur (analisis kasus dan kajian teori)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur (analisis kasus dan kajian teori)
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur (analisis kasus dan kajian teori)
 
-**Sub-CPMK:** SCPMK102-02101, SCPMK102-02102, SCPMK102-02103, SCPMK102-02104
+**Sub-CPMK:** SCPMK0102-02101, SCPMK0102-02102, SCPMK0102-02103, SCPMK0102-02104
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas analisis kewarganegaraan setiap pertemuan (Mgg 1--6, 9--13) yang mencakup identitas nasional, konstitusi, hubungan negara-warga negara, negara hukum, demokrasi, HAM, dan wawasan nusantara sesuai materi yang sedang dipelajari.

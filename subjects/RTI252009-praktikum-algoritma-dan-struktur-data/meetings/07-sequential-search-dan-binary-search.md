@@ -2,14 +2,14 @@
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
 meeting: 07
-sub_cpmk: SCPMK903-01801
+sub_cpmk: SCPMK0903-01801
 assessment_weight: 0
 ---
 
 # Pertemuan 07 - Sequential search dan binary search
 
 ## Kemampuan Akhir
-- SCPMK903-01801: Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.
+- SCPMK0903-01801: Mahasiswa mampu menerapkan teknik dasar pemrograman dan algoritma untuk menyelesaikan permasalahan komputasi menggunakan array of object.
 
 ## Materi Pembelajaran
 Sequential search, binary search, dan pengayaan merge sort.

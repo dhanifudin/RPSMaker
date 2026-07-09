@@ -2,14 +2,14 @@
 course_code: RTI256205
 course_name: Workshop Teknologi Terapan
 meeting: 14
-sub_cpmk: SCPMK603-05401
+sub_cpmk: SCPMK0603-05401
 assessment_weight: 5
 ---
 
 # Pertemuan 14 - Laporan QA dan dokumentasi testing final
 
 ## Kemampuan Akhir
-- SCPMK603-05401: Mahasiswa mampu merancang dan mengeksekusi rencana pengujian komprehensif termasuk unit testing, integration testing, dan UAT.
+- SCPMK0603-05401: Mahasiswa mampu merancang dan mengeksekusi rencana pengujian komprehensif termasuk unit testing, integration testing, dan UAT.
 
 ## Materi Pembelajaran
 Laporan QA dan dokumentasi testing final.

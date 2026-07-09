@@ -1,7 +1,7 @@
 ---
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
-sub_cpmk: SCPMK804-04804, SCPMK803-04803
+sub_cpmk: SCPMK0804-04804, SCPMK0803-04803
 assessment_form: UAS berbasis defense dan demo
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS berbasis defense dan demo
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis defense dan demo
 
-**Sub-CPMK:** SCPMK804-04804, SCPMK803-04803
+**Sub-CPMK:** SCPMK0804-04804, SCPMK0803-04803
 
 ## Deskripsi
 Mahasiswa mempresentasikan produk akhir proyek TI terintegrasi yang siap deploy, melakukan defense teknis dan manajerial secara komprehensif, serta menyerahkan laporan akhir proyek.

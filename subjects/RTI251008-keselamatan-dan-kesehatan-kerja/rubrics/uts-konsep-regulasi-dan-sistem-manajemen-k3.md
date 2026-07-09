@@ -1,7 +1,7 @@
 ---
 course_code: RTI251008
 course_name: Keselamatan dan Kesehatan Kerja
-sub_cpmk: SCPMK101-00801, SCPMK101-00802
+sub_cpmk: SCPMK0101-00801, SCPMK0101-00802
 assessment_form: UTS (ujian tulis daring)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian tulis daring)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian tulis daring)
 
-**Sub-CPMK:** SCPMK101-00801, SCPMK101-00802
+**Sub-CPMK:** SCPMK0101-00801, SCPMK0101-00802
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian tengah semester yang mencakup konsep dan regulasi K3, analisis faktor penyebab kecelakaan, serta sistem manajemen K3 (SDM, operasi, dokumentasi).

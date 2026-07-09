@@ -1,7 +1,7 @@
 ---
 course_code: RTI256108
 course_name: Komputasi Hijau
-sub_cpmk: SCPMK101-05201, SCPMK509-05202
+sub_cpmk: SCPMK0101-05201, SCPMK0509-05202
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK101-05201, SCPMK509-05202
+**Sub-CPMK:** SCPMK0101-05201, SCPMK0509-05202
 
 ## Deskripsi
 Mahasiswa menganalisis dampak lingkungan dari infrastruktur TI nyata dan merancang strategi komputasi hijau menggunakan framework pengukuran emisi dan efisiensi energi.

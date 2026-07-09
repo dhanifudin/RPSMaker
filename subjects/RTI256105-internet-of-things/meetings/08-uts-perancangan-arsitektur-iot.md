@@ -2,15 +2,15 @@
 course_code: RTI256105
 course_name: Internet of Things
 meeting: 08
-sub_cpmk: SCPMK204-04901, SCPMK503-04902
+sub_cpmk: SCPMK0204-04901, SCPMK0503-04902
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS Perancangan Arsitektur Sistem IoT
 
 ## Kemampuan Akhir
-- SCPMK204-04901: Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform.
-- SCPMK503-04902: Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi.
+- SCPMK0204-04901: Mahasiswa mampu merancang arsitektur sistem IoT end-to-end meliputi sensor, gateway, dan cloud platform.
+- SCPMK0503-04902: Mahasiswa mampu mengimplementasikan protokol komunikasi IoT (MQTT, HTTP, CoAP) dan pemrosesan data sensor terdistribusi.
 
 ## Materi Pembelajaran
 UTS perancangan arsitektur sistem IoT.

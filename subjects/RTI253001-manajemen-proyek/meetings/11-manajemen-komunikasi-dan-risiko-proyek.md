@@ -2,15 +2,15 @@
 course_code: RTI253001
 course_name: Manajemen Proyek
 meeting: 11
-sub_cpmk: SCPMK803-01902, SCPMK302-01903
+sub_cpmk: SCPMK0803-01902, SCPMK0302-01903
 assessment_weight: 2
 ---
 
 # Pertemuan 11 - Manajemen komunikasi dan risiko proyek
 
 ## Kemampuan Akhir
-- SCPMK803-01902: Mahasiswa mampu menerapkan manajemen sumber daya, pengadaan, kualitas, risiko, dan prinsip Agile dalam eksekusi, monitoring, dan penutupan proyek [C3].
-- SCPMK302-01903: Mahasiswa mampu mengelola pemangku kepentingan, komunikasi, dan kerja sama tim proyek serta mempresentasikan hasil tugas kelompok [C3, A3].
+- SCPMK0803-01902: Mahasiswa mampu menerapkan manajemen sumber daya, pengadaan, kualitas, risiko, dan prinsip Agile dalam eksekusi, monitoring, dan penutupan proyek [C3].
+- SCPMK0302-01903: Mahasiswa mampu mengelola pemangku kepentingan, komunikasi, dan kerja sama tim proyek serta mempresentasikan hasil tugas kelompok [C3, A3].
 
 ## Materi Pembelajaran
 Manajemen komunikasi dan risiko proyek: pengertian, tujuan, dan proses manajemen komunikasi; identifikasi, analisis, dan strategi risiko.

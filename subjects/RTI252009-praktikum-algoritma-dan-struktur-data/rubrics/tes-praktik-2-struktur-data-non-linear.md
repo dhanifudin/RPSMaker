@@ -1,7 +1,7 @@
 ---
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
-sub_cpmk: SCPMK703-01801
+sub_cpmk: SCPMK0703-01801
 assessment_form: Ujian praktik (Asessment 1)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Ujian praktik (Asessment 1)
 
 **Bentuk Tugas/Evaluasi:** Ujian praktik (Asessment 1)
 
-**Sub-CPMK:** SCPMK703-01801
+**Sub-CPMK:** SCPMK0703-01801
 
 ## Deskripsi
 Mahasiswa mengerjakan ujian praktik individu di laboratorium untuk mengimplementasikan struktur data non-linear (tree, binary search tree, graph) dari studi kasus materi pekan 14-15.

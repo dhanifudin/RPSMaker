@@ -2,15 +2,15 @@
 course_code: RTI254008
 course_name: Statistik Komputasi
 meeting: 17
-sub_cpmk: SCPMK707-03501, SCPMK902-03502
+sub_cpmk: SCPMK0707-03501, SCPMK0902-03502
 assessment_weight: 23.0
 ---
 
 # Pertemuan 17 - UAS: Presentasi Hasil Analisis Statistik
 
 ## Kemampuan Akhir
-- SCPMK707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
-- SCPMK902-03502: Mahasiswa mampu menerapkan metode probabilitas, distribusi, dan pengujian hipotesis dalam analisis data TI.
+- SCPMK0707-03501: Mahasiswa mampu mengimplementasikan metode statistika deskriptif dan inferensial menggunakan perangkat komputasi (Python/R).
+- SCPMK0902-03502: Mahasiswa mampu menerapkan metode probabilitas, distribusi, dan pengujian hipotesis dalam analisis data TI.
 
 ## Materi Pembelajaran
 UAS: presentasi hasil analisis statistik.

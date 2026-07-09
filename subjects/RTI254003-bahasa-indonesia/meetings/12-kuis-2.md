@@ -2,14 +2,14 @@
 course_code: RTI254003
 course_name: Bahasa Indonesia
 meeting: 12
-sub_cpmk: SCPMK401-03002
+sub_cpmk: SCPMK0401-03002
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - Kuis 2: Penulisan Ilmiah
 
 ## Kemampuan Akhir
-- SCPMK401-03002: Mahasiswa mampu menyusun karya tulis ilmiah sederhana dengan rumusan masalah, metodologi, pembahasan, dan kesimpulan yang valid sesuai kaidah akademik.
+- SCPMK0401-03002: Mahasiswa mampu menyusun karya tulis ilmiah sederhana dengan rumusan masalah, metodologi, pembahasan, dan kesimpulan yang valid sesuai kaidah akademik.
 
 ## Materi Pembelajaran
 Kuis 2: penulisan ilmiah.

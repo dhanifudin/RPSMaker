@@ -2,14 +2,14 @@
 course_code: RTI254005
 course_name: Jaringan Komputer
 meeting: 04
-sub_cpmk: SCPMK901-03202
+sub_cpmk: SCPMK0901-03202
 assessment_weight: 2
 ---
 
 # Pertemuan 04 - Media Transmisi dan Perangkat Jaringan
 
 ## Kemampuan Akhir
-- SCPMK901-03202: Mahasiswa mampu menjelaskan komponen jaringan (router, switch, media transmisi) dan cara kerja protokol komunikasi.
+- SCPMK0901-03202: Mahasiswa mampu menjelaskan komponen jaringan (router, switch, media transmisi) dan cara kerja protokol komunikasi.
 
 ## Materi Pembelajaran
 Media transmisi dan perangkat jaringan.

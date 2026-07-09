@@ -2,14 +2,14 @@
 course_code: RTI258002
 course_name: Bahasa Inggris Persiapan Kerja
 meeting: 14
-sub_cpmk: SCPMK303-05901
+sub_cpmk: SCPMK0303-05901
 assessment_weight: 3
 ---
 
 # Pertemuan 14 - IT Portfolio: Presentasi Proyek dalam Bahasa Inggris
 
 ## Kemampuan Akhir
-- SCPMK303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
+- SCPMK0303-05901: Mahasiswa mampu menyusun dokumen profesional dalam Bahasa Inggris meliputi CV, cover letter, portofolio, dan email profesional.
 
 ## Materi Pembelajaran
 IT portfolio: presentasi proyek dalam Bahasa Inggris.

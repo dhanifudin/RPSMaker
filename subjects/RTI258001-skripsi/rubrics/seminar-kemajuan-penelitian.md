@@ -1,7 +1,7 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-sub_cpmk: SCPMK403-05801, SCPMK10.9-05805
+sub_cpmk: SCPMK0403-05801, SCPMK1009-05805
 assessment_form: Seminar Progress
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Seminar Progress
 
 **Bentuk Tugas/Evaluasi:** Seminar Progress
 
-**Sub-CPMK:** SCPMK403-05801, SCPMK10.9-05805
+**Sub-CPMK:** SCPMK0403-05801, SCPMK1009-05805
 
 ## Deskripsi
 Mahasiswa mempresentasikan kemajuan penelitian/pengembangan yang telah dicapai, menunjukkan bukti pelaksanaan metodologi, dan mendapatkan masukan untuk perbaikan.

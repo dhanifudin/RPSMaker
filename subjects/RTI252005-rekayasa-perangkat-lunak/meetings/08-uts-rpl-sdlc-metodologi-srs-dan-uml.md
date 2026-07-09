@@ -2,15 +2,15 @@
 course_code: RTI252005
 course_name: Rekayasa Perangkat Lunak
 meeting: 08
-sub_cpmk: SCPMK802-01401, SCPMK211-01403
+sub_cpmk: SCPMK0802-01401, SCPMK0211-01403
 assessment_weight: 7.5
 ---
 
 # Pertemuan 08 - UTS: prinsip dasar RPL dan SDLC, metodologi, SRS, dan UML
 
 ## Kemampuan Akhir
-- SCPMK802-01401: Mahasiswa mampu menjelaskan prinsip dasar manajemen proses RPL dan tahapan SDLC serta mengelola proses pengembangan melalui metodologi preskriptif (Prototyping/Spiral/RUP), metodologi Agile (Scrum/Kanban) dengan manajemen alur kerja visual, penjaminan mutu (SQA) melalui pengujian, dan pemeliharaan/evolusi sistem pasca-rilis.
-- SCPMK211-01403: Mahasiswa mampu mentransformasi kebutuhan menjadi desain teknis menggunakan pemodelan sistem (UML/Diagram).
+- SCPMK0802-01401: Mahasiswa mampu menjelaskan prinsip dasar manajemen proses RPL dan tahapan SDLC serta mengelola proses pengembangan melalui metodologi preskriptif (Prototyping/Spiral/RUP), metodologi Agile (Scrum/Kanban) dengan manajemen alur kerja visual, penjaminan mutu (SQA) melalui pengujian, dan pemeliharaan/evolusi sistem pasca-rilis.
+- SCPMK0211-01403: Mahasiswa mampu mentransformasi kebutuhan menjadi desain teknis menggunakan pemodelan sistem (UML/Diagram).
 
 ## Materi Pembelajaran
 UTS: prinsip dasar RPL dan SDLC, metodologi preskriptif dan Agile, analisis kebutuhan (SRS), dan pemodelan visual sistem (UML).

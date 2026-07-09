@@ -2,14 +2,14 @@
 course_code: RTI253007
 course_name: Pemrograman Berbasis Objek
 meeting: 05
-sub_cpmk: SCPMK210-02501
+sub_cpmk: SCPMK0210-02501
 assessment_weight: 5
 ---
 
 # Pertemuan 05 - Kuis 1
 
 ## Kemampuan Akhir
-- SCPMK210-02501: Mahasiswa mampu menjelaskan prinsip OOP (enkapsulasi, inheritance, polymorfisme) dan menerapkannya dalam rancangan kelas.
+- SCPMK0210-02501: Mahasiswa mampu menjelaskan prinsip OOP (enkapsulasi, inheritance, polymorfisme) dan menerapkannya dalam rancangan kelas.
 
 ## Materi Pembelajaran
 Kuis 1.

@@ -2,14 +2,14 @@
 course_code: RTI253002
 course_name: Sistem Informasi Manajemen
 meeting: 12
-sub_cpmk: SCPMK607-02003
+sub_cpmk: SCPMK0607-02003
 assessment_weight: 5
 ---
 
 # Pertemuan 12 - SI Pendukung dalam SIM
 
 ## Kemampuan Akhir
-- SCPMK607-02003: Mahasiswa mampu menerapkan konsep SI strategis dan pendukung untuk pengelolaan informasi organisasi yang kompleks.
+- SCPMK0607-02003: Mahasiswa mampu menerapkan konsep SI strategis dan pendukung untuk pengelolaan informasi organisasi yang kompleks.
 
 ## Materi Pembelajaran
 SI pendukung dalam SIM: Decision Support System (DSS), Executive Information System (EIS), Expert System, Knowledge Management System (KMS), Business Intelligence (BI), dan peran SI pendukung dalam pengambilan keputusan manajerial.

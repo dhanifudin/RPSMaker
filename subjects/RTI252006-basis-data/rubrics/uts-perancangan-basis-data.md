@@ -1,7 +1,7 @@
 ---
 course_code: RTI252006
 course_name: Basis Data
-sub_cpmk: SCPMK203-01501
+sub_cpmk: SCPMK0203-01501
 assessment_form: UTS (ujian teori pilihan ganda dan/atau esai, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian teori pilihan ganda dan/atau esai, closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian teori pilihan ganda dan/atau esai, closed book)
 
-**Sub-CPMK:** SCPMK203-01501
+**Sub-CPMK:** SCPMK0203-01501
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UTS materi minggu 1-8 meliputi konsep basis data relasional, perancangan ERD, pemetaan ke model relasional, dan normalisasi secara mandiri dan jujur.

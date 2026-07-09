@@ -1,7 +1,7 @@
 ---
 course_code: RTI253003
 course_name: Kewarganegaraan
-sub_cpmk: SCPMK102-02102, SCPMK102-02103, SCPMK102-02104
+sub_cpmk: SCPMK0102-02102, SCPMK0102-02103, SCPMK0102-02104
 assessment_form: Project Based Learning (PBL)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning (PBL)
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning (PBL)
 
-**Sub-CPMK:** SCPMK102-02102, SCPMK102-02103, SCPMK102-02104
+**Sub-CPMK:** SCPMK0102-02102, SCPMK0102-02103, SCPMK0102-02104
 
 ## Deskripsi
 Mahasiswa mengerjakan proyek berbasis masalah secara berkelompok (Mgg 14--16) yang mencakup analisis implementasi wawasan nusantara, ketahanan nasional, dan integrasi nasional dalam konteks permasalahan aktual di Indonesia, kemudian mempresentasikan hasilnya.

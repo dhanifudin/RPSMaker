@@ -2,14 +2,14 @@
 course_code: RTI256104
 course_name: Proyek Teknologi Terintegrasi
 meeting: 15
-sub_cpmk: SCPMK804-04804
+sub_cpmk: SCPMK0804-04804
 assessment_weight: 5
 ---
 
 # Pertemuan 15 - Penyusunan Laporan Akhir
 
 ## Kemampuan Akhir
-- SCPMK804-04804: Mahasiswa mampu mendemonstrasikan produk akhir proyek TI terintegrasi dengan defense teknis yang komprehensif.
+- SCPMK0804-04804: Mahasiswa mampu mendemonstrasikan produk akhir proyek TI terintegrasi dengan defense teknis yang komprehensif.
 
 ## Materi Pembelajaran
 Penyusunan laporan akhir.

@@ -2,14 +2,14 @@
 course_code: RTI255001
 course_name: Kewirausahaan Berbasis Teknologi
 meeting: 17
-sub_cpmk: SCPMK301-03704
+sub_cpmk: SCPMK0301-03704
 assessment_weight: 20
 ---
 
 # Pertemuan 17 - UAS: Presentasi Rencana Bisnis Teknologi
 
 ## Kemampuan Akhir
-- SCPMK301-03704: Mahasiswa mampu menyusun dan mempresentasikan rencana bisnis teknologi secara profesional dengan argumentasi berbasis data kepada pemangku kepentingan.
+- SCPMK0301-03704: Mahasiswa mampu menyusun dan mempresentasikan rencana bisnis teknologi secara profesional dengan argumentasi berbasis data kepada pemangku kepentingan.
 
 ## Materi Pembelajaran
 UAS: Presentasi Rencana Bisnis Teknologi.

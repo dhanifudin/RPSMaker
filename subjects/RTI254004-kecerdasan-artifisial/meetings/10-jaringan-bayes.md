@@ -2,14 +2,14 @@
 course_code: RTI254004
 course_name: Kecerdasan Artifisial
 meeting: 10
-sub_cpmk: SCPMK10.5-03102
+sub_cpmk: SCPMK1005-03102
 assessment_weight: 3
 ---
 
 # Pertemuan 10 - Jaringan Bayes dan Probabilistic Reasoning
 
 ## Kemampuan Akhir
-- SCPMK10.5-03102: Mahasiswa mampu mengevaluasi dan membandingkan kinerja berbagai algoritma AI berdasarkan metrik evaluasi yang sesuai dengan konteks permasalahan.
+- SCPMK1005-03102: Mahasiswa mampu mengevaluasi dan membandingkan kinerja berbagai algoritma AI berdasarkan metrik evaluasi yang sesuai dengan konteks permasalahan.
 
 ## Materi Pembelajaran
 Jaringan Bayes dan probabilistic reasoning.

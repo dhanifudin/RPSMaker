@@ -2,14 +2,14 @@
 course_code: RTI251007
 course_name: Praktikum Dasar Pemrograman
 meeting: 03
-sub_cpmk: SCPMK704-00702
+sub_cpmk: SCPMK0704-00702
 assessment_weight: 2
 ---
 
 # Pertemuan 03 - Input-output, variabel, sequence, dan operator
 
 ## Kemampuan Akhir
-- SCPMK704-00702: Mahasiswa mampu menerapkan tipe data, variabel, input-output, sequence, dan operator pada sebuah kode program menggunakan Java.
+- SCPMK0704-00702: Mahasiswa mampu menerapkan tipe data, variabel, input-output, sequence, dan operator pada sebuah kode program menggunakan Java.
 
 ## Materi Pembelajaran
 - Tipe data dan variabel

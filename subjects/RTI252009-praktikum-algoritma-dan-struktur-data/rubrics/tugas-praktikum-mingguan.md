@@ -1,7 +1,7 @@
 ---
 course_code: RTI252009
 course_name: Praktikum Algoritma dan Struktur Data
-sub_cpmk: SCPMK903-01801, SCPMK708-01801, SCPMK703-01801
+sub_cpmk: SCPMK0903-01801, SCPMK0708-01801, SCPMK0703-01801
 assessment_form: Tugas praktik terstruktur
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas praktik terstruktur
 
 **Bentuk Tugas/Evaluasi:** Tugas praktik terstruktur
 
-**Sub-CPMK:** SCPMK903-01801, SCPMK708-01801, SCPMK703-01801
+**Sub-CPMK:** SCPMK0903-01801, SCPMK0708-01801, SCPMK0703-01801
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas praktik mingguan berupa flowchart, pseudocode, dan program untuk studi kasus dasar pemrograman, struktur data linear, dan struktur data non-linear.

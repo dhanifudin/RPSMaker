@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 08
-sub_cpmk: SCPMK803-03603
+sub_cpmk: SCPMK0803-03603
 assessment_weight: 15
 ---
 
 # Pertemuan 08 - UTS: Milestone Review dan Demo Sprint 1-2
 
 ## Kemampuan Akhir
-- SCPMK803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
+- SCPMK0803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
 
 ## Materi Pembelajaran
 UTS: milestone review dan demo Sprint 1-2.

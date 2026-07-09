@@ -2,14 +2,14 @@
 course_code: RTI256002
 course_name: Pengembangan Karir
 meeting: 13
-sub_cpmk: SCPMK303-05303
+sub_cpmk: SCPMK0303-05303
 assessment_weight: 2
 ---
 
 # Pertemuan 13 - Internasionalisasi Karir
 
 ## Kemampuan Akhir
-- SCPMK303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
+- SCPMK0303-05303: Mahasiswa mampu menyusun Career Development Plan (CDP) yang sistematis mencakup tujuan SMART, analisis gap kompetensi, strategi pengembangan diri, dan timeline pencapaian.
 
 ## Materi Pembelajaran
 Internasionalisasi karir: peluang karir internasional di bidang informatika; persyaratan kompetensi dan sertifikasi global; strategi memasuki pasar kerja internasional; remote work lintas negara; program beasiswa dan fellowship internasional.

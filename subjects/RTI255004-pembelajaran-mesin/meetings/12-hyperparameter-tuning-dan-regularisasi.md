@@ -2,14 +2,14 @@
 course_code: RTI255004
 course_name: Pembelajaran Mesin
 meeting: 12
-sub_cpmk: SCPMK10.5-04002
+sub_cpmk: SCPMK1005-04002
 assessment_weight: 2.5
 ---
 
 # Pertemuan 12 - Hyperparameter Tuning dan Regularisasi
 
 ## Kemampuan Akhir
-- SCPMK10.5-04002: Mahasiswa mampu mengevaluasi kinerja model ML menggunakan metrik yang tepat dan menerapkan teknik optimasi model.
+- SCPMK1005-04002: Mahasiswa mampu mengevaluasi kinerja model ML menggunakan metrik yang tepat dan menerapkan teknik optimasi model.
 
 ## Materi Pembelajaran
 Hyperparameter tuning dan regularisasi.

@@ -2,15 +2,15 @@
 course_code: RTI255007
 course_name: Pengolahan Citra dan Visi Komputer
 meeting: 17
-sub_cpmk: SCPMK706-04302, SCPMK10.5-04304
+sub_cpmk: SCPMK0706-04302, SCPMK1005-04304
 assessment_weight: 22
 ---
 
 # Pertemuan 17 - UAS: Presentasi dan Evaluasi Sistem Visi Komputer
 
 ## Kemampuan Akhir
-- SCPMK706-04302: Mahasiswa mampu membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, dan segmentasi.
-- SCPMK10.5-04304: Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy.
+- SCPMK0706-04302: Mahasiswa mampu membangun sistem visi komputer berbasis CNN untuk klasifikasi, deteksi objek, dan segmentasi.
+- SCPMK1005-04304: Mahasiswa mampu mengevaluasi kinerja model visi komputer menggunakan metrik mAP, IoU, dan accuracy.
 
 ## Materi Pembelajaran
 UAS: presentasi dan evaluasi sistem visi komputer.

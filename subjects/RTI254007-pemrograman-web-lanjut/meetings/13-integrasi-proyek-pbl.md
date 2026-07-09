@@ -2,14 +2,14 @@
 course_code: RTI254007
 course_name: Pemrograman Web Lanjut
 meeting: 13
-sub_cpmk: SCPMK603-03402
+sub_cpmk: SCPMK0603-03402
 assessment_weight: 2
 ---
 
 # Pertemuan 13 - Integrasi proyek PBL
 
 ## Kemampuan Akhir
-- SCPMK603-03402: Mahasiswa mampu mengimplementasikan migration, ORM, Blade, layout, validasi, authentication, authorization, import/export, dan API pada aplikasi Laravel.
+- SCPMK0603-03402: Mahasiswa mampu mengimplementasikan migration, ORM, Blade, layout, validasi, authentication, authorization, import/export, dan API pada aplikasi Laravel.
 
 ## Materi Pembelajaran
 Integrasi proyek PBL.

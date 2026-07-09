@@ -2,14 +2,14 @@
 course_code: RTI256107
 course_name: Cloud Computing
 meeting: 13
-sub_cpmk: SCPMK10.3-05103
+sub_cpmk: SCPMK1003-05103
 assessment_weight: 3
 ---
 
 # Pertemuan 13 - Cloud Networking: VPC, Load Balancer, CDN
 
 ## Kemampuan Akhir
-- SCPMK10.3-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
+- SCPMK1003-05103: Mahasiswa mampu mengevaluasi dan memilih solusi cloud berdasarkan keandalan, keamanan, skalabilitas, dan biaya.
 
 ## Materi Pembelajaran
 Cloud networking: VPC, load balancer, CDN.

@@ -2,14 +2,14 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 04
-sub_cpmk: SCPMK802-03602
+sub_cpmk: SCPMK0802-03602
 assessment_weight: 3
 ---
 
 # Pertemuan 04 - Sprint Planning dan Setup Environment
 
 ## Kemampuan Akhir
-- SCPMK802-03602: Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap.
+- SCPMK0802-03602: Mahasiswa mampu mengimplementasikan SI berbasis web menggunakan metodologi SDLC dengan dokumentasi lengkap.
 
 ## Materi Pembelajaran
 Sprint planning dan setup environment.

@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK608-04201
+sub_cpmk: SCPMK0608-04201
 assessment_form: Case Method
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Case Method
 
 **Bentuk Tugas/Evaluasi:** Case Method
 
-**Sub-CPMK:** SCPMK608-04201
+**Sub-CPMK:** SCPMK0608-04201
 
 ## Deskripsi
 Mahasiswa menganalisis standar mutu perangkat lunak dan relevansinya pada kasus aplikasi.

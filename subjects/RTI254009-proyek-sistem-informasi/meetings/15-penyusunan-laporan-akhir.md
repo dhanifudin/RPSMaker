@@ -2,15 +2,15 @@
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
 meeting: 15
-sub_cpmk: SCPMK803-03603, SCPMK607-03604
+sub_cpmk: SCPMK0803-03603, SCPMK0607-03604
 assessment_weight: 10
 ---
 
 # Pertemuan 15 - Penyusunan Laporan Akhir Proyek
 
 ## Kemampuan Akhir
-- SCPMK803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
-- SCPMK607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
+- SCPMK0803-03603: Mahasiswa mampu melaksanakan sprint review, monitoring kemajuan, dan mengelola dinamika tim proyek SI.
+- SCPMK0607-03604: Mahasiswa mampu mengintegrasikan front-end, back-end, dan database dalam sistem informasi yang deployable.
 
 ## Materi Pembelajaran
 Penyusunan laporan akhir proyek.

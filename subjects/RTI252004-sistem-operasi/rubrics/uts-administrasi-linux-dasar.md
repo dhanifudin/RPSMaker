@@ -1,7 +1,7 @@
 ---
 course_code: RTI252004
 course_name: Sistem Operasi
-sub_cpmk: SCPMK901-01301, SCPMK206-01302
+sub_cpmk: SCPMK0901-01301, SCPMK0206-01302
 assessment_form: UTS praktik
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS praktik
 
 **Bentuk Tugas/Evaluasi:** UTS praktik
 
-**Sub-CPMK:** SCPMK901-01301, SCPMK206-01302
+**Sub-CPMK:** SCPMK0901-01301, SCPMK0206-01302
 
 ## Deskripsi
 Mahasiswa menyelesaikan uts administrasi linux dasar sesuai Sub-CPMK dan konteks mata kuliah.
