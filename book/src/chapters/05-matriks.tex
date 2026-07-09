@@ -4,7 +4,8 @@
 
 Jejaring kurikulum berikut menggambarkan keterkaitan prasyarat (\textit{prerequisite}) antar mata kuliah pada Kurikulum 2025 Program Studi D4 Teknik Informatika, disusun berdasarkan data ``Matakuliah Syarat'' pada Rencana Pembelajaran Semester (RPS) setiap mata kuliah (Lampiran II). Diagram hanya menampilkan mata kuliah yang memiliki keterkaitan prasyarat eksplisit; mata kuliah lain pada struktur kurikulum tidak memiliki prasyarat formal.
 
-\begin{center}
+\begin{figure}[H]
+\centering
 \begin{tikzpicture}[
   mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{5.5}{6}\selectfont, align=center, text width=2.1cm, minimum height=0.55cm, inner sep=1pt},
   gate/.style={draw, dashed, rounded corners, fill=headgray, font=\fontsize{5.5}{6}\selectfont, align=center, text width=2.1cm, minimum height=0.55cm, inner sep=1pt},
@@ -91,12 +92,67 @@ Jejaring kurikulum berikut menggambarkan keterkaitan prasyarat (\textit{prerequi
 \draw (n255002) -- (n258001);
 
 \end{tikzpicture}
-\end{center}
+\caption{Jejaring Kurikulum Program Studi D4 Teknik Informatika (Kurikulum 2025)}
+\end{figure}
 
-\reviewfrompdf{Diagram jejaring kurikulum di atas adalah visualisasi baru yang disusun dari data prasyarat pada RPS Kurikulum 2025; dokumen kurikulum 2020 tidak memiliki data digital yang setara (visual ``Peta Kurikulum'' dan ``Pohon Kurikulum'' pada dokumen 2020 hanya tersedia sebagai gambar tanpa data yang dapat diekstraksi). Diagram ini perlu divalidasi terhadap kebijakan prasyarat mata kuliah yang berlaku di program studi.}
+\reviewfrompdf{Diagram jejaring kurikulum di atas adalah visualisasi baru yang disusun dari data prasyarat pada RPS Kurikulum 2025; dokumen kurikulum 2020 tidak memiliki data digital yang setara untuk Peta Kurikulum dan Pohon Kurikulum (lihat catatan pada bagian berikut). Diagram ini perlu divalidasi terhadap kebijakan prasyarat mata kuliah yang berlaku di program studi.}
+
+\section{Matrik Organisasi Mata Kuliah (Kurikulum 2025)}
+
+\reviewfrompdf{Susunan matriks berikut diadaptasi dari konsep visual Matrik Organisasi Mata Kuliah pada Dokumen Kurikulum D4 Teknik Informatika 2020 (mata kuliah disusun sebagai kolom per semester), namun diisi ulang sepenuhnya dengan data Kurikulum 2025 (lihat Bab VI). Untuk Semester 6, akhiran (R) menandai mata kuliah pilihan Jalur Reguler dan (M) menandai Jalur Magang. Susunan ini perlu divalidasi oleh tim kurikulum.}
+
+\definecolor{matwn}{HTML}{FFF2A8}
+\definecolor{matwptpt}{HTML}{FFD59A}
+\definecolor{matwp}{HTML}{BFDCEF}
+\definecolor{matp}{HTML}{C6E0B4}
+
+\begingroup
+\tiny
+\begin{longtblr}{
+  width=\textwidth,
+  colspec={Q[l,m,2.3cm]Q[c,m,2.05cm]Q[c,m,2.05cm]Q[c,m,2.05cm]Q[c,m,2.05cm]Q[c,m,2.05cm]Q[c,m,2.05cm]},
+  hlines, vlines,
+  hspan=minimal,
+  rowsep=2pt,
+  colsep=2pt,
+}
+\SetCell{bg=headgray,font=\bfseries}Smt / SKS & \SetCell[c=6]{c,m,bg=headgray,font=\bfseries}Program Pembelajaran & & & & & \\
+\SetCell[r=4]{c,m}Semester 1\newline 21 SKS & \SetCell{bg=matwn}Pancasila & \SetCell{bg=matwptpt}Bahasa Inggris 1 & \SetCell{bg=matwptpt}K3 & \SetCell{bg=matwp}Konsep TI & \SetCell{bg=matwp}Critical Thinking & \SetCell{bg=matwp}Matematika Dasar \\
+ & \SetCell{bg=matwn}2 & \SetCell{bg=matwptpt}2 & \SetCell{bg=matwptpt}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 \\
+ & \SetCell{bg=matwp}Dasar Pemrograman & \SetCell{bg=matwp}Prak. Dasar Pemrograman & \SetCell{bg=matwp}Fisika & & & \\
+ & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}3 & \SetCell{bg=matwp}2 & & & \\
+\SetCell[r=4]{c,m}Semester 2\newline 21 SKS & \SetCell{bg=matwn}Agama & \SetCell{bg=matwp}Aljabar Linier & \SetCell{bg=matwp}Desain Antarmuka & \SetCell{bg=matwp}Sistem Operasi & \SetCell{bg=matwp}RPL & \SetCell{bg=matwp}Basis Data \\
+ & \SetCell{bg=matwn}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 \\
+ & \SetCell{bg=matwp}Prak. Basis Data & \SetCell{bg=matwp}Alg. \& Struktur Data & \SetCell{bg=matwp}Prak. Alg. \& Struktur Data & & & \\
+ & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}3 & & & \\
+\SetCell[r=4]{c,m}Semester 3\newline 20 SKS & \SetCell{bg=matwn}Kewarganegaraan & \SetCell{bg=matwptpt}Bahasa Inggris 2 & \SetCell{bg=matwp}Manajemen Proyek & \SetCell{bg=matwp}SIM & \SetCell{bg=matwp}Desain \& Pemrog. Web & \SetCell{bg=matwp}Basis Data Lanjut \\
+ & \SetCell{bg=matwn}2 & \SetCell{bg=matwptpt}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}3 & \SetCell{bg=matwp}3 \\
+ & \SetCell{bg=matwp}Metode Numerik & \SetCell{bg=matwp}Pemrog. Berbasis Objek & \SetCell{bg=matwp}Prak. Pemrog. Berbasis Objek & & & \\
+ & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & & & \\
+\SetCell[r=4]{c,m}Semester 4\newline 20 SKS & \SetCell{bg=matwn}Bahasa Indonesia & \SetCell{bg=matwp}SPK & \SetCell{bg=matwp}ADBO & \SetCell{bg=matwp}Kecerdasan Artifisial & \SetCell{bg=matwp}Jaringan Komputer & \SetCell{bg=matwp}Prak. Jaringan Komputer \\
+ & \SetCell{bg=matwn}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 \\
+ & \SetCell{bg=matwp}Pemrog. Web Lanjut & \SetCell{bg=matwp}Statistik Komputasi & \SetCell{bg=matwp}Proyek SI & & & \\
+ & \SetCell{bg=matwp}3 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}3 & & & \\
+\SetCell[r=4]{c,m}Semester 5\newline 19 SKS & \SetCell{bg=matwptpt}Kewirausahaan & \SetCell{bg=matwptpt}Penjaminan Mutu PL & \SetCell{bg=matwp}Metodologi Penelitian & \SetCell{bg=matwp}Pemrograman Mobile & \SetCell{bg=matwp}Pembelajaran Mesin & \SetCell{bg=matwp}Business Intelligence \\
+ & \SetCell{bg=matwptpt}2 & \SetCell{bg=matwptpt}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}3 & \SetCell{bg=matwp}3 & \SetCell{bg=matwp}2 \\
+ & \SetCell{bg=matwp}Pengolahan Citra & \SetCell{bg=matwp}Adm. \& Keamanan Jaringan & & & & \\
+ & \SetCell{bg=matwp}3 & \SetCell{bg=matwp}2 & & & & \\
+\SetCell[r=4]{c,m}Semester 6\newline 21 SKS (Reguler)\newline 20 SKS (Magang) & \SetCell{bg=matwp}Komunikasi \& Etika Profesi & \SetCell{bg=matwp}Pengembangan Karir & \SetCell{bg=matwp}Pemrog. Berbasis Framework & \SetCell{bg=matp}Proyek Tek. Terintegrasi (R) & \SetCell{bg=matp}IoT (R) & \SetCell{bg=matp}Big Data (R) \\
+ & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matwp}2 & \SetCell{bg=matp}6 & \SetCell{bg=matp}3 & \SetCell{bg=matp}2 \\
+ & \SetCell{bg=matp}Cloud Computing (R) & \SetCell{bg=matp}Komputasi Hijau (R) & \SetCell{bg=matp}Proyek Inovasi (M) & \SetCell{bg=matp}Workshop Tek. Terapan (M) & \SetCell{bg=matp}Rekayasa Sistem (M) & \SetCell{bg=matp}Teknologi Terapan (M) \\
+ & \SetCell{bg=matp}2 & \SetCell{bg=matp}2 & \SetCell{bg=matp}6 & \SetCell{bg=matp}3 & \SetCell{bg=matp}3 & \SetCell{bg=matp}2 \\
+\SetCell[r=2]{c,m}Semester 7\newline 20 SKS & \SetCell{bg=matwp}Magang & & & & & \\
+ & \SetCell{bg=matwp}20 & & & & & \\
+\SetCell[r=2]{c,m}Semester 8\newline 10 SKS & \SetCell{bg=matwp}Skripsi & \SetCell{bg=matwptpt}Bahasa Inggris Persiapan Kerja & & & & \\
+ & \SetCell{bg=matwp}8 & \SetCell{bg=matwptpt}2 & & & & \\
+\end{longtblr}
+\endgroup
+
+\medskip
+\noindent\textbf{Keterangan:} \tikz[baseline=-0.5ex]\fill[matwn] (0,0) rectangle (0.35,0.35); MK Wajib Nasional \quad \tikz[baseline=-0.5ex]\fill[matwptpt] (0,0) rectangle (0.35,0.35); MK Wajib PT \quad \tikz[baseline=-0.5ex]\fill[matwp] (0,0) rectangle (0.35,0.35); MK Wajib Prodi \quad \tikz[baseline=-0.5ex]\fill[matp] (0,0) rectangle (0.35,0.35); MK Pilihan
 
 \section{Catatan Penyusunan Matriks}
 
-Pada template 2020, bab ini berisi matriks organisasi mata kuliah, matriks detail MBKM, peta kurikulum, dan pohon kurikulum dalam format visual. Data digital yang dapat diekstraksi dari dokumen tersebut tidak tersedia (halaman-halaman terkait hanya memuat judul bagian tanpa data mata kuliah), sehingga jejaring kurikulum pada bagian sebelumnya disusun sebagai gantinya, berdasarkan data prasyarat yang tersedia pada RPS Kurikulum 2025.
+Pada template 2020, bab ini berisi matriks organisasi mata kuliah, matriks detail MBKM, peta kurikulum, dan pohon kurikulum dalam format visual. Konsep visual Matrik Organisasi Matakuliah (5.1) diadopsi dan disusun ulang dengan data Kurikulum 2025 pada bagian sebelumnya. Peta Kurikulum dan Pohon Kurikulum (5.3--5.4), serta Matriks Detail Prodi MBKM (5.2), tidak memiliki data digital yang dapat diekstraksi (halaman-halaman terkait hanya memuat judul bagian tanpa data mata kuliah), sehingga jejaring kurikulum pada bagian pertama bab ini disusun sebagai gantinya, berdasarkan data prasyarat yang tersedia pada RPS Kurikulum 2025.
 
-\todoitem{Validasi jejaring kurikulum pada bagian sebelumnya dengan tim kurikulum, khususnya kebenaran hubungan prasyarat/korekuisit yang digambarkan, sebelum dokumen dinyatakan final.}
+\todoitem{Validasi jejaring kurikulum pada bagian pertama bab ini dengan tim kurikulum, khususnya kebenaran hubungan prasyarat/korekuisit yang digambarkan, sebelum dokumen dinyatakan final.}
