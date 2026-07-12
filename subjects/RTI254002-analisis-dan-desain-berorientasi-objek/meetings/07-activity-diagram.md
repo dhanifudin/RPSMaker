@@ -1,18 +1,18 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-meeting: 09
-sub_cpmk: SCPMK0602-02902
-assessment_weight: 2.5
+meeting: 07
+sub_cpmk: SCPMK0211-02901
+assessment_weight: 2
 ---
 
-# Pertemuan 09 - Prinsip SOLID dan Pengenalan Design Patterns
+# Pertemuan 07 - Activity Diagram
 
 ## Kemampuan Akhir
-- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
 
 ## Materi Pembelajaran
-Prinsip SOLID dan pengenalan design patterns.
+Activity diagram: activities, actions, decisions dan merges, partitions/swimlanes.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.
@@ -21,7 +21,7 @@ Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisi
 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa menganalisis prinsip SOLID pada kode yang ada dan mengidentifikasi pelanggaran serta solusinya.
+Mahasiswa merancang activity diagram untuk alur proses pada studi kasus.
 
 ## Penilaian
 Bentuk penilaian: Tugas Artefak. Mengacu rubrik RTM.

@@ -6,13 +6,13 @@ sub_cpmk: SCPMK0602-02902
 assessment_weight: 5
 ---
 
-# Pertemuan 13 - Kuis 2: Design Patterns
+# Pertemuan 13 - Advanced Class Diagram
 
 ## Kemampuan Akhir
-- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0602-02902: Mahasiswa mampu merancang struktur komponen dan arsitektur perangkat lunak berorientasi objek menggunakan pemodelan UML lanjutan (class diagram lanjutan, state machine, component, dan deployment diagram).
 
 ## Materi Pembelajaran
-Kuis 2: design patterns.
+Advanced class diagram: relationships, constraints, abstract classes, interfaces, templates.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.
@@ -21,7 +21,7 @@ Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisi
 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa mengerjakan kuis untuk mengukur pemahaman design patterns GoF dan penerapannya.
+Mahasiswa menyempurnakan class diagram dengan relasi, constraint, abstract class, dan interface yang sesuai.
 
 ## Penilaian
 Bentuk penilaian: Kuis 2. Mengacu rubrik RTM.

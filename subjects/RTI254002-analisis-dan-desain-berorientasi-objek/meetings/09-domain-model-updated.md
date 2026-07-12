@@ -1,18 +1,18 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-meeting: 14
-sub_cpmk: SCPMK1008-02903
-assessment_weight: 4
+meeting: 09
+sub_cpmk: SCPMK0602-02902
+assessment_weight: 2.5
 ---
 
-# Pertemuan 14 - Arsitektur MVC dan Layered Architecture
+# Pertemuan 09 - Domain Model Updated
 
 ## Kemampuan Akhir
-- SCPMK1008-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
+- SCPMK0602-02902: Mahasiswa mampu merancang struktur komponen dan arsitektur perangkat lunak berorientasi objek menggunakan pemodelan UML lanjutan (class diagram lanjutan, state machine, component, dan deployment diagram).
 
 ## Materi Pembelajaran
-Arsitektur MVC dan layered architecture.
+Pemutakhiran domain model: review dan pemilihan domain model berdasarkan hasil analisis.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.
@@ -21,7 +21,7 @@ Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisi
 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa merancang arsitektur MVC dan layered architecture untuk studi kasus dan mendokumentasikan hasilnya.
+Mahasiswa mereview dan memutakhirkan domain model sesuai kebutuhan sistem yang berkembang.
 
 ## Penilaian
 Bentuk penilaian: Tugas Artefak. Mengacu rubrik RTM.

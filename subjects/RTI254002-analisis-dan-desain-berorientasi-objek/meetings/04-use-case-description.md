@@ -1,18 +1,18 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-meeting: 07
+meeting: 04
 sub_cpmk: SCPMK0211-02901
 assessment_weight: 2
 ---
 
-# Pertemuan 07 - State Diagram dan Activity Diagram
+# Pertemuan 04 - Use Case Description
 
 ## Kemampuan Akhir
 - SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
 
 ## Materi Pembelajaran
-State diagram dan activity diagram.
+Use case description: menulis use case description, alur utama dan alur alternatif, prekondisi dan postkondisi.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.
@@ -21,7 +21,7 @@ Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisi
 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa merancang state diagram dan activity diagram untuk alur proses pada studi kasus.
+Mahasiswa menulis spesifikasi use case lengkap dengan skenario utama dan alternatif.
 
 ## Penilaian
 Bentuk penilaian: Tugas Artefak. Mengacu rubrik RTM.

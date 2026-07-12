@@ -12,7 +12,7 @@ assessment_weight: 2
 - SCPMK0211-02901: Mahasiswa mampu menganalisis kebutuhan sistem dan memodelkan domain menggunakan diagram UML (use case, class, sequence, activity).
 
 ## Materi Pembelajaran
-Pengantar ADBO: paradigma OO dan proses analisis desain.
+Pengantar ADBO: apa itu modeling language, mengapa UML 2.0, model dan diagram, serta proses pengembangan perangkat lunak (SDLC).
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.

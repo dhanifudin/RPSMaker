@@ -12,7 +12,7 @@ assessment_weight: 25
 - SCPMK1008-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
 
 ## Materi Pembelajaran
-UAS: presentasi dan review dokumen desain sistem.
+UAS: presentasi dan review dokumen SKPL/desain sistem final.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.

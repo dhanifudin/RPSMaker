@@ -1,18 +1,18 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-meeting: 11
-sub_cpmk: SCPMK0602-02902
-assessment_weight: 2.5
+meeting: 15
+sub_cpmk: SCPMK1008-02903
+assessment_weight: 4
 ---
 
-# Pertemuan 11 - Structural Patterns: Adapter, Decorator, Facade
+# Pertemuan 15 - SKPL (Bagian 1)
 
 ## Kemampuan Akhir
-- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK1008-02903: Mahasiswa mampu mengintegrasikan artefak ADBO (SRS, model domain, diagram arsitektur) menjadi spesifikasi teknis yang siap diimplementasikan.
 
 ## Materi Pembelajaran
-Structural patterns: Adapter, Decorator, Facade.
+SKPL (bagian 1): pengenalan Spesifikasi Kebutuhan Perangkat Lunak dan penyusunan dokumen dari hasil pemodelan diagram sebelumnya.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.
@@ -21,7 +21,7 @@ Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisi
 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa menerapkan structural patterns pada studi kasus yang relevan dan mendokumentasikan hasilnya.
+Mahasiswa menyusun draf dokumen SKPL dari seluruh diagram UML yang telah dihasilkan.
 
 ## Penilaian
 Bentuk penilaian: Tugas Artefak. Mengacu rubrik RTM.

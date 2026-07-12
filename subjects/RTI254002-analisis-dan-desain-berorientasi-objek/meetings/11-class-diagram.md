@@ -1,18 +1,18 @@
 ---
 course_code: RTI254002
 course_name: Analisis dan Desain Berorientasi Objek
-meeting: 10
+meeting: 11
 sub_cpmk: SCPMK0602-02902
 assessment_weight: 2.5
 ---
 
-# Pertemuan 10 - Creational Patterns: Singleton, Factory, Builder
+# Pertemuan 11 - Class Diagram
 
 ## Kemampuan Akhir
-- SCPMK0602-02902: Mahasiswa mampu merancang arsitektur perangkat lunak berorientasi objek menggunakan design pattern (GoF) dan prinsip SOLID.
+- SCPMK0602-02902: Mahasiswa mampu merancang struktur komponen dan arsitektur perangkat lunak berorientasi objek menggunakan pemodelan UML lanjutan (class diagram lanjutan, state machine, component, dan deployment diagram).
 
 ## Materi Pembelajaran
-Creational patterns: Singleton, Factory, Builder.
+Class diagram: pengenalan kelas dalam UML, visibility, attribute, operation.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisis kasus, studi literatur, dan presentasi.
@@ -21,7 +21,7 @@ Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Case Method, analisi
 1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa menerapkan creational patterns pada studi kasus yang relevan dan mendokumentasikan hasilnya.
+Mahasiswa merancang class diagram awal dari domain model dan sequence diagram yang telah dibuat.
 
 ## Penilaian
 Bentuk penilaian: Tugas Artefak. Mengacu rubrik RTM.
