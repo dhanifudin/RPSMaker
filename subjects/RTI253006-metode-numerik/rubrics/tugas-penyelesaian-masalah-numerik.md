@@ -1,7 +1,7 @@
 ---
 course_code: RTI253006
 course_name: Metode Numerik
-sub_cpmk: SCPMK0707-03501, SCPMK0902-03502, SCPMK0902-03503, SCPMK1007-03504
+sub_cpmk: SCPMK0902-02401, SCPMK0902-02402, SCPMK0902-02403, SCPMK1007-02404
 assessment_form: Tugas terstruktur individu
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Tugas terstruktur individu
 
 **Bentuk Tugas/Evaluasi:** Tugas terstruktur individu
 
-**Sub-CPMK:** SCPMK0707-03501, SCPMK0902-03502, SCPMK0902-03503, SCPMK1007-03504
+**Sub-CPMK:** SCPMK0902-02401, SCPMK0902-02402, SCPMK0902-02403, SCPMK1007-02404
 
 ## Deskripsi
 Mahasiswa menyelesaikan tugas perhitungan numerik secara individu mencakup analisis galat, penyelesaian sistem persamaan linear, persamaan nonlinear, diferensiasi, integrasi, interpolasi, dan regresi sesuai jadwal yang ditetapkan.

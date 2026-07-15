@@ -1,7 +1,7 @@
 ---
 course_code: RTI253006
 course_name: Metode Numerik
-sub_cpmk: SCPMK0707-03501, SCPMK0902-03502
+sub_cpmk: SCPMK0902-02401, SCPMK0902-02402
 assessment_form: UTS (ujian tertulis, closed book)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UTS (ujian tertulis, closed book)
 
 **Bentuk Tugas/Evaluasi:** UTS (ujian tertulis, closed book)
 
-**Sub-CPMK:** SCPMK0707-03501, SCPMK0902-03502
+**Sub-CPMK:** SCPMK0902-02401, SCPMK0902-02402
 
 ## Deskripsi
 Mahasiswa mengerjakan soal UTS materi minggu 1--8 meliputi galat, sistem persamaan linear, dan persamaan nonlinear secara mandiri.

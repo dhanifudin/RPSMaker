@@ -1,7 +1,7 @@
 ---
 course_code: RTI254009
 course_name: Proyek Sistem Informasi
-sub_cpmk: SCPMK0607-03604, SCPMK0803-03603
+sub_cpmk: SCPMK0607-03604, SCPMK0803-03603, SCPMK0302-03606
 assessment_form: UAS berbasis demo dan defense
 ---
 
@@ -9,10 +9,10 @@ assessment_form: UAS berbasis demo dan defense
 
 **Bentuk Tugas/Evaluasi:** UAS berbasis demo dan defense
 
-**Sub-CPMK:** SCPMK0607-03604, SCPMK0803-03603
+**Sub-CPMK:** SCPMK0607-03604, SCPMK0803-03603, SCPMK0302-03606
 
 ## Deskripsi
-Mahasiswa mendemonstrasikan sistem informasi final yang deployable, menyerahkan laporan akhir proyek, dan mempertahankan hasil kerja tim.
+Mahasiswa mendemonstrasikan sistem informasi final yang deployable, menyerahkan laporan akhir proyek, dan mempertahankan hasil kerja tim, serta menyampaikan hasil kerja tim kepada pemangku kepentingan secara profesional.
 
 ## Metode Pengerjaan
 Melakukan finalisasi sistem, menyiapkan environment demo, menyusun laporan akhir proyek, dan mempresentasikan hasil secara komprehensif.
@@ -24,6 +24,7 @@ Sistem SI yang deployable, laporan akhir proyek lengkap, dokumentasi teknis, dan
 
 | Indikator Penilaian | Bobot (%) | Kriteria 3 (Baik) | Kriteria 2 (Cukup) | Kriteria 1 (Kurang) |
 | --- | ---: | --- | --- | --- |
-| Kelengkapan dan kualitas sistem akhir | 13 | Sistem SI dapat didemonstrasikan end-to-end, semua fitur utama berfungsi, dan telah melalui UAT dengan hasil terdokumentasi. | Sistem sebagian besar berfungsi, tetapi beberapa fitur atau hasil UAT masih kurang lengkap. | Sistem tidak dapat didemonstrasikan atau tidak melewati UAT minimal. |
-| Kualitas laporan dan dokumentasi proyek | 9 | Laporan akhir lengkap, mencakup perencanaan, implementasi, pengujian, dan refleksi proyek secara runtut dan terstandar. | Laporan tersedia tetapi beberapa bagian penting atau kelengkapan dokumentasi masih kurang. | Laporan tidak lengkap atau tidak mencerminkan perjalanan proyek secara akurat. |
+| Kelengkapan dan kualitas sistem akhir | 11 | Sistem SI dapat didemonstrasikan end-to-end, semua fitur utama berfungsi, dan telah melalui UAT dengan hasil terdokumentasi. | Sistem sebagian besar berfungsi, tetapi beberapa fitur atau hasil UAT masih kurang lengkap. | Sistem tidak dapat didemonstrasikan atau tidak melewati UAT minimal. |
+| Kualitas laporan dan dokumentasi proyek | 8 | Laporan akhir lengkap, mencakup perencanaan, implementasi, pengujian, dan refleksi proyek secara runtut dan terstandar. | Laporan tersedia tetapi beberapa bagian penting atau kelengkapan dokumentasi masih kurang. | Laporan tidak lengkap atau tidak mencerminkan perjalanan proyek secara akurat. |
 | Defense dan penguasaan teknis proyek | 8 | Mahasiswa mampu menjelaskan arsitektur, keputusan desain, tantangan, dan solusi proyek dengan meyakinkan dan akurat. | Defense cukup baik, tetapi beberapa aspek teknis atau manajerial belum dapat dijelaskan dengan mendalam. | Tidak dapat mempertahankan keputusan teknis atau manajerial proyek secara memadai. |
+| Profesionalisme koordinasi tim dan penyampaian hasil kepada pemangku kepentingan | 3 | Tim menunjukkan koordinasi yang solid dan menyampaikan hasil kerja secara profesional, jelas, dan meyakinkan kepada pemangku kepentingan. | Koordinasi tim dan penyampaian hasil cukup baik, tetapi kurang terstruktur atau kurang meyakinkan. | Tim tidak terkoordinasi atau penyampaian hasil tidak profesional. |

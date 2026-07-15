@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 09
-sub_cpmk: SCPMK0707-03501, SCPMK0902-03502
+sub_cpmk: SCPMK0902-02401, SCPMK0902-02402
 assessment_weight: 25.0
 ---
 
 # Pertemuan 09 - UTS
 
 ## Kemampuan Akhir
-- SCPMK0707-03501, SCPMK0902-03502
+- SCPMK0902-02401, SCPMK0902-02402
 
 ## Materi Pembelajaran
 UTS: materi minggu 1--8 (galat, persamaan linear, persamaan nonlinear).

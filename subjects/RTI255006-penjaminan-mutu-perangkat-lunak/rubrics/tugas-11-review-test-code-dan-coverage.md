@@ -1,7 +1,7 @@
 ---
 course_code: RTI255006
 course_name: Penjaminan Mutu Perangkat Lunak
-sub_cpmk: SCPMK0608-04203
+sub_cpmk: SCPMK0605-04206
 assessment_form: Peer Assessment
 ---
 
@@ -9,10 +9,10 @@ assessment_form: Peer Assessment
 
 **Bentuk Tugas/Evaluasi:** Peer Assessment
 
-**Sub-CPMK:** SCPMK0608-04203
+**Sub-CPMK:** SCPMK0605-04206
 
 ## Deskripsi
-Mahasiswa mengevaluasi kualitas test code dan test coverage.
+Mahasiswa mengevaluasi dan memelihara kualitas kode perangkat lunak melalui test code review dan analisis test coverage sesuai standar kualitas kode.
 
 ## Metode Pengerjaan
 Melakukan code review, membaca coverage report, dan menyusun rekomendasi refactoring.
@@ -26,4 +26,4 @@ Laporan review test code dan coverage.
 | --- | ---: | --- | --- | --- |
 | Ketepatan code review test | 1.2 | Review mengidentifikasi masalah readability, isolation, flaky test, duplication, dan assertion lemah. | Review menemukan beberapa masalah, tetapi belum menyentuh risiko test penting. | Review dangkal atau tidak berbasis kode test. |
 | Analisis coverage | 1.1 | Coverage report dibaca tepat, gap fungsi kritis diidentifikasi, dan tidak hanya mengejar angka coverage. | Coverage dianalisis, tetapi gap fungsi kritis belum lengkap. | Coverage tidak dianalisis atau disimpulkan keliru. |
-| Rekomendasi refactoring test | 0.7 | Rekomendasi refactoring spesifik, prioritas jelas, dan meningkatkan maintainability test suite. | Rekomendasi cukup relevan, tetapi masih umum atau tidak diprioritaskan. | Rekomendasi tidak dapat ditindaklanjuti. |
+| Rekomendasi refactoring test dan kesesuaian standar kualitas kode | 0.7 | Rekomendasi refactoring spesifik, prioritas jelas, dan meningkatkan maintainability serta kualitas kode test suite sesuai standar. | Rekomendasi cukup relevan, tetapi masih umum atau tidak diprioritaskan. | Rekomendasi tidak dapat ditindaklanjuti. |
