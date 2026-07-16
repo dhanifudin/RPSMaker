@@ -9,6 +9,14 @@ communities). Every gap below was confirmed by a `graphify query` traversal, not
 just inferred from headings — see the query evidence cited per row. Raw outputs:
 `graphify-out/GRAPH_REPORT.md`, `graphify-out/graph.json`.
 
+**Refresh note (2026-07-16):** statuses below were re-verified directly against the
+current `book/src/*` sources (grepping for surviving `\todoitem`/`\reviewfrompdf`
+markers and reading the surrounding content) — not a full graphify re-run, since the
+underlying book content has moved substantially since the original pass (new tracer
+study data, new diagrams, a restructured Lampiran 3, a filled-in approval page, etc.).
+Where a row's status changed, the original graphify-era note is kept for history and a
+new line documents the current state.
+
 **"Fillable" classification used throughout:**
 - ✅ **Fillable from 2020** — the content physically exists in the 2020 PDF and is
   portable to 2025 (verbatim, or with a mechanical update like renamed course
@@ -42,8 +50,8 @@ just inferred from headings — see the query evidence cited per row. Raw output
 | Item | Status | Evidence |
 |---|---|---|
 | Kuesioner Dosen (21 dosen), FGD Industri narrative | Already populated, real 2020 content, appropriately historical | community 6 |
-| **Tracer Study Alumni** (participant counts, employment stats, charts) | ⛔ **NOT fillable from 2020 — this is the core gap** | Query `"tracer study alumni terbaru visualisasi"` shows the book's tracer-study node is the *exact same* 199-participant, 2017/2018–2019/2020 dataset as the 2020 PDF (`Ringkasan Hasil Tracer Study (Data 2017/2018-2019/2020)` in the book ↔ `2.2 Tracer Study Alumni D4 Teknik Informatika (199 partisipan, lulusan 2017-2019)` in 2020 — same numbers, same years). The book's own `\todoitem` says this outright: "data referensi dari kurikulum 2020 dan tidak boleh digunakan sebagai data final." 2020 **is** the stale source, not a fix for it. |
-| Tracer study **visualizations/charts** (2020 PDF has `Gambar 1`–`Gambar 13` per the Daftar Gambar) | ⛔ NOT fillable from 2020 | Same reasoning — the 2020 charts describe 2017–2020 alumni, not usable as 2025 visuals. |
+| **Tracer Study Alumni** (participant counts, employment stats, charts) | ✅ **Resolved 2026-07-16 (real 2022–2024 data)** — was ⛔ NOT fillable from 2020 | *Original finding:* query `"tracer study alumni terbaru visualisasi"` showed the book's tracer-study node was the *exact same* 199-participant, 2017/2018–2019/2020 dataset as the 2020 PDF. *Current state:* `book/src/chapters/02-evaluasi.tex` now opens with a genuine, current dataset — "tracer study resmi yang dilaksanakan terhadap alumni lulusan tahun 2022, 2023, dan 2024, dengan total **344 responden**" (102 + 127 + 115 by year). The old 199-participant 2017–2020 findings are retained only as a `\reviewfrompdf`-flagged historical/qualitative supplement, explicitly not primary data anymore. Remaining gap: the new 2022–2024 survey doesn't cover hard-skill/soft-skill competency assessment, per the same marker — that specific sub-item is still open. |
+| Tracer study **visualizations/charts** (2020 PDF has `Gambar 1`–`Gambar 13` per the Daftar Gambar) | ⛔ Still not fillable from 2020 (unchanged) | Same reasoning as before — the 2020 charts describe 2017–2020 alumni, not usable as 2025 visuals. The new 2022–2024 tracer data (see row above) would need its own fresh charts if desired. |
 
 ### BAB III — Landasan Perancangan
 **Book:** `book/src/chapters/03-landasan.tex` · **2020 source:** pages 29–36
@@ -67,21 +75,39 @@ just inferred from headings — see the query evidence cited per row. Raw output
 | Item | Status | Evidence |
 |---|---|---|
 | Matriks BK ↔ Mata Kuliah (2025, text-table form) | Already populated | community 1/7/10 |
-| **Peta Kurikulum** (§5.3) diagram | 🎨 Fillable, but needs re-creation | Query `"pohon kurikulum peta kurikulum diagram"` confirms the 2020 PDF pages for §5.3/§5.4 extract to almost no text (just the section titles) — they are **images**, not portable text. The underlying data to redraw them (current BK codes, semester distribution) already exists in the book's own §5 and §6. This is a "build a diagram from data we already have" task, not "copy text from 2020." |
-| **Pohon Kurikulum** (§5.4) diagram | 🎨 Fillable, but needs re-creation | Same as above. |
+| **Peta Kurikulum** (§5.3) diagram | ✅ **Resolved 2026-07-16** — was 🎨 Fillable, needs re-creation | *Original finding:* the 2020 PDF pages for §5.3/§5.4 extract to almost no text — they are images, not portable text, but the underlying data (BK codes, semester distribution) already existed in the book's own §5/§6. *Current state:* `book/src/chapters/05-matriks.tex` now contains a built "diagram jejaring kurikulum" (concept map from Deskripsi Mata Kuliah/Bahan Kajian/Matakuliah Syarat in the 2025 RPS, not from 2020 — confirmed via its own `\reviewfrompdf` note that 2020 has no equivalent digital data for this), plus ten CPL "peta jalan" diagrams built directly from `docs/rti-mk-crosswalk.md`. Both still carry a `\reviewfrompdf` flag for curriculum-team validation of the depicted relationships (some edges are topic-similarity inferences, not explicit RPS prerequisites) — not a content gap anymore, but not yet formally signed off either. |
+| **Pohon Kurikulum** (§5.4) diagram | ✅ **Resolved 2026-07-16** — was 🎨 Fillable, needs re-creation | Same file, same resolution as above: a "Matrik Organisasi Mata Kuliah" table (mata kuliah per semester, Jalur Reguler/Magang marked `(R)`/`(M)` for Semester 6) has been built using 2025 data, adapted from the 2020 doc's visual *concept* only (per its own `\reviewfrompdf` note) since 2020 had no portable digital source. Also still flagged for curriculum-team validation, same as the row above. |
 
 ### BAB VI — Rancangan Kurikulum Implementasi
 **Book:** `book/src/chapters/06-rancangan-kurikulum.tex` · **2020 source:** pages 46–53
 
-Fully populated with real 2025 content (semester 1–8 tables, SKS recap); no `\todoitem`/`\reviewfrompdf`. No gap.
+Fully populated with real 2025 content (semester 1–8 tables, SKS recap).
+
+**New gap found 2026-07-16** (not present when this analysis was first written — the file
+had no markers at all at that time): a `\reviewfrompdf` now flags an SKS mismatch between
+the RPS and this chapter's distribution table for 5 courses. The distribution table's
+values were kept (they're internally consistent with each semester's SKS total), but which
+number is actually correct needs curriculum-team confirmation:
+
+| RTI code | Course | RPS says | Distribution table says |
+|---|---|---|---|
+| RTI253005 | Basis Data Lanjut | 2 SKS | 3 SKS |
+| RTI255008 | Administrasi dan Keamanan Jaringan | 3 SKS | 2 SKS |
+| RTI256205 | Workshop Teknologi Terapan | 6 SKS | 3 SKS |
+| RTI256206 | Rekayasa Sistem | 6 SKS | 3 SKS |
+| RTI256207 | Teknologi Terapan | 6 SKS | 2 SKS |
+
+This is a ⛔ **NOT fillable from 2020** item either way — it's a 2025-internal
+RPS-vs-distribution consistency question, not something the 2020 document can resolve.
 
 ### BAB VII — Rekonstruksi Kurikulum
 **Book:** `book/src/chapters/07-rekonstruksi.tex` · **2020 source:** pages 54–74
 
 | Item | Status | Evidence |
 |---|---|---|
-| Ringkasan struktur 2018/2019/2020 rows | ✅ **Fillable from 2020** | Query `"rekonstruksi perubahan mata kuliah narasi 2025"` surfaces full itemized 2020 detail: `7.1 Struktur Kurikulum MBKM 2018`, `7.2 ... 2019`, `7.3 ... 2020`, each with complete "a. Matakuliah yang Dihapus / b. Berubah Nama / c. Matakuliah Baru" course-by-course lists (e.g. `Kapita Selekta`, `Proposal Skripsi`, `Sistem Terdistribusi` removed; `Magang Industri 1/2/3`, `Pengembangan Karir`, `QMS` added). The book currently only has a one-line `\reviewfrompdf` summary per year — the full detail sits unused in the 2020 PDF and can be transcribed directly. |
-| 2025 row / narrative (`\todoitem` ×2) | ⛔ NOT fillable from 2020 | By construction — needs the actual 2025 curriculum-committee decision record/minutes, which postdates the 2020 document. |
+| Ringkasan struktur 2018/2019/2020 rows | 🟡 **Still only one-line summaries — original recommendation not (yet) applied** | *Original finding:* query `"rekonstruksi perubahan mata kuliah narasi 2025"` surfaced full itemized 2020 detail — `7.1`/`7.2`/`7.3` each with complete "a. Dihapus / b. Berubah Nama / c. Baru" course-by-course lists. *Current state (2026-07-16):* `book/src/chapters/07-rekonstruksi.tex` still carries only a one-line `\reviewfrompdf` summary per year (e.g. 2018: "Penambahan skema magang, pengembangan karir, dan penyesuaian struktur proyek MBKM.") — the full course-by-course transcription this analysis recommended has not been done. Still ✅ **fillable from 2020** whenever that transcription work happens. |
+| 2025 row / narrative (`\todoitem`) | ⛔ Still NOT fillable from 2020 (unchanged) | By construction — needs the actual 2025 curriculum-committee decision record/minutes, which postdates the 2020 document. The `\todoitem` text is unchanged: "Tambahkan narasi rekonstruksi terbaru berdasarkan dokumen keputusan atau notulensi pengembangan kurikulum 2025." |
+| **New gap found 2026-07-16:** IABEE accreditation alignment | ⛔ NOT fillable from 2020 | Not present in the original pass. A `\reviewfrompdf` now states: "Penyelarasan dengan standar IABEE pada kurikulum 2025 belum didokumentasikan secara formal dalam berita acara atau keputusan rapat kurikulum yang terpisah dari dokumen ini." A companion `\todoitem` asks to confirm IABEE submission/accreditation status with the prodi before the document is final. 2020 predates IABEE alignment work entirely, so this needs fresh 2025 institutional input, same category as the row above. |
 
 ### Lampiran 1 — Buku Pedoman Akademik
 **Book:** `book/src/appendices/01-pedoman-akademik.tex` · **2020 source:** pages 75–147
@@ -89,7 +115,7 @@ Fully populated with real 2025 content (semester 1–8 tables, SKS recap); no `\
 | Item | Status | Evidence |
 |---|---|---|
 | Full Visi/Misi (duplicate of BAB I, standalone document) | ✅ Fillable from 2020 | community 15 — near-identical text already exists in 2020's Lampiran 1, `semantically_similar_to` the book's own §1.2. |
-| **Short Silabus / per-course descriptions** (CPL, Pokok Bahasan, Referensi) — the bulk of this Lampiran | ✅ **Fillable from 2020, this is the single biggest concrete gap** | Query `"buku pedoman akademik silabus deskripsi mata kuliah"` shows the 2020 PDF's Lampiran 1 contains a full per-course catalog entry (CPL mapping + pokok bahasan + pustaka) for every 2021-curriculum course — 30+ nodes extracted (`Pancasila`, `Matematika 1`, `Big Data`, `Komputasi Awan`, `Magang Industri 1/2/3`, etc.), each already `conceptually_related_to` its 2025-book counterpart course. The book currently only ships a thin "Ringkasan Struktur Kurikulum 2021 sebagai Acuan Review" table and explicitly flags the rest as not carried over. Filling this means porting ~59 course descriptions and updating renamed/new courses (see BAB VII rename list) against the current course list. |
+| **Short Silabus / per-course descriptions** (CPL, Pokok Bahasan, Referensi) — the bulk of this Lampiran | ✅ **Resolved 2026-07-16 — but via 2025 RPS, not 2020 transcription** | *Original finding:* the 2020 PDF's Lampiran 1 contains a full per-course catalog entry (CPL + pokok bahasan + pustaka) for every 2021-curriculum course, and this was flagged as "the single biggest concrete gap," recommending those ~59 entries be transcribed and reconciled against renamed/new courses. *Current state:* `book/src/appendices/01-pedoman-akademik.tex` now has these descriptions filled in for all courses — but sourced directly from the 2025 RPS (Lampiran II), not transcribed from the 2020 document. Its own `\reviewfrompdf` explains why: "RPS 2025 adalah sumber yang lebih akurat dan terkini untuk setiap mata kuliah saat ini" — i.e. the 2020 text would have been stale/wrong for renamed or restructured courses anyway, so going straight to the current RPS was the more correct call. Net effect: the gap is closed, just not by the originally-recommended method. |
 
 ### Lampiran 2 — RPS
 **Book:** `book/src/appendices/02-rps/index.tex` · **2020 source:** pages 148–697 (skipped, per plan — already embedded)
@@ -101,7 +127,7 @@ Fully populated (59 `\RPSInput` calls). No gap — out of scope for this analysi
 
 | Item | Status | Evidence |
 |---|---|---|
-| Per-course assessment plan (rubric structure: Bentuk/Metode Penilaian, Indikator/Kriteria/Bobot, Jadwal Pelaksanaan) | 🎨 Structure available, but book made a different (valid) design choice | Query `"rencana penilaian rubrik indikator kriteria bobot"` confirms the 2020 PDF has this fully fleshed out per course (e.g. `Pengujian Perangkat Lunak`, `Proyek 1`, `Kecerdasan Buatan`, each with 17-week rubric detail). The 2025 book's Lampiran 3 is currently a **3-sentence redirect** stating this content is embedded per-course inside the RPS (Lampiran 2) instead — which is architecturally consistent with `\assessmentblock` already appearing in every RPS file. This isn't a missing-data gap so much as an intentional restructuring; if a standalone assessment appendix (matching the 2020 layout) is still wanted, the 2020 rubric format is directly reusable as a template. |
+| Per-course assessment plan (rubric structure: Bentuk/Metode Penilaian, Indikator/Kriteria/Bobot, Jadwal Pelaksanaan) | ✅ **Resolved 2026-07-08** | Query `"rencana penilaian rubrik indikator kriteria bobot"` confirmed the 2020 PDF has this fully fleshed out per course (e.g. `Pengujian Perangkat Lunak`, `Proyek 1`, `Kecerdasan Buatan`, each with 17-week rubric detail). At the time of this analysis, the 2025 book's Lampiran 3 was a 3-sentence redirect saying this content lived only inside the RPS (Lampiran 2). Following a subsequent restructuring request, each course's RPS+Rubric content was split into separate `- RPS.tex`/`- Rubrik.tex`/`- Tanda Tangan.tex` files (see `docs/book-todo-checklist.md`); Lampiran 3 now `\RubrikInput`s the real rubric content (RTM header + `\assessmentblock` tables) for all 59 courses in portrait, no longer a redirect stub. The standalone `make rps` build still combines RPS+Rubric+signature per course in landscape, unchanged from before. |
 
 ### Daftar Pustaka
 **Book:** inline in `book/main.tex` · **2020 source:** ❓ not confirmed in this pass
@@ -117,22 +143,27 @@ Fully populated (59 `\RPSInput` calls). No gap — out of scope for this analysi
 
 | Item | Status | Evidence |
 |---|---|---|
-| Nama Penyusun 1/2/3, Tanggal Pengesahan, Nama+NIP Ka. Prodi | ⛔ Not from 2020 (it's not a 2020 concept) — **but a quick win from repo data already on hand** | The 2020 document has no equivalent "Halaman Pengesahan" signatory block for a specific committee — this is a per-cycle administrative artifact. However, the Ka. Prodi name/NIP (Dr. Ely Setyo Astuti, S.T., M.T. / NIP. 19760515 200912 2 001) is **already known and used throughout `subjects/*.tex`** from earlier work this session — it just hasn't been propagated to `approval.tex` yet. Penyusun names and the pengesahan date still need fresh input (whoever compiled this book, and when). |
+| Nama Penyusun 1/2/3, Tanggal Pengesahan, Nama+NIP Ka. Prodi | ✅ **Resolved** (confirmed still in place 2026-07-16) | *Original finding:* the 2020 document has no equivalent signatory block (per-cycle administrative artifact); the Ka. Prodi name/NIP was already known from `subjects/*.tex` but not yet propagated to `approval.tex`. *Current state:* `book/src/frontmatter/approval.tex` is fully filled in — an 11-person Tim Penyusun list, "Diimplementasikan pada: Tahun Ajaran \CurriculumYear," a signed date ("Malang, 1 Agustus 2025"), and both signatories with name+NIP (Ketua Jurusan Mungki Astiningrum and Ketua Program Studi Dr. Ely Setyo Astuti). No remaining gap here. |
 
 ---
 
 ## Priority checklist — what to fill first
 
-Ranked by (a) confirmed fillable-from-2020 or already-available, and (b) effort:
+**Status as of 2026-07-16** — 3 of the original 8 items are now fully resolved and a 4th
+(tracer study) is substantially resolved:
 
-1. **Approval page Ka. Prodi name/NIP** — already known, zero new research needed (independent of 2020 vs 2025 question).
-2. **Lampiran 1 short-silabus course descriptions** — the single largest concrete, portable gap; 2020 has full per-course CPL/pokok-bahasan/pustaka text for ~59 courses, ready to transcribe and reconcile against 2025's renamed/new courses.
-3. **BAB VII 2018/2019/2020 detailed change tables** — fully present in 2020, just needs transcription from the summarized `\reviewfrompdf` stub into real tables.
-4. **BAB V pohon/peta kurikulum diagrams** — data already exists in the book's own BK matrix and semester tables; needs diagram creation (TikZ or image), not new research.
-5. **Daftar Pustaka** — locate the actual 2020 bibliography section (unverified in this pass) before deciding what's portable.
-6. **BAB VII 2025 row + BAB IV profil lulusan validation + BAB III post-2020 legal check** — all genuinely need fresh 2025 input; 2020 cannot help further.
-7. **BAB II tracer study** — the hardest and most explicitly-flagged gap; needs an actual new tracer study, not a documentation fix.
-8. **BAB I SK/akreditasi/gelar verification** — an institutional fact-check (contact the relevant office), not a document-editing task.
+1. ~~**Approval page Ka. Prodi name/NIP**~~ — ✅ done (`approval.tex` fully filled in).
+2. ~~**Lampiran 1 short-silabus course descriptions**~~ — ✅ done, sourced from 2025 RPS rather than transcribed from 2020.
+3. ~~**BAB V pohon/peta kurikulum diagrams**~~ — ✅ done (jejaring kurikulum concept map + 10 CPL peta jalan diagrams + Matrik Organisasi Mata Kuliah), though still flagged for curriculum-team validation.
+4. **BAB VII 2018/2019/2020 detailed change tables** — still just one-line summaries; 2020 still has the full detail ready to transcribe (see BAB VII row above). Not started.
+5. **Daftar Pustaka** — still unverified; locate the actual 2020 bibliography section before deciding what's portable. Not started.
+6. **BAB VII 2025 row + IABEE alignment confirmation + BAB IV profil lulusan validation + BAB III post-2020 legal check** — all genuinely need fresh 2025 institutional input; 2020 cannot help further. (IABEE alignment is a newly-found gap, added to this bucket.)
+7. ~~**BAB II tracer study**~~ — 🟡 **substantially resolved**: a real 2022–2024 tracer study (344 respondents) now exists, replacing the old 2017–2020 dataset as primary data. Remaining sub-gap: the new survey doesn't cover hard-skill/soft-skill competency assessment — that piece still needs a fresh instrument, not a documentation fix.
+8. **BAB I SK/akreditasi/gelar verification** — an institutional fact-check (contact the relevant office), not a document-editing task. Not started.
+
+**New item found this pass:** **BAB VI SKS mismatch for 5 courses** (RTI253005, RTI255008,
+RTI256205, RTI256206, RTI256207) between their RPS and the semester distribution table —
+needs curriculum-team confirmation of which number is correct (see BAB VI row above).
 
 ## Supporting graph artifacts
 - `graphify-out/GRAPH_REPORT.md` — full report (god nodes, all 19 communities, ambiguous edges, suggested questions).
