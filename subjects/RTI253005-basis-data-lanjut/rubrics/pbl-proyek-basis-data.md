@@ -1,7 +1,7 @@
 ---
 course_code: RTI253005
 course_name: Basis Data Lanjut
-sub_cpmk: SCPMK1001-01604
+sub_cpmk: SCPMK1001-02304
 assessment_form: Project Based Learning
 ---
 
@@ -9,7 +9,7 @@ assessment_form: Project Based Learning
 
 **Bentuk Tugas/Evaluasi:** Project Based Learning
 
-**Sub-CPMK:** SCPMK1001-01604
+**Sub-CPMK:** SCPMK1001-02304
 
 ## Deskripsi
 Mahasiswa secara berkelompok merancang, mengimplementasikan, dan mempresentasikan proyek basis data PostgreSQL terintegrasi berdasarkan domain nyata yang dipilih, mencakup perancangan skema, optimasi, stored procedure, transaksi, dan integrasi dengan aplikasi.

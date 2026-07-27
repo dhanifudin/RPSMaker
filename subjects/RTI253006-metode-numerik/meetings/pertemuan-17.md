@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 17
-sub_cpmk: SCPMK0902-03503, SCPMK1007-03504
+sub_cpmk: SCPMK0902-02403, SCPMK1007-02404
 assessment_weight: 35.0
 ---
 
 # Pertemuan 17 - UAS
 
 ## Kemampuan Akhir
-- SCPMK0902-03503, SCPMK1007-03504
+- SCPMK0902-02403, SCPMK1007-02404
 
 ## Materi Pembelajaran
 UAS: materi minggu 1--16 dengan penekanan pada integrasi numerik, interpolasi, dan regresi.

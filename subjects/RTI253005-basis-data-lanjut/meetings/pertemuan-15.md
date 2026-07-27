@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 15
-sub_cpmk: SCPMK1001-01604
+sub_cpmk: SCPMK1001-02304
 assessment_weight: 1.25
 ---
 
 # Pertemuan 15 - Studi Kasus 4
 
 ## Kemampuan Akhir
-- SCPMK1001-01604: Mampu mengintegrasikan PostgreSQL dengan aplikasi dan menyelesaikan studi kasus kompleks melalui proyek basis data terintegrasi.
+- SCPMK1001-02304: Mampu mengintegrasikan PostgreSQL dengan aplikasi dan menyelesaikan studi kasus kompleks melalui proyek basis data terintegrasi.
 
 ## Materi Pembelajaran
 Studi Kasus 4: implementasi full-text search dan pengelolaan data JSONB untuk domain portal berita.

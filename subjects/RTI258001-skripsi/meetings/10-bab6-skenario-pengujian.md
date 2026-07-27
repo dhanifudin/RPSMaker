@@ -1,30 +1,31 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-meeting: 03
-sub_cpmk: SCPMK0403-05801
+meeting: 10
+sub_cpmk: SCPMK0403-05801, SCPMK1009-05805
 assessment_weight: 2
 ---
 
-# Milestone 03 - Penentuan Metodologi Penelitian/Pengembangan
+# Milestone 10 - Bimbingan BAB VI: Perancangan Skenario Pengujian Sistem
 
 ## Kemampuan Akhir
 - SCPMK0403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
+- SCPMK1009-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
 
 ## Materi Pembelajaran
-Penentuan metodologi penelitian/pengembangan.
+Bimbingan BAB VI: perancangan skenario pengujian sistem.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah.
 
 ## Estimasi Waktu
-1 x 1 x 50' bimbingan; studi mandiri.
+Disesuaikan jadwal skripsi.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa memilih dan menentukan metodologi penelitian/pengembangan yang sesuai dengan topik dan tujuan skripsi.
+Mahasiswa merancang skenario dan instrumen pengujian sistem berdasarkan hasil implementasi.
 
 ## Penilaian
-Bentuk penilaian: Draft justifikasi pemilihan metodologi. Mengacu rubrik RTM.
+Bentuk penilaian: Draft skenario pengujian (BAB VI). Mengacu rubrik RTM.
 
 ## Indikator Penilaian
 Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis.

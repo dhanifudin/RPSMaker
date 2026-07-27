@@ -1,30 +1,30 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-meeting: 02
+meeting: 12
 sub_cpmk: SCPMK1009-05805
-assessment_weight: 2
+assessment_weight: 4
 ---
 
-# Milestone 02 - Identifikasi Topik dan Tinjauan Awal Literatur
+# Milestone 12 - Finalisasi BAB VI: Pembahasan Hasil Pengujian
 
 ## Kemampuan Akhir
 - SCPMK1009-05805: Mahasiswa mampu menganalisis permasalahan TIK secara sistematis dan menghasilkan solusi yang tervalidasi secara ilmiah.
 
 ## Materi Pembelajaran
-Identifikasi topik dan tinjauan awal literatur.
+Finalisasi BAB VI: pembahasan hasil pengujian.
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah.
 
 ## Estimasi Waktu
-1 x 1 x 50' bimbingan; studi mandiri.
+1 x 1 x 50' bimbingan; penulisan mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa mengidentifikasi topik penelitian potensial dan melakukan tinjauan awal literatur untuk memperkuat ide penelitian.
+Mahasiswa menganalisis dan membahas hasil pengujian, memvalidasi solusi terhadap rumusan masalah, serta menyelesaikan BAB VI.
 
 ## Penilaian
-Bentuk penilaian: Mind map topik dan daftar literatur awal. Mengacu rubrik RTM.
+Bentuk penilaian: Draft BAB VI lengkap. Mengacu rubrik RTM.
 
 ## Indikator Penilaian
 Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis.

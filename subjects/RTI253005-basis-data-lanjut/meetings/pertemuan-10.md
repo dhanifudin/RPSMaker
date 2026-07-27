@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 10
-sub_cpmk: SCPMK1001-01604
+sub_cpmk: SCPMK1001-02304
 assessment_weight: 1.25
 ---
 
 # Pertemuan 10 - Backup-Restore dan Migrasi MySQL ke PostgreSQL
 
 ## Kemampuan Akhir
-- SCPMK1001-01604: Mampu mengintegrasikan PostgreSQL dengan aplikasi dan menyelesaikan studi kasus kompleks melalui proyek basis data terintegrasi.
+- SCPMK1001-02304: Mampu mengintegrasikan PostgreSQL dengan aplikasi dan menyelesaikan studi kasus kompleks melalui proyek basis data terintegrasi.
 
 ## Materi Pembelajaran
 Backup-Restore dan Migrasi MySQL ke PostgreSQL: pg_dump, pg_restore, psql dump, strategi backup, pgloader, konversi tipe data, dan penanganan perbedaan sintaks.

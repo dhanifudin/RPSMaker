@@ -1,6 +1,19 @@
 RPS/
+.cache/
+main.pdf
+main.xdv
+book/main.pdf
+book/main.xdv
 *.aux
 *.log
 *.out
 *.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
 *.synctex.gz
+
+# graphify working artifacts (analysis corpus + generated graph)
+graphify-out/
+analysis/

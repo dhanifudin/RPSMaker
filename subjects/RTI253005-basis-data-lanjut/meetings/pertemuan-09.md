@@ -2,14 +2,14 @@
 course_code: RTI253005
 course_name: Basis Data Lanjut
 meeting: 09
-sub_cpmk: SCPMK0203-01601, SCPMK0203-01602, SCPMK0701-01603
+sub_cpmk: SCPMK0203-02301, SCPMK0203-02302, SCPMK0701-02303
 assessment_weight: 20.0
 ---
 
 # Pertemuan 09 - UTS
 
 ## Kemampuan Akhir
-- SCPMK0203-01601, SCPMK0203-01602, SCPMK0701-01603
+- SCPMK0203-02301, SCPMK0203-02302, SCPMK0701-02303
 
 ## Materi Pembelajaran
 UTS: materi minggu 1--8 (query dasar, query lanjutan, indeks, objek basis data, transaksi, FTS, JSONB).

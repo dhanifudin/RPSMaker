@@ -3,28 +3,28 @@ course_code: RTI258001
 course_name: Skripsi
 meeting: 06
 sub_cpmk: SCPMK0403-05801
-assessment_weight: 3
+assessment_weight: 2
 ---
 
-# Milestone 06 - Bimbingan Proposal: BAB III - Metodologi
+# Milestone 06 - Bimbingan BAB V: Implementasi Lanjutan (Fitur Inti)
 
 ## Kemampuan Akhir
 - SCPMK0403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
 
 ## Materi Pembelajaran
-Bimbingan proposal: BAB III - Metodologi.
+Bimbingan BAB V: implementasi lanjutan (fitur inti).
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah.
 
 ## Estimasi Waktu
-1 x 1 x 50' bimbingan; penulisan mandiri.
+Disesuaikan jadwal skripsi.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa menyusun BAB III (metodologi penelitian/pengembangan lengkap) dan mendapatkan persetujuan pembimbing.
+Mahasiswa melanjutkan implementasi fitur inti sistem dan berkonsultasi dengan pembimbing terkait kendala teknis.
 
 ## Penilaian
-Bentuk penilaian: Draft BAB III proposal. Mengacu rubrik RTM.
+Bentuk penilaian: Progress implementasi fitur inti. Mengacu rubrik RTM.
 
 ## Indikator Penilaian
 Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis.

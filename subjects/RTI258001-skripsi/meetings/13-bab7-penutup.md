@@ -6,13 +6,13 @@ sub_cpmk: SCPMK0404-05802
 assessment_weight: 3
 ---
 
-# Milestone 13 - Bimbingan Penulisan: BAB V - Kesimpulan dan Saran
+# Milestone 13 - Bimbingan BAB VII: Penutup (Kesimpulan dan Saran)
 
 ## Kemampuan Akhir
 - SCPMK0404-05802: Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema.
 
 ## Materi Pembelajaran
-Bimbingan penulisan: BAB V - Kesimpulan dan Saran.
+Bimbingan BAB VII: Penutup (Kesimpulan dan Saran).
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah.
@@ -21,10 +21,10 @@ Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan man
 1 x 1 x 50' bimbingan; penulisan mandiri.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa menyusun BAB V (kesimpulan, saran, implikasi penelitian) dan mendapatkan masukan pembimbing.
+Mahasiswa menyusun kesimpulan yang menjawab rumusan masalah dan saran untuk penelitian/pengembangan selanjutnya.
 
 ## Penilaian
-Bentuk penilaian: Draft BAB V naskah skripsi. Mengacu rubrik RTM.
+Bentuk penilaian: Draft BAB VII. Mengacu rubrik RTM.
 
 ## Indikator Penilaian
 Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis.

@@ -1,101 +1,917 @@
 \chapter{Matriks Distribusi Mata Kuliah}
 
+\clearpage
+\newgeometry{left=1.7cm,right=1.7cm,top=2.3cm,bottom=0.9cm,headheight=64pt,headsep=8pt,footskip=20pt}
+
 \section{Jejaring Kurikulum}
 
-Jejaring kurikulum berikut menggambarkan keterkaitan prasyarat (\textit{prerequisite}) antar mata kuliah pada Kurikulum 2025 Program Studi D4 Teknik Informatika, disusun berdasarkan data ``Matakuliah Syarat'' pada Rencana Pembelajaran Semester (RPS) setiap mata kuliah (Lampiran II). Diagram hanya menampilkan mata kuliah yang memiliki keterkaitan prasyarat eksplisit; mata kuliah lain pada struktur kurikulum tidak memiliki prasyarat formal.
+Jejaring kurikulum berikut menunjukkan keterkaitan antar mata kuliah pada Kurikulum 2025 Program Studi D4 Teknik Informatika: garis dari mata kuliah A ke B berarti B secara substansi membangun di atas materi A. Jalur bergaris hijau menandai mata kuliah umum/pengembangan diri, terpisah dari jalur teknis (biru); lihat legenda di bawah diagram untuk arti setiap gaya garis.
+
+\definecolor{softgreen}{HTML}{D9F2DA}
 
 \begin{figure}[H]
 \centering
+\resizebox{\textwidth}{!}{%
 \begin{tikzpicture}[
-  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{5.5}{6}\selectfont, align=center, text width=2.1cm, minimum height=0.55cm, inner sep=1pt},
-  gate/.style={draw, dashed, rounded corners, fill=headgray, font=\fontsize{5.5}{6}\selectfont, align=center, text width=2.1cm, minimum height=0.55cm, inner sep=1pt},
-  smlabel/.style={font=\scriptsize\bfseries, anchor=east},
-  ->, >={Stealth[length=1.5mm]}, thick,
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{7}{8}\selectfont, align=center, text width=2.8cm, minimum height=0.8cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{7}{8}\selectfont, align=center, text width=2.8cm, minimum height=0.8cm, inner sep=1.5pt},
+  gate/.style={draw, dashed, rounded corners, fill=headgray, font=\fontsize{7}{8}\selectfont, align=center, text width=2.8cm, minimum height=0.8cm, inner sep=1.5pt},
+  smlabel/.style={font=\bfseries\small, anchor=east},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
 ]
 
-% Semester row labels
-\node[smlabel] at (-1.3,0)    {Sem. 1};
-\node[smlabel] at (-1.3,-1.5) {Sem. 2};
-\node[smlabel] at (-1.3,-3.0) {Sem. 3};
-\node[smlabel] at (-1.3,-4.5) {Sem. 4};
-\node[smlabel] at (-1.3,-6.0) {Sem. 5};
-\node[smlabel] at (-1.3,-7.5) {Sem. 6};
-\node[smlabel] at (-1.3,-9.0) {Sem. 7};
-\node[smlabel] at (-1.3,-10.5){Sem. 8};
+% Semester row labels (mata kuliah dalam satu semester disusun berjenjang/ladder --
+% posisi y berselang-seling -- bukan sejajar dalam satu garis, agar setiap kotak
+% punya ruang vertikal sendiri dan lebih mudah ditata ulang tanpa saling tumpang tindih)
+\node[smlabel] at (-2.0,0.000)       {Sem. 1};
+\node[smlabel] at (-2.0,-4.970)    {Sem. 2};
+\node[smlabel] at (-2.0,-11.340)   {Sem. 3};
+\node[smlabel] at (-2.0,-17.710)   {Sem. 4};
+\node[smlabel] at (-2.0,-24.510)   {Sem. 5};
+\node[smlabel] at (-2.0,-29.080)   {Sem. 6};
+\node[smlabel] at (-2.0,-44.960)   {Sem. 7};
+\node[smlabel] at (-2.0,-49.170)   {Sem. 8};
 
-% Semester 1
-\node[mk] (n251004) at (2,0)  {RTI251004\\Matematika Dasar};
-\node[mk] (n251006) at (6,0)  {RTI251006\\Dasar Pemrograman};
+% ===================== SEMESTER 1 =====================
+\node[mk]   (n251002) at (0.000,0.000)   {RTI251002\\Konsep TI};
+\node[mk]   (n251004) at (3.300,-1.150)  {RTI251004\\Matematika Dasar};
+\node[mk]   (n251006) at (6.600,0.000)   {RTI251006\\Dasar Pemrograman};
+\node[mk]   (n251007) at (9.900,-1.150)  {RTI251007\\Prak. Dasar Pemrograman};
+\node[mk]   (n251009) at (13.200,0.000)  {RTI251009\\Fisika};
+\node[soft] (n251005) at (16.500,-1.150) {RTI251005\\Bahasa Inggris 1};
+\node[soft] (n251001) at (19.800,0.000)  {RTI251001\\Pancasila};
+\node[soft] (n251008) at (23.100,-1.150) {RTI251008\\K3};
+\node[soft] (n251003) at (26.400,0.000)  {RTI251003\\Critical Thinking};
 
-% Semester 2
-\node[mk] (n251007) at (0,-1.5)   {RTI251007\\Prak. Dasar Pemrograman};
-\node[mk] (n252003) at (2.3,-1.5) {RTI252003\\Desain Antarmuka};
-\node[mk] (n252004) at (4.6,-1.5) {RTI252004\\Sistem Operasi};
-\node[mk] (n252005) at (6.9,-1.5) {RTI252005\\Rekayasa Perangkat Lunak};
-\node[mk] (n252006) at (9.2,-1.5) {RTI252006\\Basis Data};
-\node[mk] (n252009) at (11.5,-1.5){RTI252009\\Prak. Algoritma \& Struktur Data};
+% ===================== SEMESTER 2 =====================
+\node[mk]   (n252008) at (0.000,-4.970)   {RTI252008\\Algoritma \& Struktur Data};
+\node[mk]   (n252009) at (3.300,-6.120)   {RTI252009\\Prak. Alg. \& Struktur Data};
+\node[mk]   (n252002) at (6.600,-4.970)   {RTI252002\\Aljabar Linier};
+\node[mk]   (n252003) at (9.900,-6.120)   {RTI252003\\Desain Antarmuka};
+\node[mk]   (n252004) at (13.200,-4.970)  {RTI252004\\Sistem Operasi};
+\node[mk]   (n252005) at (16.500,-6.120)  {RTI252005\\Rekayasa Perangkat Lunak};
+\node[mk]   (n252006) at (19.800,-4.970)  {RTI252006\\Basis Data};
+\node[mk]   (n252007) at (23.100,-6.120)  {RTI252007\\Prak. Basis Data};
+\node[soft] (n252001) at (26.400,-4.970)  {RTI252001\\Agama};
 
-% Semester 3
-\node[mk] (n253006) at (0,-3)   {RTI253006\\Metode Numerik};
-\node[mk] (n253007) at (2.3,-3) {RTI253007\\Pemrograman Berbasis Objek};
-\node[mk] (n253008) at (4.6,-3) {RTI253008\\Prak. Pemrograman Berbasis Objek};
-\node[mk] (n253002) at (6.9,-3) {RTI253002\\Sistem Informasi Manajemen};
-\node[mk] (n253004) at (9.2,-3) {RTI253004\\Desain dan Pemrograman Web};
-\node[mk] (n253005) at (11.5,-3){RTI253005\\Basis Data Lanjut};
+% ===================== SEMESTER 3 =====================
+\node[mk]   (n253006) at (0.000,-11.340)  {RTI253006\\Metode Numerik};
+\node[mk]   (n253007) at (3.300,-12.490)  {RTI253007\\Pemrog. Berbasis Objek};
+\node[mk]   (n253008) at (6.600,-11.340)  {RTI253008\\Prak. Pemrog. Berbasis Objek};
+\node[mk]   (n253001) at (9.900,-12.490)  {RTI253001\\Manajemen Proyek};
+\node[mk]   (n253004) at (13.200,-11.340) {RTI253004\\Desain \& Pemrog. Web};
+\node[mk]   (n253002) at (16.500,-12.490) {RTI253002\\Sistem Informasi Manajemen};
+\node[mk]   (n253005) at (19.800,-11.340) {RTI253005\\Basis Data Lanjut};
+\node[soft] (n253003) at (23.100,-12.490) {RTI253003\\Kewarganegaraan};
+\node[soft] (n253009) at (26.400,-11.340) {RTI253009\\Bahasa Inggris 2};
 
-% Semester 4
-\node[mk] (n254002) at (1,-4.5)   {RTI254002\\Analisis \& Desain Berorientasi Objek};
-\node[mk] (n254005) at (3.3,-4.5) {RTI254005\\Jaringan Komputer};
-\node[mk] (n254006) at (5.6,-4.5) {RTI254006\\Prak. Jaringan Komputer};
-\node[mk] (n254007) at (7.9,-4.5) {RTI254007\\Pemrograman Web Lanjut};
-\node[mk] (n254008) at (10.2,-4.5){RTI254008\\Statistik Komputasi};
+% ===================== SEMESTER 4 =====================
+\node[mk]   (n254001) at (0.000,-17.710)  {RTI254001\\Sistem Pendukung Keputusan};
+\node[mk]   (n254004) at (3.300,-18.860)  {RTI254004\\Kecerdasan Artifisial};
+\node[mk]   (n254002) at (6.600,-17.710)  {RTI254002\\Analisis \& Desain Berorientasi Objek};
+\node[mk]   (n254009) at (9.900,-18.860)  {RTI254009\\Proyek Sistem Informasi};
+\node[mk]   (n254005) at (13.200,-17.710) {RTI254005\\Jaringan Komputer};
+\node[mk]   (n254006) at (16.500,-18.860) {RTI254006\\Prak. Jaringan Komputer};
+\node[mk]   (n254007) at (19.800,-17.710) {RTI254007\\Pemrograman Web Lanjut};
+\node[mk]   (n254008) at (23.100,-18.860) {RTI254008\\Statistik Komputasi};
+\node[soft] (n254003) at (26.400,-17.710) {RTI254003\\Bahasa Indonesia};
 
-% Semester 5
-\node[mk] (n255008) at (1,-6)   {RTI255008\\Adm. \& Keamanan Jaringan};
-\node[mk] (n255003) at (3.3,-6) {RTI255003\\Pemrograman Mobile};
-\node[mk] (n255002) at (5.6,-6) {RTI255002\\Metodologi Penelitian};
-\node[mk] (n255004) at (7.9,-6) {RTI255004\\Pembelajaran Mesin};
-\node[mk] (n255007) at (10.2,-6){RTI255007\\Pengolahan Citra \& Visi Komputer};
+% ===================== SEMESTER 5 =====================
+\node[mk]   (n255003) at (0.000,-24.510)  {RTI255003\\Pemrograman Mobile};
+\node[mk]   (n255004) at (3.300,-25.660)  {RTI255004\\Pembelajaran Mesin};
+\node[mk]   (n255007) at (6.600,-24.510)  {RTI255007\\Pengolahan Citra \& Visi Komputer};
+\node[mk]   (n255002) at (9.900,-25.660)  {RTI255002\\Metodologi Penelitian};
+\node[mk]   (n255005) at (13.200,-24.510) {RTI255005\\Business Intelligence};
+\node[mk]   (n255006) at (16.500,-25.660) {RTI255006\\Penjaminan Mutu PL};
+\node[mk]   (n255008) at (19.800,-24.510) {RTI255008\\Adm. \& Keamanan Jaringan};
+\node[soft] (n255001) at (23.100,-25.660) {RTI255001\\Kewirausahaan Berbasis Teknologi};
 
-% Semester 6
-\node[mk] (n256003) at (6,-7.5) {RTI256003\\Pemrograman Berbasis Framework};
+% ===================== SEMESTER 6 =====================
+\node[mk]   (n256003) at (3.300,-29.080)  {RTI256003\\Pemrog. Berbasis Framework};
+\node[soft] (n256001) at (6.600,-30.230)  {RTI256001\\Komunikasi \& Etika Profesi};
+\node[soft] (n256002) at (14.850,-29.080) {RTI256002\\Pengembangan Karir};
 
-% Semester 7
-\node[gate] (gate120) at (3,-9) {Lulus Semester 1--6\\($\geq$120 SKS)};
-\node[mk]   (n257001) at (8,-9) {RTI257001\\Magang};
+\node[font=\bfseries\small] at (3.3,-31.480)   {Jalur Reguler};
+\node[font=\bfseries\small] at (14.85,-31.480) {Jalur Magang};
+\draw[densely dotted, thick, -] (9.9,-28.320) -- (9.9,-42.560);
 
-% Semester 8
-\node[gate] (gate130) at (3,-10.5) {$\geq$130 SKS};
-\node[mk]   (n258001) at (8,-10.5) {RTI258001\\Skripsi};
+\node[mk] (n256104) at (0.000,-35.440)  {RTI256104\\Proyek Tek. Terintegrasi};
+\node[mk] (n256105) at (3.300,-36.590)  {RTI256105\\Internet of Things};
+\node[mk] (n256106) at (6.600,-35.440)  {RTI256106\\Big Data};
+\node[mk] (n256107) at (0.000,-40.650)  {RTI256107\\Cloud Computing};
+\node[mk] (n256108) at (3.300,-41.800)  {RTI256108\\Komputasi Hijau};
 
-% Edges
-\draw (n251006) -- (n251007);
-\draw (n251006) -- (n252009);
-\draw (n252006) -- (n253002);
-\draw (n252006) -- (n253005);
-\draw (n251004) -- (n253006);
-\draw (n251006) -- (n253007);
-\draw (n251006) -- (n253008);
-\draw (n253007) -- (n253008);
-\draw (n252005) -- (n254002);
-\draw[dashed] (n254005) -- (n254006);
-\draw (n253004) -- (n254007);
-\draw (n254008) -- (n255002);
-\draw (n254008) -- (n255004);
-\draw (n252003) -- (n255003);
-\draw (n255004) -- (n255007);
-\draw (n252004) -- (n255008);
-\draw (n254005) -- (n255008);
-\draw (n254007) -- (n256003);
-\draw (gate120) -- (n257001);
-\draw (gate130) -- (n258001);
-\draw (n255002) -- (n258001);
+\node[mk] (n256204) at (13.200,-36.590) {RTI256204\\Proyek Inovasi};
+\node[mk] (n256205) at (16.500,-35.440) {RTI256205\\Workshop Tek. Terapan};
+\node[mk] (n256206) at (13.200,-40.650) {RTI256206\\Rekayasa Sistem};
+\node[mk] (n256207) at (16.500,-41.800) {RTI256207\\Teknologi Terapan};
 
-\end{tikzpicture}
+% ===================== SEMESTER 7 =====================
+\node[gate] (gate120) at (3.300,-44.960) {Lulus Semester 1--6\\($\geq$120 SKS)};
+\node[mk]   (n257001) at (9.900,-46.110) {RTI257001\\Magang};
+
+% ===================== SEMESTER 8 =====================
+\node[gate] (gate130) at (3.300,-49.170) {$\geq$130 SKS};
+\node[mk]   (n258001) at (9.900,-50.320) {RTI258001\\Skripsi};
+\node[soft] (n258002) at (16.500,-49.170) {RTI258002\\Bahasa Inggris Persiapan Kerja};
+
+% ===================== EDGES: JALUR TEKNIS, PERLU VALIDASI, DAN UMUM =====================
+% Semua jalur digambar siku-siku (bukan garis lurus/diagonal). Jalur dalam satu
+% semester memakai lekukan-S melalui celah antar level ladder; jalur antar semester
+% keluar ke celah di bawah baris asal, lalu menuju jalur (lane) tegak yang bebas dari
+% kotak manapun -- diprioritaskan jalur di sela-sela kolom (paling dekat/pendek),
+% baru jalur di pinggir kiri/kanan grid bila semua sela kolom terpakai -- sebelum
+% masuk kembali dari atas baris tujuan. Posisi setiap jalur (shelf keluar/masuk dan
+% jalur tegak) dipilih agar tidak memotong kotak mata kuliah lain DAN tidak berimpit
+% dengan jalur lain pada jarak cetak sebenarnya (diverifikasi terhadap skala cetak
+% buku ini, bukan hanya satuan tikz).
+\draw (n251006.east) -- (8.250,0.000) -- (8.250,-1.150) -- (n251007.west);
+\draw (n251006.south) -- (6.600,-0.660) -- (4.950,-0.660) -- (4.950,-4.310) -- (0.000,-4.310) -- (n252008.north);
+\draw (n251004.south) -- (3.300,-1.810) -- (1.650,-1.810) -- (1.650,-10.680) -- (0.000,-10.680) -- (n253006.north);
+\draw (n251006.south) -- (6.600,-0.660) -- (8.250,-0.660) -- (8.250,-10.730) -- (3.300,-10.730) -- (n253007.north);
+\draw (n251006.south) -- (6.600,-1.710) -- (11.550,-1.710) -- (11.550,-10.680) -- (6.600,-10.680) -- (n253008.north);
+\draw (n253007.east) -- (4.950,-12.490) -- (4.950,-11.340) -- (n253008.west);
+\draw (n251006.south) -- (6.600,-1.710) -- (14.850,-1.710) -- (14.850,-10.680) -- (13.200,-10.680) -- (n253004.north);
+\draw (n252006.south) -- (19.800,-5.630) -- (18.150,-5.630) -- (18.150,-11.830) -- (16.500,-11.830) -- (n253002.north);
+\draw (n252006.south) -- (19.800,-5.630) -- (19.800,-10.680) -- (n253005.north);
+\draw (n252006.south) -- (19.800,-5.630) -- (21.450,-5.630) -- (21.450,-10.680) -- (13.200,-10.680) -- (n253004.north);
+\draw (n252008.south) -- (0.000,-6.680) -- (24.750,-6.680) -- (24.750,-17.100) -- (3.300,-17.100) -- (n254004.north);
+\draw (n252005.south) -- (16.500,-7.180) -- (32.000,-7.180) -- (32.000,-16.600) -- (6.600,-16.600) -- (n254002.north);
+\draw (n252005.south) -- (16.500,-7.180) -- (32.500,-7.180) -- (32.500,-16.600) -- (9.900,-16.600) -- (n254009.north);
+\draw (n252005.south) -- (16.500,-7.180) -- (33.000,-7.180) -- (33.000,-23.900) -- (16.500,-23.900) -- (n255006.north);
+\draw (n253004.south) -- (13.200,-13.100) -- (4.950,-13.100) -- (4.950,-16.100) -- (19.800,-16.100) -- (n254007.north);
+\draw (n253001.south) -- (9.900,-13.150) -- (9.900,-18.200) -- (n254009.north);
+\draw[dashed] (n254005.east) -- (14.850,-17.710) -- (14.850,-18.860) -- (n254006.west);
+\draw (n252004.south) -- (13.200,-7.680) -- (33.500,-7.680) -- (33.500,-23.400) -- (19.800,-23.400) -- (n255008.north);
+\draw (n252003.south) -- (9.900,-7.180) -- (-4.000,-7.180) -- (-4.000,-23.850) -- (0.000,-23.850) -- (n255003.north);
+\draw (n252002.south) -- (6.600,-7.680) -- (-4.500,-7.680) -- (-4.500,-23.350) -- (3.300,-23.350) -- (n255004.north);
+\draw (n252006.south) -- (19.800,-8.180) -- (34.000,-8.180) -- (34.000,-22.900) -- (13.200,-22.900) -- (n255005.north);
+\draw (n254005.south) -- (13.200,-18.370) -- (11.550,-18.370) -- (11.550,-23.400) -- (19.800,-23.400) -- (n255008.north);
+\draw (n254008.south) -- (23.100,-19.520) -- (21.450,-19.520) -- (21.450,-22.400) -- (9.900,-22.400) -- (n255002.north);
+\draw (n254008.south) -- (23.100,-19.520) -- (26.400,-19.520) -- (26.400,-22.400) -- (3.300,-22.400) -- (n255004.north);
+\draw (n255004.east) -- (4.950,-25.660) -- (4.950,-24.510) -- (n255007.west);
+\draw (n254007.south) -- (19.800,-18.370) -- (18.150,-18.370) -- (18.150,-28.420) -- (3.300,-28.420) -- (n256003.north);
+\draw (n254005.south) -- (13.200,-19.470) -- (8.250,-19.470) -- (8.250,-34.830) -- (3.300,-34.830) -- (n256105.north);
+\draw (n254005.south) -- (13.200,-19.470) -- (1.650,-19.470) -- (1.650,-39.990) -- (0.000,-39.990) -- (n256107.north);
+\draw (n255008.south) -- (19.800,-25.170) -- (19.800,-39.990) -- (0.000,-39.990) -- (n256107.north);
+\draw (n254009.south) -- (9.900,-19.970) -- (-5.000,-19.970) -- (-5.000,-34.780) -- (0.000,-34.780) -- (n256104.north);
+\draw (n256003.south) -- (3.300,-29.740) -- (3.300,-34.780) -- (0.000,-34.780) -- (n256104.north);
+\draw (n254009.south) -- (9.900,-19.970) -- (-5.500,-19.970) -- (-5.500,-34.280) -- (13.200,-34.280) -- (n256204.north);
+\draw (n255001.south) -- (23.100,-26.320) -- (23.100,-34.830) -- (13.200,-34.830) -- (n256204.north);
+\draw (n254009.south) -- (9.900,-19.970) -- (-6.000,-19.970) -- (-6.000,-34.280) -- (16.500,-34.280) -- (n256205.north);
+\draw (n255006.south) -- (16.500,-26.320) -- (16.500,-34.780) -- (n256205.north);
+\draw (n254009.south) -- (9.900,-19.970) -- (-6.500,-19.970) -- (-6.500,-39.490) -- (13.200,-39.490) -- (n256206.north);
+\draw (n254002.south) -- (6.600,-20.470) -- (-7.000,-20.470) -- (-7.000,-39.490) -- (13.200,-39.490) -- (n256206.north);
+\draw (n254009.south) -- (9.900,-19.970) -- (-7.500,-19.970) -- (-7.500,-38.990) -- (16.500,-38.990) -- (n256207.north);
+\draw (n253001.south) -- (9.900,-13.600) -- (-8.000,-13.600) -- (-8.000,-38.990) -- (16.500,-38.990) -- (n256207.north);
+\draw (gate120.east) -- (6.600,-44.960) -- (6.600,-46.110) -- (n257001.west);
+\draw (gate130.east) -- (6.600,-49.170) -- (6.600,-50.320) -- (n258001.west);
+\draw (n255002.south) -- (9.900,-26.320) -- (4.950,-26.320) -- (4.950,-49.660) -- (9.900,-49.660) -- (n258001.north);
+\draw[dotted] (n255005.south) -- (13.200,-25.170) -- (13.200,-33.780) -- (6.600,-33.780) -- (n256106.north);
+\draw[dotted] (n256107.east) -- (1.650,-40.650) -- (1.650,-41.800) -- (n256108.west);
+\draw[dotted] (n254004.south) -- (3.300,-19.520) -- (3.300,-25.000) -- (n255004.north);
+\draw[dotted] (n253007.south) -- (3.300,-14.100) -- (-8.500,-14.100) -- (-8.500,-23.850) -- (0.000,-23.850) -- (n255003.north);
+\draw[green!40!black] (n251005.south) -- (16.500,-1.810) -- (34.500,-1.810) -- (34.500,-10.680) -- (26.400,-10.680) -- (n253009.north);
+\draw[green!40!black] (n253009.south) -- (26.400,-12.000) -- (35.000,-12.000) -- (35.000,-48.510) -- (16.500,-48.510) -- (n258002.north);
+\draw[green!40!black] (n251001.south) -- (19.800,-2.310) -- (35.500,-2.310) -- (35.500,-10.180) -- (23.100,-10.180) -- (n253003.north);
+\draw[green!40!black] (n256001.south) -- (6.600,-30.890) -- (9.900,-30.890) -- (9.900,-45.450) -- (n257001.north);
+\draw[green!40!black] (n256002.south) -- (14.850,-29.740) -- (14.850,-45.450) -- (9.900,-45.450) -- (n257001.north);
+
+\end{tikzpicture}%
+}
+
+\vspace{2mm}
+\resizebox{0.85\textwidth}{!}{%
+\begin{tikzpicture}[font=\scriptsize, ->, >={Stealth[length=1.5mm]}, thick]
+\draw (0,0) -- (0.8,0); \node[anchor=west] at (0.9,0) {Keterkaitan konsep terkonfirmasi};
+\draw[dotted] (6.7,0) -- (7.5,0); \node[anchor=west] at (7.6,0) {Perlu validasi (kesamaan topik)};
+\draw[dashed] (13.3,0) -- (14.1,0); \node[anchor=west] at (14.2,0) {Korekuisit (satu semester)};
+\draw[green!40!black] (18.5,0) -- (19.3,0); \node[anchor=west] at (19.4,0) {Jalur umum/pengembangan diri};
+\end{tikzpicture}%
+}
 \caption{Jejaring Kurikulum Program Studi D4 Teknik Informatika (Kurikulum 2025)}
 \end{figure}
 
-\reviewfrompdf{Diagram jejaring kurikulum di atas adalah visualisasi baru yang disusun dari data prasyarat pada RPS Kurikulum 2025; dokumen kurikulum 2020 tidak memiliki data digital yang setara untuk Peta Kurikulum dan Pohon Kurikulum (lihat catatan pada bagian berikut). Diagram ini perlu divalidasi terhadap kebijakan prasyarat mata kuliah yang berlaku di program studi.}
+\reviewfrompdf{Diagram jejaring kurikulum di atas adalah visualisasi baru yang disusun dari data Deskripsi Mata Kuliah, Bahan Kajian, dan Matakuliah Syarat pada RPS Kurikulum 2025, direpresentasikan sebagai peta keterkaitan konsep (bukan prasyarat pendaftaran) mengingat mahasiswa menempuh satu paket mata kuliah tetap per semester (kecuali percabangan Jalur Reguler/Jalur Magang pada Semester 6); dokumen kurikulum 2020 tidak memiliki data digital yang setara untuk Peta Kurikulum dan Pohon Kurikulum (lihat catatan pada bagian berikut). Sejumlah keterkaitan (ditandai garis bertitik) disusun berdasarkan kesamaan topik/bahan kajian, bukan pernyataan eksplisit pada RPS, dan perlu divalidasi oleh tim kurikulum.}
+
+\clearpage
+\restoregeometry
+
+\section{Peta Jalan CPL}
+
+Sepuluh diagram berikut memetakan mata kuliah yang berkontribusi pada setiap Capaian Pembelajaran Lulusan (CPL), disusun per tahun dan semester. Setiap kotak menampilkan nama mata kuliah beserta bobot SKS-nya, dan anak panah menunjukkan keterkaitan/urutan antar mata kuliah dalam membangun capaian tersebut.
+
+% ===================== CPL01 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-6.700);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-6.700);
+\draw (3.200,-1.800) -- (3.200,-6.700);
+\draw (6.400,-1.800) -- (6.400,-6.700);
+\draw (9.600,-1.800) -- (9.600,-6.700);
+\draw (12.800,-1.800) -- (12.800,-6.700);
+\draw (16.000,-1.800) -- (16.000,-6.700);
+\draw (19.200,-1.800) -- (19.200,-6.700);
+\draw (22.400,-1.800) -- (22.400,-6.700);
+\draw[thick] (6.400,-1.800) -- (6.400,-6.700);
+\draw[thick] (12.800,-1.800) -- (12.800,-6.700);
+\draw[thick] (19.200,-1.800) -- (19.200,-6.700);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL01: Menginternalisasi ketakwaan kepada Tuhan Yang Maha Esa, menaati hukum, disiplin, dan menunjukkan profesionalisme melalui etika profesi, pembelajaran sepanjang hayat, serta respons terhadap isu sosial dan teknologi.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-4.600) {CPL01};
+\node[soft] (npancasila) at (1.600,-3.450) {Pancasila\\2 SKS};
+\node[soft] (nkeselamatandankesehatankerja) at (1.600,-4.750) {Keselamatan dan Kesehatan Kerja\\2 SKS};
+\node[soft] (nagama) at (4.800,-3.450) {Agama\\2 SKS};
+\node[soft] (nkewarganegaraan) at (8.000,-3.450) {Kewarganegaraan\\2 SKS};
+\node[soft] (nkewirausahaanberbasisteknologi) at (14.400,-3.450) {Kewirausahaan Berbasis Teknologi\\2 SKS};
+\node[mk] (nkomunikasidanetikaprofesi) at (17.600,-3.450) {Komunikasi dan Etika Profesi\\2 SKS};
+\node[mk] (npengembangankarir) at (17.600,-4.750) {Pengembangan Karir\\2 SKS};
+\node[mk] (nkomputasihijau) at (17.600,-6.050) {Komputasi Hijau\\2 SKS};
+\node[mk] (nmagang) at (20.800,-3.450) {Magang\\20 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\node[soft] (nbahasainggrispersiapankerja) at (24.000,-4.750) {Bahasa Inggris Persiapan Kerja\\2 SKS};
+\draw (npancasila.east) -- (1.600,-3.450) -- (1.600,-4.750) -- (nkeselamatandankesehatankerja.west);
+\draw (nkeselamatandankesehatankerja.east) -- (3.200,-4.750) -- (3.200,-3.450) -- (nagama.west);
+\draw (nagama.east) -- (nkewarganegaraan.west);
+\draw (nkewarganegaraan.east) -- (nkewirausahaanberbasisteknologi.west);
+\draw (nkewirausahaanberbasisteknologi.east) -- (nkomunikasidanetikaprofesi.west);
+\draw (nkomunikasidanetikaprofesi.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (npengembangankarir.west);
+\draw (npengembangankarir.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (nkomputasihijau.west);
+\draw (nkomputasihijau.east) -- (19.200,-6.050) -- (19.200,-3.450) -- (nmagang.west);
+\draw (nmagang.east) -- (nskripsi.west);
+\draw (nskripsi.east) -- (24.000,-3.450) -- (24.000,-4.750) -- (nbahasainggrispersiapankerja.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL01}
+\end{figure}
+
+% ===================== CPL02 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-10.600);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-10.600);
+\draw (3.200,-1.800) -- (3.200,-10.600);
+\draw (6.400,-1.800) -- (6.400,-10.600);
+\draw (9.600,-1.800) -- (9.600,-10.600);
+\draw (12.800,-1.800) -- (12.800,-10.600);
+\draw (16.000,-1.800) -- (16.000,-10.600);
+\draw (19.200,-1.800) -- (19.200,-10.600);
+\draw (22.400,-1.800) -- (22.400,-10.600);
+\draw[thick] (6.400,-1.800) -- (6.400,-10.600);
+\draw[thick] (12.800,-1.800) -- (12.800,-10.600);
+\draw[thick] (19.200,-1.800) -- (19.200,-10.600);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL02: Menguasai konsep teoritis bidang pengetahuan mengenai berbagai prinsip rekayasa sistem/perangkat lunak dalam merancang solusi aplikasi multi-platform yang relevan dengan kebutuhan stakeholder.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-6.550) {CPL02};
+\node[mk] (nkonsepteknologiinformasi) at (1.600,-3.450) {Konsep Teknologi Informasi\\2 SKS};
+\node[mk] (ndesainantarmuka) at (4.800,-3.450) {Desain Antarmuka\\2 SKS};
+\node[mk] (nsistemoperasi) at (4.800,-4.750) {Sistem Operasi\\2 SKS};
+\node[mk] (nrekayasaperangkatlunak) at (4.800,-6.050) {Rekayasa Perangkat Lunak\\2 SKS};
+\node[mk] (nbasisdata) at (4.800,-7.350) {Basis Data\\2 SKS};
+\node[mk] (npraktikumbasisdata) at (4.800,-8.650) {Praktikum Basis Data\\2 SKS};
+\node[mk] (nalgoritmadanstrukturdata) at (4.800,-9.950) {Algoritma dan Struktur Data\\2 SKS};
+\node[mk] (nsisteminformasimanajemen) at (8.000,-3.450) {Sistem Informasi Manajemen\\2 SKS};
+\node[mk] (ndesaindanpemrogramanweb) at (8.000,-4.750) {Desain dan Pemrograman Web\\3 SKS};
+\node[mk] (nbasisdatalanjut) at (8.000,-6.050) {Basis Data Lanjut\\3 SKS};
+\node[mk] (npemrogramanberbasisobjek) at (8.000,-7.350) {Pemrograman Berbasis Objek\\2 SKS};
+\node[mk] (npraktikumpemrogramanberbasisobjek) at (8.000,-8.650) {Praktikum Pemrograman Berbasis Objek\\2 SKS};
+\node[mk] (nanalisisdandesainberorientasiobjek) at (11.200,-3.450) {Analisis dan Desain Berorientasi Objek\\2 SKS};
+\node[mk] (npemrogramanweblanjut) at (11.200,-4.750) {Pemrograman Web Lanjut\\3 SKS};
+\node[mk] (npemrogramanmobile) at (14.400,-3.450) {Pemrograman Mobile\\3 SKS};
+\node[mk] (npemrogramanberbasisframework) at (17.600,-3.450) {Pemrograman Berbasis Framework\\2 SKS};
+\node[mk] (nproyekteknologiterintegrasi) at (17.600,-4.750) {Proyek Teknologi Terintegrasi\\6 SKS};
+\node[mk] (ninternetofthings) at (17.600,-6.050) {Internet of Things\\3 SKS};
+\node[mk] (nrekayasasistem) at (17.600,-7.350) {Rekayasa Sistem\\3 SKS};
+\node[mk] (nteknologiterapan) at (17.600,-8.650) {Teknologi Terapan\\2 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\draw (nkonsepteknologiinformasi.east) -- (ndesainantarmuka.west);
+\draw (ndesainantarmuka.east) -- (4.800,-3.450) -- (4.800,-4.750) -- (nsistemoperasi.west);
+\draw (nsistemoperasi.east) -- (4.800,-4.750) -- (4.800,-6.050) -- (nrekayasaperangkatlunak.west);
+\draw (nrekayasaperangkatlunak.east) -- (4.800,-6.050) -- (4.800,-7.350) -- (nbasisdata.west);
+\draw (nbasisdata.east) -- (4.800,-7.350) -- (4.800,-8.650) -- (npraktikumbasisdata.west);
+\draw (npraktikumbasisdata.east) -- (4.800,-8.650) -- (4.800,-9.950) -- (nalgoritmadanstrukturdata.west);
+\draw (nalgoritmadanstrukturdata.east) -- (6.400,-9.950) -- (6.400,-3.450) -- (nsisteminformasimanajemen.west);
+\draw (nsisteminformasimanajemen.east) -- (8.000,-3.450) -- (8.000,-4.750) -- (ndesaindanpemrogramanweb.west);
+\draw (ndesaindanpemrogramanweb.east) -- (8.000,-4.750) -- (8.000,-6.050) -- (nbasisdatalanjut.west);
+\draw (nbasisdatalanjut.east) -- (8.000,-6.050) -- (8.000,-7.350) -- (npemrogramanberbasisobjek.west);
+\draw (npemrogramanberbasisobjek.east) -- (8.000,-7.350) -- (8.000,-8.650) -- (npraktikumpemrogramanberbasisobjek.west);
+\draw (npraktikumpemrogramanberbasisobjek.east) -- (9.600,-8.650) -- (9.600,-3.450) -- (nanalisisdandesainberorientasiobjek.west);
+\draw (nanalisisdandesainberorientasiobjek.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (npemrogramanweblanjut.west);
+\draw (npemrogramanweblanjut.east) -- (12.800,-4.750) -- (12.800,-3.450) -- (npemrogramanmobile.west);
+\draw (npemrogramanmobile.east) -- (npemrogramanberbasisframework.west);
+\draw (npemrogramanberbasisframework.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (nproyekteknologiterintegrasi.west);
+\draw (nproyekteknologiterintegrasi.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (ninternetofthings.west);
+\draw (ninternetofthings.east) -- (17.600,-6.050) -- (17.600,-7.350) -- (nrekayasasistem.west);
+\draw (nrekayasasistem.east) -- (17.600,-7.350) -- (17.600,-8.650) -- (nteknologiterapan.west);
+\draw (nteknologiterapan.east) -- (20.800,-8.650) -- (20.800,-3.450) -- (nskripsi.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL02}
+\end{figure}
+
+% ===================== CPL03 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-6.700);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-6.700);
+\draw (3.200,-1.800) -- (3.200,-6.700);
+\draw (6.400,-1.800) -- (6.400,-6.700);
+\draw (9.600,-1.800) -- (9.600,-6.700);
+\draw (12.800,-1.800) -- (12.800,-6.700);
+\draw (16.000,-1.800) -- (16.000,-6.700);
+\draw (19.200,-1.800) -- (19.200,-6.700);
+\draw (22.400,-1.800) -- (22.400,-6.700);
+\draw[thick] (6.400,-1.800) -- (6.400,-6.700);
+\draw[thick] (12.800,-1.800) -- (12.800,-6.700);
+\draw[thick] (19.200,-1.800) -- (19.200,-6.700);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL03: Mampu mengelola tim, manajemen diri, berkomunikasi secara lisan maupun tertulis dengan baik dan mampu melakukan presentasi.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-4.600) {CPL03};
+\node[soft] (nbahasainggris1) at (1.600,-3.450) {Bahasa Inggris 1\\2 SKS};
+\node[mk] (nmanajemenproyek) at (8.000,-3.450) {Manajemen Proyek\\2 SKS};
+\node[soft] (nbahasainggris2) at (8.000,-4.750) {Bahasa Inggris 2\\2 SKS};
+\node[soft] (nbahasaindonesia) at (11.200,-3.450) {Bahasa Indonesia\\2 SKS};
+\node[mk] (nproyeksisteminformasi) at (11.200,-4.750) {Proyek Sistem Informasi\\3 SKS};
+\node[soft] (nkewirausahaanberbasisteknologi) at (14.400,-3.450) {Kewirausahaan Berbasis Teknologi\\2 SKS};
+\node[mk] (nkomunikasidanetikaprofesi) at (17.600,-3.450) {Komunikasi dan Etika Profesi\\2 SKS};
+\node[mk] (npengembangankarir) at (17.600,-4.750) {Pengembangan Karir\\2 SKS};
+\node[mk] (nproyekteknologiterintegrasi) at (17.600,-6.050) {Proyek Teknologi Terintegrasi\\6 SKS};
+\node[mk] (nmagang) at (20.800,-3.450) {Magang\\20 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\node[soft] (nbahasainggrispersiapankerja) at (24.000,-4.750) {Bahasa Inggris Persiapan Kerja\\2 SKS};
+\draw (nbahasainggris1.east) -- (nmanajemenproyek.west);
+\draw (nmanajemenproyek.east) -- (8.000,-3.450) -- (8.000,-4.750) -- (nbahasainggris2.west);
+\draw (nbahasainggris2.east) -- (9.600,-4.750) -- (9.600,-3.450) -- (nbahasaindonesia.west);
+\draw (nbahasaindonesia.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (nproyeksisteminformasi.west);
+\draw (nproyeksisteminformasi.east) -- (12.800,-4.750) -- (12.800,-3.450) -- (nkewirausahaanberbasisteknologi.west);
+\draw (nkewirausahaanberbasisteknologi.east) -- (nkomunikasidanetikaprofesi.west);
+\draw (nkomunikasidanetikaprofesi.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (npengembangankarir.west);
+\draw (npengembangankarir.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (nproyekteknologiterintegrasi.west);
+\draw (nproyekteknologiterintegrasi.east) -- (19.200,-6.050) -- (19.200,-3.450) -- (nmagang.west);
+\draw (nmagang.east) -- (nskripsi.west);
+\draw (nskripsi.east) -- (24.000,-3.450) -- (24.000,-4.750) -- (nbahasainggrispersiapankerja.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL03}
+\end{figure}
+
+% ===================== CPL04 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-4.100);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-4.100);
+\draw (3.200,-1.800) -- (3.200,-4.100);
+\draw (6.400,-1.800) -- (6.400,-4.100);
+\draw (9.600,-1.800) -- (9.600,-4.100);
+\draw (12.800,-1.800) -- (12.800,-4.100);
+\draw (16.000,-1.800) -- (16.000,-4.100);
+\draw (19.200,-1.800) -- (19.200,-4.100);
+\draw (22.400,-1.800) -- (22.400,-4.100);
+\draw[thick] (6.400,-1.800) -- (6.400,-4.100);
+\draw[thick] (12.800,-1.800) -- (12.800,-4.100);
+\draw[thick] (19.200,-1.800) -- (19.200,-4.100);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL04: Mampu menyusun deskripsi saintifik hasil kajian implikasi pengembangan atau implementasi ilmu pengetahuan teknologi dalam bentuk skripsi atau laporan tugas akhir atau artikel ilmiah.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-3.300) {CPL04};
+\node[mk] (ncriticalthinkingdanproblemsolving) at (1.600,-3.450) {Critical Thinking dan Problem Solving\\2 SKS};
+\node[mk] (nmanajemenproyek) at (8.000,-3.450) {Manajemen Proyek\\2 SKS};
+\node[mk] (nmetodologipenelitian) at (14.400,-3.450) {Metodologi Penelitian\\2 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\draw (ncriticalthinkingdanproblemsolving.east) -- (nmanajemenproyek.west);
+\draw (nmanajemenproyek.east) -- (nmetodologipenelitian.west);
+\draw (nmetodologipenelitian.east) -- (nskripsi.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL04}
+\end{figure}
+
+% ===================== CPL05 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-9.300);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-9.300);
+\draw (3.200,-1.800) -- (3.200,-9.300);
+\draw (6.400,-1.800) -- (6.400,-9.300);
+\draw (9.600,-1.800) -- (9.600,-9.300);
+\draw (12.800,-1.800) -- (12.800,-9.300);
+\draw (16.000,-1.800) -- (16.000,-9.300);
+\draw (19.200,-1.800) -- (19.200,-9.300);
+\draw (22.400,-1.800) -- (22.400,-9.300);
+\draw[thick] (6.400,-1.800) -- (6.400,-9.300);
+\draw[thick] (12.800,-1.800) -- (12.800,-9.300);
+\draw[thick] (19.200,-1.800) -- (19.200,-9.300);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL05: Mampu menerapkan solusi teknologi komputasi dan infrastruktur digital dengan mempertimbangkan berbagai teknik/pendekatan yang sesuai dengan kebutuhan.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-5.900) {CPL05};
+\node[mk] (nsistemoperasi) at (4.800,-3.450) {Sistem Operasi\\2 SKS};
+\node[mk] (njaringankomputer) at (11.200,-3.450) {Jaringan Komputer\\2 SKS};
+\node[mk] (npraktikumjaringankomputer) at (11.200,-4.750) {Praktikum Jaringan Komputer\\2 SKS};
+\node[soft] (npenjaminanmutuperangkatlunak) at (14.400,-3.450) {Penjaminan Mutu Perangkat Lunak\\2 SKS};
+\node[mk] (nadministrasidankeamananjaringan) at (14.400,-4.750) {Administrasi dan Keamanan Jaringan\\2 SKS};
+\node[mk] (ninternetofthings) at (17.600,-3.450) {Internet of Things\\3 SKS};
+\node[mk] (nbigdata) at (17.600,-4.750) {Big Data\\2 SKS};
+\node[mk] (ncloudcomputing) at (17.600,-6.050) {Cloud Computing\\2 SKS};
+\node[mk] (nkomputasihijau) at (17.600,-7.350) {Komputasi Hijau\\2 SKS};
+\node[mk] (nteknologiterapan) at (17.600,-8.650) {Teknologi Terapan\\2 SKS};
+\draw (nsistemoperasi.east) -- (njaringankomputer.west);
+\draw (njaringankomputer.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (npraktikumjaringankomputer.west);
+\draw (npraktikumjaringankomputer.east) -- (12.800,-4.750) -- (12.800,-3.450) -- (npenjaminanmutuperangkatlunak.west);
+\draw (npenjaminanmutuperangkatlunak.east) -- (14.400,-3.450) -- (14.400,-4.750) -- (nadministrasidankeamananjaringan.west);
+\draw (nadministrasidankeamananjaringan.east) -- (16.000,-4.750) -- (16.000,-3.450) -- (ninternetofthings.west);
+\draw (ninternetofthings.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (nbigdata.west);
+\draw (nbigdata.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (ncloudcomputing.west);
+\draw (ncloudcomputing.east) -- (17.600,-6.050) -- (17.600,-7.350) -- (nkomputasihijau.west);
+\draw (nkomputasihijau.east) -- (17.600,-7.350) -- (17.600,-8.650) -- (nteknologiterapan.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL05}
+\end{figure}
+
+% ===================== CPL06 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-9.300);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-9.300);
+\draw (3.200,-1.800) -- (3.200,-9.300);
+\draw (6.400,-1.800) -- (6.400,-9.300);
+\draw (9.600,-1.800) -- (9.600,-9.300);
+\draw (12.800,-1.800) -- (12.800,-9.300);
+\draw (16.000,-1.800) -- (16.000,-9.300);
+\draw (19.200,-1.800) -- (19.200,-9.300);
+\draw (22.400,-1.800) -- (22.400,-9.300);
+\draw[thick] (6.400,-1.800) -- (6.400,-9.300);
+\draw[thick] (12.800,-1.800) -- (12.800,-9.300);
+\draw[thick] (19.200,-1.800) -- (19.200,-9.300);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL06: Mampu merancang, mengimplementasikan, menguji, melakukan deployment, dan memelihara, serta menjamin mutu perangkat lunak yang menjawab permasalahan dan memenuhi kebutuhan stakeholder.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-5.900) {CPL06};
+\node[mk] (ndesainantarmuka) at (4.800,-3.450) {Desain Antarmuka\\2 SKS};
+\node[mk] (nrekayasaperangkatlunak) at (4.800,-4.750) {Rekayasa Perangkat Lunak\\2 SKS};
+\node[mk] (ndesaindanpemrogramanweb) at (8.000,-3.450) {Desain dan Pemrograman Web\\3 SKS};
+\node[mk] (npemrogramanberbasisobjek) at (8.000,-4.750) {Pemrograman Berbasis Objek\\2 SKS};
+\node[mk] (npraktikumpemrogramanberbasisobjek) at (8.000,-6.050) {Praktikum Pemrograman Berbasis Objek\\2 SKS};
+\node[mk] (nanalisisdandesainberorientasiobjek) at (11.200,-3.450) {Analisis dan Desain Berorientasi Objek\\2 SKS};
+\node[mk] (npemrogramanweblanjut) at (11.200,-4.750) {Pemrograman Web Lanjut\\3 SKS};
+\node[mk] (nproyeksisteminformasi) at (11.200,-6.050) {Proyek Sistem Informasi\\3 SKS};
+\node[mk] (npemrogramanmobile) at (14.400,-3.450) {Pemrograman Mobile\\3 SKS};
+\node[soft] (npenjaminanmutuperangkatlunak) at (14.400,-4.750) {Penjaminan Mutu Perangkat Lunak\\2 SKS};
+\node[mk] (npemrogramanberbasisframework) at (17.600,-3.450) {Pemrograman Berbasis Framework\\2 SKS};
+\node[mk] (nproyekteknologiterintegrasi) at (17.600,-4.750) {Proyek Teknologi Terintegrasi\\6 SKS};
+\node[mk] (nproyekinovasi) at (17.600,-6.050) {Proyek Inovasi\\6 SKS};
+\node[mk] (nworkshopteknologiterapan) at (17.600,-7.350) {Workshop Teknologi Terapan\\3 SKS};
+\node[mk] (nrekayasasistem) at (17.600,-8.650) {Rekayasa Sistem\\3 SKS};
+\node[mk] (nmagang) at (20.800,-3.450) {Magang\\20 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\draw (ndesainantarmuka.east) -- (4.800,-3.450) -- (4.800,-4.750) -- (nrekayasaperangkatlunak.west);
+\draw (nrekayasaperangkatlunak.east) -- (6.400,-4.750) -- (6.400,-3.450) -- (ndesaindanpemrogramanweb.west);
+\draw (ndesaindanpemrogramanweb.east) -- (8.000,-3.450) -- (8.000,-4.750) -- (npemrogramanberbasisobjek.west);
+\draw (npemrogramanberbasisobjek.east) -- (8.000,-4.750) -- (8.000,-6.050) -- (npraktikumpemrogramanberbasisobjek.west);
+\draw (npraktikumpemrogramanberbasisobjek.east) -- (9.600,-6.050) -- (9.600,-3.450) -- (nanalisisdandesainberorientasiobjek.west);
+\draw (nanalisisdandesainberorientasiobjek.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (npemrogramanweblanjut.west);
+\draw (npemrogramanweblanjut.east) -- (11.200,-4.750) -- (11.200,-6.050) -- (nproyeksisteminformasi.west);
+\draw (nproyeksisteminformasi.east) -- (12.800,-6.050) -- (12.800,-3.450) -- (npemrogramanmobile.west);
+\draw (npemrogramanmobile.east) -- (14.400,-3.450) -- (14.400,-4.750) -- (npenjaminanmutuperangkatlunak.west);
+\draw (npenjaminanmutuperangkatlunak.east) -- (16.000,-4.750) -- (16.000,-3.450) -- (npemrogramanberbasisframework.west);
+\draw (npemrogramanberbasisframework.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (nproyekteknologiterintegrasi.west);
+\draw (nproyekteknologiterintegrasi.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (nproyekinovasi.west);
+\draw (nproyekinovasi.east) -- (17.600,-6.050) -- (17.600,-7.350) -- (nworkshopteknologiterapan.west);
+\draw (nworkshopteknologiterapan.east) -- (17.600,-7.350) -- (17.600,-8.650) -- (nrekayasasistem.west);
+\draw (nrekayasasistem.east) -- (19.200,-8.650) -- (19.200,-3.450) -- (nmagang.west);
+\draw (nmagang.east) -- (nskripsi.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL06}
+\end{figure}
+
+% ===================== CPL07 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-8.000);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-8.000);
+\draw (3.200,-1.800) -- (3.200,-8.000);
+\draw (6.400,-1.800) -- (6.400,-8.000);
+\draw (9.600,-1.800) -- (9.600,-8.000);
+\draw (12.800,-1.800) -- (12.800,-8.000);
+\draw (16.000,-1.800) -- (16.000,-8.000);
+\draw (19.200,-1.800) -- (19.200,-8.000);
+\draw (22.400,-1.800) -- (22.400,-8.000);
+\draw[thick] (6.400,-1.800) -- (6.400,-8.000);
+\draw[thick] (12.800,-1.800) -- (12.800,-8.000);
+\draw[thick] (19.200,-1.800) -- (19.200,-8.000);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL07: Mampu mengembangkan sistem komputasi cerdas, analisis data dengan menerapkan algoritma dan teknik kecerdasan artifisial secara tepat guna.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-5.250) {CPL07};
+\node[mk] (ndasarpemrograman) at (1.600,-3.450) {Dasar Pemrograman\\2 SKS};
+\node[mk] (npraktikumdasarpemrograman) at (1.600,-4.750) {Praktikum Dasar Pemrograman\\3 SKS};
+\node[mk] (npraktikumbasisdata) at (4.800,-3.450) {Praktikum Basis Data\\2 SKS};
+\node[mk] (npraktikumalgoritmadanstrukturdata) at (4.800,-4.750) {Praktikum Algoritma dan Struktur Data\\3 SKS};
+\node[mk] (ndesaindanpemrogramanweb) at (8.000,-3.450) {Desain dan Pemrograman Web\\3 SKS};
+\node[mk] (nbasisdatalanjut) at (8.000,-4.750) {Basis Data Lanjut\\3 SKS};
+\node[mk] (npemrogramanberbasisobjek) at (8.000,-6.050) {Pemrograman Berbasis Objek\\2 SKS};
+\node[mk] (npraktikumpemrogramanberbasisobjek) at (8.000,-7.350) {Praktikum Pemrograman Berbasis Objek\\2 SKS};
+\node[mk] (nsistempendukungkeputusan) at (11.200,-3.450) {Sistem Pendukung Keputusan\\2 SKS};
+\node[mk] (nkecerdasanartifisial) at (11.200,-4.750) {Kecerdasan Artifisial\\2 SKS};
+\node[mk] (nstatistikkomputasi) at (11.200,-6.050) {Statistik Komputasi\\2 SKS};
+\node[mk] (npembelajaranmesin) at (14.400,-3.450) {Pembelajaran Mesin\\3 SKS};
+\node[mk] (nbusinessintelligence) at (14.400,-4.750) {Business Intelligence\\2 SKS};
+\node[mk] (npengolahancitradanvisikomputer) at (14.400,-6.050) {Pengolahan Citra dan Visi Komputer\\3 SKS};
+\node[mk] (nbigdata) at (17.600,-3.450) {Big Data\\2 SKS};
+\draw (ndasarpemrograman.east) -- (1.600,-3.450) -- (1.600,-4.750) -- (npraktikumdasarpemrograman.west);
+\draw (npraktikumdasarpemrograman.east) -- (3.200,-4.750) -- (3.200,-3.450) -- (npraktikumbasisdata.west);
+\draw (npraktikumbasisdata.east) -- (4.800,-3.450) -- (4.800,-4.750) -- (npraktikumalgoritmadanstrukturdata.west);
+\draw (npraktikumalgoritmadanstrukturdata.east) -- (6.400,-4.750) -- (6.400,-3.450) -- (ndesaindanpemrogramanweb.west);
+\draw (ndesaindanpemrogramanweb.east) -- (8.000,-3.450) -- (8.000,-4.750) -- (nbasisdatalanjut.west);
+\draw (nbasisdatalanjut.east) -- (8.000,-4.750) -- (8.000,-6.050) -- (npemrogramanberbasisobjek.west);
+\draw (npemrogramanberbasisobjek.east) -- (8.000,-6.050) -- (8.000,-7.350) -- (npraktikumpemrogramanberbasisobjek.west);
+\draw (npraktikumpemrogramanberbasisobjek.east) -- (9.600,-7.350) -- (9.600,-3.450) -- (nsistempendukungkeputusan.west);
+\draw (nsistempendukungkeputusan.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (nkecerdasanartifisial.west);
+\draw (nkecerdasanartifisial.east) -- (11.200,-4.750) -- (11.200,-6.050) -- (nstatistikkomputasi.west);
+\draw (nstatistikkomputasi.east) -- (12.800,-6.050) -- (12.800,-3.450) -- (npembelajaranmesin.west);
+\draw (npembelajaranmesin.east) -- (14.400,-3.450) -- (14.400,-4.750) -- (nbusinessintelligence.west);
+\draw (nbusinessintelligence.east) -- (14.400,-4.750) -- (14.400,-6.050) -- (npengolahancitradanvisikomputer.west);
+\draw (npengolahancitradanvisikomputer.east) -- (16.000,-6.050) -- (16.000,-3.450) -- (nbigdata.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL07}
+\end{figure}
+
+% ===================== CPL08 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-8.000);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-8.000);
+\draw (3.200,-1.800) -- (3.200,-8.000);
+\draw (6.400,-1.800) -- (6.400,-8.000);
+\draw (9.600,-1.800) -- (9.600,-8.000);
+\draw (12.800,-1.800) -- (12.800,-8.000);
+\draw (16.000,-1.800) -- (16.000,-8.000);
+\draw (19.200,-1.800) -- (19.200,-8.000);
+\draw (22.400,-1.800) -- (22.400,-8.000);
+\draw[thick] (6.400,-1.800) -- (6.400,-8.000);
+\draw[thick] (12.800,-1.800) -- (12.800,-8.000);
+\draw[thick] (19.200,-1.800) -- (19.200,-8.000);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL08: Mampu mengelola proyek teknologi informasi secara profesional dengan mengoptimalkan sumber daya yang tersedia.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-5.250) {CPL08};
+\node[mk] (ndesainantarmuka) at (4.800,-3.450) {Desain Antarmuka\\2 SKS};
+\node[mk] (nrekayasaperangkatlunak) at (4.800,-4.750) {Rekayasa Perangkat Lunak\\2 SKS};
+\node[mk] (nmanajemenproyek) at (8.000,-3.450) {Manajemen Proyek\\2 SKS};
+\node[mk] (nproyeksisteminformasi) at (11.200,-3.450) {Proyek Sistem Informasi\\3 SKS};
+\node[soft] (npenjaminanmutuperangkatlunak) at (14.400,-3.450) {Penjaminan Mutu Perangkat Lunak\\2 SKS};
+\node[mk] (nproyekteknologiterintegrasi) at (17.600,-3.450) {Proyek Teknologi Terintegrasi\\6 SKS};
+\node[mk] (nproyekinovasi) at (17.600,-4.750) {Proyek Inovasi\\6 SKS};
+\node[mk] (nworkshopteknologiterapan) at (17.600,-6.050) {Workshop Teknologi Terapan\\3 SKS};
+\node[mk] (nteknologiterapan) at (17.600,-7.350) {Teknologi Terapan\\2 SKS};
+\node[mk] (nmagang) at (20.800,-3.450) {Magang\\20 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\draw (ndesainantarmuka.east) -- (4.800,-3.450) -- (4.800,-4.750) -- (nrekayasaperangkatlunak.west);
+\draw (nrekayasaperangkatlunak.east) -- (6.400,-4.750) -- (6.400,-3.450) -- (nmanajemenproyek.west);
+\draw (nmanajemenproyek.east) -- (nproyeksisteminformasi.west);
+\draw (nproyeksisteminformasi.east) -- (npenjaminanmutuperangkatlunak.west);
+\draw (npenjaminanmutuperangkatlunak.east) -- (nproyekteknologiterintegrasi.west);
+\draw (nproyekteknologiterintegrasi.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (nproyekinovasi.west);
+\draw (nproyekinovasi.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (nworkshopteknologiterapan.west);
+\draw (nworkshopteknologiterapan.east) -- (17.600,-6.050) -- (17.600,-7.350) -- (nteknologiterapan.west);
+\draw (nteknologiterapan.east) -- (19.200,-7.350) -- (19.200,-3.450) -- (nmagang.west);
+\draw (nmagang.east) -- (nskripsi.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL08}
+\end{figure}
+
+% ===================== CPL09 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-9.300);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-9.300);
+\draw (3.200,-1.800) -- (3.200,-9.300);
+\draw (6.400,-1.800) -- (6.400,-9.300);
+\draw (9.600,-1.800) -- (9.600,-9.300);
+\draw (12.800,-1.800) -- (12.800,-9.300);
+\draw (16.000,-1.800) -- (16.000,-9.300);
+\draw (19.200,-1.800) -- (19.200,-9.300);
+\draw (22.400,-1.800) -- (22.400,-9.300);
+\draw[thick] (6.400,-1.800) -- (6.400,-9.300);
+\draw[thick] (12.800,-1.800) -- (12.800,-9.300);
+\draw[thick] (19.200,-1.800) -- (19.200,-9.300);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL09: Memiliki pemahaman yang memadai terkait cara kerja sistem komputer dan berbagai teknik/pendekatan berbasis komputasi untuk memecahkan masalah stakeholder.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-5.900) {CPL09};
+\node[mk] (nkonsepteknologiinformasi) at (1.600,-3.450) {Konsep Teknologi Informasi\\2 SKS};
+\node[mk] (nmatematikadasar) at (1.600,-4.750) {Matematika Dasar\\2 SKS};
+\node[mk] (ndasarpemrograman) at (1.600,-6.050) {Dasar Pemrograman\\2 SKS};
+\node[mk] (npraktikumdasarpemrograman) at (1.600,-7.350) {Praktikum Dasar Pemrograman\\3 SKS};
+\node[mk] (nfisika) at (1.600,-8.650) {Fisika\\2 SKS};
+\node[mk] (naljabarlinier) at (4.800,-3.450) {Aljabar Linier\\2 SKS};
+\node[mk] (nsistemoperasi) at (4.800,-4.750) {Sistem Operasi\\2 SKS};
+\node[mk] (nalgoritmadanstrukturdata) at (4.800,-6.050) {Algoritma dan Struktur Data\\2 SKS};
+\node[mk] (npraktikumalgoritmadanstrukturdata) at (4.800,-7.350) {Praktikum Algoritma dan Struktur Data\\3 SKS};
+\node[mk] (nmetodenumerik) at (8.000,-3.450) {Metode Numerik\\2 SKS};
+\node[mk] (njaringankomputer) at (11.200,-3.450) {Jaringan Komputer\\2 SKS};
+\node[mk] (npraktikumjaringankomputer) at (11.200,-4.750) {Praktikum Jaringan Komputer\\2 SKS};
+\node[mk] (nstatistikkomputasi) at (11.200,-6.050) {Statistik Komputasi\\2 SKS};
+\node[mk] (ninternetofthings) at (17.600,-3.450) {Internet of Things\\3 SKS};
+\node[mk] (nbigdata) at (17.600,-4.750) {Big Data\\2 SKS};
+\node[mk] (ncloudcomputing) at (17.600,-6.050) {Cloud Computing\\2 SKS};
+\draw (nkonsepteknologiinformasi.east) -- (1.600,-3.450) -- (1.600,-4.750) -- (nmatematikadasar.west);
+\draw (nmatematikadasar.east) -- (1.600,-4.750) -- (1.600,-6.050) -- (ndasarpemrograman.west);
+\draw (ndasarpemrograman.east) -- (1.600,-6.050) -- (1.600,-7.350) -- (npraktikumdasarpemrograman.west);
+\draw (npraktikumdasarpemrograman.east) -- (1.600,-7.350) -- (1.600,-8.650) -- (nfisika.west);
+\draw (nfisika.east) -- (3.200,-8.650) -- (3.200,-3.450) -- (naljabarlinier.west);
+\draw (naljabarlinier.east) -- (4.800,-3.450) -- (4.800,-4.750) -- (nsistemoperasi.west);
+\draw (nsistemoperasi.east) -- (4.800,-4.750) -- (4.800,-6.050) -- (nalgoritmadanstrukturdata.west);
+\draw (nalgoritmadanstrukturdata.east) -- (4.800,-6.050) -- (4.800,-7.350) -- (npraktikumalgoritmadanstrukturdata.west);
+\draw (npraktikumalgoritmadanstrukturdata.east) -- (6.400,-7.350) -- (6.400,-3.450) -- (nmetodenumerik.west);
+\draw (nmetodenumerik.east) -- (njaringankomputer.west);
+\draw (njaringankomputer.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (npraktikumjaringankomputer.west);
+\draw (npraktikumjaringankomputer.east) -- (11.200,-4.750) -- (11.200,-6.050) -- (nstatistikkomputasi.west);
+\draw (nstatistikkomputasi.east) -- (14.400,-6.050) -- (14.400,-3.450) -- (ninternetofthings.west);
+\draw (ninternetofthings.east) -- (17.600,-3.450) -- (17.600,-4.750) -- (nbigdata.west);
+\draw (nbigdata.east) -- (17.600,-4.750) -- (17.600,-6.050) -- (ncloudcomputing.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL09}
+\end{figure}
+
+% ===================== CPL10 =====================
+\begin{figure}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},
+  hdr/.style={font=\bfseries\small, align=center},
+  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,
+]
+\draw (-2.300,0) rectangle (25.600,-10.600);
+\draw (-2.300,-1.100) -- (25.600,-1.100);
+\draw (-2.300,-1.800) -- (25.600,-1.800);
+\draw (-2.300,-2.500) -- (25.600,-2.500);
+\draw (0,-1.100) -- (0,-10.600);
+\draw (3.200,-1.800) -- (3.200,-10.600);
+\draw (6.400,-1.800) -- (6.400,-10.600);
+\draw (9.600,-1.800) -- (9.600,-10.600);
+\draw (12.800,-1.800) -- (12.800,-10.600);
+\draw (16.000,-1.800) -- (16.000,-10.600);
+\draw (19.200,-1.800) -- (19.200,-10.600);
+\draw (22.400,-1.800) -- (22.400,-10.600);
+\draw[thick] (6.400,-1.800) -- (6.400,-10.600);
+\draw[thick] (12.800,-1.800) -- (12.800,-10.600);
+\draw[thick] (19.200,-1.800) -- (19.200,-10.600);
+\node[align=center, text width=26.900cm, font=\small] at (11.650,-0.550) {CPL10: Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin.};
+\node[hdr] at (3.200,-1.450) {Tahun 1};
+\node[hdr] at (9.600,-1.450) {Tahun 2};
+\node[hdr] at (16.000,-1.450) {Tahun 3};
+\node[hdr] at (22.400,-1.450) {Tahun 4};
+\node[hdr] at (-1.150,-1.450) {CPL};
+\node[hdr] at (1.600,-2.150) {Semester 1};
+\node[hdr] at (4.800,-2.150) {Semester 2};
+\node[hdr] at (8.000,-2.150) {Semester 3};
+\node[hdr] at (11.200,-2.150) {Semester 4};
+\node[hdr] at (14.400,-2.150) {Semester 5};
+\node[hdr] at (17.600,-2.150) {Semester 6};
+\node[hdr] at (20.800,-2.150) {Semester 7};
+\node[hdr] at (24.000,-2.150) {Semester 8};
+\node[hdr] at (-1.150,-6.550) {CPL10};
+\node[mk] (nbasisdata) at (4.800,-3.450) {Basis Data\\2 SKS};
+\node[mk] (npraktikumbasisdata) at (4.800,-4.750) {Praktikum Basis Data\\2 SKS};
+\node[mk] (nsisteminformasimanajemen) at (8.000,-3.450) {Sistem Informasi Manajemen\\2 SKS};
+\node[mk] (nbasisdatalanjut) at (8.000,-4.750) {Basis Data Lanjut\\3 SKS};
+\node[mk] (nmetodenumerik) at (8.000,-6.050) {Metode Numerik\\2 SKS};
+\node[mk] (nsistempendukungkeputusan) at (11.200,-3.450) {Sistem Pendukung Keputusan\\2 SKS};
+\node[mk] (nanalisisdandesainberorientasiobjek) at (11.200,-4.750) {Analisis dan Desain Berorientasi Objek\\2 SKS};
+\node[mk] (nkecerdasanartifisial) at (11.200,-6.050) {Kecerdasan Artifisial\\2 SKS};
+\node[mk] (npemrogramanweblanjut) at (11.200,-7.350) {Pemrograman Web Lanjut\\3 SKS};
+\node[mk] (nproyeksisteminformasi) at (11.200,-8.650) {Proyek Sistem Informasi\\3 SKS};
+\node[mk] (nmetodologipenelitian) at (14.400,-3.450) {Metodologi Penelitian\\2 SKS};
+\node[mk] (npemrogramanmobile) at (14.400,-4.750) {Pemrograman Mobile\\3 SKS};
+\node[mk] (npembelajaranmesin) at (14.400,-6.050) {Pembelajaran Mesin\\3 SKS};
+\node[mk] (nbusinessintelligence) at (14.400,-7.350) {Business Intelligence\\2 SKS};
+\node[mk] (npengolahancitradanvisikomputer) at (14.400,-8.650) {Pengolahan Citra dan Visi Komputer\\3 SKS};
+\node[mk] (nadministrasidankeamananjaringan) at (14.400,-9.950) {Administrasi dan Keamanan Jaringan\\2 SKS};
+\node[mk] (ncloudcomputing) at (17.600,-3.450) {Cloud Computing\\2 SKS};
+\node[mk] (nskripsi) at (24.000,-3.450) {Skripsi\\8 SKS};
+\draw (nbasisdata.east) -- (4.800,-3.450) -- (4.800,-4.750) -- (npraktikumbasisdata.west);
+\draw (npraktikumbasisdata.east) -- (6.400,-4.750) -- (6.400,-3.450) -- (nsisteminformasimanajemen.west);
+\draw (nsisteminformasimanajemen.east) -- (8.000,-3.450) -- (8.000,-4.750) -- (nbasisdatalanjut.west);
+\draw (nbasisdatalanjut.east) -- (8.000,-4.750) -- (8.000,-6.050) -- (nmetodenumerik.west);
+\draw (nmetodenumerik.east) -- (9.600,-6.050) -- (9.600,-3.450) -- (nsistempendukungkeputusan.west);
+\draw (nsistempendukungkeputusan.east) -- (11.200,-3.450) -- (11.200,-4.750) -- (nanalisisdandesainberorientasiobjek.west);
+\draw (nanalisisdandesainberorientasiobjek.east) -- (11.200,-4.750) -- (11.200,-6.050) -- (nkecerdasanartifisial.west);
+\draw (nkecerdasanartifisial.east) -- (11.200,-6.050) -- (11.200,-7.350) -- (npemrogramanweblanjut.west);
+\draw (npemrogramanweblanjut.east) -- (11.200,-7.350) -- (11.200,-8.650) -- (nproyeksisteminformasi.west);
+\draw (nproyeksisteminformasi.east) -- (12.800,-8.650) -- (12.800,-3.450) -- (nmetodologipenelitian.west);
+\draw (nmetodologipenelitian.east) -- (14.400,-3.450) -- (14.400,-4.750) -- (npemrogramanmobile.west);
+\draw (npemrogramanmobile.east) -- (14.400,-4.750) -- (14.400,-6.050) -- (npembelajaranmesin.west);
+\draw (npembelajaranmesin.east) -- (14.400,-6.050) -- (14.400,-7.350) -- (nbusinessintelligence.west);
+\draw (nbusinessintelligence.east) -- (14.400,-7.350) -- (14.400,-8.650) -- (npengolahancitradanvisikomputer.west);
+\draw (npengolahancitradanvisikomputer.east) -- (14.400,-8.650) -- (14.400,-9.950) -- (nadministrasidankeamananjaringan.west);
+\draw (nadministrasidankeamananjaringan.east) -- (16.000,-9.950) -- (16.000,-3.450) -- (ncloudcomputing.west);
+\draw (ncloudcomputing.east) -- (nskripsi.west);
+\end{tikzpicture}%
+}
+\caption{Peta Jalan CPL10}
+\end{figure}
+
+\reviewfrompdf{Sepuluh diagram peta jalan CPL di atas memetakan kontribusi mata kuliah terhadap setiap CPL, disusun ulang langsung dari docs/rti-mk-crosswalk.md (bukan dari sheet CPL-MK (Rev3 fix) yang dipakai pada versi sebelumnya dan sudah diketahui memiliki sejumlah mismatch terhadap kurikulum 59 mata kuliah). Susunan node dan panah keterkaitan ini tetap perlu divalidasi oleh tim kurikulum sebelum dokumen dinyatakan final.}
 
 \section{Matrik Organisasi Mata Kuliah (Kurikulum 2025)}
 
@@ -153,6 +969,6 @@ Jejaring kurikulum berikut menggambarkan keterkaitan prasyarat (\textit{prerequi
 
 \section{Catatan Penyusunan Matriks}
 
-Pada template 2020, bab ini berisi matriks organisasi mata kuliah, matriks detail MBKM, peta kurikulum, dan pohon kurikulum dalam format visual. Konsep visual Matrik Organisasi Matakuliah (5.1) diadopsi dan disusun ulang dengan data Kurikulum 2025 pada bagian sebelumnya. Peta Kurikulum dan Pohon Kurikulum (5.3--5.4), serta Matriks Detail Prodi MBKM (5.2), tidak memiliki data digital yang dapat diekstraksi (halaman-halaman terkait hanya memuat judul bagian tanpa data mata kuliah), sehingga jejaring kurikulum pada bagian pertama bab ini disusun sebagai gantinya, berdasarkan data prasyarat yang tersedia pada RPS Kurikulum 2025.
+Pada dokumen Kurikulum 2020, bagian ini turut memuat matriks detail Prodi MBKM, peta kurikulum, dan pohon kurikulum dalam format visual. Konsep visual Matrik Organisasi Mata Kuliah (5.1) diadopsi dan disusun ulang dengan data Kurikulum 2025 pada bagian sebelumnya. Peta Kurikulum, Pohon Kurikulum (5.3--5.4), dan Matriks Detail Prodi MBKM (5.2) tidak memuat data mata kuliah yang relevan untuk Kurikulum 2025, sehingga jejaring kurikulum pada bagian pertama bab ini disusun sebagai gantinya, berdasarkan Deskripsi Mata Kuliah, Bahan Kajian, dan data Matakuliah Syarat yang tersedia pada RPS Kurikulum 2025. Karena program ini adalah pendidikan vokasi dengan satu paket mata kuliah tetap per semester (tanpa pemilihan mata kuliah oleh mahasiswa), diagram disusun sebagai peta keterkaitan konsep antar mata kuliah, bukan sebagai peta prasyarat pendaftaran.
 
-\todoitem{Validasi jejaring kurikulum pada bagian pertama bab ini dengan tim kurikulum, khususnya kebenaran hubungan prasyarat/korekuisit yang digambarkan, sebelum dokumen dinyatakan final.}
+\todoitem{Validasi jejaring kurikulum pada bagian pertama bab ini dengan tim kurikulum, khususnya kebenaran hubungan konsep-dependensi yang digambarkan (termasuk keterkaitan bertanda garis bertitik yang disusun dari kesamaan topik, bukan pernyataan eksplisit RPS), sebelum dokumen dinyatakan final.}

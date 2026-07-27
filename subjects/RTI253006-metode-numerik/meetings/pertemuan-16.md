@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 16
-sub_cpmk: SCPMK1007-03504
+sub_cpmk: SCPMK1007-02404
 assessment_weight: 1.5
 ---
 
 # Pertemuan 16 - Regresi
 
 ## Kemampuan Akhir
-- SCPMK1007-03504: Mahasiswa mampu menerapkan interpolasi dan regresi numerik untuk aproksimasi fungsi dan analisis data.
+- SCPMK1007-02404: Mahasiswa mampu menerapkan interpolasi dan regresi numerik untuk aproksimasi fungsi dan analisis data.
 
 ## Materi Pembelajaran
 Regresi: regresi linear sederhana (least squares), regresi linear berganda, regresi nonlinear (linearisasi), koefisien determinasi R^2, dan penerapan pada analisis data.

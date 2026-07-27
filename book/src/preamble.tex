@@ -158,33 +158,33 @@ Bentuk Format Luaran & #6 \\
 Indikator Penilaian & Bobot (\%) & Kriteria 3 (Baik) & Kriteria 2 (Cukup) & Kriteria 1 (Kurang) \\
 #7 \\
 \end{tblr}}
-\newcommand{\RPSInput}[2]{%
+\newcommand{\RPSInput}[3][]{%
   \begingroup
-  \newgeometry{margin=0.9cm}%
+  \newgeometry{top=2.3cm,bottom=0.9cm,left=0.9cm,right=0.9cm,headheight=64pt,headsep=8pt}%
   \setlength{\parindent}{0pt}%
   \setlist[itemize]{leftmargin=*, nosep, topsep=0pt}%
   \setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}%
   \pagestyle{empty}%
+  #1%
   \phantomsection
-  \subsection*{#1}
-  \addcontentsline{toc}{subsection}{#1}
-  \input{"#2"}%
+  \subsection*{#2}
+  \input{"#3"}%
   \clearpage
   \restoregeometry
   \endgroup
   \pagestyle{fancy}%
 }
-\newcommand{\RubrikInput}[2]{%
+\newcommand{\RubrikInput}[3][]{%
   \begingroup
-  \newgeometry{margin=0.9cm}%
+  \newgeometry{top=2.3cm,bottom=0.9cm,left=0.9cm,right=0.9cm,headheight=64pt,headsep=8pt}%
   \setlength{\parindent}{0pt}%
   \setlist[itemize]{leftmargin=*, nosep, topsep=0pt}%
   \setlist[enumerate]{leftmargin=*, nosep, topsep=0pt}%
   \pagestyle{empty}%
+  #1%
   \phantomsection
-  \subsection*{#1}
-  \addcontentsline{toc}{subsection}{#1}
-  \input{"#2"}%
+  \subsection*{#2}
+  \input{"#3"}%
   \clearpage
   \restoregeometry
   \endgroup

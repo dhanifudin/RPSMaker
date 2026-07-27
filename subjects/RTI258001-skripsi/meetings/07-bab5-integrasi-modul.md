@@ -1,31 +1,30 @@
 ---
 course_code: RTI258001
 course_name: Skripsi
-meeting: 15
-sub_cpmk: SCPMK0404-05802, SCPMK0403-05801
-assessment_weight: 20
+meeting: 07
+sub_cpmk: SCPMK0403-05801
+assessment_weight: 2
 ---
 
-# Milestone 15 - Finalisasi dan Pengumpulan Naskah Skripsi
+# Milestone 07 - Bimbingan BAB V: Implementasi Lanjutan (Integrasi Modul)
 
 ## Kemampuan Akhir
-- SCPMK0404-05802: Mahasiswa mampu menyusun naskah skripsi yang memenuhi standar penulisan ilmiah Polinema.
 - SCPMK0403-05801: Mahasiswa mampu melaksanakan penelitian atau pengembangan sistem TIK secara sistematis sesuai metodologi yang dipilih.
 
 ## Materi Pembelajaran
-Finalisasi dan pengumpulan naskah skripsi.
+Bimbingan BAB V: implementasi lanjutan (integrasi modul).
 
 ## Bentuk dan Metode Pembelajaran
 Modalitas: Penelitian Mandiri dan Bimbingan. Metode: penelitian/pengembangan mandiri, bimbingan akademik, dan presentasi ilmiah.
 
 ## Estimasi Waktu
-1 x 1 x 50' administrasi; penulisan mandiri.
+Disesuaikan jadwal skripsi.
 
 ## Pengalaman Belajar Mahasiswa
-Mahasiswa menyelesaikan naskah skripsi lengkap (BAB I–VII), mendapat persetujuan pembimbing, dan mengumpulkan naskah final untuk pendaftaran sidang.
+Mahasiswa mengintegrasikan modul-modul sistem yang telah diimplementasikan dan mendokumentasikan hasil integrasi.
 
 ## Penilaian
-Bentuk penilaian: Naskah Skripsi (BAB I–VII lengkap). Mengacu rubrik RTM.
+Bentuk penilaian: Progress integrasi modul sistem. Mengacu rubrik RTM.
 
 ## Indikator Penilaian
 Kemajuan penelitian; kualitas dokumen ilmiah; profesionalisme akademis.

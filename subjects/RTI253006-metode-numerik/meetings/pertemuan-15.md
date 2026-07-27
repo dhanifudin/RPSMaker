@@ -2,14 +2,14 @@
 course_code: RTI253006
 course_name: Metode Numerik
 meeting: 15
-sub_cpmk: SCPMK1007-03504
+sub_cpmk: SCPMK1007-02404
 assessment_weight: 1.5
 ---
 
 # Pertemuan 15 - Interpolasi
 
 ## Kemampuan Akhir
-- SCPMK1007-03504: Mahasiswa mampu menerapkan interpolasi dan regresi numerik untuk aproksimasi fungsi dan analisis data.
+- SCPMK1007-02404: Mahasiswa mampu menerapkan interpolasi dan regresi numerik untuk aproksimasi fungsi dan analisis data.
 
 ## Materi Pembelajaran
 Interpolasi: interpolasi linear, polinomial Lagrange, polinomial Newton (beda terbagi), pemilihan titik interpolasi, dan galat interpolasi.

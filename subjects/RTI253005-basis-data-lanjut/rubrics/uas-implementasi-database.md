@@ -1,7 +1,7 @@
 ---
 course_code: RTI253005
 course_name: Basis Data Lanjut
-sub_cpmk: SCPMK1001-01604
+sub_cpmk: SCPMK1001-02304
 assessment_form: UAS (defense dan demonstrasi proyek)
 ---
 
@@ -9,7 +9,7 @@ assessment_form: UAS (defense dan demonstrasi proyek)
 
 **Bentuk Tugas/Evaluasi:** UAS (defense dan demonstrasi proyek)
 
-**Sub-CPMK:** SCPMK1001-01604
+**Sub-CPMK:** SCPMK1001-02304
 
 ## Deskripsi
 Mahasiswa mempresentasikan dan mendemonstrasikan proyek basis data PostgreSQL terintegrasi yang mencakup seluruh kompetensi mata kuliah, disertai defense atas keputusan teknis yang diambil.
