@@ -17,3 +17,10 @@ book/main.xdv
 # graphify working artifacts (analysis corpus + generated graph)
 graphify-out/
 analysis/
+
+# Claude Code local session data (permission grants, session caches)
+.claude/settings.local.json
+.claude/permissions/
+
+# xlsx backup files from automated editing sessions
+docs/*.bak-*
