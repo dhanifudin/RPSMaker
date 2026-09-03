@@ -1,0 +1,380 @@
+% Pedoman Laboratorium Software Engineering
+% Compile with xelatex from docs/pedoman-laboratorium/ directory.
+\documentclass[12pt,a4paper]{report}
+
+\newcommand{\LabName}{Software Engineering}
+\newcommand{\LabKoor}{Imam Fahrur Rozi, ST., MT.}
+
+\input{preamble}
+
+\begin{document}
+
+\pagenumbering{roman}
+\PedomanCover
+
+\clearpage
+\tableofcontents
+
+\clearpage
+\pagenumbering{arabic}
+
+% ===========================================================================
+\chapter{Pendahuluan}
+% ===========================================================================
+
+Laboratorium \emph{Software Engineering} merupakan unit penunjang teknis pada Program Studi D4 Teknik Informatika, Jurusan Teknologi Informasi, Politeknik Negeri Malang (POLINEMA). Laboratorium ini menjadi wahana utama bagi mahasiswa dalam menyelenggarakan \textbf{capstone project (skripsi)}, yaitu kegiatan integratif yang mengakumulasikan seluruh kompetensi akademis menjadi produk nyata dan karya ilmiah berstandar publikasi.
+
+Buku pedoman ini disusun sebagai acuan penyelenggaraan capstone project (skripsi) di laboratorium: struktur pengelola, prosedur dan evaluasi, panduan luaran, tugas pembimbing dan penguji, tata tertib, serta keselamatan dan kesehatan kerja. Buku ini juga memuat \textbf{Standar Keteknikan} dan \textbf{Batasan Realistis} yang wajib dipertimbangkan dalam setiap keputusan rancangan, selaras dengan kriteria akreditasi keinsinyuran (IABEE/ABET).
+
+\section{Dasar}
+\begin{enumerate}
+\item Statuta dan Organisasi Tata Kerja Politeknik Negeri Malang.
+\item Buku Pedoman Akademik Jurusan Teknologi Informasi yang diterbitkan setiap tahun akademik.
+\item Pedoman Capstone Project dan Pedoman Skripsi D4 Teknik Informatika POLINEMA 2025, beserta RPS mata kuliah capstone dan skripsi yang berlaku.
+\item Kriteria akreditasi program studi bidang keinsinyuran/komputasi (IABEE/ABET) terkait penerapan standar keteknikan dan batasan realistis dalam kegiatan perancangan berbasis \emph{open-ended problem}.
+\end{enumerate}
+
+\section{Tujuan Pedoman}
+\begin{enumerate}
+\item Menjadi acuan tata kelola dan operasional Laboratorium \emph{Software Engineering} dalam penyelenggaraan capstone project dan skripsi.
+\item Menjamin pelaksanaan capstone dan skripsi yang tertib, bermutu, dan terstandar sesuai capaian pembelajaran program studi.
+\item Menetapkan standar keteknikan dan batasan realistis yang wajib dipertimbangkan dalam setiap keputusan rancangan produk capstone dan skripsi.
+\end{enumerate}
+
+\section{Visi Program Studi}
+Menjadi program studi yang unggul dalam bidang rekayasa perangkat lunak baik di tingkat nasional maupun internasional.
+
+\section{Misi Program Studi}
+\begin{enumerate}
+\item Melaksanakan pendidikan vokasi yang inovatif berdasarkan pada sistem pendidikan terapan dengan memanfaatkan kemajuan teknologi, sehingga mampu menghasilkan lulusan yang memiliki kompetensi di bidang re\-ka\-ya\-sa pe\-rang\-kat lu\-nak dan siap bersaing di tingkat nasional dan global.
+\item Melaksanakan penelitian terapan berbasis produk dan jasa bidang rekayasa perangkat lunak.
+\item Melaksanakan pengabdian masyarakat dengan menggunakan kemajuan rekayasa perangkat lunak untuk meningkatkan kesejahteraan.
+\item Mewujudkan kerja sama yang saling menguntungkan dengan berbagai pihak baik di dalam maupun di luar negeri pada bidang rekayasa perangkat lunak.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Struktur Organisasi Laboratorium}
+% ===========================================================================
+
+Pengelolaan laboratorium berada dalam garis koordinasi Program Studi dan Jurusan, dengan alur tanggung jawab: \textbf{Ketua Jurusan Teknologi Informasi} $\rightarrow$ \textbf{Ketua Program Studi D4 Teknik Informatika} $\rightarrow$ \textbf{Kepala Laboratorium} $\rightarrow$ \textbf{Teknisi/Laboran} dan \textbf{Dosen Pembimbing/Penguji serta Mentor Capstone}.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.4cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headblue,font=\bfseries},column{1}={bg=headgray,font=\bfseries}}
+Peran & Tugas dan Tanggung Jawab \\
+Ketua Program Studi & Penanggung jawab kebijakan laboratorium; mengesahkan pedoman capstone dan skripsi; mengalokasikan sumber daya; menetapkan dosen pembimbing dan penguji. \\
+Kepala Laboratorium & Mengelola operasional laboratorium; mengoordinasikan penugasan pembimbing dan penguji; mengelola inventaris; menyusun serta meninjau pedoman secara berkala; memantau kemajuan capstone mahasiswa bimbingan. \\
+Teknisi / Laboran & Menyiapkan perangkat keras dan perangkat lunak; melakukan pemeliharaan dan inventarisasi; memberikan dukungan teknis; menjaga keamanan dan kesiapan ruang bagi kegiatan capstone dan skripsi. \\
+Dosen Pembimbing & Membimbing mahasiswa dalam proses perencanaan, pelaksanaan, dan penulisan capstone/skripsi; mengevaluasi kemajuan; mengesahkan naskah/produk untuk sidang. \\
+Dosen Penguji & Mengevaluasi dan menguji naskah/produk capstone atau skripsi pada Sidang/Seminar Hasil Produk Akhir; memberikan penilaian dan masukan perbaikan. \\
+Mentor Industri / Asisten Capstone & Memberikan bimbingan teknis konteks industri; membantu validasi kebutuhan produk; mendampingi sprint pada jalur capstone magang/industri. \\
+\end{tblr}
+
+\medskip
+Kepala Laboratorium \emph{Software Engineering} saat ini dijabat oleh \textbf{\LabKoor}\SentencePeriod{\LabKoor}
+
+% ===========================================================================
+\chapter{Sasaran dan Ruang Lingkup}
+% ===========================================================================
+
+\textbf{Sasaran.} Menghasilkan produk perangkat lunak (capstone) dan karya ilmiah (skripsi) yang berkualitas, terstandar secara teknis, mempertimbangkan batasan realistis, serta selaras dengan perkembangan ilmu pengetahuan, teknologi, dan kebutuhan industri di bidang rekayasa perangkat lunak.
+
+\textbf{Ruang lingkup keilmuan.} Rekayasa kebutuhan, analisis dan desain berorientasi objek, arsitektur perangkat lunak, konstruksi program multi-platform, penjaminan mutu dan pengujian perangkat lunak, manajemen proyek agile, serta rekayasa sistem.
+
+% ===========================================================================
+\chapter{Penyelenggaraan Capstone Project}
+% ===========================================================================
+
+Capstone project dan skripsi diselenggarakan mengikuti kalender akademik dan jadwal yang ditetapkan oleh Program Studi bersama Kepala Laboratorium.
+
+\section{Tujuan}
+\begin{enumerate}
+\item Mahasiswa mampu mengintegrasikan seluruh kompetensi re\-ka\-ya\-sa pe\-rang\-kat lu\-nak dalam mengembangkan produk nyata multi-platform (\emph{capstone}) atau karya ilmiah berstandar publikasi (\emph{skripsi}) yang menjawab permasalahan dunia nyata.
+\item Mahasiswa mampu menerapkan standar keteknikan dan menganalisis batasan realistis dalam setiap keputusan rancangan (Bab~\ref{chap:standar}).
+\item Mahasiswa mampu mengelola proyek secara profesional menggunakan metodologi agile dan mempertanggungjawabkan hasilnya di hadapan dosen penguji.
+\end{enumerate}
+
+\section{Syarat Mengikuti}
+\begin{enumerate}
+\item \textbf{Capstone (sem.~6):} terdaftar pada salah satu mata kuliah capstone pada semester berjalan (dibuktikan dengan KRS); telah lulus $\geq$ 90 SKS; memilih jalur reguler atau magang/industri sesuai ketentuan Program Studi.
+\item \textbf{Skripsi (sem.~8):} lulus Metodologi Penelitian; lulus $\geq$ 130 SKS; telah dinyatakan lulus Seminar Proposal Skripsi.
+\item Mematuhi tata tertib laboratorium (Bab~\ref{chap:tatib}).
+\end{enumerate}
+
+\section{Kompetensi yang Dikembangkan}
+\begin{itemize}
+\item Analisis permasalahan kompleks dan rekayasa kebutuhan (SRS, \emph{user story}, \emph{use case}).
+\item Perancangan arsitektur dan desain sistem (SDD, ADR, basis data, antarmuka).
+\item Konstruksi program: implementasi fitur inti, integrasi modul, pengujian unit dan integrasi.
+\item Penjaminan mutu: pengujian sistem, UAT, keamanan aplikasi, dan aksesibilitas.
+\item Manajemen proyek agile: \emph{sprint planning}, \emph{backlog}, \emph{velocity}, dan \emph{retrospective}.
+\item Komunikasi ilmiah: penulisan laporan, presentasi kemajuan, dan seminar hasil.
+\end{itemize}
+
+\section{Tema dan Lingkup Capstone SE}
+Capstone di Laboratorium \emph{Software Engineering} diarahkan pada pengembangan produk yang:
+\begin{itemize}
+\item Berbasis permasalahan nyata (industri, komunitas, atau penelitian terapan).
+\item Menggunakan metodologi rekayasa perangkat lunak yang terstandar (agile/scrum untuk capstone; metodologi penelitian/pengembangan untuk skripsi).
+\item Mempertimbangkan standar keteknikan dan batasan realistis yang relevan secara eksplisit dalam dokumen rancangan.
+\item Menghasilkan \emph{deliverable} yang dapat diverifikasi: repositori kode, dokumentasi teknis, dan produk/aplikasi yang dapat didemonstrasikan.
+\end{itemize}
+
+% ===========================================================================
+\chapter{Prosedur dan Evaluasi Capstone}
+% ===========================================================================
+
+\section{Prosedur Capstone dan Skripsi}
+
+\subsection*{Capstone (Proyek Teknologi Terintegrasi dan jalur industri)}
+\begin{enumerate}
+\item \textbf{Pembentukan tim dan proposal:} mahasiswa menyusun proposal capstone (problem statement, solusi, WBS, jadwal, anggaran, manajemen risiko) dan mendapatkan persetujuan Kepala Laboratorium/Dosen Pembimbing.
+\item \textbf{Kontrak proyek:} penandatanganan kontrak proyek antara tim capstone, dosen pembimbing, dan (untuk jalur industri) mentor industri.
+\item \textbf{Pelaksanaan agile (sprint):} pengembangan produk dilaksanakan secara iteratif melalui sprint; setiap sprint menghasilkan \emph{increment} produk yang didemonstrasikan dan direview.
+\item \textbf{Seminar/review kemajuan:} presentasi kemajuan proyek (minimal satu kali di tengah semester) kepada dosen pembimbing dan/atau panel reviewer.
+\item \textbf{UAT dan \emph{deployment}:} pengujian penerimaan pengguna dan \emph{deployment} produk akhir ke lingkungan produksi/staging.
+\item \textbf{\emph{Seminar Hasil} Produk Akhir:} presentasi dan pertahanan produk capstone di hadapan dosen penguji; penilaian mencakup produk, dokumentasi, dan kemampuan mempertahankan keputusan rancangan.
+\end{enumerate}
+
+\subsection*{Skripsi}
+\begin{enumerate}
+\item \textbf{Reviu proposal:} mahasiswa mereviu proposal yang telah disetujui pada Seminar Proposal dan menandatangani kontrak bimbingan skripsi.
+\item \textbf{BAB IV (Analisis dan Perancangan):} bimbingan analisis kebutuhan dan perancangan arsitektur/desain sistem; finalisasi BAB IV dengan persetujuan pembimbing.
+\item \textbf{BAB V (Implementasi):} pengembangan sistem secara bertahap (implementasi awal $\rightarrow$ fitur inti $\rightarrow$ integrasi modul $\rightarrow$ finalisasi).
+\item \textbf{Seminar Kemajuan:} presentasi kemajuan penelitian (BAB IV--V) kepada dosen pembimbing; bobot 15\%.
+\item \textbf{BAB VI (Pengujian dan Pembahasan):} pelaksanaan pengujian sistem, analisis hasil, dan validasi terhadap rumusan masalah.
+\item \textbf{BAB VII dan finalisasi naskah:} penyusunan kesimpulan dan saran; integrasi naskah lengkap BAB I--VII; persetujuan pembimbing untuk pendaftaran sidang.
+\item \textbf{Sidang Skripsi:} presentasi dan pertahanan naskah skripsi di hadapan tim penguji.
+\end{enumerate}
+
+\section{Evaluasi}
+
+\subsection*{Komponen penilaian capstone}
+Bobot mengacu pada RPS masing-masing mata kuliah capstone. Kerangka umum:
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.8cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headgreen,font=\bfseries}}
+Komponen & Cakupan \\
+Proposal & Kelengkapan dan kualitas dokumen proposal, WBS, dan manajemen risiko. \\
+Kemajuan sprint / \emph{progress} & Konsistensi pelaksanaan sprint, kualitas \emph{increment}, dan keaktifan bimbingan. \\
+Produk akhir & Fungsionalitas, mutu teknis, aksesibilitas, keamanan, dan keterpeliharaan produk. \\
+\emph{Seminar Hasil} produk & Kemampuan mempertahankan keputusan rancangan, penerapan standar keteknikan, dan analisis batasan realistis. \\
+\end{tblr}
+
+\subsection*{Komponen penilaian skripsi (RTI258001)}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.8cm]|Q[c,m,2.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headgreen,font=\bfseries}}
+Komponen & Bobot & Cakupan \\
+Reviu Proposal & 5\% & Kelengkapan proposal yang disetujui dan kontrak bimbingan. \\
+Seminar Kemajuan & 15\% & Presentasi progres BAB IV--V; dinilai dosen pembimbing. \\
+Laporan Skripsi & 30\% & Laporan lengkap BAB I--VII sesuai standar ilmiah. \\
+Sidang Skripsi & 50\% & Presentasi dan seminar hasil di hadapan tim penguji. \\
+\textbf{Total} & \textbf{100\%} & \\
+\end{tblr}
+
+% ===========================================================================
+\chapter{Panduan dan Luaran Capstone}
+% ===========================================================================
+
+\section{Dokumen Acuan}
+Penyelenggaraan capstone dan skripsi di laboratorium mengacu pada:
+\begin{itemize}
+\item \emph{Pedoman Capstone Project D4 Teknik Informatika POLINEMA 2025} (reguler dan magang/industri).
+\item \emph{Pedoman Skripsi D4 Teknik Informatika POLINEMA 2025}.
+\item RPS dan Rubrik (Rencana Penilaian) masing-masing mata kuliah capstone dan skripsi.
+\item Standar Keteknikan dan Batasan Realistis pada Bab~\ref{chap:standar} buku pedoman ini.
+\end{itemize}
+
+\section{Luaran (\emph{Deliverables})}
+Setiap capstone atau skripsi wajib menghasilkan luaran yang dapat diverifikasi. Pada setiap dokumen yang menyatakan keputusan rancangan, mahasiswa wajib mencantumkan secara eksplisit standar keteknikan yang diacu serta analisis batasan realistis yang memengaruhi keputusan tersebut.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.0cm]|X[l,m]|Q[l,m,2.8cm]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headblue,font=\bfseries}}
+Luaran & Deskripsi & Berlaku untuk \\
+Proposal & Problem statement, solusi, WBS, jadwal, anggaran, risiko. & Capstone (Skripsi) \\
+Produk / Aplikasi & Perangkat lunak yang berfungsi, diuji, dan dapat di-\emph{deploy}; disertai repositori kode dan tag versi. & Capstone (Skripsi) \\
+Laporan Skripsi & Karya ilmiah 7 bab (BAB I--VII) berstandar publikasi, disertai artikel/abstrak ilmiah. Mencakup spesifikasi kebutuhan (SRS) dan dokumen desain (SDD) pada BAB IV. & Capstone (Skripsi) \\
+Repositori & Repositori \emph{version-controlled} dengan \emph{commit history}, tag SemVer, dan README. & Capstone (Skripsi) \\
+\end{tblr}
+
+% ===========================================================================
+\chapter{Pembimbing dan Penguji Capstone}
+% ===========================================================================
+
+\section{Definisi}
+\begin{itemize}
+\item \textbf{Dosen Pembimbing} adalah dosen Program Studi D4 TI yang ditugaskan oleh Ketua Program Studi untuk membimbing mahasiswa selama proses capstone atau skripsi hingga layak diajukan ke sidang.
+\item \textbf{Dosen Penguji} adalah dosen Program Studi D4 TI yang ditugaskan untuk mengevaluasi dan menguji produk/naskah capstone atau skripsi pada saat sidang/seminar hasil.
+\item \textbf{Mentor Industri} adalah praktisi dari mitra industri yang membantu membimbing validasi kebutuhan dan kelayakan teknis produk capstone pada jalur magang/industri.
+\end{itemize}
+
+\section{Persyaratan Pembimbing}
+\begin{enumerate}
+\item Memiliki keahlian di bidang rekayasa perangkat lunak atau teknologi yang relevan dengan topik capstone/skripsi yang dibimbing.
+\item Memiliki tanggung jawab akademik serta menjunjung integritas dan etika keilmuan.
+\item Memperoleh surat tugas dari Ketua Program Studi.
+\item Mentor industri: memiliki pengalaman minimal 2 tahun di bidang rekayasa perangkat lunak dan bersedia menandatangani perjanjian kerja sama pembimbingan.
+\end{enumerate}
+
+\section{Tugas Pembimbing}
+\begin{enumerate}
+\item Melaksanakan sesi bimbingan secara terjadwal sesuai kontrak bimbingan.
+\item Mengarahkan mahasiswa dalam penerapan standar keteknikan dan analisis batasan realistis.
+\item Memantau kemajuan capstone/skripsi dan mendokumentasikan hasil bimbingan.
+\item Memberikan persetujuan (\emph{acc}) atas naskah/produk yang layak diajukan ke sidang/seminar hasil.
+\item Menginformasikan kepada Kepala Laboratorium paling lambat 1 (satu) hari sebelumnya apabila berhalangan hadir pada sesi bimbingan.
+\end{enumerate}
+
+\section{Tugas Penguji}
+\begin{enumerate}
+\item Membaca dan menelaah naskah/produk capstone atau skripsi sebelum pelaksanaan sidang.
+\item Menguji kemampuan mahasiswa mempertahankan keputusan rancangan dan penerapan standar keteknikan.
+\item Memberikan nilai sidang sesuai rubrik yang ditetapkan.
+\item Memberikan masukan perbaikan pasca-sidang kepada mahasiswa.
+\end{enumerate}
+
+\section{Hak}
+\begin{enumerate}
+\item Memperoleh honorarium pembimbingan/pengujian sesuai ketentuan yang berlaku.
+\item Menggunakan fasilitas laboratorium dalam melaksanakan kegiatan bimbingan dan sidang.
+\end{enumerate}
+
+\section{Kode Etik}
+\begin{enumerate}
+\item Melaksanakan visi, misi, dan tujuan program studi dengan sebaik-baiknya.
+\item Menjaga kerahasiaan hasil karya mahasiswa selama proses bimbingan.
+\item Meningkatkan kualitas profesional sesuai perkembangan ilmu dan teknologi rekayasa perangkat lunak.
+\item Menghindari konflik kepentingan dan menjadi teladan dalam integritas akademik.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Standar Keteknikan dan Batasan Realistis}
+\label{chap:standar}
+% ===========================================================================
+
+Bagian ini menjadi rujukan utama bagi mahasiswa dan dosen pembimbing dalam setiap kegiatan perancangan pada capstone project dan skripsi, sehingga karya rancang tidak hanya benar secara teknis tetapi juga layak diterapkan dan dapat dipertanggungjawabkan secara il\-mi\-ah dan pro\-fe\-sio\-nal.
+
+\section{Definisi}
+\textbf{Standar Keteknikan (\emph{Engineering Standards})} adalah kumpulan standar teknis yang diakui secara internasional, nasional, maupun industri yang mengatur praktik re\-ka\-ya\-sa pe\-rang\-kat lu\-nak. \textbf{Batasan Realistis (\emph{Realistic Constraints})} adalah kondisi dan keterbatasan nyata yang membatasi ruang solusi sebuah rancangan dan harus dianalisis serta didokumentasikan secara eksplisit.
+
+\section{Daftar Standar Keteknikan}
+Standar dituliskan beserta edisi terkini yang diketahui pada penyusunan dokumen ini; kemutakhiran edisi ditinjau berkala oleh Kepala Laboratorium.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,4.4cm]|X[l,m]|X[0.85,l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headblue,font=\bfseries},column{1}={halign=c}}
+No & Kode / Judul Standar & Cakupan Teknis & Penerapan pada Capstone/Skripsi \\
+1 & ISO/IEC/IEEE 12207:2017 (\emph{Software life cycle processes}) & Kerangka proses siklus hidup perangkat lunak. & Perencanaan, pelaksanaan, dan pemeliharaan produk capstone; konteks penelitian BAB I--VII skripsi. \\
+2 & ISO/IEC/IEEE 15288:2023 (\emph{System life cycle processes}) & Proses siklus hidup sistem. & Rekayasa kebutuhan dan integrasi sistem pada Rekayasa Sistem (RTI256206) dan skripsi bidang sistem terintegrasi. \\
+3 & ISO/IEC/IEEE 29148:2018 (\emph{Requirements engineering}) & Elisitasi, analisis, spesifikasi, validasi kebutuhan; SRS. & Penyusunan SRS/dokumen kebutuhan pada proposal capstone dan BAB IV skripsi. \\
+4 & IEEE 1016-2009 (\emph{Software Design Descriptions}) & Struktur dokumen desain (SDD). & Penyusunan SDD pada tahap desain capstone dan BAB IV skripsi. \\
+5 & ISO/IEC/IEEE 42010:2022 (\emph{Architecture description}) & Deskripsi arsitektur: pemangku kepentingan dan \emph{viewpoint}. & Dokumentasi arsitektur pada SDD capstone; deskripsi arsitektur enterprise pada Rekayasa Sistem (RTI256206). \\
+6 & ISO/IEC 25010:2023 (\emph{SQuaRE, Product quality model}) & Sembilan karakteristik mutu produk perangkat lunak. & Kriteria mutu produk capstone (seminar hasil produk); pengujian dan pembahasan BAB VI skripsi. \\
+7 & ISO/IEC 5055:2021 (\emph{Automated source code quality measures}) & Pengukuran mutu struktural kode. & Audit mutu kode pada tahap konstruksi/sprint capstone dan implementasi BAB V skripsi. \\
+8 & ISO/IEC/IEEE 29119, Bagian 1:2022; 2--4:2021 (\emph{Software testing}) & Konsep, proses, dokumentasi, dan teknik pengujian. & Rancangan skenario dan pelaksanaan pengujian (BAB VI skripsi; sprint QA dan UAT capstone). \\
+9 & ISO/IEC/IEEE 90003:2018 (\emph{Application of ISO 9001 to software}) & Manajemen mutu pada pengembangan perangkat lunak. & Manajemen mutu proses capstone; dokumentasi proses pengembangan dan bimbingan. \\
+10 & IEEE 828-2012 (\emph{Configuration management}) & Manajemen konfigurasi dan pengendalian versi. & Manajemen repositori capstone/skripsi: \emph{branching strategy}, \emph{changelog}, dan pengendalian perubahan. \\
+11 & ISO/IEC 14764:2022 (\emph{Software maintenance}) & Proses pemeliharaan perangkat lunak. & Perencanaan pemeliharaan dan dokumentasi \emph{deployment} produk pasca-seminar hasil capstone. \\
+12 & OWASP ASVS 4.0 \& OWASP Top 10:2021 & Verifikasi keamanan aplikasi dan mitigasi kerentanan. & Pengujian keamanan aplikasi web pada sprint QA capstone dan BAB VI skripsi yang melibatkan aplikasi web. \\
+13 & W3C WCAG 2.2 (\emph{Web Content Accessibility Guidelines}) & Aksesibilitas antarmuka dan konten web. & Evaluasi aksesibilitas antarmuka produk capstone/skripsi yang berbasis web. \\
+14 & \emph{Guide to SWEBOK} (IEEE Computer Society) & Badan pengetahuan rekayasa perangkat lunak. & Rujukan metodologi penelitian dan pengembangan untuk seluruh tahap skripsi; landasan teoritis capstone. \\
+15 & \emph{Semantic Versioning} 2.0.0 \& \emph{Conventional Commits} 1.0.0 & Konvensi penomoran versi dan pesan \emph{commit}. & Manajemen repositori capstone/skripsi: konvensi tag rilis dan \emph{commit history} yang terlacak. \\
+\end{tblr}
+
+\section{Batasan Realistis}
+Setiap capstone project dan skripsi wajib mempertimbangkan dan mendokumentasikan secara eksplisit dalam laporan/naskah batasan berikut sepanjang relevan dengan konteks rancangan.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,3.4cm]|X[l,m]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headgreen,font=\bfseries},column{1}={halign=c}}
+No & Kategori & Deskripsi dalam Konteks Rekayasa PL & Contoh Penerapan pada Capstone/Skripsi \\
+1 & Ekonomi & Anggaran proyek, biaya lisensi, TCO, dan nilai manfaat (ROI). & Pemilihan pustaka sumber terbuka; estimasi \emph{effort} dan biaya hosting sesuai anggaran capstone. \\
+2 & Lingkungan \& Keberlanjutan & Efisiensi komputasi, konsumsi energi, dan \emph{green software}. & Optimasi algoritma/kueri; pemilihan layanan cloud hemat energi; dokumentasi jejak karbon sistem. \\
+3 & Sosial \& Budaya & Dampak pada pengguna, inklusivitas, dan pelokalan bahasa. & Dukungan multibahasa; desain untuk ragam tingkat literasi digital pengguna sasaran. \\
+4 & Etika & Privasi data, kekayaan intelektual, kepatuhan lisensi, dan integritas akademik. & Kepatuhan lisensi pustaka; data uji yang tidak melanggar privasi; orisinalitas karya ilmiah. \\
+5 & Kesehatan \& Keselamatan & Ergonomi antarmuka, keandalan sistem, dan keamanan pengguna. & Validasi dan sanitasi masukan; penanganan kesalahan yang informatif; aksesibilitas (WCAG 2.2). \\
+6 & Hukum \& Regulasi & UU No.~27 Tahun 2022 (Pelindungan Data Pribadi), UU ITE, dan hak cipta. & Mekanisme persetujuan (\emph{consent}) pengguna; minimalisasi pengumpulan data pribadi. \\
+7 & Keterpeliharaan Operasional & Kemudahan pemeliharaan, dokumentasi, dan \emph{technical debt}. & Arsitektur modular; dokumentasi SDD dan API; pengujian otomatis sebagai jaring pengaman. \\
+8 & Kemudahan Penerapan (\emph{Deployability}) & Kemudahan \emph{build}, portabilitas lintas platform, dan \emph{pipeline} CI/CD. & Kontainerisasi (Docker); \emph{pipeline} CI/CD otomatis; dokumentasi prosedur \emph{deployment}. \\
+\end{tblr}
+
+\section{Integrasi ke Capstone dan Skripsi}
+Dosen pembimbing mengarahkan mahasiswa untuk memetakan standar dan batasan yang relevan ke dalam keputusan rancangan yang didokumentasikan dalam laporan skripsi. \textbf{Mahasiswa wajib menyatakan secara eksplisit dalam laporan}: (1) standar keteknikan yang diacu beserta pasal/klausul yang relevan, dan (2) analisis batasan realistis yang memengaruhi keputusan rancangan. Pada sidang/seminar hasil, dosen penguji akan memverifikasi pemenuhan standar dan ketepatan analisis batasan tersebut.
+
+% ===========================================================================
+\chapter{Tata Tertib Laboratorium}
+\label{chap:tatib}
+% ===========================================================================
+
+\begin{enumerate}
+\item Setiap mahasiswa bimbingan/peserta capstone wajib mematuhi peraturan akademik yang berlaku di Politeknik Negeri Malang.
+\item Menjunjung tinggi etika dan integritas akademik selama seluruh kegiatan capstone dan skripsi.
+\item Menjaga kebersihan, kerapian, dan ketertiban ruang laboratorium.
+\item Dilarang membawa atau menggunakan benda berbahaya di dalam laboratorium.
+\item Dilarang melakukan tindakan yang merusak, tidak pantas, atau melanggar norma.
+\item Dilarang membawa serta menyantap makanan dan/atau minuman di ruang laboratorium.
+\item Bertanggung jawab atas peralatan yang digunakan dan mengganti kerusakan yang diakibatkan kelalaian.
+\item Mahasiswa yang tidak terdaftar dalam kegiatan capstone/skripsi tidak diperbolehkan menggunakan fasilitas laboratorium tanpa izin.
+\item Sesi bimbingan yang terlambat lebih dari 15 menit tanpa pemberitahuan dianggap batal dan perlu dijadwalkan ulang.
+\item Dilarang memasang perangkat lunak ilegal/tanpa lisensi serta mengubah konfigurasi sistem, jaringan, atau kredensial tanpa izin.
+\item Menjaga kerahasiaan akun dan menyimpan (\emph{backup}) hasil pekerjaan pada media pribadi dan repositori; data pada komputer laboratorium dapat dihapus sewaktu-waktu.
+\item Pelanggaran tata tertib dapat mengakibatkan penangguhan hak penggunaan laboratorium dan dikenai sanksi akademik sesuai ketentuan yang berlaku.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Keselamatan dan Kesehatan Kerja (K3)}
+% ===========================================================================
+
+\section{Keselamatan Ruang}
+Setiap ruang laboratorium dilengkapi dan dijaga dengan:
+\begin{itemize}
+\item Alat Pemadam Api Ringan (APAR) yang mudah dijangkau dan diperiksa berkala.
+\item Panel/pemutus daya listrik (MCB) serta pembumian (\emph{grounding}) yang memadai.
+\item Pendingin dan ventilasi ruangan yang berfungsi baik.
+\item Jalur evakuasi dan penerangan darurat yang tidak terhalang.
+\end{itemize}
+
+\section{Keselamatan Peralatan}
+\begin{itemize}
+\item Merapikan kabel daya dan jaringan agar tidak membahayakan pengguna.
+\item Menghindari beban listrik berlebih pada satu titik stopkontak.
+\item Mematikan perangkat sesuai prosedur untuk mencegah kerusakan.
+\item Melaporkan kerusakan perangkat kepada teknisi/laboran.
+\end{itemize}
+
+\section{Kesehatan dan Ergonomi}
+\begin{itemize}
+\item Mengatur posisi duduk, jarak pandang layar, dan pencahayaan yang ergonomis selama kegiatan laboratorium.
+\item Melakukan istirahat mata secara berkala (misalnya kaidah 20--20--20) pada sesi bimbingan atau pengembangan yang panjang.
+\end{itemize}
+
+\section{Prosedur Penggunaan Ruang Laboratorium}
+\begin{enumerate}
+\item \textbf{Pra-kegiatan:} membuka ruang; menyalakan pendingin ruangan; menghidupkan panel daya; menghidupkan perangkat yang diperlukan.
+\item \textbf{Memulai kegiatan:} menyalakan CPU, monitor, dan proyektor sesuai kebutuhan bimbingan/pengembangan.
+\item \textbf{Mengakhiri kegiatan:} menyimpan seluruh pekerjaan ke repositori; mematikan CPU, monitor, dan proyektor.
+\item \textbf{Pasca-kegiatan:} mematikan pendingin ruangan; mematikan panel daya; merapikan dan mengunci ruang.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Kerjasama}
+% ===========================================================================
+
+Dalam menjalankan program kerjanya, Laboratorium \emph{Software Engineering} menjalin kerja sama dengan unit di lingkungan POLINEMA maupun institusi, lembaga, dan mitra industri di luar kampus, untuk mendukung penyelenggaraan capstone project dan skripsi di bidang rekayasa perangkat lunak, antara lain:
+\begin{itemize}
+\item \textbf{Sumber masalah industri:} mitra menyediakan problem statement nyata sebagai tema capstone mahasiswa jalur magang/industri.
+\item \textbf{Co-pembimbing praktisi:} praktisi industri bertindak sebagai mentor industri yang membimbing aspek kelayakan teknis dan bisnis produk capstone.
+\item \textbf{Capstone bersama (\emph{joint capstone}):} pengembangan produk capstone yang menjawab kebutuhan nyata mitra, termasuk kemungkinan penerapan (\emph{deployment}) di lingkungan mitra.
+\item \textbf{Sertifikasi kompetensi:} kerja sama dengan lembaga sertifikasi industri untuk memperkuat kompetensi teknis mahasiswa capstone/skripsi di bidang rekayasa perangkat lunak.
+\item \textbf{Penelitian terapan:} kolaborasi riset terapan antara laboratorium dan mitra untuk menghasilkan inovasi berbasis produk/layanan rekayasa perangkat lunak.
+\end{itemize}
+
+% ===========================================================================
+\chapter*{Lembar Pengesahan}
+\addcontentsline{toc}{chapter}{Lembar Pengesahan}
+% ===========================================================================
+
+\vspace{1cm}
+
+\begin{tblr}{width=\textwidth,colspec={X[c,m]X[c,m]},rowsep=3pt,colsep=3pt}
+Malang, \underline{\hspace{3.5cm}} & \\[4pt]
+Kepala Laboratorium & Mengesahkan, \\
+\emph{Software Engineering} & Ketua Program Studi D4 Teknik Informatika \\[28mm]
+\underline{\hspace{5.5cm}} & \underline{\hspace{5.5cm}} \\
+\textbf{\LabKoor} & \\
+NIP. \underline{\hspace{4.5cm}} & NIP. \underline{\hspace{4.5cm}} \\
+\end{tblr}
+
+\end{document}

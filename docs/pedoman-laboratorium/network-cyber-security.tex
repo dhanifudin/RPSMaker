@@ -1,0 +1,305 @@
+% Pedoman Laboratorium Network and Cyber Security
+% Compile with xelatex from docs/pedoman-laboratorium/ directory.
+\documentclass[12pt,a4paper]{report}
+
+\newcommand{\LabName}{Network and Cyber Security}
+\newcommand{\LabKoor}{Erfan Rohadi, ST., M.Eng., Ph.D.}
+
+\input{preamble}
+
+\begin{document}
+
+\pagenumbering{roman}
+\PedomanCover
+
+\clearpage
+\tableofcontents
+
+\clearpage
+\pagenumbering{arabic}
+
+% ===========================================================================
+\chapter{Pendahuluan}
+% ===========================================================================
+
+Laboratorium \emph{Network and Cyber Security} merupakan unit penunjang teknis pada Program Studi D4 Teknik Informatika, Jurusan Teknologi Informasi, Politeknik Negeri Malang (POLINEMA). Laboratorium menyelenggarakan kegiatan praktikum, penelitian terapan, dan pengabdian masyarakat di bidang jaringan komputer dan keamanan siber.
+
+Buku pedoman ini disusun sebagai acuan penyelenggaraan seluruh kegiatan di dalam laboratorium: struktur pengelola, penyelenggaraan praktikum, prosedur dan evaluasi, tugas instruktur, tata tertib, serta keselamatan dan kesehatan kerja. Buku ini juga memuat \textbf{Standar Keteknikan} dan \textbf{Batasan Realistis} yang menjadi rujukan dalam kegiatan rekayasa jaringan dan keamanan siber, selaras dengan kriteria akreditasi keinsinyuran (IABEE/ABET).
+
+\section{Dasar}
+\begin{enumerate}
+\item Statuta dan Organisasi Tata Kerja Politeknik Negeri Malang.
+\item Buku Pedoman Akademik Jurusan Teknologi Informasi yang diterbitkan setiap tahun akademik.
+\item Kurikulum 2025 Program Studi D4 Teknik Informatika beserta Rencana Pembelajaran Semester (RPS) mata kuliah binaan.
+\item Kriteria akreditasi program studi bidang keinsinyuran/komputasi (IABEE/ABET) terkait penerapan standar keteknikan dan batasan realistis.
+\end{enumerate}
+
+\section{Tujuan Pedoman}
+\begin{enumerate}
+\item Menjadi acuan tata kelola dan operasional Laboratorium \emph{Network and Cyber Security}.
+\item Menjamin penyelenggaraan praktikum yang tertib, aman, dan terstandar.
+\item Menetapkan standar keteknikan dan batasan realistis yang wajib dipertimbangkan dalam kegiatan rekayasa jaringan dan keamanan siber.
+\end{enumerate}
+
+\section{Visi Program Studi}
+Menjadi program studi yang unggul dalam bidang rekayasa perangkat lunak baik di tingkat nasional maupun internasional.
+
+\section{Misi Program Studi}
+\begin{enumerate}
+\item Melaksanakan pendidikan vokasi yang inovatif berdasarkan pada sistem pendidikan terapan dengan memanfaatkan kemajuan teknologi, sehingga mampu menghasilkan lulusan yang memiliki kompetensi di bidang rekayasa perangkat lunak dan siap bersaing di tingkat nasional dan global.
+\item Melaksanakan penelitian terapan berbasis produk dan jasa bidang rekayasa perangkat lunak.
+\item Melaksanakan pengabdian masyarakat dengan menggunakan kemajuan rekayasa perangkat lunak untuk meningkatkan kesejahteraan.
+\item Mewujudkan kerja sama yang saling menguntungkan dengan berbagai pihak baik di dalam maupun di luar negeri pada bidang rekayasa perangkat lunak.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Struktur Organisasi Laboratorium}
+% ===========================================================================
+
+Pengelolaan laboratorium berada dalam garis koordinasi Program Studi dan Jurusan, dengan alur tanggung jawab: \textbf{Ketua Jurusan Teknologi Informasi} $\rightarrow$ \textbf{Ketua Program Studi D4 Teknik Informatika} $\rightarrow$ \textbf{Kepala Laboratorium} $\rightarrow$ \textbf{Teknisi/Laboran} dan \textbf{Instruktur/Asisten Praktikum}, dengan \textbf{Dosen Pengampu} sebagai penanggung jawab akademik tiap mata kuliah.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.4cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headblue,font=\bfseries},column{1}={bg=headgray,font=\bfseries}}
+Peran & Tugas dan Tanggung Jawab \\
+Ketua Program Studi & Penanggung jawab kebijakan laboratorium; mengesahkan pedoman dan program kerja; mengalokasikan sumber daya. \\
+Kepala Laboratorium & Mengelola operasional laboratorium; menyusun jadwal penggunaan dan praktikum; mengoordinasikan dosen pengampu dan instruktur; mengelola inventaris; menyusun serta meninjau pedoman secara berkala. \\
+Teknisi / Laboran & Menyiapkan perangkat keras jaringan (switch, router, server, kabel) dan perangkat lunak; memelihara topologi jaringan praktikum; menjaga keamanan dan kesiapan ruang. \\
+Instruktur / Asisten Praktikum & Membimbing pelaksanaan praktikum; menyiapkan modul/\emph{jobsheet}; melakukan penilaian; menegakkan tata tertib. \\
+Dosen Pengampu & Menyusun RPS dan modul; melaksanakan pembelajaran praktikum; mengintegrasikan standar keteknikan dan batasan realistis ke dalam capaian pembelajaran dan rubrik. \\
+\end{tblr}
+
+\medskip
+Kepala Laboratorium \emph{Network and Cyber Security} saat ini dijabat oleh \textbf{\LabKoor}\SentencePeriod{\LabKoor}
+
+% ===========================================================================
+\chapter{Sasaran dan Ruang Lingkup}
+% ===========================================================================
+
+\textbf{Sasaran.} Meningkatkan kompetensi dan keterampilan mahasiswa dalam merancang, mengimplementasikan, dan mengamankan infrastruktur jaringan komputer sesuai standar internasional dan kebutuhan industri.
+
+\textbf{Ruang lingkup keilmuan.} Arsitektur dan administrasi sistem operasi, perancangan dan konfigurasi jaringan komputer (LAN/WAN/VLAN/routing/switching), keamanan jaringan dan siber, serta pengembangan dan pengelolaan perangkat \emph{Internet of Things} (IoT).
+
+% ===========================================================================
+\chapter{Penyelenggaraan Praktikum}
+% ===========================================================================
+
+Kegiatan praktikum diatur oleh Koordinator Laboratorium mengikuti kalender akademik Jurusan Teknologi Informasi.
+
+\section{Tujuan}
+Mahasiswa mampu mengonfigurasi, mengelola, dan mengamankan infrastruktur jaringan serta sistem operasi, serta mampu merancang solusi IoT yang memperhatikan aspek keamanan dan keandalan.
+
+\section{Syarat Mengikuti Praktikum}
+\begin{enumerate}
+\item Terdaftar secara sah pada mata kuliah binaan pada semester berjalan (dibuktikan dengan KRS).
+\item Telah/sedang menempuh mata kuliah prasyarat yang ditentukan pada RPS.
+\item Mematuhi tata tertib laboratorium (Bab~\ref{chap:tatib}).
+\end{enumerate}
+
+\section{Kompetensi yang Dikembangkan}
+\begin{itemize}
+\item Administrasi sistem operasi berbasis teks (CLI) dan grafis (GUI).
+\item Konfigurasi perangkat jaringan: router, switch, firewall, dan protokol routing.
+\item Analisis dan mitigasi kerentanan keamanan jaringan.
+\item Perancangan dan implementasi solusi IoT dengan mempertimbangkan aspek keamanan.
+\end{itemize}
+
+\section{Materi/Lingkup Praktikum}
+Materi praktikum tiap mata kuliah mengacu pada RPS dan modul/\emph{jobsheet} masing-masing, mencakup administrasi sistem operasi, konfigurasi jaringan, pengujian keamanan, pengembangan prototipe IoT, serta penerapan standar keteknikan dan batasan realistis (Bab~\ref{chap:standar}).
+
+% ===========================================================================
+\chapter{Prosedur dan Evaluasi Praktikum}
+% ===========================================================================
+
+\section{Prosedur Praktikum}
+\begin{enumerate}
+\item Kegiatan praktikum dilaksanakan sesuai jadwal yang ditetapkan.
+\item Perubahan jadwal hanya diizinkan apabila berbenturan dengan jadwal kuliah lain dan dibuktikan dengan KRS.
+\item Persentase kehadiran minimal mengikuti ketentuan RPS/akademik yang berlaku.
+\item Peminjaman perangkat/ruang di luar jadwal dilakukan melalui persetujuan Koordinator Laboratorium/Laboran dan tercatat pada buku/log peminjaman.
+\item Mahasiswa wajib mengikuti evaluasi yang diselenggarakan pada mata kuliah praktikum.
+\item Hasil evaluasi diserahkan ke bagian akademik untuk diproses sebagai nilai mata kuliah.
+\end{enumerate}
+
+\section{Evaluasi}
+Komponen dan bobot penilaian mengacu pada RPS dan Rubrik (Rencana Penilaian) tiap mata kuliah. Kerangka umum komponen penilaian praktikum:
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,5.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headgreen,font=\bfseries}}
+Komponen & Cakupan \\
+Kehadiran dan keaktifan & Partisipasi pada sesi praktikum terjadwal. \\
+Tugas/\emph{Jobsheet} & Penyelesaian latihan dan konfigurasi tiap pertemuan. \\
+Ujian Tengah Semester (UTS) & Uji kompetensi paruh pertama (praktik dan/atau tulis). \\
+Ujian Akhir Semester (UAS)/Proyek & Uji kompetensi akhir atau proyek jaringan/keamanan siber. \\
+\end{tblr}
+
+Bobot pasti tiap komponen ditetapkan pada RPS/Rubrik mata kuliah yang bersangkutan.
+
+% ===========================================================================
+\chapter{RPS dan Modul Praktikum}
+% ===========================================================================
+
+RPS dan modul/\emph{jobsheet} untuk setiap mata kuliah yang dipraktikkan tersedia pada laboratorium dan mengacu pada Kurikulum 2025 Program Studi D4 Teknik Informatika. Dokumen RPS dan Rubrik dimuat pada Lampiran B dan Lampiran C Buku Kurikulum.
+
+% ===========================================================================
+\chapter{Instruktur dan Asisten Praktikum}
+% ===========================================================================
+
+\section{Definisi}
+Instruktur/asisten praktikum adalah dosen, praktisi, atau mahasiswa senior yang berdasarkan keahliannya ditugaskan untuk membantu dosen pengampu dalam membimbing mahasiswa di laboratorium.
+
+\section{Persyaratan}
+\begin{enumerate}
+\item Memiliki kemampuan membimbing praktikum sesuai bidang keahlian jaringan komputer dan keamanan siber.
+\item Memiliki tanggung jawab serta menjunjung moral dan etika.
+\item Bagi asisten berstatus mahasiswa: telah lulus mata kuliah terkait dengan nilai baik dan memenuhi indeks prestasi minimal yang ditetapkan program studi.
+\item Lulus proses seleksi dan memperoleh surat tugas.
+\end{enumerate}
+
+\section{Tugas Teknis dan Administrasi}
+\begin{enumerate}
+\item Memulai dan mengakhiri praktikum tepat waktu.
+\item Menyiapkan perangkat dan materi sebelum praktikum.
+\item Menyampaikan materi sesuai RPS/modul.
+\item Mengisi daftar hadir dan menolak mahasiswa yang terlambat lebih dari 15 menit.
+\item Menciptakan suasana praktikum yang kondusif.
+\item Menginformasikan kepada staf laboratorium paling lambat 1 (satu) hari sebelumnya apabila berhalangan hadir.
+\item Menyerahkan nilai praktikum paling lama 14 (empat belas) hari kerja setelah kegiatan berakhir.
+\end{enumerate}
+
+\section{Hak}
+\begin{enumerate}
+\item Memperoleh honorarium sesuai ketentuan yang berlaku.
+\item Menggunakan fasilitas laboratorium dalam melaksanakan tugas.
+\end{enumerate}
+
+\section{Kode Etik}
+\begin{enumerate}
+\item Melaksanakan visi, misi, dan tujuan program studi dengan sebaik-baiknya.
+\item Menaati ketentuan yang berkaitan dengan tugasnya secara penuh kesadaran dan tanggung jawab.
+\item Meningkatkan kualitas profesional sesuai perkembangan ilmu dan teknologi.
+\item Menghindari perbuatan yang bertentangan dengan hukum maupun norma, serta menjadi teladan dalam disiplin dan perilaku.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Standar Keteknikan dan Batasan Realistis}
+\label{chap:standar}
+% ===========================================================================
+
+Bagian ini menjadi rujukan bagi mahasiswa dan dosen dalam kegiatan rekayasa jaringan dan keamanan siber, khususnya pada mata kuliah proyek, tugas besar, dan skripsi, sehingga karya rancang tidak hanya benar secara teknis tetapi juga layak diterapkan.
+
+\section{Definisi}
+\textbf{Standar Keteknikan (\emph{Engineering Standards})} adalah kumpulan standar teknis yang diakui secara internasional, nasional, maupun industri yang mengatur praktik rekayasa jaringan dan keamanan siber. \textbf{Batasan Realistis (\emph{Realistic Constraints})} adalah kondisi dan keterbatasan nyata yang membatasi ruang solusi sebuah rancangan.
+
+\section{Daftar Standar Keteknikan}
+Standar dituliskan beserta edisi terkini yang diketahui pada penyusunan dokumen ini; kemutakhiran edisi ditinjau berkala oleh Koordinator Laboratorium.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,4.4cm]|X[l,m]|X[0.85,l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headblue,font=\bfseries},column{1}={halign=c}}
+No & Kode / Judul Standar & Cakupan Teknis & Penerapan pada MK \\
+1 & ISO/IEC 27001:2022 --- \emph{Information security management systems} & Sistem manajemen keamanan informasi (SMKI): persyaratan. & Adm. \& Keamanan Jaringan. \\
+2 & ISO/IEC 27002:2022 --- \emph{Information security controls} & Panduan kontrol keamanan informasi. & Adm. \& Keamanan Jaringan. \\
+3 & NIST SP 800-53 Rev.~5 --- \emph{Security and Privacy Controls} & Katalog kontrol keamanan dan privasi sistem informasi federal. & Adm. \& Keamanan Jaringan. \\
+4 & NIST Cybersecurity Framework (CSF) 2.0 & Kerangka identifikasi, proteksi, deteksi, respons, dan pemulihan. & Adm. \& Keamanan Jaringan. \\
+5 & IEEE 802.3 (Ethernet) \& IEEE 802.11 (Wi-Fi) & Standar jaringan area lokal berkabel dan nirkabel. & Jaringan Komputer; Praktikum JK. \\
+6 & IETF RFC~791 (IPv4), RFC~8200 (IPv6), RFC~4271 (BGP), RFC~2328 (OSPF) & Protokol jaringan inti: IP, routing. & Jaringan Komputer; Praktikum JK. \\
+7 & OWASP Top 10:2021 \& OWASP IoT Top 10:2018 & Kerentanan aplikasi web dan IoT teratas beserta mitigasinya. & Adm. \& Keamanan Jaringan; IoT. \\
+8 & ISO/IEC 27400:2022 --- \emph{IoT security and privacy} & Panduan keamanan dan privasi ekosistem IoT. & Internet of Things. \\
+9 & NIST SP 800-190 --- \emph{Application container security} & Keamanan kontainer aplikasi (Docker, Kubernetes). & Sistem Operasi; Adm. Jaringan. \\
+10 & IEEE 802.15.4 \& protokol IoT (MQTT, CoAP, Zigbee) & Standar komunikasi nirkabel jarak pendek dan protokol pesan IoT. & Internet of Things. \\
+11 & ISO/IEC 27701:2019 --- \emph{Privacy information management} & Ekstensi ISO 27001 untuk perlindungan data pribadi. & Adm. \& Keamanan Jaringan. \\
+12 & CIS Controls v8 (\emph{Center for Internet Security}) & 18 kontrol keamanan siber terprioritas. & Adm. \& Keamanan Jaringan. \\
+\end{tblr}
+
+\section{Batasan Realistis}
+Setiap rancangan jaringan dan sistem keamanan pada mata kuliah proyek dan tugas besar wajib mempertimbangkan---dan mendokumentasikan---batasan berikut sepanjang relevan.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,3.4cm]|X[l,m]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headgreen,font=\bfseries},column{1}={halign=c}}
+No & Kategori & Deskripsi dalam Konteks Jaringan \& Keamanan Siber & Contoh Penerapan \\
+1 & Ekonomi & Biaya lisensi perangkat, TCO infrastruktur, dan biaya insiden siber. & Pemilihan solusi \emph{open-source} (pfSense, Snort) vs. komersial. \\
+2 & Lingkungan \& Keberlanjutan & Konsumsi daya perangkat jaringan dan jejak karbon pusat data. & Pemilihan perangkat bersertifikat Energy Star; virtualisasi server. \\
+3 & Sosial \& Budaya & Dampak gangguan layanan terhadap pengguna dan masyarakat. & Perencanaan \emph{disaster recovery}; komunikasi insiden. \\
+4 & Etika & Etika \emph{ethical hacking}; privasi pengumpulan log/paket. & Hanya melakukan uji penetrasi pada sistem dengan izin tertulis. \\
+5 & Kesehatan \& Keselamatan & Bahaya tegangan listrik pada perangkat aktif; ergonomi kabel. & Pemasangan kabel sesuai standar; labelisasi port dan konektor. \\
+6 & Hukum \& Regulasi & UU No.~27/2022 (PDP), UU ITE, GDPR (bila lintas negara). & Mekanisme perlindungan data pribadi pada log jaringan. \\
+7 & Keterpeliharaan Operasional & Kemudahan manajemen konfigurasi jangka panjang. & Dokumentasi topologi; \emph{version control} konfigurasi perangkat. \\
+8 & Kemudahan Penerapan & Portabilitas konfigurasi; otomasi \emph{provisioning}. & Ansible/Terraform untuk otomasi konfigurasi jaringan. \\
+\end{tblr}
+
+\section{Integrasi ke Pembelajaran}
+Dosen pengampu memetakan standar dan batasan yang relevan ke Sub-CPMK, indikator penilaian, dan rubrik pada RPS masing-masing mata kuliah binaan. Pada mata kuliah proyek/tugas besar dan skripsi, mahasiswa wajib menyatakan secara eksplisit standar keteknikan yang diacu serta analisis batasan realistis yang memengaruhi keputusan rancangan.
+
+% ===========================================================================
+\chapter{Tata Tertib Laboratorium}
+\label{chap:tatib}
+% ===========================================================================
+
+\begin{enumerate}
+\item Setiap mahasiswa wajib mematuhi peraturan akademik yang berlaku di Politeknik Negeri Malang.
+\item Menjunjung tinggi etika selama kegiatan praktikum.
+\item Menjaga kebersihan, kerapian, dan ketertiban ruang laboratorium.
+\item Dilarang membawa atau menggunakan benda berbahaya di dalam laboratorium.
+\item Dilarang melakukan tindakan yang merusak, tidak pantas, atau melanggar norma.
+\item Dilarang membawa serta menyantap makanan dan/atau minuman di ruang laboratorium.
+\item Bertanggung jawab atas peralatan yang digunakan dan mengganti kerusakan yang diakibatkan kelalaian.
+\item Mahasiswa yang tidak terdaftar tidak diperbolehkan mengikuti praktikum.
+\item Mahasiswa yang terlambat lebih dari 15 menit dianggap tidak hadir.
+\item Dilarang memasang perangkat lunak ilegal/tanpa lisensi serta mengubah konfigurasi sistem, jaringan, atau kredensial tanpa izin.
+\item Dilarang melakukan percobaan serangan siber, \emph{sniffing}, atau eksploitasi di luar lingkungan praktikum yang telah disediakan.
+\item Pelanggaran tata tertib mengakibatkan peserta dikeluarkan dari ruang laboratorium dan dianggap tidak hadir, serta dapat dikenai sanksi akademik sesuai ketentuan.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Keselamatan dan Kesehatan Kerja (K3)}
+% ===========================================================================
+
+\section{Keselamatan Ruang}
+Setiap ruang laboratorium dilengkapi dan dijaga dengan:
+\begin{itemize}
+\item Alat Pemadam Api Ringan (APAR) yang mudah dijangkau dan diperiksa berkala.
+\item Panel/pemutus daya listrik (MCB) serta pembumian (\emph{grounding}) yang memadai.
+\item Pendingin dan ventilasi ruangan yang berfungsi baik (penting untuk umur perangkat aktif jaringan).
+\item Jalur evakuasi dan penerangan darurat yang tidak terhalang.
+\end{itemize}
+
+\section{Keselamatan Peralatan}
+\begin{itemize}
+\item Merapikan kabel UTP/STP dan kabel daya agar tidak membahayakan pengguna.
+\item Menghindari beban listrik berlebih pada satu titik stopkontak.
+\item Mematikan perangkat aktif (switch, router) sesuai prosedur untuk mencegah kerusakan.
+\item Melaporkan kerusakan perangkat kepada teknisi/laboran.
+\end{itemize}
+
+\section{Kesehatan dan Ergonomi}
+\begin{itemize}
+\item Mengatur posisi duduk, jarak pandang layar, dan pencahayaan yang ergonomis.
+\item Melakukan istirahat mata secara berkala (misalnya kaidah 20--20--20) pada sesi praktikum yang panjang.
+\end{itemize}
+
+\section{Prosedur Penggunaan Perangkat}
+\begin{enumerate}
+\item \textbf{Pra-praktikum:} membuka ruang; menyalakan pendingin ruangan; menghidupkan panel daya; menghidupkan perangkat aktif jaringan dan server sesuai urutan (\emph{power-on sequence}).
+\item \textbf{Memulai praktikum:} menyalakan komputer klien; verifikasi konektivitas jaringan.
+\item \textbf{Mengakhiri praktikum:} menyimpan konfigurasi; mematikan komputer klien.
+\item \textbf{Pasca-praktikum:} mematikan perangkat aktif sesuai urutan (\emph{power-off sequence}); merapikan kabel; mematikan pendingin ruangan; mematikan panel daya; merapikan dan mengunci ruang.
+\end{enumerate}
+
+% ===========================================================================
+\chapter{Kerjasama}
+% ===========================================================================
+
+Laboratorium dapat menjalin kerja sama dengan mitra industri di bidang jaringan dan keamanan siber, antara lain untuk program \emph{Cisco Networking Academy}, sertifikasi industri (CompTIA, EC-Council, Cisco, Mikrotik), praktisi mengajar, penelitian terapan, dan pengabdian masyarakat di bidang jaringan dan keamanan informasi.
+
+% ===========================================================================
+\chapter*{Lembar Pengesahan}
+\addcontentsline{toc}{chapter}{Lembar Pengesahan}
+% ===========================================================================
+
+\vspace{1cm}
+
+\begin{tblr}{width=\textwidth,colspec={X[c,m]X[c,m]},rowsep=3pt,colsep=3pt}
+Malang, \underline{\hspace{3.5cm}} & \\[4pt]
+Kepala Laboratorium & Mengesahkan, \\
+\emph{Network and Cyber Security} & Ketua Program Studi D4 Teknik Informatika \\[28mm]
+\underline{\hspace{5.5cm}} & \underline{\hspace{5.5cm}} \\
+\textbf{\LabKoor} & \\
+NIP. \underline{\hspace{4.5cm}} & NIP. \underline{\hspace{4.5cm}} \\
+\end{tblr}
+
+\end{document}
