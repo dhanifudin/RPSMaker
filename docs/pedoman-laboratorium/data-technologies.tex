@@ -4,6 +4,7 @@
 
 \newcommand{\LabName}{Data Technologies}
 \newcommand{\LabKoor}{Yoppy Yunhasnawa, S.ST., M.Sc.}
+\newcommand{\LabKoorNIP}{NIP. 19890621 201903 1 013}
 
 \input{preamble}
 
@@ -22,23 +23,23 @@
 \chapter{Pendahuluan}
 % ===========================================================================
 
-Laboratorium \emph{Data Technologies} merupakan unit penunjang teknis pada Program Studi D4 Teknik Informatika, Jurusan Teknologi Informasi, Politeknik Negeri Malang (POLINEMA). Laboratorium menyelenggarakan kegiatan praktikum, penelitian terapan, dan pengabdian masyarakat di bidang teknologi data: basis data, \emph{big data}, dan komputasi awan.
+Laboratorium \emph{Data Technologies} merupakan unit penunjang teknis pada Program Studi D4 Teknik Informatika, Jurusan Teknologi Informasi, Politeknik Negeri Malang (POLINEMA). Laboratorium ini menjadi wahana utama bagi mahasiswa dalam menyelenggarakan \textbf{capstone project (skripsi)} di bidang teknologi data, yaitu kegiatan integratif yang mengakumulasikan seluruh kompetensi akademis menjadi produk nyata dan karya ilmiah berstandar publikasi.
 
-Buku pedoman ini disusun sebagai acuan penyelenggaraan seluruh kegiatan di dalam laboratorium: struktur pengelola, penyelenggaraan praktikum, prosedur dan evaluasi, tugas instruktur, tata tertib, serta keselamatan dan kesehatan kerja. Buku ini juga memuat \textbf{Standar Keteknikan} dan \textbf{Batasan Realistis} yang menjadi rujukan dalam kegiatan rekayasa dan pengelolaan data, selaras dengan kriteria akreditasi keinsinyuran (IABEE/ABET).
+Buku pedoman ini disusun sebagai acuan penyelenggaraan capstone project (skripsi) di laboratorium: struktur pengelola, prosedur dan evaluasi, panduan luaran, tugas pembimbing dan penguji, tata tertib, serta keselamatan dan kesehatan kerja. Buku ini juga memuat \textbf{Standar Keteknikan} dan \textbf{Batasan Realistis} yang wajib dipertimbangkan dalam setiap keputusan rancangan, selaras dengan kriteria akreditasi keinsinyuran (IABEE/ABET).
 
 \section{Dasar}
 \begin{enumerate}
 \item Statuta dan Organisasi Tata Kerja Politeknik Negeri Malang.
 \item Buku Pedoman Akademik Jurusan Teknologi Informasi yang diterbitkan setiap tahun akademik.
-\item Kurikulum 2025 Program Studi D4 Teknik Informatika beserta Rencana Pembelajaran Semester (RPS) mata kuliah binaan.
-\item Kriteria akreditasi program studi bidang keinsinyuran/komputasi (IABEE/ABET) terkait penerapan standar keteknikan dan batasan realistis.
+\item Pedoman Capstone Project dan Pedoman Skripsi D4 Teknik Informatika POLINEMA 2025, beserta RPS mata kuliah capstone dan skripsi yang berlaku.
+\item Kriteria akreditasi program studi bidang keinsinyuran/komputasi (IABEE/ABET) terkait penerapan standar keteknikan dan batasan realistis dalam kegiatan perancangan berbasis \emph{open-ended problem}.
 \end{enumerate}
 
 \section{Tujuan Pedoman}
 \begin{enumerate}
-\item Menjadi acuan tata kelola dan operasional Laboratorium \emph{Data Technologies}.
-\item Menjamin penyelenggaraan praktikum yang tertib, aman, dan terstandar.
-\item Menetapkan standar keteknikan dan batasan realistis yang wajib dipertimbangkan dalam kegiatan rekayasa dan pengelolaan data.
+\item Menjadi acuan tata kelola dan operasional Laboratorium \emph{Data Technologies} dalam penyelenggaraan capstone project dan skripsi.
+\item Menjamin pelaksanaan capstone dan skripsi yang tertib, bermutu, dan terstandar sesuai capaian pembelajaran program studi.
+\item Menetapkan standar keteknikan dan batasan realistis yang wajib dipertimbangkan dalam setiap keputusan rancangan produk capstone dan skripsi.
 \end{enumerate}
 
 \section{Visi Program Studi}
@@ -46,137 +47,198 @@ Menjadi program studi yang unggul dalam bidang rekayasa perangkat lunak baik di 
 
 \section{Misi Program Studi}
 \begin{enumerate}
-\item Melaksanakan pendidikan vokasi yang inovatif berdasarkan pada sistem pendidikan terapan dengan memanfaatkan kemajuan teknologi, sehingga mampu menghasilkan lulusan yang memiliki kompetensi di bidang rekayasa perangkat lunak dan siap bersaing di tingkat nasional dan global.
+\item Melaksanakan pendidikan vokasi yang inovatif berdasarkan pada sistem pendidikan terapan dengan memanfaatkan kemajuan teknologi, sehingga mampu menghasilkan lulusan yang memiliki kompetensi di bidang re\-ka\-ya\-sa pe\-rang\-kat lu\-nak dan siap bersaing di tingkat nasional dan global.
 \item Melaksanakan penelitian terapan berbasis produk dan jasa bidang rekayasa perangkat lunak.
 \item Melaksanakan pengabdian masyarakat dengan menggunakan kemajuan rekayasa perangkat lunak untuk meningkatkan kesejahteraan.
 \item Mewujudkan kerja sama yang saling menguntungkan dengan berbagai pihak baik di dalam maupun di luar negeri pada bidang rekayasa perangkat lunak.
 \end{enumerate}
 
+\section{Sasaran}
+Menghasilkan produk teknologi data (capstone) dan karya ilmiah (skripsi) yang berkualitas, terstandar secara teknis, mempertimbangkan batasan realistis, serta selaras dengan perkembangan ilmu pengetahuan, teknologi, dan kebutuhan industri di bidang basis data, \emph{big data}, dan komputasi awan.
+
+\section{Ruang Lingkup Keilmuan}
+Perancangan dan implementasi basis data relasional dan non-relasional, SQL dan optimasi kueri, basis data lanjut, pemrosesan \emph{big data} (Hadoop, Spark), serta layanan komputasi awan (\emph{cloud computing}).
+
 % ===========================================================================
 \chapter{Struktur Organisasi Laboratorium}
 % ===========================================================================
 
-Pengelolaan laboratorium berada dalam garis koordinasi Program Studi dan Jurusan, dengan alur tanggung jawab: \textbf{Ketua Jurusan Teknologi Informasi} $\rightarrow$ \textbf{Ketua Program Studi D4 Teknik Informatika} $\rightarrow$ \textbf{Kepala Laboratorium} $\rightarrow$ \textbf{Teknisi/Laboran} dan \textbf{Instruktur/Asisten Praktikum}, dengan \textbf{Dosen Pengampu} sebagai penanggung jawab akademik tiap mata kuliah.
+Pengelolaan laboratorium berada dalam garis koordinasi Program Studi dan Jurusan, dengan alur tanggung jawab sebagaimana divisualisasikan berikut.
+
+\OrgChart
 
 \begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.4cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headblue,font=\bfseries},column{1}={bg=headgray,font=\bfseries}}
 Peran & Tugas dan Tanggung Jawab \\
-Ketua Program Studi & Penanggung jawab kebijakan laboratorium; mengesahkan pedoman dan program kerja; mengalokasikan sumber daya. \\
-Kepala Laboratorium & Mengelola operasional laboratorium; menyusun jadwal penggunaan dan praktikum; mengoordinasikan dosen pengampu dan instruktur; mengelola inventaris; menyusun serta meninjau pedoman secara berkala. \\
-Teknisi / Laboran & Menyiapkan server basis data, \emph{cluster big data}, dan akses \emph{cloud}; melakukan pemeliharaan dan inventarisasi; menjaga keamanan dan kesiapan ruang. \\
-Instruktur / Asisten Praktikum & Membimbing pelaksanaan praktikum; menyiapkan modul/\emph{jobsheet}; melakukan penilaian; menegakkan tata tertib. \\
-Dosen Pengampu & Menyusun RPS dan modul; melaksanakan pembelajaran praktikum; mengintegrasikan standar keteknikan dan batasan realistis ke dalam capaian pembelajaran dan rubrik. \\
+Ketua Program Studi & Penanggung jawab kebijakan laboratorium; mengesahkan pedoman capstone dan skripsi; mengalokasikan sumber daya; menetapkan dosen pembimbing dan penguji. \\
+Kepala Laboratorium & Mengelola operasional laboratorium; mengoordinasikan penugasan pembimbing dan penguji; mengelola inventaris; menyusun serta meninjau pedoman secara berkala; memantau kemajuan capstone mahasiswa bimbingan. \\
+Teknisi / Laboran & Menyiapkan perangkat keras dan perangkat lunak; melakukan pemeliharaan dan inventarisasi; memberikan dukungan teknis; menjaga keamanan dan kesiapan ruang bagi kegiatan capstone dan skripsi. \\
+Dosen Pembimbing & Membimbing mahasiswa dalam proses perencanaan, pelaksanaan, dan penulisan capstone/skripsi; mengevaluasi kemajuan; mengesahkan naskah/produk untuk sidang. \\
+Dosen Penguji & Mengevaluasi dan menguji naskah/produk capstone atau skripsi pada Sidang/Seminar Hasil Produk Akhir; memberikan penilaian dan masukan perbaikan. \\
+Mentor Industri / Asisten Capstone & Memberikan bimbingan teknis konteks industri; membantu validasi kebutuhan produk; mendampingi sprint pada jalur capstone magang/industri. \\
 \end{tblr}
 
-\medskip
-Kepala Laboratorium \emph{Data Technologies} saat ini dijabat oleh \textbf{\LabKoor}\SentencePeriod{\LabKoor}
 
 % ===========================================================================
-\chapter{Sasaran dan Ruang Lingkup}
+\chapter{Penyelenggaraan Capstone Project}
 % ===========================================================================
 
-\textbf{Sasaran.} Meningkatkan kompetensi dan keterampilan mahasiswa dalam merancang, mengimplementasikan, dan mengelola sistem basis data serta platform pengolahan data skala besar dan komputasi awan sesuai standar internasional.
-
-\textbf{Ruang lingkup keilmuan.} Perancangan dan implementasi basis data relasional dan non-relasional, SQL dan optimasi kueri, basis data lanjut, pemrosesan \emph{big data} (Hadoop, Spark), serta layanan komputasi awan (\emph{cloud computing}).
-
-% ===========================================================================
-\chapter{Penyelenggaraan Praktikum}
-% ===========================================================================
-
-Kegiatan praktikum diatur oleh Koordinator Laboratorium mengikuti kalender akademik Jurusan Teknologi Informasi.
+Capstone project dan skripsi diselenggarakan mengikuti kalender akademik dan jadwal yang ditetapkan oleh Program Studi bersama Kepala Laboratorium.
 
 \section{Tujuan}
-Mahasiswa mampu merancang skema basis data yang terstandar, mengimplementasikan kueri dan transaksi, mengelola platform \emph{big data}, dan memanfaatkan layanan komputasi awan secara efisien dan aman.
-
-\section{Syarat Mengikuti Praktikum}
 \begin{enumerate}
-\item Terdaftar secara sah pada mata kuliah binaan pada semester berjalan (dibuktikan dengan KRS).
-\item Telah/sedang menempuh mata kuliah prasyarat yang ditentukan pada RPS.
+\item Mahasiswa mampu mengintegrasikan seluruh kompetensi teknologi data dalam mengembangkan produk pengelolaan atau pemrosesan data nyata (\emph{capstone}) atau karya ilmiah berstandar publikasi (\emph{skripsi}) yang menjawab permasalahan dunia nyata.
+\item Mahasiswa mampu menerapkan standar keteknikan dan menganalisis batasan realistis dalam setiap keputusan rancangan (Bab~\ref{chap:standar}).
+\item Mahasiswa mampu mengelola proyek secara profesional menggunakan metodologi agile dan mempertanggungjawabkan hasilnya di hadapan dosen penguji.
+\end{enumerate}
+
+\section{Syarat Mengikuti}
+\begin{enumerate}
+\item \textbf{Capstone (sem.~6):} terdaftar pada salah satu mata kuliah capstone pada semester berjalan (dibuktikan dengan KRS); telah lulus $\geq$ 90 SKS; memilih jalur reguler atau magang/industri sesuai ketentuan Program Studi.
+\item \textbf{Skripsi (sem.~8):} lulus Metodologi Penelitian; lulus $\geq$ 130 SKS; telah dinyatakan lulus Seminar Proposal Skripsi.
 \item Mematuhi tata tertib laboratorium (Bab~\ref{chap:tatib}).
 \end{enumerate}
 
 \section{Kompetensi yang Dikembangkan}
 \begin{itemize}
-\item Perancangan basis data relasional dengan normalisasi dan \emph{entity-relationship modeling}.
-\item Implementasi SQL: DDL, DML, DCL, dan optimasi indeks/kueri.
-\item Pengelolaan basis data NoSQL (dokumen, kolom, grafik).
-\item Pemrosesan data skala besar dengan \emph{framework big data}.
-\item Penggunaan layanan infrastruktur, platform, dan perangkat lunak berbasis awan.
+\item Analisis kebutuhan data dan rekayasa kebutuhan pada proyek berbasis data (spesifikasi skema, kebutuhan integrasi, dan tata kelola data).
+\item Perancangan basis data: pemodelan \emph{entity-relationship}, normalisasi, dan desain skema basis data relasional maupun non-relasional (NoSQL).
+\item Implementasi SQL lanjut (DDL, DML, DCL), administrasi \emph{DBMS}, serta optimasi indeks dan kueri.
+\item Pemrosesan data skala besar menggunakan \emph{framework big data} (Hadoop, Spark) serta perancangan \emph{pipeline} data.
+\item Pemanfaatan layanan infrastruktur, platform, dan perangkat lunak berbasis komputasi awan (\emph{cloud computing}), termasuk aspek keamanan dan tata kelola data di lingkungan awan.
+\item Komunikasi ilmiah: penulisan laporan, presentasi kemajuan, dan seminar hasil.
 \end{itemize}
 
-\section{Materi/Lingkup Praktikum}
-Materi praktikum tiap mata kuliah mengacu pada RPS dan modul/\emph{jobsheet} masing-masing, mencakup perancangan ER, implementasi SQL, administrasi DBMS, \emph{pipeline} data, skenario \emph{cloud deployment}, serta penerapan standar keteknikan dan batasan realistis (Bab~\ref{chap:standar}).
+\section{Tema dan Lingkup Capstone DT}
+Capstone di Laboratorium \emph{Data Technologies} diarahkan pada pengembangan produk yang:
+\begin{itemize}
+\item Berbasis permasalahan nyata (industri, komunitas, atau penelitian terapan) di bidang pengelolaan dan pemrosesan data.
+\item Menggunakan metodologi rekayasa data yang terstandar (agile/scrum untuk capstone; metodologi penelitian/pengembangan untuk skripsi).
+\item Mempertimbangkan standar keteknikan dan batasan realistis yang relevan secara eksplisit dalam dokumen rancangan.
+\item Menghasilkan \emph{deliverable} yang dapat diverifikasi: repositori kode/skrip, dokumentasi teknis, dan sistem basis data/\emph{pipeline} data yang dapat didemonstrasikan.
+\end{itemize}
 
 % ===========================================================================
-\chapter{Prosedur dan Evaluasi Praktikum}
+\chapter{Prosedur dan Evaluasi Capstone}
 % ===========================================================================
 
-\section{Prosedur Praktikum}
+\section{Prosedur Capstone dan Skripsi}
+
+\subsection*{Capstone (Proyek Teknologi Terintegrasi dan jalur industri)}
 \begin{enumerate}
-\item Kegiatan praktikum dilaksanakan sesuai jadwal yang ditetapkan.
-\item Perubahan jadwal hanya diizinkan apabila berbenturan dengan jadwal kuliah lain dan dibuktikan dengan KRS.
-\item Persentase kehadiran minimal mengikuti ketentuan RPS/akademik yang berlaku.
-\item Peminjaman perangkat/ruang di luar jadwal dilakukan melalui persetujuan Koordinator Laboratorium/Laboran dan tercatat pada buku/log peminjaman.
-\item Mahasiswa wajib mengikuti evaluasi yang diselenggarakan pada mata kuliah praktikum.
-\item Hasil evaluasi diserahkan ke bagian akademik untuk diproses sebagai nilai mata kuliah.
+\item \textbf{Pembentukan tim dan proposal:} mahasiswa menyusun proposal capstone (problem statement, solusi, WBS, jadwal, anggaran, manajemen risiko) dan mendapatkan persetujuan Kepala Laboratorium/Dosen Pembimbing.
+\item \textbf{Kontrak proyek:} penandatanganan kontrak proyek antara tim capstone, dosen pembimbing, dan (untuk jalur industri) mentor industri.
+\item \textbf{Pelaksanaan agile (sprint):} pengembangan produk dilaksanakan secara iteratif melalui sprint; setiap sprint menghasilkan \emph{increment} produk yang didemonstrasikan dan direview.
+\item \textbf{Seminar/review kemajuan:} presentasi kemajuan proyek (minimal satu kali di tengah semester) kepada dosen pembimbing dan/atau panel reviewer.
+\item \textbf{UAT dan \emph{deployment}:} pengujian penerimaan pengguna dan \emph{deployment} produk akhir ke lingkungan produksi/staging.
+\item \textbf{\emph{Seminar Hasil} Produk Akhir:} presentasi dan pertahanan produk capstone di hadapan dosen penguji; penilaian mencakup produk, dokumentasi, dan kemampuan mempertahankan keputusan rancangan.
+\end{enumerate}
+
+\subsection*{Skripsi}
+\begin{enumerate}
+\item \textbf{Reviu proposal:} mahasiswa mereviu proposal yang telah disetujui pada Seminar Proposal dan menandatangani kontrak bimbingan skripsi.
+\item \textbf{BAB IV (Analisis dan Perancangan):} bimbingan analisis kebutuhan dan perancangan arsitektur/desain sistem; finalisasi BAB IV dengan persetujuan pembimbing.
+\item \textbf{BAB V (Implementasi):} pengembangan sistem secara bertahap (implementasi awal $\rightarrow$ fitur inti $\rightarrow$ integrasi modul $\rightarrow$ finalisasi).
+\item \textbf{Seminar Kemajuan:} presentasi kemajuan penelitian (BAB IV--V) kepada dosen pembimbing; bobot 15\%.
+\item \textbf{BAB VI (Pengujian dan Pembahasan):} pelaksanaan pengujian sistem, analisis hasil, dan validasi terhadap rumusan masalah.
+\item \textbf{BAB VII dan finalisasi naskah:} penyusunan kesimpulan dan saran; integrasi naskah lengkap BAB I--VII; persetujuan pembimbing untuk pendaftaran sidang.
+\item \textbf{Sidang Skripsi:} presentasi dan pertahanan naskah skripsi di hadapan tim penguji.
 \end{enumerate}
 
 \section{Evaluasi}
-Komponen dan bobot penilaian mengacu pada RPS dan Rubrik (Rencana Penilaian) tiap mata kuliah. Kerangka umum komponen penilaian praktikum:
 
-\begin{tblr}{width=\textwidth,colspec={|Q[l,m,5.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headgreen,font=\bfseries}}
+\subsection*{Komponen penilaian capstone}
+Bobot mengacu pada RPS masing-masing mata kuliah capstone. Kerangka umum:
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.8cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headgreen,font=\bfseries}}
 Komponen & Cakupan \\
-Kehadiran dan keaktifan & Partisipasi pada sesi praktikum terjadwal. \\
-Tugas/\emph{Jobsheet} & Penyelesaian perancangan basis data dan implementasi tiap pertemuan. \\
-Ujian Tengah Semester (UTS) & Uji kompetensi paruh pertama (praktik dan/atau tulis). \\
-Ujian Akhir Semester (UAS)/Proyek & Uji kompetensi akhir atau proyek basis data/\emph{big data}. \\
+Proposal & Kelengkapan dan kualitas dokumen proposal, WBS, dan manajemen risiko. \\
+Kemajuan sprint / \emph{progress} & Konsistensi pelaksanaan sprint, kualitas \emph{increment}, dan keaktifan bimbingan. \\
+Produk akhir & Fungsionalitas, mutu teknis, aksesibilitas, keamanan, dan keterpeliharaan produk. \\
+\emph{Seminar Hasil} produk & Kemampuan mempertahankan keputusan rancangan, penerapan standar keteknikan, dan analisis batasan realistis. \\
 \end{tblr}
 
-Bobot pasti tiap komponen ditetapkan pada RPS/Rubrik mata kuliah yang bersangkutan.
+\subsection*{Komponen penilaian skripsi (RTI258001)}
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.8cm]|Q[c,m,2.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headgreen,font=\bfseries}}
+Komponen & Bobot & Cakupan \\
+Reviu Proposal & 5\% & Kelengkapan proposal yang disetujui dan kontrak bimbingan. \\
+Seminar Kemajuan & 15\% & Presentasi progres BAB IV--V; dinilai dosen pembimbing. \\
+Laporan Skripsi & 30\% & Laporan lengkap BAB I--VII sesuai standar ilmiah. \\
+Sidang Skripsi & 50\% & Presentasi dan seminar hasil di hadapan tim penguji. \\
+\textbf{Total} & \textbf{100\%} & \\
+\end{tblr}
 
 % ===========================================================================
-\chapter{RPS dan Modul Praktikum}
+\chapter{Panduan dan Luaran Capstone}
 % ===========================================================================
 
-RPS dan modul/\emph{jobsheet} untuk setiap mata kuliah yang dipraktikkan tersedia pada laboratorium dan mengacu pada Kurikulum 2025 Program Studi D4 Teknik Informatika. Dokumen RPS dan Rubrik dimuat pada Lampiran B dan Lampiran C Buku Kurikulum.
+\section{Dokumen Acuan}
+Penyelenggaraan capstone dan skripsi di laboratorium mengacu pada:
+\begin{itemize}
+\item \emph{Pedoman Capstone Project D4 Teknik Informatika POLINEMA 2025} (reguler dan magang/industri).
+\item \emph{Pedoman Skripsi D4 Teknik Informatika POLINEMA 2025}.
+\item RPS dan Rubrik (Rencana Penilaian) masing-masing mata kuliah capstone dan skripsi.
+\item Standar Keteknikan dan Batasan Realistis pada Bab~\ref{chap:standar} buku pedoman ini.
+\end{itemize}
+
+\section{Luaran (\emph{Deliverables})}
+Setiap capstone atau skripsi wajib menghasilkan luaran yang dapat diverifikasi. Pada setiap dokumen yang menyatakan keputusan rancangan, mahasiswa wajib mencantumkan secara eksplisit standar keteknikan yang diacu serta analisis batasan realistis yang memengaruhi keputusan tersebut.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.0cm]|X[l,m]|Q[l,m,2.8cm]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headblue,font=\bfseries}}
+Luaran & Deskripsi & Berlaku untuk \\
+Proposal & Problem statement, solusi, WBS, jadwal, anggaran, risiko. & Capstone (Skripsi) \\
+Produk / Aplikasi & Perangkat lunak yang berfungsi, diuji, dan dapat di-\emph{deploy}; disertai repositori kode dan tag versi. & Capstone (Skripsi) \\
+Laporan Skripsi & Karya ilmiah 7 bab (BAB I--VII) berstandar publikasi, disertai artikel/abstrak ilmiah. Mencakup spesifikasi kebutuhan (SRS) dan dokumen desain (SDD) pada BAB IV. & Capstone (Skripsi) \\
+Repositori & Repositori \emph{version-controlled} dengan \emph{commit history}, tag SemVer, dan README. & Capstone (Skripsi) \\
+\end{tblr}
 
 % ===========================================================================
-\chapter{Instruktur dan Asisten Praktikum}
+\chapter{Pembimbing dan Penguji Capstone}
 % ===========================================================================
 
 \section{Definisi}
-Instruktur/asisten praktikum adalah dosen, praktisi, atau mahasiswa senior yang berdasarkan keahliannya ditugaskan untuk membantu dosen pengampu dalam membimbing mahasiswa di laboratorium.
+\begin{itemize}
+\item \textbf{Dosen Pembimbing} adalah dosen Program Studi D4 TI yang ditugaskan Ketua Program Studi untuk membimbing mahasiswa hingga layak diajukan ke sidang.
+\item \textbf{Dosen Penguji} adalah dosen Program Studi D4 TI yang ditugaskan mengevaluasi dan menguji produk/naskah capstone atau skripsi pada sidang/seminar hasil.
+\item \textbf{Mentor Industri} adalah praktisi mitra industri yang membimbing validasi kebutuhan dan kelayakan teknis produk capstone jalur magang/industri.
+\end{itemize}
 
-\section{Persyaratan}
+\section{Persyaratan Pembimbing}
 \begin{enumerate}
-\item Memiliki kemampuan membimbing praktikum sesuai bidang keahlian teknologi data.
-\item Memiliki tanggung jawab serta menjunjung moral dan etika.
-\item Bagi asisten berstatus mahasiswa: telah lulus mata kuliah terkait dengan nilai baik dan memenuhi indeks prestasi minimal yang ditetapkan program studi.
-\item Lulus proses seleksi dan memperoleh surat tugas.
+\item Memiliki keahlian di bidang teknologi data atau teknologi yang relevan dengan topik capstone/skripsi yang dibimbing.
+\item Memiliki tanggung jawab akademik serta menjunjung integritas dan etika keilmuan.
+\item Memperoleh surat tugas dari Ketua Program Studi.
+\item Mentor industri: memiliki pengalaman minimal 2 tahun di bidang teknologi data dan bersedia menandatangani perjanjian kerja sama pembimbingan.
 \end{enumerate}
 
-\section{Tugas Teknis dan Administrasi}
+\section{Tugas Pembimbing}
 \begin{enumerate}
-\item Memulai dan mengakhiri praktikum tepat waktu.
-\item Menyiapkan perangkat dan materi sebelum praktikum.
-\item Menyampaikan materi sesuai RPS/modul.
-\item Mengisi daftar hadir dan menolak mahasiswa yang terlambat lebih dari 15 menit.
-\item Menciptakan suasana praktikum yang kondusif.
-\item Menginformasikan kepada staf laboratorium paling lambat 1 (satu) hari sebelumnya apabila berhalangan hadir.
-\item Menyerahkan nilai praktikum paling lama 14 (empat belas) hari kerja setelah kegiatan berakhir.
+\item Melaksanakan sesi bimbingan secara terjadwal sesuai kontrak bimbingan.
+\item Mengarahkan mahasiswa dalam penerapan standar keteknikan dan analisis batasan realistis.
+\item Memantau kemajuan capstone/skripsi dan mendokumentasikan hasil bimbingan.
+\item Memberikan persetujuan (\emph{acc}) atas naskah/produk yang layak diajukan ke sidang/seminar hasil.
+\item Menginformasikan kepada Kepala Laboratorium paling lambat 1 (satu) hari sebelumnya apabila berhalangan hadir pada sesi bimbingan.
 \end{enumerate}
 
-\section{Hak}
+\section{Tugas Penguji}
 \begin{enumerate}
-\item Memperoleh honorarium sesuai ketentuan yang berlaku.
-\item Menggunakan fasilitas laboratorium dalam melaksanakan tugas.
+\item Membaca dan menelaah naskah/produk capstone atau skripsi sebelum pelaksanaan sidang.
+\item Menguji kemampuan mahasiswa mempertahankan keputusan rancangan dan penerapan standar keteknikan.
+\item Memberikan nilai sidang sesuai rubrik yang ditetapkan.
+\item Memberikan masukan perbaikan pasca-sidang kepada mahasiswa.
 \end{enumerate}
 
-\section{Kode Etik}
+\section{Hak dan Kode Etik}
+\textbf{Hak:}
+\begin{enumerate}
+\item Memperoleh honorarium pembimbingan/pengujian sesuai ketentuan yang berlaku.
+\item Menggunakan fasilitas laboratorium dalam melaksanakan kegiatan bimbingan dan sidang.
+\end{enumerate}
+\textbf{Kode Etik:}
 \begin{enumerate}
 \item Melaksanakan visi, misi, dan tujuan program studi dengan sebaik-baiknya.
-\item Menaati ketentuan yang berkaitan dengan tugasnya secara penuh kesadaran dan tanggung jawab.
-\item Meningkatkan kualitas profesional sesuai perkembangan ilmu dan teknologi.
-\item Menghindari perbuatan yang bertentangan dengan hukum maupun norma, serta menjadi teladan dalam disiplin dan perilaku.
+\item Menjaga kerahasiaan hasil karya mahasiswa selama proses bimbingan.
+\item Meningkatkan kualitas profesional sesuai perkembangan ilmu dan teknologi data; menghindari konflik kepentingan dan menjadi teladan dalam integritas akademik.
 \end{enumerate}
 
 % ===========================================================================
@@ -184,45 +246,45 @@ Instruktur/asisten praktikum adalah dosen, praktisi, atau mahasiswa senior yang 
 \label{chap:standar}
 % ===========================================================================
 
-Bagian ini menjadi rujukan bagi mahasiswa dan dosen dalam kegiatan perancangan basis data, pemrosesan data besar, dan komputasi awan, khususnya pada mata kuliah proyek, tugas besar, dan skripsi, sehingga karya rancang tidak hanya benar secara teknis tetapi juga layak diterapkan.
+Bagian ini menjadi rujukan utama bagi mahasiswa dan dosen pembimbing dalam setiap kegiatan perancangan pada capstone project dan skripsi, sehingga karya rancang tidak hanya benar secara teknis tetapi juga layak diterapkan dan dapat dipertanggungjawabkan secara il\-mi\-ah dan pro\-fe\-sio\-nal.
 
 \section{Definisi}
-\textbf{Standar Keteknikan (\emph{Engineering Standards})} adalah kumpulan standar teknis yang diakui secara internasional, nasional, maupun industri yang mengatur praktik rekayasa dan pengelolaan data. \textbf{Batasan Realistis (\emph{Realistic Constraints})} adalah kondisi dan keterbatasan nyata yang membatasi ruang solusi sebuah rancangan.
+\textbf{Standar Keteknikan (\emph{Engineering Standards})} adalah kumpulan standar teknis yang diakui secara internasional, nasional, maupun industri yang mengatur praktik rekayasa dan pengelolaan data. \textbf{Batasan Realistis (\emph{Realistic Constraints})} adalah kondisi dan keterbatasan nyata yang membatasi ruang solusi sebuah rancangan dan harus dianalisis serta didokumentasikan secara eksplisit.
 
 \section{Daftar Standar Keteknikan}
-Standar dituliskan beserta edisi terkini yang diketahui pada penyusunan dokumen ini; kemutakhiran edisi ditinjau berkala oleh Koordinator Laboratorium.
+Standar dituliskan beserta edisi terkini yang diketahui pada penyusunan dokumen ini; kemutakhiran edisi ditinjau berkala oleh Kepala Laboratorium.
 
-\begin{tblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,4.4cm]|X[l,m]|X[0.85,l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headblue,font=\bfseries},column{1}={halign=c}}
-No & Kode / Judul Standar & Cakupan Teknis & Penerapan pada MK \\
-1 & ISO/IEC 9075 (SQL:2023) --- \emph{Database language SQL} & Bahasa standar kueri relasional. & Basis Data; Praktikum BD; BD Lanjut. \\
-2 & ISO/IEC 11179 --- \emph{Metadata registries} & Pendaftaran dan pengelolaan metadata data. & Basis Data Lanjut; Big Data. \\
-3 & ISO/IEC 25012:2008 --- \emph{Data quality model} & 15 karakteristik mutu data (akurasi, kelengkapan, konsistensi, dll.). & Basis Data Lanjut; Big Data. \\
-4 & ISO/IEC 25024:2015 --- \emph{Measurement of data quality} & Pengukuran karakteristik mutu data berdasarkan ISO 25012. & Big Data; Basis Data Lanjut. \\
-5 & ISO/IEC 20546:2019 --- \emph{Big data overview and vocabulary} & Kosakata dan kerangka konseptual \emph{big data}. & Big Data. \\
-6 & NIST SP 500-291 v3 --- \emph{NIST Cloud Computing Standards Roadmap} & Definisi dan karakteristik layanan awan (IaaS, PaaS, SaaS). & Cloud Computing. \\
-7 & ISO/IEC 17788:2014 --- \emph{Cloud computing overview and vocabulary} & Terminologi dan taksonomi komputasi awan. & Cloud Computing. \\
-8 & ISO/IEC 27017:2015 --- \emph{Cloud services security controls} & Kontrol keamanan informasi khusus untuk layanan awan. & Cloud Computing. \\
-9 & ISO/IEC 27018:2019 --- \emph{Protection of PII in public clouds} & Perlindungan informasi pribadi di awan publik. & Cloud Computing. \\
-10 & DAMA-DMBOK v2 (\emph{Data Management Body of Knowledge}) & Kerangka manajemen data: kualitas, arsitektur, tata kelola. & Semua MK (rujukan). \\
-\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,4.4cm]|X[l,m]|X[0.85,l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headblue,font=\bfseries},column{1}={halign=c},rowhead=1}
+No & Kode / Judul Standar & Cakupan Teknis & Penerapan pada Capstone/Skripsi \\
+1 & ISO/IEC 9075 (\emph{SQL:2023, Database language SQL}) & Bahasa standar kueri relasional. & Penyusunan skema pada proposal dan BAB IV; implementasi kueri pada sprint dan BAB V. \\
+2 & ISO/IEC 11179 (\emph{Metadata registries}) & Pendaftaran dan pengelolaan metadata data. & Perancangan kamus data pada BAB IV dan desain sprint awal. \\
+3 & ISO/IEC 25012:2008 (\emph{Data quality model}) & 15 karakteristik mutu data (akurasi, kelengkapan, konsistensi, dll.). & Kriteria mutu data pada BAB VI pengujian dan Seminar Hasil/Sidang. \\
+4 & ISO/IEC 25024:2015 (\emph{Measurement of data quality}) & Pengukuran karakteristik mutu data berdasarkan ISO 25012. & Pengukuran mutu data pada BAB VI pengujian dan pembahasan. \\
+5 & ISO/IEC 20546:2019 (\emph{Big data overview and vocabulary}) & Kosakata dan kerangka konseptual \emph{big data}. & Perumusan proposal dan BAB IV pada capstone/skripsi bertopik \emph{big data}. \\
+6 & NIST SP 500-291 v3 (\emph{NIST Cloud Computing Standards Roadmap}) & Definisi dan karakteristik layanan awan (IaaS, PaaS, SaaS). & Perancangan arsitektur \emph{cloud} pada BAB IV dan sprint \emph{deployment}. \\
+7 & ISO/IEC 17788:2014 (\emph{Cloud computing overview and vocabulary}) & Terminologi dan taksonomi komputasi awan. & Penyusunan proposal dan BAB IV pada capstone/skripsi berbasis \emph{cloud}. \\
+8 & ISO/IEC 27017:2015 (\emph{Cloud services security controls}) & Kontrol keamanan informasi khusus untuk layanan awan. & Pengujian keamanan pada BAB VI/UAT dan sprint \emph{deployment}. \\
+9 & ISO/IEC 27018:2019 (\emph{Protection of PII in public clouds}) & Perlindungan informasi pribadi di awan publik. & Analisis batasan hukum/privasi pada BAB IV dan pengujian BAB VI. \\
+10 & DAMA-DMBOK v2 (\emph{Data Management Body of Knowledge}) & Kerangka manajemen data: kualitas, arsitektur, tata kelola. & Rujukan metodologi pada seluruh tahap, dari proposal hingga Seminar Hasil/Sidang. \\
+\end{longtblr}
 
 \section{Batasan Realistis}
-Setiap rancangan basis data dan sistem data pada mata kuliah proyek dan tugas besar wajib mempertimbangkan---dan mendokumentasikan---batasan berikut sepanjang relevan.
+Setiap capstone project dan skripsi wajib mempertimbangkan dan mendokumentasikan secara eksplisit dalam laporan/naskah batasan berikut sepanjang relevan dengan konteks rancangan.
 
-\begin{tblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,3.4cm]|X[l,m]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headgreen,font=\bfseries},column{1}={halign=c}}
-No & Kategori & Deskripsi dalam Konteks Teknologi Data & Contoh Penerapan \\
-1 & Ekonomi & Biaya lisensi DBMS, penyimpanan, dan layanan awan. & Pemilihan PostgreSQL/MySQL vs. DBMS komersial; estimasi biaya \emph{cloud}. \\
-2 & Lingkungan \& Keberlanjutan & Konsumsi energi \emph{data center} dan jejak karbon komputasi. & Optimasi kueri untuk mengurangi waktu komputasi; \emph{green cloud}. \\
-3 & Sosial \& Budaya & Dampak ketidaktersediaan data pada layanan publik. & Perencanaan ketersediaan (\emph{high availability}) dan replikasi data. \\
-4 & Etika & Privasi data pengguna; potensi bias pada analitik. & Anonimisasi dan pseudonimisasi data uji; transparansi algoritma. \\
-5 & Kesehatan \& Keselamatan & Keandalan sistem yang mendukung layanan kritis. & Mekanisme \emph{backup} dan \emph{restore}; uji pemulihan bencana (\emph{DR}). \\
-6 & Hukum \& Regulasi & UU No.~27/2022 (PDP); larangan transfer data lintas negara tertentu. & Penyimpanan data di wilayah yurisdiksi yang tepat; enkripsi data. \\
-7 & Keterpeliharaan Operasional & Kemudahan migrasi, pembaruan skema, dan manajemen versi. & Manajemen migrasi basis data; dokumentasi skema. \\
-8 & Kemudahan Penerapan & Portabilitas DBMS; otomasi provisi infrastruktur data. & Kontainerisasi (Docker); IaC (\emph{Terraform, Pulumi}) untuk \emph{cloud}. \\
-\end{tblr}
+\begin{longtblr}{width=\textwidth,colspec={|Q[c,m,0.6cm]|Q[l,m,3.4cm]|X[l,m]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=2pt,colsep=3pt,row{1}={bg=headgreen,font=\bfseries},column{1}={halign=c},rowhead=1}
+No & Kategori & Deskripsi dalam Konteks Teknologi Data & Contoh Penerapan pada Capstone/Skripsi \\
+1 & Ekonomi & Biaya lisensi DBMS, penyimpanan, dan layanan awan. & Pemilihan PostgreSQL/MySQL vs. DBMS komersial pada proposal; estimasi biaya \emph{cloud} pada sprint dan BAB V. \\
+2 & Lingkungan \& Keberlanjutan & Konsumsi energi \emph{data center} dan jejak karbon komputasi. & Optimasi kueri untuk mengurangi waktu komputasi pada sprint/BAB V; pemilihan layanan \emph{green cloud} pada BAB IV. \\
+3 & Sosial \& Budaya & Dampak ketidaktersediaan data pada layanan publik. & Perencanaan ketersediaan (\emph{high availability}) dan replikasi data pada BAB IV perancangan arsitektur. \\
+4 & Etika & Privasi data pengguna; potensi bias pada analitik. & Anonimisasi dan pseudonimisasi data uji pada BAB V implementasi; transparansi algoritma pada BAB VI pengujian. \\
+5 & Kesehatan \& Keselamatan & Keandalan sistem yang mendukung layanan kritis. & Mekanisme \emph{backup} dan \emph{restore} pada sprint/BAB V; uji pemulihan bencana (\emph{DR}) pada BAB VI pengujian. \\
+6 & Hukum \& Regulasi & UU No.~27/2022 (PDP); larangan transfer data lintas negara tertentu. & Penyimpanan data di wilayah yurisdiksi yang tepat pada BAB IV perancangan; enkripsi data pada BAB V implementasi. \\
+7 & Keterpeliharaan Operasional & Kemudahan migrasi, pembaruan skema, dan manajemen versi. & Manajemen migrasi basis data pada sprint/BAB V; dokumentasi skema pada BAB IV. \\
+8 & Kemudahan Penerapan (\emph{Deployability}) & Portabilitas DBMS; otomasi provisi infrastruktur data. & Kontainerisasi (Docker) pada sprint \emph{deployment}; IaC (\emph{Terraform, Pulumi}) untuk \emph{cloud} pada BAB V/UAT dan \emph{deployment}. \\
+\end{longtblr}
 
-\section{Integrasi ke Pembelajaran}
-Dosen pengampu memetakan standar dan batasan yang relevan ke Sub-CPMK, indikator penilaian, dan rubrik pada RPS masing-masing mata kuliah binaan. Pada mata kuliah proyek/tugas besar dan skripsi, mahasiswa wajib menyatakan secara eksplisit standar keteknikan yang diacu serta analisis batasan realistis yang memengaruhi keputusan rancangan.
+\section{Integrasi ke Capstone dan Skripsi}
+Dosen pembimbing mengarahkan mahasiswa untuk memetakan standar dan batasan yang relevan ke dalam keputusan rancangan yang didokumentasikan dalam laporan skripsi. \textbf{Mahasiswa wajib menyatakan secara eksplisit dalam laporan}: (1) standar keteknikan yang diacu beserta pasal/klausul yang relevan, dan (2) analisis batasan realistis yang memengaruhi keputusan rancangan. Pada sidang/seminar hasil, dosen penguji akan memverifikasi pemenuhan standar dan ketepatan analisis batasan tersebut.
 
 % ===========================================================================
 \chapter{Tata Tertib Laboratorium}
@@ -230,18 +292,18 @@ Dosen pengampu memetakan standar dan batasan yang relevan ke Sub-CPMK, indikator
 % ===========================================================================
 
 \begin{enumerate}
-\item Setiap mahasiswa wajib mematuhi peraturan akademik yang berlaku di Politeknik Negeri Malang.
-\item Menjunjung tinggi etika selama kegiatan praktikum.
+\item Setiap mahasiswa bimbingan/peserta capstone wajib mematuhi peraturan akademik yang berlaku di Politeknik Negeri Malang.
+\item Menjunjung tinggi etika dan integritas akademik selama seluruh kegiatan capstone dan skripsi.
 \item Menjaga kebersihan, kerapian, dan ketertiban ruang laboratorium.
 \item Dilarang membawa atau menggunakan benda berbahaya di dalam laboratorium.
 \item Dilarang melakukan tindakan yang merusak, tidak pantas, atau melanggar norma.
 \item Dilarang membawa serta menyantap makanan dan/atau minuman di ruang laboratorium.
 \item Bertanggung jawab atas peralatan yang digunakan dan mengganti kerusakan yang diakibatkan kelalaian.
-\item Mahasiswa yang tidak terdaftar tidak diperbolehkan mengikuti praktikum.
-\item Mahasiswa yang terlambat lebih dari 15 menit dianggap tidak hadir.
-\item Dilarang memasang perangkat lunak ilegal/tanpa lisensi serta mengubah konfigurasi sistem atau kredensial tanpa izin.
-\item Menjaga kerahasiaan akun basis data dan menyimpan (\emph{backup}) hasil pekerjaan pada media pribadi; data pada komputer laboratorium dapat dihapus sewaktu-waktu.
-\item Pelanggaran tata tertib mengakibatkan peserta dikeluarkan dari ruang laboratorium dan dianggap tidak hadir, serta dapat dikenai sanksi akademik sesuai ketentuan.
+\item Mahasiswa yang tidak terdaftar dalam kegiatan capstone/skripsi tidak diperbolehkan menggunakan fasilitas laboratorium tanpa izin.
+\item Sesi bimbingan yang terlambat lebih dari 15 menit tanpa pemberitahuan dianggap batal dan perlu dijadwalkan ulang.
+\item Dilarang memasang perangkat lunak ilegal/tanpa lisensi serta mengubah konfigurasi sistem, jaringan, atau kredensial tanpa izin.
+\item Menjaga kerahasiaan akun dan menyimpan (\emph{backup}) hasil pekerjaan pada media pribadi dan repositori; data pada komputer laboratorium dapat dihapus sewaktu-waktu.
+\item Pelanggaran tata tertib dapat mengakibatkan penangguhan hak penggunaan laboratorium dan dikenai sanksi akademik sesuai ketentuan yang berlaku.
 \end{enumerate}
 
 % ===========================================================================
@@ -267,38 +329,31 @@ Setiap ruang laboratorium dilengkapi dan dijaga dengan:
 
 \section{Kesehatan dan Ergonomi}
 \begin{itemize}
-\item Mengatur posisi duduk, jarak pandang layar, dan pencahayaan yang ergonomis.
-\item Melakukan istirahat mata secara berkala (misalnya kaidah 20--20--20) pada sesi praktikum yang panjang.
+\item Mengatur posisi duduk, jarak pandang layar, dan pencahayaan yang ergonomis selama kegiatan laboratorium.
+\item Melakukan istirahat mata secara berkala (misalnya kaidah 20--20--20) pada sesi bimbingan atau pengembangan yang panjang.
 \end{itemize}
 
-\section{Prosedur Penggunaan Komputer}
+\section{Prosedur Penggunaan Ruang Laboratorium}
 \begin{enumerate}
-\item \textbf{Pra-praktikum:} membuka ruang; menyalakan pendingin ruangan; menghidupkan panel daya; menghidupkan server basis data.
-\item \textbf{Memulai praktikum:} menyalakan komputer klien; verifikasi koneksi ke server basis data.
-\item \textbf{Mengakhiri praktikum:} menyimpan pekerjaan; mematikan komputer klien.
-\item \textbf{Pasca-praktikum:} mematikan server; mematikan pendingin ruangan; mematikan panel daya; merapikan dan mengunci ruang.
+\item \textbf{Pra-kegiatan:} membuka ruang; menyalakan pendingin ruangan; menghidupkan panel daya; menghidupkan perangkat yang diperlukan.
+\item \textbf{Memulai kegiatan:} menyalakan CPU, monitor, dan proyektor sesuai kebutuhan bimbingan/pengembangan.
+\item \textbf{Mengakhiri kegiatan:} menyimpan seluruh pekerjaan ke repositori; mematikan CPU, monitor, dan proyektor.
+\item \textbf{Pasca-kegiatan:} mematikan pendingin ruangan; mematikan panel daya; merapikan dan mengunci ruang.
 \end{enumerate}
 
 % ===========================================================================
 \chapter{Kerjasama}
 % ===========================================================================
 
-Laboratorium dapat menjalin kerja sama dengan mitra industri di bidang teknologi data dan komputasi awan, antara lain untuk sertifikasi industri (Oracle, AWS, Google Cloud, Microsoft Azure), praktisi mengajar, penelitian terapan, dan pengabdian masyarakat di bidang manajemen dan rekayasa data.
+Dalam menjalankan program kerjanya, Laboratorium \emph{Data Technologies} menjalin kerja sama dengan unit di lingkungan POLINEMA maupun institusi, lembaga, dan mitra industri di luar kampus, untuk mendukung penyelenggaraan capstone project dan skripsi di bidang teknologi data, antara lain:
+\begin{itemize}
+\item \textbf{Sumber masalah industri:} mitra menyediakan problem statement nyata sebagai tema capstone mahasiswa jalur magang/industri.
+\item \textbf{Co-pembimbing praktisi:} praktisi industri bertindak sebagai mentor industri yang membimbing aspek kelayakan teknis dan bisnis produk capstone.
+\item \textbf{Capstone bersama (\emph{joint capstone}):} pengembangan produk capstone yang menjawab kebutuhan nyata mitra, termasuk kemungkinan penerapan (\emph{deployment}) di lingkungan mitra.
+\item \textbf{Sertifikasi kompetensi:} kerja sama dengan lembaga sertifikasi industri (Oracle, AWS, Google Cloud, Microsoft Azure) untuk memperkuat kompetensi teknis mahasiswa capstone/skripsi di bidang teknologi data.
+\item \textbf{Penelitian terapan:} kolaborasi riset terapan antara laboratorium dan mitra untuk menghasilkan inovasi berbasis produk/layanan teknologi data.
+\end{itemize}
 
-% ===========================================================================
-\chapter*{Lembar Pengesahan}
-\addcontentsline{toc}{chapter}{Lembar Pengesahan}
-% ===========================================================================
-
-\vspace{1cm}
-
-\begin{tblr}{width=\textwidth,colspec={X[c,m]X[c,m]},rowsep=3pt,colsep=3pt}
-Malang, \underline{\hspace{3.5cm}} & \\[4pt]
-Kepala Laboratorium & Mengesahkan, \\
-\emph{Data Technologies} & Ketua Program Studi D4 Teknik Informatika \\[28mm]
-\underline{\hspace{5.5cm}} & \underline{\hspace{5.5cm}} \\
-\textbf{\LabKoor} & \\
-NIP. \underline{\hspace{4.5cm}} & NIP. \underline{\hspace{4.5cm}} \\
-\end{tblr}
+\PedomanPengesahan
 
 \end{document}

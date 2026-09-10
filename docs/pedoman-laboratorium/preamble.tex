@@ -20,7 +20,7 @@
 \usepackage[protrusion=true,expansion=false]{microtype}
 \usepackage{xstring}
 
-\usetikzlibrary{calc}
+\usetikzlibrary{calc,positioning,arrows.meta}
 \UseTblrLibrary{varwidth}
 
 % ----- Fonts ---------------------------------------------------------------
@@ -58,6 +58,11 @@
 % (e.g. degree abbreviations like "M.T." or "Ph.D.") when used at the end
 % of a sentence that appends its own period.
 \newcommand{\SentencePeriod}[1]{\IfEndWith{#1}{.}{}{.}}
+
+% ----- Ketua Jurusan (department head) constants ---------------------------
+% Shared across all labs; second signatory on \PedomanPengesahan.
+\newcommand{\KetuaJurusan}{Mungki Astiningrum, S.T., M.Kom.}
+\newcommand{\KetuaJurusanNIP}{19771030 200501 2 001}
 
 % ----- Page chrome (blue rules on every page) ------------------------------
 \newcommand{\PageChrome}{%
@@ -98,14 +103,14 @@
   {BAB \thechapter}
   {0.35em}
   {\MakeUppercase}
-\titlespacing*{\chapter}{0pt}{-1.2em}{1.2em}
+\titlespacing*{\chapter}{0pt}{-1.2em}{0.7em}
 
 \titleformat{\section}
   {\bfseries\normalsize}
   {\thesection}
   {0.6em}
   {}
-\titlespacing*{\section}{0pt}{8pt}{3pt}
+\titlespacing*{\section}{0pt}{5pt}{1.5pt}
 
 \titleformat{\subsection}
   {\bfseries\normalsize}
@@ -115,16 +120,16 @@
 \titlespacing*{\subsection}{0pt}{6pt}{2pt}
 
 % ----- Misc layout ---------------------------------------------------------
-\setstretch{1.08}
+\setstretch{1.03}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{4pt}
+\setlength{\parskip}{2pt}
 \setlength{\emergencystretch}{2.5em}
 \setlength{\tolerance}{800}
 \hyphenation{pe-rang-kat a-ka-de-mik skrip-si re-ka-ya-sa peng-uji pem-bim-bing pe-ne-li-ti-an pe-ngem-bang-an}
 \XeTeXlinebreakpenalty=0
 \raggedbottom
-\setlist[itemize]{leftmargin=1.4em, topsep=2pt, itemsep=1pt, parsep=0pt}
-\setlist[enumerate]{leftmargin=1.8em, topsep=2pt, itemsep=1pt, parsep=0pt}
+\setlist[itemize]{leftmargin=1.4em, topsep=1pt, itemsep=0pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=1.8em, topsep=1pt, itemsep=0pt, parsep=0pt}
 
 \hypersetup{colorlinks=true, linkcolor=black, urlcolor=polinemablue}
 
@@ -181,3 +186,65 @@
 
 % ----- Daftar Isi title ----------------------------------------------------
 \renewcommand{\contentsname}{DAFTAR ISI}
+
+% ----- Organizational responsibility-flow diagram ---------------------------
+% Generic, lab-agnostic (no \LabKoor / person names) -- used in Chapter 2 of
+% every lab file in place of the old inline "$\rightarrow$" sentence.
+\tikzset{
+  orgtop/.style={draw, rounded corners, fill=polinemablue, text=white,
+    font=\bfseries\fontsize{8}{9}\selectfont, align=center,
+    text width=6.0cm, minimum height=0.85cm, inner sep=4pt},
+  orgmid/.style={draw, rounded corners, fill=headblue,
+    font=\bfseries\fontsize{8}{9}\selectfont, align=center,
+    text width=6.0cm, minimum height=0.85cm, inner sep=4pt},
+  orgleaf/.style={draw, rounded corners, fill=headgray,
+    font=\fontsize{7.5}{8.5}\selectfont, align=center,
+    text width=2.9cm, minimum height=1.05cm, inner sep=3pt},
+}
+\newcommand{\OrgChart}{%
+\begin{center}
+\begin{tikzpicture}[
+    >={Stealth[length=2mm]}, thick,
+    node distance=9mm and 4mm,
+  ]
+  \node[orgtop] (jurusan) {Ketua Jurusan\\Teknologi Informasi};
+  \node[orgmid, below=of jurusan] (prodi) {Ketua Program Studi\\D4 Teknik Informatika};
+  \node[orgmid, below=of prodi] (kalab) {Kepala Laboratorium};
+
+  \node[orgleaf, below left=13mm and 4.5cm of kalab] (teknisi) {Teknisi /\\Laboran};
+  \node[orgleaf, right=4mm of teknisi] (pembimbing) {Dosen\\Pembimbing};
+  \node[orgleaf, right=4mm of pembimbing] (penguji) {Dosen\\Penguji};
+  \node[orgleaf, right=4mm of penguji] (mentor) {Mentor Industri /\\Asisten Capstone};
+
+  \draw[->] (jurusan) -- (prodi);
+  \draw[->] (prodi) -- (kalab);
+  \draw[->] (kalab.south) -- ++(0,-6mm) -| (teknisi.north);
+  \draw[->] (kalab.south) -- ++(0,-6mm) -| (pembimbing.north);
+  \draw[->] (kalab.south) -- ++(0,-6mm) -| (penguji.north);
+  \draw[->] (kalab.south) -- ++(0,-6mm) -| (mentor.north);
+\end{tikzpicture}
+\end{center}%
+}
+
+% ----- Lembar Pengesahan (approval page) macro ------------------------------
+% Uses \LabName, \LabKoor, \LabKoorNIP (per-lab macros defined before
+% \input{preamble}) plus the shared \KetuaJurusan / \KetuaJurusanNIP above.
+\newcommand{\PedomanPengesahan}{%
+% ===========================================================================
+\chapter*{Lembar Pengesahan}
+\addcontentsline{toc}{chapter}{Lembar Pengesahan}
+% ===========================================================================
+
+Buku Pedoman Laboratorium \emph{\LabName} ini telah diperiksa dan disahkan sebagai acuan resmi penyelenggaraan capstone project dan skripsi di Program Studi D4 Teknik Informatika, Jurusan Teknologi Informasi, Politeknik Negeri Malang.
+
+\vspace{1cm}
+
+\begin{tblr}{width=\textwidth,colspec={X[c,m]X[c,m]},rowsep=3pt,colsep=3pt}
+Malang, \underline{\hspace{3.5cm}} & \\[4pt]
+Kepala Laboratorium & Mengesahkan, \\
+\emph{\LabName} & Ketua Jurusan Teknologi Informasi \\[28mm]
+\underline{\hspace{5.5cm}} & \underline{\hspace{5.5cm}} \\
+\textbf{\LabKoor} & \textbf{\KetuaJurusan} \\
+\LabKoorNIP & NIP. \KetuaJurusanNIP \\
+\end{tblr}
+}
