@@ -18,7 +18,7 @@ Monitoring jaringan & logging (SIEM).
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, demo alat monitoring, diskusi.
 
 ## Estimasi Waktu
-1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengerjakan aktivitas terarah untuk monitoring jaringan & logging (siem) dan menunjukkan evidence hasil belajar.

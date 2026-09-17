@@ -18,7 +18,7 @@ Administrasi sistem jaringan.
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi, latihan konfigurasi.
 
 ## Estimasi Waktu
-1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengerjakan aktivitas terarah untuk administrasi sistem jaringan dan menunjukkan evidence hasil belajar.

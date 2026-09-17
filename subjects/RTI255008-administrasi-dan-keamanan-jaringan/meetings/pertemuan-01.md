@@ -18,7 +18,7 @@ Pengantar infrastruktur & keamanan jaringan.
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, diskusi interaktif, studi kasus.
 
 ## Estimasi Waktu
-1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengerjakan aktivitas terarah untuk pengantar infrastruktur & keamanan jaringan dan menunjukkan evidence hasil belajar.

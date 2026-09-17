@@ -18,7 +18,7 @@ Query Lanjutan: sub-query skalar dan korelasi, INNER/LEFT/RIGHT/FULL OUTER JOIN,
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa menyusun query lanjutan menggunakan sub-query, berbagai jenis JOIN, dan CTE untuk mengambil data dari beberapa tabel sesuai studi kasus.

@@ -18,7 +18,7 @@ Function, View, Materialized View, dan Stored Procedure: pembuatan PL/pgSQL func
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa membuat function, view, materialized view, dan stored procedure menggunakan PL/pgSQL sesuai studi kasus, lalu menguji dan mendokumentasikan hasilnya.

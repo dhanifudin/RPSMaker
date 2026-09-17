@@ -18,7 +18,7 @@ Full-Text Search dan JSONB: tsvector, tsquery, GIN index untuk FTS, operator JSO
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengimplementasikan full-text search menggunakan tsvector/tsquery dan memanipulasi data JSONB menggunakan operator dan path expression pada PostgreSQL.

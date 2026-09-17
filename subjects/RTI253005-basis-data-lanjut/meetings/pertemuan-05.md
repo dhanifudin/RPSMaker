@@ -18,7 +18,7 @@ Indeks dan Optimasi Query: jenis indeks (B-tree, Hash, GiST, GIN), EXPLAIN ANALY
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa membuat berbagai jenis indeks, menganalisis query plan menggunakan EXPLAIN ANALYZE, dan mengidentifikasi serta mengoptimalkan query yang lambat.

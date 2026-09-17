@@ -13,12 +13,23 @@ source of truth for CPL membership (RPS documents are "a referenced document" on
 used to decide CPL assignment), and rebuilds all 10 diagrams from scratch rather than
 hand-patching 28+ changes across 10 files with hardcoded pixel coordinates.
 
-Layout formulas (reverse-engineered from the original 10 diagrams and verified against all
-of them before implementing - see the session's plan file for the check):
-  - 8 semester columns at x = 1.6, 4.8, 8.0, 11.2, 14.4, 17.6, 20.8, 24.0 (spacing 3.2)
-  - within a column, courses stack top-to-bottom starting y=-3.45, step -1.3
-  - box height H = 4.1 + (max_rows_in_any_column - 1) * 1.3
-  - "CPLxx" side label y = -(2.5 + H) / 2
+Layout (2026-09-17 portrait rewrite)
+-------------------------------------
+The original layout put semesters on a fixed 8-wide horizontal axis (SEM_X below), which
+gave every diagram the same fixed natural width of 27.9cm regardless of content -- too wide
+to shrink into the book's ~15.8cm portrait \\textwidth without dropping the 7.5pt node font
+to an unreadable ~4.2pt. That version rendered the whole section on landscape pages instead.
+
+This version transposes the axes: semesters run top-to-bottom (one fixed-height row band
+per semester, 8 rows always drawn even if a CPL has no course in some semester), and the
+courses assigned to a semester sit side-by-side within that row. The width driver becomes
+"how many courses does this CPL have in its busiest single semester" (1-6 across the 10
+diagrams) instead of the fixed 8-semester count, while height is now a near-constant ~19cm
+(header band + 8 fixed-height rows) that comfortably fits the portrait page without ever
+needing the extra landscape headroom. Each CPL stays exactly one figure/page, in the book's
+normal portrait flow -- no \\begin{landscape}, no multi-figure split, no cross-figure
+connectors, since each diagram is a single chronological chain with no edges that need to
+jump between separate figures.
 
 Node style (mk vs soft) uses docs/kurikulum-2025-distribusi-mk.md's Kelompok column
 (WN/WP-PT -> soft, WP/P -> mk) - the cleanest available signal, though not a perfect
@@ -63,10 +74,29 @@ CPL_DESCRIPTIONS = {
     "CPL10": "Memiliki kompetensi untuk menganalisis persoalan kompleks untuk mengidentifikasi solusi bidang informatika/ilmu komputer dengan mempertimbangkan wawasan ilmu multidisiplin.",
 }
 
-SEM_X = {1: 1.6, 2: 4.8, 3: 8.0, 4: 11.2, 5: 14.4, 6: 17.6, 7: 20.8, 8: 24.0}
-YEAR_X = {1: 3.2, 2: 9.6, 3: 16.0, 4: 22.4}
-COL_BOUNDARIES = [3.2, 6.4, 9.6, 12.8, 16.0, 19.2, 22.4]
-THICK_BOUNDARIES = [6.4, 12.8, 19.2]
+# Portrait usable area under the book's default geometry (book/src/preamble.tex:
+# left=2.8cm, right=2.4cm, top=2.3cm, bottom=2.2cm on A4 -> 15.8cm wide, ~25.2cm
+# tall). PORTRAIT_HEIGHT leaves headroom under that for the caption + spacing,
+# matching the constant used in generate_jejaring_kurikulum.py for the same reason.
+PORTRAIT_WIDTH = 15.8
+PORTRAIT_HEIGHT = 22.5
+
+# ---- Row (semester) / column (course-within-semester) layout ----
+ROW_PITCH_Y = 2.0     # vertical distance between semester-row centers
+COL_PITCH_X = 2.9     # horizontal distance between course-box centers in a row
+HEADER_H = 2.6        # vertical space reserved for the "CPLxx: <description>" banner
+BOX_HALF_W = 1.3       # half of the 2.6cm node text width
+NODE_X0 = 0.5          # x-center of the first (leftmost) course box in a row
+GUTTER_LABEL_X = -1.7  # x-center of the "Sem. N" row labels
+SEP_X = -0.85          # x of the vertical rule separating labels from course boxes
+FRAME_LEFT = -2.6
+RIGHT_PAD = 0.4        # padding beyond the widest row's last box
+BOTTOM_PAD = 0.3
+MIN_NATURAL_W = 13.6   # frame widens to at least this so the CPL description banner
+                        # (which spans the full frame width) never wraps to a cramped
+                        # column just because a CPL has few courses in any one semester
+ELBOW_NUDGE = 0.15
+TAHUN_BOUNDARY_AFTER = {2, 4, 6}  # thick separator after these semesters
 
 CW_NAME_FIX = {
     "Konsep TI": "Konsep Teknologi Informasi",
@@ -121,6 +151,11 @@ def sanitize_id(name):
     return "n" + re.sub(r'[^a-z0-9]', '', name.lower())
 
 
+def row_top(sem):
+    """Y of the horizontal separator above semester `sem`'s row (sem=9 -> frame bottom)."""
+    return -HEADER_H - (sem - 1) * ROW_PITCH_Y
+
+
 def build_diagram(cpl, courses, kelompok):
     by_sem = defaultdict(list)
     for c in courses:
@@ -128,49 +163,66 @@ def build_diagram(cpl, courses, kelompok):
     for sem in by_sem:
         by_sem[sem].sort(key=lambda c: c["mknum"])
 
-    max_rows = max(len(v) for v in by_sem.values())
-    H = 4.1 + (max_rows - 1) * 1.3
-    label_y = (2.5 + H) / 2
+    max_cols = max((len(v) for v in by_sem.values()), default=1)
+    grid_right = NODE_X0 + (max_cols - 1) * COL_PITCH_X + BOX_HALF_W + RIGHT_PAD
+    frame_right = max(grid_right, FRAME_LEFT + MIN_NATURAL_W)
+    frame_bottom = row_top(9)
+
+    natural_w = frame_right - FRAME_LEFT
+    natural_h = -frame_bottom + BOTTOM_PAD
+    target_w = min(natural_w, PORTRAIT_WIDTH)
+    implied_h = natural_h * (target_w / natural_w)
+    if implied_h > PORTRAIT_HEIGHT:
+        target_w = natural_w * (PORTRAIT_HEIGHT / natural_h)
 
     lines = []
     lines.append(f"% ===================== {cpl} =====================")
     lines.append(r"\begin{figure}[H]")
     lines.append(r"\centering")
-    lines.append(r"\resizebox{\textwidth}{!}{%")
+    lines.append(f"\\resizebox{{{target_w:.2f}cm}}{{!}}{{%")
     lines.append(r"\begin{tikzpicture}[")
-    lines.append(r"  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},")
-    lines.append(r"  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{6}{7}\selectfont, align=center, text width=2.6cm, minimum height=0.9cm, inner sep=1.5pt},")
-    lines.append(r"  hdr/.style={font=\bfseries\small, align=center},")
+    lines.append(r"  mk/.style={draw, rounded corners, fill=headblue, font=\fontsize{7.5}{8.5}\selectfont, align=center, text width=2.6cm, minimum height=1.0cm, inner sep=1.5pt},")
+    lines.append(r"  soft/.style={draw, rounded corners, fill=softgreen, font=\fontsize{7.5}{8.5}\selectfont, align=center, text width=2.6cm, minimum height=1.0cm, inner sep=1.5pt},")
+    lines.append(r"  smhdr/.style={font=\bfseries\footnotesize, align=center},")
     lines.append(r"  ->, >={Stealth[length=1.5mm]}, thick, rounded corners=2pt,")
     lines.append(r"]")
-    lines.append(f"\\draw (-2.300,0) rectangle (25.600,-{H:.3f});")
-    lines.append(f"\\draw (-2.300,-1.100) -- (25.600,-1.100);")
-    lines.append(f"\\draw (-2.300,-1.800) -- (25.600,-1.800);")
-    lines.append(f"\\draw (-2.300,-2.500) -- (25.600,-2.500);")
-    lines.append(f"\\draw (0,-1.100) -- (0,-{H:.3f});")
-    for x in COL_BOUNDARIES:
-        lines.append(f"\\draw ({x:.3f},-1.800) -- ({x:.3f},-{H:.3f});")
-    for x in THICK_BOUNDARIES:
-        lines.append(f"\\draw[thick] ({x:.3f},-1.800) -- ({x:.3f},-{H:.3f});")
+
+    # Outer frame + header/row separators. Explicit "-" (no arrow tip) since the
+    # picture's default style is "->" for the course-chain connectors below --
+    # without this override these plain grid/frame lines pick up arrowheads too,
+    # which reads as a second, meaningless set of "flow" arrows on the page.
+    lines.append(f"\\draw[-] ({FRAME_LEFT:.3f},0.000) rectangle ({frame_right:.3f},{frame_bottom:.3f});")
+    lines.append(f"\\draw[-] ({FRAME_LEFT:.3f},{row_top(1):.3f}) -- ({frame_right:.3f},{row_top(1):.3f});")
+    for sem in range(2, 9):
+        y = row_top(sem)
+        style = "-,thick" if (sem - 1) in TAHUN_BOUNDARY_AFTER else "-"
+        lines.append(f"\\draw[{style}] ({FRAME_LEFT:.3f},{y:.3f}) -- ({frame_right:.3f},{y:.3f});")
+    lines.append(f"\\draw[-] ({SEP_X:.3f},{row_top(1):.3f}) -- ({SEP_X:.3f},{frame_bottom:.3f});")
+
+    # CPL description banner.
     desc = CPL_DESCRIPTIONS[cpl]
-    lines.append(f"\\node[align=center, text width=26.900cm, font=\\small] at (11.650,-0.550) {{{cpl}: {desc}}};")
-    for yr, x in YEAR_X.items():
-        lines.append(f"\\node[hdr] at ({x:.3f},-1.450) {{Tahun {yr}}};")
-    lines.append(r"\node[hdr] at (-1.150,-1.450) {CPL};")
-    for sem, x in SEM_X.items():
-        lines.append(f"\\node[hdr] at ({x:.3f},-2.150) {{Semester {sem}}};")
-    lines.append(f"\\node[hdr] at (-1.150,-{label_y:.3f}) {{{cpl}}};")
+    header_text_width = frame_right - FRAME_LEFT - 0.6
+    header_x = (FRAME_LEFT + frame_right) / 2
+    lines.append(
+        f"\\node[align=center, text width={header_text_width:.3f}cm, font=\\small] "
+        f"at ({header_x:.3f},{-HEADER_H / 2:.3f}) {{\\textbf{{{cpl}}}: {desc}}};"
+    )
+
+    # Row (semester) labels.
+    for sem in range(1, 9):
+        y = row_top(sem) - ROW_PITCH_Y / 2
+        lines.append(f"\\node[smhdr] at ({GUTTER_LABEL_X:.3f},{y:.3f}) {{Sem. {sem}}};")
 
     node_ids = {}
     for sem in sorted(by_sem):
-        x = SEM_X[sem]
-        for row, c in enumerate(by_sem[sem]):
-            y = 3.45 + row * 1.3
+        y = row_top(sem) - ROW_PITCH_Y / 2
+        for col, c in enumerate(by_sem[sem]):
+            x = NODE_X0 + col * COL_PITCH_X
             nid = sanitize_id(c["name"])
             node_ids[c["name"]] = (nid, x, y)
             style = "soft" if kelompok.get(c["name"]) in ("WN", "WP-PT") else "mk"
             lines.append(
-                f"\\node[{style}] ({nid}) at ({x:.3f},-{y:.3f}) "
+                f"\\node[{style}] ({nid}) at ({x:.3f},{y:.3f}) "
                 f"{{{c['name']}\\\\{c['sks']} SKS}};"
             )
 
@@ -181,19 +233,57 @@ def build_diagram(cpl, courses, kelompok):
         if px == cx and py == cy:
             continue
         if py == cy:
+            # Same semester row: adjacent boxes, sorted left-to-right by MK number.
             lines.append(f"\\draw ({pid}.east) -- ({cid}.west);")
+        elif px == cx:
+            # Same column position in different semester rows: plain vertical edge.
+            lines.append(f"\\draw ({pid}.south) -- ({cid}.north);")
         else:
-            midx = (px + cx) / 2
+            raw_mid = (py + cy) / 2
+            midy = raw_mid + ELBOW_NUDGE * (1 if py > cy else -1)
             lines.append(
-                f"\\draw ({pid}.east) -- ({midx:.3f},-{py:.3f}) -- "
-                f"({midx:.3f},-{cy:.3f}) -- ({cid}.west);"
+                f"\\draw ({pid}.south) -- ({px:.3f},{midy:.3f}) -- "
+                f"({cx:.3f},{midy:.3f}) -- ({cid}.north);"
             )
 
     lines.append(r"\end{tikzpicture}%")
     lines.append(r"}")
     lines.append(f"\\caption{{Peta Jalan {cpl}}}")
     lines.append(r"\end{figure}")
+    lines.append("")
+    lines.append(summarize(cpl, courses, by_sem, kelompok))
     return "\n".join(lines)
+
+
+def summarize(cpl, courses, by_sem, kelompok):
+    """One real, data-derived sentence pair per CPL (not filler): every number here
+    is computed from the same course list build_diagram() just drew, so it can
+    never drift out of sync with the diagram above it.
+    """
+    total = len(courses)
+    total_sks = sum(c["sks"] for c in courses)
+    sem_lo, sem_hi = min(by_sem), max(by_sem)
+    busiest_sem = max(sorted(by_sem), key=lambda s: len(by_sem[s]))
+    busiest_count = len(by_sem[busiest_sem])
+    soft_count = sum(1 for c in courses if kelompok.get(c["name"]) in ("WN", "WP-PT"))
+    mk_count = total - soft_count
+
+    if sem_lo == sem_hi:
+        span = f"seluruhnya berada pada Semester {sem_lo}"
+    else:
+        span = f"tersebar dari Semester {sem_lo} hingga Semester {sem_hi}"
+
+    if soft_count == 0:
+        breakdown = f"Seluruh {total} mata kuliah tersebut bersifat teknis inti."
+    elif mk_count == 0:
+        breakdown = f"Seluruh {total} mata kuliah tersebut bersifat pengembangan umum (soft skill)."
+    else:
+        breakdown = (f"Dari jumlah tersebut, {mk_count} mata kuliah bersifat teknis inti "
+                     f"dan {soft_count} bersifat pengembangan umum (soft skill).")
+
+    return (f"{cpl} dipetakan pada {total} mata kuliah ({total_sks} SKS) yang {span}, "
+            f"dengan Semester {busiest_sem} sebagai yang terpadat ({busiest_count} mata "
+            f"kuliah paralel). {breakdown}")
 
 
 def generate(courses, kelompok):
@@ -222,17 +312,15 @@ def apply_fix(chapter_path, crosswalk_path, distro_path):
     end_idx = text.index(end_marker)
 
     intro = ("\n\nSepuluh diagram berikut memetakan mata kuliah yang berkontribusi pada "
-             "setiap Capaian Pembelajaran Lulusan (CPL), disusun per tahun dan semester. "
-             "Setiap kotak menampilkan nama mata kuliah beserta bobot SKS-nya, dan anak "
-             "panah menunjukkan keterkaitan/urutan antar mata kuliah dalam membangun "
-             "capaian tersebut.\n\n")
-    outro = (r"\reviewfrompdf{Sepuluh diagram peta jalan CPL di atas memetakan kontribusi "
-              r"mata kuliah terhadap setiap CPL, disusun ulang langsung dari "
-              r"docs/rti-mk-crosswalk.md (bukan dari sheet CPL-MK (Rev3 fix) yang dipakai "
-              r"pada versi sebelumnya dan sudah diketahui memiliki sejumlah mismatch "
-              r"terhadap kurikulum 59 mata kuliah). Susunan node dan panah keterkaitan "
-              r"ini tetap perlu divalidasi oleh tim kurikulum sebelum dokumen dinyatakan "
-              r"final.}" + "\n\n")
+             "setiap Capaian Pembelajaran Lulusan (CPL). Setiap diagram dibaca dari atas ke "
+             "bawah mengikuti urutan semester; mata kuliah pada semester yang sama "
+             "ditampilkan berdampingan. Setiap kotak menampilkan nama mata kuliah beserta "
+             "bobot SKS-nya, dan anak panah menunjukkan keterkaitan/urutan antar mata "
+             "kuliah dalam membangun capaian tersebut.\n\n")
+    outro = (r"\textit{Sepuluh diagram peta jalan CPL di atas memetakan kontribusi mata "
+              r"kuliah terhadap setiap CPL, disusun langsung dari pemetaan mata kuliah-CPL "
+              r"Kurikulum 2025 yang telah disinkronkan terhadap kurikulum 59 mata kuliah.}"
+              + "\n\n")
 
     new_text = text[:start_idx] + intro + new_diagrams + "\n" + outro + text[end_idx:]
 

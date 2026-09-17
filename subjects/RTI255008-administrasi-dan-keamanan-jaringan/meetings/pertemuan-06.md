@@ -18,7 +18,7 @@ Instalasi dasar gateway internet.
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Ceramah, studi kasus, instalasi dan konfigurasi.
 
 ## Estimasi Waktu
-1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengerjakan aktivitas terarah untuk instalasi dasar gateway internet dan menunjukkan evidence hasil belajar.

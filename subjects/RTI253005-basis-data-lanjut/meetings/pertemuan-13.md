@@ -18,7 +18,7 @@ Studi Kasus 2: implementasi stored procedure, trigger, dan function untuk domain
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, kolaborasi kelompok, dan presentasi.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengimplementasikan stored procedure, trigger, dan function untuk otomasi proses bisnis pada domain manajemen inventori, kemudian menguji dan mendokumentasikan hasilnya.

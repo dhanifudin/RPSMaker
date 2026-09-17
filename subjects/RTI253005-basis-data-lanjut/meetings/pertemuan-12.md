@@ -18,7 +18,7 @@ Studi Kasus 1: analisis kebutuhan dan perancangan skema basis data PostgreSQL un
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, kolaborasi kelompok, dan presentasi.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa menganalisis kebutuhan data domain e-commerce, merancang skema basis data PostgreSQL dengan optimasi indeks, lalu mengimplementasikan dan menguji query yang diperlukan.

@@ -18,7 +18,7 @@ Studi Kasus 4: implementasi full-text search dan pengelolaan data JSONB untuk do
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, kolaborasi kelompok, dan presentasi.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengimplementasikan full-text search dan pengelolaan data semi-terstruktur JSONB pada domain portal berita, termasuk pembuatan indeks GIN dan query kompleks.

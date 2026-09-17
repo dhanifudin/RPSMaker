@@ -18,7 +18,7 @@ Studi Kasus Integrasi dengan Aplikasi: koneksi PostgreSQL dari Python/Node.js/PH
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengintegrasikan PostgreSQL dengan aplikasi menggunakan bahasa pemrograman pilihan, mengimplementasikan operasi CRUD, dan mendokumentasikan kode beserta hasilnya.

@@ -18,7 +18,7 @@ Studi Kasus 5: integrasi penuh basis data PostgreSQL dengan aplikasi web dalam s
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, kolaborasi kelompok, dan presentasi.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengintegrasikan semua fitur PostgreSQL dalam aplikasi web multi-pengguna dengan manajemen transaksi yang tepat, kemudian mempresentasikan rancangan dan hasilnya.

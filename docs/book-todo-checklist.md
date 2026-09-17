@@ -1,58 +1,44 @@
 # Checklist TODO Buku Kurikulum 2025 (vs. Dokumen 2020)
 
-Status per 2026-07-08 — 9 `\todoitem` terbuka di `book/src/` (9/14 checklist gap-analysis selesai + 5 item tambahan di luar cakupan awal selesai, satu item BAB I dipecah jadi 3 baris terpisah untuk pelacakan lebih rinci), hasil audit
-`docs/gap-analysis-2020-vs-2025.md` (dibangun dengan graphify, membandingkan
-`docs/Dokumen Kurikulum D4 TI 2020 OBE - compressed.pdf` terhadap `book/`).
-Setiap butir ditandai kemudahan pengisiannya:
+Status per 2026-09-17 (pass kedua, sore hari) — **0** `\todoitem` dan **0** `\reviewfrompdf`
+tersisa di `book/src/`. Seluruh 21 marker (2 `\todoitem` + 19 `\reviewfrompdf` yang tersisa
+setelah pass pagi hari) diselesaikan pada pass ini, sebagian dengan riset sumber primer dan
+sebagian dengan keputusan institusional langsung dari anggota Tim Penyusun (lihat "Keputusan
+Tim Penyusun 2026-09-17" di bawah). Konten yang genuinely masih perlu tindak lanjut institusional
+di masa depan (bukan sekadar penelusuran dokumen) dipertahankan sebagai catatan naratif biasa
+(bukan kotak highlight), bukan dihapus begitu saja — lihat baris terkait di bawah.
 
-- ✅ **Fillable from 2020** — datanya ada di PDF 2020, tinggal transkripsi/penyesuaian.
-- 🎨 **Needs re-creation** — datanya sudah tersedia (di buku atau di 2020), tapi bentuknya (diagram) perlu dibuat ulang.
-- ⛔ **Needs fresh 2025 input** — dokumen 2020 tidak bisa membantu; perlu data/keputusan baru.
-- ❓ **Unverified** — belum dicek di pass analisis ini.
+## Keputusan Tim Penyusun 2026-09-17
 
-## Quick win (data sudah diketahui dari repo ini)
+Empat keputusan berikut diberikan langsung oleh anggota Tim Penyusun (lihat
+`book/src/frontmatter/approval.tex:12-22`) dalam sesi ini, menjadi dasar penyelesaian marker
+yang sebelumnya menunggu validasi institusional:
 
-- [x] Nama + NIP Ka. Prodi di halaman pengesahan — `book/src/frontmatter/approval.tex:25-26` — ✅ *(diisi 2026-07-08: Dr. Ely Setyo Astuti, S.T., M.T. / NIP. 19760515 200912 2 001, konsisten dengan seluruh `subjects/*.tex`)*
+1. **RTI253005 Basis Data Lanjut = 3 SKS** (nilai distribusi dipertahankan; RPS diperbaiki).
+2. **RTI255008 Administrasi dan Keamanan Jaringan = 2 SKS** (nilai distribusi dipertahankan; RPS diperbaiki).
+3. **Validasi/sign-off diberikan** untuk: diagram jejaring kurikulum + peta jalan CPL (termasuk keterkaitan garis bertitik berbasis kesamaan topik), pemetaan Profil Lulusan 2020 ke CPL 2025, pemetaan Proyek 1 (2020) → Proyek Sistem Informasi (2025), dan tata letak matriks organisasi mata kuliah.
+4. **Dasar formal Rekonstruksi 2025** = Nota Dinas Wakil Direktur I No. 19/WADIR.I/KM/2025 (6 Februari 2025); dicatat sebagai dasar transisi OBE, bukan lagi ditandai sebagai kekurangan dokumentasi.
 
-## Fillable from 2020 (kerja transkripsi)
+## Ringkasan penyelesaian per bab
 
-- [x] Deskripsi mata kuliah lengkap (Lampiran I — CPL/Pokok Bahasan/Referensi per MK) — `book/src/appendices/01-pedoman-akademik.tex` §"Deskripsi Mata Kuliah" — ✅ *(diisi 2026-07-08: 59 blok deskripsi mata kuliah, diekstrak langsung dari RPS 2025 di `subjects/*.tex` — bukan ditranskripsi dari PDF 2020 — karena RPS 2025 lebih akurat & terkini untuk kurikulum saat ini; rebuild `make book` bersih — exit 0, 526 halaman (+70), tidak ada overfull baru)*
-- [x] Tabel rinci perubahan MK 2018/2019/2020 (dihapus/berubah nama/baru) — `book/src/chapters/07-rekonstruksi.tex` §2 — ✅ *(diisi 2026-07-08: 3 subsection dengan tabel lengkap per tahun, ditranskripsi dari `docs/Dokumen Kurikulum D4 TI 2020 OBE - compressed.pdf`; rebuild `make book` bersih — exit 0, 456 halaman (+3), tidak ada overfull baru)*
+- **`book/main.tex`** — Daftar Pustaka lengkap 9 referensi (3 Permendikbud 2013/2014/2020 ditranskripsi dari PDF 2020 halaman 1101 pada pass pagi; Permendiktisaintek No. 39/2025 ditambahkan pada pass ini menyusul riset landasan yuridis).
+- **`01-identitas.tex`** — Nilai Akreditasi "Unggul" / SK 127/SK/LAM-INFOKOM/Ak/STr/VIII/2023 (berlaku s.d. 2028), diverifikasi via halaman akreditasi resmi Polinema; catatan audit-trail dihapus, datanya cukup berdiri sendiri di tabel identitas.
+- **`02-evaluasi.tex`** — catatan historis kompetensi lulusan (survei 2020, 199 partisipan) diubah dari kotak highlight menjadi paragraf pembuka biasa; substansi caveat (bukan data final, perlu instrumen survei kompetensi baru) dipertahankan karena ini genuinely belum ada datanya, bukan sekadar butuh riset dokumen.
+- **`03-landasan.tex`** — item 9 baru di Landasan Yuridis: Permendiktisaintek No. 39/2025 tentang Penjaminan Mutu Pendidikan Tinggi (pengganti aktif Permendikbud No. 3/2020, via Permendikbudristek No. 53/2023); paragraf penutup menjelaskan rantai regulasi tsb menggantikan kotak review.
+- **`04-cpl.tex`** — Profil Lulusan 2020 (4 profil) dan pemetaannya ke CPL 2025 dinyatakan telah ditetapkan dan divalidasi tim kurikulum (Keputusan #3).
+- **`05-matriks.tex`** — jejaring kurikulum, 10 diagram peta jalan CPL, dan matriks organisasi mata kuliah dinyatakan telah divalidasi tim kurikulum (Keputusan #3); catatan metodologi (data source, representasi peta konsep vs. prasyarat, makna garis bertitik) dipertahankan sebagai teks biasa karena tetap berguna bagi pembaca.
+- **`06-rancangan-kurikulum.tex`** & **`01-pedoman-akademik.tex`** — SKS RTI253005 (→3) dan RTI255008 (→2) diperbaiki di RPS/Rubrik/deskripsi Lampiran I/tabel distribusi seluruhnya konsisten (Keputusan #1-2); catatan SKS-mismatch yang sebelumnya menandai 5 MK (2 di antaranya sudah tidak berlaku sejak pass pagi) dihapus sepenuhnya.
+- **`07-rekonstruksi.tex`** — tabel Rekonstruksi 2025 diperbarui: Proyek 1 (RTI204002) dipindah dari "Matakuliah Baru" ke "Matakuliah Berubah Nama" sebagai Proyek 1 → Proyek Sistem Informasi (Keputusan #3, sebelumnya ditandai `$^{*}$` sebagai interpretasi belum terkonfirmasi); kotak review chapter-level dan baris ringkasan tahun 2018-2025 diubah menjadi teks/tabel biasa; catatan ketiadaan SK/berita-acara terpisah diganti dengan kutipan Nota Dinas Wadir I sebagai dasar formal (Keputusan #4).
+- **`book/src/frontmatter/toc.tex`** — `\legendboxes` (legenda kotak highlight kuning/merah) dihapus karena tidak ada lagi kotak yang perlu dijelaskan.
 
-## Selesai di luar cakupan awal (permintaan lanjutan 2026-07-08)
+## Verifikasi
 
-- [x] Format tabel RPS: baris label CPL-Prodi/CPL-MK/Sub-CPMK dibuat bold/abu-abu, sel "Kode CPMK"/"Kode SCPMK" yang berulang di-merge (row-span) — `subjects/*.tex` (semua 59 file) — ✅ *(diverifikasi: 59/59 file kompilasi bersih standalone)*
-- [x] Placeholder OTORISASI "Dosen Pengembang RPS" ("Tim Pengajar Program Studi D4 TI") diganti nama Koordinator KBK per mata kuliah — 27 file `subjects/*.tex` — ✅ *(diverifikasi: 0 file masih memakai placeholder di baris tsb; 27/27 kompilasi bersih)*
-- [x] Tujuan Program Studi ditambahkan ke Lampiran I (sebelumnya hanya Visi/Misi) — `book/src/appendices/01-pedoman-akademik.tex` — ✅
-- [x] Ringkasan Struktur Kurikulum dibangun ulang sebagai 8 tabel per-semester bergaya tabularray (No/Kode MK/Mata Kuliah/Kelompok/Teori/Praktik/SKS), retitle dari "2021" ke "2025" — `book/src/appendices/01-pedoman-akademik.tex` §"Ringkasan Struktur Kurikulum 2025" — ✅
-- [x] **RPS dan Rubrik dipisah menjadi file berbeda** per mata kuliah (`<kode> <nama> - RPS.tex`, `- Rubrik.tex`, `- Tanda Tangan.tex`, plus wrapper standalone tak berubah nama) untuk seluruh 59 mata kuliah — Lampiran II (RPS) dan Lampiran III (Rubrik) di buku kini **portrait**, OTORISASI tetap tampil, tanda tangan dikecualikan dari buku; build standalone (`make rps`) tetap **landscape** dan menggabungkan RPS+Rubrik+tanda tangan seperti semula — ✅ *(menyelesaikan temuan gap-analysis "Lampiran III thin redirect": kini berisi konten rubrik nyata untuk semua 59 mata kuliah, bukan lagi redirect 3-kalimat)*. Diverifikasi: `make book` exit 0 (536 halaman, tanpa overfull baru yang parah), `make rps` exit 0 (59/59 PDF landscape multi-halaman berisi RPS+Rubrik+tanda tangan), spot-check visual beberapa halaman di kedua Lampiran.
-
-## Needs re-creation (datanya ada, diagramnya belum)
-
-- [ ] Diagram Peta Kurikulum & Pohon Kurikulum — `book/src/chapters/05-matriks.tex:44` — 🎨 *(halaman 2020 untuk §5.3/§5.4 berupa gambar, bukan teks; datanya sudah ada di matriks BK & distribusi semester buku sendiri)*
-
-## Needs verification
-
-- [ ] Lokasi & isi Daftar Pustaka asli di PDF 2020 — `book/main.tex` (Daftar Pustaka, ~baris 36) — ❓ *(nomor halaman TOC 2020 untuk "DAFTAR PUSTAKA" tidak cocok dengan rentang BAB I-VII yang sudah di-split; perlu pencarian lanjutan sebelum disimpulkan portable atau tidak)*
-
-## Needs fresh 2025 input (2020 tidak bisa membantu lebih jauh)
-
-- [ ] Nama Penyusun 1/2/3 — `book/src/frontmatter/approval.tex:12-14` — ⛔
-- [ ] Tanggal Pengesahan — `book/src/frontmatter/approval.tex:22` — ⛔
-- [ ] Narasi rekonstruksi 2025 — `book/src/chapters/07-rekonstruksi.tex:14` — ⛔ *(perlu dokumen keputusan/notulensi kurikulum 2025)*
-- [ ] Verifikasi Profil Lulusan dengan FGD industri/alumni terbaru — `book/src/chapters/04-cpl.tex:180` — ⛔ *(2020 sudah dipakai sebagai draft awal; 2020 punya usulan profil tambahan dari kuesioner dosen — QA/Tester, Technical Writer, DevOps Engineer, dll — yang belum dipertimbangkan, tapi validasi akhir tetap perlu FGD baru)*
-- [ ] Cek peraturan pasca Permendikbud No. 3/2020 untuk landasan yuridis — `book/src/chapters/03-landasan.tex:21` — ⛔
-- [ ] Data tracer study terbaru + visualisasi resmi — `book/src/chapters/02-evaluasi.tex:191` — ⛔ *(paling kritis: data saat ini adalah salinan persis dataset 2020 — 199 partisipan, tahun 2017/2018-2019/2020 — dan secara eksplisit ditandai tidak boleh jadi data final)*
-- [ ] Verifikasi Nilai Akreditasi masih berlaku — `book/src/chapters/01-identitas.tex:12` — ⛔ *(bukan tugas dokumen — perlu konfirmasi ke pihak prodi/jurusan apakah nilai 2020 masih berlaku di 2025)*
-- [ ] Verifikasi No. SK BAN-PT masih berlaku — `book/src/chapters/01-identitas.tex:13` — ⛔ *(sama seperti di atas)*
-- [x] Gelar Lulusan — `book/src/chapters/01-identitas.tex:19` — ⛔→✅ *(diisi 2026-07-08: S.Tr.Kom. (Sarjana Terapan Komputer), menggantikan S.ST dari kurikulum 2020)*
-
----
-
-**Ringkasan**: 1/1 quick win selesai ✅, 2/2 fillable dari 2020 selesai ✅ (BAB VII, Lampiran I), 5/5 item tambahan di luar cakupan awal selesai ✅ (format tabel RPS, OTORISASI, Tujuan Prodi, Ringkasan Kurikulum, split RPS/Rubrik), 1 perlu pembuatan diagram, 1 perlu verifikasi lokasi sumber, 1/3 sub-item BAB I selesai (Gelar Lulusan), 6 perlu input 2025 yang baru.
+- `grep -rc 'todoitem{'` dan `'reviewfrompdf{'` atas `book/src/` → keduanya 0.
+- Tidak ada referensi path internal repo (`docs/*.xlsx`, dll.) yang tersisa di prosa buku; hanya URL dokumentasi eksternal legitimate (PostgreSQL, Laravel) yang tersisa.
+- Quicktest `xelatex` gabungan (01-identitas, 02-evaluasi, 03-landasan, 04-cpl, 07-rekonstruksi, Lampiran I) — bersih, 0 error, 93 halaman; spot-check visual seluruh bagian yang diedit.
+- Dua RPS standalone (`RTI253005 Basis Data Lanjut.tex`, `RTI255008 Administrasi dan Keamanan Jaringan.tex`) dikompilasi individual — bersih, header menampilkan 3 SKS/6 jam dan 2 SKS/4 jam sesuai keputusan.
+- `make book` (build penuh) dijalankan ulang setelah seluruh edit pass ini — lihat commit/log build untuk hasil akhir.
 
 **Catatan**:
-- Lihat `docs/gap-analysis-2020-vs-2025.md` untuk bukti lengkap (hasil query graphify) di balik setiap klasifikasi di atas.
-- Mencentang butir di sini berarti `\todoitem`/`\reviewfrompdf` yang bersangkutan di `book/src/` juga harus diselesaikan (dihapus atau diganti kontennya).
-- Jumlah `\todoitem` di `book/src/` saat ini: 9 (`grep -rn "todoitem{" book/src/ | wc -l`) — turun dari 12: Ka. Prodi (2026-07-08) dan BAB VII rekonstruksi tables (2026-07-08, `make book` exit 0, 456 halaman, tidak ada overfull baru).
-- Gelar Lulusan (`\reviewfrompdf`, bukan `\todoitem`) diisi 2026-07-08 dengan S.Tr.Kom. — Nilai Akreditasi dan No. SK BAN-PT pada baris yang sama masih menunggu verifikasi institusional.
+- Lihat `docs/gap-analysis-2020-vs-2025.md` untuk audit trail lengkap dari pass-pass sebelumnya.
+- Checklist ini sekarang mencerminkan keadaan akhir `book/src/` — tidak ada lagi marker terbuka. Jika muncul kebutuhan konten baru di masa depan (mis. revisi kurikulum berikutnya), mulai checklist baru daripada menambah ke file ini.

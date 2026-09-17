@@ -18,7 +18,7 @@ Backup-Restore dan Migrasi MySQL ke PostgreSQL: pg_dump, pg_restore, psql dump, 
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa melakukan backup dan restore basis data PostgreSQL, kemudian memigrasikan basis data dari MySQL menggunakan pgloader dan memverifikasi hasilnya.

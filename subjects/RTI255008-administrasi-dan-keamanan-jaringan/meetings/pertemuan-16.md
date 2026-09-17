@@ -19,7 +19,7 @@ Refleksi & portofolio kompetensi.
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Diskusi interaktif, presentasi ringkas, konsultasi portofolio.
 
 ## Estimasi Waktu
-1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
+1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa mengerjakan aktivitas terarah untuk refleksi & portofolio kompetensi dan menunjukkan evidence hasil belajar.

@@ -18,7 +18,7 @@ Query Dasar DDL dan DML: CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT das
 Modalitas: Blended Learning. Bentuk: Luring/Daring. Metode: Problem-Based Learning, praktikum laboratorium, demonstrasi, dan peer review.
 
 ## Estimasi Waktu
-1 x 2 x 50' tatap muka; 1 x 2 x 50' tugas/praktik mandiri.
+1 x 3 x 50' tatap muka; 1 x 3 x 50' tugas/praktik mandiri.
 
 ## Pengalaman Belajar Mahasiswa
 Mahasiswa membuat skema basis data, mengelola data menggunakan DDL dan DML, serta mengeksekusi query SELECT dasar berdasarkan studi kasus.
