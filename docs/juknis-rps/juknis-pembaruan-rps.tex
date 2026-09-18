@@ -1,0 +1,272 @@
+% Juknis Pembaruan RPS untuk Program Studi D4 Teknik Informatika
+% Compile with xelatex from docs/juknis-rps/ directory.
+\documentclass[12pt,a4paper]{report}
+
+\newcommand{\LabName}{Pembaruan RPS}
+
+\input{../pedoman-laboratorium/preamble}
+\usepackage{amssymb}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% ----- Section heading, sized up to serve as the document's main divider ----
+\titleformat{\section}
+  {\headingfont\bfseries\Large}
+  {\thesection}
+  {0.6em}
+  {}
+\titlespacing*{\section}{0pt}{16pt}{8pt}
+\renewcommand{\thesection}{\arabic{section}}
+
+\newcommand{\DocKaProdi}{Dr. Ely Setyo Astuti, S.T., M.T.}
+\newcommand{\DocKaProdiNIP}{19760515 200912 2 001}
+
+% ----- Flow-diagram boxes (local to this document) --------------------------
+\usetikzlibrary{shapes.geometric}
+\tikzset{
+  flowbox/.style={draw, rounded corners, fill=headblue,
+    font=\bfseries\fontsize{8.5}{10}\selectfont, align=center,
+    text width=6.4cm, minimum height=1.05cm, inner sep=5pt},
+  flowdecision/.style={draw, diamond, aspect=2.6, fill=headgray,
+    font=\bfseries\fontsize{8}{9.5}\selectfont, align=center,
+    text width=3.2cm, inner sep=2pt},
+  flowend/.style={draw, rounded corners, fill=headgreen,
+    font=\bfseries\fontsize{8.5}{10}\selectfont, align=center,
+    text width=6.4cm, minimum height=1.05cm, inner sep=5pt},
+}
+\newcommand{\AlurRPS}{%
+\begin{center}
+\begin{tikzpicture}[>={Stealth[length=2mm]}, thick, node distance=8mm]
+  \node[flowbox] (langkah1) {1. Dosen Pengembang RPS menyusun/merevisi RPS};
+  \node[flowbox, below=of langkah1] (langkah2) {2. Koordinator RMK/KBK memeriksa RPS menggunakan Checklist Validasi (\S\ref{sec:checklist})};
+  \node[flowdecision, below=13mm of langkah2] (cek) {Checklist terpenuhi?};
+  \node[flowbox, below=13mm of cek] (langkah4) {4. Ka Prodi mengesahkan RPS (tanda tangan blok OTORISASI)};
+  \node[flowend, below=of langkah4] (langkah5) {5. RPS diunggah ke SIAKAD; pembaruan dicatat pada log revisi (\S\ref{sec:revisi})};
+
+  \draw[->] (langkah1) -- (langkah2);
+  \draw[->] (langkah2) -- (cek);
+  \draw[->] (cek) -- node[right, font=\small]{Ya} (langkah4);
+  \draw[->] (langkah4) -- (langkah5);
+  \draw[->] (cek.west) -- ++(-2.6cm,0) node[midway, above, font=\small]{Tidak} |- (langkah1.west);
+\end{tikzpicture}
+\end{center}%
+}
+
+\begin{document}
+
+% ===========================================================================
+% Cover
+% ===========================================================================
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[polinemablue]
+    (current page.south west) rectangle ([yshift=4.2cm]current page.south east);
+  \node[white, font=\titlefont\bfseries]
+    at ([yshift=3.4cm]current page.south)
+    {\fontsize{14pt}{17pt}\selectfont JURUSAN TEKNOLOGI INFORMASI};
+  \node[white, font=\titlefont\bfseries]
+    at ([yshift=2.7cm]current page.south)
+    {\fontsize{14pt}{17pt}\selectfont POLITEKNIK NEGERI MALANG};
+  \node[white, font=\titlefont\bfseries]
+    at ([yshift=1.9cm]current page.south)
+    {\fontsize{15pt}{18pt}\selectfont 2026};
+\end{tikzpicture}
+
+\vspace*{1.6cm}
+
+\begin{center}
+  {\titlefont\bfseries\fontsize{16pt}{19pt}\selectfont
+    PETUNJUK TEKNIS\par}
+  \vspace{0.3cm}
+  {\color{polinemablue}\rule{0.55\textwidth}{1.5pt}\par}
+  \vspace{0.45cm}
+  {\titlefont\bfseries\fontsize{15pt}{18pt}\selectfont
+    \textcolor{polinemablue}{PEMBARUAN RENCANA PEMBELAJARAN SEMESTER (RPS)}\par}
+  \vspace{0.2cm}
+  {\headingfont\fontsize{12pt}{15pt}\selectfont
+    Program Studi D4 Teknik Informatika\par}
+\end{center}
+
+\vspace{0.9cm}
+
+\begin{center}
+  \includegraphics[height=3.6cm,keepaspectratio]{logo-right.png}
+\end{center}
+
+\vspace{0.6cm}
+
+\begin{center}
+  {\headingfont\bfseries\fontsize{22pt}{26pt}\selectfont
+    \textcolor{polinemablue}{POLINEMA}\par}
+\end{center}
+
+\vspace{1.1cm}
+
+\begin{center}
+\begin{tblr}{width=0.92\textwidth,colspec={|Q[l,m,4.2cm]|X[l,m]|},hlines,vlines,rowsep=4pt,colsep=4pt}
+\textbf{Nomor Dokumen} & [\textit{diisi oleh Program Studi saat disahkan}] \\
+\textbf{Tanggal Berlaku} & [\textit{diisi oleh Program Studi saat disahkan}] \\
+\textbf{Status} & Draf, menunggu pengesahan Koordinator RMK/KBK dan Ka Prodi \\
+\textbf{Unit Terkait} & Program Studi D4 Teknik Informatika, Jurusan Teknologi Informasi, Polinema \\
+\end{tblr}
+\end{center}
+
+\vspace*{5.2cm}
+
+\end{titlepage}
+
+\clearpage
+\pagenumbering{arabic}
+
+% ===========================================================================
+\section*{Pengesahan}
+% ===========================================================================
+
+Dengan ditandatanganinya lembar ini, Ketua Jurusan Teknologi Informasi dan Ketua Program Studi D4 Teknik Informatika menyatakan bahwa Petunjuk Teknis Pembaruan RPS pada dokumen ini telah ditinjau dan disetujui untuk diberlakukan. Sejak tanggal pengesahan ini, seluruh pembaruan RPS Program Studi D4 Teknik Informatika wajib mengikuti mekanisme review, validasi, dan pengesahan sebagaimana diatur dalam juknis ini.
+
+\vspace{0.8cm}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{L{4.3cm}L{0.5cm}L{8.6cm}}
+Nama Dokumen & : & Petunjuk Teknis Pembaruan RPS \\
+Program Studi & : & D4 Teknik Informatika \\
+Jurusan & : & Teknologi Informasi \\
+Nomor Dokumen & : & [\textit{diisi oleh Program Studi saat disahkan}] \\
+Berlaku Efektif & : & [\textit{diisi oleh Program Studi saat disahkan}] \\
+\end{tabular}
+\end{center}
+
+\vspace{1.5cm}
+
+\begin{center}
+\begin{tabular}{C{7cm}C{7cm}}
+Menyetujui, & Malang, \underline{\hspace{3.5cm}} \\
+Ketua Jurusan Teknologi Informasi & Ketua Program Studi D4 Teknik Informatika \\
+\\[2.2cm]
+\KetuaJurusan & \DocKaProdi \\
+NIP. \KetuaJurusanNIP & NIP. \DocKaProdiNIP \\
+\end{tabular}
+\end{center}
+
+\clearpage
+
+% ===========================================================================
+\section{Latar Belakang}
+\label{sec:latar}
+% ===========================================================================
+
+Rekonstruksi kurikulum berbasis \emph{Outcome-Based Education} (OBE) yang berlaku sejak Februari 2025 mengubah seluruh 59 RPS mata kuliah Kurikulum 2025 menjadi dokumen hidup yang harus terus mengikuti perkembangan capaian pembelajaran, kebijakan institusi, dan masukan dari proses penjaminan mutu. Sebuah RPS yang disusun sekali dan tidak pernah ditinjau ulang akan cepat tertinggal dari perubahan tersebut, sehingga Program Studi memerlukan cara yang teratur untuk memastikan setiap RPS tetap relevan dari tahun ke tahun.
+
+Kebutuhan ini menjadi semakin nyata setelah evaluasi akreditasi internasional IABEE pada Kriteria 2.1 mencatat bahwa Program Studi belum memiliki \textbf{mekanisme formal yang memastikan seluruh RPS direview, divalidasi, dan disahkan secara konsisten}. Yang dimaksud evaluator bukan sekadar ketiadaan hasil akhir seperti RPS yang sudah ditandatangani, melainkan ketiadaan prosedur yang terdokumentasi: siapa yang memeriksa, kapan pemeriksaan dilakukan, kriteria apa yang digunakan, dan bagaimana jejaknya dicatat. Tanpa dokumentasi siklus tersebut, keterlusuran mutu RPS sulit dibuktikan kepada pihak eksternal meskipun secara praktik peninjauan RPS mungkin sudah berjalan.
+
+Petunjuk teknis ini disusun untuk mengisi kekosongan tersebut sambil tetap sesederhana mungkin. Alih-alih membentuk kepanitiaan atau jenjang persetujuan baru, juknis ini memformalkan rantai otorisasi yang sudah berjalan pada setiap berkas RPS, yaitu Dosen Pengembang RPS, Koordinator RMK, dan Ka Prodi, menjadi sebuah siklus review, validasi, dan pengesahan yang baku dan dapat diaudit.
+
+% ===========================================================================
+\section{Dasar Hukum}
+\label{sec:dasarhukum}
+% ===========================================================================
+
+Penyusunan juknis ini mengacu pada peraturan dan kebijakan berikut, yang secara langsung maupun tidak langsung menuntut adanya siklus pembaruan RPS yang terdokumentasi.
+
+\begin{enumerate}
+\item Peraturan Menteri Pendidikan Tinggi, Sains, dan Teknologi Nomor 39 Tahun 2025 tentang Penjaminan Mutu Pendidikan Tinggi.
+\item Nota Dinas Wakil Direktur I Nomor 19/WADIR.I/KM/2025 tanggal 6 Februari 2025, tentang penerapan pendekatan \emph{Outcome-Based Education} (OBE) di seluruh program studi.
+\item Nota Dinas Wakil Direktur I Nomor 11/WADIR I/KM/2026 tanggal 15 Januari 2026, tentang Penataan Kurikulum T.A.\ 2026/2027 sesuai Standar Penjaminan Mutu Pendidikan Tinggi, IKU 2026, dan Akreditasi Internasional. Nota dinas ini berlaku efektif mulai Semester Ganjil T.A.\ 2026/2027 untuk seluruh angkatan, dan menjadi pemicu langsung dibutuhkannya siklus pembaruan RPS yang terdokumentasi.
+\end{enumerate}
+
+% ===========================================================================
+\section{Tujuan}
+\label{sec:tujuan}
+% ===========================================================================
+
+Juknis ini bertujuan menjamin setiap RPS Program Studi D4 Teknik Informatika tetap mutakhir dan melalui siklus review, validasi, dan pengesahan yang formal dan konsisten, sejalan dengan temuan evaluator akreditasi pada Bagian~\ref{sec:latar}.
+
+% ===========================================================================
+\section{Ruang Lingkup}
+\label{sec:lingkup}
+% ===========================================================================
+
+Juknis ini berlaku untuk seluruh RPS mata kuliah Kurikulum 2025, yang berjumlah 59 mata kuliah, beserta seluruh Koordinator RMK/KBK di Program Studi D4 Teknik Informatika yang bertanggung jawab atas pemeriksaannya.
+
+% ===========================================================================
+\section{Istilah}
+\label{sec:istilah}
+% ===========================================================================
+
+Agar tidak menimbulkan penafsiran ganda, istilah berikut digunakan secara konsisten di sepanjang juknis ini.
+
+\begin{tblr}{width=\textwidth,colspec={|Q[l,m,4.2cm]|X[l,m]|},hlines,vlines,hspan=minimal,rowsep=3pt,colsep=4pt,row{1}={bg=headblue,font=\bfseries},column{1}={bg=headgray,font=\bfseries}}
+Istilah & Definisi \\
+RPS & Rencana Pembelajaran Semester, dokumen rencana pembelajaran per mata kuliah. \\
+Dosen Pengembang RPS & Dosen (atau tim dosen) yang menyusun/merevisi RPS suatu mata kuliah. \\
+Koordinator RMK/KBK & Koordinator Rumpun Mata Kuliah / Kelompok Bidang Keahlian, yang memeriksa RPS sebelum disahkan. Istilah ``RMK'' (dipakai pada berkas RPS) dan ``KBK'' (dipakai pada dokumen tanggapan akreditasi) merujuk pada peran yang sama. \\
+Ka Prodi & Ketua Program Studi D4 Teknik Informatika, yang mengesahkan RPS setelah diperiksa Koordinator RMK/KBK. \\
+\end{tblr}
+
+% ===========================================================================
+\section{Pemicu Pembaruan RPS}
+\label{sec:pemicu}
+% ===========================================================================
+
+RPS tidak diperbarui secara sembarangan. Pembaruan hanya dilakukan apabila terjadi salah satu dari tiga kondisi berikut, agar perubahan tetap dapat dipertanggungjawabkan alasannya.
+
+\begin{enumerate}
+\item \textbf{Siklus tahunan rutin}, yaitu peninjauan yang dilakukan setiap tahun ajaran sebelum Semester Ganjil dimulai, sebagaimana diatur pada Bagian~\ref{sec:jadwal}.
+\item \textbf{Perubahan kebijakan resmi}, yaitu terbitnya peraturan atau nota dinas baru yang berdampak pada struktur kurikulum atau capaian pembelajaran, misalnya Nota Dinas 11/WADIR I/KM/2026.
+\item \textbf{Temuan evaluasi}, yaitu hasil tracer study, evaluasi pembelajaran mahasiswa, atau temuan asesmen akreditasi yang merekomendasikan perubahan pada suatu mata kuliah.
+\end{enumerate}
+
+% ===========================================================================
+\section{Mekanisme dan Alur}
+\label{sec:alur}
+% ===========================================================================
+
+Begitu salah satu pemicu pada Bagian~\ref{sec:pemicu} muncul, pembaruan RPS berjalan melalui lima langkah berikut, yang seluruhnya memanfaatkan blok OTORISASI (Dosen Pengembang RPS, Koordinator RMK, Ka Prodi) yang sudah ada pada setiap berkas RPS. Tidak ada peran atau kolom baru yang perlu ditambahkan pada templat RPS.
+
+\begin{enumerate}
+\item \textbf{Dosen Pengembang RPS} menyusun atau merevisi RPS sesuai pemicu yang berlaku.
+\item \textbf{Koordinator RMK/KBK} memeriksa RPS menggunakan Checklist Validasi pada Bagian~\ref{sec:checklist}.
+\item Apabila checklist belum terpenuhi, RPS dikembalikan kepada Dosen Pengembang untuk diperbaiki, dan pemeriksaan diulang dari langkah kedua.
+\item Apabila checklist terpenuhi, \textbf{Ka Prodi} mengesahkan RPS dengan menandatangani blok OTORISASI, mengikuti format yang sudah berlaku pada seluruh RPS saat ini.
+\item RPS yang telah disahkan diunggah ke SIAKAD, dan pembaruannya dicatat pada log revisi sebagaimana dijelaskan pada Bagian~\ref{sec:revisi}.
+\end{enumerate}
+
+Alur ini digambarkan pada diagram berikut.
+
+\AlurRPS
+
+% ===========================================================================
+\section{Checklist Validasi}
+\label{sec:checklist}
+% ===========================================================================
+
+Sebelum RPS diajukan untuk pengesahan Ka Prodi, Koordinator RMK/KBK memeriksa lima hal berikut.
+
+\begin{itemize}
+\item[$\square$] Kesesuaian CPL, CPMK, dan Sub-CPMK dalam RPS.
+\item[$\square$] Kesesuaian bobot SKS dengan distribusi resmi Kurikulum 2025.
+\item[$\square$] Referensi/pustaka masih relevan dan tersedia.
+\item[$\square$] Blok OTORISASI lengkap (Dosen Pengembang RPS, Koordinator RMK, Ka Prodi).
+\item[$\square$] Rubrik penilaian lengkap dan konsisten dengan bentuk penilaian pada RPS.
+\end{itemize}
+
+% ===========================================================================
+\section{Pencatatan Revisi}
+\label{sec:revisi}
+% ===========================================================================
+
+Setiap kali RPS disahkan ulang, kolom \textbf{TGL.\ PENYUSUNAN} pada RPS diperbarui menjadi tanggal revisi terakhir, tanpa menambah kolom versi baru pada templat RPS.
+
+Sebagai pelengkap, Program Studi mengelola sebuah log revisi bersama yang mencatat setiap pembaruan RPS: kode dan nama mata kuliah, tanggal revisi, alasan singkat perubahan, serta nama Koordinator RMK/KBK yang memvalidasinya. Log ini menjadi bukti bahwa siklus review pada Bagian~\ref{sec:alur} benar-benar berjalan dari waktu ke waktu, bukan hanya prosedur di atas kertas.
+
+% ===========================================================================
+\section{Jadwal}
+\label{sec:jadwal}
+% ===========================================================================
+
+Peninjauan RPS secara rutin dilakukan setiap bulan Juni sampai dengan Juli, sebelum Semester Ganjil dimulai. Jadwal ini selaras dengan berlakunya Nota Dinas 11/WADIR I/KM/2026 pada Semester Ganjil T.A.\ 2026/2027. Pemicu di luar jadwal ini, yaitu perubahan kebijakan resmi atau temuan evaluasi sebagaimana disebutkan pada Bagian~\ref{sec:pemicu}, dapat memulai siklus pembaruan kapan pun diperlukan tanpa menunggu periode Juni sampai Juli.
+
+\end{document}

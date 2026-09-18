@@ -1,5 +1,8 @@
 # Juknis Pembaruan RPS — Program Studi D4 Teknik Informatika
 
+**Versi PDF berkop institusi (siap cetak/tanda tangan):** `docs/juknis-rps/juknis-pembaruan-rps.tex`
+(bangun dengan `make juknis`) — berkas ini (`.md`) tetap menjadi sumber substansi.
+
 **Status:** Draf — menunggu pengesahan Koordinator RMK/KBK dan Ka Prodi.
 **Nomor Dokumen:** [___] *(diisi oleh prodi saat disahkan)*
 **Tanggal Berlaku:** [___] *(diisi oleh prodi saat disahkan)*

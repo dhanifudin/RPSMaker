@@ -1,4 +1,4 @@
-.PHONY: all rps book pedoman clean distclean clean-rps clean-pedoman
+.PHONY: all rps book pedoman juknis json validate-json clean distclean clean-rps clean-pedoman
 
 LATEX ?= pdflatex
 LATEXFLAGS ?= -interaction=nonstopmode -halt-on-error
@@ -9,6 +9,7 @@ MAIN := $(BOOK_DIR)/main.tex
 CACHE_DIR := .cache
 PEDOMAN_DIR := docs/pedoman-laboratorium
 PEDOMAN_OUT := pedoman-lab
+JUKNIS_DIR := docs/juknis-rps
 
 all: rps book pedoman
 
@@ -43,6 +44,23 @@ pedoman:
 		rm -f "$$out"/*.aux "$$out"/*.log "$$out"/*.out "$$out"/*.toc "$$out"/*.xdv "$$out/build.log"; \
 	done
 
+juknis:
+	@mkdir -p "$(CACHE_DIR)/fontconfig"
+	@(cd "$(JUKNIS_DIR)" && \
+	 XDG_CACHE_HOME="$(CURDIR)/$(CACHE_DIR)" xelatex -file-line-error -interaction=nonstopmode -halt-on-error \
+		juknis-pembaruan-rps.tex > build.log 2>&1 \
+		|| { tail -120 build.log; exit 1; } && \
+	 XDG_CACHE_HOME="$(CURDIR)/$(CACHE_DIR)" xelatex -file-line-error -interaction=nonstopmode -halt-on-error \
+		juknis-pembaruan-rps.tex >> build.log 2>&1 \
+		|| { tail -120 build.log; exit 1; }); \
+	rm -f "$(JUKNIS_DIR)"/*.aux "$(JUKNIS_DIR)"/*.log "$(JUKNIS_DIR)"/*.out "$(JUKNIS_DIR)"/*.toc "$(JUKNIS_DIR)/build.log"
+
+json:
+	python3 scripts/export_rps_json.py --all
+
+validate-json:
+	python3 scripts/export_rps_json.py --all --validate
+
 clean:
 	$(LATEXMK) -cd -c $(MAIN)
 	@if [ -d RPS ]; then \
@@ -51,6 +69,7 @@ clean:
 	@if [ -d $(PEDOMAN_OUT) ]; then \
 		find $(PEDOMAN_OUT) \( -name '*.aux' -o -name '*.log' -o -name '*.out' -o -name '*.toc' \) -type f | xargs -r rm -f; \
 	fi
+	@find $(JUKNIS_DIR) \( -name '*.aux' -o -name '*.log' -o -name '*.out' -o -name '*.toc' \) -type f | xargs -r rm -f
 
 distclean:
 	$(LATEXMK) -cd -C $(MAIN)

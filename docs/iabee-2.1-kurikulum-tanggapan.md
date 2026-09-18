@@ -132,3 +132,55 @@ final yang siap disalin apa adanya ke sheet.
   tidak mencakup detail sampai tingkat sub-topik — tapi sebaiknya dicek ulang terhadap SK
   kurikulum 2020 asli (non-digital) sebelum draf ini difinalisasi, terlepas dari status
   kebijakan transisi di atas.
+
+## Draf Jawaban (kolom "Answer") — 2.1.3, item (4)
+
+Juknis review-validasi-pengesahan RPS sudah tersedia sebagai draf lengkap di
+`docs/juknis-update-rps.md` (sumber substansi) dan `docs/juknis-rps/juknis-pembaruan-rps.tex`
+(versi PDF berkop institusi, dibangun dengan `make juknis`), didukung
+`docs/rps-revision-log.md` sebagai log bersama. Draf jawaban di bawah karena itu sudah bisa
+merujuk dokumen nyata — bukan usulan kebijakan seperti draf 2.1.1 — namun **belum bisa
+disalin final ke sheet** karena juknis masih berstatus "Draf — menunggu pengesahan"
+(Nomor Dokumen, Tanggal Berlaku, dan tanda tangan Koordinator RMK/KBK masih placeholder
+`[___]`).
+
+**Isu dari Evaluator**
+
+> Belum ada mekanisme formal yang memastikan seluruh RPS direview, divalidasi, dan
+> disahkan secara konsisten.
+
+**Solusi yang Diusulkan (draf jawaban)**
+
+> Menindaklanjuti masukan evaluator, Program Studi telah menyusun **Petunjuk Teknis (Juknis)
+> Pembaruan RPS** yang memformalkan siklus review–validasi–pengesahan sebagai prosedur baku,
+> memanfaatkan struktur otorisasi yang sudah berjalan pada seluruh 59 RPS Kurikulum 2025
+> (Dosen Pengembang RPS → Koordinator RMK/KBK → Ka Prodi):
+>
+> **1. Alur** — Dosen Pengembang RPS menyusun/merevisi RPS → Koordinator RMK/KBK memeriksa
+> menggunakan Checklist Validasi baku → RPS dikembalikan bila checklist belum terpenuhi →
+> Ka Prodi mengesahkan RPS melalui tanda tangan pada blok OTORISASI yang sudah berlaku pada
+> templat RPS saat ini → RPS diunggah ke SIAKAD dan pembaruan dicatat pada log revisi.
+>
+> **2. Checklist Validasi** (5 butir, diperiksa Koordinator RMK/KBK): kesesuaian
+> CPL–CPMK–Sub-CPMK, kesesuaian bobot SKS dengan distribusi resmi, kemutakhiran
+> referensi/pustaka, kelengkapan blok OTORISASI, dan konsistensi rubrik penilaian.
+>
+> **3. Jadwal** — peninjauan rutin setiap Juni–Juli sebelum Semester Ganjil dimulai, dengan
+> pemicu tambahan di luar jadwal (perubahan kebijakan resmi, temuan tracer study/evaluasi
+> pembelajaran/asesmen akreditasi).
+>
+> **4. Pencatatan** — setiap pembaruan RPS dicatat pada log revisi bersama Program Studi,
+> sebagai bukti siklus berjalan yang dapat ditelusuri dari waktu ke waktu.
+>
+> Dokumen Juknis (Nomor Dokumen **[___]**, disahkan **[___]**) beserta log revisi terlampir.
+
+**Hal yang masih perlu diverifikasi/dilengkapi Prodi sebelum draf ini disalin ke sheet:**
+
+- Pengesahan resmi Juknis: mengisi Nomor Dokumen, Tanggal Berlaku, nama Koordinator
+  RMK/KBK perwakilan, dan menandatangani PDF (`docs/juknis-rps/juknis-pembaruan-rps.tex`,
+  build dengan `make juknis`).
+- Mengisi `docs/rps-revision-log.md` dengan entri nyata (saat ini baru berisi satu baris
+  contoh) — idealnya beberapa entri retroaktif dari siklus review yang sudah pernah berjalan,
+  sebagai bukti implementasi, bukan hanya prosedur di atas kertas.
+- Melampirkan PDF Juknis yang sudah disahkan + log revisi terisi + contoh RPS dengan blok
+  OTORISASI lengkap sebagai bukti pendukung pada sheet tanggapan.
