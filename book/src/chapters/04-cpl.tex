@@ -251,3 +251,273 @@ CPMK1008 & Mampu mengintegrasikan hasil analisis dan desain sistem ke dalam pros
 CPMK1009 & Mampu mengidentifikasi tahapan penyelesaian ilmiah yang tepat untuk persoalan kompleks di bidang informatika. \\
 \bottomrule
 \end{longtable}
+
+\section{Analisis Ketercapaian CPL}
+
+\subsection{Ringkasan Eksekutif}
+
+Bagian ini menyajikan analisis ketercapaian Capaian Pembelajaran Lulusan (CPL) berdasarkan data nilai riil mahasiswa, disusun untuk Ketua Program Studi (KPS) pada 13 Juli 2026. Sumber data adalah basis data nilai \texttt{nilai\_staging}, dipetakan ke taksonomi kurikulum resmi pada \texttt{obe\_system} (Kurikulum 2025). Sebanyak 18.982 nilai mata kuliah (tahun akademik 2021/2022 dan 2022/2023) berhasil dipetakan 100\% ke taksonomi resmi (10 CPL, 56 MK, 83 CPMK). Ketercapaian CPL dihitung sebagai rata-rata tertimbang untuk 5 angkatan aktif (2018--2022): nilai satu mata kuliah dibagi rata ke seluruh CPMK mata kuliah tersebut, kemudian diagregasi ke CPL. Rata-rata capaian berkisar antara 67\% hingga 82\%, dengan tingkat pencapaian ambang minimal (\(\geq 50{,}01\)) sebesar 92\% hingga 99,9\%.
+
+\textit{Analisis ini bersifat \textbf{read-only}; angka pada bagian ini belum diendapkan ke basis data produksi \texttt{obe\_system}. Terdapat empat keterbatasan metodologis yang wajib disertakan pada dokumen akreditasi (lihat Subbagian~\ref{subsec:cpl-keterbatasan}).}
+
+\subsection{Metodologi}
+
+Metode yang digunakan adalah rata-rata tertimbang. Untuk setiap baris nilai $g$ pada suatu mata kuliah $K_g$ dengan $m_g$ CPMK, dan $m_{g,L}$ di antaranya memetakan ke CPL $L$, bobot CPMK ditetapkan $1/m_g$; karena seluruh CPMK pada satu mata kuliah mewarisi skor yang sama, bobot satu nilai terhadap CPL $L$ adalah $m_{g,L}/m_g$. Angkatan $A$ diturunkan dari kode kelas: $A = \text{tahun\_awal\_AY} - (\text{tingkat} - 1)$, dengan tingkat diambil dari digit awal kode kelas (\texttt{section\_code}).
+
+Ketercapaian per angkatan dan per CPL dihitung sebagai:
+\begin{align*}
+\mathrm{avg}(A,L) &= \frac{\sum_{g \in A} s_g \cdot (m_{g,L}/m_g)}{\sum_{g \in A} (m_{g,L}/m_g)} \\
+\%_{\geq \text{ambang}}(A,L) &= \frac{\sum_{g \in A,\, s_g \geq 50{,}01} (m_{g,L}/m_g)}{\sum_{g \in A} (m_{g,L}/m_g)} \times 100
+\end{align*}
+dengan $s_g$ adalah skor (di-\textit{clamp} ke rentang $[0,100]$) dan $g \in A$ mencakup seluruh baris nilai pada angkatan $A$. Nilai pada mata kuliah yang tidak menyentuh CPL $L$ ($m_{g,L}=0$) tidak berpengaruh terhadap CPL tersebut.
+
+Agregat ``Semua Angkatan'' bersifat \textit{pooled} (bukan rata-rata dari rata-rata): $g$ menjangkau seluruh baris nilai lintas angkatan, sehingga angkatan dengan jumlah observasi lebih banyak (misalnya 2021 dengan 6.904 nilai) berbobot lebih besar dalam agregat tersebut dibanding angkatan lain.
+
+\subsection{Hasil per Angkatan}
+
+Tabel berikut menyajikan rata-rata ketercapaian tiap CPL (\%) untuk kelima angkatan aktif; tanda ``--'' menandai CPL yang belum terukur pada angkatan tersebut karena rentang data hanya mencakup sebagian tahap studi angkatan itu, bukan nilai nol.
+
+\begin{center}
+\small
+\begin{tabular}{L{1.3cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}C{1.0cm}}
+\toprule
+Angkatan & CPL01 & CPL02 & CPL03 & CPL04 & CPL05 & CPL06 & CPL07 & CPL08 & CPL09 & CPL10 \\
+\midrule
+2018 & 80,9 & 77,8 & 76,9 & 75,4 & -- & 78,3 & -- & 78,3 & -- & 76,0 \\
+2019 & 74,9 & 74,4 & 75,3 & 77,2 & 71,3 & 75,0 & 71,6 & 75,1 & 70,8 & 73,6 \\
+2020 & 74,0 & 73,1 & 77,8 & 75,9 & 76,4 & 74,7 & 75,7 & 78,8 & 76,7 & 75,6 \\
+2021 & 79,4 & 69,0 & 78,8 & 76,6 & 79,8 & 66,6 & 68,4 & 69,7 & 77,9 & 68,8 \\
+2022 & 75,8 & 77,9 & 79,4 & 81,9 & 77,9 & -- & 74,9 & -- & 79,6 & -- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Angkatan 2018} --- 1.212 nilai; rata-rata lintas-CPL 77,7\%. Baru 7/10 CPL terukur (CPL05, CPL07, CPL09 belum terukur). Capaian tertinggi pada CPL01 (80,9\%) dan CPL08 (78,3\%); terendah CPL04 (75,4\%) dan CPL10 (76,0\%). Seluruh CPL yang terukur berada di atas 70\%.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=10pt, width=0.95\linewidth, height=5.5cm,
+  ylabel={Capaian (\%)},
+  symbolic x coords={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  xtick=data, nodes near coords, nodes near coords align={vertical},
+  ymin=0, ymax=100, enlarge x limits=0.06,
+  x tick label style={font=\scriptsize}, y tick label style={font=\scriptsize},
+  axis lines*=left,
+]
+\addplot coordinates {(CPL01,80.9) (CPL02,77.8) (CPL03,76.9) (CPL04,75.4) (CPL06,78.3) (CPL08,78.3) (CPL10,76.0)};
+\draw[dashed, red] (axis cs:CPL01,50.01) -- (axis cs:CPL10,50.01);
+\end{axis}
+\end{tikzpicture}
+\hspace{0.5cm}
+\begin{tikzpicture}
+\begin{polaraxis}[
+  width=6cm, height=6cm,
+  xtick={0,36,72,108,144,180,216,252,288,324},
+  xticklabels={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  tick label style={font=\scriptsize},
+  ymin=0, ymax=100, ytick={0,25,50,75,100},
+]
+\addplot+[mark=*, thick, mark size=1.5pt] coordinates {(0,80.9) (36,77.8) (72,76.9) (108,75.4) (180,78.3) (252,78.3) (324,76.0) (0,80.9)};
+\addplot[dashed, red, no markers] coordinates {(0,50.01) (36,50.01) (72,50.01) (108,50.01) (144,50.01) (180,50.01) (216,50.01) (252,50.01) (288,50.01) (324,50.01) (0,50.01)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{center}
+
+\textbf{Angkatan 2019} --- 3.342 nilai; rata-rata lintas-CPL 73,9\%. Seluruh 10 CPL terukur. Capaian tertinggi pada CPL04 (77,2\%) dan CPL03 (75,3\%); terendah CPL09 (70,8\%) dan CPL05 (71,3\%). Seluruh CPL berada di atas 70\%.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=10pt, width=0.95\linewidth, height=5.5cm,
+  ylabel={Capaian (\%)},
+  symbolic x coords={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  xtick=data, nodes near coords, nodes near coords align={vertical},
+  ymin=0, ymax=100, enlarge x limits=0.06,
+  x tick label style={font=\scriptsize}, y tick label style={font=\scriptsize},
+  axis lines*=left,
+]
+\addplot coordinates {(CPL01,74.9) (CPL02,74.4) (CPL03,75.3) (CPL04,77.2) (CPL05,71.3) (CPL06,75.0) (CPL07,71.6) (CPL08,75.1) (CPL09,70.8) (CPL10,73.6)};
+\draw[dashed, red] (axis cs:CPL01,50.01) -- (axis cs:CPL10,50.01);
+\end{axis}
+\end{tikzpicture}
+\hspace{0.5cm}
+\begin{tikzpicture}
+\begin{polaraxis}[
+  width=6cm, height=6cm,
+  xtick={0,36,72,108,144,180,216,252,288,324},
+  xticklabels={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  tick label style={font=\scriptsize},
+  ymin=0, ymax=100, ytick={0,25,50,75,100},
+]
+\addplot+[mark=*, thick, mark size=1.5pt] coordinates {(0,74.9) (36,74.4) (72,75.3) (108,77.2) (144,71.3) (180,75.0) (216,71.6) (252,75.1) (288,70.8) (324,73.6) (0,74.9)};
+\addplot[dashed, red, no markers] coordinates {(0,50.01) (36,50.01) (72,50.01) (108,50.01) (144,50.01) (180,50.01) (216,50.01) (252,50.01) (288,50.01) (324,50.01) (0,50.01)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{center}
+
+\textbf{Angkatan 2020} --- 5.492 nilai; rata-rata lintas-CPL 75,9\%. Seluruh 10 CPL terukur. Capaian tertinggi pada CPL08 (78,8\%) dan CPL03 (77,8\%); terendah CPL02 (73,1\%) dan CPL01 (74,0\%). Seluruh CPL berada di atas 70\%.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=10pt, width=0.95\linewidth, height=5.5cm,
+  ylabel={Capaian (\%)},
+  symbolic x coords={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  xtick=data, nodes near coords, nodes near coords align={vertical},
+  ymin=0, ymax=100, enlarge x limits=0.06,
+  x tick label style={font=\scriptsize}, y tick label style={font=\scriptsize},
+  axis lines*=left,
+]
+\addplot coordinates {(CPL01,74.0) (CPL02,73.1) (CPL03,77.8) (CPL04,75.9) (CPL05,76.4) (CPL06,74.7) (CPL07,75.7) (CPL08,78.8) (CPL09,76.7) (CPL10,75.6)};
+\draw[dashed, red] (axis cs:CPL01,50.01) -- (axis cs:CPL10,50.01);
+\end{axis}
+\end{tikzpicture}
+\hspace{0.5cm}
+\begin{tikzpicture}
+\begin{polaraxis}[
+  width=6cm, height=6cm,
+  xtick={0,36,72,108,144,180,216,252,288,324},
+  xticklabels={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  tick label style={font=\scriptsize},
+  ymin=0, ymax=100, ytick={0,25,50,75,100},
+]
+\addplot+[mark=*, thick, mark size=1.5pt] coordinates {(0,74.0) (36,73.1) (72,77.8) (108,75.9) (144,76.4) (180,74.7) (216,75.7) (252,78.8) (288,76.7) (324,75.6) (0,74.0)};
+\addplot[dashed, red, no markers] coordinates {(0,50.01) (36,50.01) (72,50.01) (108,50.01) (144,50.01) (180,50.01) (216,50.01) (252,50.01) (288,50.01) (324,50.01) (0,50.01)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{center}
+
+\textbf{Angkatan 2021} --- 6.904 nilai; rata-rata lintas-CPL 73,5\%. Seluruh 10 CPL terukur. Capaian tertinggi pada CPL05 (79,8\%) dan CPL01 (79,4\%); terendah CPL06 (66,6\%) dan CPL07 (68,4\%). Terdapat 5 CPL di bawah 70\% (CPL02, CPL06, CPL07, CPL08, CPL10) yang memerlukan perhatian.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=10pt, width=0.95\linewidth, height=5.5cm,
+  ylabel={Capaian (\%)},
+  symbolic x coords={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  xtick=data, nodes near coords, nodes near coords align={vertical},
+  ymin=0, ymax=100, enlarge x limits=0.06,
+  x tick label style={font=\scriptsize}, y tick label style={font=\scriptsize},
+  axis lines*=left,
+]
+\addplot coordinates {(CPL01,79.4) (CPL02,69.0) (CPL03,78.8) (CPL04,76.6) (CPL05,79.8) (CPL06,66.6) (CPL07,68.4) (CPL08,69.7) (CPL09,77.9) (CPL10,68.8)};
+\draw[dashed, red] (axis cs:CPL01,50.01) -- (axis cs:CPL10,50.01);
+\end{axis}
+\end{tikzpicture}
+\hspace{0.5cm}
+\begin{tikzpicture}
+\begin{polaraxis}[
+  width=6cm, height=6cm,
+  xtick={0,36,72,108,144,180,216,252,288,324},
+  xticklabels={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  tick label style={font=\scriptsize},
+  ymin=0, ymax=100, ytick={0,25,50,75,100},
+]
+\addplot+[mark=*, thick, mark size=1.5pt] coordinates {(0,79.4) (36,69.0) (72,78.8) (108,76.6) (144,79.8) (180,66.6) (216,68.4) (252,69.7) (288,77.9) (324,68.8) (0,79.4)};
+\addplot[dashed, red, no markers] coordinates {(0,50.01) (36,50.01) (72,50.01) (108,50.01) (144,50.01) (180,50.01) (216,50.01) (252,50.01) (288,50.01) (324,50.01) (0,50.01)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{center}
+
+\textbf{Angkatan 2022} --- 2.032 nilai; rata-rata lintas-CPL 78,2\%. Baru 7/10 CPL terukur (CPL06, CPL08, CPL10 belum terukur). Capaian tertinggi pada CPL04 (81,9\%) dan CPL09 (79,6\%); terendah CPL07 (74,9\%) dan CPL01 (75,8\%). Seluruh CPL yang terukur berada di atas 70\%.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=10pt, width=0.95\linewidth, height=5.5cm,
+  ylabel={Capaian (\%)},
+  symbolic x coords={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  xtick=data, nodes near coords, nodes near coords align={vertical},
+  ymin=0, ymax=100, enlarge x limits=0.06,
+  x tick label style={font=\scriptsize}, y tick label style={font=\scriptsize},
+  axis lines*=left,
+]
+\addplot coordinates {(CPL01,75.8) (CPL02,77.9) (CPL03,79.4) (CPL04,81.9) (CPL05,77.9) (CPL07,74.9) (CPL09,79.6)};
+\draw[dashed, red] (axis cs:CPL01,50.01) -- (axis cs:CPL10,50.01);
+\end{axis}
+\end{tikzpicture}
+\hspace{0.5cm}
+\begin{tikzpicture}
+\begin{polaraxis}[
+  width=6cm, height=6cm,
+  xtick={0,36,72,108,144,180,216,252,288,324},
+  xticklabels={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  tick label style={font=\scriptsize},
+  ymin=0, ymax=100, ytick={0,25,50,75,100},
+]
+\addplot+[mark=*, thick, mark size=1.5pt] coordinates {(0,75.8) (36,77.9) (72,79.4) (108,81.9) (144,77.9) (216,74.9) (288,79.6) (0,75.8)};
+\addplot[dashed, red, no markers] coordinates {(0,50.01) (36,50.01) (72,50.01) (108,50.01) (144,50.01) (180,50.01) (216,50.01) (252,50.01) (288,50.01) (324,50.01) (0,50.01)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{center}
+
+\subsection{Agregat Semua Angkatan (Pooled)}
+
+Agregat berikut bersifat \textit{pooled} atas seluruh 18.982 nilai lintas angkatan (lihat Metodologi); angkatan dengan observasi terbanyak (2021, 6.904 nilai) berpengaruh paling besar terhadap agregat ini.
+
+\begin{center}
+\begin{tabular}{L{2cm}C{2.6cm}C{2.6cm}C{2.4cm}}
+\toprule
+CPL & Rata-rata (\%) & \% $\geq$ 50,01 & $n$ observasi \\
+\midrule
+CPL01 & 77,8 & 99,9 & 2.848 \\
+CPL02 & 71,7 & 92,6 & 9.706 \\
+CPL03 & 77,3 & 99,8 & 11.886 \\
+CPL04 & 77,8 & 98,5 & 1.359 \\
+CPL05 & 75,4 & 98,7 & 6.133 \\
+CPL06 & 72,4 & 92,8 & 11.274 \\
+CPL07 & 71,8 & 94,0 & 6.346 \\
+CPL08 & 76,4 & 97,7 & 6.520 \\
+CPL09 & 77,8 & 99,3 & 5.414 \\
+CPL10 & 73,1 & 94,3 & 5.813 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  ybar, bar width=10pt, width=0.95\linewidth, height=5.5cm,
+  ylabel={Capaian (\%)},
+  symbolic x coords={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  xtick=data, nodes near coords, nodes near coords align={vertical},
+  ymin=0, ymax=100, enlarge x limits=0.06,
+  x tick label style={font=\scriptsize}, y tick label style={font=\scriptsize},
+  axis lines*=left,
+]
+\addplot coordinates {(CPL01,77.8) (CPL02,71.7) (CPL03,77.3) (CPL04,77.8) (CPL05,75.4) (CPL06,72.4) (CPL07,71.8) (CPL08,76.4) (CPL09,77.8) (CPL10,73.1)};
+\draw[dashed, red] (axis cs:CPL01,50.01) -- (axis cs:CPL10,50.01);
+\end{axis}
+\end{tikzpicture}
+\hspace{0.5cm}
+\begin{tikzpicture}
+\begin{polaraxis}[
+  width=6cm, height=6cm,
+  xtick={0,36,72,108,144,180,216,252,288,324},
+  xticklabels={CPL01,CPL02,CPL03,CPL04,CPL05,CPL06,CPL07,CPL08,CPL09,CPL10},
+  tick label style={font=\scriptsize},
+  ymin=0, ymax=100, ytick={0,25,50,75,100},
+]
+\addplot+[mark=*, thick, mark size=1.5pt] coordinates {(0,77.8) (36,71.7) (72,77.3) (108,77.8) (144,75.4) (180,72.4) (216,71.8) (252,76.4) (288,77.8) (324,73.1) (0,77.8)};
+\addplot[dashed, red, no markers] coordinates {(0,50.01) (36,50.01) (72,50.01) (108,50.01) (144,50.01) (180,50.01) (216,50.01) (252,50.01) (288,50.01) (324,50.01) (0,50.01)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{center}
+
+Rata-rata lintas-CPL pada agregat satu prodi adalah 75,1\%, dengan seluruh 10 CPL berada di atas 70\%. Capaian tertinggi pada CPL09 dan CPL04 (masing-masing 77,8\%); terendah pada CPL02 (71,7\%) dan CPL07 (71,8\%). CPL02, CPL06, CPL07, dan CPL10 konsisten berada pada capaian paling rendah di seluruh angkatan sehingga menjadi prioritas perbaikan berkelanjutan (\textit{Continuous Quality Improvement}, CQI) IABEE.
+
+\subsection{Interpretasi dan Keterbatasan}
+\label{subsec:cpl-keterbatasan}
+
+Rata-rata capaian CPL berkisar antara 67\% dan 82\%; tingkat pencapaian ambang 50,01 sangat tinggi (92--99,9\%) karena ambang tersebut relatif rendah. CPL02, CPL06, CPL07, dan CPL10 relatif paling rendah secara konsisten dan menjadi kandidat utama fokus perbaikan berkelanjutan (CQI) IABEE.
+
+Empat keterbatasan metodologis berikut wajib disertakan pada dokumen akreditasi:
+\begin{enumerate}
+\item Capaian bersifat agregat kohort anonim, bukan per-mahasiswa, sebagai akibat dari identitas data yang tercatat per-\textit{enrollment} (bukan per-NIM) pada basis data sumber.
+\item Angkatan bersifat turunan (asumsi: digit awal kode kelas menunjukkan tingkat), dan belum divalidasi terhadap Nomor Induk Mahasiswa (NIM).
+\item Pembobotan CPMK dilakukan dengan bagi rata, belum berbasis bobot RPS atau komponen asesmen yang sesungguhnya.
+\item Nilai yang digunakan adalah satu skor akhir per mata kuliah (bukan per komponen penilaian); relasi mata kuliah dengan CPL mengikuti pemetaan Kurikulum 2025 pada \texttt{obe\_system}.
+\end{enumerate}
+
+Seluruh angka pada bagian ini bersifat \textit{read-only} dan belum diendapkan ke basis data produksi \texttt{obe\_system}. Analisis disusun dengan \textit{pipeline} \texttt{analyze\_cpp} (skrip introspeksi data, pemetaan mata kuliah, dan perhitungan capaian CPL), berbasis kerangka \textit{Outcome-Based Education} dan standar IABEE.
