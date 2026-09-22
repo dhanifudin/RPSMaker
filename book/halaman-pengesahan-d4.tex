@@ -1,0 +1,22 @@
+% Standalone Halaman Pengesahan (D4 Teknik Informatika naming) — kept ready to
+% swap in place of book/src/frontmatter/approval.tex if the older D4 naming
+% is needed for a specific administrative purpose, without changing the
+% naming used throughout the main buku-kurikulum.tex build.
+% Compile with xelatex from the book/ directory.
+\input{src/preamble}
+\input{src/macros}
+\input{src/metadata}
+
+% Footer must reflect this document's D4 naming, not the book-wide
+% "Sarjana Terapan Teknik Informatika" footer set in src/preamble.tex.
+\fancyfoot[R]{\textcolor{polinemagrey}{\officefont\itshape\fontsize{9pt}{9pt}\selectfont D4 Teknik Informatika\ \textbar\ POLINEMA\ \ \thepage}}
+\fancypagestyle{plain}{%
+  \fancyfoot[R]{\textcolor{polinemagrey}{\officefont\itshape\fontsize{9pt}{9pt}\selectfont D4 Teknik Informatika\ \textbar\ POLINEMA\ \ \thepage}}
+}
+
+\begin{document}
+
+\pagenumbering{arabic}
+\input{src/frontmatter/approval-d4}
+
+\end{document}
