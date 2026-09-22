@@ -21,7 +21,7 @@ yang sebelumnya menunggu validasi institusional:
 
 ## Ringkasan penyelesaian per bab
 
-- **`book/main.tex`** — Daftar Pustaka lengkap 9 referensi (3 Permendikbud 2013/2014/2020 ditranskripsi dari PDF 2020 halaman 1101 pada pass pagi; Permendiktisaintek No. 39/2025 ditambahkan pada pass ini menyusul riset landasan yuridis).
+- **`book/buku-kurikulum.tex`** — Daftar Pustaka lengkap 9 referensi (3 Permendikbud 2013/2014/2020 ditranskripsi dari PDF 2020 halaman 1101 pada pass pagi; Permendiktisaintek No. 39/2025 ditambahkan pada pass ini menyusul riset landasan yuridis).
 - **`01-identitas.tex`** — Nilai Akreditasi "Unggul" / SK 127/SK/LAM-INFOKOM/Ak/STr/VIII/2023 (berlaku s.d. 2028), diverifikasi via halaman akreditasi resmi Polinema; catatan audit-trail dihapus, datanya cukup berdiri sendiri di tabel identitas.
 - **`02-evaluasi.tex`** — catatan historis kompetensi lulusan (survei 2020, 199 partisipan) diubah dari kotak highlight menjadi paragraf pembuka biasa; substansi caveat (bukan data final, perlu instrumen survei kompetensi baru) dipertahankan karena ini genuinely belum ada datanya, bukan sekadar butuh riset dokumen.
 - **`03-landasan.tex`** — item 9 baru di Landasan Yuridis: Permendiktisaintek No. 39/2025 tentang Penjaminan Mutu Pendidikan Tinggi (pengganti aktif Permendikbud No. 3/2020, via Permendikbudristek No. 53/2023); paragraf penutup menjelaskan rantai regulasi tsb menggantikan kotak review.

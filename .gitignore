@@ -1,10 +1,10 @@
 RPS/
 pedoman-lab/
 .cache/
-main.pdf
-main.xdv
-book/main.pdf
-book/main.xdv
+buku-kurikulum.pdf
+buku-kurikulum.xdv
+book/buku-kurikulum.pdf
+book/buku-kurikulum.xdv
 *.aux
 *.log
 *.out

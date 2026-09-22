@@ -9,7 +9,7 @@ Repositori ini memuat sumber RPS per mata kuliah dan buku kurikulum LaTeX untuk 
 - `data/`: ekspor JSON per mata kuliah (`rps_<kode>_<slug>.json`), dibangkitkan dari `scripts/export_rps_json.py`.
 - `docs/`: ringkasan sumber kurikulum 2025, termasuk distribusi MK serta CPL/CPMK.
 - `book/`: sumber buku kurikulum LaTeX yang diadopsi dari proyek accreditation.
-- `book/main.tex`: berkas utama buku kurikulum.
+- `book/buku-kurikulum.tex`: berkas utama buku kurikulum.
 
 ## Build
 
@@ -31,7 +31,7 @@ Bangun hanya buku kurikulum dari RPS yang sudah ada:
 make book
 ```
 
-Hasil buku kurikulum dibuat sebagai `book/main.pdf`.
+Hasil buku kurikulum dibuat sebagai `book/buku-kurikulum.pdf`.
 
 ## Ekspor JSON
 

@@ -4,7 +4,7 @@
 PDF (`docs/Dokumen Kurikulum D4 TI 2020 OBE - compressed.pdf`, 1101 pages) was split by
 chapter/lampiran and the 2025 book's narrative sources (`book/src/chapters/*.tex`,
 `book/src/appendices/{01-pedoman-akademik,02-rps/index,03-penilaian/index}.tex`,
-`book/main.tex`) were extracted into one knowledge graph (456 nodes, 632 edges, 19
+`book/buku-kurikulum.tex`) were extracted into one knowledge graph (456 nodes, 632 edges, 19
 communities). Every gap below was confirmed by a `graphify query` traversal, not
 just inferred from headings — see the query evidence cited per row. Raw outputs:
 `graphify-out/GRAPH_REPORT.md`, `graphify-out/graph.json`.
@@ -130,7 +130,7 @@ Fully populated (59 `\RPSInput` calls). No gap — out of scope for this analysi
 | Per-course assessment plan (rubric structure: Bentuk/Metode Penilaian, Indikator/Kriteria/Bobot, Jadwal Pelaksanaan) | ✅ **Resolved 2026-07-08** | Query `"rencana penilaian rubrik indikator kriteria bobot"` confirmed the 2020 PDF has this fully fleshed out per course (e.g. `Pengujian Perangkat Lunak`, `Proyek 1`, `Kecerdasan Buatan`, each with 17-week rubric detail). At the time of this analysis, the 2025 book's Lampiran 3 was a 3-sentence redirect saying this content lived only inside the RPS (Lampiran 2). Following a subsequent restructuring request, each course's RPS+Rubric content was split into separate `- RPS.tex`/`- Rubrik.tex`/`- Tanda Tangan.tex` files (see `docs/book-todo-checklist.md`); Lampiran 3 now `\RubrikInput`s the real rubric content (RTM header + `\assessmentblock` tables) for all 59 courses in portrait, no longer a redirect stub. The standalone `make rps` build still combines RPS+Rubric+signature per course in landscape, unchanged from before. |
 
 ### Daftar Pustaka
-**Book:** inline in `book/main.tex` · **2020 source:** ❓ not confirmed in this pass
+**Book:** inline in `book/buku-kurikulum.tex` · **2020 source:** ❓ not confirmed in this pass
 
 | Item | Status | Evidence |
 |---|---|---|

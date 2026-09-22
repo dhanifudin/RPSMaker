@@ -5,7 +5,7 @@ LATEXFLAGS ?= -interaction=nonstopmode -halt-on-error
 LATEXMK ?= latexmk
 LATEXMK_ENGINE ?= -xelatex
 BOOK_DIR := book
-MAIN := $(BOOK_DIR)/main.tex
+MAIN := $(BOOK_DIR)/buku-kurikulum.tex
 CACHE_DIR := .cache
 PEDOMAN_DIR := docs/pedoman-laboratorium
 PEDOMAN_OUT := pedoman-lab
