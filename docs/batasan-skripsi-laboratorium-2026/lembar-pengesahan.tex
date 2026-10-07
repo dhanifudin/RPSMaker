@@ -13,29 +13,30 @@
 \usepackage{array}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
-\graphicspath{{../../book/src/images/}{../juknis-rps/signatures/}}
+\graphicspath{{../../book/src/images/}{../juknis-rps/signatures/}{../../assets/}}
 
 % ----- No decorative page-rule chrome; the kop surat below is the header ---
 \ClearShipoutPictureBG{}
 
 \setlength{\parindent}{0.75cm}
 
-% ----- Kop surat (official letterhead), verbatim from juknis-pembaruan-rps.tex ---
+% ----- Kop surat (official letterhead), matching the genuine signed letter -----
+% docs/809. Undangan ... (6 Oktober 2026) rev.pdf: B/W logo, regular-weight text
+% (only the JURUSAN line is bold), no Email line, no blue link color.
 \newcommand{\KopSurat}{%
   \noindent
   \begin{minipage}[t]{0.15\textwidth}
-    \vspace{2pt}\centering\includegraphics[height=1.7cm,keepaspectratio]{logo-right.png}
+    \vspace{2pt}\centering\includegraphics[height=1.7cm,keepaspectratio]{logo-polinema-transparent.png}
   \end{minipage}%
   \begin{minipage}[t]{0.85\textwidth}
     \setlength{\parskip}{0pt}\centering
-    {\bfseries\fontsize{13pt}{15pt}\selectfont KEMENTERIAN PENDIDIKAN TINGGI, SAINS,\\
+    {\fontsize{13pt}{15pt}\selectfont KEMENTERIAN PENDIDIKAN TINGGI, SAINS,\\
       DAN TEKNOLOGI\\[1pt]}
-    {\bfseries\fontsize{13pt}{15pt}\selectfont POLITEKNIK NEGERI MALANG\\[1pt]}
+    {\fontsize{13pt}{15pt}\selectfont POLITEKNIK NEGERI MALANG\\[1pt]}
     {\bfseries\fontsize{12pt}{14pt}\selectfont JURUSAN TEKNOLOGI INFORMASI\\[1pt]}
-    {\bfseries\fontsize{9pt}{11pt}\selectfont Jl. Soekarno Hatta No.9 Malang 65141\\[1pt]}
-    {\bfseries\fontsize{9pt}{11pt}\selectfont Telp (0341) 404424 -- 404425 Fax (0341) 404420\\[1pt]}
-    {\bfseries\fontsize{9pt}{11pt}\selectfont
-      Laman:/\underline{\textcolor{polinemablue}{www.polinema.ac.id}}\ Email:cs@polinema.ac.id}
+    {\fontsize{9pt}{11pt}\selectfont Jalan Soekarno Hatta Nomor 9 Jatimulyo, Lowokwaru, Malang 65141\\[1pt]}
+    {\fontsize{9pt}{11pt}\selectfont Telepon (0341) 404424, 404425, Faksimile (0341) 404420\\[1pt]}
+    {\fontsize{9pt}{11pt}\selectfont Laman www.polinema.ac.id}
   \end{minipage}%
 }
 
@@ -59,7 +60,7 @@
 
 \vspace{0.6cm}
 
-Dengan ditandatanganinya lembar ini, Ketua Jurusan Teknologi Informasi menyatakan bahwa Batasan Skripsi Laboratorium Tahun 2026 pada dokumen ini telah ditinjau dan disetujui untuk diberlakukan sebagai acuan resmi penentuan ruang lingkup skripsi pada seluruh laboratorium di Jurusan Teknologi Informasi, Politeknik Negeri Malang.
+Yang bertanda tangan di bawah ini, Ketua Jurusan Teknologi Informasi Politeknik Negeri Malang, dengan ini menyatakan bahwa dokumen Batasan Skripsi Laboratorium Tahun 2026 telah ditinjau dan disahkan untuk diberlakukan sebagai acuan resmi penentuan ruang lingkup skripsi pada seluruh laboratorium di lingkungan Jurusan Teknologi Informasi, Politeknik Negeri Malang.
 
 \vspace{0.8cm}
 
@@ -71,6 +72,10 @@ Jurusan & : & Teknologi Informasi \\
 Tahun & : & 2026 \\
 \end{tabular}
 \end{center}
+
+\vspace{0.8cm}
+
+\noindent Demikian lembar pengesahan ini dibuat untuk dipergunakan sebagaimana mestinya.
 
 \vspace{1.5cm}
 
