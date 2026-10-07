@@ -1,0 +1,85 @@
+% Lembar Pengesahan untuk Batasan Skripsi Laboratorium - JTI Polinema 2026
+% Standalone single unnumbered page, merged into the existing PDF via
+% qpdf --pages (no editable LaTeX source exists for that PDF).
+% Header/kop-surat adopted verbatim from docs/juknis-rps/juknis-pembaruan-rps.tex,
+% sharing the same ../pedoman-laboratorium/preamble infrastructure for true
+% byte-for-byte consistency rather than a hand-copied approximation.
+% Compile with xelatex from this directory.
+\documentclass[12pt,a4paper]{report}
+
+\newcommand{\LabName}{Batasan Skripsi}
+
+\input{../pedoman-laboratorium/preamble}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\graphicspath{{../../book/src/images/}{../juknis-rps/signatures/}}
+
+% ----- No decorative page-rule chrome; the kop surat below is the header ---
+\ClearShipoutPictureBG{}
+
+\setlength{\parindent}{0.75cm}
+
+% ----- Kop surat (official letterhead), verbatim from juknis-pembaruan-rps.tex ---
+\newcommand{\KopSurat}{%
+  \noindent
+  \begin{minipage}[t]{0.15\textwidth}
+    \vspace{2pt}\centering\includegraphics[height=1.7cm,keepaspectratio]{logo-right.png}
+  \end{minipage}%
+  \begin{minipage}[t]{0.85\textwidth}
+    \setlength{\parskip}{0pt}\centering
+    {\bfseries\fontsize{13pt}{15pt}\selectfont KEMENTERIAN PENDIDIKAN TINGGI, SAINS,\\
+      DAN TEKNOLOGI\\[1pt]}
+    {\bfseries\fontsize{13pt}{15pt}\selectfont POLITEKNIK NEGERI MALANG\\[1pt]}
+    {\bfseries\fontsize{12pt}{14pt}\selectfont JURUSAN TEKNOLOGI INFORMASI\\[1pt]}
+    {\bfseries\fontsize{9pt}{11pt}\selectfont Jl. Soekarno Hatta No.9 Malang 65141\\[1pt]}
+    {\bfseries\fontsize{9pt}{11pt}\selectfont Telp (0341) 404424 -- 404425 Fax (0341) 404420\\[1pt]}
+    {\bfseries\fontsize{9pt}{11pt}\selectfont
+      Laman:/\underline{\textcolor{polinemablue}{www.polinema.ac.id}}\ Email:cs@polinema.ac.id}
+  \end{minipage}%
+}
+
+\geometry{headheight=110pt, headsep=8pt, top=4.6cm}
+\fancyhf{}
+\fancyhead[C]{\KopSurat}
+\renewcommand{\headrulewidth}{1.2pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[C]{\KopSurat}
+  \renewcommand{\headrulewidth}{1.2pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\begin{document}
+
+\begin{center}
+{\titlefont\bfseries\fontsize{16pt}{19pt}\selectfont LEMBAR PENGESAHAN\par}
+\end{center}
+
+\vspace{0.6cm}
+
+Dengan ditandatanganinya lembar ini, Ketua Jurusan Teknologi Informasi menyatakan bahwa Batasan Skripsi Laboratorium Tahun 2026 pada dokumen ini telah ditinjau dan disetujui untuk diberlakukan sebagai acuan resmi penentuan ruang lingkup skripsi pada seluruh laboratorium di Jurusan Teknologi Informasi, Politeknik Negeri Malang.
+
+\vspace{0.8cm}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{L{4.3cm}L{0.5cm}L{8.6cm}}
+Nama Dokumen & : & Batasan Skripsi Laboratorium \\
+Jurusan & : & Teknologi Informasi \\
+Tahun & : & 2026 \\
+\end{tabular}
+\end{center}
+
+\vspace{1.5cm}
+
+\noindent\begin{minipage}{\textwidth}
+\flushright
+Malang, 15 September 2025
+
+\vspace{0.2cm}
+\includegraphics[height=3.2cm,keepaspectratio]{sign-stamp-mungki-astiningrum.png}
+\end{minipage}
+
+\end{document}
